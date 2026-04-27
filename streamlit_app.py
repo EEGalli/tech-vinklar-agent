@@ -214,6 +214,8 @@ if trigger:
                 timeout=10,
             )
             if r.status_code == 204:
+                # Spara klick-tidpunkten i UTC ISO-format för att jämföra med run.created_at
+                st.session_state["dispatch_at"] = datetime.utcnow().isoformat()
                 st.sidebar.success("✓ Körning startad!")
             else:
                 st.sidebar.error(f"Fel ({r.status_code}): {r.text[:200]}")
@@ -222,22 +224,40 @@ if trigger:
 
 # Visa status av senaste körningen (uppdateras vid omladdning eller ↻-klick)
 pat = _get_pat()
+dispatch_at = st.session_state.get("dispatch_at", "")  # ISO-tidpunkt eller ""
 if pat:
     run = _latest_run_status(pat)
     if run:
         status = run.get("status", "")          # queued / in_progress / completed
         conclusion = run.get("conclusion", "")  # success / failure / cancelled / null
-        started = run.get("created_at", "")[:16].replace("T", " ")
+        run_created = run.get("created_at", "")  # full ISO med Z
+        started_label = run_created[:16].replace("T", " ")
         run_url = run.get("html_url", "")
 
-        if status == "completed" and conclusion == "success":
-            st.sidebar.success(f"✓ Senaste körning klar ({started})\n\nLadda om sidan för att se rapporten.")
+        # Om vi nyligen klickat: kolla om nuvarande körning är NYARE än vårt klick
+        is_new_run = bool(dispatch_at and run_created and run_created >= dispatch_at)
+        waiting_for_new = bool(dispatch_at and not is_new_run)
+
+        if waiting_for_new:
+            st.sidebar.info(
+                "⏳ Körning startas… GitHub registrerar den om ~10 sek.\n\n"
+                "Tryck ↻ om en stund för uppdaterad status."
+            )
+        elif status == "completed" and conclusion == "success":
+            st.sidebar.success(
+                f"✓ Senaste körning klar ({started_label})\n\n"
+                "Ladda om sidan för att se rapporten."
+            )
         elif status == "completed":
-            st.sidebar.error(f"✗ Senaste körning misslyckades: {conclusion}\n\n[Se loggar]({run_url})")
+            st.sidebar.error(
+                f"✗ Senaste körning misslyckades: {conclusion}\n\n[Se loggar]({run_url})"
+            )
         elif status in ("queued", "in_progress", "waiting", "requested"):
-            st.sidebar.info(f"⏳ Körning pågår ({status})\n\nStartad {started}. Tryck ↻ för uppdatering.")
+            st.sidebar.info(
+                f"⏳ Körning pågår ({status})\n\nStartad {started_label}. Tryck ↻ för uppdatering."
+            )
         else:
-            st.sidebar.caption(f"Senaste: {status} ({started})")
+            st.sidebar.caption(f"Senaste: {status} ({started_label})")
 
 # ── Sökruta ───────────────────────────────────────────────
 st.sidebar.markdown("---")
