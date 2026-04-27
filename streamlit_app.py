@@ -164,13 +164,42 @@ st.sidebar.markdown(
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### Kör ny analys")
-if st.sidebar.button("🔄 Starta körning i molnet", use_container_width=True):
-    pat = st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
-    if not pat:
-        st.sidebar.error(
-            "GITHUB_PAT saknas i Streamlit secrets. "
-            "Lägg till en Personal Access Token med `workflow`-scope."
+
+
+def _get_pat() -> str:
+    return st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
+
+
+def _latest_run_status(pat: str) -> dict | None:
+    """Hämtar status på den senaste workflow-körningen."""
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{WORKFLOW_FILE}/runs?per_page=1"
+    try:
+        r = requests.get(
+            url,
+            headers={
+                "Authorization": f"Bearer {pat}",
+                "Accept": "application/vnd.github+json",
+            },
+            timeout=8,
         )
+        if r.status_code != 200:
+            return None
+        runs = r.json().get("workflow_runs", [])
+        return runs[0] if runs else None
+    except Exception:
+        return None
+
+
+col1, col2 = st.sidebar.columns([3, 1])
+with col1:
+    trigger = st.button("🔄 Starta körning", use_container_width=True)
+with col2:
+    refresh = st.button("↻", help="Uppdatera status", use_container_width=True)
+
+if trigger:
+    pat = _get_pat()
+    if not pat:
+        st.sidebar.error("GITHUB_PAT saknas i Streamlit secrets.")
     else:
         url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{WORKFLOW_FILE}/dispatches"
         try:
@@ -185,14 +214,30 @@ if st.sidebar.button("🔄 Starta körning i molnet", use_container_width=True):
                 timeout=10,
             )
             if r.status_code == 204:
-                st.sidebar.success(
-                    "✓ Körning startad! Tar ~2–5 min. "
-                    f"Följ status: https://github.com/{GITHUB_REPO}/actions"
-                )
+                st.sidebar.success("✓ Körning startad!")
             else:
                 st.sidebar.error(f"Fel ({r.status_code}): {r.text[:200]}")
         except Exception as e:
             st.sidebar.error(f"Anslutningsfel: {e}")
+
+# Visa status av senaste körningen (uppdateras vid omladdning eller ↻-klick)
+pat = _get_pat()
+if pat:
+    run = _latest_run_status(pat)
+    if run:
+        status = run.get("status", "")          # queued / in_progress / completed
+        conclusion = run.get("conclusion", "")  # success / failure / cancelled / null
+        started = run.get("created_at", "")[:16].replace("T", " ")
+        run_url = run.get("html_url", "")
+
+        if status == "completed" and conclusion == "success":
+            st.sidebar.success(f"✓ Senaste körning klar ({started})\n\nLadda om sidan för att se rapporten.")
+        elif status == "completed":
+            st.sidebar.error(f"✗ Senaste körning misslyckades: {conclusion}\n\n[Se loggar]({run_url})")
+        elif status in ("queued", "in_progress", "waiting", "requested"):
+            st.sidebar.info(f"⏳ Körning pågår ({status})\n\nStartad {started}. Tryck ↻ för uppdatering.")
+        else:
+            st.sidebar.caption(f"Senaste: {status} ({started})")
 
 # ── Sökruta ───────────────────────────────────────────────
 st.sidebar.markdown("---")
