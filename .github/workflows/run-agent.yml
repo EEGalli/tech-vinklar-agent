@@ -1,0 +1,40 @@
+name: Run Tech Vinklar Agent
+
+on:
+  workflow_dispatch:    # Manuell körning från Streamlit-knappen eller GitHub UI
+  schedule:
+    - cron: "0 7 * * *"  # Varje dag 09:00 svensk tid (07:00 UTC)
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Behövs för att kunna pusha tillbaka rapporter
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 main.py
+
+      - name: Commit and push reports
+        run: |
+          git config user.name "Tech Vinklar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/ .agent_memory.json .agent_arenden.json .agent_dates.json .agent_analysis_cache.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Inga ändringar att committa"
+          else
+            git commit -m "Auto: körning $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

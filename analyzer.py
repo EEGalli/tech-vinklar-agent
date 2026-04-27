@@ -1,15 +1,65 @@
 """
-Analyserar insamlade politiska ärenden med en lokal Ollama-modell
-för att identifiera tech-vinklar.
+Analyserar insamlade politiska ärenden med AI för att identifiera tech-vinklar.
 
-Ollama REST API: http://localhost:11434
+Stödjer två backends:
+- Google Gemini API (cloud, snabb) — används om GEMINI_API_KEY finns i miljö
+- Ollama (lokalt) — fallback när ingen API-nyckel finns
+
+Nyckeln kan komma från:
+- Miljövariabel GEMINI_API_KEY
+- Streamlit secrets (st.secrets["GEMINI_API_KEY"])
+- Filen .env i projektroten
 """
 import json
+import os
 import re
 import requests
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-DEFAULT_MODEL = "gemma3:12b"  # Bäst för textanalys; fallback: qwen3:8b
+DEFAULT_MODEL = "gemma3:12b"  # Använd för Ollama; för Gemini sätts namnet i _call_gemini
+
+GEMINI_MODEL = "gemini-1.5-flash"  # Snabb, gratis tier 1500/dag
+
+
+def _load_env_file() -> None:
+    """Enkel .env-läsare — laddar GEMINI_API_KEY etc. om filen finns."""
+    env_path = os.path.join(os.path.dirname(__file__), ".env")
+    if not os.path.exists(env_path):
+        return
+    try:
+        with open(env_path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if "=" in line:
+                    key, _, value = line.partition("=")
+                    key = key.strip()
+                    value = value.strip().strip('"').strip("'")
+                    if key and value and key not in os.environ:
+                        os.environ[key] = value
+    except Exception:
+        pass
+
+
+_load_env_file()
+
+
+def _get_gemini_key() -> str:
+    """Hämtar Gemini API-nyckel från miljö eller Streamlit secrets."""
+    key = os.environ.get("GEMINI_API_KEY", "")
+    if key and key != "KLISTRA_IN_DIN_NYCKEL_HÄR":
+        return key
+    # Fallback: Streamlit secrets (om appen körs i Streamlit-context)
+    try:
+        import streamlit as st
+        return st.secrets.get("GEMINI_API_KEY", "")
+    except Exception:
+        return ""
+
+
+def _use_gemini() -> bool:
+    return bool(_get_gemini_key())
 
 
 # Mappning från förkortning → svensk förklaring.
@@ -215,6 +265,31 @@ def _call_ollama(prompt: str, model: str = DEFAULT_MODEL) -> str:
     return resp.json().get("response", "")
 
 
+def _call_gemini(prompt: str) -> str:
+    """Skickar en förfrågan till Google Gemini API och returnerar svaret.
+    Kräver att google-generativeai är installerat och GEMINI_API_KEY satt."""
+    import google.generativeai as genai
+    genai.configure(api_key=_get_gemini_key())
+    model = genai.GenerativeModel(
+        GEMINI_MODEL,
+        system_instruction=SYSTEM_PROMPT,
+        generation_config={
+            "temperature": 0.3,
+            "max_output_tokens": 1500,
+            "response_mime_type": "application/json",
+        },
+    )
+    resp = model.generate_content(prompt)
+    return resp.text or ""
+
+
+def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
+    """Routar till Gemini eller Ollama beroende på om API-nyckel finns."""
+    if _use_gemini():
+        return _call_gemini(prompt)
+    return _call_ollama(prompt, model=model)
+
+
 def analyze_item(item: dict, model: str = DEFAULT_MODEL, known_arenden: list[str] = None, _retry: int = 0) -> dict:
     """Analyserar ett enskilt ärende och lägger till tech-vinkel + ärende-identifiering.
     Automatisk retry (max 1 gång) vid timeout — väntar 10s innan nytt försök."""
@@ -269,7 +344,7 @@ Svara EXAKT i detta JSON-format, inget annat:
 }}"""
 
     try:
-        response_text = _call_ollama(prompt, model=model).strip()
+        response_text = _call_ai(prompt, model=model).strip()
 
         # Extrahera JSON om modellen skrivit extra text runt det
         start = response_text.find("{")

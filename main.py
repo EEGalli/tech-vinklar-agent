@@ -111,16 +111,21 @@ def main():
     # --- Claude-analys ---
     if not args.no_ai:
         # Kontrollera att Ollama svarar
-        try:
-            r = requests.get("http://localhost:11434/api/tags", timeout=5)
-            r.raise_for_status()
-        except Exception:
-            print("\nVARNING: Ollama svarar inte på http://localhost:11434.")
-            print("Starta Ollama och försök igen, eller kör med --no-ai.")
-            args.no_ai = True
+        # Hoppa över Ollama-pingen om Gemini API-nyckel finns (då kör vi mot Gemini)
+        from analyzer import _use_gemini as _check_gemini
+        if not _check_gemini():
+            try:
+                r = requests.get("http://localhost:11434/api/tags", timeout=5)
+                r.raise_for_status()
+            except Exception:
+                print("\nVARNING: Ollama svarar inte på http://localhost:11434.")
+                print("Starta Ollama och försök igen, eller kör med --no-ai.")
+                args.no_ai = True
 
     if not args.no_ai:
-        print(f"\nAnalyserar med Ollama ({args.model}) — min relevans: {args.min_relevance}...")
+        from analyzer import _use_gemini, GEMINI_MODEL
+        backend = f"Gemini ({GEMINI_MODEL})" if _use_gemini() else f"Ollama ({args.model})"
+        print(f"\nAnalyserar med {backend} — min relevans: {args.min_relevance}...")
         analyzed = analyze_batch(all_items, min_relevance=args.min_relevance, model=args.model)
         print(f"  {len(analyzed)} ärenden passerade relevansfiltret")
 

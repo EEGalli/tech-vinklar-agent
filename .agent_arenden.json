@@ -1,0 +1,542 @@
+{
+  "Elfordonsstrategi": {
+    "name": "Elfordonsstrategi",
+    "first_seen": "2026-04-13",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
+    "documents": [
+      {
+        "title": "med anledning av prop. 2025/26:196 Tid för undervisningsuppdraget",
+        "date": "2026-04-01",
+        "url": "https://data.riksdagen.se/dokument/HD024033.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Motionen handlar om finansiering av regleringar kring lärarnas arbetsuppgifter, vilket indirekt kan påverka användningen av digitala verktyg och AI-stöd i skolan."
+      },
+      {
+        "title": "Extra ändringsbudget för 2026 – Sänkt skatt på drivmedel samt el- och gasprisstöd",
+        "date": "2026-04-13",
+        "url": "https://data.riksdagen.se/dokument/HD03236.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen handlar om sänkta drivmedelsskatter och el- och gasprisstöd, vilket indirekt påverkar utvecklingen och användningen av elfordon och laddinfrastruktur."
+      },
+      {
+        "title": "Permanent skattefrihet för förmån av laddel på arbetsplatsen och utvidgad rätt till avdrag för drivmedelsutgifter",
+        "date": "2026-04-16",
+        "url": "https://data.riksdagen.se/dokument/HD01SkU23.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Förslaget underlättar användningen av elfordon genom att eliminera skattekonsekvenser för laddning på arbetsplatsen, vilket är en direkt teknisk lösning för att stödja en växande marknad för uppladdningsinfrastruktur för elbilar."
+      },
+      {
+        "title": "Latest news - Committee on Transport and Tourism",
+        "date": "Wed, 15 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Utskottet för transport och turism behandlar frågor som rör uppkopplade fordon och potentiellt även järnväg och kollektivtrafik, vilket kan innebära diskussioner kring digital infrastruktur och automatiserade system."
+      }
+    ],
+    "is_new_today": false,
+    "is_updated_today": true
+  },
+  "Ekonomisk vårproposition": {
+    "name": "Ekonomisk vårproposition",
+    "first_seen": "2026-04-13",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga ändringsförslag innan den godkänns.",
+    "documents": [
+      {
+        "title": "2026 års ekonomiska vårproposition",
+        "date": "2026-04-13",
+        "url": "https://data.riksdagen.se/dokument/HD03100.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Vårpropositionen kan innehålla budgetposter och prioriteringar som påverkar statliga satsningar på AI-forskning, digital infrastruktur och reglering av tech-sektorn."
+      },
+      {
+        "title": "Vårändringsbudget för 2026",
+        "date": "2026-04-13",
+        "url": "https://data.riksdagen.se/dokument/HD0399.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Vårändringsbudgeten kan påverka statliga satsningar på digitalisering och teknikutveckling, vilket indirekt påverkar områden som AI och cybersäkerhet."
+      }
+    ],
+    "is_new_today": false,
+    "is_updated_today": true
+  },
+  "Cybersäkerhetscenter": {
+    "name": "Cybersäkerhetscenter",
+    "first_seen": "2026-04-13",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "next_step": "Riksdagen kommer att återkomma till frågan och begära ytterligare analyser, vilket kan leda till ytterligare lagändringar eller kompletterande åtgärder.",
+    "documents": [
+      {
+        "title": "Lagändringar för ett stärkt nationellt cybersäkerhetscenter",
+        "date": "2026-04-01",
+        "url": "https://data.riksdagen.se/dokument/HD03214.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen handlar om att stärka cybersäkerheten i Sverige genom lagändringar för det nationella cybersäkerhetscentret, vilket innebär att staten satsar på att skydda digital infrastruktur och data."
+      },
+      {
+        "title": "Pressbriefing om cyberhotbilden mot kritisk infrastruktur",
+        "date": "2026-04-14",
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/04/pressbriefing-om-cyberhotbilden-mot-kritisk-infrastruktur/",
+        "source": "Regeringen",
+        "tech_vinkel": "Pressbriefingen handlar om cyberhot mot kritisk infrastruktur, vilket direkt berör cybersäkerhet, ett område som är starkt beroende av tekniska lösningar och expertis inom IT-säkerhet."
+      },
+      {
+        "title": "Regeringen vidtar åtgärder för att skydda operativa system från cyberhot",
+        "date": "2026-04-15",
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/04/regeringen-vidtar-atgarder-for-att-skydda-operativa-system-fran-cyberhot/",
+        "source": "Regeringen",
+        "tech_vinkel": "Pressmeddelandet handlar specifikt om att skydda 'operativa system', vilket är en direkt referens till den mjukvara och hårdvara som driver kritisk infrastruktur och myndigheter, och därmed en central teknisk fråga."
+      },
+      {
+        "title": "med anledning av prop. 2025/26:214 Lagändringar för ett stärkt nationellt cybersäkerhetscenter",
+        "date": "2026-04-16",
+        "url": "https://data.riksdagen.se/dokument/HD024093.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Motionen lyfter fram behovet av ytterligare analyser i samband med lagändringar som syftar till att stärka det nationella cybersäkerhetscentret, vilket direkt relaterar till tekniska aspekter av cybersäkerhet och incidenthantering."
+      },
+      {
+        "title": "Hands-on Interactive Exercise- ECSF Workshop 2025",
+        "date": "Fri, 30 Ja",
+        "url": "https://www.enisa.europa.eu/events/european-cybersecurity-skills-workshop/ECSF2025/insights",
+        "source": "ENISA",
+        "tech_vinkel": "Workshopen demonstrerar hur EU-finansierade projekt bidrar till att implementera den europeiska cybersäkerhetskompetensramverket (ECSF), vilket är ett ramverk för att standardisera och förbättra cybersäkerhetskompetens inom EU."
+      },
+      {
+        "title": "What are the specific conditions for contractors to join the Reserve?",
+        "date": "Thu, 20 No",
+        "url": "https://www.enisa.europa.eu/what-are-the-specific-conditions-for-contractors-to-join-the-reserve",
+        "source": "ENISA",
+        "tech_vinkel": "Dokumentet fastställer att anbudsgivare måste uppvisa bevis för sin tekniska och professionella kompetens, vilket implicerar krav på specifika tekniska färdigheter och certifieringar inom cybersäkerhetsområdet."
+      },
+      {
+        "title": "How could a cybersecurity company join the EU Cybersecurity Reserve?",
+        "date": "Thu, 20 No",
+        "url": "https://www.enisa.europa.eu/how-could-a-cybersecurity-company-join-the-eu-cybersecurity-reserve",
+        "source": "ENISA",
+        "tech_vinkel": "Dokumentet handlar om EU:s cybersäkerhetsreserv, vilket är ett konkret initiativ för att stärka cybersäkerheten genom att skapa en lista över certifierade och tillgängliga cybersäkerhetsleverantörer."
+      },
+      {
+        "title": "How will the EU Cybersecurity Reserve be funded?",
+        "date": "Thu, 20 No",
+        "url": "https://www.enisa.europa.eu/how-will-the-eu-cybersecurity-reserve-be-funded",
+        "source": "ENISA",
+        "tech_vinkel": "Rapporten berör direkt finansieringen av EU:s cybersäkerhetsreserv, vilket är avgörande för att kunna upprätthålla och utveckla den tekniska infrastrukturen och personalen som krävs för att hantera cyberhot och bistå medlemsländerna."
+      },
+      {
+        "title": "Does the EU Cybersecurity Reserve only provide incident reponse and initial recovery actions?",
+        "date": "Thu, 20 No",
+        "url": "https://www.enisa.europa.eu/does-the-eu-cybersecurity-reserve-only-provide-incident-reponse-and-initial-recovery-actions",
+        "source": "ENISA",
+        "tech_vinkel": "Dokumentet föreslår att tjänster som redan är avtalade inom EU:s cybersäkerhetsreserv kan omvandlas till beredskapstjänster, vilket innebär att de kan användas för att förebygga incidenter istället för enbart för att hantera dem efter att de inträffat."
+      }
+    ],
+    "is_new_today": false,
+    "is_updated_today": true
+  },
+  "Digitala marknader": {
+    "name": "Digitala marknader",
+    "first_seen": "2026-04-13",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "next_step": "Vetenskapsrådet ska nu genomföra utredningen och lämna förslag på hur ett nationellt samordningsansvar kan etableras.",
+    "documents": [
+      {
+        "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
+        "date": "2026-03-17",
+        "url": "https://data.riksdagen.se/dokument/HD03200.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen kräver att vissa derivat ska hanteras genom centrala clearingplatser, vilket innebär att tekniska system för att hantera och säkra dessa transaktioner måste utvecklas och underhållas, samt att dataöverföring och säkerhetsprotokoll måste uppfyllas."
+      },
+      {
+        "title": "Uppdrag till Vetenskapsrådet att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur",
+        "date": "2026-04-08",
+        "url": "https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/",
+        "source": "Regeringen",
+        "tech_vinkel": "Uppdraget handlar om att bygga ut den digitala infrastrukturen som krävs för att kunna forska om AI, stora datamängder och andra framväxande teknologier, vilket kan innebära investeringar i högpresterande datorer och snabba nätverk."
+      },
+      {
+        "title": "Highlights - IMCO in China: MEPs push for safer e-commerce and fair competition - Committee on the Internal Market and Consumer Protection",
+        "date": "Fri, 17 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260417CAN77661",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Europaparlamentariker fokuserar på att säkerställa att e-handelsplattformar som Shein, Temu och Alibaba följer EU:s regler, vilket implicerar en reglering av algoritmer och innehållsmoderering på dessa plattformar för att säkerställa produktsäkerhet och konsumentskydd."
+      },
+      {
+        "title": "Latest news - Next Committee Meetings; Wednesday, 6 & Thursday, 7 May 2026 - Committee on the Internal Market and Consumer Protection",
+        "date": "Mon, 20 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Newsletters - by the IMCO secretariat - Committee on the Internal Market and Consumer Protection",
+        "date": "Sat, 11 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240930CNW19304",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Nyhetsbrev från IMCO-utskottet behandlar troligen frågor kring digitala marknader, konsumentskydd och e-handel, vilket kan inkludera algoritmer och plattformars ansvar."
+      },
+      {
+        "title": "Latest news - Committee on the Internal Market and Consumer Protection",
+        "date": "Sat, 11 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottets möten behandlar troligen frågor som påverkar digitala marknader och konsumentskydd, vilket kan inkludera algoritmer, plattformars ansvar och AI-system."
+      },
+      {
+        "title": "Latest news - Next Committee Meetings; Wednesday, 6 May & Thursday, 7 May - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 16 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Latest news - Next Committee Meeting: 6 & 7 May, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 23 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services",
+        "date": "Thu, 26 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-breach-digital-services-act",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen använder nu Digital Services Act (DSA) för att aktivt reglera innehåll på stora plattformar, vilket sätter en ny standard för hur online-tjänster måste skydda minderåriga och hantera olämpligt innehåll."
+      },
+      {
+        "title": "Commission investigates Snapchat's compliance with child protection rules under the Digital Services Act",
+        "date": "Thu, 26 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-investigates-snapchats-compliance-child-protection-rules-under-digital-services-act",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen granskar nu hur en stor social medieplattform hanterar barns säkerhet, vilket sätter fokus på algoritmer, innehållsmoderering och plikt för plattformar att skydda unga användare – en central fråga i den pågående debatten om reglering av sociala medier."
+      },
+      {
+        "title": "Highlights - EVP Virkkunen on EU Digital Legislation, Cybersecurity and Hybrid Threats - Special Committee on the European Democracy Shield",
+        "date": "Tue, 21 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260421CAN77759",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Mötet kommer specifikt att behandla genomförandet av Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) (DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll)), som reglerar hur stora onlineplattformar modererar innehåll och hanterar olagliga varor och tjänster, samt Digital Markets Act (EU-lagen som reglerar stora plattformars marknadsmakt) (DMA (EU-lagen som reglerar stora plattformars marknadsmakt)), som syftar till att förhindra missbruk av marknadsdominans av stora digitala företag."
+      }
+    ],
+    "is_new_today": false,
+    "is_updated_today": true
+  },
+  "Union Customs Code reform": {
+    "name": "Union Customs Code reform",
+    "first_seen": "2026-04-15",
+    "last_updated": "2026-04-21",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Den provisoriska överenskommelsen måste nu formellt godkännas av Europaparlamentet och EU:s råd.",
+    "documents": [
+      {
+        "title": "Highlights - Lille Designated as the Seat of the New EU Customs Authority - Committee on the Internal Market and Consumer Protection",
+        "date": "Tue, 14 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260325CAN77246",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Den nya EU-tullmyndigheten kommer att använda sig av digital teknik för att effektivisera gränskontroller och bekämpa smuggling, vilket kräver en moderniserad infrastruktur och potentiellt nya system för datahantering."
+      }
+    ]
+  },
+  "Polismyndighetens personuppgiftsbehandling": {
+    "name": "Polismyndighetens personuppgiftsbehandling",
+    "first_seen": "2026-04-15",
+    "last_updated": "2026-04-16",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "EU-kommissionen förväntas presentera lagförslag baserat på de diskussioner som förs under utfrågningen.",
+    "documents": [
+      {
+        "title": "Polismyndighetens behandling av personuppgifter, Dir. 2026:17",
+        "date": "2026-03-16",
+        "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/",
+        "source": "Regeringen",
+        "tech_vinkel": "Direktivet pekar på behovet av att utvärdera hur Polismyndighetens användning av tekniska lösningar påverkar hanteringen av personuppgifter, vilket kan innebära att nya former av övervakning eller analys av data kommer att granskas."
+      },
+      {
+        "title": "Highlights - Public Hearing on the Future of Police and Judicial Cooperation  - Committee on Civil Liberties, Justice and Home Affairs",
+        "date": "Wed, 15 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260409CAN77481",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Förhandlingen berör sannolikt användningen av digitala verktyg och teknologier inom polisarbete och rättsväsende, vilket kan inkludera ansiktsigenkänning, dataanalys och övervakningsteknik, och därmed är relevant för debatten kring biometrisk data och övervakning."
+      }
+    ]
+  },
+  "AI Continent Action Plan": {
+    "name": "AI Continent Action Plan",
+    "first_seen": "2026-04-15",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "EU-kommissionen kommer att analysera de inkomna synpunkterna och använda dem för att forma framtida policyer och riktlinjer för AI.",
+    "documents": [
+      {
+        "title": "AI Continent Action Plan delivers major milestones",
+        "date": "Thu, 09 Ap",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen rapporterar om framsteg i sin AI Continent Action Plan, vilket innebär att de konkret investerar i och reglerar utvecklingen av AI-system i Europa."
+      },
+      {
+        "title": "Targeted consultation on measuring energy consumption and emissions of AI models and systems",
+        "date": "Tue, 07 Ap",
+        "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-measuring-energy-consumption-and-emissions-ai-models-and-systems",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen vill börja mäta energiförbrukningen och utsläppen från AI-system, vilket kan leda till nya regleringar och krav på transparens för AI-utvecklare."
+      },
+      {
+        "title": "Highlights - EMPL ICM on \"Human Work in the Digital Age\" - Committee on Employment and Social Affairs",
+        "date": "Wed, 15 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260319CAN77100",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Mötet behandlar specifikt artificiell intelligens (AI) och dess påverkan på arbetslivet, vilket är en central fråga i den pågående diskussionen om AI-reglering och dess konsekvenser för sysselsättningen."
+      }
+    ]
+  },
+  "Digital Fairness Act": {
+    "name": "Digital Fairness Act",
+    "first_seen": "2026-04-15",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Efter konsultationen kommer EU-kommissionen att analysera synpunkterna och presentera ett lagförslag.",
+    "documents": [
+      {
+        "title": "Have your say on the Digital Fairness Act",
+        "date": "Tue, 31 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Lagen kommer sannolikt att innebära nya regler för hur plattformar hanterar innehåll och algoritmer riktade mot minderåriga, vilket kan påverka hur sociala medier och spelutvecklare designar sina tjänster."
+      }
+    ]
+  },
+  "EU Chips Act": {
+    "name": "EU Chips Act",
+    "first_seen": "2026-04-15",
+    "last_updated": "2026-04-21",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Silicon Box kommer sannolikt att börja implementera de åtgärder som krävs för att uppfylla kraven för 'Open EU Foundry'-status och dra nytta av de potentiella fördelarna.",
+    "documents": [
+      {
+        "title": "Open EU Foundry status granted to innovative chiplet facility",
+        "date": "Mon, 16 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen ger stöd till en anläggning som tillverkar chiplets, vilket är en viktig teknik för framtidens datorsystem och AI-applikationer."
+      }
+    ]
+  },
+  "Stärkt lagstiftning mot hedersrelaterat våld": {
+    "name": "Stärkt lagstiftning mot hedersrelaterat våld",
+    "first_seen": "2026-04-16",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Brå kommer att genomföra sin utredning och redovisa resultaten till regeringen, vilket kan leda till ytterligare åtgärder eller lagändringar.",
+    "documents": [
+      {
+        "title": "Stärkt lagstiftning mot hedersrelaterat våld och förtryck",
+        "date": "2026-03-19",
+        "url": "https://data.riksdagen.se/dokument/HD03213.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen betonar behovet av att utreda och förhindra digitalt våld och förtryck, vilket innebär att polisen och åklagarna kommer att behöva utveckla metoder för att hantera brott begångna via sociala medier och andra digitala plattformar, inklusive spårning av konton och innehåll."
+      },
+      {
+        "title": "Skärpta regler för unga lagöverträdare",
+        "date": "2026-04-16",
+        "url": "https://data.riksdagen.se/dokument/HD03246.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen föreslår att utredningar ska göras för att ta reda på om unga brottslingar har utsatts för våld eller missbruk online, vilket implicerar en granskning av deras aktivitet på sociala medier och andra digitala plattformar."
+      },
+      {
+        "title": "Uppdrag till Brottsförebyggande rådet att följa upp den särskilda regleringen om sänkt straffbarhetsålder",
+        "date": "2026-04-23",
+        "url": "https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-brottsforebyggande-radet-att-folja-upp-den-sarskilda-regleringen-om-sankt-straffbarhetsalder/",
+        "source": "Regeringen",
+        "tech_vinkel": "Brå ska undersöka hur den sänkta straffbarhetsåldern påverkar brottslighet begången i samband med användning av sociala medier och online-plattformar, vilket implicerar en granskning av hur unga interagerar med och påverkas av dessa digitala miljöer."
+      },
+      {
+        "title": "Stärkta insatser för äldre och för de som vårdar eller stöder närstående",
+        "date": "2026-04-24",
+        "url": "https://data.riksdagen.se/dokument/HD01SoU25.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Utskottet föreslår att äldre och vårdgivare ska få stöd för att utveckla digital kompetens, vilket specifikt inkluderar användning av sociala medier och digitala kommunikationsplattformar för att underlätta kontakt och stöd."
+      }
+    ]
+  },
+  "Stärkt kontroll av livsmedelskedjan": {
+    "name": "Stärkt kontroll av livsmedelskedjan",
+    "first_seen": "2026-04-16",
+    "last_updated": "2026-04-16",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Riksdagen kommer att behandla motionen och eventuellt ställa frågor till regeringen om hur de planerar att agera på förslagen.",
+    "documents": [
+      {
+        "title": "Stärkt kontroll av fusk i livsmedelskedjan",
+        "date": "2026-03-20",
+        "url": "https://data.riksdagen.se/dokument/HD03206.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen föreslår att myndigheterna ska använda digitala tekniker, som blockkedjeteknik, för att förbättra spårbarheten och säkerställa att livsmedelskedjan är transparent och säker."
+      },
+      {
+        "title": "Beredskapslager i livsmedelskedjan",
+        "date": "2026-03-20",
+        "url": "https://data.riksdagen.se/dokument/HD03205.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen nämner behovet av att använda digitala system för att hantera och övervaka beredskapslagren, vilket inkluderar spårbarhet och lagerhantering, vilket är en digital infrastrukturfråga."
+      },
+      {
+        "title": "med anledning av prop. 2025/26:205 Beredskapslager i livsmedelskedjan",
+        "date": "2026-04-07",
+        "url": "https://data.riksdagen.se/dokument/HD024069.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Motionen betonar behovet av att regeringen inkluderar digitala system och infrastruktur i beredskapsplaneringen för livsmedelskedjan, vilket antyder att man vill säkerställa att dessa system är motståndskraftiga mot störningar och attacker."
+      }
+    ]
+  },
+  "Dataskydd och integritet": {
+    "name": "Dataskydd och integritet",
+    "first_seen": "2026-04-16",
+    "last_updated": "2026-04-16",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Riksdagen kommer att granska skrivelsen och eventuellt ställa frågor till regeringen eller initiera en debatt.",
+    "documents": [
+      {
+        "title": "Integritet och ny teknik 2020–2024",
+        "date": "2026-03-17",
+        "url": "https://data.riksdagen.se/dokument/HD03208.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Skrivelsen behandlar Integritetsskyddsmyndighetens arbete, vilket sannolikt inkluderar frågor relaterade till dataskydd och integritet i förhållande till ny teknik, såsom generativ AI och andra framväxande teknologier som påverkar individers rättigheter."
+      }
+    ]
+  },
+  "Digital infrastruktur": {
+    "name": "Digital infrastruktur",
+    "first_seen": "2026-04-16",
+    "last_updated": "2026-04-16",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+    "documents": [
+      {
+        "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
+        "date": "2026-03-17",
+        "url": "https://data.riksdagen.se/dokument/HD03200.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen kräver att fler OTC-derivat ska klareras centralt, vilket innebär att digitala system och plattformar för handel och avveckling av finansiella instrument kommer att behöva utvecklas och anpassas för att hantera den ökade volymen och komplexiteten."
+      }
+    ]
+  },
+  "NIS2-implementering": {
+    "name": "NIS2-implementering",
+    "first_seen": "2026-04-21",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Riksdagen kommer att granska propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
+    "documents": [
+      {
+        "title": "Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576",
+        "date": "2026-03-24",
+        "url": "https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/",
+        "source": "Regeringen",
+        "tech_vinkel": "Remissen handlar specifikt om att ändra NIS 2-direktivet (EU 2022/2555), som tvingar kritiska verksamheter att höja sin cybersäkerhet genom bland annat incidentrapportering och riskanalyser."
+      },
+      {
+        "title": "Nya lagförslag kring tillsyn av banker",
+        "date": "2026-04-23",
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/04/nya-lagforslag-kring-tillsyn-av-banker/",
+        "source": "Regeringen",
+        "tech_vinkel": "Propositionen kommer att kräva att banker implementerar nya system och processer för att uppfylla de uppdaterade kraven på kapitaltäckning och riskhantering, vilket sannolikt kommer att innebära investeringar i ny IT-infrastruktur och dataanalysverktyg."
+      },
+      {
+        "title": "EU:s bankpaket",
+        "date": "2026-04-23",
+        "url": "https://data.riksdagen.se/dokument/HD03253.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen handlar om implementeringen av EU:s kapitaltäckningsdirektiv, vilket innehåller krav på att banker använder sig av standardiserade riskmodeller och rapporteringssystem, vilket i sin tur påverkar den tekniska infrastrukturen och systemen som banker använder för att hantera risker och kapital."
+      },
+      {
+        "title": "International Cooperation",
+        "date": "Mon, 09 Fe",
+        "url": "https://www.enisa.europa.eu/about-enisa/international-cooperation",
+        "source": "ENISA",
+        "tech_vinkel": "Dokumentet fokuserar på att stärka EU:s cybersäkerhetsposition genom strategiskt stöd för internationellt samarbete, vilket implicerar behovet av att harmonisera tekniska standarder och utbyta information om cyberhot mellan länder."
+      },
+      {
+        "title": "ECSF Workshop 2025",
+        "date": "Mon, 24 No",
+        "url": "https://www.enisa.europa.eu/events/european-cybersecurity-skills-workshop/ECSF2025",
+        "source": "ENISA",
+        "tech_vinkel": "Workshopen behandlar cybersäkerhetskompetens, vilket direkt relaterar till behovet av att utbilda personal inom områden som molnsäkerhet, incidenthantering och skydd mot avancerade cyberhot, vilket är avgörande för att hantera moderna IT-system och digitala infrastrukturer."
+      },
+      {
+        "title": "How does ENISA cooperate with users of the EU Cybersecurity Reserve? Who decides which entity should benefit from services provided by the Reserve?",
+        "date": "Thu, 20 No",
+        "url": "https://www.enisa.europa.eu/how-does-enisa-cooperate-with-users-of-the-eu-cybersecurity-reserve-who-decides-which-entity-should-benefit-from-services-provided-by-the-reserve",
+        "source": "ENISA",
+        "tech_vinkel": "Dokumentet handlar specifikt om EU:s cybersäkerhetsreserv, en resurs som används för att ge tekniskt stöd och resurser till medlemsländerna vid cyberattacker och andra säkerhetsincidenter, vilket är en direkt koppling till digital infrastruktur och cybersäkerhetsteknik."
+      },
+      {
+        "title": "National Cybersecurity Assessment Framework (NCAF) Tool",
+        "date": "Tue, 10 Fe",
+        "url": "https://www.enisa.europa.eu/topics/national-cyber-security-strategies/ncaf",
+        "source": "ENISA",
+        "tech_vinkel": "Verktyget NCAF 2.0 använder en strukturerad metodologi för att utvärdera cybersäkerhetsförmågor, vilket innebär att det använder digitala verktyg och dataanalys för att bedöma och mäta olika aspekter av cybersäkerhet."
+      }
+    ]
+  },
+  "AI Act": {
+    "name": "AI Act",
+    "first_seen": "2026-04-21",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Förhandlingarna mellan EU-parlamentet och EU:s råd förväntas slutföras inom några veckor.",
+    "documents": [
+      {
+        "title": "Highlights - Agreement on EU AI Rules Expected Within Weeks - Committee on the Internal Market and Consumer Protection",
+        "date": "Fri, 17 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260311CAN76913",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Utskottet diskuterar den fortsatta förhandlingen av Digital Omnibus, som är ett paket av lagstiftning som inkluderar AI Act (EU:s AI-förordning), vilket reglerar utveckling och användning av AI-system."
+      }
+    ]
+  },
+  "Cybersolidaritetsakten": {
+    "name": "Cybersolidaritetsakten",
+    "first_seen": "2026-04-23",
+    "last_updated": "2026-04-27",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "ENISA kommer troligen att utvärdera vilka kriterier som ska användas för att avgöra vilka icke-EU-länder som är berättigade till stöd.",
+    "documents": [
+      {
+        "title": "Is any non-EU country eligible to receive support from the EU Cybersecurity Reserve?",
+        "date": "Thu, 20 No",
+        "url": "https://www.enisa.europa.eu/is-any-non-eu-country-eligible-to-receive-support-from-the-eu-cybersecurity-reserve",
+        "source": "ENISA",
+        "tech_vinkel": "Dokumentet refererar till EU:s Cybersolidaritetsakt (Cyber Solidarity Act), en lagstiftning som skapar en mekanism för att dela resurser och expertis inom cybersäkerhet mellan EU-länder och potentiellt även länder utanför EU, vilket är en konkret satsning på gränsöverskridande cybersäkerhetssamarbete."
+      }
+    ]
+  }
+}

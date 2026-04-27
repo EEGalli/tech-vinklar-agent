@@ -8,7 +8,11 @@ import os
 from pathlib import Path
 from datetime import datetime
 
+import requests
 import streamlit as st
+
+GITHUB_REPO = "EEGalli/tech-vinklar-agent"
+WORKFLOW_FILE = "run-agent.yml"
 
 REPORTS_DIR = Path(__file__).parent / "reports"
 
@@ -66,6 +70,38 @@ st.sidebar.markdown(
     f"**{len(reports)}** rapporter sparade  \n"
     f"Senaste: **{labels[0]}**"
 )
+
+st.sidebar.markdown("---")
+st.sidebar.markdown("### Kör ny analys")
+if st.sidebar.button("🔄 Starta körning i molnet", use_container_width=True):
+    pat = st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
+    if not pat:
+        st.sidebar.error(
+            "GITHUB_PAT saknas i Streamlit secrets. "
+            "Lägg till en Personal Access Token med `workflow`-scope."
+        )
+    else:
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{WORKFLOW_FILE}/dispatches"
+        try:
+            r = requests.post(
+                url,
+                headers={
+                    "Authorization": f"Bearer {pat}",
+                    "Accept": "application/vnd.github+json",
+                    "X-GitHub-Api-Version": "2022-11-28",
+                },
+                json={"ref": "main"},
+                timeout=10,
+            )
+            if r.status_code == 204:
+                st.sidebar.success(
+                    "✓ Körning startad! Tar ~2–5 min. "
+                    f"Följ status: https://github.com/{GITHUB_REPO}/actions"
+                )
+            else:
+                st.sidebar.error(f"Fel ({r.status_code}): {r.text[:200]}")
+        except Exception as e:
+            st.sidebar.error(f"Anslutningsfel: {e}")
 
 # ── Huvudvy ──────────────────────────────────────────────
 with open(selected, encoding="utf-8") as f:
