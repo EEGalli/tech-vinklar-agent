@@ -4509,6 +4509,26 @@
       }
     },
     {
+      "title": "Latest news - Committee on Transport and Tourism",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128",
+      "date": "Mon, 27 Apr 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tech_vinkel": "Utskottet för transport och turism (TRAN) behandlar frågor som rör uppkopplade fordon och potentiellt även digitala lösningar för turism, vilket påverkar hur vi reser och upplever platser.",
+        "varfor_viktigt": "Med den snabba utvecklingen inom elfordon och autonoma system är det avgörande att EU-parlamentet aktivt formar regleringen för att säkerställa säkerhet, innovation och konkurrenskraft.  Utskottets arbete kan påverka framtida infrastrukturinvesteringar och konsumenters möjligheter.",
+        "eu_koppling": "Potentiellt relevant för EU:s lagstiftning kring uppkopplade fordon (Connected Vehicle Regulations) och digitala tjänster.",
+        "keywords": [
+          "uppkopplade fordon",
+          "elfordon",
+          "turism",
+          "digitalisering",
+          "transport"
+        ]
+      }
+    },
+    {
       "title": "Ny myndighet för miljöprövning",
       "source": "Riksdagen",
       "type": "Riksdagen/PROP",
