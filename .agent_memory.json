@@ -4118,36 +4118,6 @@
       }
     },
     {
-      "title": "Highlights - Agreement on EU AI Rules Expected Within Weeks - Committee on the Internal Market and Consumer Protection",
-      "source": "EU-parlamentet",
-      "type": "EP/Utskott",
-      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260311CAN76913",
-      "date": "Fri, 17 Apr 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "AI",
-        "sammanfattning": "Detta är en sammanfattning från ett möte i EU-parlamentets utskott för den inre marknaden och konsumentskydd (EP-utskottet för inre marknaden (IMCO)). Under mötet uppdaterades utskottet om förhandlingarna kring de nya reglerna för artificiell intelligens, kallade Digital Omnibus. Förhandlingarna mellan EU-parlamentet och EU:s råd går snabbt framåt, och alla parter strävar efter att nå en överenskommelse inom kort. Denna överenskommelse kommer att påverka hur AI-system utvecklas och används i hela EU.",
-        "tech_vinkel": "Utskottet diskuterar den fortsatta förhandlingen av Digital Omnibus, som är ett paket av lagstiftning som inkluderar AI Act (EU:s AI-förordning), vilket reglerar utveckling och användning av AI-system.",
-        "varfor_viktigt": "En snabb överenskommelse om AI Act (EU:s AI-förordning) kommer att skapa tydlighet för företag som utvecklar och använder AI, och samtidigt skydda medborgarnas rättigheter och säkerhet. Det påverkar allt från självkörande bilar till algoritmer som används för att bedöma kreditvärdighet, och kan forma hur AI-tekniken integreras i samhället. Tajmingen är viktig för att undvika rättslig osäkerhet och främja innovation inom EU.",
-        "eu_koppling": "AI Act (EU:s AI-förordning) (EU:s lagstiftning som reglerar utveckling och användning av artificiell intelligens, med syfte att säkerställa att AI-system är säkra och respekterar grundläggande rättigheter och EU-värden).",
-        "keywords": [
-          "AI",
-          "Digital Omnibus",
-          "AI Act",
-          "EU-parlamentet",
-          "IMCO"
-        ],
-        "arende": "AI Act",
-        "nasta_steg": "Förhandlingarna mellan EU-parlamentet och EU:s råd förväntas slutföras inom några veckor.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-04-15",
-            "beskrivning": "Första trilogue-möte för AI-reglering."
-          }
-        ]
-      }
-    },
-    {
       "title": "AI Continent Action Plan delivers major milestones",
       "source": "EU-kommissionen",
       "type": "Digital Strategy — Nyhet",
