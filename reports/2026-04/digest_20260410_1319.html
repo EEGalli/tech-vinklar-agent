@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Vinklar — 10 april 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f4f5f7;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+  header {
+    background: #1a1a2e;
+    color: white;
+    padding: 2rem 2.5rem;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; }
+  header p { color: #aab4c8; font-size: 0.95rem; }
+  .stats { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+  .stat {
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.85rem;
+  }
+  main { max-width: 960px; margin: 2rem auto; padding: 0 1.5rem 4rem; }
+
+  /* ── Kalender ── */
+  .calendar-section { margin-bottom: 2.5rem; }
+  .section-title {
+    font-size: 1.2rem; font-weight: 700;
+    margin-bottom: 1.2rem; color: #1a1a2e;
+  }
+  .cal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+  }
+  @media (max-width: 720px) { .cal-grid { grid-template-columns: 1fr; } }
+  .cal-block {
+    background: white;
+    border-radius: 10px;
+    padding: 1.1rem 1.2rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .cal-block-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #666;
+    margin-bottom: 0.9rem;
+  }
+  .cal-empty { color: #aaa; font-size: 0.88rem; font-style: italic; }
+  .mini-card {
+    padding: 0.5rem 0.7rem;
+    margin-bottom: 0.6rem;
+    border-radius: 6px;
+    background: #f8f9fc;
+  }
+  .mini-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    text-decoration: none;
+    display: block;
+    line-height: 1.35;
+  }
+  .mini-title:hover { color: #4a6cf7; }
+  .mini-vinkel {
+    font-size: 0.78rem;
+    color: #666;
+    margin-top: 0.25rem;
+    line-height: 1.4;
+  }
+  .week-day { margin-bottom: 1rem; }
+  .week-day-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #4a6cf7;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  /* Månadskalender */
+  .month-cal { width: 100%; border-collapse: collapse; }
+  .month-cal th {
+    font-size: 0.7rem;
+    color: #999;
+    padding: 0.3rem 0;
+    text-align: center;
+    font-weight: 600;
+  }
+  .cal-cell {
+    text-align: center;
+    padding: 0.3rem 0.1rem;
+    vertical-align: top;
+    width: 14.28%;
+  }
+  .cal-cell.has-items {
+    cursor: pointer;
+  }
+  .cal-cell.has-items:hover {
+    background: #eef2ff;
+    border-radius: 6px;
+  }
+  .cal-cell.today .day-num {
+    background: #4a6cf7;
+    color: white;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cal-empty-cell { background: none; }
+  .day-num { font-size: 0.82rem; color: #333; }
+  .dots { display: flex; justify-content: center; gap: 2px; margin-top: 2px; }
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .cal-legend {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    font-size: 0.75rem;
+    color: #666;
+    flex-wrap: wrap;
+  }
+  .cal-legend span { display: flex; align-items: center; gap: 4px; }
+
+  /* ── Ärenden ── */
+  h2.source-header {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2.5rem 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .count {
+    background: #dde2ee;
+    color: #444;
+    border-radius: 20px;
+    padding: 0.1rem 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .card {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 1.1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  .card-header { padding: 1rem 1.2rem 0.6rem; }
+  .card-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.4rem 0 0.2rem;
+    line-height: 1.4;
+  }
+  .relevance-badge {
+    display: inline-block;
+    color: white;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.6rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .meta { font-size: 0.8rem; color: #888; margin-top: 0.2rem; }
+  .card-body { padding: 0.8rem 1.2rem 1rem; border-top: 1px solid #f0f0f0; }
+  .vinkel { font-weight: 500; margin-bottom: 0.5rem; color: #1a1a2e; }
+  .eu-link { font-size: 0.88rem; color: #2c5282; margin-top: 0.5rem; }
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tag {
+    display: inline-block;
+    background: #eef2ff;
+    color: #4a6cf7;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 20px;
+    margin-right: 0.3rem;
+  }
+  .read-more {
+    font-size: 0.82rem;
+    color: #4a6cf7;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .read-more:hover { text-decoration: underline; }
+  /* ── Datum-panel ── */
+  .day-panel {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 1000;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .day-panel.open { display: flex; }
+  .day-panel-inner {
+    background: white;
+    width: min(480px, 95vw);
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: -4px 0 24px rgba(0,0,0,0.15);
+    animation: slideIn 0.22s ease;
+  }
+  @keyframes slideIn {
+    from { transform: translateX(100%); }
+    to   { transform: translateX(0); }
+  }
+  .day-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.4rem;
+    background: #1a1a2e;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+  }
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+  }
+  .close-btn:hover { background: rgba(255,255,255,0.15); }
+  #day-panel-body { padding: 1rem 1.2rem; }
+  .panel-card {
+    background: #f8f9fc;
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .panel-badge {
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.12rem 0.55rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.4rem;
+  }
+  .panel-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 0.25rem; }
+  .panel-meta { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+  .panel-vinkel { font-size: 0.88rem; font-weight: 500; margin-bottom: 0.4rem; }
+  .panel-varfor { font-size: 0.85rem; color: #444; margin-bottom: 0.4rem; line-height: 1.5; }
+  .panel-eu { font-size: 0.82rem; color: #2c5282; margin-bottom: 0.5rem; }
+  .panel-read-more { font-size: 0.82rem; color: #4a6cf7; text-decoration: none; font-weight: 500; }
+  .panel-read-more:hover { text-decoration: underline; }
+  footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.8rem;
+    padding: 2rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🔍 Tech Vinklar</h1>
+  <p>EU &amp; Riksdagen · 10 april 2026</p>
+  <div class="stats">
+    <div class="stat">📋 8 ärenden</div>
+    <div class="stat">🔴 4 hög prioritet</div>
+    <div class="stat">🟡 4 medel</div>
+  </div>
+</header>
+<main>
+  
+    <section class="calendar-section">
+      <h2 class="section-title">📅 Kalender</h2>
+      <div class="cal-grid">
+        <div class="cal-block">
+          <h3 class="cal-block-title">Idag — 10 april</h3>
+          <p class="cal-empty">Inga schemalagda ärenden idag.</p>
+        </div>
+        <div class="cal-block">
+          <h3 class="cal-block-title">Kommande veckan</h3>
+          <p class="cal-empty">Inga schemalagda ärenden denna vecka.</p>
+        </div>
+        <div class="cal-block">
+          <h3 class="cal-block-title">April 2026</h3>
+          
+    <table class="month-cal">
+      <thead><tr><th>Mån</th><th>Tis</th><th>Ons</th><th>Tor</th><th>Fre</th><th>Lör</th><th>Sön</th></tr></thead>
+      <tbody><tr><td class="cal-empty-cell"></td><td class="cal-empty-cell"></td><td class="cal-cell  has-items" onclick="showDay('2026-04-01')" title="2 ärenden" ><span class="day-num">1</span><div class="dots"><span class="dot" style="background:#e74c3c"></span><span class="dot" style="background:#f39c12"></span></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">2</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">3</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">4</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">5</span><div class="dots"></div></td></tr><tr><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">6</span><div class="dots"></div></td><td class="cal-cell  has-items" onclick="showDay('2026-04-07')" title="1 ärenden" ><span class="day-num">7</span><div class="dots"><span class="dot" style="background:#f39c12"></span></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">8</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">9</span><div class="dots"></div></td><td class="cal-cell today "  title="0 ärenden" ><span class="day-num">10</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">11</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">12</span><div class="dots"></div></td></tr><tr><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">13</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">14</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">15</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">16</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">17</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">18</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">19</span><div class="dots"></div></td></tr><tr><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">20</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">21</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">22</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">23</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">24</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">25</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">26</span><div class="dots"></div></td></tr><tr><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">27</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">28</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">29</span><div class="dots"></div></td><td class="cal-cell  "  title="0 ärenden" ><span class="day-num">30</span><div class="dots"></div></td><td class="cal-empty-cell"></td><td class="cal-empty-cell"></td><td class="cal-empty-cell"></td></tr></tbody>
+    </table>
+    <div class="cal-legend">
+      <span><span class="dot" style="background:#e74c3c"></span> Hög</span>
+      <span><span class="dot" style="background:#f39c12"></span> Medel</span>
+      <span><span class="dot" style="background:#2ecc71"></span> Låg</span>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Datum-panel -->
+    <div id="day-panel" class="day-panel" onclick="if(event.target===this)closePanel()">
+      <div class="day-panel-inner">
+        <div class="day-panel-header">
+          <span id="day-panel-title"></span>
+          <button class="close-btn" onclick="closePanel()">✕</button>
+        </div>
+        <div id="day-panel-body"></div>
+      </div>
+    </div>
+
+    <script>
+    const CAL_DATA = {"2026-04-01": [{"title": "Lagändringar för ett stärkt nationellt cybersäkerhetscenter", "url": "https://data.riksdagen.se/dokument/HD03214.html", "source": "Riksdagen", "committee": "Försvarsdepartementet", "relevans": "hög", "tech_vinkel": "Propositionen handlar om att stärka cybersäkerheten i Sverige genom lagändringar för det nationella cybersäkerhetscentret, vilket innebär att staten vill få bättre kontroll över och skydda digital infrastruktur.", "varfor": "Cyberattacker blir allt vanligare och sofistikerade, vilket hotar både företag, myndigheter och kritisk infrastruktur. Genom att stärka cybersäkerhetscentret vill regeringen förbättra förmågan att upptäcka, förebygga och hantera dessa hot, vilket är avgörande för Sveriges nationella säkerhet.", "eu_koppling": "Propositionen kan kopplas till EU:s NIS2-direktiv (Network and Information Security 2), som syftar till att harmonisera cybersäkerhetskraven för viktiga aktörer inom EU och kräver rapportering av incidenter och ökad samverkan."}, {"title": "med anledning av prop. 2025/26:196 Tid för undervisningsuppdraget", "url": "https://data.riksdagen.se/dokument/HD024033.html", "source": "Riksdagen", "committee": "UbU", "relevans": "medel", "tech_vinkel": "Motionen handlar om att finansiera regleringar kring lärarnas arbetsuppgifter, vilket indirekt kan påverka användningen av digitala verktyg och AI-baserade lösningar i skolan.", "varfor": "Skolan står inför en digital transformation och lärarnas arbetsvillkor påverkar hur effektivt ny teknik kan integreras. En hållbar finansiering av regleringar kan vara avgörande för att säkerställa att digitala verktyg används på ett etiskt och pedagogiskt korrekt sätt.", "eu_koppling": ""}], "2026-04-07": [{"title": "med anledning av prop. 2025/26:212 Kommunala hyresgarantier för en socialt hållbar bostadsförsörjning", "url": "https://data.riksdagen.se/dokument/HD024067.html", "source": "Riksdagen", "committee": "CU", "relevans": "medel", "tech_vinkel": "Motionen antyder en potentiell reglering av hyresvärdar, vilket kan innebära krav på digitala system för hyresadministration och datainsamling, vilket i sin tur väcker frågor om dataskydd och algoritmisk diskriminering.", "varfor": "Digitaliseringen av bostadsmarknaden ökar, och med det risken för att algoritmer och automatiserade system påverkar vem som får tillgång till hyresrätter. Det är viktigt att diskutera hur regleringar kan säkerställa rättvisa och transparens i processen, särskilt med tanke på att många hyresvärdar använder AI-drivna verktyg för att bedöma potentiella hyresgäster.", "eu_koppling": "Potentiella krav på hyresvärdar kan beröra EU:s dataskyddsförordning (GDPR) om personuppgifter behandlas, samt eventuellt framtida lagstiftning om AI-system som används i bostadsmarknaden."}]};
+    const RELEVANCE_COLOR = {"hög":"#c0392b","medel":"#d68910","låg":"#27ae60","okänd":"#888"};
+    const RELEVANCE_EMOJI = {"hög":"🔴","medel":"🟡","låg":"🟢","okänd":"⚪"};
+    const MONTHS_SV = ["","januari","februari","mars","april","maj","juni","juli","augusti","september","oktober","november","december"];
+
+    function formatDate(iso) {
+      const [y,m,d] = iso.split("-").map(Number);
+      return d + " " + MONTHS_SV[m] + " " + y;
+    }
+
+    function showDay(dateIso) {
+      const items = CAL_DATA[dateIso];
+      if (!items || items.length === 0) return;
+      document.getElementById("day-panel-title").textContent = "📅 " + formatDate(dateIso);
+      const body = document.getElementById("day-panel-body");
+      body.innerHTML = items.map(item => {
+        const color = RELEVANCE_COLOR[item.relevans] || "#888";
+        const emoji = RELEVANCE_EMOJI[item.relevans] || "⚪";
+        const link = item.url ? `<a href="${item.url}" target="_blank" class="panel-read-more">Läs originaldokumentet →</a>` : "";
+        const eu = item.eu_koppling ? `<p class="panel-eu">🇪🇺 ${item.eu_koppling}</p>` : "";
+        const vinkel = item.tech_vinkel ? `<p class="panel-vinkel"><strong>Tech-vinkel:</strong> ${item.tech_vinkel}</p>` : "";
+        const varfor = item.varfor ? `<p class="panel-varfor">${item.varfor}</p>` : "";
+        const meta = [item.source, item.committee].filter(Boolean).join(" · ");
+        return `
+          <div class="panel-card" style="border-left:4px solid ${color}">
+            <div class="panel-badge" style="background:${color}">${emoji} ${item.relevans}</div>
+            <h4 class="panel-title">${item.title}</h4>
+            <p class="panel-meta">${meta}</p>
+            ${vinkel}${varfor}${eu}
+            ${link}
+          </div>`;
+      }).join("");
+      document.getElementById("day-panel").classList.add("open");
+    }
+
+    function closePanel() {
+      document.getElementById("day-panel").classList.remove("open");
+    }
+
+    document.addEventListener("keydown", e => { if (e.key === "Escape") closePanel(); });
+    </script>
+  
+    <section class="calendar-section">
+      <h2 class="section-title">⏪ Vad hände?</h2>
+      <div class="cal-grid">
+        <div class="cal-block">
+          <h3 class="cal-block-title">Igår</h3>
+          
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://data.riksdagen.se/dokument/HD03214.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Lagändringar för ett stärkt nationellt cybersäkerhetscenter</a>
+          <p class='mini-vinkel'>Propositionen handlar om att stärka cybersäkerheten i Sverige genom lagändringar för det nationella cybersäkerhetscentret, vilket innebär att staten vill ha bättre kontroll och förmåga att hantera digitala hot.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD024067.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 med anledning av prop. 2025/26:212 Kommunala hyresgarantier för en socialt hållbar bostadsförsörjning</a>
+          <p class='mini-vinkel'>Motionen antyder en potentiell reglering av hyresvärdar, vilket kan innebära krav på digitala plattformar för hantering av hyreskontrakt, betalningar och kommunikation – en digitalisering som kan påverka både hyresvärdar och hyresgäster.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD024033.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 med anledning av prop. 2025/26:196 Tid för undervisningsuppdraget</a>
+          <p class='mini-vinkel'>Motionen handlar om att finansiera regleringar kring lärarnas arbetsuppgifter, vilket indirekt kan påverka användningen av digitala verktyg och AI-baserade lösningar i skolan.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD01FÖU8.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 Personalfrågor</a>
+          <p class='mini-vinkel'>Riksdagens utskott för forskning och utbildning (FöU) behandlar personalfrågor, vilket kan innebära frågor om automatisering, AI-driven rekrytering och kompetensutveckling inom offentlig sektor.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD01TU15.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 Järnvägs- och kollektivtrafikfrågor</a>
+          <p class='mini-vinkel'>Riksdagen diskuterar hur ny teknik kan användas för att optimera järnvägs- och kollektivtrafik, inklusive automatiserade system och dataanalys.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD01UBU31.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 Undantag från kravet på etikgodkännande för viss forskning och regleringen av tillsyn i etikprövningslagen</a>
+          <p class='mini-vinkel'>Riksdagen diskuterar att förenkla regler för forskning som använder stora mängder data, vilket kan innebära att känslig information om individer hanteras utan fullständig etikprövning.</p>
+        </div>
+        </div>
+        <div class="cal-block" style="grid-column: span 2">
+          <h3 class="cal-block-title">Veckan som gick — toppärenden</h3>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.6rem">
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://data.riksdagen.se/dokument/HD03214.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Lagändringar för ett stärkt nationellt cybersäkerhetscenter</a>
+          <p class='mini-vinkel'>Propositionen handlar om att stärka cybersäkerheten i Sverige genom lagändringar för det nationella cybersäkerhetscentret, vilket innebär att staten vill ha bättre kontroll och förmåga att hantera digitala hot.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD024067.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 med anledning av prop. 2025/26:212 Kommunala hyresgarantier för en socialt hållbar bostadsförsörjning</a>
+          <p class='mini-vinkel'>Motionen antyder en potentiell reglering av hyresvärdar, vilket kan innebära krav på digitala plattformar för hantering av hyreskontrakt, betalningar och kommunikation – en digitalisering som kan påverka både hyresvärdar och hyresgäster.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD024033.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 med anledning av prop. 2025/26:196 Tid för undervisningsuppdraget</a>
+          <p class='mini-vinkel'>Motionen handlar om att finansiera regleringar kring lärarnas arbetsuppgifter, vilket indirekt kan påverka användningen av digitala verktyg och AI-baserade lösningar i skolan.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD01FÖU8.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 Personalfrågor</a>
+          <p class='mini-vinkel'>Riksdagens utskott för forskning och utbildning (FöU) behandlar personalfrågor, vilket kan innebära frågor om automatisering, AI-driven rekrytering och kompetensutveckling inom offentlig sektor.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD01TU15.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 Järnvägs- och kollektivtrafikfrågor</a>
+          <p class='mini-vinkel'>Riksdagen diskuterar hur ny teknik kan användas för att optimera järnvägs- och kollektivtrafik, inklusive automatiserade system och dataanalys.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #d68910">
+          <a href="https://data.riksdagen.se/dokument/HD01UBU31.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🟡 Undantag från kravet på etikgodkännande för viss forskning och regleringen av tillsyn i etikprövningslagen</a>
+          <p class='mini-vinkel'>Riksdagen diskuterar att förenkla regler för forskning som använder stora mängder data, vilket kan innebära att känslig information om individer hanteras utan fullständig etikprövning.</p>
+        </div></div>
+        </div>
+      </div>
+    </section>
+  <h2 class="section-title">📰 Alla ärenden</h2>
+  
+        <section>
+          <h2 class="source-header">EU-parlamentet <span class="count">5</span></h2>
+          
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Highlights - EMPL ICM on "Human Work in the Digital Age" - Committee on Employment and Social Affairs</h3>
+        <p class="meta">Fri, 10 Ap · EMPL</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> Debatten handlar om hur artificiell intelligens och nya arbetsformer påverkar mänskligt arbete och skapar stress, vilket kräver nya strategier för att skydda arbetstagare.</p>
+        <p>AI-driven automation och plattformsekonomi förändrar arbetsmarknaden snabbt, och det är avgörande att diskutera hur vi kan säkerställa att dessa förändringar inte leder till ökad stress och utslagning. Denna diskussion är särskilt viktig i ljuset av den ökande användningen av AI i arbetslivet och behovet av att anpassa arbetskraften.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Diskussionen kan kopplas till AI Act, som syftar till att reglera AI-system och säkerställa att de inte skadar grundläggande rättigheter, samt till EU:s strategi för social rättvisa och arbetsmarknadens funktion.</p>
+        <div class="card-footer">
+          <div><span class="tag">artificiell intelligens</span> <span class="tag">arbete</span> <span class="tag">automation</span> <span class="tag">stress</span></div>
+          <a class="read-more" href="https://www.europarl.europa.eu/committees/en/product/product-details/20260319CAN77100" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Latest news - Next meetings - Committee on Civil Liberties, Justice and Home Affairs</h3>
+        <p class="meta">Thu, 09 Ap · LIBE</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> LIBE-utskottets möten kan handla om lagstiftning som påverkar digitala plattformar, övervakning och användningen av AI inom rättsväsendet och säkerhet.</p>
+        <p>LIBE-utskottet behandlar ofta frågor som rör medborgarnas rättigheter i en digital värld. Deras beslut kan ha stor påverkan på hur vi använder sociala medier, hur data samlas in och hur AI används av både myndigheter och företag.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Detta kan vara kopplat till AI Act, DSA (Digital Services Act) och NIS2 (Network and Information Security 2) som alla syftar till att reglera digitala tjänster och säkerhet.</p>
+        <div class="card-footer">
+          <div><span class="tag">LIBE</span> <span class="tag">digitala rättigheter</span> <span class="tag">övervakning</span> <span class="tag">AI</span></div>
+          <a class="read-more" href="https://www.europarl.europa.eu/committees/en/product/product-details/20240703CAL19309" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Highlights - Public Hearing on the Future of Police and Judicial Cooperation  - Committee on Civil Liberties, Justice and Home Affairs</h3>
+        <p class="meta">Thu, 09 Ap · LIBE</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> Hörseln handlar om framtidens polis- och rättsligt samarbete i EU, vilket sannolikt kommer att inkludera diskussioner om användningen av AI, övervakningsteknik och biometrisk data för brottsbekämpning.</p>
+        <p>Användningen av teknik inom polisväsendet och rättsväsendet växer snabbt, vilket skapar frågor om integritet, rättssäkerhet och risk för diskriminering. Det är viktigt att diskutera dessa frågor innan ny lagstiftning implementeras för att säkerställa att tekniken används på ett ansvarsfullt och proportionerligt sätt.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Hörseln är relevant i ljuset av den kommande lagstiftningen från EU-kommissionen och kan påverka tolkningen och genomförandet av AI Act, samt potentiellt påverka hur biometrisk data hanteras inom rättsväsendet.</p>
+        <div class="card-footer">
+          <div><span class="tag">polis</span> <span class="tag">rättsväsende</span> <span class="tag">övervakning</span> <span class="tag">AI</span></div>
+          <a class="read-more" href="https://www.europarl.europa.eu/committees/en/product/product-details/20260409CAN77481" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>Latest news - Committee on Transport and Tourism</h3>
+        <p class="meta">Thu, 09 Ap · TRAN</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> Utskottet för transport och turism (TRAN) behandlar frågor som rör uppkopplade fordon och potentiellt även digitala lösningar för turism, vilket kan påverka hur vi reser och upplever platser.</p>
+        <p>Med den snabba utvecklingen inom elfordon och autonoma system blir det allt viktigare att politiken håller jämna steg och säkerställer en säker och effektiv integration av ny teknik. Dessutom kan digitala lösningar inom turismen påverka lokal ekonomi och tillgänglighet, vilket kräver noggrann uppföljning.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Potentiellt relevant för EU:s lagstiftning kring uppkopplade fordon (Connected Vehicle Regulations) och digitala tjänster inom turism, men det är inte direkt kopplat till AI Act eller liknande.</p>
+        <div class="card-footer">
+          <div><span class="tag">transport</span> <span class="tag">turism</span> <span class="tag">uppkopplade fordon</span> <span class="tag">digitalisering</span></div>
+          <a class="read-more" href="https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>Latest news - Committee on Economic and Monetary Affairs</h3>
+        <p class="meta">Thu, 09 Ap · ECON</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> Utskottet för ekonomiska och monetära frågor (ECON) granskar delegerade akter, vilket kan påverka hur finansiella tjänster och kryptovalutor regleras digitalt.</p>
+        <p>Med den snabba utvecklingen inom digital finans och kryptovalutor är det avgörande att EU-parlamentet aktivt granskar och formar regleringen för att skydda konsumenter och säkerställa en stabil finansiell marknad. Denna granskning kan leda till nya regler som påverkar både etablerade finansiella institutioner och innovativa fintech-företag.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Kan potentiellt påverka implementeringen av MiCA (Markets in Crypto-Assets) och andra finansiella regelverk.</p>
+        <div class="card-footer">
+          <div><span class="tag">fintech</span> <span class="tag">kryptovalutor</span> <span class="tag">digital finans</span> <span class="tag">MiCA</span></div>
+          <a class="read-more" href="https://www.europarl.europa.eu/committees/en/product/product-details/20200228CAL09827" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+        </section>
+        <section>
+          <h2 class="source-header">Riksdagen <span class="count">3</span></h2>
+          
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Lagändringar för ett stärkt nationellt cybersäkerhetscenter</h3>
+        <p class="meta">2026-04-01 · Försvarsdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> Propositionen handlar om att stärka cybersäkerheten i Sverige genom lagändringar för det nationella cybersäkerhetscentret, vilket innebär att staten vill få bättre kontroll över och skydda digital infrastruktur.</p>
+        <p>Cyberattacker blir allt vanligare och sofistikerade, vilket hotar både företag, myndigheter och kritisk infrastruktur. Genom att stärka cybersäkerhetscentret vill regeringen förbättra förmågan att upptäcka, förebygga och hantera dessa hot, vilket är avgörande för Sveriges nationella säkerhet.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Propositionen kan kopplas till EU:s NIS2-direktiv (Network and Information Security 2), som syftar till att harmonisera cybersäkerhetskraven för viktiga aktörer inom EU och kräver rapportering av incidenter och ökad samverkan.</p>
+        <div class="card-footer">
+          <div><span class="tag">cybersäkerhet</span> <span class="tag">nationellt cybersäkerhetscenter</span> <span class="tag">NIS2</span> <span class="tag">digital infrastruktur</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03214.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>med anledning av prop. 2025/26:196 Tid för undervisningsuppdraget</h3>
+        <p class="meta">2026-04-01 · UbU</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> Motionen handlar om att finansiera regleringar kring lärarnas arbetsuppgifter, vilket indirekt kan påverka användningen av digitala verktyg och AI-baserade lösningar i skolan.</p>
+        <p>Skolan står inför en digital transformation och lärarnas arbetsvillkor påverkar hur effektivt ny teknik kan integreras. En hållbar finansiering av regleringar kan vara avgörande för att säkerställa att digitala verktyg används på ett etiskt och pedagogiskt korrekt sätt.</p>
+        
+        <div class="card-footer">
+          <div><span class="tag">skola</span> <span class="tag">lärarutbildning</span> <span class="tag">digitalisering</span> <span class="tag">finansiering</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD024033.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>med anledning av prop. 2025/26:212 Kommunala hyresgarantier för en socialt hållbar bostadsförsörjning</h3>
+        <p class="meta">2026-04-07 · CU</p>
+      </div>
+      <div class="card-body">
+        <p class='vinkel'><strong>Tech-vinkel:</strong> Motionen antyder en potentiell reglering av hyresvärdar, vilket kan innebära krav på digitala system för hyresadministration och datainsamling, vilket i sin tur väcker frågor om dataskydd och algoritmisk diskriminering.</p>
+        <p>Digitaliseringen av bostadsmarknaden ökar, och med det risken för att algoritmer och automatiserade system påverkar vem som får tillgång till hyresrätter. Det är viktigt att diskutera hur regleringar kan säkerställa rättvisa och transparens i processen, särskilt med tanke på att många hyresvärdar använder AI-drivna verktyg för att bedöma potentiella hyresgäster.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Potentiella krav på hyresvärdar kan beröra EU:s dataskyddsförordning (GDPR) om personuppgifter behandlas, samt eventuellt framtida lagstiftning om AI-system som används i bostadsmarknaden.</p>
+        <div class="card-footer">
+          <div><span class="tag">hyresmarknad</span> <span class="tag">digitalisering</span> <span class="tag">algoritmer</span> <span class="tag">dataskydd</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD024067.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+        </section>
+</main>
+<footer>Genererad 2026-04-10 13:19 · Tech Vinklar Agent</footer>
+</body>
+</html>

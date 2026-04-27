@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Vinklar — 21 april 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f4f5f7;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+  header {
+    background: #1a1a2e;
+    color: white;
+    padding: 2rem 2.5rem;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; }
+  header p { color: #aab4c8; font-size: 0.95rem; }
+  .stats { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+  .stat {
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.85rem;
+  }
+  main { max-width: 960px; margin: 2rem auto; padding: 0 1.5rem 4rem; }
+
+  /* ── Dashboard (översikt per tema) ── */
+  .dashboard-section { margin-bottom: 2.5rem; }
+  .dash-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.2rem;
+  }
+  .dash-tema {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border-top: 3px solid #4a6cf7;
+  }
+  .dash-tema-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .dash-count {
+    margin-left: auto;
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: #f0f2f8;
+    color: #4a4a5a;
+    padding: 0.1rem 0.55rem;
+    border-radius: 20px;
+  }
+  .dash-rows { display: flex; flex-direction: column; gap: 0.5rem; }
+  .dash-row {
+    display: grid;
+    grid-template-columns: 10px 1fr auto;
+    gap: 0.5rem;
+    align-items: start;
+    padding: 0.45rem 0;
+    border-top: 1px solid #f0f2f8;
+  }
+  .dash-row:first-child { border-top: none; padding-top: 0.1rem; }
+  .dash-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 0.45rem;
+  }
+  .dash-main { min-width: 0; }
+  .dash-title {
+    font-size: 0.83rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    text-decoration: none;
+    line-height: 1.35;
+    display: block;
+  }
+  .dash-title:hover { color: #4a6cf7; text-decoration: underline; }
+  .dash-vinkel {
+    font-size: 0.74rem;
+    color: #5a5a6a;
+    margin-top: 0.2rem;
+    line-height: 1.35;
+  }
+  .dash-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.2rem;
+    font-size: 0.68rem;
+  }
+  .dash-date {
+    color: #5a5a6a;
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  .dash-source {
+    color: #8a8a9a;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .dash-badge {
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0.08rem 0.4rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+  .dash-badge-today { background: #ffe4e0; color: #c33b24; }
+  .dash-badge-new { background: #fff3cd; color: #856404; }
+
+  /* ── Kalender ── */
+  .calendar-section { margin-bottom: 2.5rem; }
+  .section-title {
+    font-size: 1.2rem; font-weight: 700;
+    margin-bottom: 1.2rem; color: #1a1a2e;
+  }
+  .cal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+  }
+  @media (max-width: 720px) { .cal-grid { grid-template-columns: 1fr; } }
+  .cal-block {
+    background: white;
+    border-radius: 10px;
+    padding: 1.1rem 1.2rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .cal-block-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #666;
+    margin-bottom: 0.9rem;
+  }
+  .cal-empty { color: #aaa; font-size: 0.88rem; font-style: italic; }
+  .mini-card {
+    padding: 0.5rem 0.7rem;
+    margin-bottom: 0.6rem;
+    border-radius: 6px;
+    background: #f8f9fc;
+  }
+  .mini-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    text-decoration: none;
+    display: block;
+    line-height: 1.35;
+  }
+  .mini-title:hover { color: #4a6cf7; }
+  .mini-meta {
+    font-size: 0.7rem;
+    color: #8a8a9a;
+    margin-top: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .mini-samm {
+    font-size: 0.82rem;
+    color: #3a3a4a;
+    margin-top: 0.4rem;
+    line-height: 1.5;
+  }
+  .mini-vinkel {
+    font-size: 0.78rem;
+    color: #4a4a5a;
+    margin-top: 0.35rem;
+    line-height: 1.4;
+    padding-top: 0.35rem;
+    border-top: 1px dashed #dde2ee;
+  }
+  .week-day { margin-bottom: 1rem; }
+  .week-day-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #4a6cf7;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  /* Månadskalender */
+  .cal-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  .cal-nav-btn {
+    background: none;
+    border: 1px solid #dde2ee;
+    border-radius: 6px;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+    color: #4a6cf7;
+    font-size: 0.8rem;
+  }
+  .cal-nav-btn:hover:not(:disabled) { background: #eef2ff; }
+  .month-cal { width: 100%; border-collapse: collapse; }
+  .month-cal th {
+    font-size: 0.7rem;
+    color: #999;
+    padding: 0.3rem 0;
+    text-align: center;
+    font-weight: 600;
+  }
+  .cal-cell {
+    text-align: center;
+    padding: 0.3rem 0.1rem;
+    vertical-align: top;
+    width: 14.28%;
+  }
+  .cal-cell.has-items {
+    cursor: pointer;
+  }
+  .cal-cell.has-items:hover {
+    background: #eef2ff;
+    border-radius: 6px;
+  }
+  .cal-cell.today .day-num {
+    background: #4a6cf7;
+    color: white;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cal-empty-cell { background: none; }
+  .day-num { font-size: 0.82rem; color: #333; }
+  .dots { display: flex; justify-content: center; gap: 2px; margin-top: 2px; }
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .cal-legend {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    font-size: 0.75rem;
+    color: #666;
+    flex-wrap: wrap;
+  }
+  .cal-legend span { display: flex; align-items: center; gap: 4px; }
+
+  /* ── Ärenden ── */
+  h2.source-header {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2.5rem 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .count {
+    background: #dde2ee;
+    color: #444;
+    border-radius: 20px;
+    padding: 0.1rem 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .card {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 1.1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  .card-header { padding: 1rem 1.2rem 0.6rem; }
+  .card-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.4rem 0 0.2rem;
+    line-height: 1.4;
+  }
+  .relevance-badge {
+    display: inline-block;
+    color: white;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.6rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .meta { font-size: 0.8rem; color: #888; margin-top: 0.2rem; }
+  .card-body { padding: 0.8rem 1.2rem 1rem; border-top: 1px solid #f0f0f0; }
+  .sammanfattning {
+    background: #f6f8fc; border-left: 3px solid #cdd7ec;
+    padding: 0.7rem 0.9rem; border-radius: 4px;
+    font-size: 0.95rem; line-height: 1.55; color: #2a2a3a;
+    margin-bottom: 0.7rem;
+  }
+  .vinkel { font-weight: 500; margin-bottom: 0.5rem; color: #1a1a2e; line-height: 1.5; }
+  .varfor { font-size: 0.93rem; color: #3a3a4a; margin-bottom: 0.5rem; line-height: 1.55; }
+  .eu-link { font-size: 0.88rem; color: #2c5282; margin-top: 0.5rem; }
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tag {
+    display: inline-block;
+    background: #eef2ff;
+    color: #4a6cf7;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 20px;
+    margin-right: 0.3rem;
+  }
+  .read-more {
+    font-size: 0.82rem;
+    color: #4a6cf7;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .read-more:hover { text-decoration: underline; }
+  /* ── Datum-panel ── */
+  .day-panel {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 1000;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .day-panel.open { display: flex; }
+  .day-panel-inner {
+    background: white;
+    width: min(480px, 95vw);
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: -4px 0 24px rgba(0,0,0,0.15);
+    animation: slideIn 0.22s ease;
+  }
+  @keyframes slideIn {
+    from { transform: translateX(100%); }
+    to   { transform: translateX(0); }
+  }
+  .day-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.4rem;
+    background: #1a1a2e;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+  }
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+  }
+  .close-btn:hover { background: rgba(255,255,255,0.15); }
+  #day-panel-body { padding: 1rem 1.2rem; }
+  .panel-card {
+    background: #f8f9fc;
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .panel-badge {
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.12rem 0.55rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.4rem;
+  }
+  .panel-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 0.25rem; }
+  .panel-meta { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+  .panel-samm {
+    background: #f6f8fc; border-left: 3px solid #cdd7ec;
+    padding: 0.5rem 0.7rem; border-radius: 4px;
+    font-size: 0.85rem; line-height: 1.5; color: #2a2a3a;
+    margin-bottom: 0.5rem;
+  }
+  .panel-vinkel { font-size: 0.88rem; font-weight: 500; margin-bottom: 0.4rem; line-height: 1.45; }
+  .panel-varfor { font-size: 0.85rem; color: #444; margin-bottom: 0.4rem; line-height: 1.5; }
+  .panel-eu { font-size: 0.82rem; color: #2c5282; margin-bottom: 0.5rem; }
+  .panel-read-more { font-size: 0.82rem; color: #4a6cf7; text-decoration: none; font-weight: 500; }
+  .panel-read-more:hover { text-decoration: underline; }
+  /* ── Pågående ärenden ── */
+  .arenden-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.2rem;
+  }
+  .arende-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.1rem 1.2rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    border-top: 3px solid #4a6cf7;
+  }
+  .arende-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.9rem;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  .arende-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+  .arende-updated {
+    font-size: 0.72rem;
+    color: #aaa;
+  }
+  .arende-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.1rem 0.5rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .arende-badge-new { background: #d4edda; color: #155724; }
+  .arende-badge-updated { background: #fff3cd; color: #856404; }
+  .tl-container { display: flex; flex-direction: column; gap: 0; }
+  .tl-row {
+    display: grid;
+    grid-template-columns: 62px 12px 1fr;
+    gap: 0 0.5rem;
+    align-items: start;
+    padding: 0.35rem 0;
+    border-left: none;
+  }
+  .tl-date {
+    font-size: 0.72rem;
+    color: #999;
+    padding-top: 0.15rem;
+    text-align: right;
+  }
+  .tl-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4a6cf7;
+    margin-top: 0.3rem;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .tl-dot::after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    width: 2px;
+    height: calc(100% + 0.7rem);
+    background: #dde2ee;
+  }
+  .tl-row:last-child .tl-dot::after { display: none; }
+  .tl-content { font-size: 0.82rem; line-height: 1.4; padding-bottom: 0.4rem; }
+  .tl-source {
+    display: inline-block;
+    font-size: 0.7rem;
+    color: #aaa;
+    margin-left: 0.4rem;
+  }
+  .tl-vinkel {
+    font-size: 0.78rem;
+    color: #555;
+    margin-top: 0.15rem;
+    font-style: italic;
+  }
+  .arende-next {
+    font-size: 0.8rem;
+    color: #2c5282;
+    background: #eef2ff;
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    margin-top: 0.7rem;
+  }
+  footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.8rem;
+    padding: 2rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🔍 Tech Vinklar</h1>
+  <p>EU &amp; Riksdagen · 21 april 2026</p>
+  <div class="stats">
+    <div class="stat">📋 17 ärenden</div>
+    <div class="stat">🔴 11 hög prioritet</div>
+    <div class="stat">🟡 6 medel</div>
+  </div>
+</header>
+<main>
+  
+    <section class="calendar-section">
+      <h2 class="section-title">📅 Kalender</h2>
+      <div class="cal-grid">
+        <div class="cal-block">
+          <h3 class="cal-block-title">Idag — 21 april</h3>
+          <p class="cal-empty">Inga schemalagda ärenden idag.</p>
+        </div>
+        <div class="cal-block">
+          <h3 class="cal-block-title">Kommande veckan</h3>
+          
+            <div class="week-day">
+              <div class="week-day-label">Sön 26 april</div>
+              
+    <div class="mini-card" style="border-left:3px solid #c0392b">
+      <a href="https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act" target="_blank" class="mini-title">🔴 Digital Fairness Act: Konsultationen stänger</a>
+      <p class='mini-meta'>Digital Fairness Act</p>
+      
+      
+    </div>
+            </div>
+        </div>
+        <div class="cal-block">
+          
+    <div class="cal-nav">
+      <button class="cal-nav-btn" onclick="prevMonth()" id="cal-prev">◀</button>
+      <span id="cal-month-title" style="font-weight:700;font-size:0.9rem"></span>
+      <button class="cal-nav-btn" onclick="nextMonth()" id="cal-next">▶</button>
+    </div>
+    <table class="month-cal" id="cal-table">
+      <thead><tr><th>Mån</th><th>Tis</th><th>Ons</th><th>Tor</th><th>Fre</th><th>Lör</th><th>Sön</th></tr></thead>
+      <tbody id="cal-body"></tbody>
+    </table>
+    <div class="cal-legend">
+      <span><span class="dot" style="background:#e74c3c"></span> Hög</span>
+      <span><span class="dot" style="background:#f39c12"></span> Medel</span>
+      <span><span class="dot" style="background:#2ecc71"></span> Låg</span>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Datum-panel -->
+    <div id="day-panel" class="day-panel" onclick="if(event.target===this)closePanel()">
+      <div class="day-panel-inner">
+        <div class="day-panel-header">
+          <span id="day-panel-title"></span>
+          <button class="close-btn" onclick="closePanel()">✕</button>
+        </div>
+        <div id="day-panel-body"></div>
+      </div>
+    </div>
+
+    <script>
+    const CAL_DATA = {"2026-04-08": [{"title": "Uppdrag till Vetenskapsrådet att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur", "url": "https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/", "source": "Regeringen", "committee": "Regeringen, Utbildningsdepartementet", "relevans": "hög", "sammanfattning": "Regeringen ger Vetenskapsrådet i uppdrag att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur. Det innebär att Vetenskapsrådet ska utreda hur Sverige bäst kan samordna och stödja den digitala infrastrukturen som forskare behöver, till exempel datalagring, beräkningskraft och nätverk. Uppdraget syftar till att stärka Sveriges konkurrenskraft inom forskning och innovation och att säkerställa att svenska forskare har tillgång till den bästa möjliga digitala utrustningen. Detta kommer att påverka universitet, forskningsinstitutioner och företag som bedriver digital forskning.", "tech_vinkel": "Uppdraget fokuserar på att skapa en nationell samordning för digital forskningsinfrastruktur, vilket inkluderar beräkningsresurser, datalagring och nätverk – kritiska komponenter för AI-forskning, big data-analys och andra avancerade teknologier.", "varfor": "Ett välfungerande samordningsansvar för digital forskningsinfrastruktur är avgörande för att Sverige ska kunna ligga i framkant inom forskning och utveckling, särskilt inom områden som artificiell intelligens och datavetenskap. Det möjliggör storskaliga forskningsprojekt som kräver enorm datorkraft och lagring, och kan attrahera internationella forskare och investeringar. Utan en sådan infrastruktur riskerar Sverige att halka efter i den globala konkurrensen om framtidens teknik.", "eu_koppling": "Detta uppdrag kan kopplas till EU:s satsningar på digital infrastruktur och datastrategi, som syftar till att skapa en europeisk datamarknad och stödja forskning och innovation inom digitala teknologier. EU:s datalagringslagstiftning (Data Governance Act) kan också vara relevant."}], "2026-04-16": [{"title": "Nya krav på interoperabilitet vid datadelning inom den offentliga förvaltningen", "url": "https://data.riksdagen.se/dokument/HD03244.html", "source": "Riksdagen", "committee": "Finansdepartementet", "relevans": "hög", "sammanfattning": "Regeringen föreslår i proposition 2025/26:244 nya krav på hur olika myndigheter och verksamheter inom den offentliga förvaltningen ska dela data med varandra. Syftet är att göra det enklare och säkrare att dela information, vilket ska leda till effektivare tjänster och bättre beslutsunderlag. Förslaget riktar sig till alla aktörer inom den offentliga sektorn som hanterar och delar data. Det innebär att myndigheter måste använda standardiserade format och protokoll för att säkerställa att informationen kan läsas och tolkas av andra system.", "tech_vinkel": "Propositionen kräver att myndigheter använder sig av standardiserade gränssnitt och protokoll för datadelning, vilket innebär en satsning på interoperabilitetsstandarder och potentiellt nya tekniska lösningar för att möjliggöra sömlös datautbyte mellan olika system.", "varfor": "Förbättrad interoperabilitet kan effektivisera myndigheters arbete och minska dubbelarbete, vilket sparar tid och resurser. Det kan också underlätta för medborgare att få tillgång till offentliga tjänster och information. Om myndigheter inte kan dela data smidigt, försvårar det digitaliseringen av den offentliga sektorn och kan hindra utvecklingen av nya, innovativa tjänster.", "eu_koppling": "Propositionen är i linje med EU:s strävan efter att främja datadelning och interoperabilitet inom den offentliga sektorn, vilket återspeglas i initiativ som EU:s datastrategi och den pågående diskussionen kring en ram för europeiska data-tjänster (European Data Space)."}, {"title": "Omröstning i Riksdagen", "url": "https://data.riksdagen.se/dokument/HD01SkU23.html", "source": "Elfordonsstrategi", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-04-14": [{"title": "Vindkraft i kommuner", "url": "https://data.riksdagen.se/dokument/HD03239.html", "source": "Riksdagen", "committee": "Klimat- och näringslivsdepartementet", "relevans": "medel", "sammanfattning": "Regeringen föreslår en ny lag om intäktsdelning för vindkraft i kommuner. Propositionen syftar till att underlätta för kommuner att säga ja till vindkraftsutbyggnad genom att ge dem en ekonomisk del av intäkterna. Detta förväntas öka takten för utbyggnaden av vindkraft, vilket är en viktig del av Sveriges klimatmål. Lagen kommer att påverka både vindkraftsbolag och kommuner.", "tech_vinkel": "Propositionen implicerar behovet av smarta elnät och digital infrastruktur för att effektivt integrera och hantera den ökade produktionen av vindkraft, vilket kan kräva investeringar i uppgraderingar och digitalisering av elnätet.", "varfor": "Snabbare vindkraftsutbyggnad är avgörande för att nå Sveriges klimatmål och minska beroendet av fossila bränslen. Genom att ge kommuner ekonomiska incitament kan man övervinna lokalt motstånd och accelerera utbyggnaden. Detta kommer att påverka energipriser, investeringar i grön energi och Sveriges internationella åtaganden.", "eu_koppling": "Propositionen är relevant i förhållande till EU:s mål för förnybar energi och energisäkerhet, vilket kräver att medlemsländerna ökar sin andel förnybar energi, inklusive vindkraft. EU:s energidirektiv sätter ramarna för medlemsländernas energipolitik."}, {"title": "Ny myndighet för miljöprövning", "url": "https://data.riksdagen.se/dokument/HD03238.html", "source": "Riksdagen", "committee": "Klimat- och näringslivsdepartementet", "relevans": "medel", "sammanfattning": "Regeringen föreslår att en ny myndighet ska skapas för att hantera miljöprövning. Den befintliga hanteringen är utspridd på flera myndigheter, vilket regeringen ser som ineffektivt. Den nya myndigheten ska samordna och effektivisera miljöprövningen för exempelvis industriella verksamheter och energiprojekt. Syftet är att snabba upp processen och minska dubbelarbete.", "tech_vinkel": "Den nya myndigheten kommer sannolikt att använda digitala verktyg och system för att hantera ansökningar, data och kommunikation, vilket kan innebära behov av utveckling och implementering av ny IT-infrastruktur och digitala arbetsflöden.", "varfor": "En effektivare miljöprövning är avgörande för att kunna genomföra den gröna omställningen och samtidigt säkerställa att miljön skyddas. Den nya myndigheten kan underlätta för företag att investera i hållbara lösningar och bidra till att nå Sveriges klimatmål. Effektiviseringen kan också minska handläggningstiderna och därmed minska kostnaderna för både företag och myndigheter.", "eu_koppling": "Ingen tydlig koppling till specifik EU-lagstiftning, men miljöprövning regleras i viss utsträckning av EU:s miljödirektiv."}], "2026-04-13": [{"title": "Extra ändringsbudget för 2026 – Sänkt skatt på drivmedel samt el- och gasprisstöd", "url": "https://data.riksdagen.se/dokument/HD03236.html", "source": "Riksdagen", "committee": "Finansdepartementet", "relevans": "medel", "sammanfattning": "", "tech_vinkel": "Propositionen handlar om sänkta drivmedelsskatter och el- och gasprisstöd, vilket indirekt påverkar utvecklingen och användningen av elfordon och laddinfrastruktur.", "varfor": "Ändringsbudgeten påverkar direkt konsumenternas incitament att köpa elfordon och laddningsinfrastruktur, vilket är avgörande för Sveriges klimatmål och omställningen till en mer hållbar transportsektor. Beslutet kan också påverka investeringar i laddinfrastruktur och batteriteknik.", "eu_koppling": ""}, {"title": "2026 års ekonomiska vårproposition", "url": "https://data.riksdagen.se/dokument/HD03100.html", "source": "Riksdagen", "committee": "Finansdepartementet", "relevans": "medel", "sammanfattning": "Regeringen lämnar över 2026 års ekonomiska vårproposition till riksdagen. Den innehåller förslag till riktlinjer för statens finanspolitik under kommande år, med fokus på att anpassa ekonomin till en osäker omvärld. Propositionen kommer att ligga till grund för vårbudgeten och påverkar hur staten fördelar pengar till olika områden. Den påverkar i slutändan alla medborgare genom skatter, bidrag och offentliga tjänster.", "tech_vinkel": "Propositionen kan innehålla satsningar på digitalisering och AI, men det framgår inte i sammanfattningen. Det är viktigt att granska detaljerna i propositionen för att se om det finns specifika insatser för att stödja AI-forskning, utveckling av digital infrastruktur eller implementering av EU:s AI-lagstiftning.", "varfor": "Vårpropositionen är avgörande för att forma den ekonomiska politiken och påverkar hur resurser allokeras till viktiga områden som utbildning, sjukvård och infrastruktur. Om den innehåller satsningar på digitalisering kan det påverka innovationstakten och Sveriges konkurrenskraft. Tajmingen är viktig eftersom den sätter ramarna för den kommande budgetprocessen.", "eu_koppling": "AI Act (EU:s AI-förordning) (EU:s lagstiftning som reglerar artificiell intelligens)"}], "2026-04-09": [{"title": "Ett utökat straffrättsligt tjänstemannaansvar", "url": "https://data.riksdagen.se/dokument/HD03217.html", "source": "Riksdagen", "committee": "Justitiedepartementet", "relevans": "medel", "sammanfattning": "Regeringen föreslår en proposition om ett utökat straffrättsligt ansvar för tjänstemän. Det innebär att tjänstemän som agerar vårdslöst och orsakar skada, till exempel genom felaktiga beslut eller underlåtenhet, kan dömas för brott. Syftet är att öka tryggheten och säkerheten i samhället samt att stärka allmänhetens förtroende för myndigheterna. Förslaget påverkar alla statliga och kommunala tjänstemän.", "tech_vinkel": "Propositionen kan få indirekta konsekvenser för tjänstemän som hanterar digitala system och data, eftersom felaktig hantering av dessa kan leda till straffrättsligt ansvar. Det är dock inte ett direkt fokus på teknik, utan snarare på ansvaret för tjänstemän oavsett deras arbetsuppgifter.", "varfor": "Detta förslag kan leda till att tjänstemän blir mer försiktiga i sina beslut, vilket i sin tur kan förbättra kvaliteten på myndighetsutövningen. Det kan också öka medvetenheten om vikten av korrekt hantering av information och data, särskilt i digitala system. Förändringen kan påverka hur myndigheter arbetar med digitalisering och automatisering, eftersom tjänstemän kan vara mer tveksamma att använda nya tekniker om de riskerar att bli straffade för fel.", "eu_koppling": "Ingen tydlig koppling till EU-lagstiftning, men kan indirekt påverkas av EU:s dataskyddsförordning (GDPR (EU:s dataskyddsförordning)) som ställer krav på dataskydd och integritet."}], "2026-04-07": [{"title": "Strategisk exportkontroll 2025 – krigsmateriel och produkter med dubbla användningsområden", "url": "https://data.riksdagen.se/dokument/HD03114.html", "source": "Riksdagen", "committee": "Utrikesdepartementet", "relevans": "hög", "sammanfattning": "Regeringens skrivelse 2025/26:114 handlar om strategisk exportkontroll av krigsmateriel och produkter med dubbla användningsområden. Det innebär att regeringen redovisar hur Sverige ska reglera exporten av varor som både kan användas civilt och militärt. Skrivelsen syftar till att förhindra att dessa produkter hamnar i fel händer, exempelvis hos stater eller organisationer som kan använda dem för att utveckla vapen eller krigföring. Den riktar sig till riksdagen för information och eventuell vidare hantering.", "tech_vinkel": "Skrivelsen berör produkter med dubbla användningsområden, vilket inkluderar avancerad teknik som kan användas både för civila och militära ändamål, exempelvis vissa typer av elektronik och precisionsinstrument, och kräver därför en noggrann bedömning av exportrestriktioner.", "varfor": "Striktare exportkontroll kan påverka svenska företag som exporterar teknik och komponenter, särskilt de som verkar inom områden som har både civila och militära tillämpningar. Det är viktigt för Sveriges säkerhet att förhindra att känslig teknologi används för att utveckla vapen, samtidigt som det är viktigt att inte hindra legitima handelsflöden. Tajmingen är viktig med tanke på den geopolitiska situationen och ökade spänningar i världen.", "eu_koppling": "Exportkontroll regleras delvis genom EU:s förordningar och beslut, som Sverige måste implementera i sin nationella lagstiftning. Dessa regleringar syftar till att harmonisera exportkontrollreglerna inom EU."}, {"title": "med anledning av prop. 2025/26:212 Kommunala hyresgarantier för en socialt hållbar bostadsförsörjning", "url": "https://data.riksdagen.se/dokument/HD024067.html", "source": "Riksdagen", "committee": "CU", "relevans": "medel", "sammanfattning": "", "tech_vinkel": "Motionen antyder en potentiell reglering av hyresvärdar, vilket kan innebära krav på digitala system för hyresadministration och datahantering, och därmed påverka fastighetsägare och hyresgäster.", "varfor": "Digitaliseringen av fastighetsbranschen ökar, och med den kommer frågor om dataskydd, algoritmisk prissättning och transparens i hyresprocessen. En reglering kring hyresvärdars agerande kan därför få betydande konsekvenser för hur hyresmarknaden fungerar och hur hyresgästernas rättigheter skyddas.", "eu_koppling": "Även om direkt kopplat till nationell lagstiftning, kan dataskyddsaspekter relaterade till hyresadministration och digitala plattformar kopplas till GDPR (General Data Protection Regulation), en EU-förordning."}], "2026-04-01": [{"title": "Lagändringar för ett stärkt nationellt cybersäkerhetscenter", "url": "https://data.riksdagen.se/dokument/HD03214.html", "source": "Riksdagen", "committee": "Försvarsdepartementet", "relevans": "hög", "sammanfattning": "Regeringen föreslår lagändringar för att stärka det nationella cybersäkerhetscentret. Propositionen 2025/26:214 syftar till att ge centret förbättrade befogenheter och resurser för att hantera cyberhot och stödja organisationer i att stärka sin cybersäkerhet. Ändringarna kommer att påverka både statliga myndigheter och privata företag som är kritiska för samhällets funktion. Syftet är att öka Sveriges förmåga att skydda sig mot cyberattacker.", "tech_vinkel": "Propositionen föreslår att det nationella cybersäkerhetscentret ska få utökade befogenheter att genomföra intrångsdetektering och incidenthantering, vilket innebär att centret kommer att ha möjlighet att aktivt söka efter och åtgärda säkerhetsbrister i system och nätverk.", "varfor": "De föreslagna ändringarna är avgörande för att möta den ökande komplexiteten och frekvensen av cyberattacker mot Sverige. Ett stärkt cybersäkerhetscenter kommer att kunna erbjuda bättre stöd till organisationer och myndigheter, vilket minskar risken för allvarliga störningar i samhällsfunktioner och ekonomiska förluster. Tajmingen är viktig med tanke på den geopolitiska situationen och den ökande risken för statligt sponsrade cyberattacker.", "eu_koppling": "NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter) (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet) är en viktig bakgrund till propositionen, då den sätter ramarna för cybersäkerhetskraven på svenska organisationer och myndigheter."}], "2026-03-16": [{"title": "Polismyndighetens behandling av personuppgifter, Dir. 2026:17", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/", "source": "Regeringen", "committee": "Justitiedepartementet, Regeringen", "relevans": "hög", "sammanfattning": "Regeringen startar en utredning om hur Polismyndigheten hanterar personuppgifter. Utredningen ska se över reglerna för att säkerställa att de är moderna och effektiva för brottsbekämpning, samtidigt som den tar hänsyn till individens rättigheter och dataskydd. Utredningen kommer att analysera hur Polismyndigheten använder information och tekniska system, och föreslå eventuella förändringar i lagstiftningen. Detta påverkar Polismyndigheten, brottsbekämpande myndigheter och allmänheten.", "tech_vinkel": "Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.", "varfor": "En uppdatering av reglerna för Polismyndighetens hantering av personuppgifter är viktig för att balansera brottsbekämpning med individens rättigheter och dataskydd. Om utredningen leder till nya regler kan det påverka hur Polismyndigheten använder teknik för att bekämpa brott, och det kan kräva investeringar i nya system och utbildning. Det är också viktigt att säkerställa att Polismyndighetens agerande är förenligt med GDPR (EU:s dataskyddsförordning) och andra relevanta lagar.", "eu_koppling": "GDPR (EU:s dataskyddsförordning) (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas och kommer att vara en central referenspunkt för utredningen."}], "2026-02-23": [{"title": "Remiss Utkast till lagrådsremiss  Elektronisk övervakning – ett verktyg för socialtjänsten till skydd för barn och unga,  S2026/00342", "url": "https://www.regeringen.se/remisser/2026/02/remiss-utkast-till-lagardsremiss--elektronisk-overvakning--ett-verktyg-for-socialtjansten-till-skydd-for-barn-och-unga/", "source": "Regeringen", "committee": "Socialdepartementet", "relevans": "hög", "sammanfattning": "Regeringen har fått in svar på en remiss om att ge socialtjänsten rätt att använda elektronisk övervakning, som GPS-spårning och mobiltelefontolkning, för att skydda barn och unga. Remissen är ett utkast till lagrådsremiss, vilket innebär att den ska granskas av jurister innan den eventuellt blir lag. Syftet är att ge socialtjänsten ett nytt verktyg för att identifiera och ingripa i situationer där barn riskerar att fara illa. Remissen har skickats ut till olika myndigheter och organisationer för att de ska ge sina synpunkter.", "tech_vinkel": "Remissen föreslår att socialtjänsten ska få använda tekniker som GPS-spårning och mobiltelefontolkning, vilket innebär insamling och analys av personuppgifter i realtid och potentiellt omfattande datalagring.", "varfor": "Om remissen blir lag kan det innebära en utökning av statens övervakningsbefogenheter och en potentiell inskränkning av individers rätt till privatliv. Det är viktigt att säkerställa att användningen av dessa tekniker sker på ett rättssäkert sätt och att barnens och ungas rättigheter skyddas. Implementeringen kommer att kräva tydliga riktlinjer för hur data ska hanteras och lagras för att undvika missbruk och säkerställa transparens.", "eu_koppling": "Remissen berör GDPR (EU:s dataskyddsförordning) (EU:s dataskyddsförordning), som reglerar hur personuppgifter får samlas in och behandlas. Användningen av elektronisk övervakning måste vara förenlig med GDPR:s principer om dataminimering, ändamålsbegränsning och rätt till information."}], "2026-03-24": [{"title": "Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576", "url": "https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/", "source": "Regeringen", "committee": "Försvarsdepartementet", "relevans": "hög", "sammanfattning": "Regeringen har skickat ut en remiss till olika svenska myndigheter och organisationer angående Europeiska kommissionens cybersäkerhetspaket. Paketet innehåller förslag på ändringar i cybersäkerhetsakten (EU 2019/881) och NIS 2-direktivet (EU 2022/2555). Syftet är att samla in synpunkter på kommissionens förslag innan Sverige formellt ska implementera dem i nationell lagstiftning. Remissen riktar sig till de som berörs av dessa lagar, vilket inkluderar företag, myndigheter och organisationer som hanterar kritisk infrastruktur.", "tech_vinkel": "Remissen handlar specifikt om att ändra NIS 2-direktivet (EU 2022/2555), som tvingar kritiska verksamheter att höja sin cybersäkerhet genom bland annat incidentrapportering och riskanalyser.", "varfor": "Ändringarna i NIS 2-direktivet kommer att påverka svenska företag och myndigheter som anses vara kritiska för samhället, till exempel energibolag, sjukhus och banker. Implementeringen av dessa ändringar kommer att innebära nya krav på säkerhetsåtgärder och rapporteringsrutiner, vilket kan innebära kostnader och utmaningar för berörda aktörer. Remissen ger svenska aktörer möjlighet att påverka hur dessa krav ska utformas i Sverige.", "eu_koppling": "NIS 2-direktivet (EU 2022/2555) är ett EU-direktiv som syftar till att stärka cybersäkerheten i EU genom att införa bindande krav för kritiska enheter och essentiella tjänsteleverantörer."}], "2026-04-15": [{"title": "EP-utskottet för sysselsättning (EMPL)-möte om 'Human Work in the Digital Age' hölls.", "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260319CAN77100", "source": "AI Continent Action Plan", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}, {"title": "Preliminär tidpunkt för riksdagsdebatt (kan ändras)", "url": "https://data.riksdagen.se/dokument/HD03213.html", "source": "Stärkt lagstiftning mot hedersrelaterat våld", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}, {"title": "Dataskydd och integritet: Preliminär tidplan för riksdagsbehandling av propositionen.", "url": "https://data.riksdagen.se/dokument/HD03222.html", "source": "Dataskydd och integritet", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}, {"title": "Pressmeddelande om åtgärder för att skydda operativa system publiceras.", "url": "https://www.regeringen.se/pressmeddelanden/2026/04/regeringen-vidtar-atgarder-for-att-skydda-operativa-system-fran-cyberhot/", "source": "Cybersäkerhetscenter", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-04-26": [{"title": "Digital Fairness Act: Konsultationen stänger", "url": "https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act", "source": "Digital Fairness Act", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-05-01": [{"title": "Cybersäkerhetscenter: Riksdagen behandlar propositionen.", "url": "https://data.riksdagen.se/dokument/HD03214.html", "source": "Cybersäkerhetscenter", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-05-05": [{"title": "Uppkopplade fordon: Första mötet för utskottet.", "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128", "source": "Uppkopplade fordon", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-05-09": [{"title": "Sociala medier: Riksdagsdebatt om propositionen", "url": "https://data.riksdagen.se/dokument/HD03217.html", "source": "Sociala medier", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-05-14": [{"title": "Vindkraftsutbyggnad: Riksdagen behandlar propositionen.", "url": "https://data.riksdagen.se/dokument/HD03239.html", "source": "Vindkraftsutbyggnad", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-05-15": [{"title": "Preliminär tidpunkt för riksdagsdebatt.", "url": "https://data.riksdagen.se/dokument/HD03244.html", "source": "Digital infrastruktur", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-05-16": [{"title": "Digital infrastruktur: Riksdagen behandlar propositionen.", "url": "https://data.riksdagen.se/dokument/HD03244.html", "source": "Digital infrastruktur", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}, {"title": "Stärkt lagstiftning mot hedersrelaterat våld: Riksdagen inleder granskning av propositionen.", "url": "https://data.riksdagen.se/dokument/HD03246.html", "source": "Stärkt lagstiftning mot hedersrelaterat våld", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-06-03": [{"title": "Uppkopplade fordon: Andra mötet för utskottet.", "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128", "source": "Uppkopplade fordon", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-06-22": [{"title": "Uppkopplade fordon: Tredje mötet för utskottet.", "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128", "source": "Uppkopplade fordon", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-10-08": [{"title": "Digitala marknader: Förväntad tidpunkt för Vetenskapsrådets rapport till regeringen.", "url": "https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/", "source": "Digitala marknader", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}], "2026-12-08": [{"title": "Uppdrag till Vetenskapsrådet att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur: Preliminär tidpunkt för att Vetenskapsrådet ska redovisa uppdraget till regeringen.", "url": "https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/", "source": "Viktigt datum", "committee": "", "relevans": "hög", "sammanfattning": "", "tech_vinkel": "", "varfor": "", "eu_koppling": ""}]};
+    const RELEVANCE_COLOR = {"hög":"#c0392b","medel":"#d68910","låg":"#27ae60","okänd":"#888"};
+    const RELEVANCE_EMOJI = {"hög":"🔴","medel":"🟡","låg":"🟢","okänd":"⚪"};
+    const MONTHS_SV = ["","januari","februari","mars","april","maj","juni","juli","augusti","september","oktober","november","december"];
+
+    function formatDate(iso) {
+      const [y,m,d] = iso.split("-").map(Number);
+      return d + " " + MONTHS_SV[m] + " " + y;
+    }
+
+    function showDay(dateIso) {
+      const items = CAL_DATA[dateIso];
+      if (!items || items.length === 0) return;
+      document.getElementById("day-panel-title").textContent = "📅 " + formatDate(dateIso);
+      const body = document.getElementById("day-panel-body");
+      body.innerHTML = items.map(item => {
+        const color = RELEVANCE_COLOR[item.relevans] || "#888";
+        const emoji = RELEVANCE_EMOJI[item.relevans] || "⚪";
+        const link = item.url ? `<a href="${item.url}" target="_blank" class="panel-read-more">Läs originaldokumentet →</a>` : "";
+        const eu = item.eu_koppling ? `<p class="panel-eu">🇪🇺 ${item.eu_koppling}</p>` : "";
+        const samm = item.sammanfattning ? `<p class="panel-samm"><strong>Vad handlar det om?</strong> ${item.sammanfattning}</p>` : "";
+        const vinkel = item.tech_vinkel ? `<p class="panel-vinkel"><strong>Tech-vinkel:</strong> ${item.tech_vinkel}</p>` : "";
+        const varfor = item.varfor ? `<p class="panel-varfor"><strong>Varför viktigt:</strong> ${item.varfor}</p>` : "";
+        const meta = [item.source, item.committee].filter(Boolean).join(" · ");
+        return `
+          <div class="panel-card" style="border-left:4px solid ${color}">
+            <div class="panel-badge" style="background:${color}">${emoji} ${item.relevans}</div>
+            <h4 class="panel-title">${item.title}</h4>
+            <p class="panel-meta">${meta}</p>
+            ${samm}${vinkel}${varfor}${eu}
+            ${link}
+          </div>`;
+      }).join("");
+      document.getElementById("day-panel").classList.add("open");
+    }
+
+    function closePanel() {
+      document.getElementById("day-panel").classList.remove("open");
+    }
+
+    document.addEventListener("keydown", e => { if (e.key === "Escape") closePanel(); });
+
+    // ── Navigerbar månadskalender ──────────────────────────
+    const TODAY_ISO = "2026-04-21";
+    const TODAY = new Date(TODAY_ISO + "T00:00:00");
+    const MONTHS_SV_CAL = ["Januari","Februari","Mars","April","Maj","Juni",
+                            "Juli","Augusti","September","Oktober","November","December"];
+    const DAYS_SV = ["Mån","Tis","Ons","Tor","Fre","Lör","Sön"];
+    const REL_DOT = {"hög":"#e74c3c","medel":"#f39c12","låg":"#2ecc71","okänd":"#ccc"};
+
+    // Beräkna max månad (minst 13 månader fram, eller längsta datum i CAL_DATA)
+    let maxYear = TODAY.getFullYear(), maxMonth = TODAY.getMonth() + 14;
+    if (maxMonth > 12) { maxYear += Math.floor((maxMonth-1)/12); maxMonth = ((maxMonth-1)%12)+1; }
+    for (const iso of Object.keys(CAL_DATA)) {
+      const [y,m] = iso.split("-").map(Number);
+      if (y > maxYear || (y === maxYear && m > maxMonth)) { maxYear = y; maxMonth = m; }
+    }
+
+    let calYear = TODAY.getFullYear();
+    let calMonth = TODAY.getMonth() + 1; // 1-indexed
+
+    function renderCalendar(year, month) {
+      document.getElementById("cal-month-title").textContent =
+        MONTHS_SV_CAL[month-1] + " " + year;
+
+      // Prev-knapp: aldrig bakåt förbi nuvarande månad
+      const atMin = (year === TODAY.getFullYear() && month === TODAY.getMonth()+1);
+      document.getElementById("cal-prev").disabled = atMin;
+      document.getElementById("cal-prev").style.opacity = atMin ? "0.3" : "1";
+
+      // Next-knapp: aldrig framåt förbi max
+      const atMax = (year === maxYear && month === maxMonth);
+      document.getElementById("cal-next").disabled = atMax;
+      document.getElementById("cal-next").style.opacity = atMax ? "0.3" : "1";
+
+      // Bygg rader
+      const firstDay = new Date(year, month-1, 1).getDay(); // 0=sön
+      const daysInMonth = new Date(year, month, 0).getDate();
+      // Justera: måndag = 0
+      const startOffset = (firstDay + 6) % 7;
+
+      let html = "<tr>";
+      for (let i = 0; i < startOffset; i++) html += '<td class="cal-empty-cell"></td>';
+
+      let col = startOffset;
+      for (let day = 1; day <= daysInMonth; day++) {
+        const iso = year + "-" + String(month).padStart(2,"0") + "-" + String(day).padStart(2,"0");
+        const items = CAL_DATA[iso] || [];
+        const isToday = iso === TODAY_ISO ? "today" : "";
+        const hasItems = items.length ? "has-items" : "";
+        const click = items.length ? `onclick="showDay('${iso}')"` : "";
+
+        let dots = "";
+        const seen = new Set();
+        for (const it of items.slice(0,3)) {
+          const r = it.relevans || "okänd";
+          if (!seen.has(r)) { seen.add(r); dots += `<span class="dot" style="background:${REL_DOT[r]||'#ccc'}"></span>`; }
+        }
+
+        html += `<td class="cal-cell ${isToday} ${hasItems}" ${click} title="${items.length} ärenden">
+          <span class="day-num">${day}</span><div class="dots">${dots}</div></td>`;
+
+        col++;
+        if (col % 7 === 0 && day < daysInMonth) html += "</tr><tr>";
+      }
+      // Fyll ut sista raden
+      const remaining = (7 - (col % 7)) % 7;
+      for (let i = 0; i < remaining; i++) html += '<td class="cal-empty-cell"></td>';
+      html += "</tr>";
+
+      document.getElementById("cal-body").innerHTML = html;
+    }
+
+    function prevMonth() {
+      if (calMonth === 1) { calMonth = 12; calYear--; } else calMonth--;
+      renderCalendar(calYear, calMonth);
+    }
+
+    function nextMonth() {
+      if (calMonth === 12) { calMonth = 1; calYear++; } else calMonth++;
+      renderCalendar(calYear, calMonth);
+    }
+
+    renderCalendar(calYear, calMonth);
+    </script>
+  
+    <section class="dashboard-section">
+      <h2 class="section-title">📊 Översikt per tema</h2>
+      <div class="dash-grid">
+        <div class="dash-tema">
+          <h3 class="dash-tema-title">🛡️ Cybersäkerhet <span class="dash-count">2</span></h3>
+          <div class="dash-rows">
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03214.html" target="_blank" class="dash-title">Lagändringar för ett stärkt nationellt cybersäkerhetscenter</a>
+                <p class='dash-vinkel'>Propositionen föreslår att det nationella cybersäkerhetscentret ska få utökade befogenheter att genomföra intrångsdetektering och incidenthantering, vilket innebär att centret kommer att ha möjlighet att aktivt söka efter och åtgärda säkerhetsbrister i system…</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">1 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/" target="_blank" class="dash-title">Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576</a>
+                <p class='dash-vinkel'>Remissen handlar specifikt om att ändra NIS 2-direktivet (EU 2022/2555), som tvingar kritiska verksamheter att höja sin cybersäkerhet genom bland annat incidentrapportering och riskanalyser.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">24 mars</span>
+                <span class="dash-source">Reg</span>
+                
+              </div>
+            </div></div>
+        </div>
+        <div class="dash-tema">
+          <h3 class="dash-tema-title">🔒 Dataskydd och integritet <span class="dash-count">1</span></h3>
+          <div class="dash-rows">
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://www.regeringen.se/remisser/2026/02/remiss-utkast-till-lagardsremiss--elektronisk-overvakning--ett-verktyg-for-socialtjansten-till-skydd-for-barn-och-unga/" target="_blank" class="dash-title">Remiss Utkast till lagrådsremiss  Elektronisk övervakning – ett verktyg för socialtjänsten till skydd för barn och unga,  S2026/00342</a>
+                <p class='dash-vinkel'>Remissen föreslår att socialtjänsten ska få använda tekniker som GPS-spårning och mobiltelefontolkning, vilket innebär insamling och analys av personuppgifter i realtid och potentiellt omfattande datalagring.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">23 februari</span>
+                <span class="dash-source">Reg</span>
+                
+              </div>
+            </div></div>
+        </div>
+        <div class="dash-tema">
+          <h3 class="dash-tema-title">🌐 Digital infrastruktur <span class="dash-count">2</span></h3>
+          <div class="dash-rows">
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03244.html" target="_blank" class="dash-title">Nya krav på interoperabilitet vid datadelning inom den offentliga förvaltningen</a>
+                <p class='dash-vinkel'>Propositionen kräver att myndigheter använder sig av standardiserade gränssnitt och protokoll för datadelning, vilket innebär en satsning på interoperabilitetsstandarder och potentiellt nya tekniska lösningar för att möjliggöra sömlös datautbyte mellan olika…</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">16 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#f39c12"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03239.html" target="_blank" class="dash-title">Vindkraft i kommuner</a>
+                <p class='dash-vinkel'>Propositionen implicerar behovet av smarta elnät och digital infrastruktur för att effektivt integrera och hantera den ökade produktionen av vindkraft, vilket kan kräva investeringar i uppgraderingar och digitalisering av elnätet.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">14 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div></div>
+        </div>
+        <div class="dash-tema">
+          <h3 class="dash-tema-title">💬 Sociala medier <span class="dash-count">1</span></h3>
+          <div class="dash-rows">
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#f39c12"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03217.html" target="_blank" class="dash-title">Ett utökat straffrättsligt tjänstemannaansvar</a>
+                <p class='dash-vinkel'>Propositionen kan få indirekta konsekvenser för tjänstemän som hanterar digitala system och data, eftersom felaktig hantering av dessa kan leda till straffrättsligt ansvar. Det är dock inte ett direkt fokus på teknik, utan snarare på ansvaret för tjänstemän…</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">9 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div></div>
+        </div>
+        <div class="dash-tema">
+          <h3 class="dash-tema-title">⚙️ Övrigt tech <span class="dash-count">11</span></h3>
+          <div class="dash-rows">
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/" target="_blank" class="dash-title">Uppdrag till Vetenskapsrådet att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur</a>
+                <p class='dash-vinkel'>Uppdraget fokuserar på att skapa en nationell samordning för digital forskningsinfrastruktur, vilket inkluderar beräkningsresurser, datalagring och nätverk – kritiska komponenter för AI-forskning, big data-analys och andra avancerade teknologier.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">8 april</span>
+                <span class="dash-source">Reg</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03114.html" target="_blank" class="dash-title">Strategisk exportkontroll 2025 – krigsmateriel och produkter med dubbla användningsområden</a>
+                <p class='dash-vinkel'>Skrivelsen berör produkter med dubbla användningsområden, vilket inkluderar avancerad teknik som kan användas både för civila och militära ändamål, exempelvis vissa typer av elektronik och precisionsinstrument, och kräver därför en noggrann bedömning av…</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">7 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/" target="_blank" class="dash-title">Polismyndighetens behandling av personuppgifter, Dir. 2026:17</a>
+                <p class='dash-vinkel'>Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">16 mars</span>
+                <span class="dash-source">Reg</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones" target="_blank" class="dash-title">AI Continent Action Plan delivers major milestones</a>
+                <p class='dash-vinkel'>Nyheten lyfter fram att EU-kommissionen har nått viktiga milstolpar i sin AI Continent Action Plan, vilket indikerar konkreta framsteg inom utvecklingen och implementeringen av AI-system i Europa.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">Thu, 09 Ap</span>
+                <span class="dash-source">EU-kom</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act" target="_blank" class="dash-title">Have your say on the Digital Fairness Act</a>
+                <p class='dash-vinkel'>Konsultationen handlar om Digital Fairness Act, vilket sannolikt kommer att innebära krav på plattformsansvar, åldersverifiering, och reglering av algoritmer som påverkar innehåll som presenteras för minderåriga, vilket är en direkt koppling till frågor om…</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">Tue, 31 Ma</span>
+                <span class="dash-source">EU-kom</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility" target="_blank" class="dash-title">Open EU Foundry status granted to innovative chiplet facility</a>
+                <p class='dash-vinkel'>Kommissionens beslut att ge Silicon Box status som 'Open EU Foundry' visar på ett konkret steg i EU:s satsning på chiplet-teknik, en viktig komponent för framtidens datorkraft och elektronik.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">Mon, 16 Ma</span>
+                <span class="dash-source">EU-kom</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#e74c3c"></span>
+              <div class="dash-main">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20260319CAN77100" target="_blank" class="dash-title">Highlights - EMPL ICM on "Human Work in the Digital Age" - Committee on Employment and Social Affairs</a>
+                <p class='dash-vinkel'>Debatten handlar om hur artificiell intelligens och nya arbetsformer påverkar människors arbete och ökar stressen på arbetsplatsen.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">Thu, 16 Ap</span>
+                <span class="dash-source">EP</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#f39c12"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03238.html" target="_blank" class="dash-title">Ny myndighet för miljöprövning</a>
+                <p class='dash-vinkel'>Den nya myndigheten kommer sannolikt att använda digitala verktyg och system för att hantera ansökningar, data och kommunikation, vilket kan innebära behov av utveckling och implementering av ny IT-infrastruktur och digitala arbetsflöden.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">14 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#f39c12"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03236.html" target="_blank" class="dash-title">Extra ändringsbudget för 2026 – Sänkt skatt på drivmedel samt el- och gasprisstöd</a>
+                <p class='dash-vinkel'>Propositionen handlar om sänkta drivmedelsskatter och el- och gasprisstöd, vilket indirekt påverkar utvecklingen och användningen av elfordon och laddinfrastruktur.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">13 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#f39c12"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD03100.html" target="_blank" class="dash-title">2026 års ekonomiska vårproposition</a>
+                <p class='dash-vinkel'>Propositionen kan innehålla satsningar på digitalisering och AI, men det framgår inte i sammanfattningen. Det är viktigt att granska detaljerna i propositionen för att se om det finns specifika insatser för att stödja AI-forskning, utveckling av digital…</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">13 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div>
+            <div class="dash-row">
+              <span class="dash-dot" style="background:#f39c12"></span>
+              <div class="dash-main">
+                <a href="https://data.riksdagen.se/dokument/HD024067.html" target="_blank" class="dash-title">med anledning av prop. 2025/26:212 Kommunala hyresgarantier för en socialt hållbar bostadsförsörjning</a>
+                <p class='dash-vinkel'>Motionen antyder en potentiell reglering av hyresvärdar, vilket kan innebära krav på digitala system för hyresadministration och datahantering, och därmed påverka fastighetsägare och hyresgäster.</p>
+              </div>
+              <div class="dash-meta">
+                <span class="dash-date">7 april</span>
+                <span class="dash-source">Riksdag</span>
+                
+              </div>
+            </div></div>
+        </div></div>
+    </section>
+  
+    <section class="calendar-section">
+      <h2 class="section-title">📂 Pågående ärenden</h2>
+      <div class="arenden-grid">
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Elfordonsstrategi</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-04-01</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD024033.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>med anledning av prop. 2025/26:196 Tid för undervisningsuppdraget</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Motionen handlar om finansiering av regleringar kring lärarnas arbetsuppgifter, vilket indirekt kan påverka användningen av digitala verktyg och AI-stöd i skolan.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-13</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03236.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Extra ändringsbudget för 2026 – Sänkt skatt på drivmedel samt el- och gasprisstöd</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Propositionen handlar om sänkta drivmedelsskatter och el- och gasprisstöd, vilket indirekt påverkar utvecklingen och användningen av elfordon och laddinfrastruktur.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-16</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD01SkU23.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Permanent skattefrihet för förmån av laddel på arbetsplatsen och utvidgad rätt till avdrag för drivmedelsutgifter</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Förslaget underlättar användningen av elfordon genom att eliminera skattekonsekvenser för laddning på arbetsplatsen, vilket är en direkt teknisk lösning för att stödja en växande marknad för uppladdningsinfrastruktur för elbilar.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Wed, 15 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Latest news - Committee on Transport and Tourism</strong></a>
+                <span class="tl-source">EU-parlamentet</span>
+                <p class='tl-vinkel'>Utskottet för transport och turism behandlar frågor som rör uppkopplade fordon och potentiellt även järnväg och kollektivtrafik, vilket kan innebära diskussioner kring digital infrastruktur och automatiserade system.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Riksdagen kommer att behandla propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Ekonomisk vårproposition</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-04-13</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03100.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>2026 års ekonomiska vårproposition</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Vårpropositionen kan innehålla budgetposter och prioriteringar som påverkar statliga satsningar på AI-forskning, digital infrastruktur och reglering av tech-sektorn.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-13</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD0399.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Vårändringsbudget för 2026</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Vårändringsbudgeten kan påverka statliga satsningar på digitalisering och teknikutveckling, vilket indirekt påverkar områden som AI och cybersäkerhet.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Riksdagen kommer att behandla propositionen och eventuellt lägga ändringsförslag innan den godkänns.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Cybersäkerhetscenter</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-04-01</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03214.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Lagändringar för ett stärkt nationellt cybersäkerhetscenter</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Propositionen handlar om att stärka cybersäkerheten i Sverige genom lagändringar för det nationella cybersäkerhetscentret, vilket innebär att staten satsar på att skydda digital infrastruktur och data.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-14</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.regeringen.se/pressmeddelanden/2026/04/pressbriefing-om-cyberhotbilden-mot-kritisk-infrastruktur/" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Pressbriefing om cyberhotbilden mot kritisk infrastruktur</strong></a>
+                <span class="tl-source">Regeringen</span>
+                <p class='tl-vinkel'>Pressbriefingen handlar om cyberhot mot kritisk infrastruktur, vilket direkt berör cybersäkerhet, ett område som är starkt beroende av tekniska lösningar och expertis inom IT-säkerhet.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-15</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.regeringen.se/pressmeddelanden/2026/04/regeringen-vidtar-atgarder-for-att-skydda-operativa-system-fran-cyberhot/" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Regeringen vidtar åtgärder för att skydda operativa system från cyberhot</strong></a>
+                <span class="tl-source">Regeringen</span>
+                <p class='tl-vinkel'>Pressmeddelandet handlar specifikt om att skydda 'operativa system', vilket är en direkt referens till den mjukvara och hårdvara som driver kritisk infrastruktur och myndigheter, och därmed en central teknisk fråga.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-16</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD024093.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>med anledning av prop. 2025/26:214 Lagändringar för ett stärkt nationellt cybersäkerhetscenter</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Motionen lyfter fram behovet av ytterligare analyser i samband med lagändringar som syftar till att stärka det nationella cybersäkerhetscentret, vilket direkt relaterar till tekniska aspekter av cybersäkerhet och incidenthantering.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Riksdagen kommer att återkomma till frågan och begära ytterligare analyser, vilket kan leda till ytterligare lagändringar eller kompletterande åtgärder.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Digitala marknader</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">Sat, 11 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20240930CNW19304" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Newsletters - by the IMCO secretariat - Committee on the Internal Market and Consumer Protection</strong></a>
+                <span class="tl-source">EU-parlamentet</span>
+                <p class='tl-vinkel'>Nyhetsbrev från IMCO-utskottet behandlar troligen frågor kring digitala marknader, konsumentskydd och e-handel, vilket kan inkludera algoritmer och plattformars ansvar.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Sat, 11 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Latest news - Committee on the Internal Market and Consumer Protection</strong></a>
+                <span class="tl-source">EU-parlamentet</span>
+                <p class='tl-vinkel'>IMCO-utskottets möten behandlar troligen frågor som påverkar digitala marknader och konsumentskydd, vilket kan inkludera algoritmer, plattformars ansvar och AI-system.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Thu, 16 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Latest news - Next Committee Meetings; Wednesday, 6 May & Thursday, 7 May - Committee on the Internal Market and Consumer Protection</strong></a>
+                <span class="tl-source">EU-parlamentet</span>
+                <p class='tl-vinkel'>IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Thu, 26 Ma</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-breach-digital-services-act" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services</strong></a>
+                <span class="tl-source">EU-kommissionen</span>
+                <p class='tl-vinkel'>EU-kommissionen använder nu Digital Services Act (DSA) för att aktivt reglera innehåll på stora plattformar, vilket sätter en ny standard för hur online-tjänster måste skydda minderåriga och hantera olämpligt innehåll.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Thu, 26 Ma</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://digital-strategy.ec.europa.eu/en/news/commission-investigates-snapchats-compliance-child-protection-rules-under-digital-services-act" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Commission investigates Snapchat's compliance with child protection rules under the Digital Services Act</strong></a>
+                <span class="tl-source">EU-kommissionen</span>
+                <p class='tl-vinkel'>EU-kommissionen granskar nu hur en stor social medieplattform hanterar barns säkerhet, vilket sätter fokus på algoritmer, innehållsmoderering och plikt för plattformar att skydda unga användare – en central fråga i den pågående debatten om reglering av sociala medier.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Vetenskapsrådet ska nu genomföra utredningen och lämna förslag på hur ett nationellt samordningsansvar kan etableras.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">AI Continent Action Plan</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">Thu, 09 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>AI Continent Action Plan delivers major milestones</strong></a>
+                <span class="tl-source">EU-kommissionen</span>
+                <p class='tl-vinkel'>EU-kommissionen rapporterar om framsteg i sin AI Continent Action Plan, vilket innebär att de konkret investerar i och reglerar utvecklingen av AI-system i Europa.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Tue, 07 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-measuring-energy-consumption-and-emissions-ai-models-and-systems" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Targeted consultation on measuring energy consumption and emissions of AI models and systems</strong></a>
+                <span class="tl-source">EU-kommissionen</span>
+                <p class='tl-vinkel'>EU-kommissionen vill börja mäta energiförbrukningen och utsläppen från AI-system, vilket kan leda till nya regleringar och krav på transparens för AI-utvecklare.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Wed, 15 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20260319CAN77100" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Highlights - EMPL ICM on "Human Work in the Digital Age" - Committee on Employment and Social Affairs</strong></a>
+                <span class="tl-source">EU-parlamentet</span>
+                <p class='tl-vinkel'>Mötet behandlar specifikt artificiell intelligens (AI) och dess påverkan på arbetslivet, vilket är en central fråga i den pågående diskussionen om AI-reglering och dess konsekvenser för sysselsättningen.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Det är troligt att EU-kommissionen kommer att publicera ytterligare uppdateringar och utvärderingar av AI Continent Action Plan under de kommande åren.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Digital Fairness Act</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">Tue, 31 Ma</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Have your say on the Digital Fairness Act</strong></a>
+                <span class="tl-source">EU-kommissionen</span>
+                <p class='tl-vinkel'>Lagen kommer sannolikt att innebära nya regler för hur plattformar hanterar innehåll och algoritmer riktade mot minderåriga, vilket kan påverka hur sociala medier och spelutvecklare designar sina tjänster.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Efter konsultationen kommer EU-kommissionen att analysera synpunkterna och presentera ett lagförslag.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">EU Chips Act</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">Mon, 16 Ma</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Open EU Foundry status granted to innovative chiplet facility</strong></a>
+                <span class="tl-source">EU-kommissionen</span>
+                <p class='tl-vinkel'>EU-kommissionen ger stöd till en anläggning som tillverkar chiplets, vilket är en viktig teknik för framtidens datorsystem och AI-applikationer.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Silicon Box kommer sannolikt att börja implementera de åtgärder som krävs för att uppfylla kraven för 'Open EU Foundry'-status och dra nytta av de potentiella fördelarna.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">NIS2-implementering</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-new">Nytt idag</span>
+              <span class="arende-updated">2026-04-21</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-03-24</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576</strong></a>
+                <span class="tl-source">Regeringen</span>
+                <p class='tl-vinkel'>Remissen handlar specifikt om att ändra NIS 2-direktivet (EU 2022/2555), som tvingar kritiska verksamheter att höja sin cybersäkerhet genom bland annat incidentrapportering och riskanalyser.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> De svenska myndigheterna kommer att analysera remissvaren och föreslå hur EU:s direktiv ska implementeras i svensk lagstiftning.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Polismyndighetens personuppgiftsbehandling</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-16</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-03-16</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Polismyndighetens behandling av personuppgifter, Dir. 2026:17</strong></a>
+                <span class="tl-source">Regeringen</span>
+                <p class='tl-vinkel'>Direktivet pekar på behovet av att utvärdera hur Polismyndighetens användning av tekniska lösningar påverkar hanteringen av personuppgifter, vilket kan innebära att nya former av övervakning eller analys av data kommer att granskas.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">Wed, 15 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20260409CAN77481" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Highlights - Public Hearing on the Future of Police and Judicial Cooperation  - Committee on Civil Liberties, Justice and Home Affairs</strong></a>
+                <span class="tl-source">EU-parlamentet</span>
+                <p class='tl-vinkel'>Förhandlingen berör sannolikt användningen av digitala verktyg och teknologier inom polisarbete och rättsväsende, vilket kan inkludera ansiktsigenkänning, dataanalys och övervakningsteknik, och därmed är relevant för debatten kring biometrisk data och övervakning.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> EU-kommissionen förväntas presentera lagförslag baserat på de diskussioner som förs under utfrågningen.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Stärkt lagstiftning mot hedersrelaterat våld</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-16</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-03-19</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03213.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Stärkt lagstiftning mot hedersrelaterat våld och förtryck</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Propositionen betonar behovet av att utreda och förhindra digitalt våld och förtryck, vilket innebär att polisen och åklagarna kommer att behöva utveckla metoder för att hantera brott begångna via sociala medier och andra digitala plattformar, inklusive spårning av konton och innehåll.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-16</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03246.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Skärpta regler för unga lagöverträdare</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Propositionen föreslår att utredningar ska göras för att ta reda på om unga brottslingar har utsatts för våld eller missbruk online, vilket implicerar en granskning av deras aktivitet på sociala medier och andra digitala plattformar.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Stärkt kontroll av livsmedelskedjan</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-16</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-03-20</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03206.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Stärkt kontroll av fusk i livsmedelskedjan</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Propositionen föreslår att myndigheterna ska använda digitala tekniker, som blockkedjeteknik, för att förbättra spårbarheten och säkerställa att livsmedelskedjan är transparent och säker.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-03-20</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03205.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Beredskapslager i livsmedelskedjan</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Propositionen nämner behovet av att använda digitala system för att hantera och övervaka beredskapslagren, vilket inkluderar spårbarhet och lagerhantering, vilket är en digital infrastrukturfråga.</p>
+              </div>
+            </div>
+            <div class="tl-row">
+              <div class="tl-date">2026-04-07</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD024069.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>med anledning av prop. 2025/26:205 Beredskapslager i livsmedelskedjan</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Motionen betonar behovet av att regeringen inkluderar digitala system och infrastruktur i beredskapsplaneringen för livsmedelskedjan, vilket antyder att man vill säkerställa att dessa system är motståndskraftiga mot störningar och attacker.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Riksdagen kommer att behandla motionen och eventuellt ställa frågor till regeringen om hur de planerar att agera på förslagen.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Dataskydd och integritet</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-new">Nytt idag</span>
+              <span class="arende-updated">2026-04-16</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-03-17</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03208.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Integritet och ny teknik 2020–2024</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Skrivelsen behandlar Integritetsskyddsmyndighetens arbete, vilket sannolikt inkluderar frågor relaterade till dataskydd och integritet i förhållande till ny teknik, såsom generativ AI och andra framväxande teknologier som påverkar individers rättigheter.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Riksdagen kommer att granska skrivelsen och eventuellt ställa frågor till regeringen eller initiera en debatt.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Digital infrastruktur</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-new">Nytt idag</span>
+              <span class="arende-updated">2026-04-16</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">2026-03-17</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://data.riksdagen.se/dokument/HD03200.html" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Nya regler för att främja central clearing av OTC-derivat i EU</strong></a>
+                <span class="tl-source">Riksdagen</span>
+                <p class='tl-vinkel'>Propositionen kräver att fler OTC-derivat ska klareras centralt, vilket innebär att digitala system och plattformar för handel och avveckling av finansiella instrument kommer att behöva utvecklas och anpassas för att hantera den ökade volymen och komplexiteten.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.</div>
+        </div>
+        <div class="arende-card">
+          <div class="arende-header">
+            <span class="arende-name">Union Customs Code reform</span>
+            <div style="display:flex;gap:0.4rem;align-items:center">
+              <span class="arende-badge arende-badge-updated">Uppdaterat</span>
+              <span class="arende-updated">2026-04-15</span>
+            </div>
+          </div>
+          <div class="tl-container">
+            <div class="tl-row">
+              <div class="tl-date">Tue, 14 Ap</div>
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <a href="https://www.europarl.europa.eu/committees/en/product/product-details/20260325CAN77246" target="_blank" style="color:#4a6cf7;text-decoration:none"><strong>Highlights - Lille Designated as the Seat of the New EU Customs Authority - Committee on the Internal Market and Consumer Protection</strong></a>
+                <span class="tl-source">EU-parlamentet</span>
+                <p class='tl-vinkel'>Den nya EU-tullmyndigheten kommer att använda sig av digital teknik för att effektivisera gränskontroller och bekämpa smuggling, vilket kräver en moderniserad infrastruktur och potentiellt nya system för datahantering.</p>
+              </div>
+            </div></div>
+          <div class="arende-next">⏭ <strong>Näst upp:</strong> Utskottets beslut ska därefter presenteras för hela EU-parlamentet för en slutgiltig röstning.</div>
+        </div></div>
+    </section>
+  
+    <section class="calendar-section">
+      <h2 class="section-title">⏪ Vad hände?</h2>
+      <div class="cal-grid">
+        <div class="cal-block">
+          <h3 class="cal-block-title">Igår</h3>
+          <p class="cal-empty">Inga sparade ärenden från igår.</p>
+        </div>
+        <div class="cal-block" style="grid-column: span 2">
+          <h3 class="cal-block-title">Veckan som gick — toppärenden</h3>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.6rem">
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://data.riksdagen.se/dokument/HD03214.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Lagändringar för ett stärkt nationellt cybersäkerhetscenter</a>
+          <p class='mini-vinkel'>Propositionen föreslår att cybersäkerhetscentret ska få möjlighet att genomföra fler och mer omfattande analyser av cyberhot, vilket kräver förbättrade verktyg och kompetens inom områden som hotidentifiering, incidenthantering och digital forensik.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Uppdrag till Vetenskapsrådet att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur</a>
+          <p class='mini-vinkel'>Uppdraget fokuserar på att skapa en nationell samordning för digital forskningsinfrastruktur, vilket inkluderar beräkningsresurser, datalagring och nätverk – kritiska komponenter för AI-forskning, big data-analys och andra avancerade teknologier.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Polismyndighetens behandling av personuppgifter, Dir. 2026:17</a>
+          <p class='mini-vinkel'>Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 AI Continent Action Plan delivers major milestones</a>
+          <p class='mini-vinkel'>Nyheten lyfter fram att EU-kommissionen har nått viktiga milstolpar i sin AI Continent Action Plan, vilket indikerar konkreta framsteg inom utvecklingen och implementeringen av AI-system i Europa.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Have your say on the Digital Fairness Act</a>
+          <p class='mini-vinkel'>Konsultationen handlar om Digital Fairness Act, vilket sannolikt kommer att innebära krav på plattformsansvar, åldersverifiering, och reglering av algoritmer som påverkar innehåll som presenteras för minderåriga, vilket är en direkt koppling till frågor om algoritmer och reglering av sociala medier.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Open EU Foundry status granted to innovative chiplet facility</a>
+          <p class='mini-vinkel'>Kommissionens beslut att ge Silicon Box status som 'Open EU Foundry' visar på ett konkret steg i EU:s satsning på chiplet-teknik, en viktig komponent för framtidens datorkraft och elektronik.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://data.riksdagen.se/dokument/HD03244.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Nya krav på interoperabilitet vid datadelning inom den offentliga förvaltningen</a>
+          <p class='mini-vinkel'>Propositionen kräver att myndigheter använder sig av standardiserade gränssnitt och protokoll för datadelning, vilket innebär en satsning på interoperabilitetsstandarder och potentiellt nya tekniska lösningar för att möjliggöra sömlös datautbyte mellan olika system.</p>
+        </div>
+        <div class="mini-card" style="border-left:3px solid #c0392b">
+          <a href="https://data.riksdagen.se/dokument/HD03114.html" target="_blank" style="color:#1a1a2e;text-decoration:none;font-weight:600">🔴 Strategisk exportkontroll 2025 – krigsmateriel och produkter med dubbla användningsområden</a>
+          <p class='mini-vinkel'>Skrivelsen berör produkter med dubbla användningsområden, vilket inkluderar avancerad teknik som kan användas både för civila och militära ändamål, exempelvis vissa typer av elektronik och precisionsinstrument, och kräver därför en noggrann bedömning av exportrestriktioner.</p>
+        </div></div>
+        </div>
+      </div>
+    </section>
+  <h2 class="section-title">📰 Alla ärenden — detaljerad vy</h2>
+  
+        <section>
+          <h2 class="source-header">EU-kommissionen <span class="count">3</span></h2>
+          
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Open EU Foundry status granted to innovative chiplet facility</h3>
+        <p class="meta">Mon, 16 Ma · EU-kommissionen (digital-strategy)</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> EU-kommissionen har gett den italienska anläggningen Silicon Box i Novara status som 'Open EU Foundry'. Detta innebär att anläggningen får ett visst erkännande och potentiellt stöd inom ramen för EU:s satsning på att stärka Europas halvledarindustri. Statusen 'Open EU Foundry' är en del av EU:s bredare strategi för att öka självförsörjningen av mikrochips och minska beroendet av asiatiska tillverkare. Anläggningen kommer att kunna erbjuda chiplet-teknik, vilket är en viktig del i framtidens chipdesign.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Kommissionens beslut att ge Silicon Box status som 'Open EU Foundry' visar på ett konkret steg i EU:s satsning på chiplet-teknik, en viktig komponent för framtidens datorkraft och elektronik.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Beslutet kan leda till ökad innovation och konkurrenskraft inom den europeiska halvledarindustrin, vilket i sin tur kan påverka allt från elfordon och medicinteknik till försvarsindustrin. Det stärker EU:s försök att minska beroendet av utländska leverantörer av mikrochips, vilket är avgörande för att säkerställa ekonomisk och strategisk säkerhet. Statusen kan även attrahera ytterligare investeringar och skapa arbetstillfällen inom området.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> EU Chips Act (EU-satsningen på halvledartillverkning) (lagen som syftar till att stärka Europas halvledarindustri genom investeringar och stöd till tillverkning)</p>
+        <div class="card-footer">
+          <div><span class="tag">chiplet</span> <span class="tag">halvledare</span> <span class="tag">mikrochips</span> <span class="tag">EU Chips Act</span></div>
+          <a class="read-more" href="https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>AI Continent Action Plan delivers major milestones</h3>
+        <p class="meta">Thu, 09 Ap · EU-kommissionen (digital-strategy)</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> EU-kommissionen har publicerat en nyhet om framsteg inom AI Continent Action Plan. Planen syftar till att stärka Europas traditionella industrier och utnyttja den europeiska kompetensen inom AI för att öka innovationen och snabba på utvecklingen. Det handlar om att omvandla Europa till en ledande kraft inom AI-teknik. Rapporten sammanfattar resultaten efter ett år sedan planen lanserades.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Nyheten lyfter fram att EU-kommissionen har nått viktiga milstolpar i sin AI Continent Action Plan, vilket indikerar konkreta framsteg inom utvecklingen och implementeringen av AI-system i Europa.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Detta är viktigt eftersom det visar att EU aktivt arbetar för att stärka sin position inom AI, vilket kan påverka konkurrensen med andra globala aktörer som USA och Kina. Framstegen i planen kan leda till nya affärsmöjligheter för europeiska företag och skapa nya jobb inom AI-relaterade områden. Det kan också påverka hur AI-teknik används och regleras i Europa.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> AI Continent Action Plan är en del av EU:s bredare strategi för att främja AI, vilket inkluderar lagstiftningen om artificiell intelligens (AI Act (EU:s AI-förordning)), som syftar till att reglera AI-system och säkerställa att de används på ett etiskt och säkert sätt.</p>
+        <div class="card-footer">
+          <div><span class="tag">AI</span> <span class="tag">Europa</span> <span class="tag">innovation</span> <span class="tag">digital transformation</span></div>
+          <a class="read-more" href="https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Have your say on the Digital Fairness Act</h3>
+        <p class="meta">Tue, 31 Ma · EU-kommissionen (digital-strategy)</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> EU-kommissionen startar en konsultation kring en ny lag, Digital Fairness Act, som syftar till att skydda barn och tonåringar när de använder appar, webbplatser, spel och sociala medier. Konsultationen är öppen för allmänheten och pågår mellan den 31 mars och den 26 april 2026. Lagen kommer att reglera hur dessa plattformar och tjänster fungerar för att säkerställa en tryggare och mer positiv upplevelse för unga användare. Syftet är att ge barn och tonåringar bättre kontroll över sina digitala upplevelser och skydda dem från potentiella risker.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Konsultationen handlar om Digital Fairness Act, vilket sannolikt kommer att innebära krav på plattformsansvar, åldersverifiering, och reglering av algoritmer som påverkar innehåll som presenteras för minderåriga, vilket är en direkt koppling till frågor om algoritmer och reglering av sociala medier.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Lagen kan få stor påverkan på hur sociala medieplattformar och appar fungerar i EU, och kan tvinga dem att ändra sina algoritmer och säkerhetsåtgärder. Det kan också påverka hur utvecklare skapar appar och spel för barn och tonåringar. Denna lagstiftning kan sätta en ny standard för hur barns digitala säkerhet hanteras globalt och kan inspirera liknande lagar i andra länder.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Digital Fairness Act är en ny lagstiftning från EU-kommissionen, och kommer sannolikt att påverkas av befintlig lagstiftning som GDPR (EU:s dataskyddsförordning) (EU:s dataskyddsförordning) och DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) (Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll), som reglerar plattformars ansvar för olagligt innehåll).</p>
+        <div class="card-footer">
+          <div><span class="tag">digital fairness</span> <span class="tag">barn</span> <span class="tag">tonåringar</span> <span class="tag">sociala medier</span></div>
+          <a class="read-more" href="https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+        </section>
+        <section>
+          <h2 class="source-header">EU-parlamentet <span class="count">1</span></h2>
+          
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Highlights - EMPL ICM on "Human Work in the Digital Age" - Committee on Employment and Social Affairs</h3>
+        <p class="meta">Thu, 16 Ap · EMPL</p>
+      </div>
+      <div class="card-body">
+        
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Debatten handlar om hur artificiell intelligens och nya arbetsformer påverkar människors arbete och ökar stressen på arbetsplatsen.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> AI-driven automation och plattformsekonomi förändrar arbetsmarknaden snabbt, vilket skapar både möjligheter och utmaningar för arbetstagare. Att diskutera dessa effekter och hur vi kan skydda arbetstagares rättigheter och välbefinnande är avgörande i en tid av snabb teknologisk utveckling.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Diskussionen kan kopplas till AI Act, som syftar till att reglera AI-system och deras påverkan på samhället, samt till EU:s strategi för social rättvisa och arbetsmarknadens funktion.</p>
+        <div class="card-footer">
+          <div><span class="tag">artificiell intelligens</span> <span class="tag">arbete</span> <span class="tag">automation</span> <span class="tag">arbetsmarknad</span></div>
+          <a class="read-more" href="https://www.europarl.europa.eu/committees/en/product/product-details/20260319CAN77100" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+        </section>
+        <section>
+          <h2 class="source-header">Regeringen <span class="count">4</span></h2>
+          
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Remiss Utkast till lagrådsremiss  Elektronisk övervakning – ett verktyg för socialtjänsten till skydd för barn och unga,  S2026/00342</h3>
+        <p class="meta">2026-02-23 · Socialdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen har fått in svar på en remiss om att ge socialtjänsten rätt att använda elektronisk övervakning, som GPS-spårning och mobiltelefontolkning, för att skydda barn och unga. Remissen är ett utkast till lagrådsremiss, vilket innebär att den ska granskas av jurister innan den eventuellt blir lag. Syftet är att ge socialtjänsten ett nytt verktyg för att identifiera och ingripa i situationer där barn riskerar att fara illa. Remissen har skickats ut till olika myndigheter och organisationer för att de ska ge sina synpunkter.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Remissen föreslår att socialtjänsten ska få använda tekniker som GPS-spårning och mobiltelefontolkning, vilket innebär insamling och analys av personuppgifter i realtid och potentiellt omfattande datalagring.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Om remissen blir lag kan det innebära en utökning av statens övervakningsbefogenheter och en potentiell inskränkning av individers rätt till privatliv. Det är viktigt att säkerställa att användningen av dessa tekniker sker på ett rättssäkert sätt och att barnens och ungas rättigheter skyddas. Implementeringen kommer att kräva tydliga riktlinjer för hur data ska hanteras och lagras för att undvika missbruk och säkerställa transparens.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Remissen berör GDPR (EU:s dataskyddsförordning) (EU:s dataskyddsförordning), som reglerar hur personuppgifter får samlas in och behandlas. Användningen av elektronisk övervakning måste vara förenlig med GDPR:s principer om dataminimering, ändamålsbegränsning och rätt till information.</p>
+        <div class="card-footer">
+          <div><span class="tag">elektronisk övervakning</span> <span class="tag">socialtjänsten</span> <span class="tag">barn</span> <span class="tag">unga</span></div>
+          <a class="read-more" href="https://www.regeringen.se/remisser/2026/02/remiss-utkast-till-lagardsremiss--elektronisk-overvakning--ett-verktyg-for-socialtjansten-till-skydd-for-barn-och-unga/" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Polismyndighetens behandling av personuppgifter, Dir. 2026:17</h3>
+        <p class="meta">2026-03-16 · Justitiedepartementet, Regeringen</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen startar en utredning om hur Polismyndigheten hanterar personuppgifter. Utredningen ska se över reglerna för att säkerställa att de är moderna och effektiva för brottsbekämpning, samtidigt som den tar hänsyn till individens rättigheter och dataskydd. Utredningen kommer att analysera hur Polismyndigheten använder information och tekniska system, och föreslå eventuella förändringar i lagstiftningen. Detta påverkar Polismyndigheten, brottsbekämpande myndigheter och allmänheten.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> En uppdatering av reglerna för Polismyndighetens hantering av personuppgifter är viktig för att balansera brottsbekämpning med individens rättigheter och dataskydd. Om utredningen leder till nya regler kan det påverka hur Polismyndigheten använder teknik för att bekämpa brott, och det kan kräva investeringar i nya system och utbildning. Det är också viktigt att säkerställa att Polismyndighetens agerande är förenligt med GDPR (EU:s dataskyddsförordning) och andra relevanta lagar.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> GDPR (EU:s dataskyddsförordning) (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas och kommer att vara en central referenspunkt för utredningen.</p>
+        <div class="card-footer">
+          <div><span class="tag">personuppgifter</span> <span class="tag">polismyndigheten</span> <span class="tag">dataskydd</span> <span class="tag">övervakning</span></div>
+          <a class="read-more" href="https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576</h3>
+        <p class="meta">2026-03-24 · Försvarsdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen har skickat ut en remiss till olika svenska myndigheter och organisationer angående Europeiska kommissionens cybersäkerhetspaket. Paketet innehåller förslag på ändringar i cybersäkerhetsakten (EU 2019/881) och NIS 2-direktivet (EU 2022/2555). Syftet är att samla in synpunkter på kommissionens förslag innan Sverige formellt ska implementera dem i nationell lagstiftning. Remissen riktar sig till de som berörs av dessa lagar, vilket inkluderar företag, myndigheter och organisationer som hanterar kritisk infrastruktur.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Remissen handlar specifikt om att ändra NIS 2-direktivet (EU 2022/2555), som tvingar kritiska verksamheter att höja sin cybersäkerhet genom bland annat incidentrapportering och riskanalyser.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Ändringarna i NIS 2-direktivet kommer att påverka svenska företag och myndigheter som anses vara kritiska för samhället, till exempel energibolag, sjukhus och banker. Implementeringen av dessa ändringar kommer att innebära nya krav på säkerhetsåtgärder och rapporteringsrutiner, vilket kan innebära kostnader och utmaningar för berörda aktörer. Remissen ger svenska aktörer möjlighet att påverka hur dessa krav ska utformas i Sverige.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> NIS 2-direktivet (EU 2022/2555) är ett EU-direktiv som syftar till att stärka cybersäkerheten i EU genom att införa bindande krav för kritiska enheter och essentiella tjänsteleverantörer.</p>
+        <div class="card-footer">
+          <div><span class="tag">cybersäkerhet</span> <span class="tag">NIS2</span> <span class="tag">EU</span> <span class="tag">remiss</span></div>
+          <a class="read-more" href="https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Uppdrag till Vetenskapsrådet att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur</h3>
+        <p class="meta">2026-04-08 · Regeringen, Utbildningsdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen ger Vetenskapsrådet i uppdrag att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur. Det innebär att Vetenskapsrådet ska utreda hur Sverige bäst kan samordna och stödja den digitala infrastrukturen som forskare behöver, till exempel datalagring, beräkningskraft och nätverk. Uppdraget syftar till att stärka Sveriges konkurrenskraft inom forskning och innovation och att säkerställa att svenska forskare har tillgång till den bästa möjliga digitala utrustningen. Detta kommer att påverka universitet, forskningsinstitutioner och företag som bedriver digital forskning.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Uppdraget fokuserar på att skapa en nationell samordning för digital forskningsinfrastruktur, vilket inkluderar beräkningsresurser, datalagring och nätverk – kritiska komponenter för AI-forskning, big data-analys och andra avancerade teknologier.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Ett välfungerande samordningsansvar för digital forskningsinfrastruktur är avgörande för att Sverige ska kunna ligga i framkant inom forskning och utveckling, särskilt inom områden som artificiell intelligens och datavetenskap. Det möjliggör storskaliga forskningsprojekt som kräver enorm datorkraft och lagring, och kan attrahera internationella forskare och investeringar. Utan en sådan infrastruktur riskerar Sverige att halka efter i den globala konkurrensen om framtidens teknik.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Detta uppdrag kan kopplas till EU:s satsningar på digital infrastruktur och datastrategi, som syftar till att skapa en europeisk datamarknad och stödja forskning och innovation inom digitala teknologier. EU:s datalagringslagstiftning (Data Governance Act) kan också vara relevant.</p>
+        <div class="card-footer">
+          <div><span class="tag">forskning</span> <span class="tag">digital infrastruktur</span> <span class="tag">samordning</span> <span class="tag">Vetenskapsrådet</span></div>
+          <a class="read-more" href="https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+        </section>
+        <section>
+          <h2 class="source-header">Riksdagen <span class="count">9</span></h2>
+          
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Lagändringar för ett stärkt nationellt cybersäkerhetscenter</h3>
+        <p class="meta">2026-04-01 · Försvarsdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen föreslår lagändringar för att stärka det nationella cybersäkerhetscentret. Propositionen 2025/26:214 syftar till att ge centret förbättrade befogenheter och resurser för att hantera cyberhot och stödja organisationer i att stärka sin cybersäkerhet. Ändringarna kommer att påverka både statliga myndigheter och privata företag som är kritiska för samhällets funktion. Syftet är att öka Sveriges förmåga att skydda sig mot cyberattacker.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Propositionen föreslår att det nationella cybersäkerhetscentret ska få utökade befogenheter att genomföra intrångsdetektering och incidenthantering, vilket innebär att centret kommer att ha möjlighet att aktivt söka efter och åtgärda säkerhetsbrister i system och nätverk.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> De föreslagna ändringarna är avgörande för att möta den ökande komplexiteten och frekvensen av cyberattacker mot Sverige. Ett stärkt cybersäkerhetscenter kommer att kunna erbjuda bättre stöd till organisationer och myndigheter, vilket minskar risken för allvarliga störningar i samhällsfunktioner och ekonomiska förluster. Tajmingen är viktig med tanke på den geopolitiska situationen och den ökande risken för statligt sponsrade cyberattacker.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter) (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet) är en viktig bakgrund till propositionen, då den sätter ramarna för cybersäkerhetskraven på svenska organisationer och myndigheter.</p>
+        <div class="card-footer">
+          <div><span class="tag">cybersäkerhet</span> <span class="tag">nationellt cybersäkerhetscenter</span> <span class="tag">lagändringar</span> <span class="tag">cyberhot</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03214.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Strategisk exportkontroll 2025 – krigsmateriel och produkter med dubbla användningsområden</h3>
+        <p class="meta">2026-04-07 · Utrikesdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringens skrivelse 2025/26:114 handlar om strategisk exportkontroll av krigsmateriel och produkter med dubbla användningsområden. Det innebär att regeringen redovisar hur Sverige ska reglera exporten av varor som både kan användas civilt och militärt. Skrivelsen syftar till att förhindra att dessa produkter hamnar i fel händer, exempelvis hos stater eller organisationer som kan använda dem för att utveckla vapen eller krigföring. Den riktar sig till riksdagen för information och eventuell vidare hantering.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Skrivelsen berör produkter med dubbla användningsområden, vilket inkluderar avancerad teknik som kan användas både för civila och militära ändamål, exempelvis vissa typer av elektronik och precisionsinstrument, och kräver därför en noggrann bedömning av exportrestriktioner.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Striktare exportkontroll kan påverka svenska företag som exporterar teknik och komponenter, särskilt de som verkar inom områden som har både civila och militära tillämpningar. Det är viktigt för Sveriges säkerhet att förhindra att känslig teknologi används för att utveckla vapen, samtidigt som det är viktigt att inte hindra legitima handelsflöden. Tajmingen är viktig med tanke på den geopolitiska situationen och ökade spänningar i världen.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Exportkontroll regleras delvis genom EU:s förordningar och beslut, som Sverige måste implementera i sin nationella lagstiftning. Dessa regleringar syftar till att harmonisera exportkontrollreglerna inom EU.</p>
+        <div class="card-footer">
+          <div><span class="tag">exportkontroll</span> <span class="tag">krigsmateriel</span> <span class="tag">dubbla användningsområden</span> <span class="tag">teknologi</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03114.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #c0392b">
+        <span class="relevance-badge" style="background:#c0392b">🔴 Hög prioritet</span>
+        <h3>Nya krav på interoperabilitet vid datadelning inom den offentliga förvaltningen</h3>
+        <p class="meta">2026-04-16 · Finansdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen föreslår i proposition 2025/26:244 nya krav på hur olika myndigheter och verksamheter inom den offentliga förvaltningen ska dela data med varandra. Syftet är att göra det enklare och säkrare att dela information, vilket ska leda till effektivare tjänster och bättre beslutsunderlag. Förslaget riktar sig till alla aktörer inom den offentliga sektorn som hanterar och delar data. Det innebär att myndigheter måste använda standardiserade format och protokoll för att säkerställa att informationen kan läsas och tolkas av andra system.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Propositionen kräver att myndigheter använder sig av standardiserade gränssnitt och protokoll för datadelning, vilket innebär en satsning på interoperabilitetsstandarder och potentiellt nya tekniska lösningar för att möjliggöra sömlös datautbyte mellan olika system.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Förbättrad interoperabilitet kan effektivisera myndigheters arbete och minska dubbelarbete, vilket sparar tid och resurser. Det kan också underlätta för medborgare att få tillgång till offentliga tjänster och information. Om myndigheter inte kan dela data smidigt, försvårar det digitaliseringen av den offentliga sektorn och kan hindra utvecklingen av nya, innovativa tjänster.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Propositionen är i linje med EU:s strävan efter att främja datadelning och interoperabilitet inom den offentliga sektorn, vilket återspeglas i initiativ som EU:s datastrategi och den pågående diskussionen kring en ram för europeiska data-tjänster (European Data Space).</p>
+        <div class="card-footer">
+          <div><span class="tag">interoperabilitet</span> <span class="tag">datadelning</span> <span class="tag">offentlig förvaltning</span> <span class="tag">digitalisering</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03244.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>med anledning av prop. 2025/26:212 Kommunala hyresgarantier för en socialt hållbar bostadsförsörjning</h3>
+        <p class="meta">2026-04-07 · CU</p>
+      </div>
+      <div class="card-body">
+        
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Motionen antyder en potentiell reglering av hyresvärdar, vilket kan innebära krav på digitala system för hyresadministration och datahantering, och därmed påverka fastighetsägare och hyresgäster.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Digitaliseringen av fastighetsbranschen ökar, och med den kommer frågor om dataskydd, algoritmisk prissättning och transparens i hyresprocessen. En reglering kring hyresvärdars agerande kan därför få betydande konsekvenser för hur hyresmarknaden fungerar och hur hyresgästernas rättigheter skyddas.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Även om direkt kopplat till nationell lagstiftning, kan dataskyddsaspekter relaterade till hyresadministration och digitala plattformar kopplas till GDPR (General Data Protection Regulation), en EU-förordning.</p>
+        <div class="card-footer">
+          <div><span class="tag">hyresmarknad</span> <span class="tag">digitalisering</span> <span class="tag">fastigheter</span> <span class="tag">dataskydd</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD024067.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>Ett utökat straffrättsligt tjänstemannaansvar</h3>
+        <p class="meta">2026-04-09 · Justitiedepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen föreslår en proposition om ett utökat straffrättsligt ansvar för tjänstemän. Det innebär att tjänstemän som agerar vårdslöst och orsakar skada, till exempel genom felaktiga beslut eller underlåtenhet, kan dömas för brott. Syftet är att öka tryggheten och säkerheten i samhället samt att stärka allmänhetens förtroende för myndigheterna. Förslaget påverkar alla statliga och kommunala tjänstemän.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Propositionen kan få indirekta konsekvenser för tjänstemän som hanterar digitala system och data, eftersom felaktig hantering av dessa kan leda till straffrättsligt ansvar. Det är dock inte ett direkt fokus på teknik, utan snarare på ansvaret för tjänstemän oavsett deras arbetsuppgifter.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Detta förslag kan leda till att tjänstemän blir mer försiktiga i sina beslut, vilket i sin tur kan förbättra kvaliteten på myndighetsutövningen. Det kan också öka medvetenheten om vikten av korrekt hantering av information och data, särskilt i digitala system. Förändringen kan påverka hur myndigheter arbetar med digitalisering och automatisering, eftersom tjänstemän kan vara mer tveksamma att använda nya tekniker om de riskerar att bli straffade för fel.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Ingen tydlig koppling till EU-lagstiftning, men kan indirekt påverkas av EU:s dataskyddsförordning (GDPR (EU:s dataskyddsförordning)) som ställer krav på dataskydd och integritet.</p>
+        <div class="card-footer">
+          <div><span class="tag">straffrätt</span> <span class="tag">tjänstemannaansvar</span> <span class="tag">myndigheter</span> <span class="tag">ansvar</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03217.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>Extra ändringsbudget för 2026 – Sänkt skatt på drivmedel samt el- och gasprisstöd</h3>
+        <p class="meta">2026-04-13 · Finansdepartementet</p>
+      </div>
+      <div class="card-body">
+        
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Propositionen handlar om sänkta drivmedelsskatter och el- och gasprisstöd, vilket indirekt påverkar utvecklingen och användningen av elfordon och laddinfrastruktur.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Ändringsbudgeten påverkar direkt konsumenternas incitament att köpa elfordon och laddningsinfrastruktur, vilket är avgörande för Sveriges klimatmål och omställningen till en mer hållbar transportsektor. Beslutet kan också påverka investeringar i laddinfrastruktur och batteriteknik.</p>
+        
+        <div class="card-footer">
+          <div><span class="tag">elfordon</span> <span class="tag">drivmedelsskatt</span> <span class="tag">laddinfrastruktur</span> <span class="tag">energipriser</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03236.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>2026 års ekonomiska vårproposition</h3>
+        <p class="meta">2026-04-13 · Finansdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen lämnar över 2026 års ekonomiska vårproposition till riksdagen. Den innehåller förslag till riktlinjer för statens finanspolitik under kommande år, med fokus på att anpassa ekonomin till en osäker omvärld. Propositionen kommer att ligga till grund för vårbudgeten och påverkar hur staten fördelar pengar till olika områden. Den påverkar i slutändan alla medborgare genom skatter, bidrag och offentliga tjänster.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Propositionen kan innehålla satsningar på digitalisering och AI, men det framgår inte i sammanfattningen. Det är viktigt att granska detaljerna i propositionen för att se om det finns specifika insatser för att stödja AI-forskning, utveckling av digital infrastruktur eller implementering av EU:s AI-lagstiftning.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Vårpropositionen är avgörande för att forma den ekonomiska politiken och påverkar hur resurser allokeras till viktiga områden som utbildning, sjukvård och infrastruktur. Om den innehåller satsningar på digitalisering kan det påverka innovationstakten och Sveriges konkurrenskraft. Tajmingen är viktig eftersom den sätter ramarna för den kommande budgetprocessen.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> AI Act (EU:s AI-förordning) (EU:s lagstiftning som reglerar artificiell intelligens)</p>
+        <div class="card-footer">
+          <div><span class="tag">vårproposition</span> <span class="tag">ekonomi</span> <span class="tag">finanspolitik</span> <span class="tag">budget</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03100.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>Vindkraft i kommuner</h3>
+        <p class="meta">2026-04-14 · Klimat- och näringslivsdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen föreslår en ny lag om intäktsdelning för vindkraft i kommuner. Propositionen syftar till att underlätta för kommuner att säga ja till vindkraftsutbyggnad genom att ge dem en ekonomisk del av intäkterna. Detta förväntas öka takten för utbyggnaden av vindkraft, vilket är en viktig del av Sveriges klimatmål. Lagen kommer att påverka både vindkraftsbolag och kommuner.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Propositionen implicerar behovet av smarta elnät och digital infrastruktur för att effektivt integrera och hantera den ökade produktionen av vindkraft, vilket kan kräva investeringar i uppgraderingar och digitalisering av elnätet.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> Snabbare vindkraftsutbyggnad är avgörande för att nå Sveriges klimatmål och minska beroendet av fossila bränslen. Genom att ge kommuner ekonomiska incitament kan man övervinna lokalt motstånd och accelerera utbyggnaden. Detta kommer att påverka energipriser, investeringar i grön energi och Sveriges internationella åtaganden.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Propositionen är relevant i förhållande till EU:s mål för förnybar energi och energisäkerhet, vilket kräver att medlemsländerna ökar sin andel förnybar energi, inklusive vindkraft. EU:s energidirektiv sätter ramarna för medlemsländernas energipolitik.</p>
+        <div class="card-footer">
+          <div><span class="tag">vindkraft</span> <span class="tag">intäktsdelning</span> <span class="tag">kommuner</span> <span class="tag">klimatmål</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03239.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" style="border-left:4px solid #d68910">
+        <span class="relevance-badge" style="background:#d68910">🟡 Medel</span>
+        <h3>Ny myndighet för miljöprövning</h3>
+        <p class="meta">2026-04-14 · Klimat- och näringslivsdepartementet</p>
+      </div>
+      <div class="card-body">
+        <p class="sammanfattning"><strong>Vad handlar det om?</strong> Regeringen föreslår att en ny myndighet ska skapas för att hantera miljöprövning. Den befintliga hanteringen är utspridd på flera myndigheter, vilket regeringen ser som ineffektivt. Den nya myndigheten ska samordna och effektivisera miljöprövningen för exempelvis industriella verksamheter och energiprojekt. Syftet är att snabba upp processen och minska dubbelarbete.</p>
+        <p class="vinkel"><strong>Tech-vinkel:</strong> Den nya myndigheten kommer sannolikt att använda digitala verktyg och system för att hantera ansökningar, data och kommunikation, vilket kan innebära behov av utveckling och implementering av ny IT-infrastruktur och digitala arbetsflöden.</p>
+        <p class="varfor"><strong>Varför viktigt just nu:</strong> En effektivare miljöprövning är avgörande för att kunna genomföra den gröna omställningen och samtidigt säkerställa att miljön skyddas. Den nya myndigheten kan underlätta för företag att investera i hållbara lösningar och bidra till att nå Sveriges klimatmål. Effektiviseringen kan också minska handläggningstiderna och därmed minska kostnaderna för både företag och myndigheter.</p>
+        <p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> Ingen tydlig koppling till specifik EU-lagstiftning, men miljöprövning regleras i viss utsträckning av EU:s miljödirektiv.</p>
+        <div class="card-footer">
+          <div><span class="tag">miljöprövning</span> <span class="tag">myndighet</span> <span class="tag">effektivisering</span> <span class="tag">grön omställning</span></div>
+          <a class="read-more" href="https://data.riksdagen.se/dokument/HD03238.html" target="_blank">Läs originaldokumentet →</a>
+        </div>
+      </div>
+    </div>
+        </section>
+</main>
+<footer>Genererad 2026-04-21 14:11 · Tech Vinklar Agent</footer>
+</body>
+</html>
