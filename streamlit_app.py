@@ -190,11 +190,8 @@ def _latest_run_status(pat: str) -> dict | None:
         return None
 
 
-col1, col2 = st.sidebar.columns([3, 1])
-with col1:
-    trigger = st.button("🔄 Starta körning", use_container_width=True)
-with col2:
-    refresh = st.button("↻", help="Uppdatera status", use_container_width=True)
+trigger = st.sidebar.button("🔄 Starta körning", use_container_width=True)
+refresh = st.sidebar.button("↻ Uppdatera status", use_container_width=True)
 
 if trigger:
     pat = _get_pat()
