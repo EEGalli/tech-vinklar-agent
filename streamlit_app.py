@@ -23,9 +23,21 @@ MEMORY_FILE = ROOT / ".agent_memory.json"
 SOURCE_TO_TAB = {
     "Riksdagen": "Riksdagen",
     "Regeringen": "Regeringen",
-    "EU-parlamentet": "EU",
-    "EU-kommissionen": "EU",
-    "ENISA": "EU",
+    "EU-parlamentet": "EU-parlamentet",
+    "EU-kommissionen": "EU-kommissionen",
+    # Alla byrå-källor (förkortningar) → "EU-byråer"
+    "ENISA": "EU-byråer",
+    "EDPB": "EU-byråer",
+    "BEREC": "EU-byråer",
+    "ESMA": "EU-byråer",
+    "Europol": "EU-byråer",
+    "EBA": "EU-byråer",
+    "EMA": "EU-byråer",
+    "ACER": "EU-byråer",
+    "CEDEFOP": "EU-byråer",
+    "EUSPA": "EU-byråer",
+    "Eurojust": "EU-byråer",
+    "EU-OSHA": "EU-byråer",
 }
 
 RELEVANS_EMOJI = {"hög": "🔴", "medel": "🟡", "låg": "🟢", "okänd": "⚪"}
@@ -95,7 +107,7 @@ def _date_int(s: str) -> int:
 
 
 def _render_item(item: dict) -> None:
-    """Renderar ett item som ett kompakt expanderbart kort."""
+    """Renderar ett item som ett synligt kort med all info direkt."""
     a = item.get("analysis", {})
     title = item.get("title", "Utan titel")
     relevans = a.get("relevans", "okänd")
@@ -103,9 +115,10 @@ def _render_item(item: dict) -> None:
     date_str = (item.get("date") or "")[:10]
     source = item.get("source", "")
     item_type = item.get("type", "")
+    url = item.get("url", "")
 
-    header = f"{emoji} **{title}**"
-    with st.expander(header, expanded=False):
+    with st.container(border=True):
+        st.markdown(f"### {emoji} {title}")
         meta = " · ".join(filter(None, [date_str, source, item_type]))
         if meta:
             st.caption(meta)
@@ -117,7 +130,6 @@ def _render_item(item: dict) -> None:
             st.markdown(f"**Varför viktigt:** {a['varfor_viktigt']}")
         if a.get("eu_koppling") and a["eu_koppling"] != "null":
             st.markdown(f"🇪🇺 **EU-koppling:** {a['eu_koppling']}")
-        url = item.get("url")
         if url:
             st.markdown(f"[Läs originaldokumentet →]({url})")
 
@@ -182,22 +194,60 @@ if st.sidebar.button("🔄 Starta körning i molnet", use_container_width=True):
         except Exception as e:
             st.sidebar.error(f"Anslutningsfel: {e}")
 
+# ── Sökruta ───────────────────────────────────────────────
+st.sidebar.markdown("---")
+search_query = st.sidebar.text_input(
+    "🔎 Sök",
+    placeholder="t.ex. AI, NIS2, biometri",
+    help="Söker i titel, sammanfattning, tech-vinkel och varför-viktigt",
+)
+
 # ── Huvudvy: tabbar ──────────────────────────────────────
 all_items = _load_all_items()
 all_items.sort(key=lambda i: _date_int(i.get("date", "")), reverse=True)
 
-def _filter_by_tab(tab: str) -> list[dict]:
-    return [i for i in all_items if SOURCE_TO_TAB.get(i.get("source", "")) == tab]
 
-riksdagen_items = _filter_by_tab("Riksdagen")
-regeringen_items = _filter_by_tab("Regeringen")
-eu_items = _filter_by_tab("EU")
+def _matches_search(item: dict, q: str) -> bool:
+    if not q:
+        return True
+    q_low = q.lower()
+    a = item.get("analysis", {})
+    haystack = " ".join([
+        item.get("title", ""),
+        a.get("sammanfattning", "") or "",
+        a.get("tech_vinkel", "") or "",
+        a.get("varfor_viktigt", "") or "",
+        a.get("eu_koppling", "") or "",
+        item.get("source", ""),
+    ]).lower()
+    return q_low in haystack
 
-tab_dashboard, tab_riksdag, tab_reg, tab_eu = st.tabs([
+
+def _filter(tab: str) -> list[dict]:
+    return [
+        i for i in all_items
+        if SOURCE_TO_TAB.get(i.get("source", "")) == tab
+        and _matches_search(i, search_query)
+    ]
+
+
+riksdagen_items = _filter("Riksdagen")
+regeringen_items = _filter("Regeringen")
+ep_items = _filter("EU-parlamentet")
+ek_items = _filter("EU-kommissionen")
+agency_items = _filter("EU-byråer")
+
+if search_query:
+    total = len(riksdagen_items) + len(regeringen_items) + len(ep_items) + len(ek_items) + len(agency_items)
+    st.sidebar.caption(f"🔎 {total} träffar för \"{search_query}\"")
+
+tab_dashboard, tab_riksdag, tab_reg, tab_ep, tab_ek, tab_byraer = st.tabs([
     "📊 Dashboard",
     f"🇸🇪 Riksdagen ({len(riksdagen_items)})",
     f"🏛️ Regeringen ({len(regeringen_items)})",
-    f"🇪🇺 EU ({len(eu_items)})",
+    f"🇪🇺 EU-parlamentet ({len(ep_items)})",
+    f"🇪🇺 EU-kommissionen ({len(ek_items)})",
+    f"🏢 EU-byråer ({len(agency_items)})",
 ])
 
 with tab_dashboard:
@@ -205,23 +255,23 @@ with tab_dashboard:
         html = f.read()
     st.components.v1.html(html, height=2200, scrolling=True)
 
+
+def _render_tab(label: str, items: list[dict]) -> None:
+    st.markdown(f"### {label} — {len(items)} ärenden, nyaste först")
+    if not items:
+        st.info("Inga ärenden här just nu.")
+        return
+    for item in items:
+        _render_item(item)
+
+
 with tab_riksdag:
-    st.markdown(f"### Riksdagen — {len(riksdagen_items)} ärenden, nyaste först")
-    if not riksdagen_items:
-        st.info("Inga ärenden från Riksdagen i minnet.")
-    for item in riksdagen_items:
-        _render_item(item)
-
+    _render_tab("Riksdagen", riksdagen_items)
 with tab_reg:
-    st.markdown(f"### Regeringen — {len(regeringen_items)} ärenden, nyaste först")
-    if not regeringen_items:
-        st.info("Inga ärenden från Regeringen i minnet.")
-    for item in regeringen_items:
-        _render_item(item)
-
-with tab_eu:
-    st.markdown(f"### EU (parlamentet, kommissionen, ENISA) — {len(eu_items)} ärenden, nyaste först")
-    if not eu_items:
-        st.info("Inga EU-ärenden i minnet.")
-    for item in eu_items:
-        _render_item(item)
+    _render_tab("Regeringen", regeringen_items)
+with tab_ep:
+    _render_tab("EU-parlamentet", ep_items)
+with tab_ek:
+    _render_tab("EU-kommissionen", ek_items)
+with tab_byraer:
+    _render_tab("EU-byråer", agency_items)

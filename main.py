@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 import requests
 import subprocess
-from sources import riksdagen, europarl, eurlex, regeringen, enisa
+from sources import riksdagen, europarl, eurlex, regeringen, enisa, eu_agencies
 from analyzer import analyze_batch, create_digest
 from output.html_report import generate as generate_html
 import memory as mem
@@ -58,6 +58,7 @@ def main():
         fetch_tasks.append(("EU-parlamentet", europarl.fetch_all))
         fetch_tasks.append(("EUR-Lex", eurlex.fetch_all))
         fetch_tasks.append(("ENISA", enisa.fetch_all))
+        fetch_tasks.append(("EU-byråer", eu_agencies.fetch_all))
 
     print(f"\nHämtar från {len(fetch_tasks)} källor parallellt...")
     with ThreadPoolExecutor(max_workers=len(fetch_tasks)) as pool:
