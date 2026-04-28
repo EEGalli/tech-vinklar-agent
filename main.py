@@ -194,7 +194,59 @@ def main():
     except Exception:
         pass
 
+    # Auto-pusha till GitHub så Streamlit-appen alltid visar senaste rapporten
+    _auto_push(html_file)
+
     print("Klart!")
+
+
+def _auto_push(html_file: str) -> None:
+    """Stagar reports/ + state-filer och försöker pusha till GitHub.
+    Failar tyst om: inte ett git-repo, inget att committa, eller offline."""
+    project_dir = os.path.dirname(os.path.abspath(__file__))
+    if not os.path.exists(os.path.join(project_dir, ".git")):
+        return  # Inte ett git-repo
+
+    try:
+        # Stagea bara det vi vill ha med
+        subprocess.run(
+            ["git", "add", "reports/", ".agent_memory.json", ".agent_arenden.json",
+             ".agent_dates.json", ".agent_analysis_cache.json"],
+            cwd=project_dir, check=False, capture_output=True,
+        )
+        # Något att committa?
+        diff = subprocess.run(
+            ["git", "diff", "--staged", "--quiet"],
+            cwd=project_dir, capture_output=True,
+        )
+        if diff.returncode == 0:
+            print("(inget att pusha — inga nya filer sedan senaste commit)")
+            return
+
+        commit_msg = f"Lokal körning {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+        commit = subprocess.run(
+            ["git", "commit", "-m", commit_msg],
+            cwd=project_dir, capture_output=True, text=True,
+        )
+        if commit.returncode != 0:
+            print(f"(commit failade: {commit.stderr.strip()[:120]})")
+            return
+
+        # Försök pulla först (rebase) ifall GitHub Action har pushat
+        subprocess.run(
+            ["git", "pull", "--rebase"],
+            cwd=project_dir, capture_output=True, timeout=30,
+        )
+        push = subprocess.run(
+            ["git", "push"],
+            cwd=project_dir, capture_output=True, text=True, timeout=30,
+        )
+        if push.returncode == 0:
+            print("✓ Pushat till GitHub — Streamlit-appen uppdateras inom 1 min.")
+        else:
+            print(f"(push failade: {push.stderr.strip()[:200]})")
+    except Exception as e:
+        print(f"(auto-push kunde inte köras: {e})")
 
 
 if __name__ == "__main__":
