@@ -4734,39 +4734,6 @@
       }
     },
     {
-      "title": "Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-breach-digital-services-act",
-      "date": "Thu, 26 Mar 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Plattformsreglering",
-        "sammanfattning": "EU-kommissionen har inlett en preliminär utredning och anser att Pornhub, Stripchat, XNXX och XVideos troligtvis brutit mot Digital Services Act (DSA). Kommissionen anklagar plattformarna för att inte ha skyddat minderåriga från att exponeras för pornografiskt innehåll. Detta är en första indikation på att kommissionen kommer att använda sina befogenheter för att övervaka och straffa plattformar som inte följer DSA:s regler. Utredningen kan leda till böter och andra åtgärder mot de berörda sidorna.",
-        "tech_vinkel": "EU-kommissionen utreder plattformarnas efterlevnad av Digital Services Act (DSA), som kräver att de vidtar åtgärder för att skydda minderåriga från skadligt innehåll online, vilket visar på en konkret tillämpning av ny lagstiftning som reglerar hur plattformar hanterar innehåll och skyddar användare.",
-        "varfor_viktigt": "Detta är ett viktigt exempel på hur EU:s Digital Services Act (DSA) faktiskt tillämpas och hur kommissionen kan agera mot plattformar som inte skyddar minderåriga. Det kan sätta press på andra plattformar att förbättra sina skyddsåtgärder och kan leda till en mer aktiv tillsyn från EU-kommissionen. Det visar också på en skärpt ton i kampen mot olämpligt innehåll online, särskilt riktat mot barn.",
-        "eu_koppling": "Digital Services Act (DSA) – en lagstiftning som ställer krav på plattformars ansvar för innehållet som publiceras på deras tjänster och kräver att de vidtar åtgärder för att skydda användare, särskilt minderåriga.",
-        "keywords": [
-          "Digital Services Act",
-          "DSA",
-          "Pornhub",
-          "Stripchat",
-          "XNXX",
-          "XVideos",
-          "barnskydd online",
-          "plattformsreglering"
-        ],
-        "arende": "Digitala marknader",
-        "nasta_steg": "EU-kommissionen kommer att fortsätta sin utredning och kan besluta om åtgärder mot de berörda plattformarna.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-03-26",
-            "beskrivning": "EU-kommissionen meddelar preliminär utredning."
-          }
-        ]
-      }
-    },
-    {
       "title": "AI Continent Action Plan delivers major milestones",
       "source": "EU-kommissionen",
       "type": "Digital Strategy — Nyhet",
@@ -4826,6 +4793,39 @@
           {
             "datum": "2026-04-26",
             "beskrivning": "Konsultationen stänger"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-breach-digital-services-act",
+      "date": "Thu, 26 Mar 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Plattformsreglering",
+        "sammanfattning": "EU-kommissionen har inlett en preliminär utredning och anser att Pornhub, Stripchat, XNXX och XVideos troligtvis brutit mot Digital Services Act (DSA). Kommissionen anklagar plattformarna för att inte ha skyddat minderåriga från att exponeras för pornografiskt innehåll. Detta är en första indikation på att kommissionen kommer att använda sina befogenheter för att övervaka och straffa plattformar som inte följer DSA:s regler. Utredningen kan leda till böter och andra åtgärder mot de berörda sidorna.",
+        "tech_vinkel": "EU-kommissionen utreder plattformarnas efterlevnad av Digital Services Act (DSA), som kräver att de vidtar åtgärder för att skydda minderåriga från skadligt innehåll online, vilket visar på en konkret tillämpning av ny lagstiftning som reglerar hur plattformar hanterar innehåll och skyddar användare.",
+        "varfor_viktigt": "Detta är ett viktigt exempel på hur EU:s Digital Services Act (DSA) faktiskt tillämpas och hur kommissionen kan agera mot plattformar som inte skyddar minderåriga. Det kan sätta press på andra plattformar att förbättra sina skyddsåtgärder och kan leda till en mer aktiv tillsyn från EU-kommissionen. Det visar också på en skärpt ton i kampen mot olämpligt innehåll online, särskilt riktat mot barn.",
+        "eu_koppling": "Digital Services Act (DSA) – en lagstiftning som ställer krav på plattformars ansvar för innehållet som publiceras på deras tjänster och kräver att de vidtar åtgärder för att skydda användare, särskilt minderåriga.",
+        "keywords": [
+          "Digital Services Act",
+          "DSA",
+          "Pornhub",
+          "Stripchat",
+          "XNXX",
+          "XVideos",
+          "barnskydd online",
+          "plattformsreglering"
+        ],
+        "arende": "Digitala marknader",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta sin utredning och kan besluta om åtgärder mot de berörda plattformarna.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-03-26",
+            "beskrivning": "EU-kommissionen meddelar preliminär utredning."
           }
         ]
       }
