@@ -190,6 +190,45 @@ def _latest_run_status(pat: str) -> dict | None:
         return None
 
 
+def _get_run_steps(pat: str, run_id: int) -> list[dict]:
+    """Hämtar varje steg i den körning som är igång (eller senast klar)."""
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/runs/{run_id}/jobs"
+    try:
+        r = requests.get(
+            url,
+            headers={
+                "Authorization": f"Bearer {pat}",
+                "Accept": "application/vnd.github+json",
+            },
+            timeout=8,
+        )
+        if r.status_code != 200:
+            return []
+        jobs = r.json().get("jobs", [])
+        if not jobs:
+            return []
+        # Vi har bara ett job ("run-agent"), ta dess steps
+        return jobs[0].get("steps", [])
+    except Exception:
+        return []
+
+
+def _step_emoji(step: dict) -> str:
+    status = step.get("status", "")
+    conclusion = step.get("conclusion", "")
+    if status == "in_progress":
+        return "⏳"
+    if status == "queued":
+        return "⏸"
+    if status == "completed":
+        if conclusion == "success":
+            return "✓"
+        if conclusion == "skipped":
+            return "↷"
+        return "✗"
+    return "·"
+
+
 trigger = st.sidebar.button("🔄 Starta körning", use_container_width=True)
 refresh = st.sidebar.button("↻ Uppdatera status", use_container_width=True)
 
@@ -250,9 +289,29 @@ if pat:
                 f"✗ Senaste körning misslyckades: {conclusion}\n\n[Se loggar]({run_url})"
             )
         elif status in ("queued", "in_progress", "waiting", "requested"):
-            st.sidebar.info(
-                f"⏳ Körning pågår ({status})\n\nStartad {started_label}. Tryck ↻ för uppdatering."
-            )
+            # Beräkna körtid + visa varje steg
+            from datetime import timezone
+            try:
+                started = datetime.fromisoformat(run_created.replace("Z", "+00:00"))
+                elapsed = datetime.now(timezone.utc) - started
+                mins, secs = divmod(int(elapsed.total_seconds()), 60)
+                duration = f"{mins}m {secs}s"
+            except Exception:
+                duration = "?"
+
+            st.sidebar.info(f"⏳ Körning pågår ({status}) — körtid {duration}")
+
+            steps = _get_run_steps(pat, run["id"])
+            if steps:
+                st.sidebar.markdown("**Steg:**")
+                lines = []
+                for s in steps:
+                    name = s.get("name", "")
+                    if name in ("Set up job", "Post job cleanup", "Complete job"):
+                        continue  # GitHub-internt brus
+                    lines.append(f"{_step_emoji(s)} {name}")
+                st.sidebar.markdown("\n\n".join(lines))
+            st.sidebar.caption(f"Startad {started_label}. Tryck ↻ för att uppdatera.")
         else:
             st.sidebar.caption(f"Senaste: {status} ({started_label})")
 
