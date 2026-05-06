@@ -2,7 +2,7 @@
   "Elfordonsstrategi": {
     "name": "Elfordonsstrategi",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "status": "aktiv",
     "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
     "documents": [
@@ -41,7 +41,7 @@
   "Ekonomisk vårproposition": {
     "name": "Ekonomisk vårproposition",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "status": "aktiv",
     "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga ändringsförslag innan den godkänns.",
     "documents": [
@@ -140,9 +140,9 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "status": "aktiv",
-    "next_step": "EU-kommissionen kommer att samla in information från Snapchat och andra relevanta källor för att avgöra om Snapchat har brutit mot DSA.",
+    "next_step": "EU-kommissionen kommer att fortsätta sin utredning och kan besluta om åtgärder mot de berörda plattformarna.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -271,7 +271,7 @@
   "AI Continent Action Plan": {
     "name": "AI Continent Action Plan",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -303,7 +303,7 @@
   "Digital Fairness Act": {
     "name": "Digital Fairness Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -339,7 +339,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -446,11 +446,11 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Riksdagen kommer att granska propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
+    "next_step": "De svenska myndigheterna kommer att analysera remissvaren och föreslå hur EU:s direktiv ska implementeras i svensk lagstiftning.",
     "documents": [
       {
         "title": "Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576",

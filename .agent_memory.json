@@ -9069,5 +9069,480 @@
         ]
       }
     }
+  ],
+  "2026-05-06": [
+    {
+      "title": "AI Continent Action Plan delivers major milestones",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-continent-action-plan-delivers-major-milestones",
+      "date": "Thu, 09 Apr 2026",
+      "analysis": {
+        "relevans": "hög",
+        "sammanfattning": "EU-kommissionen har publicerat en nyhet om framsteg inom AI Continent Action Plan. Planen syftar till att stärka Europas traditionella industrier och utnyttja den europeiska kompetensen inom AI för att öka innovationen och snabba på utvecklingen. Det handlar om att omvandla Europa till en ledande kraft inom AI-teknik. Rapporten sammanfattar resultaten efter ett år sedan planen lanserades.",
+        "tech_vinkel": "Nyheten lyfter fram att EU-kommissionen har nått viktiga milstolpar i sin AI Continent Action Plan, vilket indikerar konkreta framsteg inom utvecklingen och implementeringen av AI-system i Europa.",
+        "varfor_viktigt": "Detta är viktigt eftersom det visar att EU aktivt arbetar för att stärka sin position inom AI, vilket kan påverka konkurrensen med andra globala aktörer som USA och Kina. Framstegen i planen kan leda till nya affärsmöjligheter för europeiska företag och skapa nya jobb inom AI-relaterade områden. Det kan också påverka hur AI-teknik används och regleras i Europa.",
+        "eu_koppling": "AI Continent Action Plan är en del av EU:s bredare strategi för att främja AI, vilket inkluderar lagstiftningen om artificiell intelligens (AI Act (EU:s AI-förordning)), som syftar till att reglera AI-system och säkerställa att de används på ett etiskt och säkert sätt.",
+        "keywords": [
+          "AI",
+          "Europa",
+          "innovation",
+          "digital transformation",
+          "AI Continent Action Plan"
+        ],
+        "arende": "AI Continent Action Plan",
+        "nasta_steg": "Det är troligt att EU-kommissionen kommer att publicera ytterligare uppdateringar och utvärderingar av AI Continent Action Plan under de kommande åren.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-09",
+            "beskrivning": "Publicering av nyhet om AI Continent Action Plan."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Have your say on the Digital Fairness Act",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Konsultation",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act",
+      "date": "Tue, 31 Mar 2026",
+      "analysis": {
+        "relevans": "hög",
+        "sammanfattning": "EU-kommissionen startar en konsultation kring en ny lag, Digital Fairness Act, som syftar till att skydda barn och tonåringar när de använder appar, webbplatser, spel och sociala medier. Konsultationen är öppen för allmänheten och pågår mellan den 31 mars och den 26 april 2026. Lagen kommer att reglera hur dessa plattformar och tjänster fungerar för att säkerställa en tryggare och mer positiv upplevelse för unga användare. Syftet är att ge barn och tonåringar bättre kontroll över sina digitala upplevelser och skydda dem från potentiella risker.",
+        "tech_vinkel": "Konsultationen handlar om Digital Fairness Act, vilket sannolikt kommer att innebära krav på plattformsansvar, åldersverifiering, och reglering av algoritmer som påverkar innehåll som presenteras för minderåriga, vilket är en direkt koppling till frågor om algoritmer och reglering av sociala medier.",
+        "varfor_viktigt": "Lagen kan få stor påverkan på hur sociala medieplattformar och appar fungerar i EU, och kan tvinga dem att ändra sina algoritmer och säkerhetsåtgärder. Det kan också påverka hur utvecklare skapar appar och spel för barn och tonåringar. Denna lagstiftning kan sätta en ny standard för hur barns digitala säkerhet hanteras globalt och kan inspirera liknande lagar i andra länder.",
+        "eu_koppling": "Digital Fairness Act är en ny lagstiftning från EU-kommissionen, och kommer sannolikt att påverkas av befintlig lagstiftning som GDPR (EU:s dataskyddsförordning) (EU:s dataskyddsförordning) och DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) (Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll), som reglerar plattformars ansvar för olagligt innehåll).",
+        "keywords": [
+          "digital fairness",
+          "barn",
+          "tonåringar",
+          "sociala medier",
+          "algoritmer",
+          "plattformar",
+          "åldersverifiering"
+        ],
+        "arende": "Digital Fairness Act",
+        "nasta_steg": "Efter konsultationen kommer EU-kommissionen att analysera synpunkterna och presentera ett lagförslag.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-03-31",
+            "beskrivning": "Konsultationen öppnade"
+          },
+          {
+            "datum": "2026-04-26",
+            "beskrivning": "Konsultationen stänger"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-breach-digital-services-act",
+      "date": "Thu, 26 Mar 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Plattformsreglering",
+        "sammanfattning": "EU-kommissionen har inlett en preliminär utredning och anser att Pornhub, Stripchat, XNXX och XVideos troligtvis brutit mot Digital Services Act (DSA). Kommissionen anklagar plattformarna för att inte ha skyddat minderåriga från att exponeras för pornografiskt innehåll. Detta är en första indikation på att kommissionen kommer att använda sina befogenheter för att övervaka och straffa plattformar som inte följer DSA:s regler. Utredningen kan leda till böter och andra åtgärder mot de berörda sidorna.",
+        "tech_vinkel": "EU-kommissionen utreder plattformarnas efterlevnad av Digital Services Act (DSA), som kräver att de vidtar åtgärder för att skydda minderåriga från skadligt innehåll online, vilket visar på en konkret tillämpning av ny lagstiftning som reglerar hur plattformar hanterar innehåll och skyddar användare.",
+        "varfor_viktigt": "Detta är ett viktigt exempel på hur EU:s Digital Services Act (DSA) faktiskt tillämpas och hur kommissionen kan agera mot plattformar som inte skyddar minderåriga. Det kan sätta press på andra plattformar att förbättra sina skyddsåtgärder och kan leda till en mer aktiv tillsyn från EU-kommissionen. Det visar också på en skärpt ton i kampen mot olämpligt innehåll online, särskilt riktat mot barn.",
+        "eu_koppling": "Digital Services Act (DSA) – en lagstiftning som ställer krav på plattformars ansvar för innehållet som publiceras på deras tjänster och kräver att de vidtar åtgärder för att skydda användare, särskilt minderåriga.",
+        "keywords": [
+          "Digital Services Act",
+          "DSA",
+          "Pornhub",
+          "Stripchat",
+          "XNXX",
+          "XVideos",
+          "barnskydd online",
+          "plattformsreglering"
+        ],
+        "arende": "Digitala marknader",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta sin utredning och kan besluta om åtgärder mot de berörda plattformarna.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-03-26",
+            "beskrivning": "EU-kommissionen meddelar preliminär utredning."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Nya krav på interoperabilitet vid datadelning inom den offentliga förvaltningen",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03244.html",
+      "date": "2026-04-16",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen föreslår i proposition 2025/26:244 nya krav på hur olika myndigheter och verksamheter inom den offentliga förvaltningen ska dela data med varandra. Syftet är att göra det enklare och säkrare att dela information, vilket ska leda till effektivare tjänster och bättre beslutsunderlag. Förslaget riktar sig till alla aktörer inom den offentliga sektorn som hanterar och delar data. Det innebär att myndigheter måste använda standardiserade format och protokoll för att säkerställa att informationen kan läsas och tolkas av andra system.",
+        "tech_vinkel": "Propositionen kräver att myndigheter använder sig av standardiserade gränssnitt och protokoll för datadelning, vilket innebär en satsning på interoperabilitetsstandarder och potentiellt nya tekniska lösningar för att möjliggöra sömlös datautbyte mellan olika system.",
+        "varfor_viktigt": "Förbättrad interoperabilitet kan effektivisera myndigheters arbete och minska dubbelarbete, vilket sparar tid och resurser. Det kan också underlätta för medborgare att få tillgång till offentliga tjänster och information. Om myndigheter inte kan dela data smidigt, försvårar det digitaliseringen av den offentliga sektorn och kan hindra utvecklingen av nya, innovativa tjänster.",
+        "eu_koppling": "Propositionen är i linje med EU:s strävan efter att främja datadelning och interoperabilitet inom den offentliga sektorn, vilket återspeglas i initiativ som EU:s datastrategi och den pågående diskussionen kring en ram för europeiska data-tjänster (European Data Space).",
+        "keywords": [
+          "interoperabilitet",
+          "datadelning",
+          "offentlig förvaltning",
+          "digitalisering",
+          "standarder"
+        ],
+        "arende": "Digital infrastruktur",
+        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt beslutas.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-16",
+            "beskrivning": "Riksdagen behandlar propositionen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576",
+      "source": "Regeringen",
+      "type": "Remiss",
+      "url": "https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/",
+      "date": "2026-03-24",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "Regeringen har skickat ut en remiss till olika svenska myndigheter och organisationer angående Europeiska kommissionens cybersäkerhetspaket. Paketet innehåller förslag på ändringar i cybersäkerhetsakten (EU 2019/881) och NIS 2-direktivet (EU 2022/2555). Syftet är att samla in synpunkter på kommissionens förslag innan Sverige formellt ska implementera dem i nationell lagstiftning. Remissen riktar sig till de som berörs av dessa lagar, vilket inkluderar företag, myndigheter och organisationer som hanterar kritisk infrastruktur.",
+        "tech_vinkel": "Remissen handlar specifikt om att ändra NIS 2-direktivet (EU 2022/2555), som tvingar kritiska verksamheter att höja sin cybersäkerhet genom bland annat incidentrapportering och riskanalyser.",
+        "varfor_viktigt": "Ändringarna i NIS 2-direktivet kommer att påverka svenska företag och myndigheter som anses vara kritiska för samhället, till exempel energibolag, sjukhus och banker. Implementeringen av dessa ändringar kommer att innebära nya krav på säkerhetsåtgärder och rapporteringsrutiner, vilket kan innebära kostnader och utmaningar för berörda aktörer. Remissen ger svenska aktörer möjlighet att påverka hur dessa krav ska utformas i Sverige.",
+        "eu_koppling": "NIS 2-direktivet (EU 2022/2555) är ett EU-direktiv som syftar till att stärka cybersäkerheten i EU genom att införa bindande krav för kritiska enheter och essentiella tjänsteleverantörer.",
+        "keywords": [
+          "cybersäkerhet",
+          "NIS2",
+          "EU",
+          "remiss",
+          "direktiv"
+        ],
+        "arende": "NIS2-implementering",
+        "nasta_steg": "De svenska myndigheterna kommer att analysera remissvaren och föreslå hur EU:s direktiv ska implementeras i svensk lagstiftning.",
+        "viktiga_datum": [
+          {
+            "datum": "null",
+            "beskrivning": "null"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Skärpta regler för unga lagöverträdare",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03246.html",
+      "date": "2026-04-16",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen föreslår skärpta regler för unga lagöverträdare, vilket innebär hårdare straff och utökade möjligheter till samhällstjänst. Förslaget riktar sig till personer under 18 år som begår brott och syftar till att minska återfallsrisken och ge ungdomar en chans till rehabilitering. Det påverkar både de unga som begår brott och samhället i stort genom att förändra hur ungdomsbrott hanteras. Propositionen är en följd av en ökad oro för brottslighet bland unga och en önskan att hitta mer effektiva metoder än dagens system.",
+        "tech_vinkel": "Propositionen nämner att digitala spår och onlineaktiviteter, inklusive sociala medier, kommer att beaktas vid bedömning av brottslighet och vid utformningen av samhällstjänst, vilket potentiellt kan innebära att data från plattformar används i brottsutredningar och vid rehabilitering.",
+        "varfor_viktigt": "De skärpta reglerna kan leda till att fler unga döms och får samhällstjänst, vilket kan påverka deras framtida möjligheter. Användningen av digitala spår och sociala medier i brottsutredningar och rehabilitering väcker frågor om integritet och rättssäkerhet, särskilt för unga. Det finns en risk att förslaget stigmatiserar unga brottslingar och försvårar deras återanpassning till samhället.",
+        "eu_koppling": "Propositionen kan indirekt påverkas av EU:s dataskyddsförordning (GDPR (EU:s dataskyddsförordning)), som reglerar hur personuppgifter, inklusive data från sociala medier, får behandlas.",
+        "keywords": [
+          "ungdomsbrottslighet",
+          "samhällstjänst",
+          "digitala spår",
+          "sociala medier",
+          "rehabilitering"
+        ],
+        "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
+        "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt lägga till ändringsförslag.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-15",
+            "beskrivning": "Förväntat första behandlingsdatum i riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Vindkraft i kommuner",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03239.html",
+      "date": "2026-04-14",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen föreslår en ny lag om intäktsdelning för vindkraft i kommuner. Propositionen syftar till att underlätta för kommuner att säga ja till vindkraftsutbyggnad genom att ge dem en ekonomisk del av intäkterna. Detta förväntas öka takten för utbyggnaden av vindkraft, vilket är en viktig del av Sveriges klimatmål. Lagen kommer att påverka både vindkraftsbolag och kommuner.",
+        "tech_vinkel": "Propositionen implicerar behovet av smarta elnät och digital infrastruktur för att effektivt integrera och hantera den ökade produktionen av vindkraft, vilket kan kräva investeringar i uppgraderingar och digitalisering av elnätet.",
+        "varfor_viktigt": "Snabbare vindkraftsutbyggnad är avgörande för att nå Sveriges klimatmål och minska beroendet av fossila bränslen. Genom att ge kommuner ekonomiska incitament kan man övervinna lokalt motstånd och accelerera utbyggnaden. Detta kommer att påverka energipriser, investeringar i grön energi och Sveriges internationella åtaganden.",
+        "eu_koppling": "Propositionen är relevant i förhållande till EU:s mål för förnybar energi och energisäkerhet, vilket kräver att medlemsländerna ökar sin andel förnybar energi, inklusive vindkraft. EU:s energidirektiv sätter ramarna för medlemsländernas energipolitik.",
+        "keywords": [
+          "vindkraft",
+          "intäktsdelning",
+          "kommuner",
+          "klimatmål",
+          "energipolitik"
+        ],
+        "arende": "Vindkraftsutbyggnad",
+        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-14",
+            "beskrivning": "Riksdagen behandlar propositionen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Extra ändringsbudget för 2026 – Sänkt skatt på drivmedel samt el- och gasprisstöd",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03236.html",
+      "date": "2026-04-13",
+      "analysis": {
+        "relevans": "medel",
+        "tech_vinkel": "Propositionen handlar om sänkta drivmedelsskatter och el- och gasprisstöd, vilket indirekt påverkar utvecklingen och användningen av elfordon och laddinfrastruktur.",
+        "varfor_viktigt": "Ändringsbudgeten påverkar direkt konsumenternas incitament att köpa elfordon och laddningsinfrastruktur, vilket är avgörande för Sveriges klimatmål och omställningen till en mer hållbar transportsektor. Beslutet kan också påverka investeringar i laddinfrastruktur och batteriteknik.",
+        "eu_koppling": null,
+        "keywords": [
+          "elfordon",
+          "drivmedelsskatt",
+          "laddinfrastruktur",
+          "energipriser",
+          "klimat"
+        ],
+        "arende": "Elfordonsstrategi",
+        "nasta_steg": "Riksdagen kommer att behandla propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-13",
+            "beskrivning": "Propositionen lämnas till riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2026 års ekonomiska vårproposition",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03100.html",
+      "date": "2026-04-13",
+      "analysis": {
+        "relevans": "medel",
+        "sammanfattning": "Regeringen lämnar över 2026 års ekonomiska vårproposition till riksdagen. Den innehåller förslag till riktlinjer för statens finanspolitik under kommande år, med fokus på att anpassa ekonomin till en osäker omvärld. Propositionen kommer att ligga till grund för vårbudgeten och påverkar hur staten fördelar pengar till olika områden. Den påverkar i slutändan alla medborgare genom skatter, bidrag och offentliga tjänster.",
+        "tech_vinkel": "Propositionen kan innehålla satsningar på digitalisering och AI, men det framgår inte i sammanfattningen. Det är viktigt att granska detaljerna i propositionen för att se om det finns specifika insatser för att stödja AI-forskning, utveckling av digital infrastruktur eller implementering av EU:s AI-lagstiftning.",
+        "varfor_viktigt": "Vårpropositionen är avgörande för att forma den ekonomiska politiken och påverkar hur resurser allokeras till viktiga områden som utbildning, sjukvård och infrastruktur. Om den innehåller satsningar på digitalisering kan det påverka innovationstakten och Sveriges konkurrenskraft. Tajmingen är viktig eftersom den sätter ramarna för den kommande budgetprocessen.",
+        "eu_koppling": "AI Act (EU:s AI-förordning) (EU:s lagstiftning som reglerar artificiell intelligens)",
+        "keywords": [
+          "vårproposition",
+          "ekonomi",
+          "finanspolitik",
+          "budget",
+          "digitalisering",
+          "AI"
+        ],
+        "arende": "Ekonomisk vårproposition",
+        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga till ändringsförslag innan den godkänns.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-13",
+            "beskrivning": "Propositionen lämnas över till riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Ett utökat straffrättsligt tjänstemannaansvar",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03217.html",
+      "date": "2026-04-09",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen föreslår en proposition om ett utökat straffrättsligt ansvar för tjänstemän. Det innebär att tjänstemän som agerar vårdslöst och orsakar skada, till exempel genom felaktiga beslut eller underlåtenhet, kan dömas för brott. Syftet är att öka tryggheten och säkerheten i samhället samt att stärka allmänhetens förtroende för myndigheterna. Förslaget påverkar alla statliga och kommunala tjänstemän.",
+        "tech_vinkel": "Propositionen kan få indirekta konsekvenser för tjänstemän som hanterar digitala system och data, eftersom felaktig hantering av dessa kan leda till straffrättsligt ansvar. Det är dock inte ett direkt fokus på teknik, utan snarare på ansvaret för tjänstemän oavsett deras arbetsuppgifter.",
+        "varfor_viktigt": "Detta förslag kan leda till att tjänstemän blir mer försiktiga i sina beslut, vilket i sin tur kan förbättra kvaliteten på myndighetsutövningen. Det kan också öka medvetenheten om vikten av korrekt hantering av information och data, särskilt i digitala system. Förändringen kan påverka hur myndigheter arbetar med digitalisering och automatisering, eftersom tjänstemän kan vara mer tveksamma att använda nya tekniker om de riskerar att bli straffade för fel.",
+        "eu_koppling": "Ingen tydlig koppling till EU-lagstiftning, men kan indirekt påverkas av EU:s dataskyddsförordning (GDPR (EU:s dataskyddsförordning)) som ställer krav på dataskydd och integritet.",
+        "keywords": [
+          "straffrätt",
+          "tjänstemannaansvar",
+          "myndigheter",
+          "ansvar"
+        ],
+        "arende": "Sociala medier",
+        "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt lägga till ändringsförslag.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-09",
+            "beskrivning": "Riksdagsdebatt om propositionen"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Strategisk exportkontroll 2025 – krigsmateriel och produkter med dubbla användningsområden",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03114.html",
+      "date": "2026-04-07",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Övrigt tech",
+        "sammanfattning": "Regeringens skrivelse 2025/26:114 handlar om strategisk exportkontroll av krigsmateriel och produkter med dubbla användningsområden. Det innebär att regeringen redovisar hur Sverige ska reglera exporten av varor som både kan användas civilt och militärt. Skrivelsen syftar till att förhindra att dessa produkter hamnar i fel händer, exempelvis hos stater eller organisationer som kan använda dem för att utveckla vapen eller krigföring. Den riktar sig till riksdagen för information och eventuell vidare hantering.",
+        "tech_vinkel": "Skrivelsen berör produkter med dubbla användningsområden, vilket inkluderar avancerad teknik som kan användas både för civila och militära ändamål, exempelvis vissa typer av elektronik och precisionsinstrument, och kräver därför en noggrann bedömning av exportrestriktioner.",
+        "varfor_viktigt": "Striktare exportkontroll kan påverka svenska företag som exporterar teknik och komponenter, särskilt de som verkar inom områden som har både civila och militära tillämpningar. Det är viktigt för Sveriges säkerhet att förhindra att känslig teknologi används för att utveckla vapen, samtidigt som det är viktigt att inte hindra legitima handelsflöden. Tajmingen är viktig med tanke på den geopolitiska situationen och ökade spänningar i världen.",
+        "eu_koppling": "Exportkontroll regleras delvis genom EU:s förordningar och beslut, som Sverige måste implementera i sin nationella lagstiftning. Dessa regleringar syftar till att harmonisera exportkontrollreglerna inom EU.",
+        "keywords": [
+          "exportkontroll",
+          "krigsmateriel",
+          "dubbla användningsområden",
+          "teknologi",
+          "säkerhet"
+        ],
+        "arende": "Krigsmaterielsexport",
+        "nasta_steg": "Riksdagen kommer att granska skrivelsen och eventuellt lämna förslag på åtgärder eller riktlinjer.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-07",
+            "beskrivning": "Skrivelsen lämnades till riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Desinformation om vindkraft",
+      "source": "Riksdagen",
+      "type": "Riksdagen/IP",
+      "url": "https://data.riksdagen.se/dokument/HD10448.html",
+      "date": "2026-04-24",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Sociala medier",
+        "sammanfattning": "Detta är en interpellation från riksdagsledamoten Josef Fransson (SD) till energi- och näringsministern Ebba Busch (KD) angående spridning av desinformation om vindkraft. Fransson uttrycker oro över hur branschorganisationen Windeurope’s rapport om desinformation kring vindkraft har fått stor spridning i svenska medier, särskilt via Sveriges Radio. Interpellationen syftar till att få ministern att agera mot spridningen av felaktig information och dess påverkan på opinionen kring vindkraftsutbyggnad.",
+        "tech_vinkel": "Interpellationen lyfter fram hur en rapport om desinformation har fått stor spridning via Sveriges Radio, vilket indikerar en potentiell användning av sociala medier och digitala plattformar för att sprida information och påverka opinionen, vilket är relevant för plattformsreglering och innehållsmoderering.",
+        "varfor_viktigt": "Spridningen av desinformation kan försvåra politiska beslut kring vindkraftsutbyggnad och skapa misstro mot energiproduktion. Det är viktigt att identifiera och motverka felaktig information för att säkerställa en informerad debatt och en hållbar energipolitik. Interpellationen kan leda till en diskussion om hur medier och plattformar hanterar information och potentiellt till åtgärder för att bekämpa desinformation.",
+        "eu_koppling": "Ingen direkt koppling till EU-lagstiftning, men kan relatera till diskussioner om desinformationsbekämpning inom EU:s ramverk för digitala tjänster (Digital Services Act, DSA).",
+        "keywords": [
+          "desinformation",
+          "vindkraft",
+          "sociala medier",
+          "plattformar",
+          "Sveriges Radio"
+        ],
+        "arende": "Ingen tydlig koppling",
+        "nasta_steg": "Energi- och näringsministern kommer att svara på interpellationen i riksdagen, vilket kan leda till en debatt och eventuella åtgärder.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-21",
+            "beskrivning": "Windeurope släppte rapporten 'Wind Energy Dis- and Misinformation'."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Polismyndighetens behandling av personuppgifter, Dir. 2026:17",
+      "source": "Regeringen",
+      "type": "Kommittédirektiv",
+      "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/",
+      "date": "2026-03-16",
+      "analysis": {
+        "relevans": "hög",
+        "sammanfattning": "Regeringen startar en utredning om hur Polismyndigheten hanterar personuppgifter. Utredningen ska se över reglerna för att säkerställa att de är moderna och effektiva för brottsbekämpning, samtidigt som den tar hänsyn till individens rättigheter och dataskydd. Utredningen kommer att analysera hur Polismyndigheten använder information och tekniska system, och föreslå eventuella förändringar i lagstiftningen. Detta påverkar Polismyndigheten, brottsbekämpande myndigheter och allmänheten.",
+        "tech_vinkel": "Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.",
+        "varfor_viktigt": "En uppdatering av reglerna för Polismyndighetens hantering av personuppgifter är viktig för att balansera brottsbekämpning med individens rättigheter och dataskydd. Om utredningen leder till nya regler kan det påverka hur Polismyndigheten använder teknik för att bekämpa brott, och det kan kräva investeringar i nya system och utbildning. Det är också viktigt att säkerställa att Polismyndighetens agerande är förenligt med GDPR (EU:s dataskyddsförordning) och andra relevanta lagar.",
+        "eu_koppling": "GDPR (EU:s dataskyddsförordning) (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas och kommer att vara en central referenspunkt för utredningen.",
+        "keywords": [
+          "personuppgifter",
+          "polismyndigheten",
+          "dataskydd",
+          "övervakning",
+          "teknik",
+          "brottsbekämpning"
+        ],
+        "arende": "Polismyndighetens personuppgiftsbehandling",
+        "nasta_steg": "Utredningen kommer att påbörjas och en utredningsgrupp kommer att utses för att genomföra analysen och lämna förslag.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-03-16",
+            "beskrivning": "Kommittédirektivet publicerades."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Latest news - Committee on Transport and Tourism",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128",
+      "date": "Wed, 06 May 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tech_vinkel": "Utskottet för transport och turism (TRAN) behandlar frågor som rör uppkopplade fordon och potentiellt även digitala lösningar för turism, vilket påverkar hur vi reser och upplever platser.",
+        "varfor_viktigt": "Med den snabba utvecklingen inom elfordon och autonoma system är det avgörande att EU-parlamentet aktivt formar regleringen för att säkerställa säkerhet, innovation och konkurrenskraft.  Utskottets arbete kan påverka framtida infrastrukturinvesteringar och konsumenters möjligheter.",
+        "eu_koppling": "Potentiellt relevant för EU:s lagstiftning kring uppkopplade fordon (Connected Vehicle Regulations) och digitala tjänster.",
+        "keywords": [
+          "uppkopplade fordon",
+          "elfordon",
+          "turism",
+          "digitalisering",
+          "transport"
+        ]
+      }
+    },
+    {
+      "title": "Ny myndighet för miljöprövning",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03238.html",
+      "date": "2026-04-14",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Övrigt tech",
+        "sammanfattning": "Regeringen föreslår att en ny myndighet ska skapas för att hantera miljöprövning. Den befintliga hanteringen är utspridd på flera myndigheter, vilket regeringen ser som ineffektivt. Den nya myndigheten ska samordna och effektivisera miljöprövningen för exempelvis industriella verksamheter och energiprojekt. Syftet är att snabba upp processen och minska dubbelarbete.",
+        "tech_vinkel": "Den nya myndigheten kommer sannolikt att använda digitala verktyg och system för att hantera ansökningar, data och kommunikation, vilket kan innebära behov av utveckling och implementering av ny IT-infrastruktur och digitala arbetsflöden.",
+        "varfor_viktigt": "En effektivare miljöprövning är avgörande för att kunna genomföra den gröna omställningen och samtidigt säkerställa att miljön skyddas. Den nya myndigheten kan underlätta för företag att investera i hållbara lösningar och bidra till att nå Sveriges klimatmål. Effektiviseringen kan också minska handläggningstiderna och därmed minska kostnaderna för både företag och myndigheter.",
+        "eu_koppling": "Ingen tydlig koppling till specifik EU-lagstiftning, men miljöprövning regleras i viss utsträckning av EU:s miljödirektiv.",
+        "keywords": [
+          "miljöprövning",
+          "myndighet",
+          "effektivisering",
+          "grön omställning"
+        ],
+        "arende": null,
+        "nasta_steg": "Riksdagen kommer nu att behandla propositionen och eventuellt anta den, vilket skulle leda till att den nya myndigheten inrättas.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-09",
+            "beskrivning": "Propositionen lämnades till riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Åtgärder för att stärka den svenska rymdbranschen",
+      "source": "Riksdagen",
+      "type": "Riksdagen/IP",
+      "url": "https://data.riksdagen.se/dokument/HD10436.html",
+      "date": "2026-04-16",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Övrigt tech",
+        "sammanfattning": "En interpellation från riksdagsledamot Mats Wiking (S) riktad till Gymnasie-, högskole- och forskningsminister Lotta Edholm (L) tar upp behovet av att stärka den svenska rymdbranschen. Interpellationen lyfter fram att rymden har blivit allt viktigare för samhället, då många samhällsfunktioner nu är beroende av data från satelliter. Wiking efterfrågar åtgärder för att stödja och utveckla den svenska rymdverksamheten, med hänvisning till den ökade betydelsen av rymddata i dagens samhälle, inklusive i krigssituationer. Syftet är att få minister Edholm att redogöra för regeringens planer för att stärka den svenska rymdbranschen.",
+        "tech_vinkel": "Interpellationen betonar att många samhällsfunktioner är beroende av data från satelliter, vilket implicerar en teknisk infrastruktur för satellitkommunikation och datahantering som kräver underhåll och utveckling.",
+        "varfor_viktigt": "En stärkt rymdbransch kan förbättra Sveriges förmåga att samla in och analysera data för samhällsnyttiga ändamål, exempelvis inom väderprognoser, kartläggning och säkerhet. Det kan också skapa nya arbetstillfällen och stärka den svenska teknologiska kompetensen. Med tanke på att rymddata blir allt viktigare i konfliktsituationer, kan en stark rymdbransch även bidra till Sveriges nationella säkerhet.",
+        "eu_koppling": "Ingen tydlig koppling till specifik EU-lagstiftning, men rymdverksamhet regleras delvis genom EU:s rymdprogram och strategier.",
+        "keywords": [
+          "rymdbranschen",
+          "satelliter",
+          "rymddata",
+          "interpellation",
+          "teknologi"
+        ],
+        "arende": null,
+        "nasta_steg": "Minister Edholm kommer att svara på interpellationen i en debatt i riksdagen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-16",
+            "beskrivning": "Interpellationen ställdes."
+          }
+        ]
+      }
+    }
   ]
 }
