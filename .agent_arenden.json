@@ -2,7 +2,7 @@
   "Elfordonsstrategi": {
     "name": "Elfordonsstrategi",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "status": "aktiv",
     "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
     "documents": [
@@ -41,7 +41,7 @@
   "Ekonomisk vårproposition": {
     "name": "Ekonomisk vårproposition",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "status": "aktiv",
     "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga ändringsförslag innan den godkänns.",
     "documents": [
@@ -140,9 +140,9 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "status": "aktiv",
-    "next_step": "EU-kommissionen kommer att fortsätta sin utredning och kan besluta om åtgärder mot de berörda plattformarna.",
+    "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -220,6 +220,13 @@
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260421CAN77759",
         "source": "EU-parlamentet",
         "tech_vinkel": "Mötet kommer specifikt att behandla genomförandet av Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) (DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll)), som reglerar hur stora onlineplattformar modererar innehåll och hanterar olagliga varor och tjänster, samt Digital Markets Act (EU-lagen som reglerar stora plattformars marknadsmakt) (DMA (EU-lagen som reglerar stora plattformars marknadsmakt)), som syftar till att förhindra missbruk av marknadsdominans av stora digitala företag."
+      },
+      {
+        "title": "Latest news - Next Committee Meeting: 7 May, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+        "date": "Wed, 06 Ma",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
       }
     ],
     "is_new_today": false,
@@ -271,7 +278,7 @@
   "AI Continent Action Plan": {
     "name": "AI Continent Action Plan",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -303,7 +310,7 @@
   "Digital Fairness Act": {
     "name": "Digital Fairness Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -339,7 +346,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -446,7 +453,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
