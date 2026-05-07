@@ -27,7 +27,14 @@ jobs:
       - name: Run agent
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python3 main.py
+          PYTHONUNBUFFERED: "1"
+        run: |
+          echo "── Cache FÖRE körning ──"
+          python3 -c "import json; c=json.load(open('.agent_analysis_cache.json')); print(f'  {len(c)} items')" || echo "  (ingen cache)"
+          python3 -u main.py
+          echo ""
+          echo "── Cache EFTER körning ──"
+          python3 -c "import json; c=json.load(open('.agent_analysis_cache.json')); from collections import Counter; cnt=Counter(e.get('cached_at','?') for e in c.values()); print(f'  {len(c)} items totalt'); [print(f'    {d}: {n}') for d,n in sorted(cnt.items(), reverse=True)[:5]]"
 
       - name: Commit and push reports
         run: |
