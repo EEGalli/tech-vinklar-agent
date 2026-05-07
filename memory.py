@@ -55,20 +55,39 @@ def save_analysis_cache(items: list[dict], max_age_days: int = 30) -> None:
     cache = load_analysis_cache()
     print(f"  [save_analysis_cache] befintlig cache hade {len(cache)} items", flush=True)
     today = date.today().isoformat()
+    skipped_no_url = 0
+    skipped_no_analysis = 0
+    skipped_error = 0
+    skipped_unknown = 0
+    added = 0
     for item in items:
         url = item.get("url") or ""
         analysis = item.get("analysis")
-        if not url or not analysis:
+        if not url:
+            skipped_no_url += 1
             continue
-        # Cacha INTE timeout-fel eller andra felmeddelanden — de ska försökas igen
+        if not analysis:
+            skipped_no_analysis += 1
+            continue
         tech_vinkel = analysis.get("tech_vinkel") or ""
-        if tech_vinkel.startswith("Fel:") or analysis.get("relevans") == "okänd":
+        if tech_vinkel.startswith("Fel:"):
+            skipped_error += 1
+            continue
+        if analysis.get("relevans") == "okänd":
+            skipped_unknown += 1
             continue
         cache[url] = {
             "analysis": analysis,
             "title": item.get("title", ""),
             "cached_at": today,
         }
+        added += 1
+    print(
+        f"  [save_analysis_cache] {added} tillagda | skippade: "
+        f"no_url={skipped_no_url} no_analysis={skipped_no_analysis} "
+        f"error={skipped_error} unknown={skipped_unknown}",
+        flush=True,
+    )
     # Rensa poster äldre än max_age_days
     cutoff = (date.today() - timedelta(days=max_age_days)).isoformat()
     cache = {u: e for u, e in cache.items() if e.get("cached_at", "") >= cutoff}
