@@ -372,6 +372,7 @@ Svara EXAKT i detta JSON-format, inget annat:
             import time
             time.sleep(10)
             return analyze_item(item, model=model, known_arenden=known_arenden, _retry=_retry + 1)
+        print(f"  [analyze_item] FEL för '{title[:50]}': {type(e).__name__}: {e}", flush=True)
         item["analysis"] = {
             "relevans": "okänd",
             "tech_vinkel": f"Fel: {e}",
