@@ -33,7 +33,22 @@ jobs:
         run: |
           git config user.name "Tech Vinklar Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add reports/ .agent_memory.json .agent_arenden.json .agent_dates.json .agent_analysis_cache.json 2>/dev/null || true
+
+          # Debug: vad finns i state-filerna?
+          echo "── State-filer efter körning ──"
+          ls -la .agent_*.json 2>/dev/null || echo "(inga state-filer hittades)"
+          echo ""
+          echo "── Cache-status ──"
+          if [ -f .agent_analysis_cache.json ]; then
+            python3 -c "import json; c=json.load(open('.agent_analysis_cache.json')); from collections import Counter; cnt=Counter(e.get('cached_at','?') for e in c.values()); print(f'Cache: {len(c)} totalt'); [print(f'  {d}: {n}') for d,n in sorted(cnt.items(), reverse=True)[:5]]"
+          fi
+          echo ""
+
+          git add reports/ .agent_memory.json .agent_arenden.json .agent_dates.json .agent_analysis_cache.json
+          echo "── Git status efter add ──"
+          git status --short
+          echo ""
+
           if git diff --staged --quiet; then
             echo "Inga ändringar att committa"
           else
