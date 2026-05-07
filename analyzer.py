@@ -18,7 +18,7 @@ import requests
 OLLAMA_URL = "http://localhost:11434/api/generate"
 DEFAULT_MODEL = "gemma3:12b"  # Använd för Ollama; för Gemini sätts namnet i _call_gemini
 
-GEMINI_MODEL = "gemini-1.5-flash"  # Snabb, gratis tier 1500/dag
+GEMINI_MODEL = "gemini-2.0-flash"  # Snabb, gratis tier (1.5-flash är deprecierad)
 
 
 def _load_env_file() -> None:
