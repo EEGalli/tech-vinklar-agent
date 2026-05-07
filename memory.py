@@ -51,7 +51,9 @@ def save_analysis_cache(items: list[dict], max_age_days: int = 30) -> None:
     """Sparar ALLA analyserade items (inkl filtrerade icke-tech) till en cache.
     Nästa körning använder detta för att undvika att re-analysera samma URL:er.
     Keyed på URL med timestamp — items äldre än max_age_days rensas automatiskt."""
+    print(f"  [save_analysis_cache] anropad med {len(items)} items, fil={CACHE_FILE}", flush=True)
     cache = load_analysis_cache()
+    print(f"  [save_analysis_cache] befintlig cache hade {len(cache)} items", flush=True)
     today = date.today().isoformat()
     for item in items:
         url = item.get("url") or ""
@@ -72,6 +74,7 @@ def save_analysis_cache(items: list[dict], max_age_days: int = 30) -> None:
     cache = {u: e for u, e in cache.items() if e.get("cached_at", "") >= cutoff}
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
+    print(f"  [save_analysis_cache] skrev {len(cache)} items till disk", flush=True)
 
 
 def load_analysis_cache() -> dict:
