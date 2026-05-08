@@ -283,10 +283,31 @@ def _call_gemini(prompt: str) -> str:
     return resp.text or ""
 
 
+def _is_ollama_available() -> bool:
+    """Pingar Ollama på localhost — snabb check (2s timeout)."""
+    try:
+        r = requests.get("http://localhost:11434/api/tags", timeout=2)
+        return r.status_code == 200
+    except Exception:
+        return False
+
+
+_QUOTA_KEYWORDS = ("ResourceExhausted", "429", "quota", "rate limit", "RATE_LIMIT")
+
+
 def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
-    """Routar till Gemini eller Ollama beroende på om API-nyckel finns."""
+    """Routar till Gemini eller Ollama. Faller automatiskt tillbaka till Ollama
+    om Gemini returnerar kvot-/rate-limit-fel och Ollama är tillgänglig lokalt."""
     if _use_gemini():
-        return _call_gemini(prompt)
+        try:
+            return _call_gemini(prompt)
+        except Exception as e:
+            err = str(e)
+            is_quota = any(kw in err for kw in _QUOTA_KEYWORDS)
+            if is_quota and _is_ollama_available():
+                print("  ⚠ Gemini-kvot slut — fallback till Ollama", flush=True)
+                return _call_ollama(prompt, model=model)
+            raise
     return _call_ollama(prompt, model=model)
 
 
