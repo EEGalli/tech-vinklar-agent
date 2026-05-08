@@ -142,7 +142,7 @@
     "first_seen": "2026-04-13",
     "last_updated": "2026-05-08",
     "status": "aktiv",
-    "next_step": "Det är troligt att IMCO kommer att fortsätta att övervaka situationen och eventuellt föreslå ytterligare åtgärder för att säkerställa efterlevnad av EU:s regler.",
+    "next_step": "Meta kommer att få möjlighet att bemöta kommissionens preliminära bedömning innan ett slutgiltigt beslut fattas.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -215,6 +215,13 @@
         "tech_vinkel": "EU-kommissionen granskar nu hur en stor social medieplattform hanterar barns säkerhet, vilket sätter fokus på algoritmer, innehållsmoderering och plikt för plattformar att skydda unga användare – en central fråga i den pågående debatten om reglering av sociala medier."
       },
       {
+        "title": "Joint Statement of the fourth meeting of the European Union - Japan Digital Partnership Council",
+        "date": "Tue, 05 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/joint-statement-fourth-meeting-european-union-japan-digital-partnership-council",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Uttalandet nämner specifikt dataintegrering, vilket implicerar diskussioner kring dataöverföring och interoperabilitet, vilket är en central fråga för digital infrastruktur och potentiellt relaterat till GDPR (EU:s dataskyddsförordning) och eIDAS (EU:s förordning om digital ID)."
+      },
+      {
         "title": "Highlights - EVP Virkkunen on EU Digital Legislation, Cybersecurity and Hybrid Threats - Special Committee on the European Democracy Shield",
         "date": "Tue, 21 Ap",
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260421CAN77759",
@@ -227,6 +234,13 @@
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
         "source": "EU-parlamentet",
         "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Commission preliminarily finds Meta in breach of Digital Services Act for failing to prevent minors under 13 from using Instagram and Facebook",
+        "date": "Wed, 29 Ap",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-meta-breach-digital-services-act-failing-prevent-minors-under-13",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen pekar specifikt på Metas bristande förmåga att identifiera, bedöma och minska riskerna för minderåriga som använder Instagram och Facebook, vilket är en direkt åtgärd som krävs enligt Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll)."
       }
     ],
     "is_new_today": false,
@@ -328,11 +342,11 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-05-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Silicon Box kommer sannolikt att börja implementera de åtgärder som krävs för att uppfylla kraven för 'Open EU Foundry'-status och dra nytta av de potentiella fördelarna.",
+    "next_step": "Det är troligt att mötet kommer att följas av konkreta avtal och initiativ för att genomföra det utökade samarbetet.",
     "documents": [
       {
         "title": "Open EU Foundry status granted to innovative chiplet facility",
@@ -340,6 +354,13 @@
         "url": "https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility",
         "source": "EU-kommissionen",
         "tech_vinkel": "EU-kommissionen ger stöd till en anläggning som tillverkar chiplets, vilket är en viktig teknik för framtidens datorsystem och AI-applikationer."
+      },
+      {
+        "title": "EU and Japan accelerate cooperation on AI, data, quantum and chips",
+        "date": "Tue, 05 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/eu-and-japan-accelerate-cooperation-ai-data-quantum-and-chips",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU och Japan har specifikt uttryckt en avsikt att fördjupa samarbetet kring halvledare (chips), vilket är en viktig komponent i många digitala teknologier."
       }
     ]
   },
@@ -379,6 +400,20 @@
         "url": "https://data.riksdagen.se/dokument/HD01SoU25.html",
         "source": "Riksdagen",
         "tech_vinkel": "Utskottet föreslår att äldre och vårdgivare ska få stöd för att utveckla digital kompetens, vilket specifikt inkluderar användning av sociala medier och digitala kommunikationsplattformar för att underlätta kontakt och stöd."
+      },
+      {
+        "title": "med anledning av prop. 2025/26:246 Skärpta regler för unga lagöverträdare",
+        "date": "2026-05-04",
+        "url": "https://data.riksdagen.se/dokument/HD024142.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Motionen betonar att skärpt ungdomsövervakning bör omfatta situationer där brott begås eller underlätts genom användning av digitala verktyg och plattformar, vilket indirekt pekar på behovet av att övervaka och reglera ungas användning av sociala medier och andra online-tjänster."
+      },
+      {
+        "title": "Stärkt skydd mot utlänningar som utgör kvalificerade säkerhetshot",
+        "date": "2026-05-07",
+        "url": "https://data.riksdagen.se/dokument/HD03267.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen nämner indirekt digital infrastruktur genom att inkludera 'kritisk infrastruktur' i de områden som utlänningar med säkerhetshotande profil ska begränsas från att ha tillgång till, vilket ofta innefattar system och data som är beroende av digital teknik."
       }
     ]
   },
@@ -460,6 +495,13 @@
     "next_step": "De svenska myndigheterna kommer att analysera remissvaren och föreslå hur EU:s direktiv ska implementeras i svensk lagstiftning.",
     "documents": [
       {
+        "title": "Joint Committee annual report highlights digitalisation, cyber resilience and sustainable finance as key priorities of 2025",
+        "date": "",
+        "url": "https://www.esma.europa.eu/press-news/esma-news/joint-committee-annual-report-highlights-digitalisation-cyber-resilience-and",
+        "source": "ESMA",
+        "tech_vinkel": "Rapporten betonar cybersäkerhet som en av de viktigaste prioriteringarna, vilket indikerar ett ökat fokus på att skydda finansiella system mot cyberattacker och digitala hot."
+      },
+      {
         "title": "Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576",
         "date": "2026-03-24",
         "url": "https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/",
@@ -481,6 +523,13 @@
         "tech_vinkel": "Propositionen handlar om implementeringen av EU:s kapitaltäckningsdirektiv, vilket innehåller krav på att banker använder sig av standardiserade riskmodeller och rapporteringssystem, vilket i sin tur påverkar den tekniska infrastrukturen och systemen som banker använder för att hantera risker och kapital."
       },
       {
+        "title": "Regeringen skickar förslag om kollektivtrafikskydd till Lagrådet",
+        "date": "2026-05-08",
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/05/regeringen-skickar-forslag-om-kollektivtrafikskydd-till-lagradet/",
+        "source": "Regeringen",
+        "tech_vinkel": "Förslaget om kollektivtrafikskydd implicerar användning av digitala säkerhetslösningar, såsom övervakningssystem, larmtjänster och potentiellt även system för att hantera och analysera data från sensorer och kameror i kollektivtrafikfordon och på stationer, vilket kräver en bedömning av dataskydd och integritet."
+      },
+      {
         "title": "International Cooperation",
         "date": "Mon, 09 Fe",
         "url": "https://www.enisa.europa.eu/about-enisa/international-cooperation",
@@ -495,11 +544,25 @@
         "tech_vinkel": "Workshopen behandlar cybersäkerhetskompetens, vilket direkt relaterar till behovet av att utbilda personal inom områden som molnsäkerhet, incidenthantering och skydd mot avancerade cyberhot, vilket är avgörande för att hantera moderna IT-system och digitala infrastrukturer."
       },
       {
+        "title": "Combating fraud in telecom: BEREC to host a workshop on 21 May 2026",
+        "date": "Thu, 07 Ma",
+        "url": "https://www.berec.europa.eu/en/news/latest-news/combating-fraud-in-telecom-berec-to-host-a-workshop-on-21-may-2026",
+        "source": "BEREC",
+        "tech_vinkel": "Workshopen kommer att behandla bedrägerier som sker via elektronisk kommunikation, vilket inkluderar tekniker som spoofing av telefonnummer och phishing via SMS, vilket är direkt relaterat till säkerheten för digitala kommunikationssystem."
+      },
+      {
         "title": "How does ENISA cooperate with users of the EU Cybersecurity Reserve? Who decides which entity should benefit from services provided by the Reserve?",
         "date": "Thu, 20 No",
         "url": "https://www.enisa.europa.eu/how-does-enisa-cooperate-with-users-of-the-eu-cybersecurity-reserve-who-decides-which-entity-should-benefit-from-services-provided-by-the-reserve",
         "source": "ENISA",
         "tech_vinkel": "Dokumentet handlar specifikt om EU:s cybersäkerhetsreserv, en resurs som används för att ge tekniskt stöd och resurser till medlemsländerna vid cyberattacker och andra säkerhetsincidenter, vilket är en direkt koppling till digital infrastruktur och cybersäkerhetsteknik."
+      },
+      {
+        "title": "BEREC external workshop on combating fraud",
+        "date": "Thu, 23 Ap",
+        "url": "https://www.berec.europa.eu/en/events/berec-external-workshop-on-combating-fraud",
+        "source": "BEREC",
+        "tech_vinkel": "Workshopen fokuserar på att bekämpa bedrägerier online, vilket implicerar en diskussion om tekniker och metoder för att upptäcka, förhindra och reagera på digitalt bedrägeri, inklusive potentiella användningar av AI för att identifiera och stoppa bedrägerier."
       },
       {
         "title": "National Cybersecurity Assessment Framework (NCAF) Tool",
@@ -513,11 +576,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-04-27",
+    "last_updated": "2026-05-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Förhandlingarna mellan EU-parlamentet och EU:s råd förväntas slutföras inom några veckor.",
+    "next_step": "Det politiska avtalet måste nu formaliseras juridiskt och genomgå den slutliga processen för antagande.",
     "documents": [
       {
         "title": "Highlights - Agreement on EU AI Rules Expected Within Weeks - Committee on the Internal Market and Consumer Protection",
@@ -525,24 +588,77 @@
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260311CAN76913",
         "source": "EU-parlamentet",
         "tech_vinkel": "Utskottet diskuterar den fortsatta förhandlingen av Digital Omnibus, som är ett paket av lagstiftning som inkluderar AI Act (EU:s AI-förordning), vilket reglerar utveckling och användning av AI-system."
+      },
+      {
+        "title": "Highlights - Agreement Reached on Updated AI Rules - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 07 Ma",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260506CAN78119",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Överenskommelsen handlar om att ändra EU:s AI Act (EU:s AI-förordning), vilket är en lagstiftning som reglerar utveckling och användning av artificiell intelligens genom att klassificera AI-system utifrån risknivå och ställa krav på transparens och ansvar."
+      },
+      {
+        "title": "HiPEAC Vision 2026 | CONNECT University",
+        "date": "Thu, 07 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/events/hipeac-vision-2026-connect-university",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Sessionen fokuserar specifikt på nästa generation databearbetning och artificiell intelligens, vilket indikerar ett intresse för att utveckla avancerade AI-system och potentiellt nya AI-arkitekturer."
+      },
+      {
+        "title": "EU agrees to simplify AI rules to boost innovation and ban ‘nudification' apps to protect citizens",
+        "date": "Thu, 07 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Avtalet inkluderar ett förbud mot 'nudification'-appar, vilket innebär att appar som använder sig av psykologiska knep och algoritmer för att manipulera användarnas beteende kommer att regleras och potentiellt förbjudas."
+      },
+      {
+        "title": "Highlights - How safe is AI? MEPs question experts on new risks and rules - Committee on the Internal Market and Consumer Protection",
+        "date": "Wed, 06 Ma",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260505CAN78065",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Utskottet diskuterade specifikt hur AI Act (EU:s AI-förordning), som är EU:s lagstiftning för att reglera AI-system, tillämpas på kraftfulla AI-system som Anthropic’s Mythos."
       }
     ]
   },
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "ENISA kommer troligen att utvärdera vilka kriterier som ska användas för att avgöra vilka icke-EU-länder som är berättigade till stöd.",
+    "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
+      {
+        "title": "Förbättrade förutsättningar för operativt militärt samarbete",
+        "date": "2026-04-30",
+        "url": "https://data.riksdagen.se/dokument/HD03254.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen nämner specifikt behovet av att förbättra ”informationsdelning och kommunikationssystem” för att underlätta operativt militärt samarbete, vilket implicerar investeringar i säker digital infrastruktur och potentiellt nya kommunikationsprotokoll."
+      },
       {
         "title": "Is any non-EU country eligible to receive support from the EU Cybersecurity Reserve?",
         "date": "Thu, 20 No",
         "url": "https://www.enisa.europa.eu/is-any-non-eu-country-eligible-to-receive-support-from-the-eu-cybersecurity-reserve",
         "source": "ENISA",
         "tech_vinkel": "Dokumentet refererar till EU:s Cybersolidaritetsakt (Cyber Solidarity Act), en lagstiftning som skapar en mekanism för att dela resurser och expertis inom cybersäkerhet mellan EU-länder och potentiellt även länder utanför EU, vilket är en konkret satsning på gränsöverskridande cybersäkerhetssamarbete."
+      }
+    ]
+  },
+  "Digital Services Act": {
+    "name": "Digital Services Act",
+    "first_seen": "2026-05-08",
+    "last_updated": "2026-05-08",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Medlemsländerna förväntas nu implementera appen och rapportera till EU-kommissionen om framstegen.",
+    "documents": [
+      {
+        "title": "Commission urges Member States to rollout EU age verification app",
+        "date": "Wed, 29 Ap",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-urges-member-states-rollout-eu-age-verification-app",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Dokumentet handlar specifikt om utrullningen av en EU-app för åldersverifiering, vilket är en teknisk lösning för att kontrollera användares ålder online och därmed reglera tillgången till innehåll på plattformar."
       }
     ]
   }

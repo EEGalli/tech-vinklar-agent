@@ -2304,5 +2304,1803 @@
     },
     "title": "Desinformation om vindkraft",
     "cached_at": "2026-04-27"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260506CAN78119": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) har nått en överenskommelse med EU:s råd om att ändra reglerna i EU:s AI-lagstiftning. Ändringarna syftar till att göra det enklare för företag att följa AI-lagen, samtidigt som de viktigaste delarna och den riskbaserade ansatsen behålls. En del av ändringarna innebär att tillämpningen av vissa regler skjuts upp.",
+      "tech_vinkel": "Överenskommelsen handlar om att ändra EU:s AI Act (EU:s AI-förordning), vilket är en lagstiftning som reglerar utveckling och användning av artificiell intelligens genom att klassificera AI-system utifrån risknivå och ställa krav på transparens och ansvar.",
+      "varfor_viktigt": "Ändringarna i AI-lagen påverkar direkt företag som utvecklar och använder AI-system inom EU, och kan påverka innovationstakten och konkurrenskraften. Att förenkla efterlevnaden kan minska den administrativa bördan för företagen, medan uppskjutandet av vissa regler kan ge mer tid för anpassning. Denna överenskommelse är ett viktigt steg mot att få AI-lagen på plats och skapa en rättslig ram för AI-utveckling.",
+      "eu_koppling": "AI Act (EU:s lagstiftning som reglerar artificiell intelligens genom att klassificera AI-system utifrån risknivå och ställa krav på transparens och ansvar).",
+      "keywords": [
+        "AI Act",
+        "artificiell intelligens",
+        "digital omnibus package",
+        "EU-lagstiftning",
+        "IMCO"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Den provisoriska överenskommelsen måste nu formellt godkännas av Europaparlamentet och EU:s råd innan den blir lag.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-07",
+          "beskrivning": "Provisorisk överenskommelse nådd mellan parlament och råd."
+        }
+      ]
+    },
+    "title": "Highlights - Agreement Reached on Updated AI Rules - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260505CAN78065": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) diskuterade hur man säkerställer säkerheten för artificiella intelligenssystem som kan utgöra säkerhetsrisker. Diskussionen handlade om hur befintlig EU-lagstiftning, inklusive Cyber Security Act och AI Act (EU:s AI-förordning), tillämpas i praktiken, med exempel som Anthropic’s Mythos. Syftet var att undersöka hur man kan reglera AI-system när de blir allt kraftfullare.",
+      "tech_vinkel": "Utskottet diskuterade specifikt hur AI Act (EU:s AI-förordning), som är EU:s lagstiftning för att reglera AI-system, tillämpas på kraftfulla AI-system som Anthropic’s Mythos.",
+      "varfor_viktigt": "Diskussionen är viktig eftersom den adresserar de växande säkerhetsriskerna med avancerad AI, och hur befintlig lagstiftning kan behöva anpassas. Det påverkar utvecklare och användare av AI-system, samt konsumenter som kan påverkas av dessa system. Tajmingen är viktig eftersom AI-tekniken utvecklas snabbt och lagstiftningen måste hänga med för att undvika allvarliga konsekvenser.",
+      "eu_koppling": "AI Act (EU:s lagstiftning som reglerar AI-system, med fokus på riskbaserad reglering och krav på transparens och ansvar). Cyber Security Act (EU:s direktiv som syftar till att stärka cybersäkerheten i medlemsstaterna och harmonisera cybersäkerhetsåtgärder).",
+      "keywords": [
+        "AI",
+        "artificiell intelligens",
+        "säkerhet",
+        "reglering",
+        "IMCO",
+        "Mythos",
+        "Cyber Security Act",
+        "AI Act"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Utskottet kommer troligen att fortsätta analysera tillämpningen av AI Act och eventuellt föreslå ändringar eller kompletteringar.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-06",
+          "beskrivning": "IMCO-utskottets diskussion om AI-säkerhet."
+        }
+      ]
+    },
+    "title": "Highlights - How safe is AI? MEPs question experts on new risks and rules - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260428CAN77924": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Sociala medier",
+      "sammanfattning": "EU-parlamentets utskott för medborgerliga friheter, rättvisa och hemförsäkerhet (LIBE) har hållit en offentlig utfrågning om hur man ska kontrollera åldern på minderåriga som använder sociala medier. Diskussionen handlade om olika metoder, från åldersverifiering till åldersuppskattning, och deras påverkan på privatlivet och dataskyddet. Syftet var att undersöka hur genomförbart, proportionerligt och rättvist dessa metoder är. Utfrågningen syftar till att hitta lösningar för att skydda barn online.",
+      "tech_vinkel": "Utfrågningen undersöker specifika tekniker för åldersverifiering, ålderssäkerställande och åldersuppskattning på sociala medier, vilket innebär att olika algoritmer och datainsamlingsmetoder diskuteras för att avgöra om minderåriga använder plattformar.",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan leda till nya regler för sociala medier som påverkar både plattformarnas ansvar för barnskydd och användarnas rättigheter till privatliv. Resultaten från utfrågningen kan påverka hur EU-lagstiftning kring sociala medier och barnskydd utformas. Det kan också påverka hur sociala medieplattformar implementerar ålderskontroller i framtiden.",
+      "eu_koppling": "Diskussionen är relevant i förhållande till den kommande Digitala tjänstlagen (DSA), som ställer krav på plattformar att skydda minderåriga, samt potentiellt den framtida AI Act (EU:s AI-förordning), om åldersverifieringstekniker baseras på AI.",
+      "keywords": [
+        "åldersverifiering",
+        "sociala medier",
+        "barnskydd",
+        "dataskydd",
+        "LIBE"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Utskottet kommer troligen att sammanställa resultaten från utfrågningen och använda dem för att forma sina ståndpunkter i framtida lagstiftningsinitiativ.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-06",
+          "beskrivning": "Offentlig utfrågning om åldersverifiering i LIBE."
+        }
+      ]
+    },
+    "title": "Highlights - LIBE Public Hearing on Age Verification, 6 May, 15h00 - Committee on Civil Liberties, Justice and Home Affairs",
+    "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/events/hipeac-vision-2026-connect-university": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-kommissionen anordnar en online-session, HiPEAC Vision 2026 | CONNECT University, för att diskutera framtidens databearbetning och artificiell intelligens. Syftet är att utforska hur Europa kan forma sin egen framtid inom AI, istället för att enbart kopiera lösningar från andra regioner. Sessionen riktar sig till intressenter inom AI och databearbetning och syftar till att identifiera strategier för europeisk innovation. Det är en del av EU:s bredare digitala strategi.",
+      "tech_vinkel": "Sessionen fokuserar specifikt på nästa generation databearbetning och artificiell intelligens, vilket indikerar ett intresse för att utveckla avancerade AI-system och potentiellt nya AI-arkitekturer.",
+      "varfor_viktigt": "Europeisk självständighet inom AI är avgörande för att undvika teknologiskt beroende av andra regioner och för att säkerställa att AI-utvecklingen sker i linje med europeiska värderingar och behov. Diskussionen kan leda till konkreta investeringar och strategier för att stärka Europas position inom AI-forskning och -utveckling, vilket påverkar konkurrenskraften och jobbskapandet. Att forma Europas egen framtid inom AI är viktigt för att säkerställa att tekniken används på ett etiskt och ansvarsfullt sätt.",
+      "eu_koppling": "Diskussionen är relevant för EU:s AI Act (förordning om upprättande av regler för artificiell intelligens), som syftar till att reglera utvecklingen och användningen av AI-system inom EU.",
+      "keywords": [
+        "AI",
+        "artificiell intelligens",
+        "databearbetning",
+        "Europa",
+        "digital strategi",
+        "HiPEAC"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Resultaten från sessionen kommer sannolikt att informera framtida policyer och initiativ inom EU:s digitala strategi och AI-område.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-19",
+          "beskrivning": "Online-sessionen HiPEAC Vision 2026 | CONNECT University äger rum."
+        }
+      ]
+    },
+    "title": "HiPEAC Vision 2026 | CONNECT University",
+    "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-kommissionen har nått en politisk överenskommelse med EU-parlamentet och EU:s råd om förenklade regler för artificiell intelligens (AI) för att främja innovation. Samtidigt ska appar som använder sig av 'nudification' – tekniker som manipulerar användare att agera på ett visst sätt – förbjudas för att skydda medborgarnas valfrihet. Avtalet syftar till att skapa en mer innovationsvänlig miljö för AI-utveckling samtidigt som det skyddar medborgarna från potentiellt skadliga tekniker. Det kommer att påverka AI-utvecklare, apputvecklare och slutanvändare inom EU.",
+      "tech_vinkel": "Avtalet inkluderar ett förbud mot 'nudification'-appar, vilket innebär att appar som använder sig av psykologiska knep och algoritmer för att manipulera användarnas beteende kommer att regleras och potentiellt förbjudas.",
+      "varfor_viktigt": "Detta avtal kan leda till snabbare utveckling av AI-lösningar inom EU, samtidigt som det sätter gränser för hur AI kan användas för att påverka individer. Förbudet mot 'nudification'-appar kan skydda konsumenter från exploatering och öka transparensen kring hur appar fungerar. Det kommer att påverka hur apputvecklare designar sina produkter och hur användare interagerar med digitala tjänster.",
+      "eu_koppling": "AI Act (EU:s lagstiftning som syftar till att reglera artificiell intelligens och säkerställa att den används på ett säkert och etiskt sätt).",
+      "keywords": [
+        "AI",
+        "artificiell intelligens",
+        "nudification",
+        "algoritmer",
+        "innovation",
+        "reglering"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Det politiska avtalet måste nu formaliseras juridiskt och genomgå den slutliga processen för antagande.",
+      "viktiga_datum": [
+        {
+          "datum": "null",
+          "beskrivning": "null"
+        }
+      ]
+    },
+    "title": "EU agrees to simplify AI rules to boost innovation and ban ‘nudification' apps to protect citizens",
+    "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/eu-and-japan-accelerate-cooperation-ai-data-quantum-and-chips": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Halvledare",
+      "sammanfattning": "EU-kommissionen har meddelat att EU och Japan kommer att intensifiera sitt samarbete inom digital teknik. Vid ett möte i Bryssel har de båda parterna enats om att fördjupa samarbetet kring reglering, forskning och industri inom områden som data, artificiell intelligens, kvantteknik, halvledare, digital infrastruktur och onlineplattformar. Syftet är att stärka bådas positioner inom dessa teknologier och främja innovation. Samarbetet kommer att omfatta både politiska diskussioner och konkreta åtgärder.",
+      "tech_vinkel": "EU och Japan har specifikt uttryckt en avsikt att fördjupa samarbetet kring halvledare (chips), vilket är en viktig komponent i många digitala teknologier.",
+      "varfor_viktigt": "Detta samarbete är viktigt eftersom både EU och Japan står inför utmaningar inom halvledarproduktionen och behöver stärka sin konkurrenskraft. Genom att dela kunskap och resurser kan båda parter minska sin beroende av andra regioner och säkra tillgången till viktiga teknologier. Det kan även leda till nya innovationer och skapande av arbetstillfällen inom dessa sektorer.",
+      "eu_koppling": "EU Chips Act (EU:s lagstiftning som syftar till att stärka EU:s halvledarindustri och minska beroendet av utländska leverantörer)",
+      "keywords": [
+        "EU",
+        "Japan",
+        "AI",
+        "data",
+        "kvant",
+        "chips",
+        "halvledare",
+        "digital infrastruktur"
+      ],
+      "arende": "EU Chips Act",
+      "nasta_steg": "Det är troligt att mötet kommer att följas av konkreta avtal och initiativ för att genomföra det utökade samarbetet.",
+      "viktiga_datum": [
+        {
+          "datum": "null",
+          "beskrivning": "null"
+        }
+      ]
+    },
+    "title": "EU and Japan accelerate cooperation on AI, data, quantum and chips",
+    "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/joint-statement-fourth-meeting-european-union-japan-digital-partnership-council": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-kommissionen har publicerat ett gemensamt uttalande från det fjärde mötet i EU-Japan Digital Partnership Council. Mötet ägde rum i Bryssel den 5 maj 2026 och syftar till att stärka det digitala samarbetet mellan EU och Japan. Uttalandet summerar diskussioner och framtida planer inom områden som digital handel, dataintegrering och cybersäkerhet. Samarbetet är tänkt att främja innovation och konkurrenskraft för både EU och Japan.",
+      "tech_vinkel": "Uttalandet nämner specifikt dataintegrering, vilket implicerar diskussioner kring dataöverföring och interoperabilitet, vilket är en central fråga för digital infrastruktur och potentiellt relaterat till GDPR (EU:s dataskyddsförordning) och eIDAS (EU:s förordning om digital ID).",
+      "varfor_viktigt": "Ett starkare digitalt samarbete med Japan kan leda till ökad handel och investeringar inom tech-sektorn för både EU och Japan. Det kan också bidra till att forma globala standarder för digitala tjänster och datahantering. Samarbetet kan också påverka hur EU:s och Japans respektive regleringar kring data och digitala tjänster samordnas.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning) och eIDAS (förordning om elektronisk identifiering och betrostjänster) är relevanta EU-lagstiftningar som kan påverkas av diskussionerna kring dataintegrering.",
+      "keywords": [
+        "EU",
+        "Japan",
+        "digitalt partnerskap",
+        "dataintegrering",
+        "cybersäkerhet"
+      ],
+      "arende": "Digitala marknader",
+      "nasta_steg": "Det är troligt att de punkter som lyfts fram i det gemensamma uttalandet kommer att operationaliseras genom konkreta projekt och avtal under det kommande året.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-05",
+          "beskrivning": "Fjärde mötet i EU-Japan Digital Partnership Council ägde rum."
+        }
+      ]
+    },
+    "title": "Joint Statement of the fourth meeting of the European Union - Japan Digital Partnership Council",
+    "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/commission-urges-member-states-rollout-eu-age-verification-app": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Sociala medier",
+      "sammanfattning": "EU-kommissionen har gett en rekommendation till medlemsländerna om att snabbt införa en EU-app för åldersverifiering. Appen ska vara tillgänglig för användare senast vid årets slut. Syftet är att skydda minderåriga online och säkerställa att de inte får tillgång till olämpligt innehåll. Medlemsländerna uppmanas att prioritera implementeringen av appen.",
+      "tech_vinkel": "Dokumentet handlar specifikt om utrullningen av en EU-app för åldersverifiering, vilket är en teknisk lösning för att kontrollera användares ålder online och därmed reglera tillgången till innehåll på plattformar.",
+      "varfor_viktigt": "Åldersverifieringsappen kan minska risken för att minderåriga exponeras för skadligt innehåll online, vilket kan leda till förbättrad säkerhet och välbefinnande för barn. Det kan också påverka hur plattformar hanterar innehåll och användarverifiering, och därmed förändra dynamiken på sociala medier och andra online-tjänster. Snabb implementering är viktig för att skydda barn i realtid.",
+      "eu_koppling": "Ärendet är kopplat till EU:s bredare arbete med att skydda barn online och implementera bestämmelser i Digital Services Act (DSA), som kräver åtgärder för att verifiera användares ålder.",
+      "keywords": [
+        "åldersverifiering",
+        "EU-app",
+        "barnskydd",
+        "sociala medier",
+        "Digital Services Act"
+      ],
+      "arende": "Digital Services Act",
+      "nasta_steg": "Medlemsländerna förväntas nu implementera appen och rapportera till EU-kommissionen om framstegen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-12-31",
+          "beskrivning": "Medlemsländerna ska ha infört åldersverifieringsappen."
+        }
+      ]
+    },
+    "title": "Commission urges Member States to rollout EU age verification app",
+    "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-kommissionen har antagit en rekommendation som syftar till att skapa ett gemensamt tillvägagångssätt för åldersverifieringstekniker som kan användas i hela EU. Rekommendationen föreslår att alla EU-medborgare ska ha tillgång till åldersverifieringsverktyg baserade på anonyma bevis på ålder. Detta ska garantera högsta möjliga standarder för dataskydd och integritet, och underlättar tillgång till digitalt innehåll och tjänster för olika åldersgrupper samtidigt som man skyddar barn och unga.",
+      "tech_vinkel": "Rekommendationen fokuserar på att möjliggöra användningen av 'anonyma bevis på ålder'-tekniker för åldersverifiering, vilket innebär att det handlar om specifika tekniska lösningar som kan verifiera ålder utan att avslöja personlig information.",
+      "varfor_viktigt": "Detta kan leda till en mer enhetlig reglering kring åldersverifiering på internet i hela EU, vilket underlättar för både företag och konsumenter. Det är viktigt för att skydda barn från olämpligt innehåll samtidigt som man respekterar individens rätt till dataskydd och integritet. Implementeringen av dessa tekniker kommer sannolikt att kräva utveckling och standardisering av nya tekniska lösningar och processer.",
+      "eu_koppling": "Detta är relevant i förhållande till GDPR (EU:s allmänna dataskyddsförordning), som ställer krav på hur personuppgifter hanteras och särskilt skyddar data för minderåriga.",
+      "keywords": [
+        "åldersverifiering",
+        "anonymitet",
+        "dataskydd",
+        "digitala tjänster",
+        "EU-rekommendation"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EU-medlemsländerna förväntas nu implementera rekommendationen och utveckla nationella strategier för åldersverifiering.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-29",
+          "beskrivning": "EU-kommissionen antog rekommendationen."
+        }
+      ]
+    },
+    "title": "Commission sets out a common approach for  EU-wide Age Verification technologies",
+    "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-meta-breach-digital-services-act-failing-prevent-minors-under-13": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Plattformsreglering",
+      "sammanfattning": "EU-kommissionen har preliminärt konstaterat att Meta (ägaren till Instagram och Facebook) brutit mot Digital Services Act (DSA). Kommissionen anser att Meta inte har gjort tillräckligt för att hindra barn under 13 år från att använda sina plattformar. Detta är en första bedömning, och Meta har nu möjlighet att bemöta anklagelserna. Om kommissionen bekräftar överträdelsen kan Meta få böter.",
+      "tech_vinkel": "EU-kommissionen pekar specifikt på Metas bristande förmåga att identifiera, bedöma och minska riskerna för minderåriga som använder Instagram och Facebook, vilket är en direkt åtgärd som krävs enligt Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll).",
+      "varfor_viktigt": "Detta är ett viktigt prejudikat som visar att EU-kommissionen tar Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) på allvar och är beredd att ingripa mot stora plattformsföretag som inte skyddar barn online. Det kan leda till skärpta krav på andra sociala medier och plattformar för att säkerställa barns säkerhet och integritet. En eventuell utredning och böter kan påverka Metas affärsmodell och hur de hanterar användarverifiering.",
+      "eu_koppling": "Digital Services Act (DSA) är en EU-lag som ställer krav på stora onlineplattformar och sökmotorer för att skydda användarnas rättigheter och säkerhet online, inklusive åtgärder mot olagligt innehåll och skydd för minderåriga.",
+      "keywords": [
+        "Digital Services Act",
+        "DSA",
+        "Meta",
+        "Instagram",
+        "Facebook",
+        "barnskydd",
+        "plattformar",
+        "EU-kommissionen"
+      ],
+      "arende": "Digitala marknader",
+      "nasta_steg": "Meta kommer att få möjlighet att bemöta kommissionens preliminära bedömning innan ett slutgiltigt beslut fattas.",
+      "viktiga_datum": [
+        {
+          "datum": "null",
+          "beskrivning": "null"
+        }
+      ]
+    },
+    "title": "Commission preliminarily finds Meta in breach of Digital Services Act for failing to prevent minors under 13 from using Instagram and Facebook",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Detta är ett pressmeddelande från EDPB (Europeiska dataskyddsmyndigheten) som meddelar att EU-institutionerna kommer att öppna sina dörrar för allmänheten den 9 maj 2026 för att fira Europeiska dagen. Europeiska dagen markerar årsdagen av Schumanförklaringen, en händelse som ledde till skapandet av EU. EDPB vill uppmuntra allmänheten att delta i firandet. Det handlar alltså om en offentlig markering, inte ett politiskt beslut eller förslag.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Händelsen är inte av särskild betydelse för tech-politiken eftersom det är en symbolisk markering och inte innehåller några konkreta åtgärder eller beslut som påverkar teknologibranschen eller digitala tjänster. Det påverkar främst allmänheten som är intresserade av att delta i evenemanget. Tajmingen är kopplad till Europeiska dagen, vilket är en årlig tradition.",
+      "eu_koppling": "Dataskyddslagstiftning (GDPR) är relevant eftersom EDPB är ansvarig för att se till att EU:s dataskyddslagstiftning efterlevs.",
+      "keywords": [
+        "Europeiska dagen",
+        "EU",
+        "EDPB",
+        "dataskydd"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-09",
+          "beskrivning": "Europeiska dagen, allmänheten bjuds in till EU-institutionerna."
+        }
+      ]
+    },
+    "title": "Europe Day 2026: let’s celebrate together",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/csc-documents/coordinated-supervisory-action-minors-under-15-years-old_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är en rapport från EU:s dataskyddsbyrå (EDPB) om en samordnad tillsynsåtgärd. Åtgärden riktar sig mot hur Europol hanterar personuppgifter om minderåriga under 15 år som misstänks eller kan vara kriminella. Rapporten beskriver hur EDPB har granskat Europols rutiner och identifierat områden där dataskyddet behöver förbättras. Syftet är att säkerställa att Europol följer dataskyddsförordningen (GDPR) när de behandlar känsliga personuppgifter om barn.",
+      "tech_vinkel": "Rapporten berör användningen av avancerade dataanalys- och sökverktyg hos Europol för att identifiera och spåra minderåriga, vilket väcker frågor om proportionalitet och rättssäkerhet i förhållande till GDPR (EU:s dataskyddsförordning):s krav på dataminimering och syftanslutning.",
+      "varfor_viktigt": "Denna tillsynsåtgärd är viktig eftersom den belyser riskerna med att använda känsliga personuppgifter om barn i brottsbekämpande syften. Det kan få konsekvenser för hur Europol och andra myndigheter hanterar minderårigas integritet och kan leda till skärpta regler och kontroller. Resultaten kan även påverka hur andra organisationer som hanterar stora mängder personuppgifter måste agera för att följa dataskyddsförordningen.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning) – reglerar hur personuppgifter behandlas inom EU och EES, och sätter gränser för hur myndigheter som Europol får hantera känsliga uppgifter.",
+      "keywords": [
+        "Europol",
+        "Dataskydd",
+        "Minderåriga",
+        "GDPR",
+        "Tillsyn"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EDPB kommer sannolikt att följa upp med Europol för att säkerställa att de vidtar de åtgärder som krävs för att rätta till de brister som identifierats.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-30",
+          "beskrivning": "EDPB publicerar rapporten om tillsynsåtgärden."
+        }
+      ]
+    },
+    "title": "Coordinated supervisory action on minors under 15 years old processed by Europol as suspects or potential criminals",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/consistency-findings/register-decisions/2026/approval-decision-administrative_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är ett beslut från EU:s dataskyddsbyrå (EDPB) som godkänner ett administrativt avtal mellan den tyska revisionsmyndigheten (Abschlussprüferaufsichtsstelle) och den amerikanska myndigheten Public Company Accounting Oversight Board (PCAOB). Avtalet handlar om överföring av personuppgifter från Tyskland till USA för att möjliggöra granskning av amerikanska börsnoterade företag. Beslutet innebär att EDPB anser att avtalet säkerställer en adekvat skyddsnivå för de personuppgifter som överförs. Detta påverkar både tyska revisionsmyndigheter och amerikanska företag som är beroende av dessa granskningar.",
+      "tech_vinkel": "Beslutet rör specifikt överföring av personuppgifter, vilket är en central fråga inom dataskydd och integritet, och berör därför tekniska system och processer för datalagring och överföring.",
+      "varfor_viktigt": "Beslutet är viktigt eftersom det visar hur EU hanterar överföring av personuppgifter till länder utanför EU, vilket är en känslig fråga efter Schrems II-domen. Det påverkar amerikanska företag som måste säkerställa att de följer EU:s dataskyddsregler, och det kan sätta press på USA att förbättra sina egna dataskyddsstandarder. Ett felaktigt avtal kan leda till avbrott i granskningar och potentiella rättsliga åtgärder.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar överföring av personuppgifter utanför EU/ESS och kräver adekvata skyddsnivåer.",
+      "keywords": [
+        "personuppgifter",
+        "överföring",
+        "USA",
+        "Tyskland",
+        "revision",
+        "PCAOB",
+        "EDPB"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Det är troligt att det tyska revisionsmyndigheten kommer att implementera avtalet och börja överföra personuppgifter till USA i enlighet med de godkända villkoren.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-02-27",
+          "beskrivning": "EDPB:s beslut godkändes."
+        }
+      ]
+    },
+    "title": "Approval decision of the Administrative Agreement between Abschlussprüferaufsichtsstelle and the US Public Company Accounting Oversight Board (PCAOB) concerning the transfer of personal data",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-122026-draft-decision-spanish-supervisory_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är en utlåtande (Opinion) från EU:s dataskyddsbyrå (EDPB) om ett beslut från den spanska dataskyddsmyndigheten. Beslutet rör Santander Groups bindande företagsregler (Binding Corporate Rules, BCR) för hur de hanterar personuppgifter inom koncernen. EDPB granskar dessa regler för att säkerställa att de uppfyller EU:s dataskyddsförordning (GDPR) och ger sin åsikt om hur den spanska myndigheten bör agera. Utlåtandet berör hur Santander Group hanterar dataöverföringar utanför EU/ESS.",
+      "tech_vinkel": "Utlåtandet behandlar specifikt bindande företagsregler (BCR), vilket är en mekanism som tillåter multinationella företag att överföra personuppgifter utanför EU/ESS under förutsättning att de uppfyller vissa krav, vilket är en central aspekt av GDPR (EU:s dataskyddsförordning):s reglering av internationella dataöverföringar.",
+      "varfor_viktigt": "Beslutet påverkar hur Santander Group, en stor finansiell institution, hanterar personuppgifter för sina kunder och anställda, och kan sätta prejudikat för hur andra företag hanterar liknande dataöverföringar. Ett godkännande av BCR kan underlätta internationell verksamhet, medan avslag kan tvinga Santander att hitta alternativa, mer kostsamma och tidskrävande lösningar. Det visar också hur EDPB övervakar och säkerställer att GDPR (EU:s dataskyddsförordning) efterlevs av stora företag.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar hur personuppgifter får samlas in och behandlas inom EU och vid överföringar utanför EU.",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "internationella dataöverföringar",
+        "bindande företagsregler",
+        "Santander"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Den spanska dataskyddsmyndigheten kommer att ta hänsyn till EDPB:s utlåtande när de fattar sitt slutgiltiga beslut om Santander Groups BCR.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-27",
+          "beskrivning": "EDPB publicerade Opinion 12/2026"
+        }
+      ]
+    },
+    "title": "Opinion 12/2026 on the draft decision of the Spanish Supervisory Authority regarding the Controller Binding Corporate Rules of the Santander Group",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-112026-draft-decision-belgian-supervisory_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är en utlåtande (Opinion) från EU:s dataskyddsmyndighet (EDPB) om ett beslut från den belgiska dataskyddsmyndigheten. Beslutet handlar om så kallade 'Controller Binding Corporate Rules' (CBCR) för Kuwait Petroleum Group, vilket är ett system som tillåter företaget att överföra personuppgifter utanför EU. EDPB granskar om dessa regler uppfyller EU:s dataskyddskrav. Utlåtandet påverkar hur internationella dataöverföringar hanteras för företag som Kuwait Petroleum Group.",
+      "tech_vinkel": "Utlåtandet behandlar Controller Binding Corporate Rules (CBCR), vilket är en mekanism för att hantera internationella dataöverföringar som bygger på tekniska och organisatoriska åtgärder för att säkerställa dataskydd, och är därmed direkt relaterat till tekniska lösningar för dataskydd.",
+      "varfor_viktigt": "Beslutet påverkar hur företag som Kuwait Petroleum Group kan hantera personuppgifter som överförs till länder utanför EU. Om EDPB inte godkänner CBCR kan företaget tvingas att hitta andra, mer kostsamma och tidskrävande, sätt att överföra data, vilket kan påverka deras verksamhet. Detta utlåtande sätter också en prejudikat för hur andra företag hanterar liknande internationella dataöverföringar.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning) reglerar internationella dataöverföringar och ger dataskyddsmyndigheter befogenhet att granska och godkänna mekanismer som CBCR.",
+      "keywords": [
+        "dataskydd",
+        "internationella dataöverföringar",
+        "CBCR",
+        "EDPB",
+        "Belgien",
+        "Kuwait Petroleum Group"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Den belgiska dataskyddsmyndigheten kommer att beakta EDPB:s utlåtande i sitt slutgiltiga beslut om CBCR för Kuwait Petroleum Group.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-27",
+          "beskrivning": "EDPB publicerade Opinion 11/2026"
+        }
+      ]
+    },
+    "title": "Opinion 11/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the Kuwait Petroleum Group",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-102026-draft-decision-dutch-supervisory_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är en remiss från EU:s dataskyddsmyndighet (EDPB) angående ett beslut från den holländska dataskyddsmyndigheten om 'Binding Corporate Rules' (BCR) för SLB Group, ett företag. Binding Corporate Rules är interna regler som företag använder för att säkerställa att personuppgifter som överförs mellan sina olika kontor och dotterbolag inom EU uppfyller dataskyddsbestämmelser. Remissen handlar om att granska och godkänna dessa regler för SLB Group. Beslutet påverkar SLB Group och alla individer vars personuppgifter hanteras under dessa regler.",
+      "tech_vinkel": "Dokumentet behandlar Binding Corporate Rules, vilket är en mekanism för att lagligt överföra personuppgifter utanför EU, och därmed berör de tekniska och juridiska aspekterna av dataöverföring och datalagring som är centrala för många tech-företag.",
+      "varfor_viktigt": "Godkännandet av BCR är avgörande för SLB Group för att kunna bedriva sin verksamhet internationellt och hantera data över gränserna. Om BCR inte godkänns kan det leda till restriktioner i dataöverföringar, vilket kan påverka företagets verksamhet och konkurrenskraft. Beslutet sätter också en prejudikat för andra företag som vill använda BCR för att hantera personuppgifter inom EU.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning) reglerar hur personuppgifter hanteras och överförs inom och utanför EU. Binding Corporate Rules är en mekanism som tillåter detta under vissa förutsättningar, och EDPB övervakar och godkänner dessa regler för att säkerställa att de uppfyller GDPR:s krav.",
+      "keywords": [
+        "Binding Corporate Rules",
+        "Dataöverföring",
+        "Dataskydd",
+        "GDPR",
+        "SLB Group"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Den holländska dataskyddsmyndigheten kommer att ta hänsyn till EDPB:s remiss innan de fattar ett slutgiltigt beslut om SLB Groups BCR.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-27",
+          "beskrivning": "EDPB publicerade remissen."
+        }
+      ]
+    },
+    "title": "Opinion 10/2026 on the draft decision of the Dutch Supervisory Authority regarding the Controller Binding Corporate Rules of the SLB Group",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-92026-draft-decision-dutch-supervisory_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är en utlåtande (Opinion) från EU:s dataskyddsbyrå (EDPB) om ett beslut från den holländska datainspektionsmyndigheten. Beslutet gäller bindande företagsregler (Binding Corporate Rules, BCR) för Jacobs Douwe Egberts Group, ett kaffe- och livsmedelsföretag. EDPB granskar hur företaget planerar att hantera personuppgifter inom sin globala verksamhet och ger sin åsikt om den holländska myndighetens beslut. Utlåtandet handlar om att säkerställa att företaget följer EU:s dataskyddsregler vid överföring av data mellan länder.",
+      "tech_vinkel": "Utlåtandet behandlar specifikt bindande företagsregler (BCR), vilket är en mekanism för att lagligt överföra personuppgifter utanför EU/ESS, och granskar hur dessa regler implementeras i ett storskaligt, internationellt företag, vilket är relevant för hur datahantering och automatisering fungerar i globala företag.",
+      "varfor_viktigt": "EDPB:s utlåtande påverkar hur multinationella företag som Jacobs Douwe Egberts kan hantera och överföra personuppgifter globalt. Ett godkännande av BCR kan underlätta internationella affärer, medan avslag eller ändringar kan innebära kostsamma anpassningar och begränsningar. Detta är särskilt viktigt i en tid då dataskyddsregleringen blir allt strängare och företagens globala verksamhet ökar.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar hur personuppgifter får samlas in och behandlas inom EU och vid överföringar utanför EU.",
+      "keywords": [
+        "dataskydd",
+        "personuppgifter",
+        "överföring",
+        "BCR",
+        "Jacobs Douwe Egberts"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Den holländska datainspektionsmyndigheten kommer att ta hänsyn till EDPB:s utlåtande när de fattar sitt slutgiltiga beslut om Jacobs Douwe Egberts BCR.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-27",
+          "beskrivning": "EDPB publicerade Opinion 9/2026."
+        }
+      ]
+    },
+    "title": "Opinion 9/2026 on the draft decision of the Dutch Supervisory Authority regarding the Controller Binding Corporate Rules of the Jacobs Douwe Egberts Group",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/consistency-findings/register-decisions/2021/approval-decision-data-protection_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU:s dataskyddsmyndighet (EDPB) har godkänt ett avtal om överföring av personuppgifter mellan Public Company Accounting Oversight Board (PCAOB), som granskar revisorer i USA, och den belgiska myndigheten som övervakar revisorer. Avtalet reglerar hur personuppgifter överförs från EU till USA för att möjliggöra PCAOB:s arbete. Godkännandet innebär att överföringen kan ske lagligt, i enlighet med EU:s dataskyddsregler. Avtalet påverkar främst revisorer och de personer vars uppgifter hanteras i samband med revisioner.",
+      "tech_vinkel": "Avtalet fastställer specifika tekniska och organisatoriska åtgärder som PCAOB måste implementera för att skydda de överförda personuppgifterna, vilket är en direkt koppling till krav på dataskyddsteknik och säkerhetsåtgärder enligt GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Godkännandet av avtalet möjliggör fortsatt granskning av revisorer av amerikanska myndigheter, vilket är viktigt för att säkerställa transparens och ansvarighet på finansmarknaderna. Om avtalet inte hade godkänts, hade det kunnat leda till hinder för PCAOB:s arbete och potentiella konsekvenser för företag som är noterade på börser. Det visar också på hur EU:s dataskyddsregler påverkar internationella samarbeten och dataströmmen.",
+      "eu_koppling": "Avtalet är relevant för GDPR (General Data Protection Regulation), som reglerar hur personuppgifter får överföras utanför EU och EES.",
+      "keywords": [
+        "personuppgifter",
+        "överföring",
+        "PCAOB",
+        "GDPR",
+        "EDPB"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "PCAOB och den belgiska myndigheten kommer att implementera avtalet och säkerställa att de tekniska och organisatoriska åtgärderna uppfylls.",
+      "viktiga_datum": [
+        {
+          "datum": "2021-04-07",
+          "beskrivning": "Datum för det ursprungliga beslutet om avtalet."
+        }
+      ]
+    },
+    "title": "Approval decision of the “Data Protection Agreement Between the Public Company Accounting Oversight Board (PCAOB) And The College Van Toezicht Op De Bedrijfsrevisoren/Collège De Supervision Des Réviseurs d’Entreprise On The Transfer Of Certain Personal Data”",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/news/news/2026/marking-10-years-gdpr-evolution-european-data-protection-landscape_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är en sammanfattning från EU:s dataskyddsbyrå (EDPB) som markerar 10-årsjubileet för GDPR (EU:s dataskyddsförordning). Dokumentet beskriver hur GDPR har format dataskyddslandskapet i Europa under det senaste decenniet, och betonar de tydliga rättigheter som individer har och de skyldigheter som organisationer har. EDPB reflekterar över GDPR:s inverkan och framtida utveckling inom dataskydd. Dokumentet riktar sig till alla organisationer och individer som hanterar personuppgifter inom EU.",
+      "tech_vinkel": "Dokumentet belyser hur GDPR (EU:s dataskyddsförordning) påverkar tekniska system och processer som hanterar personuppgifter, vilket kräver att företag implementerar dataskyddsåtgärder som pseudonymisering och dataminimering i sina tekniska lösningar.",
+      "varfor_viktigt": "GDPR (EU:s dataskyddsförordning) har haft en betydande inverkan på hur företag hanterar data, vilket har lett till ökad transparens och kontroll för individer. Dokumentet understryker behovet av fortsatt anpassning och utveckling inom dataskydd, särskilt med tanke på den snabba tekniska utvecklingen och nya utmaningar som generativ AI. Företag som inte följer GDPR riskerar stora böter och skadat rykte.",
+      "eu_koppling": "GDPR (General Data Protection Regulation) är EU:s lagstiftning som reglerar behandling av personuppgifter och syftar till att skydda individers integritet och dataskydd.",
+      "keywords": [
+        "GDPR",
+        "dataskydd",
+        "integritet",
+        "EDPB",
+        "personuppgifter"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EDPB kommer sannolikt att publicera ytterligare analyser och vägledningar baserat på de erfarenheter som gjorts under de senaste 10 åren av GDPR:s tillämpning.",
+      "viktiga_datum": [
+        {
+          "datum": "2016-04-27",
+          "beskrivning": "GDPR antogs av EU-parlamentet."
+        }
+      ]
+    },
+    "title": "Marking 10 years of the GDPR: the evolution of the European data protection landscape",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/support-pool-experts-projects/report-use-spe-external-experts-2025_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Rapporten från EU:s dataskyddsbyrå (EDPB) sammanfattar hur de använde externa experter under 2025. Rapporten fokuserar på hur dessa experter bidragit till att genomdriva GDPR (EU:s dataskyddsförordning), hantera frågor kring artificiell intelligens och främja samarbetet mellan olika dataskyddsmyndigheter inom EU. Rapporten belyser också användningen av Support Pool of Experts (SPE)-programmet, som är ett system för att samordna expertis inom dataskydd. Rapporten är tänkt att ge insikter i hur EDPB arbetar och hur de säkerställer efterlevnaden av dataskyddsregler.",
+      "tech_vinkel": "Rapporten nämner specifikt användningen av experter för att hantera frågor kring artificiell intelligens, vilket indikerar att EDPB aktivt använder sin expertis för att tolka och tillämpa dataskyddsregler på AI-system.",
+      "varfor_viktigt": "Rapporten ger insyn i hur EU:s dataskyddsmyndighet arbetar för att säkerställa att GDPR (EU:s dataskyddsförordning) efterlevs, särskilt i samband med snabbt växande teknologier som artificiell intelligens. Det kan påverka hur företag och organisationer utvecklar och använder AI-system, och hur de hanterar personuppgifter. Rapporten kan också ligga till grund för att förbättra samarbetet mellan dataskyddsmyndigheter inom EU.",
+      "eu_koppling": "GDPR (General Data Protection Regulation) – EU:s lagstiftning som reglerar hur personuppgifter får samlas in och behandlas.",
+      "keywords": [
+        "EDPB",
+        "GDPR",
+        "Artificiell intelligens",
+        "Dataskydd",
+        "Support Pool of Experts",
+        "SPE"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EDPB kommer sannolikt att använda rapporten för att utvärdera och förbättra användningen av SPE-programmet och för att anpassa sina metoder för att hantera nya teknologier.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-12-31",
+          "beskrivning": "Slutet på perioden som rapporten avser."
+        }
+      ]
+    },
+    "title": "Report on the use of SPE external experts in 2025",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/composition-of-the-management-board-pursuant-to-article-15-and-352-of-regulation-eu-20181971-1": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för reglering av elektronisk kommunikation, har beslutat om sammansättningen av sin förvaltningsgrupp. Beslutet baseras på artikel 15 och 35(2) i EU:s förordning 2018/1971, som skapar BEREC och dess stödjande byrå, BEREC Office. Förändringen påverkar vilka personer som kommer att sitta i förvaltningsgruppen och därmed hur BEREC kommer att utföra sina uppgifter. Syftet är att säkerställa en effektiv och oberoende reglering av telekommunikationsmarknaden.",
+      "tech_vinkel": "Dokumentet handlar om sammansättningen av en myndighet som reglerar elektronisk kommunikation, vilket direkt påverkar hur framtida regleringar kring 5G, bredband och andra digitala infrastrukturer kommer att utformas och genomföras.",
+      "varfor_viktigt": "BERECs förvaltningsgrupp spelar en viktig roll i att forma EU:s politik kring digital infrastruktur, vilket påverkar allt från nätneutralitet till tillgång till snabbare internet. En förändrad sammansättning kan leda till nya prioriteringar och strategier för hur dessa frågor hanteras, vilket i sin tur påverkar både telekombolag och konsumenter. Tajmingen är viktig eftersom EU nu står inför utmaningar som att utöka 5G-nät och bygga ut bredband i landsbygdsområden.",
+      "eu_koppling": "Regulation (EU) 2018/1971, som skapar BEREC och dess stödjande byrå, BEREC Office, och definierar dess uppgifter och sammansättning.",
+      "keywords": [
+        "BEREC",
+        "telekommunikation",
+        "digital infrastruktur",
+        "förordning",
+        "förvaltningsgrupp"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Den nya förvaltningsgruppen kommer att börja utföra sina uppgifter och påverka BERECs framtida arbete.",
+      "viktiga_datum": [
+        {
+          "datum": "2018-12-11",
+          "beskrivning": "EU:s förordning 2018/1971 trädde i kraft, vilket skapade BEREC."
+        }
+      ]
+    },
+    "title": "Composition of the Management Board pursuant to Article 15 and 35(2) of Regulation (EU) 2018/1971 [1]",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/board-of-regulators/composition-of-the-board-of-regulators-pursuant-to-article-7-and-352-of-regulation-eu-20181971-1": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för reglering av elektronisk kommunikation, har publicerat information om sammansättningen av dess styrelse. Dokumentet handlar specifikt om hur styrelsen ska utses enligt artikel 7 och 35(2) i förordning (EU) 2018/1971. Förordningen fastställer BEREC:s uppdrag och struktur, och styrelsen är en central del av byråns beslutsfattande. Syftet är att säkerställa att BEREC har en kompetent och oberoende styrelse för att reglera telekommunikationsmarknaden.",
+      "tech_vinkel": "Dokumentet rör sammansättningen av styrelsen för BEREC, vilket är relevant eftersom BEREC har ansvaret för att tillämpa regler som påverkar den digitala infrastrukturen, inklusive 5G-nätverk, bredband och andra viktiga teknologier.",
+      "varfor_viktigt": "En välkomponerad BEREC-styrelse är avgörande för att säkerställa en rättvis och konkurrenskraftig telekommunikationsmarknad i EU. Det påverkar direkt hur snabbt och effektivt nya teknologier kan implementeras och hur konsumenter skyddas. En korrekt sammansättning säkerställer att byrån kan fatta välgrundade beslut om nätneutralitet, frekvensallokering och andra viktiga frågor.",
+      "eu_koppling": "Förordning (EU) 2018/1971, som fastställer BEREC:s uppdrag och struktur. Denna förordning är grunden för BEREC:s befogenheter och ansvar inom EU:s telekommunikationspolitik.",
+      "keywords": [
+        "BEREC",
+        "telekommunikation",
+        "förordning",
+        "elektronisk kommunikation",
+        "digital infrastruktur"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Det är oklart från dokumentet, men nästa steg skulle sannolikt innebära att de nominerade styrelsemedlemmarna utses och bekräftas.",
+      "viktiga_datum": [
+        {
+          "datum": "2018-12-11",
+          "beskrivning": "Förordning (EU) 2018/1971 trädde i kraft."
+        }
+      ]
+    },
+    "title": "Composition of the Board of Regulators pursuant to Article 7 and 35(2) of Regulation (EU) 2018/1971 [1]",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/news/latest-news/combating-fraud-in-telecom-berec-to-host-a-workshop-on-21-may-2026": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Cybersäkerhet",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglering, kommer att hålla en workshop online den 21 maj 2026. Syftet är att diskutera hur man kan bekämpa bedrägerier inom elektronisk kommunikation. Workshopen är en del av ett pågående samarbete med partners runt om i världen och ska ge telekom-reglerare en möjlighet att utbyta erfarenheter. Fokus ligger på att identifiera och motverka bedrägerier som sker via telefon, SMS och internet.",
+      "tech_vinkel": "Workshopen kommer att behandla bedrägerier som sker via elektronisk kommunikation, vilket inkluderar tekniker som spoofing av telefonnummer och phishing via SMS, vilket är direkt relaterat till säkerheten för digitala kommunikationssystem.",
+      "varfor_viktigt": "Bedrägerier inom telekom orsakar stora ekonomiska förluster för både konsumenter och företag. Genom att dela kunskap och strategier kan BEREC:s medlemmar bidra till att minska dessa förluster och öka tryggheten i digitala kommunikationer. Workshopen kan leda till nya rekommendationer och åtgärder för att skydda konsumenter och företag mot bedrägerier.",
+      "eu_koppling": "Workshopen syftar till att harmonisera metoder för att bekämpa bedrägerier inom EU:s telekommunikationsmarknad, vilket är relevant i förhållande till EU:s bredare cybersäkerhetsstrategi och potentiellt NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet).",
+      "keywords": [
+        "telekom",
+        "bedrägerier",
+        "cybersäkerhet",
+        "BEREC",
+        "workshop"
+      ],
+      "arende": "NIS2-implementering",
+      "nasta_steg": "BEREC kommer sannolikt att publicera en rapport med slutsatser och rekommendationer baserat på workshopen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-21",
+          "beskrivning": "BEREC håller online-workshop om bedrägerier i telekom."
+        }
+      ]
+    },
+    "title": "Combating fraud in telecom: BEREC to host a workshop on 21 May 2026",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/events/berec-external-workshop-on-combating-fraud": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Cybersäkerhet",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, anordnar en workshop om hur man bekämpar bedrägerier online. Workshopen är öppen för anmälan fram till den 20 maj 2026 och kommer att hållas online den 21 maj. Syftet är att samla experter och intressenter för att diskutera och dela bästa praxis för att motverka bedrägerier som sker via telekommunikationsnätverk och digitala tjänster. Deltagarna kommer att bidra till att identifiera nya strategier och verktyg för att skydda konsumenter och företag.",
+      "tech_vinkel": "Workshopen fokuserar på att bekämpa bedrägerier online, vilket implicerar en diskussion om tekniker och metoder för att upptäcka, förhindra och reagera på digitalt bedrägeri, inklusive potentiella användningar av AI för att identifiera och stoppa bedrägerier.",
+      "varfor_viktigt": "Bedrägerier online orsakar stora ekonomiska förluster och skadar förtroendet för digitala tjänster. Workshopen kan leda till förbättrade metoder för att skydda konsumenter och företag från bedrägerier, vilket i sin tur kan stärka den digitala ekonomin. Genom att dela kunskap och erfarenheter kan BEREC bidra till att skapa en säkrare online-miljö.",
+      "eu_koppling": "Workshopen är relevant för NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet) eftersom bedrägeribekämpning är en viktig del av att säkerställa en hög säkerhetsnivå för digitala tjänster och infrastruktur.",
+      "keywords": [
+        "BEREC",
+        "bedrägerier",
+        "cybersäkerhet",
+        "telekommunikation",
+        "digitala tjänster",
+        "workshop"
+      ],
+      "arende": "NIS2-implementering",
+      "nasta_steg": "Deltagarna i workshopen kommer att bidra till att formulera rekommendationer och strategier för att bekämpa bedrägerier online.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-20",
+          "beskrivning": "Sista anmälningsdag för workshopen"
+        },
+        {
+          "datum": "2026-05-21",
+          "beskrivning": "Workshopen hålls"
+        }
+      ]
+    },
+    "title": "BEREC external workshop on combating fraud",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/events/berec-external-workshop-on-accessibility-of-electronic-communications-services": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, anordnar en workshop om tillgänglighet för elektroniska kommunikationstjänster. Workshopen är öppen för deltagande både på plats i Bryssel och online. Intresserade kan anmäla sig via en privat anmälningsformulär fram till den 2 juni 2026. Syftet är att diskutera hur man kan göra telekommunikationstjänster mer tillgängliga för personer med funktionsnedsättningar.",
+      "tech_vinkel": "Workshopen fokuserar på tillgänglighet för elektroniska kommunikationstjänster, vilket implicerar diskussioner kring tekniska lösningar och standarder för att säkerställa att dessa tjänster är användbara för personer med funktionsnedsättningar, inklusive till exempel textalternativ, talstyrning och kompatibilitet med hjälpmedel.",
+      "varfor_viktigt": "En ökad tillgänglighet för elektroniska kommunikationstjänster är avgörande för att säkerställa digital inkludering och likvärdighet för alla medborgare. Det påverkar både telekomoperatörer som måste anpassa sina tjänster och användare med funktionsnedsättningar som får förbättrad tillgång till information och kommunikation. Workshopen kan leda till nya riktlinjer och standarder som påverkar hur telekommunikationstjänster utvecklas och erbjuds.",
+      "eu_koppling": "Workshopen är relevant i förhållande till EU:s tillgänglighetsdirektiv (European Accessibility Act), som kräver att produkter och tjänster, inklusive elektroniska kommunikationstjänster, är tillgängliga för personer med funktionsnedsättningar.",
+      "keywords": [
+        "tillgänglighet",
+        "telekommunikation",
+        "digital inkludering",
+        "BEREC",
+        "EU"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Resultaten från workshopen kommer sannolikt att informera BERECs framtida rekommendationer och bidra till implementeringen av EU:s tillgänglighetsdirektiv.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "Sista anmälningsdag för workshopen."
+        }
+      ]
+    },
+    "title": "BEREC external workshop on accessibility of electronic communications services",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/public-consultations-calls-for-inputs/call-for-input-on-the-possible-amendment-of-the-berec-roaming-benchmark-data-collection-procedure": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, har publicerat en uppmaning om synpunkter på hur de ska ändra sina rutiner för att samla in data om roaming-kostnader. Ändringen är en följd av att roaming-reglerna utökats till Ukraina och Moldavien från den 1 januari 2026. Telekom-reglerare vill nu få in synpunkter från allmänheten och branschen innan de justerar sina datainsamlingsmetoder.  Sista datum för att lämna in synpunkter är den 20 april 2026.",
+      "tech_vinkel": "Dokumentet handlar om att anpassa datainsamlingsmetoder för roaming, vilket är direkt kopplat till nätverksinfrastruktur och dataöverföring, och påverkar hur telekombolag hanterar internationell datatrafik.",
+      "varfor_viktigt": "Ändringen i roaming-regler påverkar direkt konsumenter som reser till Ukraina och Moldavien, och telekombolagen som tillhandahåller tjänsterna. Korrekt datainsamling är avgörande för att säkerställa att roaming-marknaden fungerar rättvist och transparent, och att konsumenterna inte debiteras orimliga priser. Uppdateringen av datainsamlingsmetoderna är viktig för att BEREC ska kunna övervaka och reglera roaming-marknaden effektivt.",
+      "eu_koppling": "BEREC agerar inom ramen för EU:s regler för roaming, som syftar till att skapa en enhetlig marknad för telekommunikation och minska kostnaderna för konsumenter som reser inom EU och till associerade länder.",
+      "keywords": [
+        "roaming",
+        "telekommunikation",
+        "BEREC",
+        "datainsamling",
+        "Ukraina",
+        "Moldavien"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "BEREC kommer att analysera de inkomna synpunkterna och justera sina datainsamlingsrutiner därefter.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-20",
+          "beskrivning": "Sista datum för att lämna in synpunkter."
+        }
+      ]
+    },
+    "title": "Call for Input on the possible amendment of the BEREC Roaming Benchmark Data Collection procedure",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/news/press-releases/berec-provides-early-assessment-of-the-digital-networks-act-welcoming-ambition-while-highlighting-areas-for-improvement": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglering, har publicerat en första bedömning av EU-kommissionens förslag till Digital Networks Act (DNA). De välkomnar ambitionen i förslaget, men pekar också på områden som behöver förbättras. DNA syftar till att modernisera och utöka digitala nätverk i Europa, inklusive 5G och bredband. Telekom-reglerare i hela EU kommer att behöva implementera och tillämpa dessa regler.",
+      "tech_vinkel": "BEREC:s bedömning fokuserar på Digital Networks Act (DNA), som handlar om att reglera och främja utvecklingen av digital infrastruktur, inklusive 5G-nätverk och bredband, vilket är avgörande för framtida teknikutveckling och digitalisering.",
+      "varfor_viktigt": "BEREC:s bedömning är viktig eftersom den kan påverka hur DNA implementeras och tillämpas i praktiken. Om BEREC identifierar brister i förslaget kan det leda till ändringar som påverkar telekombolag, internetleverantörer och slutligen konsumenter. En välfungerande digital infrastruktur är en förutsättning för många andra teknologier, som AI och uppkopplade fordon.",
+      "eu_koppling": "Digital Networks Act (DNA) är ett EU-initiativ som syftar till att modernisera och utöka digitala nätverk i Europa.",
+      "keywords": [
+        "BEREC",
+        "Digital Networks Act",
+        "DNA",
+        "telekommunikation",
+        "5G",
+        "bredband"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "EU-parlamentet och rådet kommer nu att fortsätta behandla förslaget till DNA baserat på BEREC:s bedömning.",
+      "viktiga_datum": [
+        {
+          "datum": "null",
+          "beskrivning": "null"
+        }
+      ]
+    },
+    "title": "BEREC Provides Early Assessment of the Digital Networks Act, Welcoming Ambition While Highlighting Areas for Improvement",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/news/press-releases/shaping-europes-next-digital-chapter": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglering, anordnar ett forum där digitala beslutsfattare, myndigheter och branschledare ska diskutera framtidens digitala utveckling i Europa. Diskussionen kommer att fokusera på hur nästa generations nätverk ska rullas ut och vilka policyer och investeringar som krävs för att främja innovation. Forumet samlar de viktigaste aktörerna för att forma den digitala framtiden. Evenemanget äger rum den 31 mars 2026.",
+      "tech_vinkel": "Forumet kommer att diskutera utrullningen av nästa generations nätverk, vilket direkt relaterar till utvecklingen av 5G och potentiellt framtida 6G-teknik och den infrastruktur som krävs för att stödja dessa.",
+      "varfor_viktigt": "Diskussionen om nästa generations nätverk kommer att påverka hur snabbt och effektivt digitala tjänster kan levereras till medborgare och företag i Europa. Det kan påverka konkurrenskraften för europeiska företag och hur väl Europa kan delta i den globala digitala ekonomin. Resultaten från forumet kan leda till nya policyer och investeringar som formar den digitala landskapet under de kommande åren.",
+      "eu_koppling": "Diskussionen kan beröra EU:s strategi för digitala tjänster och den övergripande digitala marknadsplanen, som syftar till att skapa en enhetlig digital marknad i Europa.",
+      "keywords": [
+        "BEREC",
+        "digitalisering",
+        "nätverk",
+        "innovation",
+        "Europa"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Det är troligt att forumets diskussioner kommer att leda till rekommendationer eller policyförslag som kan påverka framtida lagstiftning och investeringar inom digital infrastruktur.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-03-31",
+          "beskrivning": "BEREC Stakeholder Forum äger rum."
+        }
+      ]
+    },
+    "title": "Shaping Europe’s next digital chapter",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/events/contact-network-new-member": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, har publicerat information om en ny medlem i deras Contact Network. Det handlar om en ansökningsformulär för en organisation som vill bli medlem i nätverket. Formuläret samlar in kontaktuppgifter och information om organisationen, samt information om eventuella traineeship-program. Syftet är att utöka nätverket med nya aktörer inom telekommunikationsområdet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Eftersom BEREC spelar en viktig roll i att reglera och främja digital infrastruktur i EU, kan utökningen av deras Contact Network påverka hur nya teknologier och tjänster implementeras och regleras. Nätverket kan bidra till att säkerställa att telekommunikationsmarknaden fungerar effektivt och rättvist. Dock är detta en administrativ process och har ingen direkt påverkan på befintlig lagstiftning.",
+      "eu_koppling": null,
+      "keywords": [
+        "BEREC",
+        "Contact Network",
+        "telekommunikation",
+        "digital infrastruktur"
+      ],
+      "arende": null,
+      "nasta_steg": "BEREC kommer att granska ansökan och fatta beslut om medlemskap i Contact Network.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-01-01",
+          "beskrivning": "Startdatum för eventuellt traineeship."
+        }
+      ]
+    },
+    "title": "Contact Network new member",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.berec.europa.eu/en/news/press-releases/berec-opens-public-consultation-on-its-work-programme-2027": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, har öppnat en offentlig remiss om sitt arbetsförslag för 2027. De vill att intressenter och organisationer i Europa lämnar in sina synpunkter och förslag. Remissen är en tidig del av processen och syftar till att samla in idéer inför det slutgiltiga arbetsförslaget. Syftet är att forma BERECs arbete under 2027.",
+      "tech_vinkel": "Arbetsförslaget för 2027 kommer sannolikt att inkludera frågor kring framtida nätverksinfrastruktur, inklusive 5G och potentiellt 6G, vilket är avgörande för att stödja andra tech-områden som AI och uppkopplade fordon.",
+      "varfor_viktigt": "BERECs arbetsförslag påverkar hur EU:s telekommunikationsinfrastruktur utvecklas och regleras, vilket i sin tur påverkar tillgången till snabb och pålitlig internetuppkoppling för företag och privatpersoner. Ett välutformat arbetsförslag kan främja innovation och konkurrens inom telekomsektorn och säkerställa att Europa ligger i framkant när det gäller digital teknik. Remissen ger intressenter möjlighet att påverka dessa viktiga beslut.",
+      "eu_koppling": "BERECs arbete är baserat på EU:s telekomdirektiv och syftar till att implementera och tillämpa dessa regler inom EU:s medlemsländer.",
+      "keywords": [
+        "BEREC",
+        "arbetsförslag",
+        "remiss",
+        "telekom",
+        "digital infrastruktur"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "BEREC kommer att analysera de inlämnade synpunkterna och använda dem för att forma det slutgiltiga arbetsförslaget för 2027.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-15",
+          "beskrivning": "Sista dag för att lämna in synpunkter i remissen."
+        }
+      ]
+    },
+    "title": "BEREC opens public consultation on its Work Programme 2027",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/joint-committee-annual-report-highlights-digitalisation-cyber-resilience-and": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Cybersäkerhet",
+      "sammanfattning": "Värdepappersmyndigheten (ESMA) har publicerat sin årsrapport för 2025. Rapporten lyfter fram digitalisering, cybersäkerhet och hållbar finansiering som de viktigaste prioriteringarna för 2025. Rapporten beskriver de gemensamma insatserna mellan de europeiska tillsynsmyndigheterna (EBA, EIOPA och ESMA) och deras arbete över olika sektorer. Fokus ligger på att identifiera och hantera risker och främja stabilitet inom finanssektorn.",
+      "tech_vinkel": "Rapporten betonar cybersäkerhet som en av de viktigaste prioriteringarna, vilket indikerar ett ökat fokus på att skydda finansiella system mot cyberattacker och digitala hot.",
+      "varfor_viktigt": "Finanssektorn är en primär måltavla för cyberkriminella, och en bristande cybersäkerhet kan leda till stora ekonomiska förluster och underminera förtroendet för systemet. Genom att prioritera cybersäkerhet strävar ESMA efter att stärka motståndskraften hos finansiella institutioner och skydda investerare. Detta är särskilt viktigt i en tid då digitaliseringen av finanssektorn accelererar.",
+      "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet) – ESMA:s prioritering av cybersäkerhet är i linje med kraven i NIS2, som syftar till att stärka cybersäkerheten i viktiga sektorer, inklusive finans.",
+      "keywords": [
+        "ESMA",
+        "cybersäkerhet",
+        "digitalisering",
+        "finans",
+        "årlig rapport"
+      ],
+      "arende": "NIS2-implementering",
+      "nasta_steg": "ESMA kommer sannolikt att utveckla ytterligare riktlinjer och övervakningsåtgärder för att säkerställa att finansiella institutioner uppfyller kraven i NIS2.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-12-31",
+          "beskrivning": "Årsrapporten avser verksamheten under 2025."
+        }
+      ]
+    },
+    "title": "Joint Committee annual report highlights digitalisation, cyber resilience and sustainable finance as key priorities of 2025",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/uaces-56th-annual-conference": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat information om UACES:s 56:e årliga konferens. Konferensen är en vetenskaplig sammankomst som fokuserar på rymdteknik och dess tillämpningar. Den samlar forskare och experter från hela världen för att diskutera de senaste framstegen inom området. Syftet är att främja samarbete och utbyte av kunskap inom rymdteknik.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Konferensen kan bidra till utvecklingen av rymdteknik, vilket i sin tur kan ha indirekta effekter på andra sektorer som telekommunikation och navigation. Dock saknas det konkreta tekniska förslag eller beslut i detta dokument som gör det tech-relevant enligt de angivna kriterierna. Det är en vetenskaplig konferens, inte ett lagstiftningsärende eller en satsning.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "konferens",
+        "EUSPA",
+        "UACES"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-04",
+          "beskrivning": "UACES 56:e årliga konferens publicerades"
+        }
+      ]
+    },
+    "title": "UACES 56th Annual Conference",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/how-eu-space-supports-active-ageing": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en sammanfattning som visar hur data och tjänster från EU:s rymdprogram kan hjälpa äldre personer att hålla sig aktiva och friska längre. Detta inkluderar användning av satellitdata för att exempelvis kartlägga rörelsemönster och identifiera risker för fallolyckor. Syftet är att demonstrera hur rymdteknik kan bidra till en åldrande befolkning och förbättra livskvaliteten för seniorer. Rapporten riktar sig till beslutsfattare och intressenter inom både rymd- och hälso- och sjukvårdssektorn.",
+      "tech_vinkel": "Sammanfattningen lyfter fram användningen av satellitdata, en form av geoinformation, för att övervaka och stödja äldre personers hälsa och aktivitet, vilket representerar en tillämpning av rymdbaserad teknologi för sociala tjänster.",
+      "varfor_viktigt": "Denna typ av tillämpning kan leda till mer proaktiva och personliga hälsovårdstjänster för äldre, vilket minskar belastningen på sjukvården och ökar livskvaliteten. Genom att integrera rymddata i hälsovårdssystem kan man identifiera risker tidigt och erbjuda skräddarsydda insatser. Det kan även stimulera innovation inom både rymd- och hälsosektorn.",
+      "eu_koppling": "Rapporten är kopplad till EU:s rymdprogram, som syftar till att utveckla och tillhandahålla rymdbaserade tjänster för olika sektorer, inklusive hälsa och välfärd. Det kan även indirekt kopplas till EU:s initiativ för aktivt åldrande och digitalisering av hälso- och sjukvården.",
+      "keywords": [
+        "rymddata",
+        "äldre",
+        "hälsa",
+        "satellit",
+        "geoinformation",
+        "digitalisering"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Det är troligt att EUSPA kommer att fortsätta att utveckla och marknadsföra dessa rymdbaserade tjänster för hälso- och sjukvårdssektorn, samt söka partnerskap med vårdgivare och andra intressenter.",
+      "viktiga_datum": []
+    },
+    "title": "How EU Space supports active ageing",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/node/9685": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) söker en Senior Space Systems Architect. Tjänsten innebär att designa och leda utvecklingen av rymdsystem, med fokus på arkitektur och integration. Personen kommer att arbeta med komplexa system och teknologier inom rymdsegmentet. Rollen är viktig för att säkerställa framtida rymdmissioners framgång och säkerhet.",
+      "tech_vinkel": "Annonsen efterfrågar expertis inom rymdsystemarkitektur, vilket inkluderar design och integration av komplexa mjukvaru- och hårdvarusystem, vilket är en viktig aspekt av digital infrastruktur.",
+      "varfor_viktigt": "Denna rekrytering är viktig för att säkerställa att EUSPA kan fortsätta att utveckla och underhålla rymdbaserad infrastruktur, vilket är avgörande för tjänster som satellitnavigering (t.ex. Galileo) och jordobservation. En kompetent rymdsystemarkitekt bidrar till att förbättra systemens prestanda, säkerhet och tillförlitlighet, vilket i sin tur påverkar många samhällssektorer som transport, jordbruk och räddningstjänst.",
+      "eu_koppling": "Galileo är EU:s satellitnavigationssystem, vilket gör att detta direkt relaterar till EU:s satsning på oberoende digital infrastruktur.",
+      "keywords": [
+        "rymd",
+        "systemarkitektur",
+        "satellit",
+        "digital infrastruktur",
+        "EUSPA"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Ansökningsprocessen kommer att fortsätta med intervjuer och urval av kandidater.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-30",
+          "beskrivning": "Annonsen publicerades"
+        }
+      ]
+    },
+    "title": "Senior Space Systems Architect",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/eu-steps-space-security-congestion-and-interference-rise": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) meddelar att EU intensifierar sitt arbete med rymdsäkerhet. Anledningen är att det blir allt mer trängsel och störningar i rymden, vilket hotar satellitkommunikation och andra rymdbaserade tjänster. Detta inkluderar att stärka skyddet mot störningar och förbättra övervakningen av rymdmiljön. Åtgärderna påverkar främst rymdoperatörer, satellittillverkare och EU:s säkerhetsintressen.",
+      "tech_vinkel": "EUSPA planerar att implementera tekniker för att upptäcka och motverka störningar i rymden, vilket inkluderar utveckling av avancerade sensorer och signalbehandling för att identifiera och lokalisera källor till störningar, samt system för att skydda satelliter från dessa störningar.",
+      "varfor_viktigt": "Ökningen av rymdtrafik och störningar riskerar att påverka EU:s satellitbaserade tjänster, inklusive navigering (Galileo), kommunikation och säkerhet. Förbättrad rymdsäkerhet är avgörande för att säkerställa EU:s ekonomiska konkurrenskraft och nationella säkerhet. Tajmingen är viktig eftersom rymdmiljön blir alltmer överbelastad och hoten från störningar ökar.",
+      "eu_koppling": "Detta arbete kopplar till EU:s strategi för rymdsäkerhet och kan komma att påverka implementeringen av NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet), då satellitkommunikation betraktas som en kritisk infrastruktur.",
+      "keywords": [
+        "rymdsäkerhet",
+        "satellit",
+        "störningar",
+        "EUSPA",
+        "Galileo",
+        "NIS2"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "EUSPA kommer att presentera en detaljerad handlingsplan för rymdsäkerhet inom de närmaste månaderna.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "EUSPA förväntas publicera en detaljerad handlingsplan för rymdsäkerhet."
+        }
+      ]
+    },
+    "title": "EU steps up space security as congestion and interference rise",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/publications-multimedia/resources/euspa-brochure": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EUSPA, Europeiska rymdbyrån, har publicerat en broschyr som beskriver deras arbete med Galileo, EUs satellitnavigationssystem, och Copernicus, EUs jordobservationsprogram. Broschyren förklarar hur dessa system tillhandahåller tjänster som positionering, tidssynkronisering och miljöövervakning. Den riktar sig till allmänheten och intressenter för att öka medvetenheten om EUs rymdprogram och deras bidrag till samhället. Broschyren lyfter fram hur dessa system möjliggör nya applikationer inom transport, jordbruk och räddningstjänst.",
+      "tech_vinkel": "Broschyren beskriver hur Galileo och Copernicus använder avancerad satellitteknik, inklusive atomklockor och högupplösta sensorer, för att leverera sina tjänster, vilket är en specifik teknisk detalj.",
+      "varfor_viktigt": "Galileo och Copernicus är avgörande för EUs strategiska självständighet inom positionering och jordobservation, vilket minskar beroendet av icke-europeiska system. Dessa system möjliggör mer exakta navigationssystem för transport och logistik, vilket kan förbättra effektiviteten och säkerheten. Dessutom är data från Copernicus-satelliterna viktiga för att övervaka klimatförändringar och naturkatastrofer, vilket underlättar anpassningsåtgärder och katastrofhantering.",
+      "eu_koppling": "Galileo är ett EU-initiativ som regleras av EUs rymdprogram, och Copernicus är en del av EUs miljöpolitik. Båda programmen är en del av EUs bredare strategi för digital infrastruktur.",
+      "keywords": [
+        "Galileo",
+        "Copernicus",
+        "satellitnavigation",
+        "jordobservation",
+        "rymdprogram"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "EUSPA kommer sannolikt att fortsätta att uppdatera och förbättra Galileo- och Copernicus-systemen baserat på användarfeedback och tekniska framsteg.",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA brochure",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/publications-multimedia/resources/eu-space-brochures": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat informationsbroschyrer om EU:s rymdprogram. Broschyrerna beskriver olika aspekter av programmen, inklusive satellitnavigering (Galileo), jordobservation (Copernicus) och rymddata. Syftet är att öka medvetenheten om EU:s rymdprogram och dess fördelar för medborgare och företag.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Broschyrerna är främst en informationsinsats och har inga direkta konsekvenser för tech-sektorn. De kan indirekt bidra till ökad efterfrågan på rymddata och satellittjänster, men detta är en långsiktig effekt. Fokus ligger på att öka allmänhetens förståelse för EU:s rymdprogram.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymden",
+        "satelliter",
+        "Galileo",
+        "Copernicus",
+        "EUSPA"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EU Space Brochures",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/day-one-needfirstio": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en rapport med titeln 'DAY ONE - NeedFirst.io'. Rapporten handlar om en ny tjänst eller plattform, NeedFirst.io, som ska tillhandahålla data och tjänster relaterade till rymddata. Syftet är att snabbare och mer effektivt kunna distribuera rymddata till användare, vilket kan inkludera företag, forskare och myndigheter. Rapporten beskriver den initiala driftsättningen av NeedFirst.io.",
+      "tech_vinkel": "NeedFirst.io är en plattform som förmodligen använder sig av molnbaserad infrastruktur och API:er (Application Programming Interfaces) för att distribuera rymddata, vilket är en konkret teknisk lösning för datahantering och delning.",
+      "varfor_viktigt": "Snabbare tillgång till rymddata kan accelerera innovation inom områden som jordobservation, navigering och kommunikation. Detta kan gynna både den privata sektorn och offentliga tjänster, och bidra till att stärka Europas position inom rymdteknologi. Effektiv datahantering är avgörande för att maximera nyttan av rymdprogram.",
+      "eu_koppling": "Dokumentet relaterar till EU:s satsning på digital infrastruktur och datadriven innovation, vilket kan kopplas till den bredare Digitala tidsåtgången.",
+      "keywords": [
+        "rymddata",
+        "EUSPA",
+        "NeedFirst.io",
+        "molnbaserad",
+        "API"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "EUSPA kommer sannolikt att fortsätta att utveckla och förbättra NeedFirst.io-plattformen baserat på användarfeedback och tekniska framsteg.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-29",
+          "beskrivning": "Publicering av rapporten 'DAY ONE - NeedFirst.io' av EUSPA."
+        }
+      ]
+    },
+    "title": "DAY ONE - NeedFirst.io",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/publications-multimedia/resources/euspa-rollup-prints": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat 'Rollup Prints', vilket är en sammanfattning av byrån verksamhet. Dokumentet beskriver EUSPAs roll i att tillhandahålla rymdbaserade tjänster, inklusive satellitnavigering (Galileo) och säker kommunikation. Det lyfter fram framsteg inom dessa områden och framtida planer för att förbättra rymdtjänsternas tillförlitlighet och säkerhet. Dokumentet riktar sig till intressenter inom rymdindustrin och allmänheten.",
+      "tech_vinkel": "Dokumentet beskriver EUSPAs arbete med att utveckla och underhålla Galileo, ett satellitnavigationssystem som kräver avancerad signalbehandling och krypteringsteknik för att säkerställa positionsnoggrannhet och säkerhet.",
+      "varfor_viktigt": "EUSPAs rymdbaserade tjänster är avgörande för en rad applikationer, från transport och jordbruk till räddningsinsatser och vetenskaplig forskning. Förbättringar i Galileo-systemet kommer att öka precisionen och tillförlitligheten för dessa tjänster, vilket påverkar många sektorer. Säkerheten i satellitkommunikation är också viktig för att skydda kritisk infrastruktur och nationell säkerhet.",
+      "eu_koppling": "Galileo är ett EU-initiativ som syftar till att skapa ett oberoende europeiskt satellitnavigationssystem, vilket är en del av EU:s strategi för digital infrastruktur och oberoende.",
+      "keywords": [
+        "EUSPA",
+        "Galileo",
+        "satellitnavigering",
+        "rymd",
+        "digital infrastruktur"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "EUSPA kommer sannolikt att fortsätta att uppdatera och förbättra Galileo-systemet baserat på feedback och tekniska framsteg.",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA Rollup Prints",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/space-economy-summit-europe": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån anordnar ett summitmöte om rymdekonomin i Europa. Mötet kommer att fokusera på hur rymdteknik och -tjänster kan bidra till ekonomisk tillväxt och innovation. Deltagare inkluderar företag, forskare och politiker inom rymdsektorn. Syftet är att främja samarbete och identifiera nya möjligheter inom rymdrelaterade affärsmodeller och investeringar.",
+      "tech_vinkel": "Summiten kommer sannolikt att diskutera användningen av satellitkommunikation och positioneringsteknik (som Galileo, EU:s satellitnavigationssystem) för att möjliggöra nya digitala tjänster och infrastruktur, vilket är direkt relevant för digital infrastruktur och uppkopplingsmöjligheter.",
+      "varfor_viktigt": "Rymdteknik blir allt viktigare för digitala tjänster, allt från internetuppkoppling i avlägsna områden till precisionsjordbruk och autonoma fordon. Summiten kan leda till nya investeringar och innovationer som accelererar utvecklingen av dessa tekniker och skapar nya jobb inom rymd- och techsektorn. Ett starkt europeiskt bidrag till rymdteknik är också viktigt för EU:s strategiska självständighet.",
+      "eu_koppling": "Galileo (EU:s satellitnavigationssystem) är en central del av EU:s digitala strategi och bidrar till att skapa en oberoende och säker digital infrastruktur.",
+      "keywords": [
+        "rymd",
+        "ekonomi",
+        "satellit",
+        "digital",
+        "innovation"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Summitens resultat kommer troligen att informera framtida rymdrelaterade policyer och investeringsbeslut på EU-nivå.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-27",
+          "beskrivning": "Space Economy Summit Europe genomförs"
+        }
+      ]
+    },
+    "title": "Space Economy Summit Europe",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.euspa.europa.eu/publications-multimedia/resources/galileo-sites-and-ground-stations": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat information om Galileo-systemets markstationer. Dokumentet beskriver platsval och utbyggnaden av dessa stationer, som är avgörande för att ta emot och bearbeta signaler från Galileo-satelliterna. Det handlar om att säkerställa en robust och pålitlig infrastruktur för navigering och positionering i Europa. Detta påverkar främst myndigheter, kommersiella aktörer och allmänheten som använder Galileo-systemet.",
+      "tech_vinkel": "Dokumentet berör den tekniska infrastrukturen för Galileo, ett satellitnavigeringssystem som kräver precisionsmottagare och avancerad signalbehandling, vilket är en form av digital infrastruktur.",
+      "varfor_viktigt": "En väl fungerande Galileo-system är avgörande för en mängd applikationer, från transport och logistik till räddningstjänst och lantbruk. Utbyggnaden av markstationer förbättrar systemets noggrannhet och tillförlitlighet, vilket minskar risken för felaktig positionering och relaterade problem. Detta är särskilt viktigt i en tid då beroendet av satellitnavigering ökar.",
+      "eu_koppling": "Galileo är ett EU-initiativ och en del av EU:s strategi för att stärka sin digitala suveränitet och minska beroendet av externa navigationssystem.",
+      "keywords": [
+        "Galileo",
+        "satellitnavigation",
+        "markstationer",
+        "GPS",
+        "rymdbyrå",
+        "infrastruktur"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Ytterligare platsval och byggnation av markstationer kommer att ske enligt den tidsplan som EUSPA publicerar.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-01",
+          "beskrivning": "Förväntad publicering av detaljerad tidsplan för utbyggnad av markstationer."
+        }
+      ]
+    },
+    "title": "Galileo Sites and Ground Stations",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03267.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Cybersäkerhet",
+      "sammanfattning": "Regeringen föreslår en proposition som syftar till att stärka skyddet mot utlänningar som utgör kvalificerade säkerhetshot. Detta inkluderar åtgärder för att begränsa deras tillgång till kritisk infrastruktur och information. Förslaget riktar sig mot individer som bedöms utgöra ett hot mot Sveriges nationella säkerhet och kan innebära skärpta krav på visum, uppehållstillstånd och anställning. Syftet är att minska riskerna för spionage, sabotage och annan skadlig verksamhet.",
+      "tech_vinkel": "Propositionen nämner indirekt digital infrastruktur genom att inkludera 'kritisk infrastruktur' i de områden som utlänningar med säkerhetshotande profil ska begränsas från att ha tillgång till, vilket ofta innefattar system och data som är beroende av digital teknik.",
+      "varfor_viktigt": "Förslaget kan leda till skärpta regler för utländska medborgare som arbetar inom sektorer som telekommunikation, energi och transport, vilket kan påverka företags rekryteringsmöjligheter och tillgång till kompetens. Det kan också öka spänningarna mellan Sverige och andra länder om det uppfattas som diskriminerande. Tajmingen är viktig med tanke på den ökande geopolitiska spänningen och hotbilden mot kritisk infrastruktur.",
+      "eu_koppling": "Propositionen kan behöva anpassas till EU:s regler om fri rörlighet och asyl, vilket kan begränsa regeringens handlingsutrymme. Det finns en koppling till EU:s arbete med att stärka cybersäkerheten och skydda kritisk infrastruktur.",
+      "keywords": [
+        "säkerhetshot",
+        "utlänningar",
+        "kritisk infrastruktur",
+        "digital infrastruktur",
+        "nationell säkerhet"
+      ],
+      "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
+      "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt lägga till ändringsförslag.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-07",
+          "beskrivning": "Förväntad debatt i riksdagen."
+        }
+      ]
+    },
+    "title": "Stärkt skydd mot utlänningar som utgör kvalificerade säkerhetshot",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03261.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen föreslår att Skatteverket får utökade befogenheter inom folkbokföringsverksamheten. Det innebär att Skatteverket får lagstadgade möjligheter att använda folkbokföringsuppgifter för att utföra andra uppgifter än bara folkbokföring, vilket kan innebära att de delar information med andra myndigheter. Syftet är att effektivisera myndigheters arbete och minska dubbelarbete, men det kan också påverka individers integritet. Förslaget måste nu granskas och beslutas om av riksdagen.",
+      "tech_vinkel": "Utökade befogenheter för Skatteverket inom folkbokföringsverksamheten innebär att mer data kommer att hanteras och potentiellt delas digitalt mellan myndigheter, vilket ökar behovet av robusta datasäkerhetsåtgärder och tydliga regler för datadeling.",
+      "varfor_viktigt": "Förslaget kan leda till ökad effektivitet i myndighetsarbetet, men också till en minskad individuell integritet om hanteringen av personuppgifter inte sker på ett säkert och transparent sätt. Det är viktigt att riksdagen noga överväger balansen mellan effektivitet och skydd av medborgarnas rättigheter. Det påverkar alla som är folkbokförda i Sverige, vilket är i princip alla.",
+      "eu_koppling": "Förslaget måste följa EU:s dataskyddsförordning (GDPR), som reglerar hur personuppgifter får samlas in, behandlas och delas.",
+      "keywords": [
+        "folkbokföring",
+        "Skatteverket",
+        "personuppgifter",
+        "datadelning",
+        "integritet"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga till ändringsförslag innan ett beslut fattas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-07",
+          "beskrivning": "Riksdagen behandlar propositionen"
+        }
+      ]
+    },
+    "title": "Utökade befogenheter för Skatteverket inom folkbokföringsverksamheten",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03250.html": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen föreslår en ny lag om statlig e-legitimation. Detta innebär att staten ska erbjuda en digital identitet som medborgare kan använda för att logga in på statliga och privata tjänster online. Syftet är att göra det enklare och säkrare för medborgare att identifiera sig digitalt och att minska beroendet av privata aktörer. Lagen kommer att påverka både medborgare och företag som erbjuder digitala tjänster.",
+      "tech_vinkel": "Propositionen föreslår en ny lagstiftning som reglerar och möjliggör en statlig e-legitimation, vilket är en specifik digital infrastruktur för identitetshantering och autentisering.",
+      "varfor_viktigt": "En statlig e-legitimation kan öka medborgarnas förtroende för digitala tjänster och minska risken för identitetsstöld. Det kan också underlätta för företag att erbjuda digitala tjänster och minska kostnaderna för identitetskontroll. En sådan lösning är central för att möjliggöra digitaliseringen av samhället och för att säkerställa att alla medborgare kan delta i den digitala ekonomin.",
+      "eu_koppling": "eIDAS (European Digital Identification Authentication and Trust Services) – EU-förordningen som fastställer ramarna för elektronisk identifiering och betrottjänster på EU-nivå. Den svenska lagen om statlig e-legitimation måste vara förenlig med eIDAS.",
+      "keywords": [
+        "e-legitimation",
+        "digital identitet",
+        "statlig identitet",
+        "digitalisering",
+        "eIDAS"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-07",
+          "beskrivning": "Riksdagen behandlar propositionen"
+        }
+      ]
+    },
+    "title": "En statlig e-legitimation",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03255.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår att riksdagen godkänner en proposition om stickprovsinsamling av uppgifter om hushållens skulder. Syftet är att få en bättre bild av hushållens ekonomiska situation och underlag för ekonomiska beslut. Informationen kommer att samlas in från banker och kreditinstitut och ska användas för att analysera trender och risker i ekonomin.  Detta kommer att påverka banker och kreditinstitut som måste lämna ut data, samt hushåll vars data samlas in.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "En mer detaljerad bild av hushållens skulder kan hjälpa regeringen att fatta bättre beslut om ekonomisk politik, till exempel vid en eventuell kris. Det kan också bidra till att identifiera grupper som är särskilt utsatta för ekonomiska problem. Dock är det viktigt att säkerställa att datainsamlingen sker på ett sätt som respekterar individens integritet och säkerhet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "skulder",
+        "hushåll",
+        "ekonomi",
+        "data",
+        "proposition"
+      ],
+      "arende": null,
+      "nasta_steg": "Riksdagen kommer att behandla propositionen och eventuellt ändra eller godkänna den.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-05",
+          "beskrivning": "Propositionen lämnas till riksdagen."
+        }
+      ]
+    },
+    "title": "Stickprovsinsamling av uppgifter om hushållens skulder",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03265.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Sociala medier",
+      "sammanfattning": "Regeringen föreslår skärpta regler om uppsikt och förvar, vilket framgår av proposition 2025/26:265. Förslaget handlar om att stärka möjligheterna för brottsbekämpande myndigheter att övervaka och förvara digitala bevis, inklusive data som finns på sociala medier och andra plattformar. Syftet är att förbättra utredningsarbetet och säkerställa att digitala bevis inte går förlorade. Förslaget kommer att påverka både brottsbekämpande myndigheter och de företag som driver plattformar och tjänster där digital information lagras.",
+      "tech_vinkel": "Propositionen nämner specifikt att skärpta regler ska gälla för digitala bevis, vilket implicerar att data som lagras på sociala medier och andra plattformar kommer att omfattas av de nya reglerna om uppsikt och förvar.",
+      "varfor_viktigt": "De skärpta reglerna kan leda till att brottsbekämpande myndigheter får bättre tillgång till digitala bevis i utredningar, vilket i sin tur kan bidra till att fler brott klaras upp. Samtidigt kan det innebära en ökad övervakning av medborgarnas digitala aktivitet, vilket väcker frågor om integritet och rättssäkerhet. Företag som driver plattformar kommer att behöva anpassa sina rutiner för att hantera förfrågningar om data från myndigheter.",
+      "eu_koppling": "Propositionen kan behöva anpassas till EU:s dataskyddsförordning (GDPR), som reglerar hur personuppgifter får behandlas och delas. Det är viktigt att säkerställa att de nya reglerna inte strider mot GDPR:s bestämmelser om dataminimering och syftemässig behandling.",
+      "keywords": [
+        "digitala bevis",
+        "övervakning",
+        "plattformar",
+        "GDPR",
+        "proposition"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt lägga till ändringsförslag.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-15",
+          "beskrivning": "Preliminär tidpunkt för riksdagsdebatt."
+        }
+      ]
+    },
+    "title": "Skärpta regler om uppsikt och förvar",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03263.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår i proposition 2025/26:263 att återvändandeverksamheten ska stärkas. Det handlar om att förbättra processen för personer som ska återvända till sina hemländer, vilket inkluderar att effektivisera handläggningen och öka samarbetet med andra länder. Propositionen syftar till att minska antalet utvisade personer som inte återvänder och att förbättra säkerheten för allmänheten. Den påverkar Migrationsverket och polisen, samt de individer som är föremål för utvisning.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "En effektivare återvändandeverksamhet kan minska antalet personer som vistas i landet utan tillstånd, vilket kan ha en inverkan på den allmänna ordningen och säkerheten. Förbättrat samarbete med andra länder kan leda till snabbare och mer rättvisa återvändanden. Ärendet kan påverka Migrationsverkets resurser och arbetsbelastning, samt de individer som är föremål för utvisning.",
+      "eu_koppling": "null",
+      "keywords": [
+        "återvändande",
+        "migrationsverket",
+        "utvisning",
+        "samarbete"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Stärkt återvändandeverksamhet",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03260.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen föreslår en ny lag om hur etikprövning av forskning som involverar människor ska gå till. Den nuvarande lagstiftningen är föråldrad och behöver moderniseras för att bättre skydda deltagarnas rättigheter och integritet. Förslaget syftar till att skapa tydligare regler och processer för forskare, forskningsetiska kommittéer och myndigheter. Det påverkar främst forskare inom medicin, samhällsvetenskap och andra områden där forskning utförs på människor.",
+      "tech_vinkel": "Propositionen nämner behovet av att säkerställa att forskning som använder digitala verktyg och data, inklusive AI-baserade metoder, genomgår adekvat etikprövning, vilket indikerar en medvetenhet om de särskilda integritetsrisker som kan uppstå i samband med sådan forskning.",
+      "varfor_viktigt": "Den nya lagstiftningen kommer att stärka individens rättigheter och integritet i forskningssammanhang, särskilt i en tid då forskning i allt större utsträckning använder digitala data och AI. Det kan också bidra till att öka allmänhetens förtroende för forskning och säkerställa att forskningen bedrivs på ett etiskt och ansvarsfullt sätt. Förseningar i implementeringen kan leda till att forskning bedrivs utan tillräckliga skyddsåtgärder för deltagarna.",
+      "eu_koppling": "Propositionen är relevant i förhållande till EU:s allmänna dataskyddsförordning (GDPR), som ställer krav på dataskydd och integritet i forskningsprojekt som hanterar personuppgifter.",
+      "keywords": [
+        "etikprövning",
+        "forskning",
+        "integritet",
+        "GDPR",
+        "personuppgifter"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Riksdagen kommer nu att behandla propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt röstas igenom.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-15",
+          "beskrivning": "Preliminär tidpunkt för riksdagsdebatt."
+        }
+      ]
+    },
+    "title": "En mer ändamålsenlig reglering av etikprövning av forskning som avser människor",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03258.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår i proposition 2025/26:258 en ökad insyn i politiska processer. Det handlar om att göra det mer transparent hur beslut fattas i riksdagen och regeringen, bland annat genom att publicera fler handlingar och protokoll. Syftet är att stärka medborgarnas förtroende för politiken och öka möjligheterna till deltagande. Propositionen riktar sig till riksdagen och berör hur regeringen och riksdagen arbetar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel — släng",
+      "varfor_viktigt": "Även om propositionen inte direkt handlar om teknik, kan den påverka hur digital information hanteras och publiceras av myndigheter. En ökad transparens kan leda till ökad efterfrågan på digitala tjänster och dataplattformar för att hantera och tillgängliggöra information. Det kan också påverka hur myndigheter skyddar känslig information.",
+      "eu_koppling": "null",
+      "keywords": [
+        "transparens",
+        "politik",
+        "insyn",
+        "handlingar",
+        "protokoll"
+      ],
+      "arende": null,
+      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+      "viktiga_datum": []
+    },
+    "title": "Ökad insyn i politiska processer",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03254.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen föreslår i proposition 2025/26:254 förbättrade förutsättningar för militärt samarbete mellan olika aktörer, både inom Sverige och med andra länder. Förslaget syftar till att effektivisera gemensamma operationer och öka Sveriges försvarsförmåga. Det inkluderar förbättringar i logistik, kommunikation och informationsdelning. Förslaget riktar sig till Försvarsmakten, myndigheter och potentiellt även privata företag som är involverade i militära operationer.",
+      "tech_vinkel": "Propositionen nämner specifikt behovet av att förbättra ”informationsdelning och kommunikationssystem” för att underlätta operativt militärt samarbete, vilket implicerar investeringar i säker digital infrastruktur och potentiellt nya kommunikationsprotokoll.",
+      "varfor_viktigt": "Förbättrad digital infrastruktur är avgörande för modern militär verksamhet, vilket möjliggör snabbare beslut, bättre samordning och effektivare resurshantering. Säker kommunikation är särskilt viktigt för att skydda information och undvika avlyssning. Förslaget kan leda till ökad investering i krypterad kommunikation och robusta nätverk, vilket i sin tur kan påverka leverantörer av militär teknologi.",
+      "eu_koppling": "Propositionen kan indirekt påverkas av EU:s cybersäkerhetsstrategi och NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet), då militär infrastruktur ofta anses vara kritisk infrastruktur.",
+      "keywords": [
+        "militärt samarbete",
+        "digital infrastruktur",
+        "kommunikation",
+        "informationsdelning",
+        "försvarsförmåga"
+      ],
+      "arende": "Cybersolidaritetsakten",
+      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-30",
+          "beskrivning": "Riksdagen behandlar propositionen."
+        }
+      ]
+    },
+    "title": "Förbättrade förutsättningar för operativt militärt samarbete",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03251.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår en proposition om att förbättra vården för personer med skadligt bruk eller beroende och andra psykiatriska tillstånd. Förslaget syftar till att skapa en mer sammanhållen vårdkedja, vilket innebär bättre samarbete mellan olika vårdgivare och en mer individanpassad vård. Det påverkar primärt hälso- och sjukvården, socialtjänsten och de individer som söker vård för dessa tillstånd. Syftet är att minska väntetider, förbättra behandlingsresultat och öka patienternas delaktighet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Ett förbättrat vårdsystem för personer med beroendeproblem och psykiatriska tillstånd kan minska lidande och förbättra livskvaliteten för många. Det kan också leda till minskade samhällskostnader på sikt genom att minska brottslighet och öka arbetsdeltagandet. Implementeringen kräver samordning mellan olika myndigheter och vårdgivare, vilket kan vara en utmaning.",
+      "eu_koppling": "null",
+      "keywords": [
+        "vård",
+        "beroende",
+        "psykiatri",
+        "sammanhållen vård"
+      ],
+      "arende": null,
+      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+      "viktiga_datum": []
+    },
+    "title": "En mer sammanhållen vård för personer med skadligt bruk eller beroende och andra psykiatriska tillstånd",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03259.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen lämnar en skrivelse till riksdagen om den nationella planeringen för transportinfrastrukturen under perioden 2026–2037. Skrivelsen beskriver hur regeringen avser att prioritera och fördela resurser för vägar, järnvägar och annan transportinfrastruktur. Den syftar till att förbättra transporternas effektivitet, säkerhet och hållbarhet, samt att minska regionala skillnader. Planeringen påverkar kommuner, regioner, transportföretag och medborgare som använder transportinfrastrukturen.",
+      "tech_vinkel": "Skrivelsen nämner att digitalisering och automatisering av transportinfrastrukturen kommer att vara en viktig del av planeringen, inklusive satsningar på smarta vägar och järnvägar med sensorer och kommunikationssystem för att optimera trafikflödet och underhåll.",
+      "varfor_viktigt": "Investeringar i digitaliserad transportinfrastruktur kan leda till minskad trängsel, lägre utsläpp och säkrare transporter. Det kan också skapa nya affärsmöjligheter för företag som utvecklar och levererar digitala lösningar för transportsektorn. En välplanerad infrastruktur är avgörande för Sveriges konkurrenskraft och för att uppnå nationella klimatmål.",
+      "eu_koppling": "Skrivelsen måste beakta EU:s direktiv och förordningar om transport, inklusive de som rör digitalisering och automatisering av transporter, samt EU:s mål för utsläppsminskningar.",
+      "keywords": [
+        "transportinfrastruktur",
+        "digitalisering",
+        "automatisering",
+        "nationell planering",
+        "hållbarhet"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Riksdagen kommer att granska skrivelsen och eventuellt lämna förslag på ändringar eller tillägg.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-15",
+          "beskrivning": "Riksdagen behandlar skrivelsen."
+        }
+      ]
+    },
+    "title": "Nationell planering för transportinfrastrukturen 2026–2037",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03257.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen föreslår att riksdagen ska ställa krav på hur kommunala lantmäterimyndigheter hanterar sina ärenden digitalt. Det handlar om att säkerställa att systemen är säkra, effektiva och uppfyller vissa minimikrav för att hantera fastighetsinformation. Lantmäterimyndigheterna, som är ansvariga för fastighetsinformation och lantmäteritjänster, kommer att påverkas direkt. Syftet är att modernisera och förbättra hanteringen av fastighetsinformation i hela landet.",
+      "tech_vinkel": "Propositionen föreslår att kommunala lantmäterimyndigheters ärendehanteringssystem ska uppfylla specifika krav på säkerhet och funktionalitet, vilket implicerar behovet av att använda och underhålla digital infrastruktur och mjukvara.",
+      "varfor_viktigt": "Förbättrade och säkrare system för ärendehantering hos lantmäterimyndigheterna kan leda till snabbare och mer effektiva fastighetstransaktioner och minska risken för dataintrång. Detta är viktigt för fastighetsmarknaden, samhällsplaneringen och för att skydda känslig information. Uppdaterade system kan också underlätta integrationen med andra digitala tjänster och datautbyten.",
+      "eu_koppling": "Även om det inte direkt hänvisas till någon specifik EU-lagstiftning, kan kraven på säkerhet och dataintegritet i lantmäterimyndigheternas system indirekt påverkas av EU:s dataskyddsförordning (GDPR), som reglerar hanteringen av personuppgifter.",
+      "keywords": [
+        "lantmäteri",
+        "ärendehantering",
+        "digitalisering",
+        "fastighetsinformation",
+        "säkerhet"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Riksdagen kommer att granska propositionen och eventuellt anta den, vilket skulle innebära att de föreslagna kraven på lantmäterimyndigheterna blir lag.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-01",
+          "beskrivning": "Riksdagen behandlar propositionen."
+        }
+      ]
+    },
+    "title": "Krav på kommunala lantmäterimyndigheters ärendehanteringssystem",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD03247.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår att receptfria läkemedel som kräver särskild rådgivning ska regleras. Detta innebär att apotekspersonal kommer att behöva ha en högre kompetensnivå och ge mer detaljerad information till kunderna. Förslaget syftar till att öka patientsäkerheten och säkerställa att patienter får rätt information innan de använder dessa läkemedel. Ärendet påverkar apotek, läkemedelsföretag och konsumenter.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Förslaget kan påverka apotekens digitala system för att hantera rådgivningsprocessen och dokumentation, men detta är inte direkt adresserat i propositionen. Det kan också leda till ökad efterfrågan på digitala utbildningsmaterial för apotekspersonal. Dock är detta en indirekt effekt och inte ett centralt element i propositionen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "receptfria läkemedel",
+        "rådgivning",
+        "apotek",
+        "patientsäkerhet"
+      ],
+      "arende": null,
+      "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen och kan ändras eller förkastas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-23",
+          "beskrivning": "Propositionen överlämnades till riksdagen."
+        }
+      ]
+    },
+    "title": "Receptfria läkemedel med krav på särskild rådgivning",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD024145.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Det här är en motion från Centerpartiet som ställer sig bakom regeringens proposition om ett tydligare regelverk för aktivt skogsbruk. Motionen uppmanar regeringen att snabbt återkomma med ett paket för att öka skogsproduktionen. Det handlar alltså om att underlätta för skogsägare att hugga mer träd och snabbare.  Motionen är en reaktion på regeringens proposition och vill att regeringen agerar snabbare.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Även om det primärt handlar om skogsbruk, kan ökad skogsproduktion påverka behovet av maskiner och automation inom skogsbruket, vilket i sin tur kan skapa efterfrågan på ny teknik. En snabbare produktion kan också påverka hur skogsbruket hanterar data och digitala system för att optimera processer.  Det är dock inte ett direkt fokus i motionen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "skogsbruk",
+        "produktion",
+        "regelverk",
+        "motion"
+      ],
+      "arende": null,
+      "nasta_steg": "Regeringen ska återkomma till riksdagen med ett sammanhållet paket för att öka skogsproduktionen.",
+      "viktiga_datum": []
+    },
+    "title": "med anledning av prop. 2025/26:242 Ett tydligt regelverk för aktivt skogsbruk",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD024142.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Sociala medier",
+      "sammanfattning": "En motion från Vänsterpartiet (V) kräver att riksdagen avslår regeringens proposition om skärpta regler för unga lagöverträdare. Riksdagen följer dock förslaget om att skärpa påföljden ungdomsövervakning, vilket innebär att övervakningen blir strängare om unga personer bryter mot de regler som gäller för den. Detta gäller särskilt situationer där digitala verktyg och plattformar används i brottsverksamhet. Syftet är att minska återfallsbrottslighet bland unga.",
+      "tech_vinkel": "Motionen betonar att skärpt ungdomsövervakning bör omfatta situationer där brott begås eller underlätts genom användning av digitala verktyg och plattformar, vilket indirekt pekar på behovet av att övervaka och reglera ungas användning av sociala medier och andra online-tjänster.",
+      "varfor_viktigt": "Skärpta regler för ungdomsövervakning kan leda till ökad användning av digitala övervakningsverktyg, vilket i sin tur väcker frågor om integritet och proportionalitet. Det är viktigt att säkerställa att åtgärderna är effektiva och rättvisa, och att de inte oproportionerligt påverkar unga personer. Diskussionen kan även belysa behovet av att stärka digital kompetens hos unga och deras föräldrar.",
+      "eu_koppling": "Ingen direkt koppling till EU-lagstiftning, men nationella åtgärder inom brottmålsområdet måste vara förenliga med EU:s grundläggande rättigheter och dataskyddsprinciper (GDPR).",
+      "keywords": [
+        "ungdomsövervakning",
+        "lagöverträdare",
+        "sociala medier",
+        "digital övervakning",
+        "återfallsbrott"
+      ],
+      "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
+      "nasta_steg": "Riksdagen kommer att fatta beslut om motionen och därmed fastställa om regeringens proposition ska avslås eller delvis godkännas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-04",
+          "beskrivning": "Motionen lämnades in i riksdagen."
+        }
+      ]
+    },
+    "title": "med anledning av prop. 2025/26:246 Skärpta regler för unga lagöverträdare",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD024118.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Det här är en motion från Miljöpartiet (MP) som riktas mot regeringens ekonomiska vårproposition för 2026. Motionen kritiserar regeringens ekonomiska politik, menar att den är dyr, ineffektiv och gynnar vissa grupper. Den tar upp det ekonomiska läget och dess påverkan på hushållens ekonomi. Motionen är en del av den årliga budgetprocessen och syftar till att påverka hur statens resurser fördelas.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Motionen kan påverka regeringens budgetförslag, men eftersom den inte innehåller några specifika tech-relaterade förslag är den inte av stor betydelse för tech-sektorn. Resultatet av motionen kan påverka statens investeringar i olika områden, men det är osannolikt att den har någon direkt påverkan på teknikutveckling eller reglering.",
+      "eu_koppling": "null",
+      "keywords": [
+        "ekonomisk politik",
+        "budget",
+        "vårproposition",
+        "Miljöpartiet"
+      ],
+      "arende": "Ekonomisk vårproposition",
+      "nasta_steg": "Motionen kommer att behandlas i riksdagen och kan leda till ändringar i regeringens budgetförslag.",
+      "viktiga_datum": []
+    },
+    "title": "med anledning av prop. 2025/26:100 2026 års ekonomiska vårproposition",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD024100.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "En motion från Magdalena Andersson (S) och flera andra riksdagsledamöter kräver att riksdagen avslår regeringens förslag i vårändringsbudgeten. Förslaget handlar om att ge regeringen möjlighet att ingå ekonomiska åtaganden för Strålsäkerhetsmyndigheten under 2026 och 2027. Motionen ifrågasätter alltså regeringens planerade budgetfördelning och hur myndigheten ska finansieras. Det är en direkt protest mot regeringens budgetförslag.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel — släng.",
+      "varfor_viktigt": "Detta är en politisk markering mot regeringens budgetprioriteringar, vilket kan påverka Strålsäkerhetsmyndighetens arbete och resurser. Det är osannolikt att detta direkt påverkar någon specifik teknikutveckling eller digital strategi. Resultatet av motionen kan påverka myndighetens förmåga att utföra sitt uppdrag, vilket indirekt kan påverka tekniska aspekter inom strålsäkerhet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "vårändringsbudget",
+        "strålsäkerhet",
+        "budget",
+        "motion"
+      ],
+      "arende": null,
+      "nasta_steg": "Riksdagen kommer att rösta om motionen, och resultatet avgör om regeringens budgetförslag godkänns eller inte.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-28",
+          "beskrivning": "Motionen lämnades in i riksdagen."
+        }
+      ]
+    },
+    "title": "med anledning av prop. 2025/26:99 Vårändringsbudget för 2026",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD10461.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Det här är en interpellation från en riksdagsledamot (Mats Wiking, Socialdemokraterna) till gymnasie-, högskole- och forskningsministern (Lotta Edholm, Liberalerna). Interpellationen handlar om att stärka den svenska rymdbranschen, med tanke på hur beroende samhället blivit av data från satelliter och hur kriget i Ukraina har belyst detta. Riksdagsledamoten vill att ministern ska redogöra för vilka insatser regeringen planerar att göra för att stödja den svenska rymdbranschen.",
+      "tech_vinkel": "Interpellationen lyfter fram att många samhällsfunktioner är beroende av data från satelliter, vilket är en direkt koppling till satellitteknik och rymdbaserad infrastruktur, en kritisk del av modern digital infrastruktur.",
+      "varfor_viktigt": "En stärkt rymdindustri kan bidra till ökad nationell säkerhet genom att minska beroendet av utländska satellittjänster. Det kan också skapa nya jobb och innovationer inom den svenska teknologin. Kriget i Ukraina har tydligt visat hur viktig rymdteknik är för kommunikation, navigering och säkerhet, vilket gör detta till en tidskänslig fråga.",
+      "eu_koppling": "EU har flera program och initiativ som stöder rymdverksamhet, t.ex. Copernicus (EU:s jordobservationprogram) och Galileo (EU:s satellitnavigationssystem). Det är troligt att Sverige kommer att påverkas av och bidra till dessa EU-initiativ.",
+      "keywords": [
+        "rymdindustri",
+        "satelliter",
+        "digital infrastruktur",
+        "nationell säkerhet",
+        "teknologi"
+      ],
+      "arende": "Rymdindustri",
+      "nasta_steg": "Ministern kommer att svara på interpellationen i riksdagen, vilket kan leda till ytterligare frågor och diskussioner om rymdbranschen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-15",
+          "beskrivning": "Förväntat svar från ministern i riksdagen."
+        }
+      ]
+    },
+    "title": "Insatser för den svenska rymdbranschen",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD10455.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Detta är en interpellation från SD-riksdagsledamoten Rashid Farivar till kulturministern Parisa Liljestrand. Interpellationen handlar om att värna det rörliga kulturarvet, alltså fordon, fartyg, tåg och flygplan som är viktiga delar av Sveriges kulturarv. Denna typ av kulturarv förvaltas oftast av ideella organisationer. Interpellationen syftar till att få kulturministern att redogöra för hur regeringen planerar att stödja bevarandet av detta kulturarv.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Interpellationen kan leda till en diskussion om hur digital teknik, till exempel 3D-scanning och virtuella museum, kan användas för att dokumentera och bevara rörligt kulturarv. Det kan även belysa behovet av att skydda dessa objekt från cyberattacker och dataintrång, särskilt om de digitaliseras eller förvaltas online. Slutligen kan det uppmärksamma behovet av att säkerställa att digitaliseringen av kulturarvet sker på ett sätt som respekterar upphovsrätt och dataskydd.",
+      "eu_koppling": "null",
+      "keywords": [
+        "kulturarv",
+        "rörligt kulturarv",
+        "interpellation",
+        "digitalisering",
+        "bevarande"
+      ],
+      "arende": null,
+      "nasta_steg": "Kulturministern kommer att svara på interpellationen i riksdagen.",
+      "viktiga_datum": []
+    },
+    "title": "Förutsättningar för att värna det rörliga kulturarvet",
+    "cached_at": "2026-05-08"
+  },
+  "https://data.riksdagen.se/dokument/HD01UbU28.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Utskottet för utbildning och kulturutskottet (UbU) ska granska och ge förslag på hur legitimation och behörighet ska regleras för lärare i den tioåriga grundskolan. Det handlar om att säkerställa att lärare har rätt kompetens och kvalifikationer för att undervisa. Förslagen kommer att påverka hur lärare rekryteras och anställs, samt vilka krav som ställs på deras utbildning. Utskottet ska redovisa sina slutsatser och förslag till riksdagen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Ärendet påverkar kvaliteten på undervisningen och därmed elevernas resultat. Det kan påverka lärarbristen och rekryteringen av nya lärare. Utskottets förslag kan leda till förändringar i lärares utbildning och kompetensutveckling.",
+      "eu_koppling": "null",
+      "keywords": [
+        "lärare",
+        "grundskola",
+        "behörighet",
+        "legitimation",
+        "utbildning"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Legitimation och behörighet i den tioåriga grundskolan",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/regeringen-skickar-forslag-om-kollektivtrafikskydd-till-lagradet/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen föreslår att ett lagförslag om kollektivtrafikskydd ska granskas av Lagrådet innan det skickas ut på remiss. Förslaget syftar till att införa ett systematiskt och proaktivt skyddsarbete inom kollektivtrafiken, vilket inkluderar både fysisk och digital säkerhet. Detta berör kollektivtrafikbolag, personal inom kollektivtrafiken och resenärer. Lagen ska säkerställa att kollektivtrafiken är säker och motståndskraftig mot hot.",
+      "tech_vinkel": "Förslaget om kollektivtrafikskydd implicerar användning av digitala säkerhetslösningar, såsom övervakningssystem, larmtjänster och potentiellt även system för att hantera och analysera data från sensorer och kameror i kollektivtrafikfordon och på stationer, vilket kräver en bedömning av dataskydd och integritet.",
+      "varfor_viktigt": "Förslaget kan leda till ökad säkerhet för resenärer och personal inom kollektivtrafiken, samt minska risken för störningar i trafiken. Det kan också innebära ökade kostnader för kollektivtrafikbolagen, som kommer behöva investera i nya säkerhetslösningar och utbilda personal. Tajmingen är viktig med tanke på ökad oro för säkerhet och potentiella hot mot kritisk infrastruktur.",
+      "eu_koppling": "Förslaget kan behöva anpassas till EU:s direktiv om cybersäkerhet (NIS2) och dataskydd (GDPR), vilket kräver att kritiska infrastrukturer, inklusive kollektivtrafiken, upprätthåller en viss säkerhetsnivå och skyddar personuppgifter.",
+      "keywords": [
+        "kollektivtrafik",
+        "säkerhet",
+        "digitalisering",
+        "Lagrådet",
+        "remiss"
+      ],
+      "arende": "NIS2-implementering",
+      "nasta_steg": "Lagrådet granskar förslaget, därefter skickas det ut på remiss till relevanta myndigheter och organisationer.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Lagrådets granskning förväntas vara klar."
+        }
+      ]
+    },
+    "title": "Regeringen skickar förslag om kollektivtrafikskydd till Lagrådet",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/regeringen-infor-en-statlig-e-legitimation/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen inför en statlig e-legitimation genom ett kommande lagförslag. Detta innebär att staten kommer att erbjuda en digital identitet som medborgare kan använda för att identifiera sig online och få tillgång till offentliga tjänster. Syftet är att stärka samhällets tillgång till digitala tjänster och minska behovet av fysiska dokument. Den nya e-legitimationen kommer att påverka alla som behöver identifiera sig digitalt, inklusive medborgare och företag.",
+      "tech_vinkel": "Regeringen föreslår en statlig e-legitimation, vilket innebär utveckling och implementering av en digital infrastruktur för identitetshantering, inklusive kryptografiska tekniker och säkerhetslösningar för att skydda användarnas data.",
+      "varfor_viktigt": "En statlig e-legitimation kan förenkla tillgången till offentliga tjänster och minska byråkratin för medborgare. Det kan också öka säkerheten och minska risken för identitetsstöld genom att erbjuda en mer säker digital identitet. Utvecklingen av en sådan infrastruktur kan också stimulera innovation och tillväxt inom den digitala ekonomin.",
+      "eu_koppling": "eIDAS (EU:s förordning om elektronisk identifiering och betrostjänster) sätter ramarna för hur e-legitimationer ska fungera inom EU och säkerställer ömsesidigt erkännande mellan medlemsländerna.",
+      "keywords": [
+        "e-legitimation",
+        "digital identitet",
+        "statlig identitet",
+        "digitalisering",
+        "offentliga tjänster"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Lagförslaget kommer att läggas fram för riksdagsbehandling.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-07",
+          "beskrivning": "Pressmeddelande om införandet av en statlig e-legitimation"
+        }
+      ]
+    },
+    "title": "Regeringen inför en statlig e-legitimation",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/elektronisk-overvakning-ska-starka-barn-och-ungas-skydd-mot-kriminalitet/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen har meddelat att de föreslår att socialtjänsten ska få använda elektronisk övervakning som ett verktyg för att skydda barn och unga från kriminalitet. Det handlar om att ge socialtjänsten möjlighet att hålla koll på barn och unga som löper risk att dras in i brottslighet, genom att använda tekniska hjälpmedel. Förslaget syftar till att minska brottsligheten bland unga och ge dem stöd innan de begår allvarliga brott. Det är tänkt att detta ska vara ett komplement till befintliga insatser och inte ersätta dem.",
+      "tech_vinkel": "Förslaget innebär att regeringen vill ge socialtjänsten rätt att använda elektronisk övervakning, vilket konkret innebär användning av GPS-spårning, mobiltelefonövervakning och potentiellt andra former av digitala övervakningstekniker.",
+      "varfor_viktigt": "Förslaget kan leda till en utökad insamling av personuppgifter om barn och unga, vilket väcker frågor om integritet och proportionalitet. Det är viktigt att säkerställa att övervakningen sker på ett rättssäkert sätt och att barnens rättigheter skyddas. Om förslaget genomförs kan det påverka hur socialtjänsten arbetar och hur de prioriterar insatser för barn och unga i riskzonen.",
+      "eu_koppling": "Förslaget måste följa EU:s dataskyddsförordning (GDPR), som reglerar hur personuppgifter får samlas in och behandlas. GDPR ställer krav på transparens, syftebegränsning och rätt till information för de som övervakas.",
+      "keywords": [
+        "elektronisk övervakning",
+        "barn och unga",
+        "socialtjänst",
+        "kriminalitet",
+        "GDPR",
+        "övervakningsteknik"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Förslaget kommer nu att remitteras till berörda myndigheter och organisationer för synpunkter innan regeringen fattar ett slutgiltigt beslut.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-07",
+          "beskrivning": "Remisstiden avslutas"
+        }
+      ]
+    },
+    "title": "Elektronisk övervakning ska stärka barn och ungas skydd mot kriminalitet",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/presstraff-om-elektronisk-overvakning-till-skydd-barn-och-unga/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen håller en pressträff där socialtjänstminister Camilla Waltersson Grönvall och socialminister Jakob Forssmed kommer att presentera åtgärder för att skydda barn och unga. Fokus ligger på elektronisk övervakning, vilket antyder en utvidgning eller förändring av befintliga metoder för att skydda barn från exempelvis våld eller utnyttjande. Det är oklart vilka specifika åtgärder som kommer att presenteras, men pressträffen indikerar en satsning på att använda digital teknik för att förbättra barns säkerhet. Pressträffen är ett första steg i att kommunicera dessa planer till allmänheten.",
+      "tech_vinkel": "Pressträffens fokus på 'elektronisk övervakning' indikerar en användning av teknik som GPS-spårning, övervakningskameror, eller potentiellt digitala verktyg för att samla in och analysera data om barns beteende och omgivning, vilket väcker frågor om dataskydd och integritet.",
+      "varfor_viktigt": "Denna satsning kan leda till en utökning av statens befogenheter att övervaka barn, vilket riskerar att påverka deras rättigheter och integritet. Det är viktigt att säkerställa att eventuella åtgärder är proportionerliga, rättssäkra och att barnens bästa sätts främst. Det kommer att krävas en noggrann avvägning mellan barns säkerhet och deras rätt till privatliv.",
+      "eu_koppling": "Användningen av elektronisk övervakning måste ske i enlighet med EU:s dataskyddsförordning (GDPR), som reglerar hur personuppgifter, inklusive data om barn, får samlas in och behandlas.  Det finns också potentiella kopplingar till EU:s barnkonvention, som betonar barns rättigheter.",
+      "keywords": [
+        "elektronisk övervakning",
+        "barnskydd",
+        "socialtjänst",
+        "dataskydd",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Efter pressträffen förväntas regeringen presentera konkreta förslag och lagstiftningsinitiativ för att möjliggöra den elektroniska övervakningen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-07",
+          "beskrivning": "Pressträff om elektronisk övervakning till skydd för barn och unga"
+        }
+      ]
+    },
+    "title": "Pressträff om elektronisk övervakning till skydd för barn och unga",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/05/lag-om-kollektivtrafikskydd/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen skickar en lagrådsremiss om en ny lag som ska skydda kollektivtrafiken. Lagen syftar till att förbättra säkerheten och minska risken för allvarliga händelser genom ett systematiskt och proaktivt skyddsarbete. Den kommer att påverka kollektivtrafikbolag, anställda inom kollektivtrafiken och resenärer. Lagen kommer att innebära nya skyldigheter för kollektivtrafikbolagen att identifiera och hantera risker.",
+      "tech_vinkel": "Lagen föreslås inkludera krav på att kollektivtrafikbolagen ska använda digitala system för riskbedömning och rapportering, vilket sannolikt kommer att innebära implementering av nya mjukvaror och datainsamlingslösningar för att uppfylla lagens krav.",
+      "varfor_viktigt": "Den nya lagen kan leda till ökad säkerhet för både personal och resenärer i kollektivtrafiken. Kollektivtrafikbolagen kommer att behöva investera i nya system och processer, vilket kan innebära ökade kostnader och behov av kompetensutveckling. Implementeringen av lagen kommer att kräva samordning mellan olika aktörer inom kollektivtrafiksektorn.",
+      "eu_koppling": "Lagen kan behöva anpassas till EU:s regler om dataskydd (GDPR) när digitala system för riskbedömning och rapportering implementeras, för att säkerställa att personuppgifter hanteras på ett korrekt sätt.",
+      "keywords": [
+        "kollektivtrafik",
+        "säkerhet",
+        "skydd",
+        "digitalisering",
+        "riskbedömning"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Lagrådet kommer att granska remissen och ge synpunkter innan regeringen slutligen lägger fram förslaget för riksdagen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Lagrådets rapport förväntas vara klar."
+        }
+      ]
+    },
+    "title": "Lag om kollektivtrafikskydd",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/05/horande-och-tillfalligt-overforande-vid-handlaggning-av-en-arresteringsorder/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen skickar en lagrådsremiss till Justitiedepartementet som föreslår ändringar i lagen om överlämnande från Sverige enligt en europeisk arresteringsorder. Förslagen handlar främst om hur man ska hantera hörande och tillfälligt överförande av personer i samband med en sådan order. Syftet är att effektivisera processen och säkerställa att rättssäkerheten upprätthålls, särskilt när det gäller att hantera digitala bevis och information. Ändringarna påverkar i huvudsak brottsbekämpande myndigheter och personer som är misstänkta eller åtalade för brott som kan leda till en europeisk arresteringsorder.",
+      "tech_vinkel": "Remissen nämner behovet av att säkerställa att digitala bevis och information, som ofta är centrala i brottmål som kan leda till en europeisk arresteringsorder, hanteras på ett sätt som uppfyller kraven i GDPR (EU:s dataskyddsförordning), vilket innebär att man måste säkerställa att personuppgifter behandlas korrekt och lagligt.",
+      "varfor_viktigt": "Förslagen kan påverka hur snabbt och effektivt Sverige kan genomföra europeiska arresteringsorder, vilket i sin tur kan ha konsekvenser för brottsbekämpningen och rättssäkerheten. Att säkerställa att digitala bevis hanteras i enlighet med GDPR (EU:s dataskyddsförordning) är avgörande för att undvika rättsliga utmaningar och skydda enskildas rättigheter. Tajmingen är viktig eftersom den digitala brottsligheten ökar och det finns ett behov av att modernisera processerna för att hantera den.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning) – reglerar hur personuppgifter behandlas inom EU och påverkar hur digitala bevis kan användas i rättsliga processer.",
+      "keywords": [
+        "europeisk arresteringsorder",
+        "överlämnande",
+        "rättssäkerhet",
+        "GDPR",
+        "digitala bevis"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Lagrådet kommer att granska remissen och ge synpunkter innan regeringen fattar ett beslut om hur förslagen ska implementeras.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Lagrådets rapport förväntas vara klar."
+        }
+      ]
+    },
+    "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
+    "cached_at": "2026-05-08"
+  },
+  "https://www.regeringen.se/remisser/2026/03/remiss-av-statskontorets-rapport-en-oversyn-av-overvakningsnamndernas-organisation-stk-20261/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen har skickat ut en remiss om Statskontorets rapport som granskat övervakningsnämndernas organisation. Rapporten har tagits fram på uppdrag av regeringen och syftar till att utvärdera hur väl nämnderna, som bland annat hanterar frågor om övervakning och datainsamling, fungerar. Remissvaren ska nu analyseras av Justitiedepartementet för att eventuellt leda till förändringar i hur övervakningsnämnderna är organiserade och arbetar. Rapporten och remissen berör myndigheter, domstolar och andra aktörer som hanterar känsliga personuppgifter.",
+      "tech_vinkel": "Rapporten berör sannolikt frågor om hur övervakningsnämnderna hanterar tekniska aspekter av övervakning, såsom datainsamling, analys och lagring, vilket är direkt kopplat till dataskydd och integritet i digitala system.",
+      "varfor_viktigt": "En effektivare organisation av övervakningsnämnderna kan förbättra skyddet för medborgarnas rättigheter i en tid då digital övervakning blir allt vanligare. Rapporten kan leda till skärpta regler för hur myndigheter använder sig av tekniska verktyg för att samla in och analysera data, vilket är viktigt för att balansera säkerhet och individens integritet. Resultatet av remissen kommer att påverka hur myndigheter agerar inom digitala utredningar och brottsbekämpning.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning) sätter ramarna för hur personuppgifter får behandlas och påverkar därmed övervakningsnämndernas arbete.",
+      "keywords": [
+        "övervakning",
+        "dataskydd",
+        "integritet",
+        "övervakningsnämnd",
+        "Statskontoret"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Justitiedepartementet kommer att analysera remissvaren och eventuellt föreslå lagändringar eller andra åtgärder baserat på resultaten.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-03-12",
+          "beskrivning": "Remissen skickades ut."
+        }
+      ]
+    },
+    "title": "Remiss av Statskontorets rapport En översyn av övervakningsnämndernas organisation (STK 2026:1), Ju2026/00214",
+    "cached_at": "2026-05-08"
   }
 }
