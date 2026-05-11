@@ -232,11 +232,33 @@ def _auto_push(html_file: str) -> None:
             print(f"(commit failade: {commit.stderr.strip()[:120]})")
             return
 
-        # Försök pulla först (rebase) ifall GitHub Action har pushat
-        subprocess.run(
-            ["git", "pull", "--rebase"],
-            cwd=project_dir, capture_output=True, timeout=30,
+        # Pulla först ifall Action har pushat. Använd "ours"-strategi —
+        # state-filerna (memory/cache/arenden) är resultatet av senaste körning,
+        # vår lokala version är alltid den korrekta efter en lokal main.py-körning.
+        pull = subprocess.run(
+            ["git", "pull", "--rebase", "--strategy-option=ours"],
+            cwd=project_dir, capture_output=True, text=True, timeout=60,
         )
+        if pull.returncode != 0:
+            # Försök automatiskt resolva merge-konflikter på state-filer
+            print(f"(pull-konflikt — försöker resolva med 'ours'-strategi)")
+            subprocess.run(
+                ["git", "checkout", "--ours", ".agent_memory.json",
+                 ".agent_arenden.json", ".agent_dates.json",
+                 ".agent_analysis_cache.json"],
+                cwd=project_dir, capture_output=True,
+            )
+            subprocess.run(
+                ["git", "add", ".agent_memory.json", ".agent_arenden.json",
+                 ".agent_dates.json", ".agent_analysis_cache.json"],
+                cwd=project_dir, capture_output=True,
+            )
+            env = {**os.environ, "GIT_EDITOR": "true"}
+            subprocess.run(
+                ["git", "rebase", "--continue"],
+                cwd=project_dir, capture_output=True, env=env, timeout=30,
+            )
+
         push = subprocess.run(
             ["git", "push"],
             cwd=project_dir, capture_output=True, text=True, timeout=30,
