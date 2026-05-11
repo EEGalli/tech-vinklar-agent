@@ -583,6 +583,20 @@
     "next_step": "Det politiska avtalet måste nu formaliseras juridiskt och genomgå den slutliga processen för antagande.",
     "documents": [
       {
+        "title": "Three studies on technical solutions to mark and detect AI-generated content",
+        "date": "Fri, 08 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Studierna undersöker specifika tekniska lösningar för att märka och upptäcka AI-genererat innehåll i text, ljud och bild/video, vilket är en direkt koppling till utvecklingen av metoder för att hantera utmaningar kring generativ AI."
+      },
+      {
+        "title": "Consultation on the draft guidelines on transparency obligations under the AI Act",
+        "date": "Fri, 08 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Dokumentet handlar specifikt om att fastställa riktlinjer för transparensförpliktelser, vilket är en central del av AI Act (EU:s AI-förordning) som kräver att vissa AI-system ska vara transparenta om hur de fungerar och vilka data de använder."
+      },
+      {
         "title": "Highlights - Agreement on EU AI Rules Expected Within Weeks - Committee on the Internal Market and Consumer Protection",
         "date": "Fri, 17 Ap",
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260311CAN76913",

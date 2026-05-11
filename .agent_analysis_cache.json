@@ -4102,5 +4102,118 @@
     },
     "title": "Remiss av Statskontorets rapport En översyn av övervakningsnämndernas organisation (STK 2026:1), Ju2026/00214",
     "cached_at": "2026-05-08"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-kommissionen har publicerat tre studier som undersöker tekniska lösningar för att märka och upptäcka innehåll som skapats av artificiell intelligens. Studierna fokuserar på olika typer av innehåll, inklusive text, ljud och bild/video. Syftet är att kartlägga dagens teknik för att kunna identifiera AI-genererat material. Rapporterna riktar sig till beslutsfattare och teknikutvecklare inom området.",
+      "tech_vinkel": "Studierna undersöker specifika tekniska lösningar för att märka och upptäcka AI-genererat innehåll i text, ljud och bild/video, vilket är en direkt koppling till utvecklingen av metoder för att hantera utmaningar kring generativ AI.",
+      "varfor_viktigt": "Att kunna identifiera AI-genererat innehåll blir allt viktigare för att bekämpa desinformation och skydda mot missbruk av tekniken. Rapporterna kan ligga till grund för framtida regleringar och standarder för hur AI-genererat innehåll ska hanteras och märkas, vilket påverkar både teknikföretag och användare. Resultaten kan också hjälpa till att utveckla verktyg för att verifiera information och öka transparensen kring AI-genererat material.",
+      "eu_koppling": "AI Act (EU:s lagstiftning som reglerar användningen av artificiell intelligens och kräver transparens och ansvarighet för AI-system).",
+      "keywords": [
+        "AI",
+        "generativ AI",
+        "innehållsmoderering",
+        "teknik",
+        "märkning",
+        "detektion"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Resultaten från studierna kommer sannolikt att användas för att informera framtida policyer och tekniska standarder inom AI-området.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-08",
+          "beskrivning": "Publicering av studierna."
+        }
+      ]
+    },
+    "title": "Three studies on technical solutions to mark and detect AI-generated content",
+    "cached_at": "2026-05-11"
+  },
+  "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-kommissionen har öppnat en konsultation om utkast till riktlinjer för transparensförpliktelser inom ramen för AI Act (EU:s AI-förordning). Riktlinjerna syftar till att klargöra hur AI-system ska vara transparenta, vilket innebär att användare och andra intressenter ska kunna förstå hur systemen fungerar och vilka data de bygger på. Konsultationen är öppen för allmänheten och syftar till att samla in synpunkter innan de slutgiltiga riktlinjerna fastställs. Detta påverkar utvecklare och användare av AI-system inom EU.",
+      "tech_vinkel": "Dokumentet handlar specifikt om att fastställa riktlinjer för transparensförpliktelser, vilket är en central del av AI Act (EU:s AI-förordning) som kräver att vissa AI-system ska vara transparenta om hur de fungerar och vilka data de använder.",
+      "varfor_viktigt": "Tydligare transparensförpliktelser för AI-system kommer att öka allmänhetens förtroende för tekniken och underlätta ansvarsutkrävande vid felaktiga eller skadliga resultat. Det kan också påverka hur AI-system designas och utvecklas, med fokus på förklarbarhet och dataskydd. Konsultationen ger intressenter möjlighet att påverka hur dessa regler tillämpas i praktiken.",
+      "eu_koppling": "AI Act (EU:s lagstiftning som reglerar utveckling och användning av artificiell intelligens, med fokus på riskbaserad reglering och transparensförpliktelser).",
+      "keywords": [
+        "AI Act",
+        "transparens",
+        "riktlinjer",
+        "artificiell intelligens",
+        "konsultation"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "EU-kommissionen kommer att analysera de inkomna synpunkterna och justera utkastet till riktlinjer innan de antas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-08",
+          "beskrivning": "Konsultationen öppnade"
+        },
+        {
+          "datum": "2026-06-03",
+          "beskrivning": "Konsultationen stänger"
+        }
+      ]
+    },
+    "title": "Consultation on the draft guidelines on transparency obligations under the AI Act",
+    "cached_at": "2026-05-11"
+  },
+  "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/05/elektronisk-overvakning--ett-verktyg-for-socialtjansten-till-skydd-for-barn-och-unga/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen skickar en lagrådsremiss om elektronisk övervakning. Förslaget syftar till att under vissa förutsättningar kunna kontrollera barn och unga som är dömda för brott eller misstänks för allvarliga brott. Detta skulle innebära att de kan övervakas elektroniskt, exempelvis genom att spåra deras internetanvändning eller platsdata. Syftet är att öka säkerheten och minska risken för återfall i brott. ",
+      "tech_vinkel": "Förslaget innebär att staten kommer att använda sig av tekniker för platsspårning och övervakning av internetaktivitet, vilket direkt berör frågor om datalagring, kryptering och potentiella intrång i den personliga integriteten.",
+      "varfor_viktigt": "Om förslaget genomförs kan det leda till en utökning av statens övervakningsbefogenheter, vilket kan påverka grundläggande rättigheter och friheter. Det väcker frågor om proportionalitet och risken för missbruk, samt hur man säkerställer att övervakningen sker på ett rättssäkert och integritetsskyddande sätt. Tekniken som används för övervakningen kommer att kräva kontinuerlig uppdatering och underhåll, vilket skapar en potentiell sårbarhet för cyberattacker och dataintrång.",
+      "eu_koppling": "Förslaget måste vara förenligt med EU:s dataskyddsförordning (GDPR), som reglerar behandling av personuppgifter och ställer krav på proportionalitet, transparens och rättssäkerhet.",
+      "keywords": [
+        "elektronisk övervakning",
+        "barn",
+        "ungdomar",
+        "övervakningsteknik",
+        "dataskydd",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Lagrådsremissen skickas ut på remiss och synpunkter ska inkomma, varefter regeringen analyserar remissvaren och eventuellt justerar förslaget innan det lämnas till riksdagen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Sista dag för remissvar"
+        }
+      ]
+    },
+    "title": "Elektronisk övervakning",
+    "cached_at": "2026-05-11"
+  },
+  "https://data.riksdagen.se/dokument/HD01SoU31.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Socialutskottet (SoU) ska behandla ett betänkande om en nationell utredningsfunktion för att förebygga suicid. Utredningen ska samla in och analysera data för att identifiera riskfaktorer och utveckla effektiva förebyggande insatser. Rapporten riktar sig till myndigheter, regioner och kommuner som arbetar med suicidprevention. Syftet är att skapa en mer samordnad och evidensbaserad strategi för att minska antalet självmord i Sverige.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "En nationell utredningsfunktion kan potentiellt leda till mer precisa och riktade insatser mot suicid, vilket kan rädda liv. Det är viktigt att utredningen får tillräckliga resurser och mandat för att kunna samla in och analysera data på ett effektivt sätt. Resultaten från utredningen kan påverka hur resurser fördelas och vilka program som erbjuds för att stödja personer i riskzonen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "suicidprevention",
+        "utredning",
+        "socialutskottet",
+        "dataanalys"
+      ],
+      "arende": "null",
+      "nasta_steg": "Utskottets betänkande ska nu omröstas i riksdagen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-11",
+          "beskrivning": "Omröstning i riksdagen om betänkandet."
+        }
+      ]
+    },
+    "title": "En nationell utredningsfunktion för att förebygga suicid",
+    "cached_at": "2026-05-11"
   }
 }
