@@ -2,7 +2,7 @@
   "Elfordonsstrategi": {
     "name": "Elfordonsstrategi",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
     "documents": [
@@ -41,7 +41,7 @@
   "Ekonomisk vårproposition": {
     "name": "Ekonomisk vårproposition",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "next_step": "Riksdagen kommer att behandla propositionen och eventuellt lägga ändringsförslag innan den godkänns.",
     "documents": [
@@ -140,7 +140,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "next_step": "Meta kommer att få möjlighet att bemöta kommissionens preliminära bedömning innan ett slutgiltigt beslut fattas.",
     "documents": [
@@ -342,7 +342,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -367,7 +367,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -488,7 +488,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -576,7 +576,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -636,7 +636,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -661,7 +661,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,

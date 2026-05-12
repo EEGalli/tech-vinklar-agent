@@ -4215,5 +4215,163 @@
     },
     "title": "En nationell utredningsfunktion för att förebygga suicid",
     "cached_at": "2026-05-11"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20240703CAL19309": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Detta är ett schema för framtida möten i EU-parlamentets utskott för medborgerliga friheter, rättvisa och hemförsäkerhet (LIBE). Schemat listar två möten i juni 2026, där utskottets samordnare kommer att diskutera frågor som rör utskottets arbete. Dokumentet innehåller ingen information om specifika beslut eller förslag som kommer att behandlas. Det är enbart en kalenderöversikt.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Eftersom dokumentet bara är en kalenderöversikt, finns det inga direkta konsekvenser eller aktörer som påverkas. Det ger ingen information om hur framtida lagstiftning eller policyer kan påverka teknologibranschen eller allmänheten.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU",
+        "LIBE",
+        "möten",
+        "schema",
+        "utskott"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-01",
+          "beskrivning": "Första mötet i LIBE"
+        },
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Andra mötet i LIBE"
+        }
+      ]
+    },
+    "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
+    "cached_at": "2026-05-12"
+  },
+  "https://www.cedefop.europa.eu/en/news/european-skills-vet-week-2026-your-voice-matters": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "CEDEFOP, EU:s byrå för yrkesutbildning, förbereder sig för European Skills & VET Week 2026. För att fånga in åsikter från olika aktörer genomför de en enkätundersökning. Syftet är att samla in synpunkter inför veckan, som handlar om kompetensutveckling och yrkesutbildning. Enkäten riktar sig till intressenter inom området.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Enkätresultaten kan potentiellt påverka hur European Skills & VET Week 2026 utformas, men det är osannolikt att det får några direkta tekniska konsekvenser. Fokus ligger på att samla in åsikter om yrkesutbildning, inte på att implementera någon specifik teknik eller digital lösning. Det är en informationsinsamling, inte ett beslut som reglerar eller påverkar teknik direkt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "yrkesutbildning",
+        "kompetens",
+        "CEDEFOP",
+        "enkät"
+      ],
+      "arende": "null",
+      "nasta_steg": "CEDEFOP kommer att analysera enkätresultaten och använda dem för att forma innehållet i European Skills & VET Week 2026.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-11",
+          "beskrivning": "CEDEFOP publicerar information om enkäten."
+        }
+      ]
+    },
+    "title": "European Skills & VET Week 2026: your voice matters",
+    "cached_at": "2026-05-12"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/webinars/sunshine-technical-webinar": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har anordnat ett webbinarium med titeln SUNSHINE. Webbinariet är tekniskt inriktat och syftar till att presentera och diskutera detaljer kring ett specifikt projekt eller system. Det är en presentation för tekniska experter och intressenter inom rymdindustrin. Syftet är att dela kunskap och främja samarbete inom området.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel — släng",
+      "varfor_viktigt": "Ett webbinarium i sig har sällan direkta konsekvenser för allmänheten eller specifika branscher. Det kan dock vara en indikator på pågående utveckling inom rymdteknik, men utan mer information är det svårt att bedöma dess betydelse. Det är troligt att det är relevant för de som redan är involverade i EUSPA:s arbete.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymd",
+        "webbinarium",
+        "teknik",
+        "EUSPA"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "SUNSHINE Technical Webinar",
+    "cached_at": "2026-05-12"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/sunshine-4th-training-seminar": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har anordnat ett fjärde seminarium om solenergi, kallat SUNSHINE. Seminariet är en utbildning för deltagare och syftar till att förbättra kunskapen och kompetensen inom området solenergi. Det är en del av EUSPA:s arbete med att främja användningen av rymdbaserad information och teknik för att lösa jordiska problem. Seminariet riktar sig till yrkesverksamma och forskare inom solenergiområdet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Seminariet bidrar till att öka kompetensen inom solenergi, vilket kan leda till effektivare och mer innovativa lösningar för att utnyttja solens energi. Det är viktigt för att främja hållbar energi och minska beroendet av fossila bränslen. Seminariet kan också leda till nya samarbeten och innovationer inom solenergiområdet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "solenergi",
+        "rymdbaserad information",
+        "utbildning",
+        "EUSPA"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-11",
+          "beskrivning": "SUNSHINE 4th Training Seminar genomfördes."
+        }
+      ]
+    },
+    "title": "SUNSHINE 4th Training Seminar",
+    "cached_at": "2026-05-12"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/dai-satelliti-ai-servizi-la-trasformazione-dellosservazione-della-terra": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en rapport om hur satelliter används för att förbättra observationen av jorden. Rapporten beskriver hur satellitdata används för att samla in information om klimatförändringar, miljöförstöring och andra viktiga faktorer. Syftet är att modernisera och förbättra dessa tjänster, vilket kommer att påverka forskare, myndigheter och företag som använder data från rymdbaserad observation. Rapporten betonar behovet av att integrera dessa data i beslutsfattande och politiska åtgärder.",
+      "tech_vinkel": "Rapporten diskuterar specifikt användningen av avancerad satellitteknik och databehandling för att analysera och distribuera bilder och data från jorden, vilket inkluderar tekniker för bildanalys och geoinformatik.",
+      "varfor_viktigt": "Förbättrad observation av jorden möjliggör mer exakta klimatmodeller och bättre förutsägelser om naturkatastrofer. Detta kan leda till mer effektiva åtgärder för att minska klimatförändringar och skydda miljön. Rapporten kan också påverka hur EU:s miljöpolitik utformas och genomförs, samt skapa nya affärsmöjligheter för företag som utvecklar och tillhandahåller rymdbaserade tjänster.",
+      "eu_koppling": "Rapporten är relevant för EU:s policyer kring rymdprogram och jordobservation, som syftar till att främja hållbar utveckling och säkerhet.",
+      "keywords": [
+        "satelliter",
+        "jordobservation",
+        "klimatförändringar",
+        "EUSPA",
+        "rymdteknik"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "Det är troligt att rapporten kommer att ligga till grund för framtida investeringar och politiska beslut inom EU:s rymdprogram.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-11",
+          "beskrivning": "EUSPA publicerar rapporten 'Dai satelliti ai servizi: la trasformazione dell’osservazione della Terra'."
+        }
+      ]
+    },
+    "title": "Dai satelliti ai servizi: la trasformazione dell’osservazione della Terra",
+    "cached_at": "2026-05-12"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-vetenskapsradet-och-forskningsradet-for-halsa-arbetsliv-och-valfard-att-ta-fram-forslag-pa-en-samlad-strategisk-forskningsinsats/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen ger Vetenskapsrådet och Forte i uppdrag att ta fram förslag på en samlad forskningsinsats inom hälsa, arbetsliv och välfärd. Uppdraget syftar till att identifiera viktiga forskningsområden och hur dessa kan samordnas för att maximera effekterna. Det påverkar främst forskare och forskningsinstitutioner inom de berörda områdena, samt hur statliga medel fördelas till forskning. Resultatet ska ligga till grund för framtida politiska beslut och satsningar inom området.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel — släng",
+      "varfor_viktigt": "Forskning inom hälsa, arbetsliv och välfärd är avgörande för att möta samhällsutmaningar som en åldrande befolkning och förändrade arbetslivsformer. En samlad strategisk insats kan leda till mer effektiva lösningar och bättre utnyttjande av resurser. Resultaten kan påverka utvecklingen av ny teknik och digitala lösningar inom dessa områden, även om det inte direkt framgår av uppdraget.",
+      "eu_koppling": "null",
+      "keywords": [
+        "forskning",
+        "hälsa",
+        "arbetsliv",
+        "välfärd",
+        "strategi"
+      ],
+      "arende": "null",
+      "nasta_steg": "Vetenskapsrådet och Forte kommer att utarbeta förslag på en samlad strategisk forskningsinsats och presentera dessa för regeringen.",
+      "viktiga_datum": [
+        {
+          "datum": "null",
+          "beskrivning": "null"
+        }
+      ]
+    },
+    "title": "Uppdrag till Vetenskapsrådet och Forskningsrådet för hälsa, arbetsliv och välfärd att ta fram förslag på en samlad strategisk forskningsinsats",
+    "cached_at": "2026-05-12"
   }
 }
