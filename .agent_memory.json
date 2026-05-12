@@ -12428,36 +12428,6 @@
           }
         ]
       }
-    },
-    {
-      "title": "Åtgärder för att stärka den svenska rymdbranschen",
-      "source": "Riksdagen",
-      "type": "Riksdagen/IP",
-      "url": "https://data.riksdagen.se/dokument/HD10436.html",
-      "date": "2026-04-16",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Övrigt tech",
-        "sammanfattning": "En interpellation från riksdagsledamot Mats Wiking (S) riktad till Gymnasie-, högskole- och forskningsminister Lotta Edholm (L) tar upp behovet av att stärka den svenska rymdbranschen. Interpellationen lyfter fram att rymden har blivit allt viktigare för samhället, då många samhällsfunktioner nu är beroende av data från satelliter. Wiking efterfrågar åtgärder för att stödja och utveckla den svenska rymdverksamheten, med hänvisning till den ökade betydelsen av rymddata i dagens samhälle, inklusive i krigssituationer. Syftet är att få minister Edholm att redogöra för regeringens planer för att stärka den svenska rymdbranschen.",
-        "tech_vinkel": "Interpellationen betonar att många samhällsfunktioner är beroende av data från satelliter, vilket implicerar en teknisk infrastruktur för satellitkommunikation och datahantering som kräver underhåll och utveckling.",
-        "varfor_viktigt": "En stärkt rymdbransch kan förbättra Sveriges förmåga att samla in och analysera data för samhällsnyttiga ändamål, exempelvis inom väderprognoser, kartläggning och säkerhet. Det kan också skapa nya arbetstillfällen och stärka den svenska teknologiska kompetensen. Med tanke på att rymddata blir allt viktigare i konfliktsituationer, kan en stark rymdbransch även bidra till Sveriges nationella säkerhet.",
-        "eu_koppling": "Ingen tydlig koppling till specifik EU-lagstiftning, men rymdverksamhet regleras delvis genom EU:s rymdprogram och strategier.",
-        "keywords": [
-          "rymdbranschen",
-          "satelliter",
-          "rymddata",
-          "interpellation",
-          "teknologi"
-        ],
-        "arende": null,
-        "nasta_steg": "Minister Edholm kommer att svara på interpellationen i en debatt i riksdagen.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-04-16",
-            "beskrivning": "Interpellationen ställdes."
-          }
-        ]
-      }
     }
   ]
 }
