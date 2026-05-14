@@ -398,5 +398,13 @@
       "url": "https://data.riksdagen.se/dokument/HD024142.html",
       "arende": "Stärkt lagstiftning mot hedersrelaterat våld"
     }
+  ],
+  "2026-04-29": [
+    {
+      "beskrivning": "EU-kommissionen antog rekommendationen.",
+      "title": "Commission sets out a common approach for  EU-wide Age Verification technologies",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+      "arende": "Dataskydd och integritet"
+    }
   ]
 }
