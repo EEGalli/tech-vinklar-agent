@@ -28,42 +28,6 @@
     "title": "Latest news - Next Committee Meeting: 6 & 7 May, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
     "cached_at": "2026-04-23"
   },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20240429CAL19128": {
-    "analysis": {
-      "relevans": "medel",
-      "tech_vinkel": "Utskottet för transport och turism (TRAN) behandlar frågor som rör uppkopplade fordon och potentiellt även digitala lösningar för turism, vilket påverkar hur vi reser och upplever platser.",
-      "varfor_viktigt": "Med den snabba utvecklingen inom elfordon och autonoma system är det avgörande att EU-parlamentet aktivt formar regleringen för att säkerställa säkerhet, innovation och konkurrenskraft.  Utskottets arbete kan påverka framtida infrastrukturinvesteringar och konsumenters möjligheter.",
-      "eu_koppling": "Potentiellt relevant för EU:s lagstiftning kring uppkopplade fordon (Connected Vehicle Regulations) och digitala tjänster.",
-      "keywords": [
-        "uppkopplade fordon",
-        "elfordon",
-        "turism",
-        "digitalisering",
-        "transport"
-      ]
-    },
-    "title": "Latest news - Committee on Transport and Tourism",
-    "cached_at": "2026-04-16"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260409CAN77481": {
-    "analysis": {
-      "relevans": "hög",
-      "tech_vinkel": "Hörseln handlar om framtidens polis- och rättssamarbete inom EU, vilket sannolikt kommer att inkludera diskussioner om användningen av ny teknik som ansiktsigenkänning, övervakningssystem och AI-baserade verktyg för brottsbekämpning.",
-      "varfor_viktigt": "Användningen av teknik inom polisväsendet och rättsväsendet väcker viktiga frågor om integritet, rättssäkerhet och risk för diskriminering. Diskussionen om framtida lagstiftning är avgörande för att säkerställa att tekniken används på ett ansvarsfullt och proportionerligt sätt, samtidigt som den effektivt bidrar till brottsbekämpning.",
-      "eu_koppling": "Den kommande lagstiftningen från EU-kommissionen kommer sannolikt att påverka användningen av biometrisk data och AI inom polisväsendet, och kan kopplas till diskussioner kring AI Act och potentiella begränsningar för ansiktsigenkänningsteknik.",
-      "keywords": [
-        "polis",
-        "rättsväsende",
-        "övervakning",
-        "biometrisk data",
-        "AI",
-        "ansiktsigenkänning",
-        "EU"
-      ]
-    },
-    "title": "Highlights - Public Hearing on the Future of Police and Judicial Cooperation  - Committee on Civil Liberties, Justice and Home Affairs",
-    "cached_at": "2026-04-16"
-  },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260319CAN77100": {
     "analysis": {
       "relevans": "hög",
@@ -404,109 +368,6 @@
     "title": "Lagändringar för ett stärkt nationellt cybersäkerhetscenter",
     "cached_at": "2026-04-23"
   },
-  "https://data.riksdagen.se/dokument/HD03206.html": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen föreslår en proposition om att stärka kontrollen mot fusk i livsmedelskedjan. Detta innebär skärpta krav på spårbarhet och kontroller längs hela kedjan, från produktion till konsument. Förslaget riktar sig till livsmedelsföretag, myndigheter och konsumenter och syftar till att skydda konsumenter och säkerställa en rättvis marknad. Det handlar om att förhindra att oäkta eller förfalskade livsmedel når marknaden.",
-      "tech_vinkel": "Propositionen föreslår att använda digitala tekniker, såsom blockkedjeteknik, för att förbättra spårbarheten och verifieringen av livsmedels ursprung och kvalitet, vilket möjliggör en mer transparent och säker livsmedelskedja.",
-      "varfor_viktigt": "Skärpta kontroller mot livsmedelsfusk kan skydda konsumenter från potentiellt skadliga produkter och förhindra ekonomisk brottslighet. Förbättrad spårbarhet genom digital teknik kan öka konsumenternas förtroende för livsmedelskedjan och bidra till en mer hållbar produktion. Det kan även påverka livsmedelsföretagens investeringar i digitala system och dataskydd.",
-      "eu_koppling": "Propositionen syftar till att implementera och stärka EU:s befintliga regelverk kring livsmedelsäkerhet och spårbarhet, vilket inkluderar krav på livsmedelsmärkning och kontrollsystem (t.ex. EU:s livsmedelsförordning).",
-      "keywords": [
-        "livsmedelskedja",
-        "fusk",
-        "spårbarhet",
-        "blockkedja",
-        "digitalisering",
-        "livsmedelsäkerhet"
-      ],
-      "arende": "Stärkt kontroll av livsmedelskedjan",
-      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-01",
-          "beskrivning": "Riksdagen behandlar propositionen."
-        }
-      ]
-    },
-    "title": "Stärkt kontroll av fusk i livsmedelskedjan",
-    "cached_at": "2026-04-16"
-  },
-  "https://data.riksdagen.se/dokument/HD03213.html": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Sociala medier",
-      "sammanfattning": "Regeringen föreslår en skärpt lagstiftning mot hedersrelaterat våld och förtryck. Propositionen syftar till att stärka skyddet för personer som utsätts för hedersrelaterat våld, inklusive digitalt våld och förtryck. Förslaget inkluderar åtgärder för att förbättra utredningar och åtal samt att öka stödet till målsägande. Det riktar sig till individer som utsätts för hedersrelaterat våld, samt till rättsväsendet och stödorganisationer.",
-      "tech_vinkel": "Propositionen betonar behovet av att utreda och förhindra digitalt våld och förtryck, vilket innebär att polisen och åklagarna kommer att behöva utveckla metoder för att hantera brott begångna via sociala medier och andra digitala plattformar, inklusive spårning av konton och innehåll.",
-      "varfor_viktigt": "Den skärpta lagstiftningen kan leda till att fler brott begångna via sociala medier och andra digitala plattformar utreds och åtalas. Det kan också bidra till att öka medvetenheten om hedersrelaterat våld och förtryck och att minska stigmatiseringen av de som utsätts. Förbättrat stöd till målsägande kan också öka deras trygghet och möjliggöra att de kan bryta sig ur våldet.",
-      "eu_koppling": "Propositionen kan relateras till EU:s arbete med att bekämpa våld mot kvinnor och stärka dataskyddet (GDPR (EU:s dataskyddsförordning)), vilket kräver att medlemsländerna skyddar personuppgifter och bekämpar olaglig verksamhet online.",
-      "keywords": [
-        "hedersrelaterat våld",
-        "digitalt våld",
-        "sociala medier",
-        "lagstiftning",
-        "rättssäkerhet"
-      ],
-      "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
-      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-01",
-          "beskrivning": "Riksdagen behandlar propositionen."
-        }
-      ]
-    },
-    "title": "Stärkt lagstiftning mot hedersrelaterat våld och förtryck",
-    "cached_at": "2026-04-16"
-  },
-  "https://data.riksdagen.se/dokument/HD03211.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen föreslår en proposition om att förenkla jaktlagstiftningen. Förslaget syftar till att minska byråkratin och göra det enklare att jaga i Sverige. Det påverkar främst jägare och markägare, och innebär potentiellt förändringar i vilka regler som gäller för jakt och skydd av vilt. Detaljerna i förenklingarna framgår inte av sammanfattningen.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel.",
-      "varfor_viktigt": "Ärendet har inga direkta konsekvenser för teknikutveckling eller digitalisering. Det påverkar snarare traditionella yrken och fritidsaktiviteter, och kan eventuellt påverka användningen av drönare för jakt eller viltövervakning, men det framgår inte av propositionen.",
-      "eu_koppling": "null",
-      "keywords": [
-        "jakt",
-        "lagstiftning",
-        "vilt",
-        "natur"
-      ],
-      "arende": null,
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Förenklingar i jaktlagstiftningen",
-    "cached_at": "2026-04-16"
-  },
-  "https://data.riksdagen.se/dokument/HD03208.html": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "Regeringen lämnar en skrivelse till riksdagen som kommenterar Integritetsskyddsmyndighetens arbete under perioden 2020–2024. Skrivelsen summerar myndighetens insatser och utvärderar hur de har hanterat frågor kring integritet i relation till ny teknik. Den är en återkoppling på myndighetens arbete och syftar till att ge riksdagen en överblick över utvecklingen inom området. Dokumentet är en del av regeringens rapportering till riksdagen om myndigheters arbete.",
-      "tech_vinkel": "Skrivelsen berör specifikt hur Integritetsskyddsmyndigheten har hanterat frågor relaterade till 'ny teknik', vilket antyder att den kommer att kommentera myndighetens arbete med frågor som rör AI, datainsamling och andra teknologiska framsteg som påverkar individens integritet.",
-      "varfor_viktigt": "Skrivelsen är viktig eftersom den ger riksdagen underlag för att bedöma hur väl Integritetsskyddsmyndigheten uppfyller sitt uppdrag att skydda individens integritet i en tid av snabb teknologisk utveckling. Resultatet kan leda till förändringar i myndighetens mandat, resurser eller arbetsmetoder. Det kan också påverka hur lagstiftning kring dataskydd och integritet utformas i framtiden.",
-      "eu_koppling": "GDPR (EU:s dataskyddsförordning) (EU:s allmänna dataskyddsförordning) – Skrivelsen kommer sannolikt att kommentera hur Integritetsskyddsmyndigheten tillämpar GDPR i sitt arbete och hur den hanterar utmaningar som uppstår i relation till EU:s dataskyddsregler.",
-      "keywords": [
-        "integritet",
-        "ny teknik",
-        "Integritetsskyddsmyndigheten",
-        "dataskydd",
-        "övervakning"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Riksdagen kommer att granska skrivelsen och eventuellt ställa frågor till regeringen eller Integritetsskyddsmyndigheten.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-03-17",
-          "beskrivning": "Skrivelsen lämnas till riksdagen."
-        }
-      ]
-    },
-    "title": "Integritet och ny teknik 2020–2024",
-    "cached_at": "2026-04-16"
-  },
   "https://data.riksdagen.se/dokument/HD024067.html": {
     "analysis": {
       "relevans": "medel",
@@ -629,28 +490,6 @@
     },
     "title": "Remiss av SOU 2025:117 Fondandelsbolag – för en mer konkurrenskraftig fondmarknad, Fi2025/02285",
     "cached_at": "2026-04-23"
-  },
-  "https://www.regeringen.se/remisser/2025/10/remiss-av-statskontorets-rapport-en-oversyn-av-forvaltningen-av-varldsarvet-laponia/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen har publicerat svar på remissen av Statskontorets rapport om förvaltningen av världsarvet Laponia. Rapporten granskar hur förvaltningen av Laponia har skötts och vilka förbättringar som kan göras. Remissen innehåller synpunkter från olika organisationer och myndigheter på rapportens slutsatser och förslag. Syftet är att säkerställa en effektiv och hållbar förvaltning av Laponia, ett område med stor biologisk mångfald och kulturell betydelse.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel.",
-      "varfor_viktigt": "Rapporten och remissen kan påverka hur världsarvet Laponia förvaltas framöver, vilket i sin tur kan påverka turismen och lokala näringar. En effektiv förvaltning är viktig för att bevara den unika naturen och kulturen i området. Resultaten kan även ligga till grund för hur andra världsarv förvaltas i framtiden.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Laponsi",
-        "världsarv",
-        "förvaltning",
-        "Statskontoret",
-        "remiss"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Remiss av Statskontorets rapport En översyn av förvaltningen av världsarvet Laponia (2025:10), KN2025/01997",
-    "cached_at": "2026-04-16"
   },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20240930CNW19304": {
     "analysis": {
