@@ -1,14 +1,12 @@
 """
 Analyserar insamlade politiska ärenden med AI för att identifiera tech-vinklar.
 
-Stödjer två backends:
-- Google Gemini API (cloud, snabb) — används om GEMINI_API_KEY finns i miljö
-- Ollama (lokalt) — fallback när ingen API-nyckel finns
+Stödjer tre backends (prioritetsordning):
+1. Groq API (cloud, snabb, 14400/dag gratis) — om GROQ_API_KEY finns
+2. Google Gemini API (cloud) — om GEMINI_API_KEY finns men Groq saknas
+3. Ollama (lokalt) — fallback när inga cloud-nycklar finns ELLER när molnet 429:ar
 
-Nyckeln kan komma från:
-- Miljövariabel GEMINI_API_KEY
-- Streamlit secrets (st.secrets["GEMINI_API_KEY"])
-- Filen .env i projektroten
+Nycklar kan komma från: miljövariabel, .env-fil, eller Streamlit secrets.
 """
 import json
 import os
@@ -16,9 +14,10 @@ import re
 import requests
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-DEFAULT_MODEL = "gemma3:12b"  # Använd för Ollama; för Gemini sätts namnet i _call_gemini
+DEFAULT_MODEL = "gemma3:12b"  # för Ollama
 
-GEMINI_MODEL = "gemini-2.0-flash"  # Snabb, gratis tier (1.5-flash är deprecierad)
+GEMINI_MODEL = "gemini-2.0-flash"
+GROQ_MODEL = "llama-3.3-70b-versatile"  # snabb, OpenAI-kompatibel, 14400/dag gratis
 
 
 def _load_env_file() -> None:
@@ -45,21 +44,32 @@ def _load_env_file() -> None:
 _load_env_file()
 
 
-def _get_gemini_key() -> str:
-    """Hämtar Gemini API-nyckel från miljö eller Streamlit secrets."""
-    key = os.environ.get("GEMINI_API_KEY", "")
-    if key and key != "KLISTRA_IN_DIN_NYCKEL_HÄR":
-        return key
-    # Fallback: Streamlit secrets (om appen körs i Streamlit-context)
+def _get_secret(name: str) -> str:
+    """Hämtar en API-nyckel från miljö eller Streamlit secrets."""
+    value = os.environ.get(name, "")
+    if value and not value.startswith("KLISTRA_IN"):
+        return value
     try:
         import streamlit as st
-        return st.secrets.get("GEMINI_API_KEY", "")
+        return st.secrets.get(name, "")
     except Exception:
         return ""
 
 
+def _get_gemini_key() -> str:
+    return _get_secret("GEMINI_API_KEY")
+
+
+def _get_groq_key() -> str:
+    return _get_secret("GROQ_API_KEY")
+
+
 def _use_gemini() -> bool:
     return bool(_get_gemini_key())
+
+
+def _use_groq() -> bool:
+    return bool(_get_groq_key())
 
 
 # Mappning från förkortning → svensk förklaring.
@@ -283,6 +293,31 @@ def _call_gemini(prompt: str) -> str:
     return resp.text or ""
 
 
+def _call_groq(prompt: str) -> str:
+    """Skickar förfrågan till Groq API (OpenAI-kompatibel). Snabb + generös gratis tier."""
+    resp = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {_get_groq_key()}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": GROQ_MODEL,
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.3,
+            "max_tokens": 1500,
+            "response_format": {"type": "json_object"},
+        },
+        timeout=60,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    return data["choices"][0]["message"]["content"]
+
+
 def _is_ollama_available() -> bool:
     """Pingar Ollama på localhost — snabb check (2s timeout)."""
     try:
@@ -292,12 +327,34 @@ def _is_ollama_available() -> bool:
         return False
 
 
-_QUOTA_KEYWORDS = ("ResourceExhausted", "429", "quota", "rate limit", "RATE_LIMIT")
+_QUOTA_KEYWORDS = ("ResourceExhausted", "429", "quota", "rate limit", "RATE_LIMIT", "rate_limit")
 
 
 def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
-    """Routar till Gemini eller Ollama. Faller automatiskt tillbaka till Ollama
-    om Gemini returnerar kvot-/rate-limit-fel och Ollama är tillgänglig lokalt."""
+    """Routar AI-anrop med automatiska fallbacks.
+    Prioritet: Groq → Gemini → Ollama. Vid kvot-/rate-limit-fel försöker
+    nästa backend automatiskt."""
+    # 1. Groq (primärt)
+    if _use_groq():
+        try:
+            return _call_groq(prompt)
+        except Exception as e:
+            err = str(e)
+            is_quota = any(kw in err for kw in _QUOTA_KEYWORDS)
+            if is_quota:
+                # Fallback till Gemini om tillgänglig, annars Ollama
+                if _use_gemini():
+                    print("  ⚠ Groq-kvot slut — fallback till Gemini", flush=True)
+                    try:
+                        return _call_gemini(prompt)
+                    except Exception:
+                        pass
+                if _is_ollama_available():
+                    print("  ⚠ Cloud-AI slut — fallback till Ollama", flush=True)
+                    return _call_ollama(prompt, model=model)
+            raise
+
+    # 2. Gemini (om Groq saknas)
     if _use_gemini():
         try:
             return _call_gemini(prompt)
@@ -308,6 +365,8 @@ def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
                 print("  ⚠ Gemini-kvot slut — fallback till Ollama", flush=True)
                 return _call_ollama(prompt, model=model)
             raise
+
+    # 3. Ollama (lokalt)
     return _call_ollama(prompt, model=model)
 
 

@@ -124,8 +124,13 @@ def main():
                 args.no_ai = True
 
     if not args.no_ai:
-        from analyzer import _use_gemini, GEMINI_MODEL
-        backend = f"Gemini ({GEMINI_MODEL})" if _use_gemini() else f"Ollama ({args.model})"
+        from analyzer import _use_gemini, _use_groq, GEMINI_MODEL, GROQ_MODEL
+        if _use_groq():
+            backend = f"Groq ({GROQ_MODEL})"
+        elif _use_gemini():
+            backend = f"Gemini ({GEMINI_MODEL})"
+        else:
+            backend = f"Ollama ({args.model})"
         print(f"\nAnalyserar med {backend} — min relevans: {args.min_relevance}...")
         analyzed = analyze_batch(all_items, min_relevance=args.min_relevance, model=args.model)
         print(f"  {len(analyzed)} ärenden passerade relevansfiltret")
