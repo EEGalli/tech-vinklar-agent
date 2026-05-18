@@ -13512,66 +13512,6 @@
       }
     },
     {
-      "title": "BEREC external workshop on accessibility of electronic communications services",
-      "source": "BEREC",
-      "type": "EU-byrå",
-      "url": "https://www.berec.europa.eu/en/events/berec-external-workshop-on-accessibility-of-electronic-communications-services",
-      "date": "Wed, 08 Apr 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, anordnar en workshop om tillgänglighet för elektroniska kommunikationstjänster. Workshopen är öppen för deltagande både på plats i Bryssel och online. Intresserade kan anmäla sig via en privat anmälningsformulär fram till den 2 juni 2026. Syftet är att diskutera hur man kan göra telekommunikationstjänster mer tillgängliga för personer med funktionsnedsättningar.",
-        "tech_vinkel": "Workshopen fokuserar på tillgänglighet för elektroniska kommunikationstjänster, vilket implicerar diskussioner kring tekniska lösningar och standarder för att säkerställa att dessa tjänster är användbara för personer med funktionsnedsättningar, inklusive till exempel textalternativ, talstyrning och kompatibilitet med hjälpmedel.",
-        "varfor_viktigt": "En ökad tillgänglighet för elektroniska kommunikationstjänster är avgörande för att säkerställa digital inkludering och likvärdighet för alla medborgare. Det påverkar både telekomoperatörer som måste anpassa sina tjänster och användare med funktionsnedsättningar som får förbättrad tillgång till information och kommunikation. Workshopen kan leda till nya riktlinjer och standarder som påverkar hur telekommunikationstjänster utvecklas och erbjuds.",
-        "eu_koppling": "Workshopen är relevant i förhållande till EU:s tillgänglighetsdirektiv (European Accessibility Act), som kräver att produkter och tjänster, inklusive elektroniska kommunikationstjänster, är tillgängliga för personer med funktionsnedsättningar.",
-        "keywords": [
-          "tillgänglighet",
-          "telekommunikation",
-          "digital inkludering",
-          "BEREC",
-          "EU"
-        ],
-        "arende": "Digital infrastruktur",
-        "nasta_steg": "Resultaten från workshopen kommer sannolikt att informera BERECs framtida rekommendationer och bidra till implementeringen av EU:s tillgänglighetsdirektiv.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-02",
-            "beskrivning": "Sista anmälningsdag för workshopen."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Combating fraud in telecom: BEREC to host a workshop on 21 May 2026",
-      "source": "BEREC",
-      "type": "EU-byrå",
-      "url": "https://www.berec.europa.eu/en/news/latest-news/combating-fraud-in-telecom-berec-to-host-a-workshop-on-21-may-2026",
-      "date": "Thu, 07 May 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Cybersäkerhet",
-        "sammanfattning": "BEREC, EU:s byrå för telekom-reglering, kommer att hålla en workshop online den 21 maj 2026. Syftet är att diskutera hur man kan bekämpa bedrägerier inom elektronisk kommunikation. Workshopen är en del av ett pågående samarbete med partners runt om i världen och ska ge telekom-reglerare en möjlighet att utbyta erfarenheter. Fokus ligger på att identifiera och motverka bedrägerier som sker via telefon, SMS och internet.",
-        "tech_vinkel": "Workshopen kommer att behandla bedrägerier som sker via elektronisk kommunikation, vilket inkluderar tekniker som spoofing av telefonnummer och phishing via SMS, vilket är direkt relaterat till säkerheten för digitala kommunikationssystem.",
-        "varfor_viktigt": "Bedrägerier inom telekom orsakar stora ekonomiska förluster för både konsumenter och företag. Genom att dela kunskap och strategier kan BEREC:s medlemmar bidra till att minska dessa förluster och öka tryggheten i digitala kommunikationer. Workshopen kan leda till nya rekommendationer och åtgärder för att skydda konsumenter och företag mot bedrägerier.",
-        "eu_koppling": "Workshopen syftar till att harmonisera metoder för att bekämpa bedrägerier inom EU:s telekommunikationsmarknad, vilket är relevant i förhållande till EU:s bredare cybersäkerhetsstrategi och potentiellt NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet).",
-        "keywords": [
-          "telekom",
-          "bedrägerier",
-          "cybersäkerhet",
-          "BEREC",
-          "workshop"
-        ],
-        "arende": "NIS2-implementering",
-        "nasta_steg": "BEREC kommer sannolikt att publicera en rapport med slutsatser och rekommendationer baserat på workshopen.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-21",
-            "beskrivning": "BEREC håller online-workshop om bedrägerier i telekom."
-          }
-        ]
-      }
-    },
-    {
       "title": "Stärkt skydd mot utlänningar som utgör kvalificerade säkerhetshot",
       "source": "Riksdagen",
       "type": "Riksdagen/PROP",
@@ -13602,6 +13542,36 @@
       }
     },
     {
+      "title": "En statlig e-legitimation",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03250.html",
+      "date": "2026-05-07",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen föreslår en ny lag om statlig e-legitimation. Detta innebär att staten ska erbjuda en digital identitet som medborgare kan använda för att logga in på statliga och privata tjänster online. Syftet är att göra det enklare och säkrare för medborgare att identifiera sig digitalt och att minska beroendet av privata aktörer. Lagen kommer att påverka både medborgare och företag som erbjuder digitala tjänster.",
+        "tech_vinkel": "Propositionen föreslår en ny lagstiftning som reglerar och möjliggör en statlig e-legitimation, vilket är en specifik digital infrastruktur för identitetshantering och autentisering.",
+        "varfor_viktigt": "En statlig e-legitimation kan öka medborgarnas förtroende för digitala tjänster och minska risken för identitetsstöld. Det kan också underlätta för företag att erbjuda digitala tjänster och minska kostnaderna för identitetskontroll. En sådan lösning är central för att möjliggöra digitaliseringen av samhället och för att säkerställa att alla medborgare kan delta i den digitala ekonomin.",
+        "eu_koppling": "eIDAS (European Digital Identification Authentication and Trust Services) – EU-förordningen som fastställer ramarna för elektronisk identifiering och betrottjänster på EU-nivå. Den svenska lagen om statlig e-legitimation måste vara förenlig med eIDAS.",
+        "keywords": [
+          "e-legitimation",
+          "digital identitet",
+          "statlig identitet",
+          "digitalisering",
+          "eIDAS"
+        ],
+        "arende": "Digital infrastruktur",
+        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-07",
+            "beskrivning": "Riksdagen behandlar propositionen"
+          }
+        ]
+      }
+    },
+    {
       "title": "Förbättrade förutsättningar för operativt militärt samarbete",
       "source": "Riksdagen",
       "type": "Riksdagen/PROP",
@@ -13627,6 +13597,36 @@
           {
             "datum": "2026-05-30",
             "beskrivning": "Riksdagen behandlar propositionen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Combating fraud in telecom: BEREC to host a workshop on 21 May 2026",
+      "source": "BEREC",
+      "type": "EU-byrå",
+      "url": "https://www.berec.europa.eu/en/news/latest-news/combating-fraud-in-telecom-berec-to-host-a-workshop-on-21-may-2026",
+      "date": "Thu, 07 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "BEREC, EU:s byrå för telekom-reglering, kommer att hålla en workshop online den 21 maj 2026. Syftet är att diskutera hur man kan bekämpa bedrägerier inom elektronisk kommunikation. Workshopen är en del av ett pågående samarbete med partners runt om i världen och ska ge telekom-reglerare en möjlighet att utbyta erfarenheter. Fokus ligger på att identifiera och motverka bedrägerier som sker via telefon, SMS och internet.",
+        "tech_vinkel": "Workshopen kommer att behandla bedrägerier som sker via elektronisk kommunikation, vilket inkluderar tekniker som spoofing av telefonnummer och phishing via SMS, vilket är direkt relaterat till säkerheten för digitala kommunikationssystem.",
+        "varfor_viktigt": "Bedrägerier inom telekom orsakar stora ekonomiska förluster för både konsumenter och företag. Genom att dela kunskap och strategier kan BEREC:s medlemmar bidra till att minska dessa förluster och öka tryggheten i digitala kommunikationer. Workshopen kan leda till nya rekommendationer och åtgärder för att skydda konsumenter och företag mot bedrägerier.",
+        "eu_koppling": "Workshopen syftar till att harmonisera metoder för att bekämpa bedrägerier inom EU:s telekommunikationsmarknad, vilket är relevant i förhållande till EU:s bredare cybersäkerhetsstrategi och potentiellt NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet).",
+        "keywords": [
+          "telekom",
+          "bedrägerier",
+          "cybersäkerhet",
+          "BEREC",
+          "workshop"
+        ],
+        "arende": "NIS2-implementering",
+        "nasta_steg": "BEREC kommer sannolikt att publicera en rapport med slutsatser och rekommendationer baserat på workshopen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-21",
+            "beskrivning": "BEREC håller online-workshop om bedrägerier i telekom."
           }
         ]
       }
@@ -13692,31 +13692,61 @@
       }
     },
     {
-      "title": "Polismyndighetens behandling av personuppgifter, Dir. 2026:17",
-      "source": "Regeringen",
-      "type": "Kommittédirektiv",
-      "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/",
-      "date": "2026-03-16",
+      "title": "Regulation remains critical for Europe’s transition to full fibre",
+      "source": "BEREC",
+      "type": "EU-byrå",
+      "url": "https://www.berec.europa.eu/en/news/latest-news/regulation-remains-critical-for-europes-transition-to-full-fibre",
+      "date": "Wed, 06 May 2026",
       "analysis": {
         "relevans": "hög",
-        "sammanfattning": "Regeringen startar en utredning om hur Polismyndigheten hanterar personuppgifter. Utredningen ska se över reglerna för att säkerställa att de är moderna och effektiva för brottsbekämpning, samtidigt som den tar hänsyn till individens rättigheter och dataskydd. Utredningen kommer att analysera hur Polismyndigheten använder information och tekniska system, och föreslå eventuella förändringar i lagstiftningen. Detta påverkar Polismyndigheten, brottsbekämpande myndigheter och allmänheten.",
-        "tech_vinkel": "Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.",
-        "varfor_viktigt": "En uppdatering av reglerna för Polismyndighetens hantering av personuppgifter är viktig för att balansera brottsbekämpning med individens rättigheter och dataskydd. Om utredningen leder till nya regler kan det påverka hur Polismyndigheten använder teknik för att bekämpa brott, och det kan kräva investeringar i nya system och utbildning. Det är också viktigt att säkerställa att Polismyndighetens agerande är förenligt med GDPR (EU:s dataskyddsförordning) och andra relevanta lagar.",
-        "eu_koppling": "GDPR (EU:s dataskyddsförordning) (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas och kommer att vara en central referenspunkt för utredningen.",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "BEREC, en EU-byrå för telekom-reglering, betonar att reglering är avgörande för Europas övergång till fullt fibernät. Detta framgick under en paneldiskussion om det föreslagna Digitala Nätverkslagen i Europa. BEREC:s ordförande Marko Mismas underströk regleringens viktiga roll i denna övergång. Det handlar om att säkerställa att Europa kan bygga ut sin digitala infrastruktur på ett effektivt och samordnat sätt.",
+        "tech_vinkel": "Det föreslagna Digitala Nätverkslagen i Europa är en specifik skrivning som berör tech, då den syftar till att reglera och främja utbyggnaden av digitala nätverk i Europa.",
+        "varfor_viktigt": "Detta är viktigt eftersom en välutvecklad digital infrastruktur är avgörande för Europas ekonomiska tillväxt och konkurrenskraft. En fullständig övergång till fibernät kan också förbättra tillgången till snabb och pålitlig internetanslutning för medborgare och företag. Dessutom kan det bidra till att minska digitala klyftor och främja innovation inom olika sektorer.",
+        "eu_koppling": "Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll)",
         "keywords": [
-          "personuppgifter",
-          "polismyndigheten",
-          "dataskydd",
-          "övervakning",
-          "teknik",
-          "brottsbekämpning"
+          "Digitala Nätverkslagen",
+          "BEREC",
+          "fibernät",
+          "digital infrastruktur"
         ],
-        "arende": "Polismyndighetens personuppgiftsbehandling",
-        "nasta_steg": "Utredningen kommer att påbörjas och en utredningsgrupp kommer att utses för att genomföra analysen och lämna förslag.",
+        "arende": "Digitala Nätverkslagen",
+        "nasta_steg": "Nästa steg i detta ärende är att det föreslagna lagförslaget kommer att diskuteras och bearbetas inom EU:s institutioner för att slutligen antas och implementeras.",
         "viktiga_datum": [
           {
-            "datum": "2026-03-16",
-            "beskrivning": "Kommittédirektivet publicerades."
+            "datum": "2026-05-06",
+            "beskrivning": "Paneldiskussion om det föreslagna Digitala Nätverkslagen i Europa"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Utredning för effektiv informationshantering i arbetet mot organiserad brottslighet",
+      "source": "Regeringen",
+      "type": "Pressmeddelande",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/05/utredning-for-effektiv-informationshantering-i-arbetet-mot-organiserad-brottslighet/",
+      "date": "2026-05-13",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Regeringen tillsätter en utredning som ska granska hur Skatteverket och Tullverket hanterar personuppgifter när de bekämpar organiserad brottslighet. Utredningen ska se över vilka typer av uppgifter som samlas in, hur de används och hur länge de sparas. Syftet är att säkerställa att myndigheterna följer gällande lagar och att personuppgifterna skyddas på ett korrekt sätt. Utredningen kommer att ha ett särskilt fokus på att balansera brottsbekämpning med individens rättigheter.",
+        "tech_vinkel": "Utredningen kommer att behöva granska hur myndigheterna använder digitala verktyg och system för att samla in, analysera och dela personuppgifter, vilket sannolikt kommer att innebära en analys av metadata, databaser och potentiellt även AI-baserade analysverktyg.",
+        "varfor_viktigt": "Den här utredningen är viktig eftersom Skatteverket och Tullverket har tillgång till stora mängder känsliga personuppgifter, och felaktig eller olämplig hantering kan leda till allvarliga integritetsintrång och missbruk. Resultaten av utredningen kan leda till nya riktlinjer och lagändringar som påverkar hur myndigheterna arbetar och hur individers personuppgifter skyddas. Det är särskilt viktigt med tanke på den ökade användningen av digitala verktyg i brottsbekämpningen.",
+        "eu_koppling": "GDPR (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas inom EU, och utredningen kommer att behöva säkerställa att Skatteverkets och Tullverkets arbete är förenligt med GDPR.",
+        "keywords": [
+          "personuppgifter",
+          "Skattverket",
+          "Tullverket",
+          "brottsbekämpning",
+          "integritet",
+          "GDPR"
+        ],
+        "arende": "Polismyndighetens personuppgiftsbehandling",
+        "nasta_steg": "Utredningen kommer att påbörja sitt arbete och samla in information från Skatteverket, Tullverket och andra relevanta aktörer.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-13",
+            "beskrivning": "Preliminär start av utredningen."
           }
         ]
       }

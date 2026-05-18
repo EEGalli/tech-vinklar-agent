@@ -675,5 +675,23 @@
         "tech_vinkel": "Dokumentet handlar specifikt om utrullningen av en EU-app för åldersverifiering, vilket är en teknisk lösning för att kontrollera användares ålder online och därmed reglera tillgången till innehåll på plattformar."
       }
     ]
+  },
+  "Digitala Nätverkslagen": {
+    "name": "Digitala Nätverkslagen",
+    "first_seen": "2026-05-18",
+    "last_updated": "2026-05-18",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Nästa steg i detta ärende är att det föreslagna lagförslaget kommer att diskuteras och bearbetas inom EU:s institutioner för att slutligen antas och implementeras.",
+    "documents": [
+      {
+        "title": "Regulation remains critical for Europe’s transition to full fibre",
+        "date": "Wed, 06 Ma",
+        "url": "https://www.berec.europa.eu/en/news/latest-news/regulation-remains-critical-for-europes-transition-to-full-fibre",
+        "source": "BEREC",
+        "tech_vinkel": "Det föreslagna Digitala Nätverkslagen i Europa är en specifik skrivning som berör tech, då den syftar till att reglera och främja utbyggnaden av digitala nätverk i Europa."
+      }
+    ]
   }
 }

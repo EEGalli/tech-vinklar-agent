@@ -4212,5 +4212,224 @@
     },
     "title": "Uppdrag till Vetenskapsrådet och Forskningsrådet för hälsa, arbetsliv och välfärd att ta fram förslag på en samlad strategisk forskningsinsats",
     "cached_at": "2026-05-12"
+  },
+  "https://data.riksdagen.se/dokument/HD024182.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Motionen från Vänsterpartiet handlar om skärpta regler för uppsikt och förvar. De föreslår att uppsikt ska kunna innebära boende i vissa fall. Detta förslag syftar till att förbättra säkerheten och skyddet för individer. Motionen är en reaktion på en tidigare proposition om samma ämne.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna motion är viktig eftersom den kan påverka hur uppsikt och förvar hanteras i Sverige. Det kan ha konsekvenser för säkerheten och skyddet för individer. Tajmingen spelar roll eftersom det är en reaktion på en tidigare proposition. Det kan också ha en inverkan på hur lagstiftningen utvecklas i framtiden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "uppsikt",
+        "förvar",
+        "säkerhet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-13",
+          "beskrivning": "Motionen lämnades in till riksdagen"
+        }
+      ]
+    },
+    "title": "med anledning av prop. 2025/26:265 Skärpta regler om uppsikt och förvar",
+    "cached_at": "2026-05-18"
+  },
+  "https://data.riksdagen.se/dokument/HD024179.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "En motion från Vänsterpartiet föreslår att riksdagen ska ta ställning till nationell planering för transportinfrastrukturen 2026–2037. Motionen innehåller förslag om hur transportinfrastrukturen ska utvecklas och underhållas. Det handlar om att skapa en fungerande och effektiv transportinfrastruktur. Motionen är en reaktion på regeringens skrivelse om nationell planering för transportinfrastrukturen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna motion är viktig eftersom den handlar om hur Sveriges transportinfrastruktur ska utvecklas och underhållas. Det kan ha stor påverkan på hur människor och varor transporteras i landet. Det kan också påverka miljön och trafiksäkerheten. Motionen är en del av en större debatt om hur Sverige ska utveckla sin transportinfrastruktur.",
+      "eu_koppling": "null",
+      "keywords": [
+        "transportinfrastruktur",
+        "nationell planering"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "med anledning av skr. 2025/26:259 Nationell planering för transportinfrastrukturen 2026–2037",
+    "cached_at": "2026-05-18"
+  },
+  "https://data.riksdagen.se/dokument/HD024156.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "En motion från Centerpartiet (Anders Ådahl m.fl.) har lämnats till riksdagen med anledning av regeringspropositionen om en mer ändamålsenlig reglering av etikprövning av forskning som avser människor. Motionen föreslår att det ska finnas möjlighet att överklaga beslut från etikprövningsnämnder. Detta skulle påverka forskare, forskningsinstitutioner och de individer som deltar i forskningsstudier.",
+      "tech_vinkel": "Motionen berör etikprövning av forskning, vilket i allt större utsträckning inkluderar forskning som använder stora mängder data och algoritmer, vilket kräver särskild hänsyn till dataskydd och integritet.",
+      "varfor_viktigt": "Möjligheten att överklama etikprövningsbeslut kan påverka hur snabbt och effektivt forskning kan genomföras, särskilt inom områden som använder känslig data. Det kan också bidra till att säkerställa att forskningen genomförs på ett etiskt och ansvarsfullt sätt, vilket är särskilt viktigt i en tid då AI och andra tekniker används alltmer inom forskning. En tydligare process för överklagande kan öka förtroendet för forskningen och dess resultat.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning) ställer krav på etikprövning och dataskydd inom forskning, och detta ärende kan påverka hur Sverige implementerar dessa krav.",
+      "keywords": [
+        "etikprövning",
+        "forskning",
+        "överklagande",
+        "dataskydd",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Utskottet kommer att granska motionen och lämna förslag till riksdagen om hur den ska behandlas.",
+      "viktiga_datum": []
+    },
+    "title": "med anledning av prop. 2025/26:260 En mer ändamålsenlig reglering av etikprövning av forskning som avser människor",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-132026-draft-decision-office-data_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta är en remiss från EU:s dataskyddsmyndighet (EDPB) angående ett utkast till beslut från den luxemburgska dataskyddsombudsmannen (FI SA). Beslutet handlar om att godkänna kravet på ackreditering av ett certifieringsorgan, vilket är en del av processen för att säkerställa att organisationer följer GDPR (EU:s dataskyddsförordning). Remissen berör specifikt hur certifieringsorgan kan godkännas för att utföra kontroller och bekräfta efterlevnad av dataskyddsreglerna. Finland är en av de medlemsstater som är involverade i remissen.",
+      "tech_vinkel": "Dokumentet berör specifikt artikel 43(3) i GDPR (EU:s dataskyddsförordning), som möjliggör certifiering som ett sätt att demonstrera efterlevnad av dataskyddsreglerna, vilket är en viktig teknisk aspekt för många digitala tjänster och produkter.",
+      "varfor_viktigt": "Godkännandet av certifieringsorgan påverkar direkt hur företag och organisationer kan visa att de följer GDPR (EU:s dataskyddsförordning), vilket är avgörande för att kunna hantera personuppgifter lagligt. Detta påverkar särskilt företag som erbjuder digitala tjänster och produkter som hanterar stora mängder data, och kan påverka deras möjligheter att erbjuda dessa tjänster inom EU. En tydlig och harmoniserad process för ackreditering av certifieringsorgan minskar risken för rättsliga tvister och bidrar till att stärka förtroendet för digitala tjänster.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning) - en lag som reglerar hur personuppgifter får samlas in och behandlas inom EU.",
+      "keywords": [
+        "GDPR",
+        "certifiering",
+        "dataskydd",
+        "ackreditering",
+        "FI SA",
+        "EDPB"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "FI SA kommer att ta hänsyn till EDPB:s remiss innan det slutgiltiga beslutet fattas om godkännandet av certifieringsorganet.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-12",
+          "beskrivning": "EDPB publicerade remissen."
+        }
+      ]
+    },
+    "title": "Opinion 13/2026 on the draft decision of the Office of the Data Protection Ombudsman (FI SA) regarding the approval of the requirement for accreditation of a certification body pursuant to Article 43(3) GDPR",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.berec.europa.eu/en/news/latest-news/regulation-remains-critical-for-europes-transition-to-full-fibre": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, en EU-byrå för telekom-reglering, betonar att reglering är avgörande för Europas övergång till fullt fibernät. Detta framgick under en paneldiskussion om det föreslagna Digitala Nätverkslagen i Europa. BEREC:s ordförande Marko Mismas underströk regleringens viktiga roll i denna övergång. Det handlar om att säkerställa att Europa kan bygga ut sin digitala infrastruktur på ett effektivt och samordnat sätt.",
+      "tech_vinkel": "Det föreslagna Digitala Nätverkslagen i Europa är en specifik skrivning som berör tech, då den syftar till att reglera och främja utbyggnaden av digitala nätverk i Europa.",
+      "varfor_viktigt": "Detta är viktigt eftersom en välutvecklad digital infrastruktur är avgörande för Europas ekonomiska tillväxt och konkurrenskraft. En fullständig övergång till fibernät kan också förbättra tillgången till snabb och pålitlig internetanslutning för medborgare och företag. Dessutom kan det bidra till att minska digitala klyftor och främja innovation inom olika sektorer.",
+      "eu_koppling": "Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll)",
+      "keywords": [
+        "Digitala Nätverkslagen",
+        "BEREC",
+        "fibernät",
+        "digital infrastruktur"
+      ],
+      "arende": "Digitala Nätverkslagen",
+      "nasta_steg": "Nästa steg i detta ärende är att det föreslagna lagförslaget kommer att diskuteras och bearbetas inom EU:s institutioner för att slutligen antas och implementeras.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-06",
+          "beskrivning": "Paneldiskussion om det föreslagna Digitala Nätverkslagen i Europa"
+        }
+      ]
+    },
+    "title": "Regulation remains critical for Europe’s transition to full fibre",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/orbit-water-tap-11th-cassini-hackathon": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar den 11:e CASSINI Hackathon. Evenemanget syftar till att främja innovation och utveckling inom rymdteknik och relaterade områden. Hackathon är en mötesplats för entreprenörer, utvecklare och innovatörer för att skapa nya lösningar och produkter med hjälp av rymdteknik. Evenemanget kan bidra till att stimulera nya idéer och samarbeten inom tech-sektorn.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget kan bidra till att främja innovation och utveckling inom rymdteknik och relaterade områden. Det kan också skapa nya möjligheter för entreprenörer och utvecklare att skapa nya produkter och tjänster. Dessutom kan evenemanget bidra till att öka medvetenheten om rymdteknikens potential och dess möjliga tillämpningar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "innovation",
+        "hackathon"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-13",
+          "beskrivning": "Evenemanget äger rum"
+        }
+      ]
+    },
+    "title": "From Orbit to the Water Tap: 11th CASSINI Hackathon",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/space-asset-protection-must-become-eu-strategic-priority": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, förespråkar att skydd av rymdtillgångar ska bli en strategisk prioritet för EU. Detta innebär att EU bör fokusera på att skydda sina rymdtillgångar från olika hot, såsom sabotage eller olyckor. Rymdtillgångar är viktiga för många samhällsfunktioner, som exempelvis navigation och kommunikation. Skyddandet av dessa tillgångar är därför av stor vikt för EU:s säkerhet och ekonomi.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Skydd av rymdtillgångar är viktigt för EU:s säkerhet och ekonomi, eftersom rymdtillgångar spelar en avgörande roll i många samhällsfunktioner. Om dessa tillgångar utsätts för hot, kan det leda till allvarliga konsekvenser för EU:s medborgare och ekonomi. Det är därför viktigt att EU prioriterar skyddet av rymdtillgångar för att säkerställa en stabil och säker framtid.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdsäkerhet",
+        "EU:s strategiska prioriteringar"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Space asset protection must become an EU strategic priority",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/talent-good-forum": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) anordnar ett forum, 'Talent For Good Forum', som syftar till att locka talang inom rymdteknik och främja användningen av rymddata för samhällsnyttiga ändamål. Forumet kommer att fokusera på hur rymdteknik kan bidra till lösningar inom områden som klimatförändringar, hållbar utveckling och katastrofhantering. Det riktar sig till studenter, forskare och yrkesverksamma inom rymd- och teknikområden. Syftet är att inspirera och utbilda framtida generationer inom rymdteknik.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel.",
+      "varfor_viktigt": "Forumet kan bidra till att öka kompetensen inom rymdteknik, vilket i sin tur kan leda till innovationer inom områden som satellitkommunikation, positionering och fjärranalys. Det kan också stärka Europas position inom rymdindustrin och bidra till att lösa globala utmaningar. Dock är det en relativt generell satsning och saknar konkreta tekniska detaljer.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "rymddata",
+        "hållbar utveckling",
+        "forum",
+        "EUSPA"
+      ],
+      "arende": null,
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-12",
+          "beskrivning": "Talent For Good Forum anordnas"
+        }
+      ]
+    },
+    "title": "Talent For Good Forum",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/utredning-for-effektiv-informationshantering-i-arbetet-mot-organiserad-brottslighet/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen tillsätter en utredning som ska granska hur Skatteverket och Tullverket hanterar personuppgifter när de bekämpar organiserad brottslighet. Utredningen ska se över vilka typer av uppgifter som samlas in, hur de används och hur länge de sparas. Syftet är att säkerställa att myndigheterna följer gällande lagar och att personuppgifterna skyddas på ett korrekt sätt. Utredningen kommer att ha ett särskilt fokus på att balansera brottsbekämpning med individens rättigheter.",
+      "tech_vinkel": "Utredningen kommer att behöva granska hur myndigheterna använder digitala verktyg och system för att samla in, analysera och dela personuppgifter, vilket sannolikt kommer att innebära en analys av metadata, databaser och potentiellt även AI-baserade analysverktyg.",
+      "varfor_viktigt": "Den här utredningen är viktig eftersom Skatteverket och Tullverket har tillgång till stora mängder känsliga personuppgifter, och felaktig eller olämplig hantering kan leda till allvarliga integritetsintrång och missbruk. Resultaten av utredningen kan leda till nya riktlinjer och lagändringar som påverkar hur myndigheterna arbetar och hur individers personuppgifter skyddas. Det är särskilt viktigt med tanke på den ökade användningen av digitala verktyg i brottsbekämpningen.",
+      "eu_koppling": "GDPR (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas inom EU, och utredningen kommer att behöva säkerställa att Skatteverkets och Tullverkets arbete är förenligt med GDPR.",
+      "keywords": [
+        "personuppgifter",
+        "Skattverket",
+        "Tullverket",
+        "brottsbekämpning",
+        "integritet",
+        "GDPR"
+      ],
+      "arende": "Polismyndighetens personuppgiftsbehandling",
+      "nasta_steg": "Utredningen kommer att påbörja sitt arbete och samla in information från Skatteverket, Tullverket och andra relevanta aktörer.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-13",
+          "beskrivning": "Preliminär start av utredningen."
+        }
+      ]
+    },
+    "title": "Utredning för effektiv informationshantering i arbetet mot organiserad brottslighet",
+    "cached_at": "2026-05-18"
   }
 }
