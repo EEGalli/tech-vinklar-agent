@@ -4431,5 +4431,65 @@
     },
     "title": "Utredning för effektiv informationshantering i arbetet mot organiserad brottslighet",
     "cached_at": "2026-05-18"
+  },
+  "https://www.berec.europa.eu/en/news/latest-news/berec-chair-highlights-importance-of-regional-cooperation-on-digital-regulation-at-global-symposium-for-regulators": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "BEREC, en EU-byrå för telekom-reglering, har deltagit i en global symposium för reglerare i Ankara, Turkiet. BEREC:s ordförande, Marko Mismas, betonade vikten av regional samarbete för att utveckla effektiv och framtidsorienterad digital reglering. Detta evenemang syftar till att främja internationellt samarbete och erfarenhetsutbyte mellan reglerare. Inga specifika förslag eller beslut presenterades under evenemanget.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta evenemang är viktigt eftersom det visar på behovet av internationellt samarbete för att hantera digitala utmaningar. Det kan ha konsekvenser för hur digital reglering utvecklas i framtiden, men det är för tidigt att säga exakt hur. Evenemanget samlade experter från hela världen för att diskutera digital reglering, vilket kan leda till nya idéer och samarbeten.",
+      "eu_koppling": "null",
+      "keywords": [
+        "BEREC",
+        "digital reglering",
+        "internationellt samarbete"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "BEREC Chair highlights importance of regional cooperation on digital regulation at Global Symposium for Regulators",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.cedefop.europa.eu/en/newsletters/cedefop-newsletter-no-162": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Cedefop, en EU-byrå för yrkesutbildning, har publicerat sin nyhetsbrev nr 162. Nyhetsbrevet innehåller information om olika ämnen relaterade till yrkesutbildning och utveckling inom EU. Det finns ingen tydlig koppling till specifika tech-ärenden. Nyhetsbrevet verkar vara en samling av nyheter och uppdateringar från Cedefop.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta nyhetsbrev kan vara viktigt för dem som är intresserade av yrkesutbildning och utveckling inom EU. Det kan ge insikt i de senaste trenderna och utvecklingen inom området. Men det finns ingen tydlig koppling till specifika tech-ärenden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Cedefop",
+        "yrkesutbildning",
+        "EU"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Cedefop newsletter no 162",
+    "cached_at": "2026-05-18"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/i-leykosia-ginetai-kombos-tis-eyropaikis-diastimikis-politikis": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån meddelar att Lefkosia (Nicosia) på Cypern kommer att bli en viktig knutpunkt för den europeiska rymdpolitiken. Detta innebär att staden kommer att spela en central roll i utvecklingen och implementeringen av EU:s rymdprogram. Detaljerna kring detta beslut är dock inte tillgängliga i den tillhandahållna informationen. Detta kan potentiellt leda till ökad samverkan mellan EU-länderna inom rymdsektorn.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta beslut kan ha betydande konsekvenser för den europeiska rymdindustrin och för Cyperns ekonomi. Det kan leda till ökad investering i rymdteknologi och skapa nya jobbmöjligheter på ön. Det kan också stärka EU:s position inom den globala rymdsektorn. Tajmingen för detta beslut är viktig eftersom det kan påverka den framtida utvecklingen av EU:s rymdprogram.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdpolitik",
+        "EU",
+        "Cypern"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Η Λευκωσία γίνεται κόμβος της ευρωπαϊκής διαστημικής πολιτικής",
+    "cached_at": "2026-05-18"
   }
 }

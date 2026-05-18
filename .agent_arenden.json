@@ -681,8 +681,8 @@
     "first_seen": "2026-05-18",
     "last_updated": "2026-05-18",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
+    "is_new_today": false,
+    "is_updated_today": true,
     "next_step": "Nästa steg i detta ärende är att det föreslagna lagförslaget kommer att diskuteras och bearbetas inom EU:s institutioner för att slutligen antas och implementeras.",
     "documents": [
       {
