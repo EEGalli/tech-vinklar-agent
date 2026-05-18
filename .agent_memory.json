@@ -13355,5 +13355,371 @@
         ]
       }
     }
+  ],
+  "2026-05-18": [
+    {
+      "title": "Highlights - Agreement Reached on Updated AI Rules - Committee on the Internal Market and Consumer Protection",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260506CAN78119",
+      "date": "Fri, 08 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "AI",
+        "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) har nått en överenskommelse med EU:s råd om att ändra reglerna i EU:s AI-lagstiftning. Ändringarna syftar till att göra det enklare för företag att följa AI-lagen, samtidigt som de viktigaste delarna och den riskbaserade ansatsen behålls. En del av ändringarna innebär att tillämpningen av vissa regler skjuts upp.",
+        "tech_vinkel": "Överenskommelsen handlar om att ändra EU:s AI Act (EU:s AI-förordning), vilket är en lagstiftning som reglerar utveckling och användning av artificiell intelligens genom att klassificera AI-system utifrån risknivå och ställa krav på transparens och ansvar.",
+        "varfor_viktigt": "Ändringarna i AI-lagen påverkar direkt företag som utvecklar och använder AI-system inom EU, och kan påverka innovationstakten och konkurrenskraften. Att förenkla efterlevnaden kan minska den administrativa bördan för företagen, medan uppskjutandet av vissa regler kan ge mer tid för anpassning. Denna överenskommelse är ett viktigt steg mot att få AI-lagen på plats och skapa en rättslig ram för AI-utveckling.",
+        "eu_koppling": "AI Act (EU:s lagstiftning som reglerar artificiell intelligens genom att klassificera AI-system utifrån risknivå och ställa krav på transparens och ansvar).",
+        "keywords": [
+          "AI Act",
+          "artificiell intelligens",
+          "digital omnibus package",
+          "EU-lagstiftning",
+          "IMCO"
+        ],
+        "arende": "AI Act",
+        "nasta_steg": "Den provisoriska överenskommelsen måste nu formellt godkännas av Europaparlamentet och EU:s råd innan den blir lag.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-07",
+            "beskrivning": "Provisorisk överenskommelse nådd mellan parlament och råd."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Highlights - IMCO in China: MEPs push for safer e-commerce and fair competition - Committee on the Internal Market and Consumer Protection",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260417CAN77661",
+      "date": "Wed, 06 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Plattformsreglering",
+        "sammanfattning": "Detta är en sammanfattning från EU-parlamentets utskott för den inre marknaden och konsumentskydd (EP-utskottet för inre marknaden (IMCO)) efter ett besök i Kina. Europaparlamentariker uttryckte oro över ökningen av e-handelsleveranser som inte uppfyller EU:s säkerhetskrav från plattformar som Shein, Temu och Alibaba. De betonade vikten av att europeiska konsumenter inte ska behöva kompromissa med sin hälsa och säkerhet för att få billigare produkter, och krävde att kinesiska myndigheter och företag följer EU:s regler. Besöket syftade till att främja säkrare e-handel och rättvis konkurrens.",
+        "tech_vinkel": "Europaparlamentariker fokuserar på att säkerställa att e-handelsplattformar som Shein, Temu och Alibaba följer EU:s regler, vilket implicerar en reglering av algoritmer och innehållsmoderering på dessa plattformar för att säkerställa produktsäkerhet och konsumentskydd.",
+        "varfor_viktigt": "Detta kan leda till skärpta krav på kinesiska e-handelsplattformar som verkar på den europeiska marknaden, vilket potentiellt kan påverka deras affärsmodeller och prissättning. Det kan också öka trycket på EU-kommissionen att införa strängare regler för gränsöverskridande e-handel och säkerställa att europeiska konsumenter skyddas från farliga produkter.  Tajmingen är viktig med tanke på den snabba tillväxten av dessa plattformar och den ökande oro för deras påverkan på den europeiska marknaden.",
+        "eu_koppling": "Detta berör direkt EU:s regler kring produktsäkerhet och konsumentskydd, samt potentiellt Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) (DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll)), som reglerar onlineplattformars ansvar för innehåll och säkerhet.",
+        "keywords": [
+          "e-handel",
+          "Kina",
+          "plattformar",
+          "konsumentskydd",
+          "produktsäkerhet",
+          "algoritmer"
+        ],
+        "arende": "Digitala marknader",
+        "nasta_steg": "Det är troligt att IMCO kommer att fortsätta att övervaka situationen och eventuellt föreslå ytterligare åtgärder för att säkerställa efterlevnad av EU:s regler.",
+        "viktiga_datum": [
+          {
+            "datum": "null",
+            "beskrivning": "null"
+          }
+        ]
+      }
+    },
+    {
+      "title": "EU and Japan accelerate cooperation on AI, data, quantum and chips",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/eu-and-japan-accelerate-cooperation-ai-data-quantum-and-chips",
+      "date": "Tue, 05 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Halvledare",
+        "sammanfattning": "EU-kommissionen har meddelat att EU och Japan kommer att intensifiera sitt samarbete inom digital teknik. Vid ett möte i Bryssel har de båda parterna enats om att fördjupa samarbetet kring reglering, forskning och industri inom områden som data, artificiell intelligens, kvantteknik, halvledare, digital infrastruktur och onlineplattformar. Syftet är att stärka bådas positioner inom dessa teknologier och främja innovation. Samarbetet kommer att omfatta både politiska diskussioner och konkreta åtgärder.",
+        "tech_vinkel": "EU och Japan har specifikt uttryckt en avsikt att fördjupa samarbetet kring halvledare (chips), vilket är en viktig komponent i många digitala teknologier.",
+        "varfor_viktigt": "Detta samarbete är viktigt eftersom både EU och Japan står inför utmaningar inom halvledarproduktionen och behöver stärka sin konkurrenskraft. Genom att dela kunskap och resurser kan båda parter minska sin beroende av andra regioner och säkra tillgången till viktiga teknologier. Det kan även leda till nya innovationer och skapande av arbetstillfällen inom dessa sektorer.",
+        "eu_koppling": "EU Chips Act (EU:s lagstiftning som syftar till att stärka EU:s halvledarindustri och minska beroendet av utländska leverantörer)",
+        "keywords": [
+          "EU",
+          "Japan",
+          "AI",
+          "data",
+          "kvant",
+          "chips",
+          "halvledare",
+          "digital infrastruktur"
+        ],
+        "arende": "EU Chips Act",
+        "nasta_steg": "Det är troligt att mötet kommer att följas av konkreta avtal och initiativ för att genomföra det utökade samarbetet.",
+        "viktiga_datum": [
+          {
+            "datum": "null",
+            "beskrivning": "null"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Commission urges Member States to rollout EU age verification app",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-urges-member-states-rollout-eu-age-verification-app",
+      "date": "Wed, 29 Apr 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Sociala medier",
+        "sammanfattning": "EU-kommissionen har gett en rekommendation till medlemsländerna om att snabbt införa en EU-app för åldersverifiering. Appen ska vara tillgänglig för användare senast vid årets slut. Syftet är att skydda minderåriga online och säkerställa att de inte får tillgång till olämpligt innehåll. Medlemsländerna uppmanas att prioritera implementeringen av appen.",
+        "tech_vinkel": "Dokumentet handlar specifikt om utrullningen av en EU-app för åldersverifiering, vilket är en teknisk lösning för att kontrollera användares ålder online och därmed reglera tillgången till innehåll på plattformar.",
+        "varfor_viktigt": "Åldersverifieringsappen kan minska risken för att minderåriga exponeras för skadligt innehåll online, vilket kan leda till förbättrad säkerhet och välbefinnande för barn. Det kan också påverka hur plattformar hanterar innehåll och användarverifiering, och därmed förändra dynamiken på sociala medier och andra online-tjänster. Snabb implementering är viktig för att skydda barn i realtid.",
+        "eu_koppling": "Ärendet är kopplat till EU:s bredare arbete med att skydda barn online och implementera bestämmelser i Digital Services Act (DSA), som kräver åtgärder för att verifiera användares ålder.",
+        "keywords": [
+          "åldersverifiering",
+          "EU-app",
+          "barnskydd",
+          "sociala medier",
+          "Digital Services Act"
+        ],
+        "arende": "Digital Services Act",
+        "nasta_steg": "Medlemsländerna förväntas nu implementera appen och rapportera till EU-kommissionen om framstegen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-12-31",
+            "beskrivning": "Medlemsländerna ska ha infört åldersverifieringsappen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Commission sets out a common approach for  EU-wide Age Verification technologies",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+      "date": "Wed, 29 Apr 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "EU-kommissionen har antagit en rekommendation som syftar till att skapa ett gemensamt tillvägagångssätt för åldersverifieringstekniker som kan användas i hela EU. Rekommendationen föreslår att alla EU-medborgare ska ha tillgång till åldersverifieringsverktyg baserade på anonyma bevis på ålder. Detta ska garantera högsta möjliga standarder för dataskydd och integritet, och underlättar tillgång till digitalt innehåll och tjänster för olika åldersgrupper samtidigt som man skyddar barn och unga.",
+        "tech_vinkel": "Rekommendationen fokuserar på att möjliggöra användningen av 'anonyma bevis på ålder'-tekniker för åldersverifiering, vilket innebär att det handlar om specifika tekniska lösningar som kan verifiera ålder utan att avslöja personlig information.",
+        "varfor_viktigt": "Detta kan leda till en mer enhetlig reglering kring åldersverifiering på internet i hela EU, vilket underlättar för både företag och konsumenter. Det är viktigt för att skydda barn från olämpligt innehåll samtidigt som man respekterar individens rätt till dataskydd och integritet. Implementeringen av dessa tekniker kommer sannolikt att kräva utveckling och standardisering av nya tekniska lösningar och processer.",
+        "eu_koppling": "Detta är relevant i förhållande till GDPR (EU:s allmänna dataskyddsförordning), som ställer krav på hur personuppgifter hanteras och särskilt skyddar data för minderåriga.",
+        "keywords": [
+          "åldersverifiering",
+          "anonymitet",
+          "dataskydd",
+          "digitala tjänster",
+          "EU-rekommendation"
+        ],
+        "arende": "Dataskydd och integritet",
+        "nasta_steg": "EU-medlemsländerna förväntas nu implementera rekommendationen och utveckla nationella strategier för åldersverifiering.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-29",
+            "beskrivning": "EU-kommissionen antog rekommendationen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "BEREC external workshop on accessibility of electronic communications services",
+      "source": "BEREC",
+      "type": "EU-byrå",
+      "url": "https://www.berec.europa.eu/en/events/berec-external-workshop-on-accessibility-of-electronic-communications-services",
+      "date": "Wed, 08 Apr 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, anordnar en workshop om tillgänglighet för elektroniska kommunikationstjänster. Workshopen är öppen för deltagande både på plats i Bryssel och online. Intresserade kan anmäla sig via en privat anmälningsformulär fram till den 2 juni 2026. Syftet är att diskutera hur man kan göra telekommunikationstjänster mer tillgängliga för personer med funktionsnedsättningar.",
+        "tech_vinkel": "Workshopen fokuserar på tillgänglighet för elektroniska kommunikationstjänster, vilket implicerar diskussioner kring tekniska lösningar och standarder för att säkerställa att dessa tjänster är användbara för personer med funktionsnedsättningar, inklusive till exempel textalternativ, talstyrning och kompatibilitet med hjälpmedel.",
+        "varfor_viktigt": "En ökad tillgänglighet för elektroniska kommunikationstjänster är avgörande för att säkerställa digital inkludering och likvärdighet för alla medborgare. Det påverkar både telekomoperatörer som måste anpassa sina tjänster och användare med funktionsnedsättningar som får förbättrad tillgång till information och kommunikation. Workshopen kan leda till nya riktlinjer och standarder som påverkar hur telekommunikationstjänster utvecklas och erbjuds.",
+        "eu_koppling": "Workshopen är relevant i förhållande till EU:s tillgänglighetsdirektiv (European Accessibility Act), som kräver att produkter och tjänster, inklusive elektroniska kommunikationstjänster, är tillgängliga för personer med funktionsnedsättningar.",
+        "keywords": [
+          "tillgänglighet",
+          "telekommunikation",
+          "digital inkludering",
+          "BEREC",
+          "EU"
+        ],
+        "arende": "Digital infrastruktur",
+        "nasta_steg": "Resultaten från workshopen kommer sannolikt att informera BERECs framtida rekommendationer och bidra till implementeringen av EU:s tillgänglighetsdirektiv.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-02",
+            "beskrivning": "Sista anmälningsdag för workshopen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Combating fraud in telecom: BEREC to host a workshop on 21 May 2026",
+      "source": "BEREC",
+      "type": "EU-byrå",
+      "url": "https://www.berec.europa.eu/en/news/latest-news/combating-fraud-in-telecom-berec-to-host-a-workshop-on-21-may-2026",
+      "date": "Thu, 07 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "BEREC, EU:s byrå för telekom-reglering, kommer att hålla en workshop online den 21 maj 2026. Syftet är att diskutera hur man kan bekämpa bedrägerier inom elektronisk kommunikation. Workshopen är en del av ett pågående samarbete med partners runt om i världen och ska ge telekom-reglerare en möjlighet att utbyta erfarenheter. Fokus ligger på att identifiera och motverka bedrägerier som sker via telefon, SMS och internet.",
+        "tech_vinkel": "Workshopen kommer att behandla bedrägerier som sker via elektronisk kommunikation, vilket inkluderar tekniker som spoofing av telefonnummer och phishing via SMS, vilket är direkt relaterat till säkerheten för digitala kommunikationssystem.",
+        "varfor_viktigt": "Bedrägerier inom telekom orsakar stora ekonomiska förluster för både konsumenter och företag. Genom att dela kunskap och strategier kan BEREC:s medlemmar bidra till att minska dessa förluster och öka tryggheten i digitala kommunikationer. Workshopen kan leda till nya rekommendationer och åtgärder för att skydda konsumenter och företag mot bedrägerier.",
+        "eu_koppling": "Workshopen syftar till att harmonisera metoder för att bekämpa bedrägerier inom EU:s telekommunikationsmarknad, vilket är relevant i förhållande till EU:s bredare cybersäkerhetsstrategi och potentiellt NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet).",
+        "keywords": [
+          "telekom",
+          "bedrägerier",
+          "cybersäkerhet",
+          "BEREC",
+          "workshop"
+        ],
+        "arende": "NIS2-implementering",
+        "nasta_steg": "BEREC kommer sannolikt att publicera en rapport med slutsatser och rekommendationer baserat på workshopen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-21",
+            "beskrivning": "BEREC håller online-workshop om bedrägerier i telekom."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Stärkt skydd mot utlänningar som utgör kvalificerade säkerhetshot",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03267.html",
+      "date": "2026-05-07",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "Regeringen föreslår en proposition som syftar till att stärka skyddet mot utlänningar som utgör kvalificerade säkerhetshot. Detta inkluderar åtgärder för att begränsa deras tillgång till kritisk infrastruktur och information. Förslaget riktar sig mot individer som bedöms utgöra ett hot mot Sveriges nationella säkerhet och kan innebära skärpta krav på visum, uppehållstillstånd och anställning. Syftet är att minska riskerna för spionage, sabotage och annan skadlig verksamhet.",
+        "tech_vinkel": "Propositionen nämner indirekt digital infrastruktur genom att inkludera 'kritisk infrastruktur' i de områden som utlänningar med säkerhetshotande profil ska begränsas från att ha tillgång till, vilket ofta innefattar system och data som är beroende av digital teknik.",
+        "varfor_viktigt": "Förslaget kan leda till skärpta regler för utländska medborgare som arbetar inom sektorer som telekommunikation, energi och transport, vilket kan påverka företags rekryteringsmöjligheter och tillgång till kompetens. Det kan också öka spänningarna mellan Sverige och andra länder om det uppfattas som diskriminerande. Tajmingen är viktig med tanke på den ökande geopolitiska spänningen och hotbilden mot kritisk infrastruktur.",
+        "eu_koppling": "Propositionen kan behöva anpassas till EU:s regler om fri rörlighet och asyl, vilket kan begränsa regeringens handlingsutrymme. Det finns en koppling till EU:s arbete med att stärka cybersäkerheten och skydda kritisk infrastruktur.",
+        "keywords": [
+          "säkerhetshot",
+          "utlänningar",
+          "kritisk infrastruktur",
+          "digital infrastruktur",
+          "nationell säkerhet"
+        ],
+        "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
+        "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt lägga till ändringsförslag.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-07",
+            "beskrivning": "Förväntad debatt i riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Förbättrade förutsättningar för operativt militärt samarbete",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03254.html",
+      "date": "2026-04-30",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen föreslår i proposition 2025/26:254 förbättrade förutsättningar för militärt samarbete mellan olika aktörer, både inom Sverige och med andra länder. Förslaget syftar till att effektivisera gemensamma operationer och öka Sveriges försvarsförmåga. Det inkluderar förbättringar i logistik, kommunikation och informationsdelning. Förslaget riktar sig till Försvarsmakten, myndigheter och potentiellt även privata företag som är involverade i militära operationer.",
+        "tech_vinkel": "Propositionen nämner specifikt behovet av att förbättra ”informationsdelning och kommunikationssystem” för att underlätta operativt militärt samarbete, vilket implicerar investeringar i säker digital infrastruktur och potentiellt nya kommunikationsprotokoll.",
+        "varfor_viktigt": "Förbättrad digital infrastruktur är avgörande för modern militär verksamhet, vilket möjliggör snabbare beslut, bättre samordning och effektivare resurshantering. Säker kommunikation är särskilt viktigt för att skydda information och undvika avlyssning. Förslaget kan leda till ökad investering i krypterad kommunikation och robusta nätverk, vilket i sin tur kan påverka leverantörer av militär teknologi.",
+        "eu_koppling": "Propositionen kan indirekt påverkas av EU:s cybersäkerhetsstrategi och NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet), då militär infrastruktur ofta anses vara kritisk infrastruktur.",
+        "keywords": [
+          "militärt samarbete",
+          "digital infrastruktur",
+          "kommunikation",
+          "informationsdelning",
+          "försvarsförmåga"
+        ],
+        "arende": "Cybersolidaritetsakten",
+        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-30",
+            "beskrivning": "Riksdagen behandlar propositionen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Insatser för den svenska rymdbranschen",
+      "source": "Riksdagen",
+      "type": "Riksdagen/IP",
+      "url": "https://data.riksdagen.se/dokument/HD10461.html",
+      "date": "2026-04-30",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Övrigt tech",
+        "sammanfattning": "Det här är en interpellation från en riksdagsledamot (Mats Wiking, Socialdemokraterna) till gymnasie-, högskole- och forskningsministern (Lotta Edholm, Liberalerna). Interpellationen handlar om att stärka den svenska rymdbranschen, med tanke på hur beroende samhället blivit av data från satelliter och hur kriget i Ukraina har belyst detta. Riksdagsledamoten vill att ministern ska redogöra för vilka insatser regeringen planerar att göra för att stödja den svenska rymdbranschen.",
+        "tech_vinkel": "Interpellationen lyfter fram att många samhällsfunktioner är beroende av data från satelliter, vilket är en direkt koppling till satellitteknik och rymdbaserad infrastruktur, en kritisk del av modern digital infrastruktur.",
+        "varfor_viktigt": "En stärkt rymdindustri kan bidra till ökad nationell säkerhet genom att minska beroendet av utländska satellittjänster. Det kan också skapa nya jobb och innovationer inom den svenska teknologin. Kriget i Ukraina har tydligt visat hur viktig rymdteknik är för kommunikation, navigering och säkerhet, vilket gör detta till en tidskänslig fråga.",
+        "eu_koppling": "EU har flera program och initiativ som stöder rymdverksamhet, t.ex. Copernicus (EU:s jordobservationprogram) och Galileo (EU:s satellitnavigationssystem). Det är troligt att Sverige kommer att påverkas av och bidra till dessa EU-initiativ.",
+        "keywords": [
+          "rymdindustri",
+          "satelliter",
+          "digital infrastruktur",
+          "nationell säkerhet",
+          "teknologi"
+        ],
+        "arende": "Rymdindustri",
+        "nasta_steg": "Ministern kommer att svara på interpellationen i riksdagen, vilket kan leda till ytterligare frågor och diskussioner om rymdbranschen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-15",
+            "beskrivning": "Förväntat svar från ministern i riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Desinformation om vindkraft",
+      "source": "Riksdagen",
+      "type": "Riksdagen/IP",
+      "url": "https://data.riksdagen.se/dokument/HD10448.html",
+      "date": "2026-04-24",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Sociala medier",
+        "sammanfattning": "Detta är en interpellation från riksdagsledamoten Josef Fransson (SD) till energi- och näringsministern Ebba Busch (KD) angående spridning av desinformation om vindkraft. Fransson uttrycker oro över hur branschorganisationen Windeurope’s rapport om desinformation kring vindkraft har fått stor spridning i svenska medier, särskilt via Sveriges Radio. Interpellationen syftar till att få ministern att agera mot spridningen av felaktig information och dess påverkan på opinionen kring vindkraftsutbyggnad.",
+        "tech_vinkel": "Interpellationen lyfter fram hur en rapport om desinformation har fått stor spridning via Sveriges Radio, vilket indikerar en potentiell användning av sociala medier och digitala plattformar för att sprida information och påverka opinionen, vilket är relevant för plattformsreglering och innehållsmoderering.",
+        "varfor_viktigt": "Spridningen av desinformation kan försvåra politiska beslut kring vindkraftsutbyggnad och skapa misstro mot energiproduktion. Det är viktigt att identifiera och motverka felaktig information för att säkerställa en informerad debatt och en hållbar energipolitik. Interpellationen kan leda till en diskussion om hur medier och plattformar hanterar information och potentiellt till åtgärder för att bekämpa desinformation.",
+        "eu_koppling": "Ingen direkt koppling till EU-lagstiftning, men kan relatera till diskussioner om desinformationsbekämpning inom EU:s ramverk för digitala tjänster (Digital Services Act, DSA).",
+        "keywords": [
+          "desinformation",
+          "vindkraft",
+          "sociala medier",
+          "plattformar",
+          "Sveriges Radio"
+        ],
+        "arende": "Ingen tydlig koppling",
+        "nasta_steg": "Energi- och näringsministern kommer att svara på interpellationen i riksdagen, vilket kan leda till en debatt och eventuella åtgärder.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-21",
+            "beskrivning": "Windeurope släppte rapporten 'Wind Energy Dis- and Misinformation'."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Polismyndighetens behandling av personuppgifter, Dir. 2026:17",
+      "source": "Regeringen",
+      "type": "Kommittédirektiv",
+      "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/",
+      "date": "2026-03-16",
+      "analysis": {
+        "relevans": "hög",
+        "sammanfattning": "Regeringen startar en utredning om hur Polismyndigheten hanterar personuppgifter. Utredningen ska se över reglerna för att säkerställa att de är moderna och effektiva för brottsbekämpning, samtidigt som den tar hänsyn till individens rättigheter och dataskydd. Utredningen kommer att analysera hur Polismyndigheten använder information och tekniska system, och föreslå eventuella förändringar i lagstiftningen. Detta påverkar Polismyndigheten, brottsbekämpande myndigheter och allmänheten.",
+        "tech_vinkel": "Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.",
+        "varfor_viktigt": "En uppdatering av reglerna för Polismyndighetens hantering av personuppgifter är viktig för att balansera brottsbekämpning med individens rättigheter och dataskydd. Om utredningen leder till nya regler kan det påverka hur Polismyndigheten använder teknik för att bekämpa brott, och det kan kräva investeringar i nya system och utbildning. Det är också viktigt att säkerställa att Polismyndighetens agerande är förenligt med GDPR (EU:s dataskyddsförordning) och andra relevanta lagar.",
+        "eu_koppling": "GDPR (EU:s dataskyddsförordning) (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas och kommer att vara en central referenspunkt för utredningen.",
+        "keywords": [
+          "personuppgifter",
+          "polismyndigheten",
+          "dataskydd",
+          "övervakning",
+          "teknik",
+          "brottsbekämpning"
+        ],
+        "arende": "Polismyndighetens personuppgiftsbehandling",
+        "nasta_steg": "Utredningen kommer att påbörjas och en utredningsgrupp kommer att utses för att genomföra analysen och lämna förslag.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-03-16",
+            "beskrivning": "Kommittédirektivet publicerades."
+          }
+        ]
+      }
+    }
   ]
 }
