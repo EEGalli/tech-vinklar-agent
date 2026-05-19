@@ -4491,5 +4491,131 @@
     },
     "title": "Η Λευκωσία γίνεται κόμβος της ευρωπαϊκής διαστημικής πολιτικής",
     "cached_at": "2026-05-18"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-kommissionen har publicerat utkast till riktlinjer för klassificering av högriskartificiell intelligens (AI)-system. Dessa riktlinjer syftar till att stödja leverantörer och användare av AI-system, samt marknadstillsynsmyndigheter, i att bedöma om ett AI-system ska klassificeras som högrisk. Detta är en del av EU-kommissionens arbete med att implementera AI Act (EU:s AI-förordning), som syftar till att reglera utveckling och användning av AI-system i EU. Riktlinjerna ska bidra till en enhetlig tillämpning och effektivt genomförande av AI Act.",
+      "tech_vinkel": "Utkastet till riktlinjer för klassificering av högrisk-AI-system innehåller specifika kriterier för att bedöma om ett AI-system ska klassificeras som högrisk, vilket är en central del av AI Act (EU:s AI-förordning).",
+      "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de kommer att påverka utveckling och användning av AI-system i EU. De kommer att bidra till att säkerställa att AI-system utvecklas och används på ett sätt som är säkert och respektfullt mot människors rättigheter. Riktlinjerna kommer också att ha en betydande inverkan på företag och organisationer som utvecklar och använder AI-system, eftersom de kommer att behöva anpassa sig till de nya reglerna.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "AI",
+        "högrisk-AI-system",
+        "AI Act"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "EU-kommissionen kommer att samla in synpunkter på utkastet till riktlinjer innan de antas i sin slutliga form.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-19",
+          "beskrivning": "Utkast till riktlinjer publicerades"
+        }
+      ]
+    },
+    "title": "Draft Commission guidelines on the classification of high-risk AI systems",
+    "cached_at": "2026-05-19"
+  },
+  "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "EU-kommissionen har öppnat en konsultation om riktlinjer för klassificering av högriskartificiell intelligenssystem. Konsultationen syftar till att samla in synpunkter på tydligheten i riktlinjerna och användbarheten av exemplen. Målet är att förbättra klassificeringen av högrisk-AI-system för att säkerställa att de utvecklas och används på ett ansvarsfullt sätt. Konsultationen är öppen till den 23 juni 2026.",
+      "tech_vinkel": "EU-kommissionen föreslår specifika riktlinjer för klassificering av högriskartificiell intelligenssystem, vilket är en viktig teknisk aspekt av AI-utveckling.",
+      "varfor_viktigt": "Denna konsultation är viktig eftersom den kan leda till tydligare regler för utveckling och användning av högrisk-AI-system. Detta kan ha stor inverkan på företag och organisationer som utvecklar och använder AI, samt på samhället i stort. Konsultationen kan också bidra till att säkerställa att AI-system utvecklas och används på ett ansvarsfullt sätt, vilket är en prioritet för EU-kommissionen.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "AI",
+        "högrisk-AI-system",
+        "klassificering",
+        "EU-kommissionen"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "EU-kommissionen kommer att sammanställa synpunkterna från konsultationen och använda dem för att förbättra riktlinjerna för klassificering av högrisk-AI-system.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-23",
+          "beskrivning": "Sista datum för att lämna synpunkter på konsultationen"
+        }
+      ]
+    },
+    "title": "Targeted consultation on the draft guidelines for the classification of high-risk artificial intelligence systems",
+    "cached_at": "2026-05-19"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/accountability-tools/register-code-of-conduct/2026/alliance-du-commerce_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Dokumentet handlar om en kod för hantering av personuppgifter för konsumenter som utfärdats av Alliance du Commerce. Koden har godkänts av den franska dataskyddsmyndigheten CNIL och är tillämplig för detaljhandlare som agerar som personuppgiftsansvariga. Dokumentet innehåller detaljer om hur personuppgifter ska hanteras i enlighet med EU:s allmänna dataskyddsförordning (GDPR).",
+      "tech_vinkel": "Dokumentet innehåller en specifik kod för hantering av personuppgifter som är tillämplig för detaljhandlare som använder sig av digitala system för att samla in och hantera konsumenters personuppgifter.",
+      "varfor_viktigt": "Detta dokument är viktigt eftersom det visar hur EU:s dataskyddsförordning (GDPR) tillämpas i praktiken för att skydda konsumenters personuppgifter. Detaljhandlare som inte följer koden riskerar att få böter och skadad reputation. Dokumentet är också viktigt för konsumenter som vill ha kontroll över sina personuppgifter och veta att de hanteras på ett säkert sätt.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Personuppgifter"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Dokumentet kommer att följas upp av den franska dataskyddsmyndigheten CNIL för att säkerställa att detaljhandlare följer koden och hanterar personuppgifter i enlighet med GDPR.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-02-12",
+          "beskrivning": "Koden för hantering av personuppgifter godkändes av CNIL"
+        }
+      ]
+    },
+    "title": "Alliance du Commerce",
+    "cached_at": "2026-05-19"
+  },
+  "https://www.edpb.europa.eu/about-edpb/who-we-are/edpb-chairmanship/agenda/meeting-committee-civil-liberties-justice-and-home-0_en": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Mötet handlar om ett möte mellan European Data Protection Board och Committee on Civil Liberties, Justice and Home Affairs i EU-parlamentet. Mötet är planerat att äga rum den 8 juni 2026. Inga specifika förslag eller beslut presenteras i sammanfattningen. Mötet verkar vara en del av den löpande verksamheten inom EU-parlamentet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Mötet kan vara viktigt för att diskutera och besluta om frågor som rör dataskydd och integritet inom EU. Det kan också vara en möjlighet för EU-parlamentet att granska och utvärdera den nuvarande lagstiftningen och politiken inom området. Det är dock svårt att bedöma den exakta betydelsen av mötet utan mer information.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Dataskydd",
+        "Integritet",
+        "EU-parlamentet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Mötet mellan European Data Protection Board och Committee on Civil Liberties, Justice and Home Affairs"
+        }
+      ]
+    },
+    "title": "Meeting Committee on Civil Liberties, Justice and Home Affairs (LIBE), European Parliament",
+    "cached_at": "2026-05-19"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/europe-aviation-joins-forces-airspace-world-2026": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har meddelat att Europe for Aviation kommer att delta i Airspace World 2026. Detta evenemang syftar till att främja samarbeten inom flygindustrin. Inga specifika tekniska detaljer eller förslag presenteras i meddelandet. Det handlar mer om en allmän presentation av evenemanget och dess syfte.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget kan ha betydelse för flygindustrin och dess utveckling, men utan specifika tekniska detaljer eller förslag är det svårt att bedöma dess tekniska relevans. Det kan dock vara viktigt för att främja samarbeten och innovation inom branschen. Tajmingen för evenemanget kan vara viktig för att möta aktuella utmaningar och trender inom flygindustrin.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Europe for Aviation",
+        "Airspace World 2026",
+        "flygindustri"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026",
+          "beskrivning": "Airspace World 2026 evenemanget äger rum"
+        }
+      ]
+    },
+    "title": "Europe for Aviation joins forces at Airspace World 2026",
+    "cached_at": "2026-05-19"
   }
 }

@@ -426,5 +426,13 @@
       "url": "https://www.regeringen.se/pressmeddelanden/2026/05/utredning-for-effektiv-informationshantering-i-arbetet-mot-organiserad-brottslighet/",
       "arende": "Polismyndighetens personuppgiftsbehandling"
     }
+  ],
+  "2026-02-12": [
+    {
+      "beskrivning": "Koden för hantering av personuppgifter godkändes av CNIL",
+      "title": "Alliance du Commerce",
+      "url": "https://www.edpb.europa.eu/our-work-tools/accountability-tools/register-code-of-conduct/2026/alliance-du-commerce_en",
+      "arende": "Dataskydd och integritet"
+    }
   ]
 }

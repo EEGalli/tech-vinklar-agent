@@ -140,9 +140,9 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
-    "next_step": "Meta kommer att få möjlighet att bemöta kommissionens preliminära bedömning innan ett slutgiltigt beslut fattas.",
+    "next_step": "Det är troligt att de punkter som lyfts fram i det gemensamma uttalandet kommer att operationaliseras genom konkreta projekt och avtal under det kommande året.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -342,7 +342,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -367,7 +367,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -488,7 +488,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -576,7 +576,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -625,6 +625,20 @@
         "tech_vinkel": "Avtalet inkluderar ett förbud mot 'nudification'-appar, vilket innebär att appar som använder sig av psykologiska knep och algoritmer för att manipulera användarnas beteende kommer att regleras och potentiellt förbjudas."
       },
       {
+        "title": "Draft Commission guidelines on the classification of high-risk AI systems",
+        "date": "Tue, 19 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Utkastet till riktlinjer för klassificering av högrisk-AI-system innehåller specifika kriterier för att bedöma om ett AI-system ska klassificeras som högrisk, vilket är en central del av AI Act (EU:s AI-förordning)."
+      },
+      {
+        "title": "Targeted consultation on the draft guidelines for the classification of high-risk artificial intelligence systems",
+        "date": "Tue, 19 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen föreslår specifika riktlinjer för klassificering av högriskartificiell intelligenssystem, vilket är en viktig teknisk aspekt av AI-utveckling."
+      },
+      {
         "title": "Highlights - How safe is AI? MEPs question experts on new risks and rules - Committee on the Internal Market and Consumer Protection",
         "date": "Wed, 06 Ma",
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260505CAN78065",
@@ -636,7 +650,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -661,7 +675,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -679,7 +693,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
