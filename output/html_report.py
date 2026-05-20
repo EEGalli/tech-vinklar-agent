@@ -684,13 +684,12 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
             tema = "Övrigt tech"
         by_tema.setdefault(tema, []).append(item)
 
-    # Sortera inom tema: hög relevans först, sedan nyast datum först
-    relevance_order = {"hög": 0, "medel": 1, "låg": 2, "okänd": 3}
+    # Sortera inom tema: nyast datum först (fallande)
     for tema in by_tema:
-        by_tema[tema].sort(key=lambda x: (
-            relevance_order.get(x.get("analysis", {}).get("relevans", "okänd"), 3),
-            -_date_sort_key(x.get("date") or ""),
-        ))
+        by_tema[tema].sort(
+            key=lambda x: _date_sort_key(x.get("date") or ""),
+            reverse=True,
+        )
 
     # Sortera teman efter senaste uppdatering (nyaste först)
     def _latest_date(items_list: list[dict]) -> int:

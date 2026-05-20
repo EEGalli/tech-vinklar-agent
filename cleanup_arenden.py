@@ -42,6 +42,18 @@ WRONG_ASSIGNMENTS = {
     ],
 }
 
+# Ärende-synonymer som ska slås ihop (svensk översättning → engelska originalet).
+# Dokument från synonym-ärendet flyttas in i kanon-ärendet.
+ARENDE_ALIASES = {
+    "Digitala Nätverkslagen": "Digital Services Act",
+    "Digitala marknader": "Digital Markets Act",
+    "Digitala tjänster": "Digital Services Act",
+    "AI-förordningen": "AI Act",
+    "Chips-akten": "EU Chips Act",
+    "NIS2-direktivet": "NIS2-implementering",
+    "Cybersolidaritetsförordningen": "Cybersolidaritetsakten",
+}
+
 
 def _title_matches(doc_title: str, patterns: list[str]) -> bool:
     t = doc_title.lower()
@@ -80,6 +92,31 @@ def clean():
         if removed:
             entry["documents"] = kept
             print(f"  ⟳ {arende_name}: tog bort {removed} felklassade dokument")
+
+    # Steg 3: slå ihop synonym-ärenden (svensk översättning → engelska original)
+    for alias, canonical in ARENDE_ALIASES.items():
+        if alias not in arenden:
+            continue
+        alias_entry = arenden[alias]
+        if canonical in arenden:
+            # Flytta dokument från alias till canonical, deduplicera på titel
+            target = arenden[canonical]
+            existing_titles = {d.get("title", "") for d in target.get("documents", [])}
+            for doc in alias_entry.get("documents", []):
+                if doc.get("title", "") not in existing_titles:
+                    target.setdefault("documents", []).append(doc)
+                    existing_titles.add(doc.get("title", ""))
+            # Använd nyaste last_updated
+            if alias_entry.get("last_updated", "") > target.get("last_updated", ""):
+                target["last_updated"] = alias_entry["last_updated"]
+            del arenden[alias]
+            print(f"  ⇆ Slog ihop '{alias}' → '{canonical}'")
+        else:
+            # Inget kanon-ärende — döp om alias till kanon-namn
+            arenden[canonical] = alias_entry
+            arenden[canonical]["name"] = canonical
+            del arenden[alias]
+            print(f"  ↻ Döpte om '{alias}' → '{canonical}'")
 
     after = len(arenden)
     with open(ARENDEN_FILE, "w", encoding="utf-8") as f:

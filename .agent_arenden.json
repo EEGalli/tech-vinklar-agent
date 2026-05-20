@@ -14,13 +14,6 @@
         "tech_vinkel": "Motionen handlar om finansiering av regleringar kring lärarnas arbetsuppgifter, vilket indirekt kan påverka användningen av digitala verktyg och AI-stöd i skolan."
       },
       {
-        "title": "Extra ändringsbudget för 2026 – Sänkt skatt på drivmedel samt el- och gasprisstöd",
-        "date": "2026-04-13",
-        "url": "https://data.riksdagen.se/dokument/HD03236.html",
-        "source": "Riksdagen",
-        "tech_vinkel": "Propositionen handlar om sänkta drivmedelsskatter och el- och gasprisstöd, vilket indirekt påverkar utvecklingen och användningen av elfordon och laddinfrastruktur."
-      },
-      {
         "title": "Permanent skattefrihet för förmån av laddel på arbetsplatsen och utvidgad rätt till avdrag för drivmedelsutgifter",
         "date": "2026-04-16",
         "url": "https://data.riksdagen.se/dokument/HD01SkU23.html",
@@ -707,5 +700,114 @@
         "tech_vinkel": "Det föreslagna Digitala Nätverkslagen i Europa är en specifik skrivning som berör tech, då den syftar till att reglera och främja utbyggnaden av digitala nätverk i Europa."
       }
     ]
+  },
+  "Digital Markets Act": {
+    "name": "Digital Markets Act",
+    "first_seen": "2026-04-13",
+    "last_updated": "2026-05-19",
+    "status": "aktiv",
+    "next_step": "Det är troligt att de punkter som lyfts fram i det gemensamma uttalandet kommer att operationaliseras genom konkreta projekt och avtal under det kommande året.",
+    "documents": [
+      {
+        "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
+        "date": "2026-03-17",
+        "url": "https://data.riksdagen.se/dokument/HD03200.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen kräver att vissa derivat ska hanteras genom centrala clearingplatser, vilket innebär att tekniska system för att hantera och säkra dessa transaktioner måste utvecklas och underhållas, samt att dataöverföring och säkerhetsprotokoll måste uppfyllas."
+      },
+      {
+        "title": "Uppdrag till Vetenskapsrådet att förbereda ett nationellt samordningsansvar för grundläggande digital forskningsinfrastruktur",
+        "date": "2026-04-08",
+        "url": "https://www.regeringen.se/regeringsuppdrag/2026/04/uppdrag-till-vetenskapsradet-att-forbereda-ett-nationellt-samordningsansvar-for-grundlaggande-digital-forskningsinfrastruktur/",
+        "source": "Regeringen",
+        "tech_vinkel": "Uppdraget handlar om att bygga ut den digitala infrastrukturen som krävs för att kunna forska om AI, stora datamängder och andra framväxande teknologier, vilket kan innebära investeringar i högpresterande datorer och snabba nätverk."
+      },
+      {
+        "title": "Highlights - IMCO in China: MEPs push for safer e-commerce and fair competition - Committee on the Internal Market and Consumer Protection",
+        "date": "Fri, 17 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260417CAN77661",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Europaparlamentariker fokuserar på att säkerställa att e-handelsplattformar som Shein, Temu och Alibaba följer EU:s regler, vilket implicerar en reglering av algoritmer och innehållsmoderering på dessa plattformar för att säkerställa produktsäkerhet och konsumentskydd."
+      },
+      {
+        "title": "Latest news - Next Committee Meetings; Wednesday, 6 & Thursday, 7 May 2026 - Committee on the Internal Market and Consumer Protection",
+        "date": "Mon, 20 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Newsletters - by the IMCO secretariat - Committee on the Internal Market and Consumer Protection",
+        "date": "Sat, 11 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20240930CNW19304",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Nyhetsbrev från IMCO-utskottet behandlar troligen frågor kring digitala marknader, konsumentskydd och e-handel, vilket kan inkludera algoritmer och plattformars ansvar."
+      },
+      {
+        "title": "Latest news - Committee on the Internal Market and Consumer Protection",
+        "date": "Sat, 11 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottets möten behandlar troligen frågor som påverkar digitala marknader och konsumentskydd, vilket kan inkludera algoritmer, plattformars ansvar och AI-system."
+      },
+      {
+        "title": "Latest news - Next Committee Meetings; Wednesday, 6 May & Thursday, 7 May - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 16 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Latest news - Next Committee Meeting: 6 & 7 May, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 23 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services",
+        "date": "Thu, 26 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-breach-digital-services-act",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen använder nu Digital Services Act (DSA) för att aktivt reglera innehåll på stora plattformar, vilket sätter en ny standard för hur online-tjänster måste skydda minderåriga och hantera olämpligt innehåll."
+      },
+      {
+        "title": "Commission investigates Snapchat's compliance with child protection rules under the Digital Services Act",
+        "date": "Thu, 26 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-investigates-snapchats-compliance-child-protection-rules-under-digital-services-act",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen granskar nu hur en stor social medieplattform hanterar barns säkerhet, vilket sätter fokus på algoritmer, innehållsmoderering och plikt för plattformar att skydda unga användare – en central fråga i den pågående debatten om reglering av sociala medier."
+      },
+      {
+        "title": "Joint Statement of the fourth meeting of the European Union - Japan Digital Partnership Council",
+        "date": "Tue, 05 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/joint-statement-fourth-meeting-european-union-japan-digital-partnership-council",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Uttalandet nämner specifikt dataintegrering, vilket implicerar diskussioner kring dataöverföring och interoperabilitet, vilket är en central fråga för digital infrastruktur och potentiellt relaterat till GDPR (EU:s dataskyddsförordning) och eIDAS (EU:s förordning om digital ID)."
+      },
+      {
+        "title": "Highlights - EVP Virkkunen on EU Digital Legislation, Cybersecurity and Hybrid Threats - Special Committee on the European Democracy Shield",
+        "date": "Tue, 21 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260421CAN77759",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Mötet kommer specifikt att behandla genomförandet av Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) (DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll)), som reglerar hur stora onlineplattformar modererar innehåll och hanterar olagliga varor och tjänster, samt Digital Markets Act (EU-lagen som reglerar stora plattformars marknadsmakt) (DMA (EU-lagen som reglerar stora plattformars marknadsmakt)), som syftar till att förhindra missbruk av marknadsdominans av stora digitala företag."
+      },
+      {
+        "title": "Latest news - Next Committee Meeting: 7 May, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+        "date": "Wed, 06 Ma",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Commission preliminarily finds Meta in breach of Digital Services Act for failing to prevent minors under 13 from using Instagram and Facebook",
+        "date": "Wed, 29 Ap",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-meta-breach-digital-services-act-failing-prevent-minors-under-13",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen pekar specifikt på Metas bristande förmåga att identifiera, bedöma och minska riskerna för minderåriga som använder Instagram och Facebook, vilket är en direkt åtgärd som krävs enligt Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll)."
+      }
+    ],
+    "is_new_today": false,
+    "is_updated_today": true
   }
 }
