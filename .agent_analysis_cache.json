@@ -4617,5 +4617,130 @@
     },
     "title": "Europe for Aviation joins forces at Airspace World 2026",
     "cached_at": "2026-05-19"
+  },
+  "https://digital-strategy.ec.europa.eu/en/consultations/survey-eu-legal-framework-health-data-and-data-driven-health-technologies": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-kommissionen genomför en undersökning om det rättsliga ramverket för hälsodata och datadriven hälsovägledning inom EU. Syftet är att samla in erfarenheter från verkligheten om hur man får tillgång till och återanvänder hälsodata, samt hur man följer EU-reglerna när det gäller datadriven hälsovård. Undersökningen är öppen från den 13 maj 2026 till den 22 maj 2026. Målet är att förbättra det rättsliga ramverket för hälsodata och datadriven hälsovård.",
+      "tech_vinkel": "EU-kommissionen undersöker det rättsliga ramverket för hälsodata, vilket inkluderar frågor om dataskydd, integritet och återanvändning av hälsodata i datadriven hälsovård.",
+      "varfor_viktigt": "Detta är viktigt eftersom det rättsliga ramverket för hälsodata och datadriven hälsovård har stor betydelse för patienters integritet och säkerhet. En väl fungerande ramverk kan bidra till att förbättra hälsovården och patienternas tillgång till vård. Dessutom kan det bidra till att öka förtroendet för datadriven hälsovård och hälsodata.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen) och andra EU-lagstiftningsakter som reglerar hälsodata och dataskydd",
+      "keywords": [
+        "hälsodata",
+        "datadriven hälsovård",
+        "EU-regler",
+        "dataskydd",
+        "integritet"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EU-kommissionen kommer att analysera resultaten från undersökningen och använda dem för att förbättra det rättsliga ramverket för hälsodata och datadriven hälsovård.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-13",
+          "beskrivning": "Undersökningen öppnar"
+        },
+        {
+          "datum": "2026-05-22",
+          "beskrivning": "Undersökningen stänger"
+        }
+      ]
+    },
+    "title": "Survey on the EU legal framework for health data and data driven health technologies",
+    "cached_at": "2026-05-20"
+  },
+  "https://www.edpb.europa.eu/about-edpb/who-we-are/edpb-chairmanship/agenda/meeting-data-protection-working-group-council-3_en": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Detta dokument handlar om ett möte i European Data Protection Board, som är en EU-byrå som arbetar med dataskydd och integritet. Mötet äger rum den 12 juni 2026 och leds av Anu Talus. Dokumentet innehåller ingen information om specifika förslag eller beslut, utan verkar vara enbart en möteskallelse.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte kan vara viktigt för att diskutera och fatta beslut om dataskydd och integritet i EU, men utan mer information är det svårt att säga exakt varför det är viktigt. Dataskydd och integritet är viktiga frågor i dagens digitala samhälle, och EU-byråer som European Data Protection Board spelar en viktig roll i att skydda medborgarnas rättigheter.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning, som reglerar hur personuppgifter ska hanteras inom EU)",
+      "keywords": [
+        "dataskydd",
+        "integritet",
+        "EU"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-12",
+          "beskrivning": "Möte i European Data Protection Board"
+        }
+      ]
+    },
+    "title": "Meeting Data Protection Working Group, Council",
+    "cached_at": "2026-05-20"
+  },
+  "https://www.euspa.europa.eu/node/9706": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) erbjuder traineeplatser. Detta är en möjlighet för studenter och unga professionella att få erfarenhet av att arbeta inom rymdsektorn. Traineeplatserna är en del av EUSPAs utbildnings- och utvecklingsprogram. Detta program syftar till att ge deltagarna en djupare förståelse för rymdsektorn och dess tillämpningar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta program kan vara viktigt för att utveckla kompetensen och kunskapen inom rymdsektorn. Det kan också bidra till att öka medvetenheten om rymdsektorns betydelse och potential. Dessutom kan programmet ge deltagarna en möjlighet att nätverka och skapa kontakter inom branschen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "traineeplatser",
+        "rymdsektor"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA Traineeships",
+    "cached_at": "2026-05-20"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/dublin-stem-women-graduate-careers-event": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar en karriärhändelse för kvinnor som studerar STEM-ämnen i Dublin. Händelsen syftar till att främja karriärmöjligheter för kvinnor inom rymd- och tekniksektorn. Detta är en del av EU:s insatser för att öka jämställdheten inom STEM-områden. Händelsen är tänkt att inspirera och ge kvinnor verktyg för att lyckas i sina karriärer.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna händelse är viktig eftersom den syftar till att öka jämställdheten inom STEM-områden, som traditionellt har varit mansdominerade. Genom att främja karriärmöjligheter för kvinnor kan EU bidra till att öka mångfalden och kreativiteten inom tekniksektorn. Detta kan i sin tur leda till innovation och ekonomisk tillväxt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "STEM",
+        "karriärhändelse",
+        "jämställdhet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-18",
+          "beskrivning": "Karriärhändelsen äger rum"
+        }
+      ]
+    },
+    "title": "Dublin STEM Women Graduate Careers Event",
+    "cached_at": "2026-05-20"
+  },
+  "https://data.riksdagen.se/dokument/HD01SoU29.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen behandlar ett förslag om aktivitetskrav för mottagare av försörjningsstöd. Detta förslag syftar till att ställa krav på personer som mottar försörjningsstöd att delta i vissa aktiviteter. Förslaget påverkar främst personer som är beroende av försörjningsstöd för sin försörjning. Det är dock oklart vad som ändras i förhållande till nuvarande regler.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag kan ha konsekvenser för personer som mottar försörjningsstöd, eftersom de kan tvingas delta i aktiviteter som de kanske inte vill eller kan delta i. Det kan också ha konsekvenser för samhället i stort, eftersom det kan påverka hur försörjningsstöd hanteras och vilka krav som ställs på mottagare. Tajmingen spelar roll eftersom det kan påverka den ekonomiska situationen för de personer som berörs.",
+      "eu_koppling": "null",
+      "keywords": [
+        "försörjningsstöd",
+        "aktivitetskrav"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-20",
+          "beskrivning": "Riksdagen behandlar förslaget om aktivitetskrav för mottagare av försörjningsstöd"
+        }
+      ]
+    },
+    "title": "Aktivitetskrav för mottagare av försörjningsstöd",
+    "cached_at": "2026-05-20"
   }
 }
