@@ -1525,9 +1525,9 @@ def generate(items: list[dict], output_path: str = "digest.html",
 <main>
   {new_today_section}
   {calendar_section}
+  {lookback_section}
   {dashboard_section}
   {arenden_section}
-  {lookback_section}
   <h2 class="section-title">📰 Alla ärenden — detaljerad vy</h2>
   {source_sections}
 </main>
