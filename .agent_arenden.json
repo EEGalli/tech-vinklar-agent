@@ -59,10 +59,17 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
-    "next_step": "ENISA kommer sannolikt att utvärdera genomförandet av befintliga avtal och föreslå förändringar för att möjliggöra mer proaktiva beredskapstjänster.",
+    "next_step": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
     "documents": [
+      {
+        "title": "Cybercriminal VPN used by ransomware actors dismantled in global crackdown",
+        "date": "",
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown",
+        "source": "Europol",
+        "tech_vinkel": "Europol har identifierat och stängt ner en specifik VPN-tjänst som användes av cyberkriminella för att utföra ransomware-attacker och andra former av cyberbrott."
+      },
       {
         "title": "Lagändringar för ett stärkt nationellt cybersäkerhetscenter",
         "date": "2026-04-01",
@@ -135,7 +142,7 @@
     "first_seen": "2026-04-13",
     "last_updated": "2026-05-21",
     "status": "aktiv",
-    "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
+    "next_step": "Det är troligt att de punkter som lyfts fram i det gemensamma uttalandet kommer att operationaliseras genom konkreta projekt och avtal under det kommande året.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -335,7 +342,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -573,7 +580,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Den provisoriska överenskommelsen måste nu formellt godkännas av Europaparlamentet och EU:s råd innan den blir lag.",
+    "next_step": "Det politiska avtalet måste nu formaliseras juridiskt och genomgå den slutliga processen för antagande.",
     "documents": [
       {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",

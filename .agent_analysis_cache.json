@@ -4895,5 +4895,84 @@
     },
     "title": "9th Prague Space Security Conference (PSSI)",
     "cached_at": "2026-05-21"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260520CAN78341": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att ha en diskussion med kommissionären för inre frågor och migration, Magnus Brunner, om medlemsstaternas beredskap inför starten av pakten om migration och asyl. Pakten kommer att börja tillämpas fullt ut den 12 juni efter en övergångsperiod på två år. Diskussionen handlar om hur medlemsstaterna förbereder sig för att genomföra pakten. Det finns inga tydliga tekniska aspekter i denna diskussion.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna diskussion är viktig eftersom den handlar om hur EU:s medlemsstater ska hantera migration och asyl. Det är en komplex fråga som berör många människor och kan ha stor påverkan på samhället. Diskussionen kan leda till förändringar i hur medlemsstaterna hanterar migration och asyl, vilket kan ha konsekvenser för många människor. Tajmingen spelar roll eftersom pakten kommer att börja tillämpas fullt ut den 12 juni.",
+      "eu_koppling": "null",
+      "keywords": [
+        "migration",
+        "asyl",
+        "EU-pakt"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-01",
+          "beskrivning": "LIBE-kommittén har en diskussion med kommissionären för inre frågor och migration"
+        },
+        {
+          "datum": "2026-06-12",
+          "beskrivning": "Pakten om migration och asyl börjar tillämpas fullt ut"
+        }
+      ]
+    },
+    "title": "Highlights - State of Member States’ Preparedness for the Pact on Migration and Asylum - Committee on Civil Liberties, Justice and Home Affairs",
+    "cached_at": "2026-05-21"
+  },
+  "https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Cybersäkerhet",
+      "sammanfattning": "EU:s polisbyrå, Europol, har medverkat i en global insats för att stänga ner en VPN-tjänst som användes av cyberkriminella, inklusive ransomware-aktörer. Tjänsten, kallad 'First VPN', erbjöd anonyma betalningar och dold infrastruktur för att underlätta kriminell verksamhet. Insatsen är en del av en större ansträngning för att bekämpa cyberbrott och skydda medborgare och företag från cyberhot.",
+      "tech_vinkel": "Europol har identifierat och stängt ner en specifik VPN-tjänst som användes av cyberkriminella för att utföra ransomware-attacker och andra former av cyberbrott.",
+      "varfor_viktigt": "Denna insats är viktig eftersom den visar på EU:s förmåga att samarbeta med internationella partners för att bekämpa cyberbrott. Det också visar på vikten av att ha effektiva verktyg och strategier för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster för att dölja sin verksamhet. Detta kan ha en positiv inverkan på medborgarnas och företagens säkerhet i hela EU.",
+      "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+      "keywords": [
+        "Cyberkriminalitet",
+        "VPN",
+        "Ransomware",
+        "Europol"
+      ],
+      "arende": "Cybersäkerhetscenter",
+      "nasta_steg": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
+      "viktiga_datum": [
+        {
+          "datum": "2024-01-01",
+          "beskrivning": "Europol meddelar att insatsen har varit framgångsrik och att flera kriminella nätverk har stängts ner"
+        }
+      ]
+    },
+    "title": "Cybercriminal VPN used by ransomware actors dismantled in global crackdown",
+    "cached_at": "2026-05-21"
+  },
+  "https://data.riksdagen.se/dokument/HD01FiU40.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen behandlar ett förslag om att stärka fondmarknaden. Detta förslag syftar till att förbättra villkoren för fondsparare och öka konkurrensen på marknaden. Förslaget kan påverka fondförvaltare och andra aktörer inom finanssektorn. Det är dock oklart vilka specifika tekniska aspekter som berörs.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Förslaget kan ha betydelse för fondsparare och finanssektorn i stort. En starkare fondmarknad kan leda till ökad tillväxt och fler investeringsmöjligheter. Det är dock viktigt att förslaget utformas på ett sätt som tar hänsyn till alla berörda parter och säkerställer en sund och stabil marknad.",
+      "eu_koppling": "null",
+      "keywords": [
+        "fondmarknad",
+        "finanssektor"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-21",
+          "beskrivning": "Riksdagen behandlar förslaget om att stärka fondmarknaden"
+        }
+      ]
+    },
+    "title": "En starkare fondmarknad",
+    "cached_at": "2026-05-21"
   }
 }
