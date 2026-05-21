@@ -133,9 +133,9 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
-    "next_step": "Det är troligt att de punkter som lyfts fram i det gemensamma uttalandet kommer att operationaliseras genom konkreta projekt och avtal under det kommande året.",
+    "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -360,7 +360,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -481,7 +481,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -569,11 +569,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Det politiska avtalet måste nu formaliseras juridiskt och genomgå den slutliga processen för antagande.",
+    "next_step": "Den provisoriska överenskommelsen måste nu formellt godkännas av Europaparlamentet och EU:s råd innan den blir lag.",
     "documents": [
       {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
@@ -643,7 +643,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -686,7 +686,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,

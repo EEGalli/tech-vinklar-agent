@@ -4826,5 +4826,74 @@
     },
     "title": "Highlights - Strengthening EU Civil Protection and European Critical Infrastructure Resilience - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-05-20"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260520CAN78360": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd kommer att diskutera framstegen i EU:s strategi för den inre marknaden. Diskussionen kommer att fokusera på vad som har uppnåtts hittills, vilka hinder som fortfarande finns och vilka nya utmaningar som har uppstått. Det kan handla om bättre tillämpning av EU-regler och minskning av hinder. Detta är en allmän diskussion och inte en specifik lagstiftningsåtgärd.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna diskussion är viktig eftersom den inre marknaden är en central del av EU:s ekonomi. En fungerande inre marknad kan leda till ökad ekonomisk tillväxt och konkurrenskraft. Det är dock oklart vilka specifika konsekvenser denna diskussion kommer att ha. Det kan påverka företag och konsumenter inom EU, men det är för tidigt att säga exakt hur.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU:s inre marknad",
+        "konsumentskydd"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd kommer att diskutera framstegen i EU:s strategi för den inre marknaden"
+        }
+      ]
+    },
+    "title": "Highlights - Breaking Down Barriers: One Year of the EU Single Market Strategy - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-05-21"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/slovenija-krepi-svojo-vlogo-v-evropskem-startup-inovacijskem-prostoru": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Dokumentet handlar om Sloveniens roll i det europeiska startup- och innovationsutrymmet. Det nämns att Slovenien stärker sin position i detta område. Dokumentet är dock skrivet på slovenska och innehållet är inte tydligt. Det verkar vara en allmän presentation av Sloveniens engagemang i europeiska startup- och innovationsinitiativ.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det är viktigt att följa utvecklingen inom europeiska startup- och innovationsinitiativ eftersom det kan ha en betydande inverkan på den europeiska ekonomin och innovationen. Det kan också påverka hur länder som Slovenien positionerar sig inom detta område.",
+      "eu_koppling": null,
+      "keywords": [
+        "europeiska startup",
+        "innovationsutrymme",
+        "Slovenien"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Slovenija krepi svojo vlogo v evropskem startup in inovacijskem prostoru",
+    "cached_at": "2026-05-21"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/9th-prague-space-security-conference-pssi": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) anordnar den 9:e Prague Space Security Conference (PSSI). Konferensen fokuserar på rymdsäkerhet och relaterade frågor. Detaljer om specifika förslag eller beslut som diskuteras under konferensen är inte tillgängliga. Konferensen är en del av EUSPAs insatser för att främja rymdsäkerhet och samarbete inom området.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Rymdsäkerhet är en viktig fråga för EU och dess medlemsstater, eftersom den påverkar säkerheten för satelliter och andra rymdfarkoster. Konferensen kan bidra till att främja samarbete och utbyte av information mellan länder och organisationer inom området. Det kan också leda till nya initiativ och förslag för att förbättra rymdsäkerheten.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdsäkerhet",
+        "EUSPA",
+        "PSSI"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-18",
+          "beskrivning": "9:e Prague Space Security Conference (PSSI) äger rum"
+        }
+      ]
+    },
+    "title": "9th Prague Space Security Conference (PSSI)",
+    "cached_at": "2026-05-21"
   }
 }
