@@ -99,13 +99,6 @@
         "tech_vinkel": "Motionen lyfter fram behovet av ytterligare analyser i samband med lagändringar som syftar till att stärka det nationella cybersäkerhetscentret, vilket direkt relaterar till tekniska aspekter av cybersäkerhet och incidenthantering."
       },
       {
-        "title": "Hands-on Interactive Exercise- ECSF Workshop 2025",
-        "date": "Fri, 30 Ja",
-        "url": "https://www.enisa.europa.eu/events/european-cybersecurity-skills-workshop/ECSF2025/insights",
-        "source": "ENISA",
-        "tech_vinkel": "Workshopen demonstrerar hur EU-finansierade projekt bidrar till att implementera den europeiska cybersäkerhetskompetensramverket (ECSF), vilket är ett ramverk för att standardisera och förbättra cybersäkerhetskompetens inom EU."
-      },
-      {
         "title": "What are the specific conditions for contractors to join the Reserve?",
         "date": "Thu, 20 No",
         "url": "https://www.enisa.europa.eu/what-are-the-specific-conditions-for-contractors-to-join-the-reserve",
@@ -537,20 +530,6 @@
         "tech_vinkel": "Dokumentet fokuserar på att stärka EU:s cybersäkerhetsposition genom strategiskt stöd för internationellt samarbete, vilket implicerar behovet av att harmonisera tekniska standarder och utbyta information om cyberhot mellan länder."
       },
       {
-        "title": "ECSF Workshop 2025",
-        "date": "Mon, 24 No",
-        "url": "https://www.enisa.europa.eu/events/european-cybersecurity-skills-workshop/ECSF2025",
-        "source": "ENISA",
-        "tech_vinkel": "Workshopen behandlar cybersäkerhetskompetens, vilket direkt relaterar till behovet av att utbilda personal inom områden som molnsäkerhet, incidenthantering och skydd mot avancerade cyberhot, vilket är avgörande för att hantera moderna IT-system och digitala infrastrukturer."
-      },
-      {
-        "title": "Combating fraud in telecom: BEREC to host a workshop on 21 May 2026",
-        "date": "Thu, 07 Ma",
-        "url": "https://www.berec.europa.eu/en/news/latest-news/combating-fraud-in-telecom-berec-to-host-a-workshop-on-21-may-2026",
-        "source": "BEREC",
-        "tech_vinkel": "Workshopen kommer att behandla bedrägerier som sker via elektronisk kommunikation, vilket inkluderar tekniker som spoofing av telefonnummer och phishing via SMS, vilket är direkt relaterat till säkerheten för digitala kommunikationssystem."
-      },
-      {
         "title": "How does ENISA cooperate with users of the EU Cybersecurity Reserve? Who decides which entity should benefit from services provided by the Reserve?",
         "date": "Thu, 20 No",
         "url": "https://www.enisa.europa.eu/how-does-enisa-cooperate-with-users-of-the-eu-cybersecurity-reserve-who-decides-which-entity-should-benefit-from-services-provided-by-the-reserve",
@@ -558,18 +537,18 @@
         "tech_vinkel": "Dokumentet handlar specifikt om EU:s cybersäkerhetsreserv, en resurs som används för att ge tekniskt stöd och resurser till medlemsländerna vid cyberattacker och andra säkerhetsincidenter, vilket är en direkt koppling till digital infrastruktur och cybersäkerhetsteknik."
       },
       {
-        "title": "BEREC external workshop on combating fraud",
-        "date": "Thu, 23 Ap",
-        "url": "https://www.berec.europa.eu/en/events/berec-external-workshop-on-combating-fraud",
-        "source": "BEREC",
-        "tech_vinkel": "Workshopen fokuserar på att bekämpa bedrägerier online, vilket implicerar en diskussion om tekniker och metoder för att upptäcka, förhindra och reagera på digitalt bedrägeri, inklusive potentiella användningar av AI för att identifiera och stoppa bedrägerier."
-      },
-      {
         "title": "National Cybersecurity Assessment Framework (NCAF) Tool",
         "date": "Tue, 10 Fe",
         "url": "https://www.enisa.europa.eu/topics/national-cyber-security-strategies/ncaf",
         "source": "ENISA",
         "tech_vinkel": "Verktyget NCAF 2.0 använder en strukturerad metodologi för att utvärdera cybersäkerhetsförmågor, vilket innebär att det använder digitala verktyg och dataanalys för att bedöma och mäta olika aspekter av cybersäkerhet."
+      },
+      {
+        "title": "Highlights - Strengthening EU Civil Protection and European Critical Infrastructure Resilience - Committee on Civil Liberties, Justice and Home Affairs",
+        "date": "Wed, 20 Ma",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260520CAN78340",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Diskussionen kommer att fokusera på hur digital infrastruktur, som är en viktig del av kritisk infrastruktur, kan göras mer motståndskraftig mot cyberattacker och andra hot, vilket antyder en koppling till cybersäkerhetsåtgärder och potentiellt även till implementeringen av NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)."
       }
     ]
   },
@@ -580,8 +559,15 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Det politiska avtalet måste nu formaliseras juridiskt och genomgå den slutliga processen för antagande.",
+    "next_step": "Katrin Westling Palm kommer att börja sitt arbete med att kartlägga befintliga initiativ och identifiera områden där ytterligare satsningar behövs.",
     "documents": [
+      {
+        "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
+        "date": "2026-05-21",
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/05/regeringen-utser-nationell-samordnare-for-svenska-sprakmodeller/",
+        "source": "Regeringen",
+        "tech_vinkel": "Regeringen tillsätter en nationell samordnare specifikt för svenska språkmodeller, vilket innebär en satsning på utveckling och anpassning av en specifik typ av AI-teknik för den svenska marknaden."
+      },
       {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
@@ -816,5 +802,23 @@
     ],
     "is_new_today": false,
     "is_updated_today": true
+  },
+  "Kartläggning av sociala mediers algoritmer": {
+    "name": "Kartläggning av sociala mediers algoritmer",
+    "first_seen": "2026-05-22",
+    "last_updated": "2026-05-22",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Mediemyndigheten kommer att genomföra kartläggningen och analysen av sociala medieplattformars algoritmer och lämna en rapport om sina resultat.",
+    "documents": [
+      {
+        "title": "Uppdrag att kartlägga hur algoritmer i sociala medier styr innehåll till barn och unga",
+        "date": "2026-05-22",
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/05/uppdrag-att-kartlagga-hur-algoritmer-i-sociala-medier-styr-innehall-till-barn-och-unga/",
+        "source": "Regeringen",
+        "tech_vinkel": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer, vilket är en specifik teknikfråga."
+      }
+    ]
   }
 }

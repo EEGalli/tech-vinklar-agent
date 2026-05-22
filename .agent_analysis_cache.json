@@ -1476,62 +1476,6 @@
     "title": "International Cooperation",
     "cached_at": "2026-04-23"
   },
-  "https://www.enisa.europa.eu/events/european-cybersecurity-skills-workshop/ECSF2025/insights": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Cybersäkerhet",
-      "sammanfattning": "ENISA, EU:s cybersäkerhetsbyrå, har genomfört en workshop (ECSF Workshop 2025) med en interaktiv övning. Syftet var att visa hur EU-finansierade projekt och initiativ bidrar till att minska bristen på cybersäkerhetskompetens. Workshopen fokuserade på att anpassa sig till den europeiska cybersäkerhetskompetensramverket (ECSF). Deltagarna fick praktisk erfarenhet av hur dessa projekt fungerar.",
-      "tech_vinkel": "Workshopen demonstrerar hur EU-finansierade projekt bidrar till att implementera den europeiska cybersäkerhetskompetensramverket (ECSF), vilket är ett ramverk för att standardisera och förbättra cybersäkerhetskompetens inom EU.",
-      "varfor_viktigt": "Bristen på cybersäkerhetsexpertis är ett växande problem för EU, och denna workshop är ett konkret steg för att åtgärda detta. Genom att visa hur EU-finansierade projekt kan bidra till att fylla kompetensgapet, kan man accelerera utvecklingen av en mer säker digital miljö. Detta är särskilt viktigt med tanke på den ökande frekvensen och komplexiteten av cyberattacker.",
-      "eu_koppling": "Den europeiska cybersäkerhetskompetensramverket (ECSF) är en del av EU:s bredare strategi för att stärka cybersäkerheten och digitala färdigheter.",
-      "keywords": [
-        "cybersäkerhet",
-        "kompetens",
-        "EU",
-        "ENISA",
-        "ECSF",
-        "workshop",
-        "utbildning"
-      ],
-      "arende": "Cybersäkerhetscenter",
-      "nasta_steg": "ENISA kommer sannolikt att fortsätta att stödja och utvärdera liknande initiativ för att förbättra cybersäkerhetskompetensen i Europa.",
-      "viktiga_datum": [
-        {
-          "datum": "2025-00-00",
-          "beskrivning": "ECSF Workshop 2025 genomfördes."
-        }
-      ]
-    },
-    "title": "Hands-on Interactive Exercise- ECSF Workshop 2025",
-    "cached_at": "2026-04-23"
-  },
-  "https://www.enisa.europa.eu/events/european-cybersecurity-skills-workshop/ECSF2025": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Cybersäkerhet",
-      "sammanfattning": "ENISA, EU:s cybersäkerhetsbyrå, har anordnat en workshop, ECSF Workshop 2025, som fokuserar på cybersäkerhetskompetens. Workshopen inkluderar presentationer, interaktiva övningar och en video med deltagares vittnesmål. Syftet är att främja och utveckla kompetens inom cybersäkerhet i Europa. Material från workshopen, inklusive agenda och presentationer, är tillgängliga online.",
-      "tech_vinkel": "Workshopen behandlar cybersäkerhetskompetens, vilket direkt relaterar till behovet av att utbilda personal inom områden som molnsäkerhet, incidenthantering och skydd mot avancerade cyberhot, vilket är avgörande för att hantera moderna IT-system och digitala infrastrukturer.",
-      "varfor_viktigt": "Bristen på cybersäkerhetsexpertis är ett växande problem i Europa, vilket gör länder sårbara för cyberattacker. Workshopen bidrar till att öka kompetensen och därmed minska risken för allvarliga cyberincidenter som kan påverka kritisk infrastruktur och företag. Genom att dela kunskap och bästa praxis kan EU stärka sin kollektiva cybersäkerhet.",
-      "eu_koppling": "ENISA är ett EU-organ som har mandat att stödja medlemsstaterna i arbetet med cybersäkerhet och bidrar till implementeringen av NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet).",
-      "keywords": [
-        "cybersäkerhet",
-        "kompetens",
-        "ENISA",
-        "workshop",
-        "NIS2"
-      ],
-      "arende": "NIS2-implementering",
-      "nasta_steg": "ENISA kommer sannolikt att publicera en rapport baserad på workshopen, med rekommendationer för att ytterligare förbättra cybersäkerhetskompetensen i Europa.",
-      "viktiga_datum": [
-        {
-          "datum": "2025-11-24",
-          "beskrivning": "ECSF Workshop 2025 genomfördes."
-        }
-      ]
-    },
-    "title": "ECSF Workshop 2025",
-    "cached_at": "2026-04-23"
-  },
   "https://www.enisa.europa.eu/what-are-the-specific-conditions-for-contractors-to-join-the-reserve": {
     "analysis": {
       "relevans": "hög",
@@ -2644,146 +2588,6 @@
     "title": "Report on the use of SPE external experts in 2025",
     "cached_at": "2026-05-08"
   },
-  "https://www.berec.europa.eu/en/composition-of-the-management-board-pursuant-to-article-15-and-352-of-regulation-eu-20181971-1": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "BEREC, EU:s byrå för reglering av elektronisk kommunikation, har beslutat om sammansättningen av sin förvaltningsgrupp. Beslutet baseras på artikel 15 och 35(2) i EU:s förordning 2018/1971, som skapar BEREC och dess stödjande byrå, BEREC Office. Förändringen påverkar vilka personer som kommer att sitta i förvaltningsgruppen och därmed hur BEREC kommer att utföra sina uppgifter. Syftet är att säkerställa en effektiv och oberoende reglering av telekommunikationsmarknaden.",
-      "tech_vinkel": "Dokumentet handlar om sammansättningen av en myndighet som reglerar elektronisk kommunikation, vilket direkt påverkar hur framtida regleringar kring 5G, bredband och andra digitala infrastrukturer kommer att utformas och genomföras.",
-      "varfor_viktigt": "BERECs förvaltningsgrupp spelar en viktig roll i att forma EU:s politik kring digital infrastruktur, vilket påverkar allt från nätneutralitet till tillgång till snabbare internet. En förändrad sammansättning kan leda till nya prioriteringar och strategier för hur dessa frågor hanteras, vilket i sin tur påverkar både telekombolag och konsumenter. Tajmingen är viktig eftersom EU nu står inför utmaningar som att utöka 5G-nät och bygga ut bredband i landsbygdsområden.",
-      "eu_koppling": "Regulation (EU) 2018/1971, som skapar BEREC och dess stödjande byrå, BEREC Office, och definierar dess uppgifter och sammansättning.",
-      "keywords": [
-        "BEREC",
-        "telekommunikation",
-        "digital infrastruktur",
-        "förordning",
-        "förvaltningsgrupp"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "Den nya förvaltningsgruppen kommer att börja utföra sina uppgifter och påverka BERECs framtida arbete.",
-      "viktiga_datum": [
-        {
-          "datum": "2018-12-11",
-          "beskrivning": "EU:s förordning 2018/1971 trädde i kraft, vilket skapade BEREC."
-        }
-      ]
-    },
-    "title": "Composition of the Management Board pursuant to Article 15 and 35(2) of Regulation (EU) 2018/1971 [1]",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.berec.europa.eu/en/board-of-regulators/composition-of-the-board-of-regulators-pursuant-to-article-7-and-352-of-regulation-eu-20181971-1": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "BEREC, EU:s byrå för reglering av elektronisk kommunikation, har publicerat information om sammansättningen av dess styrelse. Dokumentet handlar specifikt om hur styrelsen ska utses enligt artikel 7 och 35(2) i förordning (EU) 2018/1971. Förordningen fastställer BEREC:s uppdrag och struktur, och styrelsen är en central del av byråns beslutsfattande. Syftet är att säkerställa att BEREC har en kompetent och oberoende styrelse för att reglera telekommunikationsmarknaden.",
-      "tech_vinkel": "Dokumentet rör sammansättningen av styrelsen för BEREC, vilket är relevant eftersom BEREC har ansvaret för att tillämpa regler som påverkar den digitala infrastrukturen, inklusive 5G-nätverk, bredband och andra viktiga teknologier.",
-      "varfor_viktigt": "En välkomponerad BEREC-styrelse är avgörande för att säkerställa en rättvis och konkurrenskraftig telekommunikationsmarknad i EU. Det påverkar direkt hur snabbt och effektivt nya teknologier kan implementeras och hur konsumenter skyddas. En korrekt sammansättning säkerställer att byrån kan fatta välgrundade beslut om nätneutralitet, frekvensallokering och andra viktiga frågor.",
-      "eu_koppling": "Förordning (EU) 2018/1971, som fastställer BEREC:s uppdrag och struktur. Denna förordning är grunden för BEREC:s befogenheter och ansvar inom EU:s telekommunikationspolitik.",
-      "keywords": [
-        "BEREC",
-        "telekommunikation",
-        "förordning",
-        "elektronisk kommunikation",
-        "digital infrastruktur"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "Det är oklart från dokumentet, men nästa steg skulle sannolikt innebära att de nominerade styrelsemedlemmarna utses och bekräftas.",
-      "viktiga_datum": [
-        {
-          "datum": "2018-12-11",
-          "beskrivning": "Förordning (EU) 2018/1971 trädde i kraft."
-        }
-      ]
-    },
-    "title": "Composition of the Board of Regulators pursuant to Article 7 and 35(2) of Regulation (EU) 2018/1971 [1]",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.berec.europa.eu/en/news/latest-news/combating-fraud-in-telecom-berec-to-host-a-workshop-on-21-may-2026": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Cybersäkerhet",
-      "sammanfattning": "BEREC, EU:s byrå för telekom-reglering, kommer att hålla en workshop online den 21 maj 2026. Syftet är att diskutera hur man kan bekämpa bedrägerier inom elektronisk kommunikation. Workshopen är en del av ett pågående samarbete med partners runt om i världen och ska ge telekom-reglerare en möjlighet att utbyta erfarenheter. Fokus ligger på att identifiera och motverka bedrägerier som sker via telefon, SMS och internet.",
-      "tech_vinkel": "Workshopen kommer att behandla bedrägerier som sker via elektronisk kommunikation, vilket inkluderar tekniker som spoofing av telefonnummer och phishing via SMS, vilket är direkt relaterat till säkerheten för digitala kommunikationssystem.",
-      "varfor_viktigt": "Bedrägerier inom telekom orsakar stora ekonomiska förluster för både konsumenter och företag. Genom att dela kunskap och strategier kan BEREC:s medlemmar bidra till att minska dessa förluster och öka tryggheten i digitala kommunikationer. Workshopen kan leda till nya rekommendationer och åtgärder för att skydda konsumenter och företag mot bedrägerier.",
-      "eu_koppling": "Workshopen syftar till att harmonisera metoder för att bekämpa bedrägerier inom EU:s telekommunikationsmarknad, vilket är relevant i förhållande till EU:s bredare cybersäkerhetsstrategi och potentiellt NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet).",
-      "keywords": [
-        "telekom",
-        "bedrägerier",
-        "cybersäkerhet",
-        "BEREC",
-        "workshop"
-      ],
-      "arende": "NIS2-implementering",
-      "nasta_steg": "BEREC kommer sannolikt att publicera en rapport med slutsatser och rekommendationer baserat på workshopen.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-21",
-          "beskrivning": "BEREC håller online-workshop om bedrägerier i telekom."
-        }
-      ]
-    },
-    "title": "Combating fraud in telecom: BEREC to host a workshop on 21 May 2026",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.berec.europa.eu/en/events/berec-external-workshop-on-combating-fraud": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Cybersäkerhet",
-      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, anordnar en workshop om hur man bekämpar bedrägerier online. Workshopen är öppen för anmälan fram till den 20 maj 2026 och kommer att hållas online den 21 maj. Syftet är att samla experter och intressenter för att diskutera och dela bästa praxis för att motverka bedrägerier som sker via telekommunikationsnätverk och digitala tjänster. Deltagarna kommer att bidra till att identifiera nya strategier och verktyg för att skydda konsumenter och företag.",
-      "tech_vinkel": "Workshopen fokuserar på att bekämpa bedrägerier online, vilket implicerar en diskussion om tekniker och metoder för att upptäcka, förhindra och reagera på digitalt bedrägeri, inklusive potentiella användningar av AI för att identifiera och stoppa bedrägerier.",
-      "varfor_viktigt": "Bedrägerier online orsakar stora ekonomiska förluster och skadar förtroendet för digitala tjänster. Workshopen kan leda till förbättrade metoder för att skydda konsumenter och företag från bedrägerier, vilket i sin tur kan stärka den digitala ekonomin. Genom att dela kunskap och erfarenheter kan BEREC bidra till att skapa en säkrare online-miljö.",
-      "eu_koppling": "Workshopen är relevant för NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet) eftersom bedrägeribekämpning är en viktig del av att säkerställa en hög säkerhetsnivå för digitala tjänster och infrastruktur.",
-      "keywords": [
-        "BEREC",
-        "bedrägerier",
-        "cybersäkerhet",
-        "telekommunikation",
-        "digitala tjänster",
-        "workshop"
-      ],
-      "arende": "NIS2-implementering",
-      "nasta_steg": "Deltagarna i workshopen kommer att bidra till att formulera rekommendationer och strategier för att bekämpa bedrägerier online.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-20",
-          "beskrivning": "Sista anmälningsdag för workshopen"
-        },
-        {
-          "datum": "2026-05-21",
-          "beskrivning": "Workshopen hålls"
-        }
-      ]
-    },
-    "title": "BEREC external workshop on combating fraud",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.berec.europa.eu/en/events/berec-external-workshop-on-accessibility-of-electronic-communications-services": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, anordnar en workshop om tillgänglighet för elektroniska kommunikationstjänster. Workshopen är öppen för deltagande både på plats i Bryssel och online. Intresserade kan anmäla sig via en privat anmälningsformulär fram till den 2 juni 2026. Syftet är att diskutera hur man kan göra telekommunikationstjänster mer tillgängliga för personer med funktionsnedsättningar.",
-      "tech_vinkel": "Workshopen fokuserar på tillgänglighet för elektroniska kommunikationstjänster, vilket implicerar diskussioner kring tekniska lösningar och standarder för att säkerställa att dessa tjänster är användbara för personer med funktionsnedsättningar, inklusive till exempel textalternativ, talstyrning och kompatibilitet med hjälpmedel.",
-      "varfor_viktigt": "En ökad tillgänglighet för elektroniska kommunikationstjänster är avgörande för att säkerställa digital inkludering och likvärdighet för alla medborgare. Det påverkar både telekomoperatörer som måste anpassa sina tjänster och användare med funktionsnedsättningar som får förbättrad tillgång till information och kommunikation. Workshopen kan leda till nya riktlinjer och standarder som påverkar hur telekommunikationstjänster utvecklas och erbjuds.",
-      "eu_koppling": "Workshopen är relevant i förhållande till EU:s tillgänglighetsdirektiv (European Accessibility Act), som kräver att produkter och tjänster, inklusive elektroniska kommunikationstjänster, är tillgängliga för personer med funktionsnedsättningar.",
-      "keywords": [
-        "tillgänglighet",
-        "telekommunikation",
-        "digital inkludering",
-        "BEREC",
-        "EU"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "Resultaten från workshopen kommer sannolikt att informera BERECs framtida rekommendationer och bidra till implementeringen av EU:s tillgänglighetsdirektiv.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-02",
-          "beskrivning": "Sista anmälningsdag för workshopen."
-        }
-      ]
-    },
-    "title": "BEREC external workshop on accessibility of electronic communications services",
-    "cached_at": "2026-05-08"
-  },
   "https://www.berec.europa.eu/en/public-consultations-calls-for-inputs/call-for-input-on-the-possible-amendment-of-the-berec-roaming-benchmark-data-collection-procedure": {
     "analysis": {
       "relevans": "medel",
@@ -2867,32 +2671,6 @@
     "title": "Shaping Europe’s next digital chapter",
     "cached_at": "2026-05-08"
   },
-  "https://www.berec.europa.eu/en/events/contact-network-new-member": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, har publicerat information om en ny medlem i deras Contact Network. Det handlar om en ansökningsformulär för en organisation som vill bli medlem i nätverket. Formuläret samlar in kontaktuppgifter och information om organisationen, samt information om eventuella traineeship-program. Syftet är att utöka nätverket med nya aktörer inom telekommunikationsområdet.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel.",
-      "varfor_viktigt": "Eftersom BEREC spelar en viktig roll i att reglera och främja digital infrastruktur i EU, kan utökningen av deras Contact Network påverka hur nya teknologier och tjänster implementeras och regleras. Nätverket kan bidra till att säkerställa att telekommunikationsmarknaden fungerar effektivt och rättvist. Dock är detta en administrativ process och har ingen direkt påverkan på befintlig lagstiftning.",
-      "eu_koppling": null,
-      "keywords": [
-        "BEREC",
-        "Contact Network",
-        "telekommunikation",
-        "digital infrastruktur"
-      ],
-      "arende": null,
-      "nasta_steg": "BEREC kommer att granska ansökan och fatta beslut om medlemskap i Contact Network.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-01-01",
-          "beskrivning": "Startdatum för eventuellt traineeship."
-        }
-      ]
-    },
-    "title": "Contact Network new member",
-    "cached_at": "2026-05-08"
-  },
   "https://www.berec.europa.eu/en/news/press-releases/berec-opens-public-consultation-on-its-work-programme-2027": {
     "analysis": {
       "relevans": "medel",
@@ -2947,32 +2725,6 @@
     "title": "Joint Committee annual report highlights digitalisation, cyber resilience and sustainable finance as key priorities of 2025",
     "cached_at": "2026-05-08"
   },
-  "https://www.euspa.europa.eu/newsroom-events/events/uaces-56th-annual-conference": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat information om UACES:s 56:e årliga konferens. Konferensen är en vetenskaplig sammankomst som fokuserar på rymdteknik och dess tillämpningar. Den samlar forskare och experter från hela världen för att diskutera de senaste framstegen inom området. Syftet är att främja samarbete och utbyte av kunskap inom rymdteknik.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel.",
-      "varfor_viktigt": "Konferensen kan bidra till utvecklingen av rymdteknik, vilket i sin tur kan ha indirekta effekter på andra sektorer som telekommunikation och navigation. Dock saknas det konkreta tekniska förslag eller beslut i detta dokument som gör det tech-relevant enligt de angivna kriterierna. Det är en vetenskaplig konferens, inte ett lagstiftningsärende eller en satsning.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdteknik",
-        "konferens",
-        "EUSPA",
-        "UACES"
-      ],
-      "arende": null,
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-04",
-          "beskrivning": "UACES 56:e årliga konferens publicerades"
-        }
-      ]
-    },
-    "title": "UACES 56th Annual Conference",
-    "cached_at": "2026-05-08"
-  },
   "https://www.euspa.europa.eu/newsroom-events/news/how-eu-space-supports-active-ageing": {
     "analysis": {
       "relevans": "medel",
@@ -2994,33 +2746,6 @@
       "viktiga_datum": []
     },
     "title": "How EU Space supports active ageing",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.euspa.europa.eu/node/9685": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) söker en Senior Space Systems Architect. Tjänsten innebär att designa och leda utvecklingen av rymdsystem, med fokus på arkitektur och integration. Personen kommer att arbeta med komplexa system och teknologier inom rymdsegmentet. Rollen är viktig för att säkerställa framtida rymdmissioners framgång och säkerhet.",
-      "tech_vinkel": "Annonsen efterfrågar expertis inom rymdsystemarkitektur, vilket inkluderar design och integration av komplexa mjukvaru- och hårdvarusystem, vilket är en viktig aspekt av digital infrastruktur.",
-      "varfor_viktigt": "Denna rekrytering är viktig för att säkerställa att EUSPA kan fortsätta att utveckla och underhålla rymdbaserad infrastruktur, vilket är avgörande för tjänster som satellitnavigering (t.ex. Galileo) och jordobservation. En kompetent rymdsystemarkitekt bidrar till att förbättra systemens prestanda, säkerhet och tillförlitlighet, vilket i sin tur påverkar många samhällssektorer som transport, jordbruk och räddningstjänst.",
-      "eu_koppling": "Galileo är EU:s satellitnavigationssystem, vilket gör att detta direkt relaterar till EU:s satsning på oberoende digital infrastruktur.",
-      "keywords": [
-        "rymd",
-        "systemarkitektur",
-        "satellit",
-        "digital infrastruktur",
-        "EUSPA"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "Ansökningsprocessen kommer att fortsätta med intervjuer och urval av kandidater.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-30",
-          "beskrivning": "Annonsen publicerades"
-        }
-      ]
-    },
-    "title": "Senior Space Systems Architect",
     "cached_at": "2026-05-08"
   },
   "https://www.euspa.europa.eu/pressroom/in-the-news/eu-steps-space-security-congestion-and-interference-rise": {
@@ -3051,50 +2776,6 @@
     "title": "EU steps up space security as congestion and interference rise",
     "cached_at": "2026-05-08"
   },
-  "https://www.euspa.europa.eu/publications-multimedia/resources/euspa-brochure": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "EUSPA, Europeiska rymdbyrån, har publicerat en broschyr som beskriver deras arbete med Galileo, EUs satellitnavigationssystem, och Copernicus, EUs jordobservationsprogram. Broschyren förklarar hur dessa system tillhandahåller tjänster som positionering, tidssynkronisering och miljöövervakning. Den riktar sig till allmänheten och intressenter för att öka medvetenheten om EUs rymdprogram och deras bidrag till samhället. Broschyren lyfter fram hur dessa system möjliggör nya applikationer inom transport, jordbruk och räddningstjänst.",
-      "tech_vinkel": "Broschyren beskriver hur Galileo och Copernicus använder avancerad satellitteknik, inklusive atomklockor och högupplösta sensorer, för att leverera sina tjänster, vilket är en specifik teknisk detalj.",
-      "varfor_viktigt": "Galileo och Copernicus är avgörande för EUs strategiska självständighet inom positionering och jordobservation, vilket minskar beroendet av icke-europeiska system. Dessa system möjliggör mer exakta navigationssystem för transport och logistik, vilket kan förbättra effektiviteten och säkerheten. Dessutom är data från Copernicus-satelliterna viktiga för att övervaka klimatförändringar och naturkatastrofer, vilket underlättar anpassningsåtgärder och katastrofhantering.",
-      "eu_koppling": "Galileo är ett EU-initiativ som regleras av EUs rymdprogram, och Copernicus är en del av EUs miljöpolitik. Båda programmen är en del av EUs bredare strategi för digital infrastruktur.",
-      "keywords": [
-        "Galileo",
-        "Copernicus",
-        "satellitnavigation",
-        "jordobservation",
-        "rymdprogram"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "EUSPA kommer sannolikt att fortsätta att uppdatera och förbättra Galileo- och Copernicus-systemen baserat på användarfeedback och tekniska framsteg.",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA brochure",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.euspa.europa.eu/publications-multimedia/resources/eu-space-brochures": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat informationsbroschyrer om EU:s rymdprogram. Broschyrerna beskriver olika aspekter av programmen, inklusive satellitnavigering (Galileo), jordobservation (Copernicus) och rymddata. Syftet är att öka medvetenheten om EU:s rymdprogram och dess fördelar för medborgare och företag.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel.",
-      "varfor_viktigt": "Broschyrerna är främst en informationsinsats och har inga direkta konsekvenser för tech-sektorn. De kan indirekt bidra till ökad efterfrågan på rymddata och satellittjänster, men detta är en långsiktig effekt. Fokus ligger på att öka allmänhetens förståelse för EU:s rymdprogram.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymden",
-        "satelliter",
-        "Galileo",
-        "Copernicus",
-        "EUSPA"
-      ],
-      "arende": null,
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EU Space Brochures",
-    "cached_at": "2026-05-08"
-  },
   "https://www.euspa.europa.eu/newsroom-events/events/day-one-needfirstio": {
     "analysis": {
       "relevans": "medel",
@@ -3120,55 +2801,6 @@
       ]
     },
     "title": "DAY ONE - NeedFirst.io",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.euspa.europa.eu/publications-multimedia/resources/euspa-rollup-prints": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat 'Rollup Prints', vilket är en sammanfattning av byrån verksamhet. Dokumentet beskriver EUSPAs roll i att tillhandahålla rymdbaserade tjänster, inklusive satellitnavigering (Galileo) och säker kommunikation. Det lyfter fram framsteg inom dessa områden och framtida planer för att förbättra rymdtjänsternas tillförlitlighet och säkerhet. Dokumentet riktar sig till intressenter inom rymdindustrin och allmänheten.",
-      "tech_vinkel": "Dokumentet beskriver EUSPAs arbete med att utveckla och underhålla Galileo, ett satellitnavigationssystem som kräver avancerad signalbehandling och krypteringsteknik för att säkerställa positionsnoggrannhet och säkerhet.",
-      "varfor_viktigt": "EUSPAs rymdbaserade tjänster är avgörande för en rad applikationer, från transport och jordbruk till räddningsinsatser och vetenskaplig forskning. Förbättringar i Galileo-systemet kommer att öka precisionen och tillförlitligheten för dessa tjänster, vilket påverkar många sektorer. Säkerheten i satellitkommunikation är också viktig för att skydda kritisk infrastruktur och nationell säkerhet.",
-      "eu_koppling": "Galileo är ett EU-initiativ som syftar till att skapa ett oberoende europeiskt satellitnavigationssystem, vilket är en del av EU:s strategi för digital infrastruktur och oberoende.",
-      "keywords": [
-        "EUSPA",
-        "Galileo",
-        "satellitnavigering",
-        "rymd",
-        "digital infrastruktur"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "EUSPA kommer sannolikt att fortsätta att uppdatera och förbättra Galileo-systemet baserat på feedback och tekniska framsteg.",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA Rollup Prints",
-    "cached_at": "2026-05-08"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/events/space-economy-summit-europe": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "Europeiska rymdbyrån anordnar ett summitmöte om rymdekonomin i Europa. Mötet kommer att fokusera på hur rymdteknik och -tjänster kan bidra till ekonomisk tillväxt och innovation. Deltagare inkluderar företag, forskare och politiker inom rymdsektorn. Syftet är att främja samarbete och identifiera nya möjligheter inom rymdrelaterade affärsmodeller och investeringar.",
-      "tech_vinkel": "Summiten kommer sannolikt att diskutera användningen av satellitkommunikation och positioneringsteknik (som Galileo, EU:s satellitnavigationssystem) för att möjliggöra nya digitala tjänster och infrastruktur, vilket är direkt relevant för digital infrastruktur och uppkopplingsmöjligheter.",
-      "varfor_viktigt": "Rymdteknik blir allt viktigare för digitala tjänster, allt från internetuppkoppling i avlägsna områden till precisionsjordbruk och autonoma fordon. Summiten kan leda till nya investeringar och innovationer som accelererar utvecklingen av dessa tekniker och skapar nya jobb inom rymd- och techsektorn. Ett starkt europeiskt bidrag till rymdteknik är också viktigt för EU:s strategiska självständighet.",
-      "eu_koppling": "Galileo (EU:s satellitnavigationssystem) är en central del av EU:s digitala strategi och bidrar till att skapa en oberoende och säker digital infrastruktur.",
-      "keywords": [
-        "rymd",
-        "ekonomi",
-        "satellit",
-        "digital",
-        "innovation"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "Summitens resultat kommer troligen att informera framtida rymdrelaterade policyer och investeringsbeslut på EU-nivå.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-27",
-          "beskrivning": "Space Economy Summit Europe genomförs"
-        }
-      ]
-    },
-    "title": "Space Economy Summit Europe",
     "cached_at": "2026-05-08"
   },
   "https://www.euspa.europa.eu/publications-multimedia/resources/galileo-sites-and-ground-stations": {
@@ -4058,27 +3690,6 @@
     "title": "European Skills & VET Week 2026: your voice matters",
     "cached_at": "2026-05-12"
   },
-  "https://www.euspa.europa.eu/newsroom-events/webinars/sunshine-technical-webinar": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har anordnat ett webbinarium med titeln SUNSHINE. Webbinariet är tekniskt inriktat och syftar till att presentera och diskutera detaljer kring ett specifikt projekt eller system. Det är en presentation för tekniska experter och intressenter inom rymdindustrin. Syftet är att dela kunskap och främja samarbete inom området.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel — släng",
-      "varfor_viktigt": "Ett webbinarium i sig har sällan direkta konsekvenser för allmänheten eller specifika branscher. Det kan dock vara en indikator på pågående utveckling inom rymdteknik, men utan mer information är det svårt att bedöma dess betydelse. Det är troligt att det är relevant för de som redan är involverade i EUSPA:s arbete.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymd",
-        "webbinarium",
-        "teknik",
-        "EUSPA"
-      ],
-      "arende": null,
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "SUNSHINE Technical Webinar",
-    "cached_at": "2026-05-12"
-  },
   "https://www.euspa.europa.eu/newsroom-events/events/sunshine-4th-training-seminar": {
     "analysis": {
       "relevans": "låg",
@@ -4279,31 +3890,6 @@
     "title": "Regulation remains critical for Europe’s transition to full fibre",
     "cached_at": "2026-05-18"
   },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/orbit-water-tap-11th-cassini-hackathon": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar den 11:e CASSINI Hackathon. Evenemanget syftar till att främja innovation och utveckling inom rymdteknik och relaterade områden. Hackathon är en mötesplats för entreprenörer, utvecklare och innovatörer för att skapa nya lösningar och produkter med hjälp av rymdteknik. Evenemanget kan bidra till att stimulera nya idéer och samarbeten inom tech-sektorn.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Evenemanget kan bidra till att främja innovation och utveckling inom rymdteknik och relaterade områden. Det kan också skapa nya möjligheter för entreprenörer och utvecklare att skapa nya produkter och tjänster. Dessutom kan evenemanget bidra till att öka medvetenheten om rymdteknikens potential och dess möjliga tillämpningar.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdteknik",
-        "innovation",
-        "hackathon"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-13",
-          "beskrivning": "Evenemanget äger rum"
-        }
-      ]
-    },
-    "title": "From Orbit to the Water Tap: 11th CASSINI Hackathon",
-    "cached_at": "2026-05-18"
-  },
   "https://www.euspa.europa.eu/pressroom/in-the-news/space-asset-protection-must-become-eu-strategic-priority": {
     "analysis": {
       "relevans": "låg",
@@ -4396,26 +3982,6 @@
       "viktiga_datum": []
     },
     "title": "BEREC Chair highlights importance of regional cooperation on digital regulation at Global Symposium for Regulators",
-    "cached_at": "2026-05-18"
-  },
-  "https://www.cedefop.europa.eu/en/newsletters/cedefop-newsletter-no-162": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Cedefop, en EU-byrå för yrkesutbildning, har publicerat sin nyhetsbrev nr 162. Nyhetsbrevet innehåller information om olika ämnen relaterade till yrkesutbildning och utveckling inom EU. Det finns ingen tydlig koppling till specifika tech-ärenden. Nyhetsbrevet verkar vara en samling av nyheter och uppdateringar från Cedefop.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta nyhetsbrev kan vara viktigt för dem som är intresserade av yrkesutbildning och utveckling inom EU. Det kan ge insikt i de senaste trenderna och utvecklingen inom området. Men det finns ingen tydlig koppling till specifika tech-ärenden.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Cedefop",
-        "yrkesutbildning",
-        "EU"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Cedefop newsletter no 162",
     "cached_at": "2026-05-18"
   },
   "https://www.euspa.europa.eu/pressroom/in-the-news/i-leykosia-ginetai-kombos-tis-eyropaikis-diastimikis-politikis": {
@@ -4618,26 +4184,6 @@
       ]
     },
     "title": "Meeting Data Protection Working Group, Council",
-    "cached_at": "2026-05-20"
-  },
-  "https://www.euspa.europa.eu/node/9706": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) erbjuder traineeplatser. Detta är en möjlighet för studenter och unga professionella att få erfarenhet av att arbeta inom rymdsektorn. Traineeplatserna är en del av EUSPAs utbildnings- och utvecklingsprogram. Detta program syftar till att ge deltagarna en djupare förståelse för rymdsektorn och dess tillämpningar.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta program kan vara viktigt för att utveckla kompetensen och kunskapen inom rymdsektorn. Det kan också bidra till att öka medvetenheten om rymdsektorns betydelse och potential. Dessutom kan programmet ge deltagarna en möjlighet att nätverka och skapa kontakter inom branschen.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EUSPA",
-        "traineeplatser",
-        "rymdsektor"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA Traineeships",
     "cached_at": "2026-05-20"
   },
   "https://www.euspa.europa.eu/newsroom-events/events/dublin-stem-women-graduate-careers-event": {
