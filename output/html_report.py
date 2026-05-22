@@ -109,9 +109,16 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
         if d not in by_date:
             by_date[d] = []
         existing_beskrivningar = {i.get("title","") for i in by_date[d]}
+        existing_urls = {i.get("url","") for i in by_date[d] if i.get("url")}
         for e in entries:
             beskrivning = e.get("beskrivning", "")
+            src_url = e.get("url", "")
+            # Dedupera mot allt som redan finns på datumet:
+            # 1. Samma beskrivning (gamla dedup)
+            # 2. Samma URL — synthetic item är en duplicering av källdokumentet
             if beskrivning in existing_beskrivningar:
+                continue
+            if src_url and src_url in existing_urls:
                 continue
             # Hämta sammanfattning + tech-vinkel från källdokumentet
             src_title = e.get("title", "")
