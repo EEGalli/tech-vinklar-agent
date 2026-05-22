@@ -40,6 +40,23 @@ def _is_tech_relevant(text: str) -> bool:
     return any(kw.lower() in text_lower for kw in TECH_KEYWORDS)
 
 
+# Slänga events/jobb/marknadsföring — användaren vill ha policy, inte happenings.
+# Synkad med sources/eu_agencies.py:_EXCLUDE_PATTERNS.
+_EXCLUDE_PATTERNS = (
+    "workshop", "conference", "summit", "webinar", "training session",
+    "save the date", "hackathon", "info session", "info day",
+    "registration is open", "join us", "exhibition",
+    "vacancy", "recruitment", "we are hiring", "traineeship", "internship",
+    "brochure", "leaflet", "rollup", "press kit", "media kit",
+    "newsletter ", "composition of the",
+)
+
+
+def _is_excluded(text: str) -> bool:
+    t = text.lower()
+    return any(p in t for p in _EXCLUDE_PATTERNS)
+
+
 def _normalize_ep_title(title: str) -> str:
     """Tar bort RSS-prefix ('Highlights - ', 'Newsletters - ', 'Latest news - ')
     och kommittéförtydliganden för att jämföra innehåll."""
@@ -86,6 +103,10 @@ def fetch_ep_committee_news() -> list[dict]:
             for cat in item.findall("category"):
                 if cat.get("domain") == "body":
                     committees_in_item.add(cat.text or "")
+
+            # Slänga events/jobb/marknadsföring — vi vill ha policy, inte happenings
+            if _is_excluded(f"{title} {desc}"):
+                continue
 
             committee_match = bool(committees_in_item & TECH_COMMITTEES)
             keyword_match = _is_tech_relevant(f"{title} {desc}")
@@ -195,14 +216,16 @@ def fetch_commission_digital_news() -> list[dict]:
             if not title:
                 continue
 
-            # Grov kategori från URL-segment: /news/, /consultations/, /events/, /funding/
+            # Skippa events/funding helt — vi vill ha beslut/policy, inte happenings
+            if "/events/" in link or "/funding/" in link:
+                continue
+            if _is_excluded(f"{title} {desc}"):
+                continue
+
+            # Grov kategori
             category = "Nyhet"
             if "/consultations/" in link:
                 category = "Konsultation"
-            elif "/events/" in link:
-                category = "Event"
-            elif "/funding/" in link:
-                category = "Finansiering"
 
             # Nästan allt här är tech-relevant, men filtrera bort rena event/funding-poster
             if category in ("Event", "Finansiering"):

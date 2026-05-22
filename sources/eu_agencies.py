@@ -33,6 +33,31 @@ def _is_tech_relevant(text: str) -> bool:
     return any(kw.lower() in text_lower for kw in TECH_KEYWORDS)
 
 
+# Ord som indikerar att posten är ett event/jobb/marknadsföring — slängs alltid,
+# även om titeln har tech-keywords. Vi vill ha policy och beslut, inte happenings.
+_EXCLUDE_PATTERNS = (
+    # Events och konferenser
+    "workshop", "conference", "summit", "webinar", "training session",
+    "save the date", "hackathon", "info session", "info day",
+    "registration is open", "join us", "exhibition", "fair ",
+    # Jobbannonser
+    "vacancy", "recruitment", "we are hiring", "join our team",
+    "applications open", "traineeship", "internship",
+    "officer", "architect", "engineer position",
+    # Marknadsföring/material
+    "brochure", "leaflet", "rollup", "prints", "save the date",
+    "press kit", "media kit",
+    # Övrigt brus
+    "meeting of the management board", "composition of the",
+    "annual report on", "newsletter ",
+)
+
+
+def _is_excluded(text: str) -> bool:
+    t = text.lower()
+    return any(p in t for p in _EXCLUDE_PATTERNS)
+
+
 def fetch_all() -> list[dict]:
     """Hämtar tech-relevanta nyheter från alla EU-byråer med RSS."""
     results = []
@@ -52,6 +77,10 @@ def fetch_all() -> list[dict]:
             pub_date = item.findtext("pubDate", "").strip()
 
             if not title:
+                continue
+
+            # Slänga workshops/events/jobb/marknadsföring även från tech-byråer
+            if _is_excluded(f"{title} {desc}"):
                 continue
 
             # Filtrera bort uppenbart icke-tech (utom för rena cyber/data-byråer)

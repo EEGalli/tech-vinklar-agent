@@ -559,6 +559,33 @@ def analyze_batch(
         "släng",
     ]
 
+    # Central event/jobb/marknadsförings-filter — användaren vill ha policy,
+    # inte happenings. Slänga items där titel/summary matchar exklusivord.
+    EXCLUDE_PATTERNS = (
+        # Events
+        "workshop", "conference", "summit", "webinar", "training session",
+        "save the date", "hackathon", "info session", "info day",
+        "registration is open", "exhibition", "press kit", "media kit",
+        # Jobb
+        "vacancy", "recruitment", "traineeship", "internship",
+        "we are hiring", "join our team", "applications open",
+        # Marknadsföring/admin
+        "brochure", "leaflet", "rollup", "newsletter ",
+        "composition of the management board", "composition of the board",
+        "annual report on the use",
+    )
+
+    def _is_excluded(item: dict) -> bool:
+        text = f"{item.get('title','')} {item.get('summary','')}".lower()
+        return any(p in text for p in EXCLUDE_PATTERNS)
+
+    # Steg 0: släng events/jobb/marknadsföring INNAN cache + AI
+    before = len(items)
+    items = [i for i in items if not _is_excluded(i)]
+    excluded = before - len(items)
+    if excluded:
+        print(f"  ⊘  {excluded} items filtrerade (events/jobb/marknadsföring)")
+
     known_arenden = list(ar.load().keys())
     url_cache = _build_url_cache(max_age_days=30)
 
