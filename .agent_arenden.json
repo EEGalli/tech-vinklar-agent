@@ -559,7 +559,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Katrin Westling Palm kommer att börja sitt arbete med att kartlägga befintliga initiativ och identifiera områden där ytterligare satsningar behövs.",
+    "next_step": "Regeringen kommer att ge den nationella samordnaren i uppdrag att utarbeta en strategi för utvecklingen av svenska språkmodeller.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -808,9 +808,9 @@
     "first_seen": "2026-05-22",
     "last_updated": "2026-05-22",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
-    "next_step": "Mediemyndigheten kommer att genomföra kartläggningen och analysen av sociala medieplattformars algoritmer och lämna en rapport om sina resultat.",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Mediemyndigheten kommer att genomföra kartläggningen och analysen av sociala medieplattformars algoritmer och sedan rapportera tillbaka till regeringen med sina resultat och rekommendationer.",
     "documents": [
       {
         "title": "Uppdrag att kartlägga hur algoritmer i sociala medier styr innehåll till barn och unga",
@@ -818,6 +818,13 @@
         "url": "https://www.regeringen.se/pressmeddelanden/2026/05/uppdrag-att-kartlagga-hur-algoritmer-i-sociala-medier-styr-innehall-till-barn-och-unga/",
         "source": "Regeringen",
         "tech_vinkel": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer, vilket är en specifik teknikfråga."
+      },
+      {
+        "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
+        "date": "2026-05-22",
+        "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/",
+        "source": "Regeringen",
+        "tech_vinkel": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer, vilket är en specifik teknikfråga som rör hur innehåll styrs till användare."
       }
     ]
   }

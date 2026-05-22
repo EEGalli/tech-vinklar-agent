@@ -4562,5 +4562,150 @@
     },
     "title": "Uppdrag att utreda utnyttjande av namnbyte och skyddade personuppgifter för brottslig verksamhet",
     "cached_at": "2026-05-22"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260522CAN78422": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Uppkopplade fordon",
+      "sammanfattning": "EU-parlamentets utskott för transport och turism (TRAN) och utskottet för miljö, folkhälsa och livsmedelssäkerhet (ENVI) ska ha en gemensam diskussion om kommissionens förslag om rena företagsfordon. Förslaget är en del av paketet för att främja användningen av noll- och lågemissionsfordon i företagsflottor och stödja EU:s industriell konkurrenskraft och omställning till renare mobilitet. Detta är en del av EU:s övergripande mål att minska utsläppen och främja hållbarhet. Diskussionen kommer att äga rum under TRAN-kommitténs möte den 3 juni.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag kan ha betydande konsekvenser för fordonsindustrin och för företag som använder fordon i sin verksamhet. Om förslaget antas kan det leda till en ökad efterfrågan på el- och hybridfordon, vilket i sin tur kan driva innovation och investeringar i dessa teknologier. Det kan också påverka företagens kostnader och konkurrenskraft, eftersom de kan behöva anpassa sig till nya krav och regleringar. Tajmingen är viktig eftersom EU:s klimatmål och utsläppsmål för transportsektorn måste uppfyllas inom en snar framtid.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rena företagsfordon",
+        "EU:s transportpolitik",
+        "miljö och hälsa"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-03",
+          "beskrivning": "TRAN-kommitténs möte där förslaget om rena företagsfordon ska diskuteras"
+        }
+      ]
+    },
+    "title": "Highlights - ENVI-TRAN Joint Consideration of Draft Report on Clean Corporate Vehicles - Committee on Transport and Tourism",
+    "cached_at": "2026-05-22"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260522CAN78421": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Uppkopplade fordon",
+      "sammanfattning": "EU-parlamentets transport- och turismutskott (TRAN) ska presentera en studie om prissättning av laddning för elbilar och landbaserad elförsörjning i hamnar. Studien undersöker rimlig prissättning för offentlig laddning av elbilar och landbaserad elförsörjning, med fokus på transparens, jämförbarhet, marknadsstruktur och kostnadsdrivare inom EU. Den bedömer om priserna verkar rimliga eller inte.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna studie kan ha betydelse för utvecklingen av elbilar och landbaserad elförsörjning i EU, eftersom den kan bidra till att skapa en mer transparent och jämförbar marknad. Detta kan i sin tur påverka utvecklingen av hållbara transporter och energiförsörjning i EU. Studien kan också ha betydelse för EU:s klimatmål och för att minska utsläppen av växthusgaser.",
+      "eu_koppling": "null",
+      "keywords": [
+        "elbilar",
+        "landbaserad elförsörjning",
+        "prissättning"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-03",
+          "beskrivning": "Studien presenteras under TRAN-kommittémötet"
+        }
+      ]
+    },
+    "title": "Highlights - Pricing of E-Charging for Electric Cars and Onshore Power Supply in Ports - Committee on Transport and Tourism",
+    "cached_at": "2026-05-22"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/plenary-meetings/120th-plenary-meeting_en": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "European Data Protection Board (EDPB) har sammanträtt för sin 120:e plenarsession. Mötet hålls på distans och en agenda har publicerats. Inga specifika förslag eller beslut presenteras i sammanfattningen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "EDPB spelar en viktig roll i att skydda personuppgifter inom EU. Deras möten och beslut kan ha betydande konsekvenser för hur företag och organisationer hanterar personuppgifter. Det är dock oklart vad som specifikt diskuteras under denna session.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EDPB",
+        "personuppgifter",
+        "dataskydd"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-28",
+          "beskrivning": "EDPB:s 120:e plenarsession hålls på distans"
+        }
+      ]
+    },
+    "title": "120th Plenary meeting",
+    "cached_at": "2026-05-22"
+  },
+  "https://www.euspa.europa.eu/node/9708": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU Space Market Report är en rapport från Europeiska rymdbyrån som sammanfattar utvecklingen på den europeiska rymdmarknaden. Rapporten innehåller information om rymdindustrins tillväxt, utmaningar och möjligheter. Den kan vara intressant för företag och organisationer som verkar inom rymdsektorn. Rapporten är dock mer inriktad på rymdindustrin än på teknologi i sig.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Rapporten kan vara viktig för företag och organisationer som verkar inom rymdsektorn, eftersom den ger en överblick över marknaden och dess utveckling. Den kan också vara intressant för beslutsfattare som vill ha en bättre förståelse för rymdindustrins behov och utmaningar. Rapporten kan bidra till att stimulera tillväxten inom rymdsektorn och främja innovation och samarbete.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdindustri",
+        "EU Space Market Report"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EU Space Market Report",
+    "cached_at": "2026-05-22"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/regeringen-utser-nationell-samordnare-for-svenska-sprakmodeller/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "Regeringen har utsett en nationell samordnare för att driva på utvecklingen av svenska språkmodeller. Detta innebär att Katrin Westling Palm kommer att ansvara för att främja och koordinera arbetet med att skapa och förbättra svenska språkmodeller. Detta kan ha en positiv inverkan på utvecklingen av artificiell intelligens i Sverige. Regeringens beslut visar på en vilja att stärka Sveriges position inom AI-området.",
+      "tech_vinkel": "Regeringens utnämning av en nationell samordnare för svenska språkmodeller är en tydlig tech-vinkel, eftersom det handlar om att utveckla och förbättra språkmodeller som är en viktig del av artificiell intelligens.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan bidra till att stärka Sveriges position inom AI-området och främja utvecklingen av svenska språkmodeller. Detta kan också ha en positiv inverkan på den svenska ekonomin och samhället i stort. Dessutom kan det bidra till att öka tillgängligheten och användbarheten av AI-baserade tjänster och produkter i Sverige.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "språkmodeller",
+        "AI",
+        "artificiell intelligens"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Regeringen kommer att ge den nationella samordnaren i uppdrag att utarbeta en strategi för utvecklingen av svenska språkmodeller.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-21",
+          "beskrivning": "Regeringen utser nationell samordnare för svenska språkmodeller"
+        }
+      ]
+    },
+    "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
+    "cached_at": "2026-05-22"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Sociala medier",
+      "sammanfattning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera hur sociala medieplattformars algoritmer styr innehåll till barn och unga. Detta innebär att Mediemyndigheten kommer att undersöka vilka metoder som används för att avgöra vad barn och unga ser på sociala medier. Syftet är att förstå hur dessa algoritmer kan påverka barns och ungas välbefinnande och utveckling. Uppdraget är en del av regeringens arbete för att skydda barn och unga på internet.",
+      "tech_vinkel": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer, vilket är en specifik teknikfråga som rör hur innehåll styrs till användare.",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom sociala medier har en stor påverkan på barns och ungas liv. Algoritmerna som styr innehåll kan ha en betydande inverkan på deras välbefinnande och utveckling. Genom att kartlägga och analysera dessa algoritmer kan regeringen få en bättre förståelse för hur de kan skydda barn och unga på internet. Detta arbete kan också leda till förbättringar i regleringen av sociala medier och skyddet av barns och ungas rättigheter.",
+      "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala medier och andra digitala tjänster",
+      "keywords": [
+        "sociala medier",
+        "algoritmer",
+        "barns och ungas skydd",
+        "Digital Services Act"
+      ],
+      "arende": "Kartläggning av sociala mediers algoritmer",
+      "nasta_steg": "Mediemyndigheten kommer att genomföra kartläggningen och analysen av sociala medieplattformars algoritmer och sedan rapportera tillbaka till regeringen med sina resultat och rekommendationer.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-22",
+          "beskrivning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer"
+        }
+      ]
+    },
+    "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
+    "cached_at": "2026-05-22"
   }
 }
