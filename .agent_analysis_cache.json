@@ -104,33 +104,6 @@
     "title": "Have your say on the Digital Fairness Act",
     "cached_at": "2026-04-23"
   },
-  "https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility": {
-    "analysis": {
-      "relevans": "hög",
-      "sammanfattning": "EU-kommissionen har gett den italienska anläggningen Silicon Box i Novara status som 'Open EU Foundry'. Detta innebär att anläggningen får ett visst erkännande och potentiellt stöd inom ramen för EU:s satsning på att stärka Europas halvledarindustri. Statusen 'Open EU Foundry' är en del av EU:s bredare strategi för att öka självförsörjningen av mikrochips och minska beroendet av asiatiska tillverkare. Anläggningen kommer att kunna erbjuda chiplet-teknik, vilket är en viktig del i framtidens chipdesign.",
-      "tech_vinkel": "Kommissionens beslut att ge Silicon Box status som 'Open EU Foundry' visar på ett konkret steg i EU:s satsning på chiplet-teknik, en viktig komponent för framtidens datorkraft och elektronik.",
-      "varfor_viktigt": "Beslutet kan leda till ökad innovation och konkurrenskraft inom den europeiska halvledarindustrin, vilket i sin tur kan påverka allt från elfordon och medicinteknik till försvarsindustrin. Det stärker EU:s försök att minska beroendet av utländska leverantörer av mikrochips, vilket är avgörande för att säkerställa ekonomisk och strategisk säkerhet. Statusen kan även attrahera ytterligare investeringar och skapa arbetstillfällen inom området.",
-      "eu_koppling": "EU Chips Act (EU-satsningen på halvledartillverkning) (lagen som syftar till att stärka Europas halvledarindustri genom investeringar och stöd till tillverkning)",
-      "keywords": [
-        "chiplet",
-        "halvledare",
-        "mikrochips",
-        "EU Chips Act",
-        "tillverkning",
-        "Europa"
-      ],
-      "arende": "EU Chips Act",
-      "nasta_steg": "Silicon Box kommer sannolikt att börja implementera de åtgärder som krävs för att uppfylla kraven för 'Open EU Foundry'-status och dra nytta av de potentiella fördelarna.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-03-16",
-          "beskrivning": "EU-kommissionen meddelar att Silicon Box får Open EU Foundry-status."
-        }
-      ]
-    },
-    "title": "Open EU Foundry status granted to innovative chiplet facility",
-    "cached_at": "2026-04-21"
-  },
   "https://data.riksdagen.se/dokument/HD03244.html": {
     "analysis": {
       "relevans": "hög",
@@ -691,33 +664,6 @@
     },
     "title": "Highlights - Agreement on EU AI Rules Expected Within Weeks - Committee on the Internal Market and Consumer Protection",
     "cached_at": "2026-04-23"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260325CAN77246": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (EP-utskottet för inre marknaden (IMCO)) har godkänt en provisorisk överenskommelse om en reform av Unionens tullkod och fastställt platsen för den nya EU-tullmyndigheten i Lille, Frankrike. Överenskommelsen, som nåddes i mars 2026, bekräftar Lille som framtida hemvist för myndigheten. Beslutet är en del av en större reform av EU:s tullsystem. Reformen syftar till att modernisera tullprocesserna och förbättra effektiviteten.",
-      "tech_vinkel": "Reformen av Unionens tullkod kommer sannolikt att innebära ökad användning av digitala system och automatiserade processer för tullhantering, vilket kräver säker och robust digital infrastruktur för att hantera stora datamängder och säkerställa informationsutbyte mellan medlemsländerna.",
-      "varfor_viktigt": "En moderniserad tullmyndighet med digital infrastruktur kommer att förbättra EU:s förmåga att hantera gränsöverskridande handel, bekämpa smuggling och säkerställa efterlevnad av handelsregler. Det kan också underlätta för företag genom att minska byråkratin och snabba upp tullprocesserna. Platsen för myndigheten i Lille kommer att påverka lokala arbetstillfällen och den regionala ekonomin.",
-      "eu_koppling": "Union Customs Code (UCC) - en förordning som harmoniserar tullbestämmelserna i EU:s medlemsländer.",
-      "keywords": [
-        "tullkod",
-        "Union Customs Code",
-        "Lille",
-        "EU-tullmyndigheten",
-        "digitalisering"
-      ],
-      "arende": "Union Customs Code reform",
-      "nasta_steg": "Den provisoriska överenskommelsen måste nu formellt godkännas av Europaparlamentet och EU:s råd.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-03-01",
-          "beskrivning": "Provisorisk överenskommelse nåddes mellan EU-parlamentet och EU:s regeringar."
-        }
-      ]
-    },
-    "title": "Highlights - Lille Designated as the Seat of the New EU Customs Authority - Committee on the Internal Market and Consumer Protection",
-    "cached_at": "2026-04-21"
   },
   "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-measuring-energy-consumption-and-emissions-ai-models-and-systems": {
     "analysis": {
@@ -4974,5 +4920,101 @@
     },
     "title": "En starkare fondmarknad",
     "cached_at": "2026-05-21"
+  },
+  "https://www.berec.europa.eu/en/news/latest-news/berec-focuses-on-digital-accessibility-progress-in-a-hybrid-workshop": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, kommer att hålla ett hybrid-workshop om digital tillgänglighet den 9 juni 2026. Mötet syftar till att utvärdera framstegen inom digital tillgänglighet. Det är en möjlighet för deltagare att diskutera och lära av varandra. Workshopen är öppen för både fysisk och online-deltagande.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Digital tillgänglighet är viktigt för att säkerställa att alla människor, oavsett funktionshinder, kan använda digitala tjänster och produkter. Detta kan ha en positiv inverkan på samhället och ekonomin. Workshopen kan bidra till att identifiera områden för förbättring och utveckla lösningar för att öka digital tillgänglighet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "digital tillgänglighet",
+        "BEREC",
+        "telekommunikation"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-09",
+          "beskrivning": "BEREC håller ett hybrid-workshop om digital tillgänglighet"
+        }
+      ]
+    },
+    "title": "BEREC focuses on digital accessibility progress in a hybrid workshop",
+    "cached_at": "2026-05-22"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/galileo-has-ready-increase-efficiency-farming-tasks-latest-tests-prove": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån har testat Galileo High Accuracy Service (HAS) under riktiga jordbruksförhållanden för att bedöma dess prestanda och lämplighet för precisionsjordbruk. Testerna visar att HAS kan öka effektiviteten i jordbruksuppgifter. Detta kan leda till mer exakt och effektivt jordbruk. Europeiska rymdbyrån presenterar resultaten som ett steg mot att förbättra jordbrukssektorn med hjälp av satellitnavigering.",
+      "tech_vinkel": "Galileo High Accuracy Service (HAS) är en satellitbaserad tjänst som tillhandahåller högprecisionspositionering för precisionsjordbruk.",
+      "varfor_viktigt": "Detta kan ha stor betydelse för jordbrukssektorn eftersom det kan leda till ökad effektivitet och produktivitet. Precisionsjordbruk kan också bidra till att minska miljöpåverkan genom att optimera användningen av resurser som vatten och gödsel. Dessutom kan detta tekniska framsteg bidra till att förbättra livsmedelsförsörjningen och säkerheten.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Galileo High Accuracy Service",
+        "precisionsjordbruk",
+        "satellitnavigering"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Galileo HAS ready to increase efficiency of farming tasks. Latest tests prove suitability for precision agriculture",
+    "cached_at": "2026-05-22"
+  },
+  "https://data.riksdagen.se/dokument/HD01UbU27.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen behandlar ett ärende om bättre förutsättningar för yrkesutbildning. Det handlar om att förbättra utbildningsmöjligheterna för vuxna och ungdomar. Inga specifika tekniska aspekter nämns i sammanfattningen. Ärendet syftar till att öka tillgängligheten och kvaliteten på yrkesutbildningar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Ärendet är viktigt eftersom det kan påverka utbildningsmöjligheterna för många människor i Sverige. En förbättring av yrkesutbildningarna kan leda till en mer kvalificerad arbetskraft och bidra till landets ekonomiska tillväxt. Det kan också ha en positiv inverkan på individernas möjligheter att få anställning och karriärmöjligheter.",
+      "eu_koppling": null,
+      "keywords": [
+        "yrkesutbildning",
+        "utbildning",
+        "vuxenutbildning"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-22",
+          "beskrivning": "Omröstning i riksdagen"
+        }
+      ]
+    },
+    "title": "Bättre förutsättningar för yrkesutbildning",
+    "cached_at": "2026-05-22"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/uppdrag-att-utreda-utnyttjande-av-namnbyte-och-skyddade-personuppgifter-for-brottslig-verksamhet/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen har gett Skatteverket i uppdrag att utreda om möjligheterna till namnbyte och systemet för skyddade personuppgifter i Sverige kan utnyttjas för brottslig verksamhet. Utredningen ska undersöka om det finns brister i systemet som kan utnyttjas av kriminella. Regeringen vill säkerställa att personuppgifter skyddas och att brottslingar inte kan utnyttja systemet för att dölja sin identitet. Utredningen är en del av regeringens arbete för att förbättra säkerheten och skyddet av personuppgifter i Sverige.",
+      "tech_vinkel": "Utredningen kommer att undersöka om det finns tekniska brister i systemet för skyddade personuppgifter som kan utnyttjas av kriminella, till exempel om det finns möjligheter att manipulera eller utnyttja systemet med hjälp av IT-teknik.",
+      "varfor_viktigt": "Utredningen är viktig eftersom den kan bidra till att förbättra säkerheten och skyddet av personuppgifter i Sverige. Om systemet för skyddade personuppgifter kan utnyttjas av kriminella, kan det leda till allvarliga konsekvenser för enskilda personer och samhället i stort. Utredningen kan också bidra till att identifiera och åtgärda eventuella brister i systemet, vilket kan hjälpa till att förebygga brottslighet och skydda personuppgifter.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar skyddet av personuppgifter i EU",
+      "keywords": [
+        "namnbyte",
+        "skyddade personuppgifter",
+        "brottslig verksamhet",
+        "dataskydd"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Skatteverket kommer att genomföra utredningen och lämna förslag till regeringen om hur systemet för skyddade personuppgifter kan förbättras.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-21",
+          "beskrivning": "Regeringen ger Skatteverket i uppdrag att utreda utnyttjande av namnbyte och skyddade personuppgifter för brottslig verksamhet"
+        }
+      ]
+    },
+    "title": "Uppdrag att utreda utnyttjande av namnbyte och skyddade personuppgifter för brottslig verksamhet",
+    "cached_at": "2026-05-22"
   }
 }
