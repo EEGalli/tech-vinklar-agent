@@ -4707,5 +4707,72 @@
     },
     "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
     "cached_at": "2026-05-22"
+  },
+  "https://data.riksdagen.se/dokument/HD024191.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "En motion från Miljöpartiet kräver att regeringen skyndsamt återkommer med förslag som säkerställer utökade befogenheter för Skatteverket inom folkbokföringsverksamheten. Detta handlar om att ge Skatteverket mer makt att hantera folkbokföringen. Motionen är en reaktion på en tidigare proposition om utökade befogenheter för Skatteverket. Det är inte tydligt vad motionen konkret föreslår förändras.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende kan ha betydelse för hur Skatteverket hanterar personuppgifter och folkbokföring, men det är inte tydligt hur motionen påverkar teknikutvecklingen eller digitaliseringen av folkbokföringsverksamheten. Det kan ha konsekvenser för hur Skatteverket använder teknologi för att hantera folkbokföringen, men det är inte tydligt vad dessa konsekvenser är.",
+      "eu_koppling": "null",
+      "keywords": [
+        "folkbokföring",
+        "Skatteverket",
+        "personuppgifter"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "med anledning av prop. 2025/26:261 Utökade befogenheter för Skatteverket inom folkbokföringsverksamheten",
+    "cached_at": "2026-05-23"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/05/nytt-bilateralt-samarbete-med-usa-ska-starka-forskning-inom-ai-rymd-och-kvantteknik/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "Regeringen har undertecknat ett samförståndsavtal med USA om bilateralt tekniksamarbete inom områden som AI, rymd och kvantteknik. Detta samarbete syftar till att stärka forskning och utveckling inom dessa områden. Sverige och USA kommer att samarbeta för att främja innovation och kunskapsutbyte. Detta avtal förväntas leda till nya möjligheter för forskare och företag i båda länderna.",
+      "tech_vinkel": "Detta dokument innehåller en tydlig tech-vinkel genom det bilaterala samarbetet inom AI, som syftar till att stärka forskning och utveckling inom detta område.",
+      "varfor_viktigt": "Detta samarbete är viktigt eftersom det kan leda till banbrytande innovationer inom AI, rymd och kvantteknik. Det kan också skapa nya möjligheter för företag och forskare i Sverige och USA. Dessutom kan detta samarbete bidra till att stärka båda ländernas positioner inom den globala teknikutvecklingen. Detta avtal kan också ha en positiv inverkan på den svenska och amerikanska ekonomin.",
+      "eu_koppling": "null",
+      "keywords": [
+        "AI",
+        "rymd",
+        "kvantteknik",
+        "Sverige",
+        "USA"
+      ],
+      "arende": "Sverige-USA AI-samarbete",
+      "nasta_steg": "Det nästa steget i detta ärende är att de båda länderna kommer att inleda ett arbete för att identifiera specifika områden för samarbete och utveckla en plan för hur detta samarbete ska genomföras.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-22",
+          "beskrivning": "Undertecknandet av samförståndsavtalet mellan Sverige och USA"
+        }
+      ]
+    },
+    "title": "Nytt bilateralt samarbete med USA ska stärka forskning inom AI, rymd och kvantteknik",
+    "cached_at": "2026-05-23"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-trafikverket-att-genomfora-en-marknads--och-framtidsanalys-av-multimodala-godsterminaler-inom-det-transeuropeiska-transportnatet/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen ger Trafikverket i uppdrag att genomföra en marknads- och framtidsanalys av multimodala godsterminaler i Sverige. Detta syftar till att undersöka möjligheterna för effektivare och mer hållbara transporter. Analysen ska genomföras i enlighet med EU:s direktiv för det transeuropeiska transportnätet. Detta kan påverka hur godstransporter hanteras i framtiden.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna analys kan ha betydelse för Sveriges transportinfrastruktur och hur landet hanterar godstransporter. Det kan också påverka miljön genom att minska utsläppen från transporter. Regeringens beslut att ge Trafikverket detta uppdrag visar att de vill undersöka möjligheterna för mer effektiva och hållbara transporter.",
+      "eu_koppling": "Det transeuropeiska transportnätet",
+      "keywords": [
+        "transport",
+        "godsterminaler",
+        "Trafikverket"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Uppdrag till Trafikverket att genomföra en marknads- och framtidsanalys av multimodala godsterminaler inom det transeuropeiska transportnätet",
+    "cached_at": "2026-05-23"
   }
 }
