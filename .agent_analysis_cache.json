@@ -2832,5 +2832,24 @@
     },
     "title": "Uppdrag till Vetenskapsrådet om nationell stödfunktion för ansvarsfull internationalisering vid utbildnings-, forsknings- och innovationssamarbeten",
     "cached_at": "2026-05-25"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/rontrigko-nta-kosta-sti-n-eyropaiko-diastimiko-programma-exelissetai-os": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån diskuterar det europeiska rymdprogrammet och dess utveckling som en respons på den geopolitiska osäkerheten. Det handlar om hur rymdprogrammet kan bidra till att stärka Europas position i världen. Rymdbyrån ser över hur programmet kan anpassas för att möta de nya utmaningarna. Det är dock oklart vad som specifikt föreslås eller vilka konsekvenser detta kan få.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det europeiska rymdprogrammet är viktigt för Europas position i världen och kan ha betydande konsekvenser för den europeiska ekonomin och säkerheten. Rymdprogrammet kan bidra till att stärka Europas oberoende och självständighet. Det kan också ha en positiv effekt på den europeiska teknikutvecklingen och innovationen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "europeiskt rymdprogram",
+        "geopolitisk osäkerhet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Ροντρίγκο ντα Κόστα στη «Ν»: Το Ευρωπαϊκό Διαστημικό Πρόγραμμα εξελίσσεται ως απάντηση στη γεωπολιτική αβεβαιότητα",
+    "cached_at": "2026-05-25"
   }
 }
