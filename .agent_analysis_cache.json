@@ -19,113 +19,6 @@
     "title": "Remiss av Ädelmetallutredningen – en moderniserad reglering av handel med ädelmetallarbeten (SOU 2026:14), KN2026/00741",
     "cached_at": "2026-05-24"
   },
-  "https://data.riksdagen.se/dokument/HD03256.html": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "Regeringen föreslår i proposition 2025/26:256 kraftfullare åtgärder mot manipulation och allvarligt missbruk av färdskrivare i yrkesfordon. Förslaget syftar till att öka säkerheten och rättvisan inom transportsektorn genom att förhindra fusk och otillåten körning. Det påverkar främst yrkesförare och transportföretag, och innebär skärpta straff och förbättrad kontroll. Syftet är att säkerställa att lagstiftningen följs och att konkurrensen blir rättvis.",
-      "tech_vinkel": "Propositionen adresserar behovet av att förhindra manipulation av digitala färdskrivare, vilket är en form av digitalt intrång och kräver tekniska lösningar för att upptäcka och förhindra.",
-      "varfor_viktigt": "Skärpta åtgärder mot manipulation av färdskrivare kan förbättra säkerheten på vägarna genom att minska trötthet och otillåten körning. Det kan också bidra till rättvisare konkurrens mellan transportföretag och minska oegentligheter inom branschen. Förslaget kommer att kräva att transportföretag investerar i säkrare system och att myndigheter utvecklar bättre metoder för att upptäcka manipulation.",
-      "eu_koppling": "Propositionen är relaterad till EU:s reglering av digitala tachografer (färdskrivare), som syftar till att säkerställa sociala skyddsåtgärder och rättvisa arbetsvillkor för yrkesförare inom EU.",
-      "keywords": [
-        "färdskrivare",
-        "yrkesfordon",
-        "transport",
-        "manipulation",
-        "digitalisering"
-      ],
-      "arende": "Digital infrastruktur",
-      "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt anta den, vilket skulle innebära att de föreslagna åtgärderna införs.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-01",
-          "beskrivning": "Riksdagen behandlar propositionen."
-        }
-      ]
-    },
-    "title": "Kraftfullare åtgärder mot manipulation och allvarligt missbruk av färdskrivare",
-    "cached_at": "2026-04-24"
-  },
-  "https://data.riksdagen.se/dokument/HD03253.html": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen föreslår att riksdagen godkänner EU:s bankpaket, vilket är en uppsättning regler som syftar till att stärka bankernas kapitaltäckning och finansiella stabilitet inom EU. Propositionen innebär att Sverige ska anpassa sin nationella lagstiftning till de nya EU-reglerna. Bankerna kommer att påverkas genom skärpta krav på kapital och riskhantering, vilket kan påverka deras utlåningsförmåga och lönsamhet.",
-      "tech_vinkel": "Propositionen handlar om implementeringen av EU:s kapitaltäckningsdirektiv, vilket innehåller krav på att banker använder sig av standardiserade riskmodeller och rapporteringssystem, vilket i sin tur påverkar den tekniska infrastrukturen och systemen som banker använder för att hantera risker och kapital.",
-      "varfor_viktigt": "De nya reglerna kan leda till att banker investerar i ny teknik för att uppfylla kraven, vilket kan påverka innovationen inom finanssektorn. Skärpta krav på kapitaltäckning kan minska risken för finansiella kriser och öka förtroendet för bankerna, vilket är viktigt för ekonomin. Implementeringen av EU:s bankpaket påverkar även de IT-konsulter och leverantörer som arbetar med bankernas system.",
-      "eu_koppling": "EU:s kapitaltäckningsdirektiv (kräver förklaring: en EU-lag som fastställer hur mycket kapital banker måste ha i förhållande till sina risker)",
-      "keywords": [
-        "bankpaket",
-        "kapitaltäckning",
-        "finansiell stabilitet",
-        "riskhantering",
-        "EU-direktiv"
-      ],
-      "arende": "NIS2-implementering",
-      "nasta_steg": "Riksdagen kommer att granska propositionen och eventuellt lägga till ändringsförslag innan den slutgiltigt godkänns.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-01",
-          "beskrivning": "Riksdagen behandlar propositionen"
-        }
-      ]
-    },
-    "title": "EU:s bankpaket",
-    "cached_at": "2026-04-24"
-  },
-  "https://data.riksdagen.se/dokument/HD03104.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringens skrivelse 2025/26:104 utvärderar hur staten har lånat pengar och hanterat sin skuld under perioden 2021 till 2025. Skrivelsen lämnas över till riksdagen för information och vidare hantering. Den beskriver hur statens upplåning och skuldförvaltning har skötts och vilka resultat som uppnåtts. Dokumentet är en rutinmässig redovisning av statens finanser.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel.",
-      "varfor_viktigt": "Även om skrivelsen inte direkt handlar om teknik, kan den indirekt påverka digitala satsningar genom att påverka statens ekonomiska utrymme för investeringar. En stabil och effektiv skuldförvaltning är avgörande för att finansiera statliga program, inklusive de som rör digitalisering och innovation. Resultaten i skrivelsen kan påverka framtida budgetfördelningar och prioriteringar.",
-      "eu_koppling": "null",
-      "keywords": [
-        "skuldförvaltning",
-        "upplåning",
-        "statsskuld",
-        "finansdepartementet"
-      ],
-      "arende": null,
-      "nasta_steg": "Riksdagen kommer att ta emot skrivelsen och eventuellt begära en debatt eller ytterligare utredning.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-23",
-          "beskrivning": "Skrivelsen överlämnades till riksdagen."
-        }
-      ]
-    },
-    "title": "Utvärdering av statens upplåning och skuldförvalting 2021–2025",
-    "cached_at": "2026-04-24"
-  },
-  "https://data.riksdagen.se/dokument/HD01SoU25.html": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Sociala medier",
-      "sammanfattning": "SoU (socialutskottet) förbereder en kommande omröstning om att stärka insatserna för äldre och de som vårdar närstående. Fokus ligger på att förbättra tillgången till stöd och tjänster, samt att minska den ekonomiska och sociala bördan för vårdgivare. Förslaget inkluderar bland annat satsningar på digital kompetens för äldre och vårdgivare, samt förbättrad tillgång till digitala verktyg för att underlätta kommunikation och samordning. Utskottet kommer att rösta om förslaget i april 2026.",
-      "tech_vinkel": "Utskottet föreslår att äldre och vårdgivare ska få stöd för att utveckla digital kompetens, vilket specifikt inkluderar användning av sociala medier och digitala kommunikationsplattformar för att underlätta kontakt och stöd.",
-      "varfor_viktigt": "Förslaget kan minska isoleringen hos äldre genom att öka deras möjligheter att kommunicera med familj och vänner via digitala kanaler. Det kan också avlasta vårdgivare genom att ge dem verktyg för att bättre samordna vård och stöd. Om förslaget inte genomförs riskerar äldre att förbli isolerade och vårdgivare att överbelastas.",
-      "eu_koppling": "Ingen direkt koppling till EU-lagstiftning, men förslaget kan relatera till EU:s strategi för digital inkludering och åtgärder för att bekämpa social isolering.",
-      "keywords": [
-        "äldre",
-        "vård",
-        "digital kompetens",
-        "sociala medier",
-        "kommunikation"
-      ],
-      "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
-      "nasta_steg": "Utskottet kommer att rösta om förslaget i april 2026.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-24",
-          "beskrivning": "Omröstning i SoU"
-        }
-      ]
-    },
-    "title": "Stärkta insatser för äldre och för de som vårdar eller stöder närstående",
-    "cached_at": "2026-04-24"
-  },
   "https://data.riksdagen.se/dokument/HD10448.html": {
     "analysis": {
       "relevans": "medel",
@@ -2919,5 +2812,25 @@
     },
     "title": "Sverige och USA ingår ett bilateralt tekniksamarbete",
     "cached_at": "2026-05-24"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-vetenskapsradet-om-nationell-stodfunktion-for-ansvarsfull-internationalisering-vid-utbildnings--forsknings--och-innovationssamarbeten/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen ger Vetenskapsrådet i uppdrag att ansvara för en nationell stödfunktion för ansvarsfull internationalisering vid högre utbildnings-, forsknings- och innovationssamarbeten. Detta innebär att Vetenskapsrådet ska stödja universitet och högskolor i deras internationella samarbeten. Målet är att främja ansvarsfull internationalisering och öka kvaliteten på utbildning och forskning. Detta uppdrag är en del av regeringens arbete för att stärka den svenska forskningen och utbildningen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan bidra till att stärka den svenska forskningen och utbildningen. Genom att främja ansvarsfull internationalisering kan universitet och högskolor öka sin kvalitet och konkurrenskraft. Detta kan i sin tur bidra till att stärka den svenska ekonomin och samhället. Tajmingen spelar roll eftersom det är viktigt att Sverige kan konkurrera med andra länder på den globala arenan.",
+      "eu_koppling": "null",
+      "keywords": [
+        "internationalisering",
+        "utbildning",
+        "forskning"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Uppdrag till Vetenskapsrådet om nationell stödfunktion för ansvarsfull internationalisering vid utbildnings-, forsknings- och innovationssamarbeten",
+    "cached_at": "2026-05-25"
   }
 }
