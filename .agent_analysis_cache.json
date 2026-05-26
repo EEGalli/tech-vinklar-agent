@@ -2851,5 +2851,69 @@
     },
     "title": "Ροντρίγκο ντα Κόστα στη «Ν»: Το Ευρωπαϊκό Διαστημικό Πρόγραμμα εξελίσσεται ως απάντηση στη γεωπολιτική αβεβαιότητα",
     "cached_at": "2026-05-25"
+  },
+  "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, ska presentera sin slutliga bedömning av förslaget till Digital Networks Act (DNA) vid en offentlig debriefing. Detta förslag handlar om reglering av digitala nätverk inom EU. BEREC:s bedömning kommer att presenteras den 10 juni 2026 i Bryssel. Detta är en viktig milstolpe i processen att skapa en gemensam ram för digitala nätverk inom EU.",
+      "tech_vinkel": "Digital Networks Act (DNA) är en specifik lagstiftning som reglerar digitala nätverk inom EU, vilket är en tydlig tech-vinkel i detta dokument.",
+      "varfor_viktigt": "Detta är viktigt eftersom Digital Networks Act kan ha en stor inverkan på hur digitala nätverk utvecklas och regleras inom EU. Det kan påverka telekommunikationsföretag, internetleverantörer och andra aktörer inom digitala nätverk. Tajmingen är viktig eftersom EU försöker skapa en gemensam ram för digitala nätverk för att främja innovation och konkurrens.",
+      "eu_koppling": "Digital Networks Act (DNA) är en EU-lagstiftning som syftar till att reglera digitala nätverk inom EU.",
+      "keywords": [
+        "Digital Networks Act",
+        "BEREC",
+        "EU"
+      ],
+      "arende": "Digitala Nätverkslagen",
+      "nasta_steg": "BEREC kommer att presentera sin slutliga bedömning av förslaget till Digital Networks Act vid en offentlig debriefing den 10 juni 2026.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-10",
+          "beskrivning": "BEREC presenterar sin slutliga bedömning av förslaget till Digital Networks Act"
+        }
+      ]
+    },
+    "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
+    "cached_at": "2026-05-26"
+  },
+  "https://www.euspa.europa.eu/market-report-2026-agriculture": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Denna rapport från Europeiska rymdbyrån handlar om marknaden för jordbruk år 2026. Den innehåller information om hur satellitdata och andra tekniker kan användas för att förbättra jordbruksproduktionen. Rapporten är en del av byråns arbete med att främja användningen av rymdteknik i olika sektorer. Den kan vara av intresse för jordbrukare, beslutsfattare och andra som arbetar med jordbruk och rymdteknik.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna rapport kan vara viktig för jordbrukare och beslutsfattare som vill förbättra jordbruksproduktionen med hjälp av rymdteknik. Den kan också bidra till att öka medvetenheten om möjligheterna med satellitdata och andra tekniker i jordbruket. Rapporten kan dock inte anses vara direkt tech-relevant eftersom den främst fokuserar på jordbruk och marknadsanalys.",
+      "eu_koppling": "null",
+      "keywords": [
+        "jordbruk",
+        "rymdteknik",
+        "satellitdata"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Market Report 2026 Agriculture",
+    "cached_at": "2026-05-26"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-att-utvardera-och-utveckla-stodmaterial-arbetssatt-och-metoder-med-fokus-pa-foraldrar-i-hederskontexter/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen ger länsstyrelserna, Myndigheten för familjerätt och föräldraskapsstöd och Socialstyrelsen i uppdrag att utvärdera och utveckla stödmaterial, arbetssätt och metoder med fokus på föräldrar i hederskontexter. Detta syftar till att stärka stödet till föräldrar och barn i dessa situationer. Uppdraget handlar om att förbättra samhällets insatser för att motverka hedersrelaterat våld och stödja de som drabbas. Detta är en del av regeringens arbete för att främja jämställdhet och skydda barns rättigheter.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det syftar till att stärka stödet till föräldrar och barn som lever i hederskontexter. Hedersrelaterat våld är ett allvarligt problem som kan ha förödande konsekvenser för de som drabbas. Genom att utvärdera och utveckla stödmaterial, arbetssätt och metoder kan samhället bättre skydda och stödja dessa individer. Detta arbete är en del av regeringens övergripande mål att främja jämställdhet och skydda barns rättigheter.",
+      "eu_koppling": "null",
+      "keywords": [
+        "hedersrelaterat våld",
+        "stöd till föräldrar och barn"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Uppdrag att utvärdera och utveckla stödmaterial, arbetssätt och metoder med fokus på föräldrar i hederskontexter",
+    "cached_at": "2026-05-26"
   }
 }

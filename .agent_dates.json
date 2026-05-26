@@ -479,6 +479,12 @@
       "title": "Sverige och USA ingår ett bilateralt tekniksamarbete",
       "url": "https://www.regeringen.se/pressmeddelanden/2026/05/sverige-och-usa-ingar-ett-bilateralt-tekniksamarbete/",
       "arende": "Sverige-USA tekniksamarbete"
+    },
+    {
+      "beskrivning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer",
+      "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/",
+      "arende": "Kartläggning av sociala mediers algoritmer"
     }
   ],
   "2026-05-19": [
@@ -495,6 +501,14 @@
       "title": "Cybercriminal VPN used by ransomware actors dismantled in global crackdown",
       "url": "https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown",
       "arende": "Cybersäkerhetscenter"
+    }
+  ],
+  "2026-06-10": [
+    {
+      "beskrivning": "BEREC presenterar sin slutliga bedömning av förslaget till Digital Networks Act",
+      "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
+      "url": "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing",
+      "arende": "Digitala Nätverkslagen"
     }
   ]
 }
