@@ -2915,5 +2915,109 @@
     },
     "title": "Uppdrag att utvärdera och utveckla stödmaterial, arbetssätt och metoder med fokus på föräldrar i hederskontexter",
     "cached_at": "2026-05-26"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20240930CNW19304": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Dokumentet är en samling nyhetsbrev från EU-parlamentets utskott för den inre marknaden och konsumentskydd. Nyhetsbreven innehåller information om olika ämnen som har diskuterats i utskottet under året. Det finns ingen specifik proposition eller förslag som presenteras i dokumentet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Dokumentet är inte särskilt viktigt eftersom det inte innehåller några specifika förslag eller beslut som kan påverka tech-området. Det är mer en samling av allmän information om utskottets verksamhet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU-parlamentet",
+        "inre marknaden",
+        "konsumentskydd"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Newsletters - by the IMCO secretariat - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-05-27"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/new-spatial-course-starts-your-phone": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har lanserat en ny kurs som fokuserar på rymden och kan nås via mobiltelefon. Kursen syftar till att öka medvetenheten och kunskapen om rymden och dess tillämpningar. Detta initiativ är en del av byråns ansträngningar att främja rymdutbildning och -medvetenhet. Kursen är tillgänglig för allmänheten och kan nås genom en mobilapp.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta initiativ kan bidra till att öka allmänhetens kunskap och medvetenhet om rymden och dess tillämpningar. Det kan också bidra till att inspirera unga människor att engagera sig i rymdrelaterade karriärer. Dessutom kan detta initiativ bidra till att främja samarbetet mellan rymdmyndigheter och utbildningsinstitutioner.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdutbildning",
+        "rymdmedvetenhet",
+        "EUSPA"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "The new spatial course starts on your phone",
+    "cached_at": "2026-05-27"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/la-economia-espacial-europea-duplicara-el-valor-del-mercado-de-observacion-de": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, meddelar att den europeiska rymdekonomin förväntas fördubbla värdet på marknaden för jordobservation. Detta innebär en ökning av investeringar och utveckling inom rymdteknologi och relaterade tjänster. Rymdbyrån ser detta som en möjlighet för Europa att stärka sin position inom rymdindustrin. Utvecklingen av rymdteknologi kan ha en positiv inverkan på olika områden, såsom miljöövervakning och navigation.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Den förväntade tillväxten inom rymdekonomin kan leda till nya jobbmöjligheter och innovationer inom rymdteknologi. Detta kan också bidra till att Europa blir mer självförsörjande inom rymdindustrin och minskar beroendet av utländska leverantörer. Dessutom kan utvecklingen av rymdteknologi ha en positiv inverkan på miljöövervakning och navigation, vilket kan bidra till en mer hållbar framtid.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknologi",
+        "jordobservation",
+        "europeisk rymdekonomin"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "La economía espacial europea duplicará el valor del mercado de observación de la Tierra",
+    "cached_at": "2026-05-27"
+  },
+  "https://www.euspa.europa.eu/opportunities/procurement-grants/procurements/pavement-repair-works-galileo-reference-centre-grc": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån meddelar att de ska utföra reparationer av vägar vid Galileo Reference Centre i Nederländerna. Detta är en del av byråns underhållsarbete för att säkerställa att deras anläggningar är i gott skick. Reparationerna kommer att påverka tillgängligheten till centret under en viss tid. Det är viktigt för byrån att underhålla sina anläggningar för att säkerställa en smidig verksamhet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Reparationerna är viktiga för att säkerställa att Galileo Reference Centre kan fortsätta att fungera som planerat. Centret spelar en viktig roll i Europeiska unionens rymdprogram, och eventuella störningar kan ha konsekvenser för unionens rymdverksamhet. Det är därför viktigt att reparationerna utförs på ett effektivt och snabbt sätt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Galileo Reference Centre",
+        "reparationer",
+        "Europeiska rymdbyrån"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Pavement repair works at the Galileo Reference Centre (GRC) in the Netherlands",
+    "cached_at": "2026-05-27"
+  },
+  "https://data.riksdagen.se/dokument/HD03271.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår ändringar i abortlagen från 1974. Syftet är att förändra lagstiftningen kring abort. Propositionen har överlämnats till riksdagen för behandling. Detta förslag handlar om att ändra reglerna för när och hur abort kan utföras.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna proposition är viktig eftersom den kan påverka många människors liv och valmöjligheter. Ändringar i abortlagen kan ha stora konsekvenser för vården, rättssystemet och samhället i stort. Regeringens förslag kommer att diskuteras och granskas av riksdagen, och det är viktigt att alla aspekter av förslaget utvärderas noggrant.",
+      "eu_koppling": "null",
+      "keywords": [
+        "abortlag",
+        "regeringsproposition"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-21",
+          "beskrivning": "Regeringen överlämnar propositionen till riksdagen"
+        }
+      ]
+    },
+    "title": "En förändrad abortlag",
+    "cached_at": "2026-05-27"
   }
 }
