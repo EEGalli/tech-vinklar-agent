@@ -19,33 +19,6 @@
     "title": "Remiss av Ädelmetallutredningen – en moderniserad reglering av handel med ädelmetallarbeten (SOU 2026:14), KN2026/00741",
     "cached_at": "2026-05-24"
   },
-  "https://data.riksdagen.se/dokument/HD10448.html": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Sociala medier",
-      "sammanfattning": "Detta är en interpellation från riksdagsledamoten Josef Fransson (SD) till energi- och näringsministern Ebba Busch (KD) angående spridning av desinformation om vindkraft. Fransson uttrycker oro över hur branschorganisationen Windeurope’s rapport om desinformation kring vindkraft har fått stor spridning i svenska medier, särskilt via Sveriges Radio. Interpellationen syftar till att få ministern att agera mot spridningen av felaktig information och dess påverkan på opinionen kring vindkraftsutbyggnad.",
-      "tech_vinkel": "Interpellationen lyfter fram hur en rapport om desinformation har fått stor spridning via Sveriges Radio, vilket indikerar en potentiell användning av sociala medier och digitala plattformar för att sprida information och påverka opinionen, vilket är relevant för plattformsreglering och innehållsmoderering.",
-      "varfor_viktigt": "Spridningen av desinformation kan försvåra politiska beslut kring vindkraftsutbyggnad och skapa misstro mot energiproduktion. Det är viktigt att identifiera och motverka felaktig information för att säkerställa en informerad debatt och en hållbar energipolitik. Interpellationen kan leda till en diskussion om hur medier och plattformar hanterar information och potentiellt till åtgärder för att bekämpa desinformation.",
-      "eu_koppling": "Ingen direkt koppling till EU-lagstiftning, men kan relatera till diskussioner om desinformationsbekämpning inom EU:s ramverk för digitala tjänster (Digital Services Act, DSA).",
-      "keywords": [
-        "desinformation",
-        "vindkraft",
-        "sociala medier",
-        "plattformar",
-        "Sveriges Radio"
-      ],
-      "arende": "Ingen tydlig koppling",
-      "nasta_steg": "Energi- och näringsministern kommer att svara på interpellationen i riksdagen, vilket kan leda till en debatt och eventuella åtgärder.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-21",
-          "beskrivning": "Windeurope släppte rapporten 'Wind Energy Dis- and Misinformation'."
-        }
-      ]
-    },
-    "title": "Desinformation om vindkraft",
-    "cached_at": "2026-04-27"
-  },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260506CAN78119": {
     "analysis": {
       "relevans": "hög",
@@ -3148,5 +3121,98 @@
     },
     "title": "Lagändringar för ett stärkt nationellt cybersäkerhetscenter",
     "cached_at": "2026-05-27"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260519CAN78319": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) kommer att ha en utfrågning med Piero Cipollone, ledamot i Europeiska centralbankens (ECB) verkställande styrelse, om det digitala euro-projektet. Projektet syftar till att införa en digital version av euron. Utskottet vill diskutera de senaste utvecklingarna i projektet, som bland annat inkluderar en pilotstudie som planeras att starta under andra halvåret 2026. Det digitala euro-projektet är en del av ECB:s arbete med att undersöka möjligheterna för en digital valuta.",
+      "tech_vinkel": "Det digitala euro-projektet innebär att ECB undersöker möjligheterna för en digital valuta, vilket är en tydlig tech-vinkel i detta dokument.",
+      "varfor_viktigt": "Det digitala euro-projektet kan ha stor betydelse för den europeiska ekonomin och för hur vi hanterar pengar i framtiden. En digital valuta kan öka effektiviteten och minska kostnaderna för transaktioner, men det kan också medföra risker för exempelvis penningtvätt och finansiell stabilitet. Utskottets utfrågning är viktig för att säkerställa att projektet utvecklas på ett ansvarsfullt sätt.",
+      "eu_koppling": "Digital euro-projektet har en tydlig koppling till EU-lagstiftning, särskilt när det gäller reglering av digitala valutor och betalningstjänster.",
+      "keywords": [
+        "digital euro",
+        "ECB",
+        "ECON"
+      ],
+      "arende": "Digital euro-projektet",
+      "nasta_steg": "Utskottet för ekonomi och valutafrågor (ECON) kommer att fortsätta att följa utvecklingen av det digitala euro-projektet och kan komma att lägga fram rekommendationer till ECB och EU-kommissionen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-03",
+          "beskrivning": "Utskottet för ekonomi och valutafrågor (ECON) kommer att ha en utfrågning med Piero Cipollone om det digitala euro-projektet"
+        }
+      ]
+    },
+    "title": "Highlights - Exchange of views on the digital euro project - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-05-28"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260522CAN78423": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) ska ha en strukturerad dialog med kommissionär Teresa Ribera om konkurrenspolitik. Dialogen ska ge möjlighet att diskutera aktuella utvecklingar och framtida projekt inom EU. Detta är en möjlighet för utskottet att ställa frågor och få insikt i kommissionens planer. Ingen specifik teknisk fråga nämns i sammanfattningen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna dialog är viktig eftersom den ger EU-parlamentet möjlighet att påverka och granska kommissionens politik. Det kan också ge insikt i hur kommissionen planerar att hantera olika utmaningar inom EU. Det är dock oklart vilka specifika konsekvenser denna dialog kan ha. Tajmingen spelar roll eftersom det kan påverka hur kommissionen prioriterar olika frågor.",
+      "eu_koppling": "null",
+      "keywords": [
+        "konkurrenspolitik",
+        "EU-parlamentet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-03",
+          "beskrivning": "Strukturerad dialog mellan ECON och kommissionär Teresa Ribera"
+        }
+      ]
+    },
+    "title": "Highlights - Structured Dialogue with Commissioner Teresa Ribera - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-05-28"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260521CAN78399": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) har haft ett första utbyte av åsikter om paketet för marknadsintegration och tillsyn. Detta paket är en central del av EU:s sparande och investeringsstrategi. Mötet var till för att diskutera de viktigaste politiska frågorna i paketet innan utskottet publicerar sina utkast till betänkanden i juni 2026. Paketet syftar till att förbättra marknadsintegrationen och tillsynen inom EU.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det handlar om att förbättra marknadsintegrationen och tillsynen inom EU, vilket kan ha en stor inverkan på EU:s ekonomi och finansmarknader. Det kan också påverka hur företag och investerare agerar inom EU. Tajmingen är viktig eftersom utskottet behöver komma med förslag och betänkanden som kan implementeras för att förbättra marknadsintegrationen och tillsynen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "marknadsintegration",
+        "tillsyn",
+        "EU"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06",
+          "beskrivning": "Utskottet publicerar sina utkast till betänkanden"
+        }
+      ]
+    },
+    "title": "Highlights - First exchange of views (EoV) on the Market Integration and Supervision Package  - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-05-28"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/rontrigko-nta-kosta-sto-ape-mpe-diastima-apotelei-meros-tis-kathimerinotitas": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Dokumentet handlar om en intervju med Rodrigo da Costa från Europeiska rymdbyrån. Intervjun diskuterar rymdens betydelse i vår vardag. Det finns inga specifika förslag eller beslut som presenteras i dokumentet. Europeiska rymdbyrån är en EU-byrå som arbetar med rymdfrågor.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Dokumentet är inte särskilt viktigt eftersom det inte presenterar några specifika förslag eller beslut. Det är mer av en allmän diskussion om rymdens betydelse. Europeiska rymdbyrån spelar en viktig roll i EU:s rymdpolitik, men detta dokument bidrar inte till några specifika lagstiftningsärenden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymd",
+        "Europeiska rymdbyrån"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Ροντρίγκο ντα Κόστα στο ΑΠΕ-ΜΠΕ: Το Διάστημα αποτελεί μέρος της καθημερινότητάς μας",
+    "cached_at": "2026-05-28"
   }
 }
