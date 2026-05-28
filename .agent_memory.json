@@ -12952,6 +12952,36 @@
       }
     },
     {
+      "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
+      "date": "Thu, 28 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Plattformsreglering",
+        "sammanfattning": "EU-kommissionen har utfärdat en bot på 200 miljoner euro till företaget Temu för brott mot Digital Services Act (DSA). Detta är en av de första gångerna som kommissionen använt sig av DSA för att påföra en sådan bot. Beslutet visar på EU-kommissionens allvarliga inställning till att se till att företag följer de regler som finns för att skydda användare på internet. Temu har inte uppfyllt kraven enligt DSA, vilket har lett till denna betydande bot.",
+        "tech_vinkel": "Digital Services Act (DSA) är den specifika EU-lag som ligger till grund för boten mot Temu, vilken syftar till att reglera och säkerställa en säker och transparent online-miljö.",
+        "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU-kommissionen är beredd att använda sin makt för att säkerställa att företag följer de regler som finns för att skydda användare på internet. Det sänder också en tydlig signal till andra företag att de måste ta sina skyldigheter enligt DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) på allvar. Konsekvenserna av detta beslut kan bli att fler företag ser över sina processer och ser till att de följer de regler som finns, vilket i sin tur kan leda till en säkrare och mer transparent online-miljö.",
+        "eu_koppling": "Digital Services Act (DSA), som är en EU-lag som syftar till att reglera digitala tjänster och säkerställa en säker och transparent online-miljö",
+        "keywords": [
+          "Digital Services Act",
+          "DSA",
+          "EU-kommissionen",
+          "Temu",
+          "bot"
+        ],
+        "arende": "Digital Services Act",
+        "nasta_steg": "Temu kommer troligen att överklaga beslutet, men EU-kommissionen kommer att fortsätta att övervaka situationen och se till att företaget följer de regler som finns.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-28",
+            "beskrivning": "EU-kommissionen utfärdar bot på 200 miljoner euro till Temu"
+          }
+        ]
+      }
+    },
+    {
       "title": "Draft Commission guidelines on the classification of high-risk AI systems",
       "source": "EU-kommissionen",
       "type": "Digital Strategy — Nyhet",
@@ -13134,6 +13164,35 @@
       }
     },
     {
+      "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",
+      "source": "EUSPA",
+      "type": "EU-byrå",
+      "url": "https://www.euspa.europa.eu/newsroom-events/news/eu-patrol-vessels-adopt-galileo-osnma-secure-positioning",
+      "date": "Thu, 28 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-byrån EUSPA har meddelat att Rumänien kommer att kräva att nya patrullfartyg använder Galileo-baserad autentiserad positionering efter en pilotstudie i Svarta havet. Detta ska ske med hjälp av EUSPA-levererad OSNMA-teknik för att motverka risker med GNSS-störningar. Detta är en del av EU:s arbete för att förbättra säkerheten och tillförlitligheten i sin rymdinfrastruktur. Detta beslut kommer att påverka utvecklingen av EU:s rymdprogram och dess förmåga att tillhandahålla precisa och säkra positioneringstjänster.",
+        "tech_vinkel": "Galileo-baserad autentiserad positionering med OSNMA-teknik kommer att användas i nya patrullfartyg för att motverka GNSS-störningar.",
+        "varfor_viktigt": "Detta beslut är viktigt eftersom det kommer att förbättra säkerheten och tillförlitligheten i EU:s rymdinfrastruktur, särskilt i områden där GNSS-störningar är vanliga. Det kommer också att påverka utvecklingen av EU:s rymdprogram och dess förmåga att tillhandahålla precisa och säkra positioneringstjänster. Dessutom kommer detta beslut att ha en positiv inverkan på EU:s försvars- och säkerhetssektor, eftersom det kommer att ge dem tillgång till mer precisa och tillförlitliga positioneringstjänster.",
+        "eu_koppling": "Galileo-programmet, som är EU:s globala navigationssatellitsystem",
+        "keywords": [
+          "Galileo",
+          "OSNMA",
+          "GNSS",
+          "Rymdinfrastruktur"
+        ],
+        "arende": "Galileo-programmet",
+        "nasta_steg": "EUSPA kommer att fortsätta att arbeta med att implementera Galileo-baserad autentiserad positionering i fler områden, inklusive i civila och kommersiella tillämpningar.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-05-28",
+            "beskrivning": "EUSPA meddelar att Rumänien kommer att kräva Galileo-baserad autentiserad positionering i nya patrullfartyg"
+          }
+        ]
+      }
+    },
+    {
       "title": "Stärkt skydd mot utlänningar som utgör kvalificerade säkerhetshot",
       "source": "Riksdagen",
       "type": "Riksdagen/PROP",
@@ -13248,36 +13307,6 @@
           {
             "datum": "2026-03-16",
             "beskrivning": "Kommittédirektivet publicerades."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576",
-      "source": "Regeringen",
-      "type": "Remiss",
-      "url": "https://www.regeringen.se/remisser/2026/03/remiss-av-europeiska-kommissionens-cybersakerhetspaket-med-forslag-om-andringar-i-cybersakerhetsakten-eu-2019881-samt-riktade-andringar-i-nis-2-direktivet-eu-20222555-kom-20261113/",
-      "date": "2026-03-24",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Cybersäkerhet",
-        "sammanfattning": "Regeringen har skickat ut en remiss till olika svenska myndigheter och organisationer angående Europeiska kommissionens cybersäkerhetspaket. Paketet innehåller förslag på ändringar i cybersäkerhetsakten (EU 2019/881) och NIS 2-direktivet (EU 2022/2555). Syftet är att samla in synpunkter på kommissionens förslag innan Sverige formellt ska implementera dem i nationell lagstiftning. Remissen riktar sig till de som berörs av dessa lagar, vilket inkluderar företag, myndigheter och organisationer som hanterar kritisk infrastruktur.",
-        "tech_vinkel": "Remissen handlar specifikt om att ändra NIS 2-direktivet (EU 2022/2555), som tvingar kritiska verksamheter att höja sin cybersäkerhet genom bland annat incidentrapportering och riskanalyser.",
-        "varfor_viktigt": "Ändringarna i NIS 2-direktivet kommer att påverka svenska företag och myndigheter som anses vara kritiska för samhället, till exempel energibolag, sjukhus och banker. Implementeringen av dessa ändringar kommer att innebära nya krav på säkerhetsåtgärder och rapporteringsrutiner, vilket kan innebära kostnader och utmaningar för berörda aktörer. Remissen ger svenska aktörer möjlighet att påverka hur dessa krav ska utformas i Sverige.",
-        "eu_koppling": "NIS 2-direktivet (EU 2022/2555) är ett EU-direktiv som syftar till att stärka cybersäkerheten i EU genom att införa bindande krav för kritiska enheter och essentiella tjänsteleverantörer.",
-        "keywords": [
-          "cybersäkerhet",
-          "NIS2",
-          "EU",
-          "remiss",
-          "direktiv"
-        ],
-        "arende": "NIS2-implementering",
-        "nasta_steg": "De svenska myndigheterna kommer att analysera remissvaren och föreslå hur EU:s direktiv ska implementeras i svensk lagstiftning.",
-        "viktiga_datum": [
-          {
-            "datum": "null",
-            "beskrivning": "null"
           }
         ]
       }

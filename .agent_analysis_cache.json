@@ -3214,5 +3214,103 @@
     },
     "title": "Ροντρίγκο ντα Κόστα στο ΑΠΕ-ΜΠΕ: Το Διάστημα αποτελεί μέρος της καθημερινότητάς μας",
     "cached_at": "2026-05-28"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Plattformsreglering",
+      "sammanfattning": "EU-kommissionen har utfärdat en bot på 200 miljoner euro till företaget Temu för brott mot Digital Services Act (DSA). Detta är en av de första gångerna som kommissionen använt sig av DSA för att påföra en sådan bot. Beslutet visar på EU-kommissionens allvarliga inställning till att se till att företag följer de regler som finns för att skydda användare på internet. Temu har inte uppfyllt kraven enligt DSA, vilket har lett till denna betydande bot.",
+      "tech_vinkel": "Digital Services Act (DSA) är den specifika EU-lag som ligger till grund för boten mot Temu, vilken syftar till att reglera och säkerställa en säker och transparent online-miljö.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU-kommissionen är beredd att använda sin makt för att säkerställa att företag följer de regler som finns för att skydda användare på internet. Det sänder också en tydlig signal till andra företag att de måste ta sina skyldigheter enligt DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) på allvar. Konsekvenserna av detta beslut kan bli att fler företag ser över sina processer och ser till att de följer de regler som finns, vilket i sin tur kan leda till en säkrare och mer transparent online-miljö.",
+      "eu_koppling": "Digital Services Act (DSA), som är en EU-lag som syftar till att reglera digitala tjänster och säkerställa en säker och transparent online-miljö",
+      "keywords": [
+        "Digital Services Act",
+        "DSA",
+        "EU-kommissionen",
+        "Temu",
+        "bot"
+      ],
+      "arende": "Digital Services Act",
+      "nasta_steg": "Temu kommer troligen att överklaga beslutet, men EU-kommissionen kommer att fortsätta att övervaka situationen och se till att företaget följer de regler som finns.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-28",
+          "beskrivning": "EU-kommissionen utfärdar bot på 200 miljoner euro till Temu"
+        }
+      ]
+    },
+    "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
+    "cached_at": "2026-05-28"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/eu-patrol-vessels-adopt-galileo-osnma-secure-positioning": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-byrån EUSPA har meddelat att Rumänien kommer att kräva att nya patrullfartyg använder Galileo-baserad autentiserad positionering efter en pilotstudie i Svarta havet. Detta ska ske med hjälp av EUSPA-levererad OSNMA-teknik för att motverka risker med GNSS-störningar. Detta är en del av EU:s arbete för att förbättra säkerheten och tillförlitligheten i sin rymdinfrastruktur. Detta beslut kommer att påverka utvecklingen av EU:s rymdprogram och dess förmåga att tillhandahålla precisa och säkra positioneringstjänster.",
+      "tech_vinkel": "Galileo-baserad autentiserad positionering med OSNMA-teknik kommer att användas i nya patrullfartyg för att motverka GNSS-störningar.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kommer att förbättra säkerheten och tillförlitligheten i EU:s rymdinfrastruktur, särskilt i områden där GNSS-störningar är vanliga. Det kommer också att påverka utvecklingen av EU:s rymdprogram och dess förmåga att tillhandahålla precisa och säkra positioneringstjänster. Dessutom kommer detta beslut att ha en positiv inverkan på EU:s försvars- och säkerhetssektor, eftersom det kommer att ge dem tillgång till mer precisa och tillförlitliga positioneringstjänster.",
+      "eu_koppling": "Galileo-programmet, som är EU:s globala navigationssatellitsystem",
+      "keywords": [
+        "Galileo",
+        "OSNMA",
+        "GNSS",
+        "Rymdinfrastruktur"
+      ],
+      "arende": "Galileo-programmet",
+      "nasta_steg": "EUSPA kommer att fortsätta att arbeta med att implementera Galileo-baserad autentiserad positionering i fler områden, inklusive i civila och kommersiella tillämpningar.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-28",
+          "beskrivning": "EUSPA meddelar att Rumänien kommer att kräva Galileo-baserad autentiserad positionering i nya patrullfartyg"
+        }
+      ]
+    },
+    "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",
+    "cached_at": "2026-05-28"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-launches-new-eu-space-market-report-strong-gnss-growth-predicted": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har släppt en ny rapport om EU:s rymdmarknad. Rapporten förutspår en stark tillväxt för GNSS, Global Navigation Satellite System. Detta kan innebära en ökad användning av satellitnavigering i olika sektorer. Rapporten ger en överblick över den nuvarande marknaden och dess potential för framtida tillväxt.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Rapporten kan ge värdefull information till företag och organisationer som är involverade i rymdindustrin. Den kan också bidra till att identifiera möjligheter för innovation och tillväxt inom sektorn. Dessutom kan rapporten ha betydelse för EU:s rymdpolitik och beslut om framtida satsningar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdmarknad",
+        "GNSS",
+        "satellitnavigering"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA launches new EU Space Market Report, strong GNSS growth predicted",
+    "cached_at": "2026-05-28"
+  },
+  "https://data.riksdagen.se/dokument/HD01NU20.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen behandlar ett ärende om vindkraft i kommuner. Det handlar om hur vindkraftverk ska placeras och regleras i olika kommuner. Kommunerna och vindkraftsbolagen påverkas av detta beslut. Det är oklart vad som ändras eller föreslås i detta ärende.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende kan ha betydelse för hur Sverige hanterar sin energiproduktion och miljöpåverkan. Kommunerna och vindkraftsbolagen kan påverkas av beslutet. Tajmingen spelar roll eftersom Sverige strävar efter att öka sin användning av förnybar energi.",
+      "eu_koppling": "null",
+      "keywords": [
+        "vindkraft",
+        "kommuner",
+        "energiproduktion"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-28",
+          "beskrivning": "Riksdagen behandlar ärendet"
+        }
+      ]
+    },
+    "title": "Vindkraft i kommuner",
+    "cached_at": "2026-05-28"
   }
 }

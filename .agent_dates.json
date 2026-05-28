@@ -516,5 +516,19 @@
       "url": "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing",
       "arende": "Digitala Nätverkslagen"
     }
+  ],
+  "2026-05-28": [
+    {
+      "beskrivning": "EU-kommissionen utfärdar bot på 200 miljoner euro till Temu",
+      "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
+      "arende": "Digital Services Act"
+    },
+    {
+      "beskrivning": "EUSPA meddelar att Rumänien kommer att kräva Galileo-baserad autentiserad positionering i nya patrullfartyg",
+      "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",
+      "url": "https://www.euspa.europa.eu/newsroom-events/news/eu-patrol-vessels-adopt-galileo-osnma-secure-positioning",
+      "arende": "Galileo-programmet"
+    }
   ]
 }
