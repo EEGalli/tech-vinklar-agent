@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "next_step": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
     "documents": [
@@ -360,7 +360,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -555,11 +555,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Det politiska avtalet måste nu formaliseras juridiskt och genomgå den slutliga processen för antagande.",
+    "next_step": "EU-kommissionen kommer att analysera de inkomna synpunkterna och justera utkastet till riktlinjer innan de antas.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -636,7 +636,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -661,12 +661,19 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
     "next_step": "Temu kommer troligen att överklaga beslutet, men EU-kommissionen kommer att fortsätta att övervaka situationen och se till att företaget följer de regler som finns.",
     "documents": [
+      {
+        "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
+        "date": "Fri, 29 Ma",
+        "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-trusted-flaggers-under-digital-services-act-dsa",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Digital Services Act (DSA) innehåller bestämmelser om hur plattformar ska hantera olagligt innehåll, vilket är en specifik tech-fråga som berör plattformsreglering och innehållsmoderering."
+      },
       {
         "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
         "date": "Thu, 28 Ma",
@@ -686,7 +693,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -820,7 +827,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -845,7 +852,7 @@
   "Digital euro-projektet": {
     "name": "Digital euro-projektet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -863,10 +870,10 @@
   "Galileo-programmet": {
     "name": "Galileo-programmet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
+    "is_new_today": false,
+    "is_updated_today": true,
     "next_step": "EUSPA kommer att fortsätta att arbeta med att implementera Galileo-baserad autentiserad positionering i fler områden, inklusive i civila och kommersiella tillämpningar.",
     "documents": [
       {
