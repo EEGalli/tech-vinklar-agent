@@ -3616,5 +3616,52 @@
     },
     "title": "Extra ändringsbudget för 2026 – Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern",
     "cached_at": "2026-05-30"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/space-prague-international-space-event-prague-showed-future-satellite": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån har arrangerat en internationell rymdevenemang i Prag för att visa upp framtiden för satellitteknologier. Evenemanget syftade till att visa upp de senaste utvecklingarna inom satellitteknologi och dess möjliga tillämpningar. Inga specifika förslag eller beslut presenterades under evenemanget. Det handlade mer om att visa upp möjligheterna med satellitteknologi.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget kan ha varit viktigt för att visa upp möjligheterna med satellitteknologi, men det finns inga konkreta konsekvenser eller beslut som presenterades under evenemanget. Det är svårt att säga exakt varför evenemanget är viktigt utan mer information. Evenemanget kan ha varit en möjlighet för experter och företag att nätverka och diskutera framtiden för satellitteknologi.",
+      "eu_koppling": "null",
+      "keywords": [
+        "satellitteknologi",
+        "rymd",
+        "Prag"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "From Space to Prague. International space event in Prague showed the future of satellite technologies",
+    "cached_at": "2026-05-31"
+  },
+  "https://data.riksdagen.se/dokument/HD03276.html": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Sociala medier",
+      "sammanfattning": "Regeringen föreslår att det ska bli lättare att bekämpa onlinerekrytering av barn. Detta innebär att det ska bli enklare att identifiera och stoppa kriminella nätverk som använder sig av internet för att rekrytera barn. Förslaget syftar till att öka säkerheten för barn på nätet och förhindra att de blir offer för kriminella aktiviteter. Detta kan påverka hur sociala medier och andra onlineplattformar övervakar och hanterar innehåll som riktar sig till barn.",
+      "tech_vinkel": "Regeringens förslag innehåller en specifik skrivning om att utveckla metoder för att identifiera och stoppa onlinerekrytering av barn, vilket kan inkludera användning av AI och maskinlärning för att övervaka onlineinnehåll.",
+      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan hjälpa till att skydda barn från kriminella nätverk som använder sig av internet för att rekrytera offer. Om förslaget antas kan det leda till en ökad säkerhet för barn på nätet och en minskning av kriminella aktiviteter som riktar sig mot barn. Detta kan också ha en positiv effekt på samhället i stort, eftersom det kan bidra till att minska brottsligheten och öka förtroendet för internet som en säker plats för barn.",
+      "eu_koppling": "Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll), som är en EU-lagstiftning som syftar till att reglera onlineplattformar och säkerställa att de tar ansvar för innehållet som publiceras på deras plattformar.",
+      "keywords": [
+        "onlinerekrytering",
+        "barn",
+        "kriminella nätverk",
+        "AI",
+        "maskinlärning"
+      ],
+      "arende": "Bekämpning av onlinerekrytering",
+      "nasta_steg": "Regeringens förslag kommer att behandlas av riksdagen, som kommer att fatta ett beslut om huruvida förslaget ska antas eller inte.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-15",
+          "beskrivning": "Riksdagen kommer att behandla regeringens förslag om bekämpning av onlinerekrytering"
+        }
+      ]
+    },
+    "title": "Nya möjligheter att bekämpa onlinerekrytering",
+    "cached_at": "2026-05-31"
   }
 }

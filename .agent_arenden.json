@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "next_step": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
     "documents": [
@@ -360,7 +360,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -555,7 +555,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -661,7 +661,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -693,7 +693,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -827,7 +827,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -852,7 +852,7 @@
   "Digital euro-projektet": {
     "name": "Digital euro-projektet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -870,7 +870,7 @@
   "Galileo-programmet": {
     "name": "Galileo-programmet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-05-31",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
