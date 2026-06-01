@@ -12091,34 +12091,6 @@
   ],
   "2026-06-01": [
     {
-      "title": "Highlights - Exchange of views on the digital euro project - Committee on Economic and Monetary Affairs",
-      "source": "EU-parlamentet",
-      "type": "EP/Utskott",
-      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260519CAN78319",
-      "date": "Wed, 27 May 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) kommer att ha en utfrågning med Piero Cipollone, ledamot i Europeiska centralbankens (ECB) verkställande styrelse, om det digitala euro-projektet. Projektet syftar till att införa en digital version av euron. Utskottet vill diskutera de senaste utvecklingarna i projektet, som bland annat inkluderar en pilotstudie som planeras att starta under andra halvåret 2026. Det digitala euro-projektet är en del av ECB:s arbete med att undersöka möjligheterna för en digital valuta.",
-        "tech_vinkel": "Det digitala euro-projektet innebär att ECB undersöker möjligheterna för en digital valuta, vilket är en tydlig tech-vinkel i detta dokument.",
-        "varfor_viktigt": "Det digitala euro-projektet kan ha stor betydelse för den europeiska ekonomin och för hur vi hanterar pengar i framtiden. En digital valuta kan öka effektiviteten och minska kostnaderna för transaktioner, men det kan också medföra risker för exempelvis penningtvätt och finansiell stabilitet. Utskottets utfrågning är viktig för att säkerställa att projektet utvecklas på ett ansvarsfullt sätt.",
-        "eu_koppling": "Digital euro-projektet har en tydlig koppling till EU-lagstiftning, särskilt när det gäller reglering av digitala valutor och betalningstjänster.",
-        "keywords": [
-          "digital euro",
-          "ECB",
-          "ECON"
-        ],
-        "arende": "Digital euro-projektet",
-        "nasta_steg": "Utskottet för ekonomi och valutafrågor (ECON) kommer att fortsätta att följa utvecklingen av det digitala euro-projektet och kan komma att lägga fram rekommendationer till ECB och EU-kommissionen.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-03",
-            "beskrivning": "Utskottet för ekonomi och valutafrågor (ECON) kommer att ha en utfrågning med Piero Cipollone om det digitala euro-projektet"
-          }
-        ]
-      }
-    },
-    {
       "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
       "source": "EU-kommissionen",
       "type": "Digital Strategy — Konsultation",

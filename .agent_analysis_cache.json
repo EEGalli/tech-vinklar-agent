@@ -3688,5 +3688,26 @@
     },
     "title": "Förslag om statligt stöd ska stärka mobil täckning längs vägar och järnvägar",
     "cached_at": "2026-06-01"
+  },
+  "https://data.riksdagen.se/dokument/HD03268.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen presenterar en strategi för ett fredligt, säkert och hållbart Arktis. Strategin syftar till att främja Sveriges intressen i regionen och bidra till en hållbar utveckling. Dokumentet redogör för regeringens syn på hur Sverige ska agera i Arktis och vilka åtgärder som behöver vidtas. Strategin omfattar bland annat frågor om miljö, säkerhet och samarbete med andra länder.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Strategin är viktig för Sveriges möjligheter att påverka utvecklingen i Arktis och för att främja svenska intressen i regionen. Den kan också ha betydelse för internationella relationer och för att hantera globala utmaningar som klimatförändringar. Strategin kan påverka Sveriges möjligheter att delta i internationella samarbeten och att bidra till en hållbar utveckling i Arktis.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Arktis",
+        "säkerhet",
+        "miljö",
+        "samarbete"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Sveriges strategi för ett fredligt, säkert och hållbart Arktis",
+    "cached_at": "2026-06-01"
   }
 }
