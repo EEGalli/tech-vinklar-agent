@@ -3709,5 +3709,30 @@
     },
     "title": "Sveriges strategi för ett fredligt, säkert och hållbart Arktis",
     "cached_at": "2026-06-01"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260601CAN78572": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentet, den europeiska ekonomiska och sociala kommittén och regionkommittén kommer att hålla ett gemensamt evenemang om EU:s inre marknad den 3 juni 2026. Evenemanget kommer att samla politiker, företag och representanter för det civila samhället för att diskutera hur man kan göra EU-marknaden starkare, rättvisare och mer konkurrenskraftig. Målet är att leverera praktiska fördelar för medborgarna. Evenemanget är en del av EU:s strävan att stärka den inre marknaden.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget är viktigt eftersom det kan leda till förbättringar i EU:s inre marknad, vilket kan ha positiva effekter på den europeiska ekonomin och medborgarnas liv. Det kan också bidra till att stärka EU:s konkurrenskraft på den globala marknaden. Evenemanget kan också ge insikt i hur EU kan hantera utmaningar och möjligheter i den digitala eran.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU:s inre marknad",
+        "digitalisering",
+        "konkurrenskraft"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-03",
+          "beskrivning": "EU-parlamentet, den europeiska ekonomiska och sociala kommittén och regionkommittén håller ett gemensamt evenemang om EU:s inre marknad"
+        }
+      ]
+    },
+    "title": "Highlights - One Europe, One Market: from strategy to delivery - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-06-02"
   }
 }
