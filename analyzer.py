@@ -575,9 +575,24 @@ def analyze_batch(
         "annual report on the use",
     )
 
+    # Mer aggressiva mönster för EP "Highlights -" som ofta är events/meetings
+    HIGHLIGHTS_EXCLUDE = (
+        "exchange of views", "presentation of", "hearing on", "study presentation",
+        "meeting of", "icm on", "structured dialogue", "voting time",
+        "consideration of draft", "joint hearing", "public hearing",
+    )
+
     def _is_excluded(item: dict) -> bool:
-        text = f"{item.get('title','')} {item.get('summary','')}".lower()
-        return any(p in text for p in EXCLUDE_PATTERNS)
+        title = item.get("title", "")
+        text = f"{title} {item.get('summary','')}".lower()
+        if any(p in text for p in EXCLUDE_PATTERNS):
+            return True
+        # EP "Highlights - X" där X är ett mötesreferens
+        if title.startswith("Highlights"):
+            tl = title.lower()
+            if any(p in tl for p in HIGHLIGHTS_EXCLUDE):
+                return True
+        return False
 
     # Steg 0: släng events/jobb/marknadsföring INNAN cache + AI
     before = len(items)

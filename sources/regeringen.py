@@ -19,6 +19,7 @@ DOC_TYPES = {
     "Regeringsuppdrag": "/regeringsuppdrag/",
     "Kommittédirektiv": "/rattsliga-dokument/kommittedirektiv/",
     "Lagrådsremiss": "/rattsliga-dokument/lagradsremiss/",
+    "SOU": "/rattsliga-dokument/statens-offentliga-utredningar/",
     "Remiss": "/remisser/",
 }
 
