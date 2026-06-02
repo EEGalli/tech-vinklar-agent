@@ -3707,5 +3707,71 @@
     },
     "title": "Highlights - One Europe, One Market: from strategy to delivery - Committee on the Internal Market and Consumer Protection",
     "cached_at": "2026-06-02"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260114CNW20359": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Dokumentet är en samling nyhetsbrev från EU-parlamentets utskott för ekonomi och monetära frågor. Det innehåller en lista över datum och möten, men saknar specifik information om vad som diskuterades eller beslutades. Dokumentet ger en översikt över utskottets aktiviteter, men det är svårt att identifiera något specifikt ärende eller förslag.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det är svårt att se några konkreta konsekvenser av detta dokument, eftersom det inte innehåller någon specifik information om teknikutveckling eller lagstiftning. Dokumentet verkar vara en allmän översikt över utskottets aktiviteter, men det saknar djup och substans.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU-parlamentet",
+        "ekonomi",
+        "monetära frågor"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Newsletters - 2026 - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-06-02"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260602CAN78600": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att diskutera effekterna av islamistisk extremism på det europeiska samhället. Diskussionen kommer att fokusera på hur EU hanterar utmaningar relaterade till detta ämne, särskilt i ljuset av den nya agendan för att förebygga och bekämpa terrorism. Detta är en allmän diskussion och inga specifika förslag eller lagändringar presenteras.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna diskussion är viktig eftersom den kan påverka hur EU hanterar terrorism och extremism i framtiden. Det kan också ha konsekvenser för medborgarnas säkerhet och frihet. EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) spelar en viktig roll i att forma EU:s politik inom detta område.",
+      "eu_koppling": "null",
+      "keywords": [
+        "islamistisk extremism",
+        "terrorism",
+        "EU:s säkerhetspolitik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "LIBE-kommittén håller en diskussion om effekterna av islamistisk extremism på det europeiska samhället"
+        }
+      ]
+    },
+    "title": "Highlights - Impact of Islamic extremism on the European way of life - Committee on Civil Liberties, Justice and Home Affairs",
+    "cached_at": "2026-06-02"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/success-stories/monitoring-biodiversity-space": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån har lanserat en webbaserad tjänst som använder Copernicus-data för att övervaka biodiversitet från rymden. Tjänsten syftar till att förbättra livsmiljön för fågelarter på jordbruksmark och optimera gröna åtgärder. Detta initiativ är en del av EU:s insatser för att skydda och bevara biologisk mångfald. Tjänsten kan bidra till att ge mer precisa mätningar och förbättra beslutsfattandet inom jordbruk och miljövård.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta initiativ kan ha betydande konsekvenser för jordbruk och miljövård i Europa. Genom att använda satellitdata kan man få en mer detaljerad förståelse av biodiversitet och hur den påverkas av mänsklig verksamhet. Detta kan leda till mer effektiva åtgärder för att skydda och bevara biologisk mångfald. Tajmingen spelar roll eftersom EU:s miljö- och klimatmål kräver snabba och effektiva åtgärder för att minska miljöpåverkan.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Copernicus",
+        "biodiversitet",
+        "jordbruk",
+        "miljövård"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Monitoring Biodiversity from Space",
+    "cached_at": "2026-06-02"
   }
 }
