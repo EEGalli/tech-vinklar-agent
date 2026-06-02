@@ -381,6 +381,12 @@
       "title": "Commission urges Member States to rollout EU age verification app",
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-urges-member-states-rollout-eu-age-verification-app",
       "arende": "Digital Services Act"
+    },
+    {
+      "beskrivning": "Mediemyndigheten ska redovisa resultaten av uppdraget till regeringen.",
+      "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/",
+      "arende": "Kartläggning av sociala mediers algoritmer"
     }
   ],
   "2026-06-02": [
@@ -491,14 +497,6 @@
       "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/",
       "arende": "Kartläggning av sociala mediers algoritmer"
-    }
-  ],
-  "2026-05-19": [
-    {
-      "beskrivning": "Utkast till riktlinjer publicerades",
-      "title": "Draft Commission guidelines on the classification of high-risk AI systems",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems",
-      "arende": "AI Act"
     }
   ],
   "2024-01-01": [

@@ -76,33 +76,6 @@
     "title": "Highlights - How safe is AI? MEPs question experts on new risks and rules - Committee on the Internal Market and Consumer Protection",
     "cached_at": "2026-05-08"
   },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260428CAN77924": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Sociala medier",
-      "sammanfattning": "EU-parlamentets utskott för medborgerliga friheter, rättvisa och hemförsäkerhet (LIBE) har hållit en offentlig utfrågning om hur man ska kontrollera åldern på minderåriga som använder sociala medier. Diskussionen handlade om olika metoder, från åldersverifiering till åldersuppskattning, och deras påverkan på privatlivet och dataskyddet. Syftet var att undersöka hur genomförbart, proportionerligt och rättvist dessa metoder är. Utfrågningen syftar till att hitta lösningar för att skydda barn online.",
-      "tech_vinkel": "Utfrågningen undersöker specifika tekniker för åldersverifiering, ålderssäkerställande och åldersuppskattning på sociala medier, vilket innebär att olika algoritmer och datainsamlingsmetoder diskuteras för att avgöra om minderåriga använder plattformar.",
-      "varfor_viktigt": "Detta är viktigt eftersom det kan leda till nya regler för sociala medier som påverkar både plattformarnas ansvar för barnskydd och användarnas rättigheter till privatliv. Resultaten från utfrågningen kan påverka hur EU-lagstiftning kring sociala medier och barnskydd utformas. Det kan också påverka hur sociala medieplattformar implementerar ålderskontroller i framtiden.",
-      "eu_koppling": "Diskussionen är relevant i förhållande till den kommande Digitala tjänstlagen (DSA), som ställer krav på plattformar att skydda minderåriga, samt potentiellt den framtida AI Act (EU:s AI-förordning), om åldersverifieringstekniker baseras på AI.",
-      "keywords": [
-        "åldersverifiering",
-        "sociala medier",
-        "barnskydd",
-        "dataskydd",
-        "LIBE"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Utskottet kommer troligen att sammanställa resultaten från utfrågningen och använda dem för att forma sina ståndpunkter i framtida lagstiftningsinitiativ.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-06",
-          "beskrivning": "Offentlig utfrågning om åldersverifiering i LIBE."
-        }
-      ]
-    },
-    "title": "Highlights - LIBE Public Hearing on Age Verification, 6 May, 15h00 - Committee on Civil Liberties, Justice and Home Affairs",
-    "cached_at": "2026-05-08"
-  },
   "https://digital-strategy.ec.europa.eu/en/events/hipeac-vision-2026-connect-university": {
     "analysis": {
       "relevans": "hög",
