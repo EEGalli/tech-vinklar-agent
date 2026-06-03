@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "next_step": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
     "documents": [
@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -346,7 +346,7 @@
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -541,7 +541,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -647,7 +647,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -679,7 +679,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -813,7 +813,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -856,11 +856,11 @@
   "Galileo-programmet": {
     "name": "Galileo-programmet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "EUSPA kommer att fortsätta att arbeta med att implementera Galileo-baserad autentiserad positionering i fler områden, inklusive i civila och kommersiella tillämpningar.",
+    "next_step": "Nästa steg i detta ärende är att implementera GAL4TSync i praktiken och integrera det med befintlig kritisk infrastruktur.",
     "documents": [
       {
         "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",
@@ -868,6 +868,31 @@
         "url": "https://www.euspa.europa.eu/newsroom-events/news/eu-patrol-vessels-adopt-galileo-osnma-secure-positioning",
         "source": "EUSPA",
         "tech_vinkel": "Galileo-baserad autentiserad positionering med OSNMA-teknik kommer att användas i nya patrullfartyg för att motverka GNSS-störningar."
+      },
+      {
+        "title": "GAL4TSync - Galileo timing receiver for critical infrastructure synchronization",
+        "date": "Tue, 02 Ju",
+        "url": "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/gal4tsync-galileo-timing-receiver-critical",
+        "source": "EUSPA",
+        "tech_vinkel": "GAL4TSync är en specifik teknisk lösning för att förbättra synkroniseringen av kritisk infrastruktur med hjälp av Galileo-systemet."
+      }
+    ]
+  },
+  "Åldersgräns för sociala medier": {
+    "name": "Åldersgräns för sociala medier",
+    "first_seen": "2026-06-03",
+    "last_updated": "2026-06-03",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Utredningens förslag kommer att remitteras till berörda myndigheter och organisationer för yttrande, varefter regeringen kommer att fatta beslut om huruvida förslaget ska gå vidare till riksdagen för beslut.",
+    "documents": [
+      {
+        "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
+        "date": "2026-06-02",
+        "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202635/",
+        "source": "Regeringen",
+        "tech_vinkel": "Utredningen föreslår att sociala medier ska införa ålderskontroller för att säkerställa att barn under en viss ålder inte kan skapa konton eller komma åt viss typ av innehåll."
       }
     ]
   }

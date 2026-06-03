@@ -3773,5 +3773,152 @@
     },
     "title": "Monitoring Biodiversity from Space",
     "cached_at": "2026-06-02"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-172026-draft-decision-dutch-supervisory_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Denna opinion från European Data Protection Board (EDPB) handlar om ett utkast till beslut från den nederländska tillsynsmyndigheten gällande Infor Group:s regler för behandling av personuppgifter inom företagsgruppen. Detta beslut berör hur Infor Group ska hantera personuppgifter i sina internationella överföringar. EDPB ger sin syn på huruvida Infor Group:s regler uppfyller kraven enligt EU:s dataskyddsförordning. Detta är viktigt för att säkerställa att personuppgifter skyddas när de överförs mellan olika länder.",
+      "tech_vinkel": "Dokumentet innehåller en specifik tech-vinkel genom att det diskuterar implementeringen av Binding Corporate Rules (BCR) för internationella dataöverföringar, vilket är en teknisk lösning för att säkerställa dataskydd i multinationella företag.",
+      "varfor_viktigt": "Detta är viktigt eftersom det påverkar hur företag som Infor Group hanterar personuppgifter i sina globala verksamheter. Det kan ha konsekvenser för företagets rykte och ekonomi om de inte följer dataskyddsförordningen. Dessutom kan det påverka hur EU:s dataskyddsförordning implementeras i praktiken och hur den påverkar företag som verkar inom EU.",
+      "eu_koppling": "General Data Protection Regulation (GDPR), som är EU:s dataskyddsförordning, som reglerar hur personuppgifter ska hanteras och skyddas inom EU.",
+      "keywords": [
+        "Dataskydd",
+        "Infor Group",
+        "Binding Corporate Rules",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Nästa steg i detta ärende är att den nederländska tillsynsmyndigheten ska ta ställning till EDPB:s opinion och fatta ett slutligt beslut om Infor Group:s regler för behandling av personuppgifter.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "EDPB publicerar sin opinion om Infor Group:s regler för behandling av personuppgifter"
+        }
+      ]
+    },
+    "title": "Opinion 17/2026 on the draft decision of the Dutch Supervisory Authority regarding the Processor Binding Corporate Rules of the Infor Group",
+    "cached_at": "2026-06-03"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-162026-draft-decision-dutch-supervisory_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån European Data Protection Board (EDPB) har utfärdat en opinion om det holländska tillsynsorganets utkast till beslut om Infor Groups bindande företagsregler för dataskydd. Detta handlar om regler för hur företag som Infor Group ska hantera personuppgifter när de överförs mellan olika länder. EDPB granskar om dessa regler uppfyller EU:s krav på dataskydd. Detta är viktigt för att skydda personuppgifter och säkerställa att företag följer EU:s dataskyddslagstiftning.",
+      "tech_vinkel": "Det specifika dokumentet handlar om bindande företagsregler för dataskydd, vilket är en teknisk aspekt av dataskydd och integritet.",
+      "varfor_viktigt": "Detta är viktigt eftersom det handlar om skydd av personuppgifter och säkerställer att företag följer EU:s dataskyddslagstiftning. Om företag inte följer dessa regler kan det leda till allvarliga konsekvenser, som böter och skador på företagets rykte. Dessutom är det viktigt för att skydda individernas rättigheter och integritet.",
+      "eu_koppling": "General Data Protection Regulation (GDPR), som är EU:s lagstiftning om dataskydd och integritet",
+      "keywords": [
+        "Dataskydd",
+        "Infor Group",
+        "Bindande företagsregler"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EDPB kommer att fortsätta granska och utvärdera det holländska tillsynsorganets beslut om Infor Groups bindande företagsregler för dataskydd.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "EDPB publicerade sin opinion om det holländska tillsynsorganets utkast till beslut om Infor Groups bindande företagsregler för dataskydd"
+        }
+      ]
+    },
+    "title": "Opinion 16/2026 on the draft decision of the Dutch Supervisory Authority regarding the Controller Binding Corporate Rules of the Infor Group",
+    "cached_at": "2026-06-03"
+  },
+  "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/clepsydra-certified-galileo-time-provision": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån presenterar CLEPSYDRA, ett projekt som handlar om att certifiera Galileo-tidprovision för synkronisering av disciplinerade referensskalor. Detta projekt syftar till att förbättra precisionen och tillförlitligheten i tidmätningar med hjälp av Galileo-satellitsystemet. Projektet kan ha betydelse för olika tillämpningar som kräver exakt tidmätning, men detaljerna om dess specifika mål och omfattning är inte tydliga. Det är oklart vilka specifika aktörer eller sektorer som direkt påverkas av detta projekt.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Om CLEPSYDRA-projektet kan förbättra precisionen i tidmätningar, kan det ha positiva effekter på olika områden som kräver exakt tidmätning, såsom navigation, kommunikation och vetenskaplig forskning. Projektet kan också bidra till att stärka Galileo-satellitsystemets tillförlitlighet och precision, vilket kan ha långsiktiga fördelar för olika sektorer som är beroende av satellitbaserad navigation. Det är dock oklart vilka specifika konsekvenser projektet kan ha och hur det kommer att påverka olika aktörer.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Galileo",
+        "tidprovision",
+        "satellitsystem"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "CLEPSYDRA - Certified gaLileo timE Provision for SYnchronisation of Disciplined Reference scAle",
+    "cached_at": "2026-06-03"
+  },
+  "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/gal4tsync-galileo-timing-receiver-critical": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån presenterar GAL4TSync, en ny timing receiver för Galileo-systemet som ska förbättra synkroniseringen av kritisk infrastruktur. Detta kan bidra till att förbättra säkerheten och effektiviteten i olika sektorer som transport, energi och kommunikation. GAL4TSync är en viktig del av Galileo-programmet, som syftar till att skapa ett europeiskt satellitnavigeringssystem. Detta system kan ge mer precisa och tillförlitliga positionerings- och tidssignaler.",
+      "tech_vinkel": "GAL4TSync är en specifik teknisk lösning för att förbättra synkroniseringen av kritisk infrastruktur med hjälp av Galileo-systemet.",
+      "varfor_viktigt": "Detta är viktigt eftersom en förbättrad synkronisering av kritisk infrastruktur kan bidra till att förbättra säkerheten och effektiviteten i olika sektorer. Dessutom kan Galileo-systemet ge mer precisa och tillförlitliga positionerings- och tidssignaler, vilket kan vara avgörande för många tillämpningar. Detta kan också bidra till att stärka EU:s oberoende och konkurrenskraft inom satellitnavigering.",
+      "eu_koppling": "Galileo-programmet",
+      "keywords": [
+        "GAL4TSync",
+        "Galileo-systemet",
+        "satellitnavigering",
+        "kritisk infrastruktur"
+      ],
+      "arende": "Galileo-programmet",
+      "nasta_steg": "Nästa steg i detta ärende är att implementera GAL4TSync i praktiken och integrera det med befintlig kritisk infrastruktur.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "Presentation av GAL4TSync"
+        }
+      ]
+    },
+    "title": "GAL4TSync - Galileo timing receiver for critical infrastructure synchronization",
+    "cached_at": "2026-06-03"
+  },
+  "https://data.riksdagen.se/dokument/HD03269.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har överlämnat en skrivelse till riksdagen om Riksrevisionens rapport om statens arbete mot problem med spel om pengar. Rapporten granskar hur staten hanterar problemen med spel om pengar och föreslår eventuella åtgärder. Skrivelsen är en redovisning av regeringens syn på rapporten och eventuella förslag till åtgärder. Detta dokument handlar främst om sociala frågor och spel om pengar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta dokument är viktigt eftersom det handlar om statens ansvar för att hantera problem med spel om pengar, som kan ha negativa konsekvenser för individer och samhället. Regeringens syn på rapporten och eventuella förslag till åtgärder kan påverka hur staten hanterar dessa problem i framtiden. Detta kan också ha konsekvenser för den svenska spelindustrin och för individer som spelar om pengar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "spel om pengar",
+        "Riksrevisionen",
+        "regeringens skrivelse"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-28",
+          "beskrivning": "Regeringen överlämnar skrivelsen till riksdagen"
+        }
+      ]
+    },
+    "title": "Riksrevisionens rapport statens arbete mot problem med spel om pengar",
+    "cached_at": "2026-06-03"
+  },
+  "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202635/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Sociala medier",
+      "sammanfattning": "Regeringen har tillsatt en utredning för att undersöka möjligheten att införa en åldersgräns för barns tillgång till sociala medier. Utredningen har nu presenterat sitt delbetänkande, som analyserar frågan och föreslår en åldersgräns. Förslaget syftar till att skydda barn från skadligt innehåll och påverkan på sociala medier. Utredningen har också undersökt hur en sådan åldersgräns skulle kunna implementeras och kontrolleras.",
+      "tech_vinkel": "Utredningen föreslår att sociala medier ska införa ålderskontroller för att säkerställa att barn under en viss ålder inte kan skapa konton eller komma åt viss typ av innehåll.",
+      "varfor_viktigt": "En åldersgräns för sociala medier kan ha en stor inverkan på barns och ungas användning av sociala medier och deras exponering för skadligt innehåll. Det kan också påverka sociala mediers ansvar och skyldigheter att skydda sina användare. Utredningens förslag kommer att vara viktigt för att skydda barns rättigheter och säkerhet på internet.",
+      "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala mediers ansvar och skyldigheter att skydda sina användare",
+      "keywords": [
+        "åldersgräns",
+        "sociala medier",
+        "barnsäkerhet"
+      ],
+      "arende": "Åldersgräns för sociala medier",
+      "nasta_steg": "Utredningens förslag kommer att remitteras till berörda myndigheter och organisationer för yttrande, varefter regeringen kommer att fatta beslut om huruvida förslaget ska gå vidare till riksdagen för beslut.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "Utredningens delbetänkande presenteras"
+        }
+      ]
+    },
+    "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
+    "cached_at": "2026-06-03"
   }
 }
