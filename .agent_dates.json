@@ -41,6 +41,18 @@
       "title": "Highlights - Exchange of views on the digital euro project - Committee on Economic and Monetary Affairs",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260519CAN78319",
       "arende": "Digital euro-projektet"
+    },
+    {
+      "beskrivning": "EU-kommissionen lade fram förslaget för Chips Act 2.0",
+      "title": "Proposal for the Chips Act 2.0",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20",
+      "arende": "EU Chips Act"
+    },
+    {
+      "beskrivning": "EU-kommissionen presenterar paketet för europeisk teknologisk suveränitet",
+      "title": "Communication on European Tech Sovereignty, accompanied by an EU Open Source Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy",
+      "arende": "European Tech Sovereignty Package"
     }
   ],
   "2026-06-22": [
@@ -407,6 +419,18 @@
       "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
       "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202635/",
       "arende": "Åldersgräns för sociala medier"
+    },
+    {
+      "beskrivning": "Presentation av STARGATE-systemet",
+      "title": "STARGATE - System for Trusted And Reliable Galileo Authenticated Time Ecosystem",
+      "url": "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/stargate-system-trusted-and-reliable-galileo",
+      "arende": "Galileo-programmet"
+    },
+    {
+      "beskrivning": "Delbetänkandet om åldersgräns på sociala medier överlämnas till socialminister Jakob Forssmed",
+      "title": "Utredningen om åldersgräns på sociala medier överlämnar delbetänkande",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/06/utredningen-om-aldersgrans-pa-sociala-medier-overlamnar-delbetankande/",
+      "arende": "Åldersgräns för sociala medier"
     }
   ],
   "2026-05-21": [
@@ -563,6 +587,12 @@
       "title": "Förslag om statligt stöd ska stärka mobil täckning längs vägar och järnvägar",
       "url": "https://www.regeringen.se/pressmeddelanden/2026/06/forslag-om-statligt-stod-ska-starka-mobil-tackning-langs-vagar-och-jarnvagar/",
       "arende": "null"
+    },
+    {
+      "beskrivning": "EU-kommissionen lade fram förslaget för Cloud and AI Development Act",
+      "title": "Proposal for the Cloud and AI Development Act (CADA)",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada",
+      "arende": "Cloud and AI Development Act"
     }
   ],
   "2026-05-19": [
