@@ -214,16 +214,34 @@ Prioriteringslista (uppdateras av journalisten):
 - EXKLUDERA (sätt relevans=låg): {excl_str}
 
 ═══ RELEVANSREGLER (STRIKT!) ═══
-Ett ärende är tech-relevant BARA om du kan peka på NÅGOT KONKRET:
-- En namngiven lag eller strategi (AI Act, NIS2, cybersäkerhetscenter, Chips Act)
-- En namngiven satsning eller myndighetsåtgärd inom tech (t.ex. "500 mkr till AI-forskning")
-- Ett konkret beslut som direkt reglerar tech (t.ex. "förbud mot ansiktsigenkänning på allmän plats")
+Först: ÄR det tech-relevant? Krav: konkret koppling till en namngiven lag, ett konkret beslut eller en specifik teknik. Om du bara kan säga "kan påverka tech" / "indirekt koppling" → sätt relevans="låg".
 
-Om du bara kan säga "budgeten KAN innehålla digitala satsningar" eller "propositionen KAN påverka tech" eller "även om det primärt handlar om X, finns en indirekt koppling till tech" eller "diskussionen kommer SANNOLIKT att beröra tech" — då är det INTE tech-relevant. Sätt relevans="låg".
+═══ HÖG / MEDEL / LÅG — KRITERIER ═══
+Du är RESTRIKTIV med "hög". Max ~20% av items ska vara hög per körning.
+
+HÖG (sparas för riktiga nyheter):
+- Svensk proposition, lagrådsremiss eller SOU med direkt tech-innehåll som överlämnas/publiceras
+- Regeringsbeslut/uppdrag som styr en specifik tech-fråga (t.ex. "Mediemyndigheten kartlägger algoritmer")
+- EU-kommissionens officiella förslag, slutgiltiga beslut eller tillsynsbeslut (t.ex. "DSA-utredning mot Pornhub", "AI Act-genomförande beslutat")
+- Kommittédirektiv om en specifik tech-fråga
+- Nyheter om sanktioner, böter, viktiga domar
+
+MEDEL (förberedande/informativt):
+- EU-konsultationer ("Have your say", "Consultation on draft guidelines")
+- Utkast till riktlinjer, surveys, rapporter
+- Pressmeddelanden om kommande utredningar (utan beslut än)
+- BEREC/EDPB/ENISA-opinions och guidelines
+
+LÅG (skippa nästan alltid):
+- Möten, hearings, presentations, voting time
+- Newsletters, översikter, FAQ
+- Generella beskrivningar utan namngivet beslut
+- "Highlights - Exchange of views" / "Highlights - Presentation of"
+
+Om titeln BÖRJAR med något av nedan → MAX medel (aldrig hög):
+"Survey on", "Consultation on", "Draft guidelines", "Highlights -", "Newsletters", "Latest news"
 
 Budgetpropositioner och vårpropositioner är LÅG om de inte nämner ett specifikt tech-initiativ vid namn.
-
-Mötesagendor, nyhetsbulletiner (t.ex. "Highlights", "Newsletters"), och dokument som bara säger "utskottet ska diskutera X" utan att innehålla konkreta förslag eller beslut är LÅG — det är inte ett beslut eller förslag, det är bara ett schema.
 
 ═══ JARGON OCH MYNDIGHETSSPRÅK (VIKTIGT!) ═══
 Journalisten känner till vanliga förkortningar (EU, AI, GDPR, IT), men INTE myndighetsjargong och EU-terminologi. Du MÅSTE:
@@ -437,6 +455,16 @@ Svara EXAKT i detta JSON-format, inget annat:
         for key in ("sammanfattning", "tech_vinkel", "varfor_viktigt", "eu_koppling"):
             if isinstance(analysis.get(key), str):
                 analysis[key] = _expand_abbreviations(analysis[key])
+        # Nedgradera relevans för förberedande/informativa titlar — aldrig hög
+        _DOWNGRADE_PREFIXES = (
+            "Survey on", "Consultation on", "Draft guidelines",
+            "Draft Commission guidelines", "Targeted consultation",
+            "Highlights -", "Newsletters", "Latest news",
+            "Have your say", "Call for", "Public consultation",
+        )
+        if (analysis.get("relevans") == "hög"
+                and any(title.startswith(p) for p in _DOWNGRADE_PREFIXES)):
+            analysis["relevans"] = "medel"
         item["analysis"] = analysis
     except json.JSONDecodeError:
         # Försök hitta en parserbar delmängd

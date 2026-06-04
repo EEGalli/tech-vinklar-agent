@@ -21,7 +21,7 @@
   },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260506CAN78119": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "AI",
       "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) har nått en överenskommelse med EU:s råd om att ändra reglerna i EU:s AI-lagstiftning. Ändringarna syftar till att göra det enklare för företag att följa AI-lagen, samtidigt som de viktigaste delarna och den riskbaserade ansatsen behålls. En del av ändringarna innebär att tillämpningen av vissa regler skjuts upp.",
       "tech_vinkel": "Överenskommelsen handlar om att ändra EU:s AI Act (EU:s AI-förordning), vilket är en lagstiftning som reglerar utveckling och användning av artificiell intelligens genom att klassificera AI-system utifrån risknivå och ställa krav på transparens och ansvar.",
@@ -48,7 +48,7 @@
   },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260505CAN78065": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "AI",
       "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) diskuterade hur man säkerställer säkerheten för artificiella intelligenssystem som kan utgöra säkerhetsrisker. Diskussionen handlade om hur befintlig EU-lagstiftning, inklusive Cyber Security Act och AI Act (EU:s AI-förordning), tillämpas i praktiken, med exempel som Anthropic’s Mythos. Syftet var att undersöka hur man kan reglera AI-system när de blir allt kraftfullare.",
       "tech_vinkel": "Utskottet diskuterade specifikt hur AI Act (EU:s AI-förordning), som är EU:s lagstiftning för att reglera AI-system, tillämpas på kraftfulla AI-system som Anthropic’s Mythos.",
@@ -1508,7 +1508,7 @@
   },
   "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "AI",
       "sammanfattning": "EU-kommissionen har öppnat en konsultation om utkast till riktlinjer för transparensförpliktelser inom ramen för AI Act (EU:s AI-förordning). Riktlinjerna syftar till att klargöra hur AI-system ska vara transparenta, vilket innebär att användare och andra intressenter ska kunna förstå hur systemen fungerar och vilka data de bygger på. Konsultationen är öppen för allmänheten och syftar till att samla in synpunkter innan de slutgiltiga riktlinjerna fastställs. Detta påverkar utvecklare och användare av AI-system inom EU.",
       "tech_vinkel": "Dokumentet handlar specifikt om att fastställa riktlinjer för transparensförpliktelser, vilket är en central del av AI Act (EU:s AI-förordning) som kräver att vissa AI-system ska vara transparenta om hur de fungerar och vilka data de använder.",
@@ -1964,7 +1964,7 @@
   },
   "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "AI",
       "sammanfattning": "EU-kommissionen har publicerat utkast till riktlinjer för klassificering av högriskartificiell intelligens (AI)-system. Dessa riktlinjer syftar till att stödja leverantörer och användare av AI-system, samt marknadstillsynsmyndigheter, i att bedöma om ett AI-system ska klassificeras som högrisk. Detta är en del av EU-kommissionens arbete med att implementera AI Act (EU:s AI-förordning), som syftar till att reglera utveckling och användning av AI-system i EU. Riktlinjerna ska bidra till en enhetlig tillämpning och effektivt genomförande av AI Act.",
       "tech_vinkel": "Utkastet till riktlinjer för klassificering av högrisk-AI-system innehåller specifika kriterier för att bedöma om ett AI-system ska klassificeras som högrisk, vilket är en central del av AI Act (EU:s AI-förordning).",
@@ -1989,7 +1989,7 @@
   },
   "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "AI",
       "sammanfattning": "EU-kommissionen har öppnat en konsultation om riktlinjer för klassificering av högriskartificiell intelligenssystem. Konsultationen syftar till att samla in synpunkter på tydligheten i riktlinjerna och användbarheten av exemplen. Målet är att förbättra klassificeringen av högrisk-AI-system för att säkerställa att de utvecklas och används på ett ansvarsfullt sätt. Konsultationen är öppen till den 23 juni 2026.",
       "tech_vinkel": "EU-kommissionen föreslår specifika riktlinjer för klassificering av högriskartificiell intelligenssystem, vilket är en viktig teknisk aspekt av AI-utveckling.",
@@ -2090,7 +2090,7 @@
   },
   "https://digital-strategy.ec.europa.eu/en/consultations/survey-eu-legal-framework-health-data-and-data-driven-health-technologies": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "Dataskydd och integritet",
       "sammanfattning": "EU-kommissionen genomför en undersökning om det rättsliga ramverket för hälsodata och datadriven hälsovägledning inom EU. Syftet är att samla in erfarenheter från verkligheten om hur man får tillgång till och återanvänder hälsodata, samt hur man följer EU-reglerna när det gäller datadriven hälsovård. Undersökningen är öppen från den 13 maj 2026 till den 22 maj 2026. Målet är att förbättra det rättsliga ramverket för hälsodata och datadriven hälsovård.",
       "tech_vinkel": "EU-kommissionen undersöker det rättsliga ramverket för hälsodata, vilket inkluderar frågor om dataskydd, integritet och återanvändning av hälsodata i datadriven hälsovård.",
@@ -3097,7 +3097,7 @@
   },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260519CAN78319": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "Digital infrastruktur",
       "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) kommer att ha en utfrågning med Piero Cipollone, ledamot i Europeiska centralbankens (ECB) verkställande styrelse, om det digitala euro-projektet. Projektet syftar till att införa en digital version av euron. Utskottet vill diskutera de senaste utvecklingarna i projektet, som bland annat inkluderar en pilotstudie som planeras att starta under andra halvåret 2026. Det digitala euro-projektet är en del av ECB:s arbete med att undersöka möjligheterna för en digital valuta.",
       "tech_vinkel": "Det digitala euro-projektet innebär att ECB undersöker möjligheterna för en digital valuta, vilket är en tydlig tech-vinkel i detta dokument.",
@@ -3288,7 +3288,7 @@
   },
   "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-trusted-flaggers-under-digital-services-act-dsa": {
     "analysis": {
-      "relevans": "hög",
+      "relevans": "medel",
       "tema": "Plattformsreglering",
       "sammanfattning": "EU-kommissionen söker feedback på utkast till riktlinjer för så kallade 'trusted flaggers' enligt Digital Services Act (DSA). Dessa riktlinjer handlar om hur plattformar ska hantera rapporter om olagligt innehåll och vilka krav som ställs på de som rapporterar. Syftet är att säkerställa att plattformarna tar ansvar för att ta bort olagligt innehåll och att skydda användarna. Detta är en viktig del av EU:s arbete för att reglera digitala tjänster och säkerställa att de fungerar på ett sätt som är säkert och ansvarsfullt.",
       "tech_vinkel": "Digital Services Act (DSA) innehåller bestämmelser om hur plattformar ska hantera olagligt innehåll, vilket är en specifik tech-fråga som berör plattformsreglering och innehållsmoderering.",
