@@ -378,6 +378,41 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     {js_and_panel}"""
 
 
+def _clean_title(item: dict) -> str:
+    """Tvättar intetsägande RSS/byrå-rubriker. Använder första meningen av
+    sammanfattningen som ersättningsrubrik när originaltiteln är opaque."""
+    title = (item.get("title") or "Utan titel").strip()
+    samm = (item.get("analysis", {}).get("sammanfattning") or "").strip()
+
+    # Opaque-mönster där originaltiteln säger lite eller inget
+    opaque_prefixes = (
+        "Latest news -", "Highlights -", "Newsletters",
+    )
+    opaque_patterns = (
+        "e-mail alert", "press release",
+        "opinion ", "annual report ",
+    )
+
+    lt = title.lower()
+    is_opaque = (
+        any(title.startswith(p) for p in opaque_prefixes)
+        or any(p in lt for p in opaque_patterns)
+        or len(title) < 15
+    )
+
+    if is_opaque and samm:
+        # Första meningen av sammanfattning, men inte längre än 100 tecken
+        import re as _re
+        first = _re.split(r"(?<=[.!?])\s+", samm, maxsplit=1)[0]
+        first = first.strip().rstrip(".")
+        if len(first) > 100:
+            first = first[:100].rsplit(" ", 1)[0] + "…"
+        if len(first) > 15:  # bara om vi har en vettig mening
+            return first
+
+    return title
+
+
 def _date_mini_card(entry: dict) -> str:
     """Mini-card för ett viktigt datum (AI-extraherat från viktiga_datum-fältet).
     Visar beskrivning + länk till källdokumentet."""
@@ -401,7 +436,7 @@ def _mini_card(item: dict) -> str:
     relevans = analysis.get("relevans", "okänd")
     color = RELEVANCE_COLOR.get(relevans, "#888")
     emoji = RELEVANCE_EMOJI.get(relevans, "⚪")
-    title = item.get("title", "Utan titel")
+    title = _clean_title(item)
     url = item.get("url", "")
     from urllib.parse import urlparse as _urlparse
     _url_specific = bool(url and _urlparse(url).path.strip("/"))
@@ -462,7 +497,7 @@ def _full_card(item: dict) -> str:
     emoji = RELEVANCE_EMOJI.get(relevans, "⚪")
     color = RELEVANCE_COLOR.get(relevans, "#888")
     label = RELEVANCE_LABEL.get(relevans, relevans)
-    title = item.get("title", "Utan titel")
+    title = _clean_title(item)
     date_str = (item.get("date") or "")[:10]
     committee = item.get("committee", "")
     url = item.get("url", "")
@@ -648,7 +683,7 @@ def _build_new_today_section(items: list[dict], today_date: date) -> str:
     import html as _htmllib
     rows = ""
     for item in new_items:
-        title = item.get("title", "")
+        title = _clean_title(item)
         source = SOURCE_SHORT.get(item.get("source", ""), item.get("source", ""))
         analysis = item.get("analysis", {})
         relevans = analysis.get("relevans", "okänd")
@@ -717,7 +752,7 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
         rows = ""
         for item in tema_items:
             analysis = item.get("analysis", {})
-            title = item.get("title", "Utan titel")
+            title = _clean_title(item)
             relevans = analysis.get("relevans", "okänd")
             dot_color = RELEVANCE_DOT.get(relevans, "#ccc")
             source = item.get("source", "")

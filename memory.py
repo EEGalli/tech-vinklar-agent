@@ -153,6 +153,9 @@ def get_important_dates() -> dict:
         "propositionen", "ärendet", "utskottet", "skrivelsen",
         "konsultationen", "dokumentet", "förslaget", "regeringen",
         "mötet", "mötet.", "beslutet",
+        "debatt", "riksdagen", "omröstning", "vote ",
+        "behandlar", "behandlas", "behandling", "lämnas",
+        "publiceras", "presenteras",
     )
 
     def _add_context(beskr: str, title: str, arende: str) -> str:
