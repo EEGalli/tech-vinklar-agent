@@ -53,6 +53,18 @@
       "title": "Communication on European Tech Sovereignty, accompanied by an EU Open Source Strategy",
       "url": "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy",
       "arende": "European Tech Sovereignty Package"
+    },
+    {
+      "beskrivning": "EU-kommissionen presenterar det europeiska teknologiska suveränitetspaketet",
+      "title": "Commission proposes tech sovereignty package to strengthen Europe's digital autonomy and resilience",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-tech-sovereignty-package-strengthen-europes-digital-autonomy-and-resilience",
+      "arende": "EU Chips Act"
+    },
+    {
+      "beskrivning": "Publiceringen av EBA:s rapport om DORA",
+      "title": "EBA E-mail alert 3 June, 2026",
+      "url": "https://www.eba.europa.eu/node/19720",
+      "arende": "DORA-implementering"
     }
   ],
   "2026-06-22": [
@@ -431,6 +443,12 @@
       "title": "Utredningen om åldersgräns på sociala medier överlämnar delbetänkande",
       "url": "https://www.regeringen.se/pressmeddelanden/2026/06/utredningen-om-aldersgrans-pa-sociala-medier-overlamnar-delbetankande/",
       "arende": "Åldersgräns för sociala medier"
+    },
+    {
+      "beskrivning": "EDPB publicerar sin opinion om Infor Group:s regler för behandling av personuppgifter",
+      "title": "Opinion 17/2026 on the draft decision of the Dutch Supervisory Authority regarding the Processor Binding Corporate Rules of the Infor Group",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-172026-draft-decision-dutch-supervisory_en",
+      "arende": "Dataskydd och integritet"
     }
   ],
   "2026-05-21": [
@@ -571,6 +589,12 @@
       "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
       "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-trusted-flaggers-under-digital-services-act-dsa",
       "arende": "Digital Services Act"
+    },
+    {
+      "beskrivning": "Sista datum för att svara på undersökningen",
+      "title": "European Commission survey: AI in healthcare and pharmaceuticals",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/european-commission-survey-ai-healthcare-and-pharmaceuticals",
+      "arende": "AI Act"
     }
   ],
   "2026-06-15": [

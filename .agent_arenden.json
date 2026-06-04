@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "next_step": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
     "documents": [
@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -321,7 +321,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -347,13 +347,20 @@
         "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20",
         "source": "EU-kommissionen",
         "tech_vinkel": "Förslaget för Chips Act (EU-satsningen på halvledartillverkning) 2.0 innehåller specifika åtgärder för att stödja utvecklingen av avancerad halvledarteknologi, såsom 3D-transistorer och kvantdatorer, i EU."
+      },
+      {
+        "title": "Commission proposes tech sovereignty package to strengthen Europe's digital autonomy and resilience",
+        "date": "Wed, 03 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-tech-sovereignty-package-strengthen-europes-digital-autonomy-and-resilience",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Paketet innehåller specifika åtgärder för att stärka Europas kapacitet inom halvledare, artificiell intelligens (AI), molntjänster och öppen källkod, vilket är en tydlig tech-vinkel."
       }
     ]
   },
   "Stärkt lagstiftning mot hedersrelaterat våld": {
     "name": "Stärkt lagstiftning mot hedersrelaterat våld",
     "first_seen": "2026-04-16",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -548,11 +555,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "EU-kommissionen kommer att sammanställa synpunkterna från konsultationen och använda dem för att förbättra riktlinjerna för klassificering av högrisk-AI-system.",
+    "next_step": "EU-kommissionen kommer att samla in synpunkter på utkastet till riktlinjer innan de antas i sin slutliga form.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -618,6 +625,13 @@
         "tech_vinkel": "EU-kommissionen föreslår specifika riktlinjer för klassificering av högriskartificiell intelligenssystem, vilket är en viktig teknisk aspekt av AI-utveckling."
       },
       {
+        "title": "European Commission survey: AI in healthcare and pharmaceuticals",
+        "date": "Wed, 03 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/consultations/european-commission-survey-ai-healthcare-and-pharmaceuticals",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Undersökningen fokuserar specifikt på användningen av AI inom hälso- och läkemedelssektorn, vilket är en tydlig tech-vinkel."
+      },
+      {
         "title": "Highlights - How safe is AI? MEPs question experts on new risks and rules - Committee on the Internal Market and Consumer Protection",
         "date": "Wed, 06 Ma",
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260505CAN78065",
@@ -654,7 +668,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -686,7 +700,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -820,7 +834,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -863,7 +877,7 @@
   "Galileo-programmet": {
     "name": "Galileo-programmet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -895,7 +909,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -920,10 +934,10 @@
   "Cloud and AI Development Act": {
     "name": "Cloud and AI Development Act",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
+    "is_new_today": false,
+    "is_updated_today": true,
     "next_step": "Förslaget kommer att skickas till EU-parlamentet och rådet för ytterligare diskussion och beslut.",
     "documents": [
       {
@@ -932,6 +946,24 @@
         "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada",
         "source": "EU-kommissionen",
         "tech_vinkel": "Förslaget för Cloud and AI Development Act (CADA) innehåller specifika bestämmelser för att främja utvecklingen av molntjänster och artificiell intelligens inom EU, vilket är en tydlig tech-vinkel."
+      }
+    ]
+  },
+  "DORA-implementering": {
+    "name": "DORA-implementering",
+    "first_seen": "2026-06-04",
+    "last_updated": "2026-06-04",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "EBA kommer att fortsätta att övervaka och rapportera om IT-relaterade incidenter inom den finansiella sektorn, och banker och andra finansiella institutioner måste anpassa sig till de nya kraven.",
+    "documents": [
+      {
+        "title": "EBA E-mail alert 3 June, 2026",
+        "date": "Wed, 03 Ju",
+        "url": "https://www.eba.europa.eu/node/19720",
+        "source": "EBA",
+        "tech_vinkel": "Rapporten fokuserar specifikt på DORA (EU-förordningen om digital motståndskraft i finanssektorn), som är en EU-lagstiftning som kräver att kritiska verksamheter, inklusive banker, höjer sin cybersäkerhet och rapporterar om IT-relaterade incidenter."
       }
     ]
   }
