@@ -180,6 +180,13 @@
         "tech_vinkel": "IMCO-utskottets möten behandlar troligen frågor som påverkar digitala marknader och konsumentskydd, vilket kan inkludera algoritmer, plattformars ansvar och AI-system."
       },
       {
+        "title": "Latest news - Next Committee Meetings; 24 & 25 June 2026  - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 04 Ju",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
         "title": "Latest news - Next Committee Meetings; Wednesday, 6 May & Thursday, 7 May - Committee on the Internal Market and Consumer Protection",
         "date": "Thu, 16 Ap",
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
@@ -954,8 +961,8 @@
     "first_seen": "2026-06-04",
     "last_updated": "2026-06-04",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
+    "is_new_today": false,
+    "is_updated_today": true,
     "next_step": "EBA kommer att fortsätta att övervaka och rapportera om IT-relaterade incidenter inom den finansiella sektorn, och banker och andra finansiella institutioner måste anpassa sig till de nya kraven.",
     "documents": [
       {

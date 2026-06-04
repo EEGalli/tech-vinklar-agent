@@ -4209,5 +4209,100 @@
     },
     "title": "En god arbetsmiljö i ett föränderligt arbetsliv – regeringens arbetsmiljöstrategi för 2026–2031",
     "cached_at": "2026-06-04"
+  },
+  "https://www.berec.europa.eu/en/public-consultations-calls-for-inputs/call-for-inputs-on-the-amended-template-used-for-the-roaming-data-collection": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-byrån BEREC (Body of European Regulators for Electronic Communications) har startat en offentlig konsultation om en reviderad mall för insamling av data om roaming. Syftet är att samla in synpunkter från berörda parter om den föreslagna ändringen av mallen. Konsultationen är öppen till den 3 juli 2026. Detta är en del av BERECs arbete med att övervaka och reglera den europeiska telekommarknaden.",
+      "tech_vinkel": "Den reviderade mallen för insamling av roamingdata är en specifik teknisk fråga som berör hur telekomoperatörer samlar in och rapporterar data om roamingtjänster.",
+      "varfor_viktigt": "Denna konsultation är viktig eftersom den kan påverka hur telekomoperatörer i Europa samlar in och rapporterar data om roamingtjänster. Detta kan i sin tur påverka kvaliteten och tillgängligheten av roamingtjänster för konsumenter. Dessutom kan resultaten av denna konsultation bidra till att förbättra den europeiska telekommarknadens funktion och reglering.",
+      "eu_koppling": "Roamingförordningen (EU) 531/2012",
+      "keywords": [
+        "roaming",
+        "telekom",
+        "BEREC",
+        "EU"
+      ],
+      "arende": "Digital infrastruktur",
+      "nasta_steg": "BEREC kommer att sammanställa och analysera de inkomna synpunkterna och därefter publicera en rapport om resultaten av konsultationen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-03",
+          "beskrivning": "Sista datum för att lämna synpunkter på den reviderade mallen för insamling av roamingdata"
+        }
+      ]
+    },
+    "title": "Call for Inputs on the amended template used for the roaming data collection",
+    "cached_at": "2026-06-04"
+  },
+  "https://www.euspa.europa.eu/node/9744": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en annons om en ledig tjänst som Team Leader för GSMC Local Security Office. Detta innebär att byrån söker en person som ska leda och ansvara för säkerhetsarbetet inom GSMC. Tjänsten är en del av byråns arbete med att säkerställa säkerheten för dess verksamhet och personal.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna tjänst är viktig för EUSPA:s verksamhet eftersom den säkerställer att byråns säkerhetsarbete är effektivt och att personalen och verksamheten är skyddade. Detta är särskilt viktigt inom rymdindustrin där säkerheten är av yttersta vikt. Tjänsten kan också ha en indirekt påverkan på EU:s rymdpolitik och säkerhetsarbete.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "GSMC",
+        "säkerhet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "GSMC Local Security Office Team Leader",
+    "cached_at": "2026-06-04"
+  },
+  "https://data.riksdagen.se/dokument/HD01CU43.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksrevisionen har granskat statens insatser för att trygga bostadsaffärer. Detta dokument handlar om Riksrevisionens rapport som presenterar resultaten av denna granskning. Rapporten syftar till att bedöma om statens insatser är effektiva för att trygga bostadsaffärer. Det är dock oklart vad som föreslås eller vem som påverkas direkt av denna rapport.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna rapport kan ha betydelse för hur staten hanterar bostadsaffärer i framtiden. Den kan leda till förändringar i statens insatser för att trygga bostadsaffärer, men det är oklart vilka specifika konsekvenser rapporten kan få. Tajmingen spelar roll eftersom rapporten kan påverka beslut som fattas i närtid.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Riksrevisionen",
+        "bostadsaffärer",
+        "statens insatser"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Riksdagen kommer att behandla Riksrevisionens rapport om statens insatser för trygga bostadsaffärer"
+        }
+      ]
+    },
+    "title": "Riksrevisionens rapport om statens insatser för trygga bostadsaffärer",
+    "cached_at": "2026-06-04"
+  },
+  "https://data.riksdagen.se/dokument/HD01FiU20.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen ska omrösta om riktlinjer för den ekonomiska politiken och budgetpolitiken. Detta dokument handlar om den övergripande ekonomiska politiken och hur den ska genomföras. Inga specifika tekniska förslag eller ändringar nämns. Dokumentet är en del av den årliga budgetprocessen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna omröstning är viktig eftersom den påverkar den övergripande ekonomiska politiken i landet. Den kan ha konsekvenser för olika sektorer och aktörer i samhället. Tajmingen spelar roll eftersom det är en del av den årliga budgetprocessen. Det kan dock inte anses vara direkt viktigt för tech-området.",
+      "eu_koppling": null,
+      "keywords": [
+        "ekonomisk politik",
+        "budgetpolitik"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Omröstning i Riksdagen"
+        }
+      ]
+    },
+    "title": "Riktlinjer för den ekonomiska politiken och budgetpolitiken",
+    "cached_at": "2026-06-04"
   }
 }

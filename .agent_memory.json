@@ -11517,11 +11517,11 @@
   ],
   "2026-06-04": [
     {
-      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
+      "title": "Latest news - Next Committee Meetings; 24 & 25 June 2026  - Committee on the Internal Market and Consumer Protection",
       "source": "EU-parlamentet",
       "type": "EP/Utskott",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Wed, 03 Jun 2026",
+      "date": "Thu, 04 Jun 2026",
       "analysis": {
         "relevans": "medel",
         "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
@@ -11665,29 +11665,31 @@
       }
     },
     {
-      "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
+      "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
       "source": "EU-kommissionen",
-      "type": "Digital Strategy — Konsultation",
-      "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-trusted-flaggers-under-digital-services-act-dsa",
-      "date": "Fri, 29 May 2026",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
+      "date": "Thu, 28 May 2026",
       "analysis": {
         "relevans": "hög",
         "tema": "Plattformsreglering",
-        "sammanfattning": "EU-kommissionen söker feedback på utkast till riktlinjer för så kallade 'trusted flaggers' enligt Digital Services Act (DSA). Dessa riktlinjer handlar om hur plattformar ska hantera rapporter om olagligt innehåll och vilka krav som ställs på de som rapporterar. Syftet är att säkerställa att plattformarna tar ansvar för att ta bort olagligt innehåll och att skydda användarna. Detta är en viktig del av EU:s arbete för att reglera digitala tjänster och säkerställa att de fungerar på ett sätt som är säkert och ansvarsfullt.",
-        "tech_vinkel": "Digital Services Act (DSA) innehåller bestämmelser om hur plattformar ska hantera olagligt innehåll, vilket är en specifik tech-fråga som berör plattformsreglering och innehållsmoderering.",
-        "varfor_viktigt": "Detta är viktigt eftersom det handlar om att skydda användarna av digitala tjänster från olagligt innehåll och säkerställa att plattformarna tar ansvar för sin roll i samhället. Det kan också ha en stor inverkan på hur plattformarna utvecklas och fungerar i framtiden. Dessutom är det en del av EU:s bredare arbete för att reglera den digitala marknaden och säkerställa att den fungerar på ett sätt som är säkert och ansvarsfullt för alla parter.",
-        "eu_koppling": "Digital Services Act (DSA) - en EU-lag som reglerar digitala tjänster och plattformar",
+        "sammanfattning": "EU-kommissionen har utfärdat en bot på 200 miljoner euro till företaget Temu för brott mot Digital Services Act (DSA). Detta är en av de första gångerna som kommissionen använt sig av DSA för att påföra en sådan bot. Beslutet visar på EU-kommissionens allvarliga inställning till att se till att företag följer de regler som finns för att skydda användare på internet. Temu har inte uppfyllt kraven enligt DSA, vilket har lett till denna betydande bot.",
+        "tech_vinkel": "Digital Services Act (DSA) är den specifika EU-lag som ligger till grund för boten mot Temu, vilken syftar till att reglera och säkerställa en säker och transparent online-miljö.",
+        "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU-kommissionen är beredd att använda sin makt för att säkerställa att företag följer de regler som finns för att skydda användare på internet. Det sänder också en tydlig signal till andra företag att de måste ta sina skyldigheter enligt DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) på allvar. Konsekvenserna av detta beslut kan bli att fler företag ser över sina processer och ser till att de följer de regler som finns, vilket i sin tur kan leda till en säkrare och mer transparent online-miljö.",
+        "eu_koppling": "Digital Services Act (DSA), som är en EU-lag som syftar till att reglera digitala tjänster och säkerställa en säker och transparent online-miljö",
         "keywords": [
           "Digital Services Act",
-          "plattformsreglering",
-          "innehållsmoderering"
+          "DSA",
+          "EU-kommissionen",
+          "Temu",
+          "bot"
         ],
         "arende": "Digital Services Act",
-        "nasta_steg": "EU-kommissionen kommer att sammanställa feedbacken och använda den för att slutligt fastställa riktlinjerna för 'trusted flaggers' enligt DSA.",
+        "nasta_steg": "Temu kommer troligen att överklaga beslutet, men EU-kommissionen kommer att fortsätta att övervaka situationen och se till att företaget följer de regler som finns.",
         "viktiga_datum": [
           {
-            "datum": "2026-06-26",
-            "beskrivning": "Sista datum för att lämna feedback på utkast till riktlinjer"
+            "datum": "2026-05-28",
+            "beskrivning": "EU-kommissionen utfärdar bot på 200 miljoner euro till Temu"
           }
         ]
       }
@@ -11717,6 +11719,36 @@
           {
             "datum": "2026-06-02",
             "beskrivning": "EDPB publicerar sin opinion om Infor Group:s regler för behandling av personuppgifter"
+          }
+        ]
+      }
+    },
+    {
+      "title": "En statlig e-legitimation",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03250.html",
+      "date": "2026-05-07",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen föreslår en ny lag om statlig e-legitimation. Detta innebär att staten ska erbjuda en digital identitet som medborgare kan använda för att logga in på statliga och privata tjänster online. Syftet är att göra det enklare och säkrare för medborgare att identifiera sig digitalt och att minska beroendet av privata aktörer. Lagen kommer att påverka både medborgare och företag som erbjuder digitala tjänster.",
+        "tech_vinkel": "Propositionen föreslår en ny lagstiftning som reglerar och möjliggör en statlig e-legitimation, vilket är en specifik digital infrastruktur för identitetshantering och autentisering.",
+        "varfor_viktigt": "En statlig e-legitimation kan öka medborgarnas förtroende för digitala tjänster och minska risken för identitetsstöld. Det kan också underlätta för företag att erbjuda digitala tjänster och minska kostnaderna för identitetskontroll. En sådan lösning är central för att möjliggöra digitaliseringen av samhället och för att säkerställa att alla medborgare kan delta i den digitala ekonomin.",
+        "eu_koppling": "eIDAS (European Digital Identification Authentication and Trust Services) – EU-förordningen som fastställer ramarna för elektronisk identifiering och betrottjänster på EU-nivå. Den svenska lagen om statlig e-legitimation måste vara förenlig med eIDAS.",
+        "keywords": [
+          "e-legitimation",
+          "digital identitet",
+          "statlig identitet",
+          "digitalisering",
+          "eIDAS"
+        ],
+        "arende": "Digital infrastruktur",
+        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-07",
+            "beskrivning": "Riksdagen behandlar propositionen"
           }
         ]
       }
@@ -11897,64 +11929,6 @@
       }
     },
     {
-      "title": "En statlig e-legitimation",
-      "source": "Riksdagen",
-      "type": "Riksdagen/PROP",
-      "url": "https://data.riksdagen.se/dokument/HD03250.html",
-      "date": "2026-05-07",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "Regeringen föreslår en ny lag om statlig e-legitimation. Detta innebär att staten ska erbjuda en digital identitet som medborgare kan använda för att logga in på statliga och privata tjänster online. Syftet är att göra det enklare och säkrare för medborgare att identifiera sig digitalt och att minska beroendet av privata aktörer. Lagen kommer att påverka både medborgare och företag som erbjuder digitala tjänster.",
-        "tech_vinkel": "Propositionen föreslår en ny lagstiftning som reglerar och möjliggör en statlig e-legitimation, vilket är en specifik digital infrastruktur för identitetshantering och autentisering.",
-        "varfor_viktigt": "En statlig e-legitimation kan öka medborgarnas förtroende för digitala tjänster och minska risken för identitetsstöld. Det kan också underlätta för företag att erbjuda digitala tjänster och minska kostnaderna för identitetskontroll. En sådan lösning är central för att möjliggöra digitaliseringen av samhället och för att säkerställa att alla medborgare kan delta i den digitala ekonomin.",
-        "eu_koppling": "eIDAS (European Digital Identification Authentication and Trust Services) – EU-förordningen som fastställer ramarna för elektronisk identifiering och betrottjänster på EU-nivå. Den svenska lagen om statlig e-legitimation måste vara förenlig med eIDAS.",
-        "keywords": [
-          "e-legitimation",
-          "digital identitet",
-          "statlig identitet",
-          "digitalisering",
-          "eIDAS"
-        ],
-        "arende": "Digital infrastruktur",
-        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-07",
-            "beskrivning": "Riksdagen behandlar propositionen"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Utredningen om åldersgräns på sociala medier överlämnar delbetänkande",
-      "source": "Regeringen",
-      "type": "Pressmeddelande",
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/06/utredningen-om-aldersgrans-pa-sociala-medier-overlamnar-delbetankande/",
-      "date": "2026-06-02",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Sociala medier",
-        "sammanfattning": "Regeringen har fått ett delbetänkande från utredningen om åldersgräns på sociala medier. Utredningen syftar till att skydda barns hälsa och välbefinnande på nätet. Socialminister Jakob Forssmed tar emot delbetänkandet och kommer att granska förslagen. Detta är ett steg mot att införa åldersgränser för sociala medier i Sverige.",
-        "tech_vinkel": "Utredningen om åldersgräns på sociala medier behandlar tekniska aspekter kring hur sociala medier kan skydda barn och unga från skadligt innehåll och hur åldersgränser kan implementeras på plattformarna.",
-        "varfor_viktigt": "Detta är viktigt eftersom sociala medier har en stor påverkan på barns och ungas liv och välbefinnande. Åldersgränser kan hjälpa till att skydda dem från skadligt innehåll och otillbörlig marknadsföring. Regeringens beslut kommer att påverka sociala medie-plattformar och deras användare i Sverige. Tajmingen är viktig eftersom allt fler barn och unga använder sociala medier, och det är viktigt att skydda dem så snart som möjligt.",
-        "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala medier och andra digitala tjänster",
-        "keywords": [
-          "åldersgräns",
-          "sociala medier",
-          "barns hälsa"
-        ],
-        "arende": "Åldersgräns för sociala medier",
-        "nasta_steg": "Regeringen kommer att granska delbetänkandet och förslagen om åldersgräns på sociala medier, och därefter kommer ett slutbetänkande att lämnas in.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-02",
-            "beskrivning": "Delbetänkandet om åldersgräns på sociala medier överlämnas till socialminister Jakob Forssmed"
-          }
-        ]
-      }
-    },
-    {
       "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
       "source": "Regeringen",
       "type": "Regeringsuppdrag",
@@ -11979,6 +11953,34 @@
           {
             "datum": "2026-05-22",
             "beskrivning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer"
+          }
+        ]
+      }
+    },
+    {
+      "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
+      "source": "Regeringen",
+      "type": "SOU",
+      "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202635/",
+      "date": "2026-06-02",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen har tillsatt en utredning för att undersöka möjligheten att införa en åldersgräns för barns tillgång till sociala medier. Utredningen har nu presenterat sitt delbetänkande, som analyserar frågan och föreslår en åldersgräns. Förslaget syftar till att skydda barn från skadligt innehåll och påverkan på sociala medier. Utredningen har också undersökt hur en sådan åldersgräns skulle kunna implementeras och kontrolleras.",
+        "tech_vinkel": "Utredningen föreslår att sociala medier ska införa ålderskontroller för att säkerställa att barn under en viss ålder inte kan skapa konton eller komma åt viss typ av innehåll.",
+        "varfor_viktigt": "En åldersgräns för sociala medier kan ha en stor inverkan på barns och ungas användning av sociala medier och deras exponering för skadligt innehåll. Det kan också påverka sociala mediers ansvar och skyldigheter att skydda sina användare. Utredningens förslag kommer att vara viktigt för att skydda barns rättigheter och säkerhet på internet.",
+        "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala mediers ansvar och skyldigheter att skydda sina användare",
+        "keywords": [
+          "åldersgräns",
+          "sociala medier",
+          "barnsäkerhet"
+        ],
+        "arende": "Åldersgräns för sociala medier",
+        "nasta_steg": "Utredningens förslag kommer att remitteras till berörda myndigheter och organisationer för yttrande, varefter regeringen kommer att fatta beslut om huruvida förslaget ska gå vidare till riksdagen för beslut.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-02",
+            "beskrivning": "Utredningens delbetänkande presenteras"
           }
         ]
       }
