@@ -4304,5 +4304,64 @@
     },
     "title": "Riktlinjer för den ekonomiska politiken och budgetpolitiken",
     "cached_at": "2026-06-04"
+  },
+  "https://www.euspa.europa.eu/about/organisation-governance/documents-access": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Dokumentet handlar om hantering av personuppgifter för ledningsgruppen och personalen inom Europeiska rymdbyrån, EUSPA. Det verkar vara en intern hantering av personuppgifter och inte direkt relaterat till någon specifik lagstiftningsprocess eller teknisk innovation. Dokumentet är mer av administrativ karaktär och berör inte någon specifik tech-fråga direkt.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Dokumentet kan vara viktigt för att säkerställa att EUSPA hanterar personuppgifter på ett korrekt sätt, men det har ingen direkt påverkan på teknikutvecklingen eller lagstiftningsprocessen inom EU. Det är mer en intern administrativ fråga för byrån.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "personuppgifter",
+        "dataskydd"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA's Administrative Board and Management personal data",
+    "cached_at": "2026-06-05"
+  },
+  "https://www.euspa.europa.eu/about/organisation-governance": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Dokumentet handlar om organisation och governance inom Europeiska rymdbyrån. Det verkar vara en intern organisatorisk fråga utan direkt koppling till specifika tekniska initiativ eller lagstiftningsärenden. Inga specifika förslag eller ändringar nämns i sammanfattningen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta dokument verkar vara en intern organisatorisk fråga inom Europeiska rymdbyrån och saknar direkt koppling till specifika tekniska initiativ eller lagstiftningsärenden. Det kan vara viktigt för den interna organisationen och ledningen av byrån, men det har ingen direkt påverkan på teknikutveckling eller lagstiftning.",
+      "eu_koppling": null,
+      "keywords": [
+        "Europeiska rymdbyrån",
+        "organisation",
+        "governance"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Organisation & Governance",
+    "cached_at": "2026-06-05"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/06/myndigheternas-forenklingsuppdrag-utvarderas/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen utvärderar myndigheternas förenklingsuppdrag som en del av sin offensiva förenklingsagenda. Detta innebär att ett tjugotal myndigheter har fått i uppdrag att stärka sin förmåga att förenkla regler och processer. Målet är att skapa en mer effektiv och tillgänglig offentlig förvaltning. Utvärderingen syftar till att se hur väl myndigheterna har lyckats med sina uppdrag.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Utvärderingen av myndigheternas förenklingsuppdrag är viktig eftersom den kan leda till en mer effektiv och tillgänglig offentlig förvaltning. Detta kan i sin tur påverka medborgarnas tillgång till offentliga tjänster och information. Utvärderingen kan också bidra till att identifiera områden där myndigheterna behöver förbättra sin förmåga att förenkla regler och processer.",
+      "eu_koppling": "null",
+      "keywords": [
+        "förenklingsagenda",
+        "myndighetsutvärdering"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Myndigheternas förenklingsuppdrag utvärderas",
+    "cached_at": "2026-06-05"
   }
 }
