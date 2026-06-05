@@ -4363,5 +4363,25 @@
     },
     "title": "Myndigheternas förenklingsuppdrag utvärderas",
     "cached_at": "2026-06-05"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/star-wars-how-space-quietly-powers-daily-life-cyprus": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en artikel som beskriver hur rymdteknologi används i vardagslivet på Cypern. Artikeln nämner inte några specifika lagstiftningsförslag eller tekniska innovationer. Den fokuserar på hur rymdteknologi kan ha en positiv inverkan på samhället. Artikeln är mer av en allmän presentation av rymdteknologins potential än en detaljerad diskussion om specifika tekniska lösningar eller lagstiftningsinitiativ.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Artikeln kan vara viktig för att öka medvetenheten om rymdteknologins potential och dess möjliga tillämpningar i vardagslivet. Den kan också bidra till att inspirera till vidareutveckling av rymdteknologi och dess användning i olika samhällssektorer. Artikeln kan dock inte anses vara direkt relevant för något specifikt lagstiftningsärende eller tekniskt initiativ.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknologi",
+        "EUSPA",
+        "Cypern"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Star Wars? How space quietly powers daily life in Cyprus",
+    "cached_at": "2026-06-05"
   }
 }
