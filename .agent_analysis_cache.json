@@ -4383,5 +4383,70 @@
     },
     "title": "Star Wars? How space quietly powers daily life in Cyprus",
     "cached_at": "2026-06-05"
+  },
+  "https://data.riksdagen.se/dokument/HD10545.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Halvledare",
+      "sammanfattning": "Interpellationen från Rashid Farivar (SD) till Energi- och näringsminister Ebba Busch (KD) handlar om Sveriges strategiska position inom halvledare och avancerad elektronik. Farivar vill veta hur Sverige kan stärka sin position inom dessa områden. Interpellationen är en fråga från en riksdagsledamot till en minister om en specifik fråga. I detta fall handlar det om hur Sverige kan utveckla sin halvledar- och elektronikindustri.",
+      "tech_vinkel": "Dokumentet nämner specifikt halvledare och avancerad elektronik som grund för modern teknik, inklusive artificiell intelligens och telekommunikation.",
+      "varfor_viktigt": "Sveriges position inom halvledare och avancerad elektronik är viktig för landets ekonomi och konkurrenskraft. En stark position inom dessa områden kan skapa arbetstillfällen och bidra till innovation. Dessutom kan det ge Sverige en strategisk fördel i den globala teknikutvecklingen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "halvledare",
+        "avancerad elektronik",
+        "artificiell intelligens"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Sveriges strategiska position inom halvledare och avancerad elektronik",
+    "cached_at": "2026-06-05"
+  },
+  "https://data.riksdagen.se/dokument/HD01KU40.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagens utskott för konstitutionsfrågor (KU) kommer att behandla verksamhetsredogörelser för riksdagens nämnder. Detta dokument handlar om en redovisning av nämndernas verksamhet och inte om någon specifik teknisk fråga. Inga förslag eller ändringar som rör tekniska frågor presenteras. Dokumentet är en del av den vanliga verksamheten i riksdagen och syftar till att ge en översikt av nämndernas arbete.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta dokument är en del av den vanliga verksamheten i riksdagen och syftar till att ge en översikt av nämndernas arbete. Det har ingen direkt betydelse för tekniska frågor eller innovationer. Det är en intern process som inte påverkar utvecklingen av teknologi eller digitala tjänster.",
+      "eu_koppling": null,
+      "keywords": [
+        "Riksdagen",
+        "Verksamhetsredogörelser",
+        "Nämnder"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Verksamhetsredogörelser för riksdagens nämnder",
+    "cached_at": "2026-06-05"
+  },
+  "https://data.riksdagen.se/dokument/HD01NU24.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen ska omrösta om en proposition som handlar om möjliga platser för ny kärnkraft i Sverige, speciellt vid kusten. Detta förslag syftar till att öka landets energiproduktion och minska beroendet av fossila bränslen. Propositionen föreslår att fler platser vid kusten ska utredas för att se om de är lämpliga för kärnkraftverk. Detta kan påverka energipolitiken i Sverige och hur landet väljer att producera sin energi i framtiden.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan ha en stor inverkan på Sveriges energipolitik och hur landet väljer att producera sin energi i framtiden. Det kan också påverka miljön och hur landet arbetar för att minska sina utsläpp av växthusgaser. Dessutom kan det ha en inverkan på den svenska ekonomin och hur landet väljer att investera i sin energiinfrastruktur.",
+      "eu_koppling": "null",
+      "keywords": [
+        "kärnkraft",
+        "energipolitik",
+        "Sverige"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-05",
+          "beskrivning": "Omröstning i Riksdagen"
+        }
+      ]
+    },
+    "title": "Ny kärnkraft i Sverige – fler möjliga platser vid kusten",
+    "cached_at": "2026-06-05"
   }
 }
