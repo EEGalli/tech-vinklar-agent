@@ -4448,5 +4448,25 @@
     },
     "title": "Ny kärnkraft i Sverige – fler möjliga platser vid kusten",
     "cached_at": "2026-06-05"
+  },
+  "https://www.euspa.europa.eu/videos/official-itre-visit-euspa": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har fått besök av EU-parlamentets utskott för industri, forskning och energi (ITRE). Detta besök är en del av utskottets arbete med att granska och följa upp EU:s rymdpolitik. Besöket syftar till att ge utskottet en djupare förståelse för EUSPA:s verksamhet och roll i EU:s rymdprogram. Detta kan bidra till att utskottet kan fatta mer informerade beslut om EU:s rymdpolitik.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta besök är viktigt eftersom det kan bidra till att EU:s rymdpolitik utvecklas på ett sätt som är anpassat till de tekniska och ekonomiska utmaningar som EU står inför. Besöket kan också bidra till att öka samarbetet mellan EUSPA och EU-parlamentet, vilket kan leda till mer effektiva och ändamålsenliga beslut om EU:s rymdprogram. Detta kan i sin tur bidra till att EU kan uppnå sina mål för rymdpolitiken, såsom att öka den europeiska rymdindustrins konkurrenskraft och att bidra till att lösa globala utmaningar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "ITRE",
+        "EU:s rymdpolitik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Official ITRE visit to EUSPA",
+    "cached_at": "2026-06-06"
   }
 }
