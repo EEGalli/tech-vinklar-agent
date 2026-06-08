@@ -888,7 +888,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Nästa steg i detta ärende är att implementera GAL4TSync i praktiken och integrera det med befintlig kritisk infrastruktur.",
+    "next_step": "Europeiska rymdbyrån kommer att fortsätta utveckla och implementera STARGATE-systemet för att säkerställa en smidig integration med Galileo-programmet.",
     "documents": [
       {
         "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",

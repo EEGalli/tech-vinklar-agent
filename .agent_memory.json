@@ -11438,7 +11438,7 @@
       "source": "EU-parlamentet",
       "type": "EP/Utskott",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Thu, 04 Jun 2026",
+      "date": "Mon, 08 Jun 2026",
       "analysis": {
         "relevans": "medel",
         "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
@@ -11815,35 +11815,6 @@
       }
     },
     {
-      "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
-      "source": "Regeringen",
-      "type": "Regeringsuppdrag",
-      "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/",
-      "date": "2026-05-22",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Sociala medier",
-        "sammanfattning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera hur sociala medieplattformars algoritmer styr innehåll till barn och unga. Detta innebär att Mediemyndigheten kommer att undersöka vilka metoder som används för att avgöra vad barn och unga ser på sociala medier. Syftet är att förstå hur dessa algoritmer kan påverka barns och ungas välbefinnande och utveckling. Uppdraget är en del av regeringens arbete för att skydda barn och unga på internet.",
-        "tech_vinkel": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer, vilket är en specifik teknikfråga som rör hur innehåll styrs till användare.",
-        "varfor_viktigt": "Detta uppdrag är viktigt eftersom sociala medier har en stor påverkan på barns och ungas liv. Algoritmerna som styr innehåll kan ha en betydande inverkan på deras välbefinnande och utveckling. Genom att kartlägga och analysera dessa algoritmer kan regeringen få en bättre förståelse för hur de kan skydda barn och unga på internet. Detta arbete kan också leda till förbättringar i regleringen av sociala medier och skyddet av barns och ungas rättigheter.",
-        "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala medier och andra digitala tjänster",
-        "keywords": [
-          "sociala medier",
-          "algoritmer",
-          "barns och ungas skydd",
-          "Digital Services Act"
-        ],
-        "arende": "Kartläggning av sociala mediers algoritmer",
-        "nasta_steg": "Mediemyndigheten kommer att genomföra kartläggningen och analysen av sociala medieplattformars algoritmer och sedan rapportera tillbaka till regeringen med sina resultat och rekommendationer.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-22",
-            "beskrivning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer"
-          }
-        ]
-      }
-    },
-    {
       "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
       "source": "Regeringen",
       "type": "SOU",
@@ -11867,6 +11838,64 @@
           {
             "datum": "2026-06-02",
             "beskrivning": "Utredningens delbetänkande presenteras"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Kuwait Petroleum",
+      "source": "EDPB",
+      "type": "EU-byrå",
+      "url": "https://www.edpb.europa.eu/our-work-tools/accountability-tools/bcr/kuwait-petroleum_en",
+      "date": "Mon, 08 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "EU-byrån EDPB har utfärdat ett utlåtande om Kuwait Petroleums ansökan om att få använda bindande företagsregler (BCR) för att överföra personuppgifter. Detta gäller för anställda, entreprenörer, kunder, leverantörer och andra parter som är involverade i företagets verksamhet. Utlåtandet är en del av EDPB:s arbete med att säkerställa att personuppgifter skyddas när de överförs mellan länder.",
+        "tech_vinkel": "Utlåtandet innehåller specifika krav på hur Kuwait Petroleum ska skydda personuppgifter när de överförs, vilket inkluderar tekniska och organisatoriska åtgärder för att säkerställa dataskyddet.",
+        "varfor_viktigt": "Detta utlåtande är viktigt eftersom det visar hur EDPB arbetar för att säkerställa att företag som överför personuppgifter mellan länder följer EU:s dataskyddsförordning (GDPR). Det påverkar företag som verkar i flera länder och som måste följa samma dataskyddskrav. Tajmingen är viktig eftersom det visar hur EDPB fortsätter att arbeta för att stärka dataskyddet i EU.",
+        "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+        "keywords": [
+          "Dataskydd",
+          "GDPR",
+          "EDPB",
+          "Kuwait Petroleum"
+        ],
+        "arende": null,
+        "nasta_steg": "Kuwait Petroleum kommer att behöva implementera de krav som EDPB har fastställt i utlåtandet för att få använda bindande företagsregler för att överföra personuppgifter.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-08",
+            "beskrivning": "Utlåtandet publicerades"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Nya lagar om elsystemet",
+      "source": "Riksdagen",
+      "type": "Riksdagen/BET (kommande omröstning)",
+      "url": "https://data.riksdagen.se/dokument/HD01NU25.html",
+      "date": "2026-06-08",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Näringsutskottet föreslår att riksdagen ska anta regeringens förslag om nya lagar för elsystemet. De två nya lagarna, elmarknadslagen och lagen om elektriska ledningar, ska ersätta den nuvarande lagstiftningen. Elmarknadslagen kommer att reglera elmarknadens funktion, medan lagen om elektriska ledningar kommer att innehålla bestämmelser om nätkoncession och elektriska ledningar som dras fram inom området för trafikleder.",
+        "tech_vinkel": "De nya lagarna kommer att reglera elsystemets digitala infrastruktur, inklusive elmarknadens funktion och elektriska ledningar.",
+        "varfor_viktigt": "De nya lagarna kan ha en stor påverkan på Sveriges elsystem och energiförsörjning. De kan också påverka hur elbolag och andra aktörer inom energisektorn bedriver sin verksamhet. Dessutom kan de nya lagarna bidra till en mer effektiv och hållbar elmarknad.",
+        "eu_koppling": "null",
+        "keywords": [
+          "elmarknadslag",
+          "lagen om elektriska ledningar",
+          "elmarknad",
+          "energisektorn"
+        ],
+        "arende": "null",
+        "nasta_steg": "Riksdagen kommer att rösta om förslaget om de nya lagarna.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-08",
+            "beskrivning": "Riksdagen kommer att rösta om förslaget om de nya lagarna"
           }
         ]
       }

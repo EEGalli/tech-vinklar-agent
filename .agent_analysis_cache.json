@@ -3110,5 +3110,107 @@
     },
     "title": "Official ITRE visit to EUSPA",
     "cached_at": "2026-06-06"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/consistency-findings/register-decisions/2026/approval-controller-binding-corporate-0_en": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån EDPB har godkänt Kuwait Petroleums Binding Corporate Rules, som reglerar hur företaget hanterar personuppgifter vid internationella överföringar. Detta beslut påverkar hur företaget ska skydda personuppgifter när de överförs mellan olika länder. Beslutet är en del av EU:s arbete för att säkerställa att personuppgifter skyddas på ett likvärdigt sätt inom hela unionen.",
+      "tech_vinkel": "Beslutet omfattar specifika krav på hur Kuwait Petroleum ska implementera tekniska och organisatoriska åtgärder för att säkerställa skyddet av personuppgifter vid internationella överföringar.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det säkerställer att personuppgifter skyddas på ett likvärdigt sätt inom hela EU, även när de överförs till länder utanför unionen. Det påverkar företag som hanterar personuppgifter och måste följa EU:s dataskyddslagstiftning. Beslutet visar också på EU:s fortsatta arbete för att stärka dataskyddet och säkerställa att företag tar ansvar för hanteringen av personuppgifter.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "Binding Corporate Rules",
+        "Internationella överföringar"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Kuwait Petroleum måste nu implementera de godkända Binding Corporate Rules och säkerställa att de följer EU:s dataskyddslagstiftning vid internationella överföringar av personuppgifter.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-13",
+          "beskrivning": "Belgiska tillsynsmyndigheten fattade beslut om godkännande av Kuwait Petroleums Binding Corporate Rules"
+        }
+      ]
+    },
+    "title": "Approval of the Controller Binding Corporate Rules of Kuwait Petroleum",
+    "cached_at": "2026-06-08"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/accountability-tools/bcr/kuwait-petroleum_en": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån EDPB har utfärdat ett utlåtande om Kuwait Petroleums ansökan om att få använda bindande företagsregler (BCR) för att överföra personuppgifter. Detta gäller för anställda, entreprenörer, kunder, leverantörer och andra parter som är involverade i företagets verksamhet. Utlåtandet är en del av EDPB:s arbete med att säkerställa att personuppgifter skyddas när de överförs mellan länder.",
+      "tech_vinkel": "Utlåtandet innehåller specifika krav på hur Kuwait Petroleum ska skydda personuppgifter när de överförs, vilket inkluderar tekniska och organisatoriska åtgärder för att säkerställa dataskyddet.",
+      "varfor_viktigt": "Detta utlåtande är viktigt eftersom det visar hur EDPB arbetar för att säkerställa att företag som överför personuppgifter mellan länder följer EU:s dataskyddsförordning (GDPR). Det påverkar företag som verkar i flera länder och som måste följa samma dataskyddskrav. Tajmingen är viktig eftersom det visar hur EDPB fortsätter att arbeta för att stärka dataskyddet i EU.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "EDPB",
+        "Kuwait Petroleum"
+      ],
+      "arende": null,
+      "nasta_steg": "Kuwait Petroleum kommer att behöva implementera de krav som EDPB har fastställt i utlåtandet för att få använda bindande företagsregler för att överföra personuppgifter.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Utlåtandet publicerades"
+        }
+      ]
+    },
+    "title": "Kuwait Petroleum",
+    "cached_at": "2026-06-08"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/cassini-entrepreneurship-days-2026-built-europe-built-last": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån arrangerar en årlig konferens som samlar startups, investerare och ledare inom rymdteknik för att diskutera hur europeiska rymdteknikföretag anpassar sig till förändrade geopolitiska och marknadsförhållanden. Konferensen fokuserar på att stödja entreprenörer och innovation inom rymdteknik. Målet är att främja utvecklingen av europeiska rymdteknikföretag. Konferensen är en del av EU:s insatser för att stärka den europeiska rymdindustrin.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Konferensen är viktig för att främja innovation och entreprenörskap inom rymdteknik i Europa. Den ger möjlighet för startups och etablerade företag att nätverka och diskutera utmaningar och möjligheter inom branschen. Konferensen kan bidra till att stärka den europeiska rymdindustrin och öka dess konkurrenskraft på den globala marknaden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "entreprenörskap",
+        "innovation"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Konferensen äger rum"
+        }
+      ]
+    },
+    "title": "CASSINI Entrepreneurship Days 2026: Built in Europe. Built to Last!",
+    "cached_at": "2026-06-08"
+  },
+  "https://data.riksdagen.se/dokument/HD01NU25.html": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Näringsutskottet föreslår att riksdagen ska anta regeringens förslag om nya lagar för elsystemet. De två nya lagarna, elmarknadslagen och lagen om elektriska ledningar, ska ersätta den nuvarande lagstiftningen. Elmarknadslagen kommer att reglera elmarknadens funktion, medan lagen om elektriska ledningar kommer att innehålla bestämmelser om nätkoncession och elektriska ledningar som dras fram inom området för trafikleder.",
+      "tech_vinkel": "De nya lagarna kommer att reglera elsystemets digitala infrastruktur, inklusive elmarknadens funktion och elektriska ledningar.",
+      "varfor_viktigt": "De nya lagarna kan ha en stor påverkan på Sveriges elsystem och energiförsörjning. De kan också påverka hur elbolag och andra aktörer inom energisektorn bedriver sin verksamhet. Dessutom kan de nya lagarna bidra till en mer effektiv och hållbar elmarknad.",
+      "eu_koppling": "null",
+      "keywords": [
+        "elmarknadslag",
+        "lagen om elektriska ledningar",
+        "elmarknad",
+        "energisektorn"
+      ],
+      "arende": "null",
+      "nasta_steg": "Riksdagen kommer att rösta om förslaget om de nya lagarna.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Riksdagen kommer att rösta om förslaget om de nya lagarna"
+        }
+      ]
+    },
+    "title": "Nya lagar om elsystemet",
+    "cached_at": "2026-06-08"
   }
 }
