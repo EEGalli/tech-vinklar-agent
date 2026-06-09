@@ -3212,5 +3212,80 @@
     },
     "title": "Nya lagar om elsystemet",
     "cached_at": "2026-06-08"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/06/civilminister-erik-slottner-reser-till-luxemburg-for-hognivamoten-om-digitalisering/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Civilminister Erik Slottner deltar i möten i Luxemburg för att diskutera digitalisering. Mötena handlar om EU:s ministerråd för transport, telekommunikation och energi. Det är oklart vad som specifikt kommer att diskuteras under mötena. Detta är en del av EU:s arbete med digitalisering och teknikutveckling.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det är viktigt att Sverige deltar i dessa möten för att påverka EU:s beslut om digitalisering och teknikutveckling. Detta kan ha konsekvenser för Sveriges digitala infrastruktur och tekniska utveckling. Det är också viktigt att Sverige har en tydlig röst i EU:s beslut om digitalisering.",
+      "eu_koppling": "null",
+      "keywords": [
+        "digitalisering",
+        "EU",
+        "Luxemburg"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-08",
+          "beskrivning": "Civilminister Erik Slottner deltar i möten i Luxemburg"
+        }
+      ]
+    },
+    "title": "Civilminister Erik Slottner reser till Luxemburg för högnivåmöten om digitalisering",
+    "cached_at": "2026-06-09"
+  },
+  "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/05/lag-om-kollektivtrafikskydd/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår en ny lag om kollektivtrafikskydd som syftar till att förbättra skyddet för passagerare och personal inom kollektivtrafiken. Lagen är inriktad på ett systematiskt och proaktivt skyddsarbete. Detta innebär att kollektivtrafikföretagen kommer att behöva vidta åtgärder för att förhindra och hantera hot och incidenter. Det kan också påverka hur kollektivtrafiken organiseras och utformas för att öka säkerheten.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Den föreslagna lagen om kollektivtrafikskydd är viktig eftersom den syftar till att öka säkerheten för passagerare och personal inom kollektivtrafiken. Detta kan leda till en tryggare och mer tillförlitlig kollektivtrafik, vilket är viktigt för många människor som använder kollektivtrafiken dagligen. Det kan också ha en positiv inverkan på samhället i stort genom att minska rädsla och oro för säkerheten i kollektivtrafiken.",
+      "eu_koppling": "null",
+      "keywords": [
+        "kollektivtrafik",
+        "säkerhet",
+        "skydd"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-08",
+          "beskrivning": "Lagrådsremiss publicerad"
+        }
+      ]
+    },
+    "title": "Lag om kollektivtrafikskydd",
+    "cached_at": "2026-06-09"
+  },
+  "https://www.regeringen.se/remisser/2026/03/remiss-av-statskontorets-rapport-en-oversyn-av-overvakningsnamndernas-organisation-stk-20261/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Justitiedepartementet har fått in remissvar på Statskontorets rapport om en översyn av övervakningsnämndernas organisation. Rapporten syftar till att förbättra organisationen och effektiviteten inom övervakningsnämnderna. Detta kan påverka hur myndigheter hanterar övervakning och integritetsfrågor. Inga specifika tekniska förslag eller ändringar nämns i sammanfattningen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende kan ha betydelse för hur myndigheter hanterar övervakning och integritetsfrågor i framtiden. Det kan också påverka hur organisationer och myndigheter samarbetar för att förbättra sin effektivitet. Tajmingen spelar roll eftersom det kan påverka den fortsatta utvecklingen av övervakningsnämndernas organisation.",
+      "eu_koppling": "null",
+      "keywords": [
+        "övervakningsnämnder",
+        "organisation",
+        "integritet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-03-12",
+          "beskrivning": "Remiss av Statskontorets rapport"
+        }
+      ]
+    },
+    "title": "Remiss av Statskontorets rapport En översyn av övervakningsnämndernas organisation (STK 2026:1), Ju2026/00214",
+    "cached_at": "2026-06-09"
   }
 }
