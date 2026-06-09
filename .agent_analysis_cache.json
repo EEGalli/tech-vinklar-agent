@@ -3287,5 +3287,74 @@
     },
     "title": "Remiss av Statskontorets rapport En översyn av övervakningsnämndernas organisation (STK 2026:1), Ju2026/00214",
     "cached_at": "2026-06-09"
+  },
+  "https://data.riksdagen.se/dokument/HD03282.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår att systemen för rot, rut, grön teknik och personalliggare ska ges effektivare kontrollmöjligheter. Detta innebär att regeringen vill förbättra övervakningen och kontrollen av dessa system för att säkerställa att de fungerar korrekt och effektivt. Förslaget syftar till att minska fusk och missbruk av systemen. Det är dock oklart hur detta ska genomföras i praktiken.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Förslaget kan ha betydelse för de som använder sig av rot, rut, grön teknik och personalliggare, eftersom det kan leda till förbättrad övervakning och kontroll. Det kan också påverka de företag som erbjuder dessa tjänster. Tajmingen spelar roll eftersom regeringen vill genomföra dessa förändringar för att förbättra systemens effektivitet och minska fusk.",
+      "eu_koppling": null,
+      "keywords": [
+        "rot",
+        "rut",
+        "grön teknik",
+        "personalliggare"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Regeringen överlämnar propositionen till riksdagen"
+        }
+      ]
+    },
+    "title": "Effektivare kontrollmöjligheter i systemen för rot, rut, grön teknik och personalliggare",
+    "cached_at": "2026-06-09"
+  },
+  "https://data.riksdagen.se/dokument/HD03279.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har lämnat en proposition om personalförsörjning av det militära försvaret. Propositionen innehåller förslag om hur det militära försvaret ska bemannas och organiserats. Det finns inga uppgifter om vad propositionen specifikt föreslår eller vem som påverkas. Propositionen är en del av regeringens arbete med att stärka det militära försvaret.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Propositionen är viktig eftersom den handlar om hur det militära försvaret ska bemannas och organiserats. Detta kan ha konsekvenser för landets försvarsförmåga och säkerhet. Propositionen kan också påverka de människor som arbetar inom det militära försvaret. Tajmingen spelar roll eftersom propositionen är en del av regeringens arbete med att stärka det militära försvaret i en tid av ökade säkerhetsutmaningar.",
+      "eu_koppling": null,
+      "keywords": [
+        "personalförsörjning",
+        "militärt försvär"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Propositionen överlämnades till riksdagen"
+        }
+      ]
+    },
+    "title": "Personalförsörjning av det militära försvaret",
+    "cached_at": "2026-06-09"
+  },
+  "https://www.regeringen.se/remisser/2026/03/remiss-av-kemikalieinspektionens-framstallan-om-andring-av-regleringen-avseende-sarskilt-farliga-kemiska-produkter/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har fått en remiss från Kemikalieinspektionen om att ändra reglerna för särskilt farliga kemiska produkter. Detta innebär att reglerna för hantering och användning av dessa produkter kan komma att förändras. Remissen är en del av en större process för att säkerställa en trygg och hållbar hantering av kemikalier i Sverige. Det är dock oklart vilka specifika förändringar som föreslås.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Ärendet är viktigt eftersom det handlar om att skydda människors hälsa och miljön från farliga kemikalier. En förändring av reglerna kan ha betydande konsekvenser för industrin och för samhället i stort. Det är dock oklart vilka specifika konsekvenser som kan förväntas. Tajmingen spelar roll eftersom det är viktigt att reglerna är anpassade till den senaste forskningen och utvecklingen inom området.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Kemikalieinspektionen",
+        "farliga kemiska produkter"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Remiss av Kemikalieinspektionens framställan om ändring av regleringen avseende särskilt farliga kemiska produkter, KN2026/00510",
+    "cached_at": "2026-06-09"
   }
 }
