@@ -3356,5 +3356,79 @@
     },
     "title": "Remiss av Kemikalieinspektionens framställan om ändring av regleringen avseende särskilt farliga kemiska produkter, KN2026/00510",
     "cached_at": "2026-06-09"
+  },
+  "https://data.riksdagen.se/dokument/HD03281.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har överlämnat en skrivelse till riksdagen om Riksrevisionens rapport om Försäkringskassans och Pensionsmyndighetens hantering av ändrade förhållanden. Rapporten granskar hur myndigheterna hanterar förändringar i människors liv som påverkar deras försäkringar och pensioner. Skrivelsen presenterar regeringens syn på rapporten och eventuella åtgärder som kan behöva vidtas. Inga specifika tekniska förslag eller ändringar nämns.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta dokument är viktigt eftersom det handlar om hur myndigheter hanterar förändringar i människors liv som påverkar deras försäkringar och pensioner. Det kan ha konsekvenser för människors ekonomiska trygghet och välbefinnande. Regeringens syn på rapporten och eventuella åtgärder som kan behöva vidtas är också viktiga för att säkerställa att myndigheterna fungerar effektivt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Försäkringskassan",
+        "Pensionsmyndigheten",
+        "Riksrevisionen"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-09",
+          "beskrivning": "Skrivelsen överlämnades till riksdagen"
+        }
+      ]
+    },
+    "title": "Riksrevisionens rapport om Försäkringskassans och Pensionsmyndighetens hantering av ändrade förhållanden",
+    "cached_at": "2026-06-10"
+  },
+  "https://data.riksdagen.se/dokument/HD03280.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har överlämnat en skrivelse till riksdagen om Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska. Rapporten granskar hur myndigheter hanterar ärenden där den enskilde inte talar svenska. Regeringen presenterar skrivelsen som en del av sin hantering av ärendet. Det finns inga tydliga tekniska aspekter i skrivelsen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna skrivelse är viktig eftersom den berör hur myndigheter hanterar ärenden som involverar personer som inte talar svenska. Det kan ha konsekvenser för hur dessa personer får tillgång till offentliga tjänster och hur deras ärenden hanteras. Tajmingen spelar roll eftersom det kan påverka hur snabbt och effektivt myndigheterna kan hantera dessa ärenden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Riksrevisionen",
+        "handläggning av ärenden",
+        "svenska som andraspråk"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-09",
+          "beskrivning": "Skrivelsen överlämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska",
+    "cached_at": "2026-06-10"
+  },
+  "https://data.riksdagen.se/dokument/HD03278.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen föreslår en teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel. Detta innebär att reglerna för mervärdesskatt ska ses över för att förbättra hanteringen av gränsöverskridande handel. Förslaget syftar till att förenkla och förtydliga reglerna för företag som bedriver handel över nationsgränserna. Detta kan påverka företag som importerar eller exporterar varor och tjänster.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna översyn kan ha betydande konsekvenser för företag som bedriver internationell handel, eftersom det kan påverka deras skattebörda och administrativa kostnader. En förenklad och förtydligad reglering kan underlätta för företag att expandera sin verksamhet över nationsgränserna. Detta kan också ha en positiv effekt på den svenska ekonomin genom att öka handeln och investeringarna.",
+      "eu_koppling": "null",
+      "keywords": [
+        "mervärdesskatt",
+        "gränsöverskridande handel"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-09",
+          "beskrivning": "Regeringens proposition överlämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "Teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel",
+    "cached_at": "2026-06-10"
   }
 }
