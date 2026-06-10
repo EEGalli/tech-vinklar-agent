@@ -3430,5 +3430,88 @@
     },
     "title": "Teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel",
     "cached_at": "2026-06-10"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/when-beacon-talks-back-imo-moves-toward-two-way-distress-communication": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån meddelar att Internationella sjöfartsorganisationen (IMO) tar steg mot att införa tvåvägskommunikation för nödsignalsändare i sjöfarten. Detta innebär att nödsignalsändare i framtiden kan skicka och ta emot information, vilket kan förbättra sjösäkerheten. Förslaget syftar till att förbättra kommunikationen i nödsituationer och göra det lättare att lokalisera och rädda människor i fara. Detta kan leda till förbättrad sjösäkerhet och minskad risk för olyckor.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Förbättrad sjösäkerhet och minskad risk för olyckor är viktiga konsekvenser av detta förslag. Det kan också leda till förbättrad kommunikation och samarbete mellan sjöfartsaktörer och myndigheter. Detta kan vara särskilt viktigt i situationer där snabb och effektiv kommunikation är avgörande för att rädda liv.",
+      "eu_koppling": "null",
+      "keywords": [
+        "sjösäkerhet",
+        "nödsignalsändare",
+        "tvåvägskommunikation"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "When the Beacon Talks Back! IMO moves toward two-way distress communication for maritime EPIRBs",
+    "cached_at": "2026-06-10"
+  },
+  "https://data.riksdagen.se/dokument/HD01FöU14.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen behandlar ett ärende om förbättrade förutsättningar för operativt militärt samarbete. Det handlar om att förbättra samarbetet mellan olika militära enheter och att öka effektiviteten i deras verksamhet. Det är dock oklart vad som specifikt föreslås och vem som påverkas. Ärendet verkar inte ha en tydlig koppling till teknikutveckling eller specifika tekniska lösningar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende kan ha betydelse för Sveriges militära förmåga och samarbete med andra länder. Det kan också påverka den övergripande säkerhetspolitiska situationen i regionen. Tajmingen för detta ärende kan vara viktig med tanke på den aktuella säkerhetspolitiska situationen i världen. Det är dock svårt att bedöma exakt vilka konsekvenser detta ärende kan få utan mer information.",
+      "eu_koppling": "null",
+      "keywords": [
+        "militärt samarbete",
+        "försvarspolitik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-10",
+          "beskrivning": "Riksdagen behandlar ärendet"
+        }
+      ]
+    },
+    "title": "Förbättrade förutsättningar för operativt militärt samarbete",
+    "cached_at": "2026-06-10"
+  },
+  "https://data.riksdagen.se/dokument/HD01KU20.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagens konstitutionsutskott (KU) har tagit fram ett granskningsbetänkande. Detta dokument handlar om granskning av regeringens och myndigheters verksamhet, men det saknas information om vad det specifikt gäller. Det är oklart vad som föreslås, vem som påverkas och vad som ändras.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det är svårt att bedöma varför detta dokument är viktigt utan mer information. Granskningsbetänkanden kan vara viktiga för att säkerställa att regeringen och myndigheterna följer lagar och regler, men utan mer kontext är det svårt att säga exakt varför detta dokument är viktigt.",
+      "eu_koppling": null,
+      "keywords": [
+        "granskningsbetänkande",
+        "konstitutionsutskott"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Granskningsbetänkande",
+    "cached_at": "2026-06-10"
+  },
+  "https://data.riksdagen.se/dokument/HD01KU21.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen behandlar skrivelser som rör olika ärenden. Detta dokument handlar om hur riksdagen hanterar och besvarar dessa skrivelser. Inga specifika tekniska frågor nämns. Dokumentet fokuserar på den allmänna processen för att hantera skrivelser.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna process är viktig för att säkerställa att riksdagen kan hantera och besvara skrivelser på ett effektivt sätt. Det kan påverka hur riksdagen fungerar och hur medborgare kan komma i kontakt med riksdagen. Det är dock inte ett tekniskt ärende i sig.",
+      "eu_koppling": null,
+      "keywords": [
+        "Riksdagen",
+        "Skrivelser",
+        "Hantering"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Behandlingen av riksdagens skrivelser",
+    "cached_at": "2026-06-10"
   }
 }
