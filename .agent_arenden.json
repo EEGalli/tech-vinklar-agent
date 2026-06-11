@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -328,7 +328,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -562,7 +562,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -675,11 +675,11 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Temu kommer troligen att överklaga beslutet, men EU-kommissionen kommer att fortsätta att övervaka situationen och se till att företaget följer de regler som finns.",
+    "next_step": "EU-kommissionen kommer att sammanställa feedbacken och använda den för att slutligt fastställa riktlinjerna för 'trusted flaggers' enligt DSA.",
     "documents": [
       {
         "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
@@ -707,7 +707,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -916,7 +916,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -941,7 +941,7 @@
   "Cloud and AI Development Act": {
     "name": "Cloud and AI Development Act",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -959,7 +959,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
