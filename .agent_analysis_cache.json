@@ -3476,5 +3476,95 @@
     },
     "title": "Infrastrukturfrågor",
     "cached_at": "2026-06-11"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260206CNW20535": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för transport och turism, EP-utskottet för transport (TRAN), har publicerat en nyhetsbrevssamling för 2026. Samlingen innehåller nyhetsbrev från januari till juni 2026. Det finns ingen tydlig information om vad nyhetsbrevsen innehåller eller vilka specifika ärenden de behandlar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta dokument verkar vara en samling av nyhetsbrev och saknar tydlig tech-vinkel eller specifika ärenden. Det är därför svårt att bedöma dess betydelse eller konsekvenser.",
+      "eu_koppling": null,
+      "keywords": [
+        "EU-parlamentet",
+        "TRAN",
+        "nyhetsbrev"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Newsletters - 2026 - Committee on Transport and Tourism",
+    "cached_at": "2026-06-11"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260610CAN78761": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor, EU-parlamentet:s ekonomiutskott (ECON), kommer att ha ett möte med kommissionärerna Raffaele Fitto och Valdis Dombrovskis för att diskutera återhämtning och motståndskraft. Mötet är en del av en större dialog om återhämtning och motståndskraft. Det handlar om den ekonomiska situationen i Europa och hur man kan stärka den. Inga specifika tekniska frågor nämns.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det handlar om den ekonomiska situationen i Europa och hur man kan stärka den. Det kan ha konsekvenser för många människor och företag i Europa. Det är också viktigt att diskutera återhämtning och motståndskraft för att säkerställa att Europa kan hantera framtida ekonomiska utmaningar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "återhämtning",
+        "motståndskraft",
+        "ekonomi"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-15",
+          "beskrivning": "Mötet mellan EU-parlamentets utskott för ekonomi och valutafrågor och kommissionärerna Raffaele Fitto och Valdis Dombrovskis"
+        }
+      ]
+    },
+    "title": "Highlights - Recovery and Resilience Dialogue with Commissioners R. Fitto and V. Dombrovskis - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-06-11"
+  },
+  "https://data.riksdagen.se/dokument/HD01FiU27.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Utskottet för finansfrågor (FiU) ska utvärdera den svenska penningpolitiken mellan 2015 och 2024. Detta innebär att de kommer att granska hur Riksbanken har hanterat penningpolitiken under denna period. Utvärderingen kommer att fokusera på hur väl Riksbanken har uppnått sina mål, såsom att hålla inflationen låg och stabil. Utvärderingen kan också ge insikt i hur penningpolitiken påverkar den svenska ekonomin.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Utvärderingen av den svenska penningpolitiken är viktig eftersom den kan ge insikt i hur Riksbanken kan förbättra sin hantering av penningpolitiken. Detta kan i sin tur påverka den svenska ekonomin och därmed också påverka medborgarnas ekonomi. Utvärderingen kan också ge underlag för framtida beslut om penningpolitiken. Det är dock oklart hur utvärderingen kommer att påverka tech-sektorn eller digitaliseringen i Sverige.",
+      "eu_koppling": "null",
+      "keywords": [
+        "penningpolitik",
+        "Riksbanken",
+        "ekonomi"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Utvärdering av svensk penningpolitik 2015–2024",
+    "cached_at": "2026-06-11"
+  },
+  "https://data.riksdagen.se/dokument/HD01FiU45.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Riksdagen ska omrösta om en proposition som handlar om stickprovsinsamling av uppgifter om hushållens skulder. Detta förslag syftar till att samla in data för att förstå hushållens skuldsituation bättre. Vem som påverkas är hushållen som kommer att ingå i stickprovet, och vad som ändras är att det kommer att finnas mer data tillgänglig för att analysera hushållens skulder.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag kan ha konsekvenser för hushållens ekonomi och skuldsituation. Det kan också påverka hur myndigheter och organisationer hanterar skulder och ekonomisk rådgivning. Tajmingen spelar roll eftersom det kan påverka den ekonomiska politiken och besluten om skuldshantering.",
+      "eu_koppling": "null",
+      "keywords": [
+        "skulder",
+        "hushåll",
+        "stickprovsinsamling"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-11",
+          "beskrivning": "Omröstning i Riksdagen"
+        }
+      ]
+    },
+    "title": "Stickprovsinsamling av uppgifter om hushållens skulder",
+    "cached_at": "2026-06-11"
   }
 }
