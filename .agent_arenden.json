@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -335,7 +335,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -495,11 +495,11 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "De svenska myndigheterna kommer att analysera remissvaren och föreslå hur EU:s direktiv ska implementeras i svensk lagstiftning.",
+    "next_step": "Myndigheterna kommer att fortsätta att samarbeta för att bekämpa cyberbrottslighet och kommer att utvärdera effekten av denna operation för att se om det finns mer som kan göras för att stoppa ransomware-grupperna.",
     "documents": [
       {
         "title": "Joint Committee annual report highlights digitalisation, cyber resilience and sustainable finance as key priorities of 2025",
@@ -507,6 +507,13 @@
         "url": "https://www.esma.europa.eu/press-news/esma-news/joint-committee-annual-report-highlights-digitalisation-cyber-resilience-and",
         "source": "ESMA",
         "tech_vinkel": "Rapporten betonar cybersäkerhet som en av de viktigaste prioriteringarna, vilket indikerar ett ökat fokus på att skydda finansiella system mot cyberattacker och digitala hot."
+      },
+      {
+        "title": "Ransomware gangs cut off from EUR 336 million ‘AudiA6’ crypto laundering pipeline",
+        "date": "",
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/ransomware-gangs-cut-eur-336-million-audia6-crypto-laundering-pipeline",
+        "source": "Europol",
+        "tech_vinkel": "Operationen har specifikt riktat sig mot en kryptotjänst som användes för att tvätta pengar, vilket visar på den viktiga roll som kryptoteknik spelar i modern cyberbrottslighet."
       },
       {
         "title": "Remiss av Europeiska kommissionens cybersäkerhetspaket med förslag om ändringar i cybersäkerhetsakten (EU 2019/881) samt riktade ändringar i NIS 2-direktivet (EU 2022/2555) KOM (2026)11,13, Fö2026/00576",
@@ -569,7 +576,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -682,7 +689,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -714,7 +721,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -923,7 +930,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -948,7 +955,7 @@
   "Cloud and AI Development Act": {
     "name": "Cloud and AI Development Act",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -966,7 +973,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
