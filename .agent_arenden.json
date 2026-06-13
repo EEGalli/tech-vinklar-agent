@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -335,7 +335,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -495,7 +495,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -576,7 +576,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -689,7 +689,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -721,12 +721,19 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
     "next_step": "BEREC kommer att presentera sin slutliga bedömning av förslaget till Digital Networks Act vid en offentlig debriefing den 10 juni 2026.",
     "documents": [
+      {
+        "title": "BEREC position papers on the Digital Networks Act proposal",
+        "date": "Fri, 12 Ju",
+        "url": "https://www.berec.europa.eu/en/berec-position-papers-on-the-digital-networks-act-proposal",
+        "source": "BEREC",
+        "tech_vinkel": "Förslaget till Digital Networks Act innehåller specifika bestämmelser om hur digitala nätverk ska utvecklas och regleras, vilket direkt berör tekniska aspekter av internet och telekommunikation."
+      },
       {
         "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
         "date": "Mon, 25 Ma",
@@ -930,7 +937,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -955,7 +962,7 @@
   "Cloud and AI Development Act": {
     "name": "Cloud and AI Development Act",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -973,7 +980,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,

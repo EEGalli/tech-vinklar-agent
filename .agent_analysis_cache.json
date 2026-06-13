@@ -3525,5 +3525,70 @@
     },
     "title": "Elektronisk övervakning",
     "cached_at": "2026-06-12"
+  },
+  "https://www.berec.europa.eu/en/berec-position-papers-on-the-digital-networks-act-proposal": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-byrån BEREC har tagit fram 16 tematiska papper som granskar nyckelelement i förslaget till Digital Networks Act. Detta förslag syftar till att uppdatera den regleringsram som gäller för elektronisk kommunikation i EU. Förslaget kan påverka hur internet och telekommunikationstjänster regleras i framtiden. Det handlar om att skapa en mer modern och effektiv ram för digitala nätverk.",
+      "tech_vinkel": "Förslaget till Digital Networks Act innehåller specifika bestämmelser om hur digitala nätverk ska utvecklas och regleras, vilket direkt berör tekniska aspekter av internet och telekommunikation.",
+      "varfor_viktigt": "Detta förslag kan ha stor betydelse för hur digitala tjänster och internet regleras i EU i framtiden. Det kan påverka hur företag och myndigheter hanterar digitala nätverk och kommunikation. Det är också viktigt för att säkerställa att EU har en modern och effektiv regleringsram för digitala nätverk.",
+      "eu_koppling": "Digital Networks Act",
+      "keywords": [
+        "Digital Networks Act",
+        "BEREC",
+        "EU"
+      ],
+      "arende": "Digitala Nätverkslagen",
+      "nasta_steg": "Förslaget kommer att granskas och diskuteras av EU-institutioner och medlemsstater innan det kan antas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-12",
+          "beskrivning": "BEREC publicerar sina positionspapper om förslaget till Digital Networks Act"
+        }
+      ]
+    },
+    "title": "BEREC position papers on the Digital Networks Act proposal",
+    "cached_at": "2026-06-13"
+  },
+  "https://www.euspa.europa.eu/opportunities/procurement-grants/grants/receiver-box-prs-civilian-applications": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån presenterar en receiver box för civilt bruk av Public Regulated Service (PRS). Detta är en teknik som används för att ge säker och skyddad kommunikation. Receiver boxen är tänkt att användas i olika civila applikationer. Det är dock oklart vilka specifika ändamål eller användningsområden som avses.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta dokument kan ha betydelse för utvecklingen av säker kommunikation i civila sammanhang. Det kan också påverka hur PRS-tekniken används i framtiden. Men utan mer information är det svårt att bedöma de exakta konsekvenserna.",
+      "eu_koppling": "null",
+      "keywords": [
+        "PRS",
+        "receiver box",
+        "civila applikationer"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Receiver box for PRS civilian applications",
+    "cached_at": "2026-06-13"
+  },
+  "https://data.riksdagen.se/dokument/HD024201.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Motionen från Vänsterpartiet rör den extra ändringsbudgeten för 2026 som presenterades av regeringen. Den handlar om stöd till Ukraina och åtgärder med anledning av kriget i Mellanöstern. Vänsterpartiet föreslår att riksdagen avslår regeringens förslag om ytterligare tillfällig åtgärd. Motionen berör främst ekonomiska och politiska aspekter av stödet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna motion är viktig eftersom den berör Sveriges stöd till Ukraina och åtgärder relaterade till kriget i Mellanöstern. Det handlar om hur Sverige väljer att hantera internationella kriser och vilka ekonomiska resurser som allokeras för detta ändamål. Tajmingen är viktig eftersom det påverkar hur snabbt och effektivt stödet kan ges.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Ukraina",
+        "Mellanöstern",
+        "extra ändringsbudget"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "med anledning av prop. 2025/26:275 Extra ändringsbudget för 2026 – Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern",
+    "cached_at": "2026-06-13"
   }
 }
