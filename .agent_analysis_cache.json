@@ -3590,5 +3590,25 @@
     },
     "title": "med anledning av prop. 2025/26:275 Extra ändringsbudget för 2026 – Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern",
     "cached_at": "2026-06-13"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/06/sis-far-medel-for-arbetet-med-elektronisk-overvakning/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har beslutat att ge Statens institutionsstyrelse, SiS, medel för att arbeta med elektronisk övervakning. Detta är en del av vårändringsbudgeten och syftar till att förbättra SiS:s arbete med övervakning. Beslutet påverkar SiS och de klienter som är föremål för elektronisk övervakning. Det är dock oklart exakt hur medlen kommer att användas.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta beslut kan ha konsekvenser för SiS:s arbete och för de klienter som är föremål för elektronisk övervakning. Det kan också påverka den övergripande säkerheten och tryggheten inom institutionerna. Tajmingen för beslutet kan vara viktig eftersom det kan påverka SiS:s budget och planering för kommande år.",
+      "eu_koppling": "null",
+      "keywords": [
+        "elektronisk övervakning",
+        "SiS",
+        "vårändringsbudgeten"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "SiS får medel för arbetet med elektronisk övervakning",
+    "cached_at": "2026-06-14"
   }
 }
