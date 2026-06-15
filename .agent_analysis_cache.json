@@ -3610,5 +3610,101 @@
     },
     "title": "SiS får medel för arbetet med elektronisk övervakning",
     "cached_at": "2026-06-14"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260615CAN78884": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att ha en strukturerad dialog med Henna Virkkunen, vice ordförande för Europeiska kommissionen med ansvar för teknologisk suveränitet, säkerhet och demokrati. Dialogen kommer att innehålla en frågestund med LIBE-ledamöter och kommer att behandla olika ämnen. Detta är en del av en större process för att diskutera och utveckla EU:s politik inom dessa områden.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna dialog är viktig eftersom den kan påverka EU:s framtida politik inom områden som teknologisk suveränitet, säkerhet och demokrati. Det kan också ge insikt i hur EU:s ledare ser på dessa frågor och hur de planerar att hantera dem i framtiden. Detta kan ha konsekvenser för hur EU hanterar teknologiska frågor och hur de påverkar medborgarna.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU-parlamentet",
+        "LIBE",
+        "Henna Virkkunen",
+        "teknologisk suveränitet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-24",
+          "beskrivning": "Strukturerad dialog mellan LIBE och Henna Virkkunen"
+        }
+      ]
+    },
+    "title": "Highlights - Structural Dialogue with Executive Vice-President Henna Virkkunen - Committee on Civil Liberties, Justice and Home Affairs",
+    "cached_at": "2026-06-15"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260615CAN78880": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Uppkopplade fordon",
+      "sammanfattning": "EU-parlamentets transportutskott (TRAN) kommer att presentera en studie om vägvärdighetspaketet. Studien utvärderar tekniska aspekter av direktiven om periodisk vägvärdighetskontroll och vägkantinspektion av kommersiella fordon. Huvudfynden fokuserar på att harmonisera minimikraven för periodisk teknisk inspektion och vägkantinspektion i hela EU.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende är viktigt eftersom det kan påverka trafiksäkerheten i EU. Om minimikraven för vägvärdighetskontroll och vägkantinspektion harmoniseras, kan det leda till färre olyckor och förbättrad trafiksäkerhet. Det kan också påverka den kommersiella transportsektorn, som måste anpassa sig till de nya kraven.",
+      "eu_koppling": "2014/45/EU och 2014/47/EU",
+      "keywords": [
+        "vägvärdighetspaketet",
+        "periodisk vägvärdighetskontroll",
+        "vägkantinspektion"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-23",
+          "beskrivning": "TRAN-kommittén presenterar studien om vägvärdighetspaketet"
+        }
+      ]
+    },
+    "title": "Highlights - Accompanying Expertise on the Roadworthiness Package - Committee on Transport and Tourism",
+    "cached_at": "2026-06-15"
+  },
+  "https://www.euspa.europa.eu/node/9753": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en annons för en tjänst som Space Segment Engineer. Detta innebär att de söker en person med expertis inom rymdteknik för att arbeta med utvecklingen och driften av rymdsystem. Tjänsten är en del av byråns arbete med att stödja EU:s rymdprogram och -politik. Detta kan ha betydelse för utvecklingen av rymdteknik och EU:s rymdprogram.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta kan ha betydelse för utvecklingen av rymdteknik och EU:s rymdprogram, men det är inte ett direkt tekniskt ärende. Det kan påverka EU:s förmåga att utveckla och använda rymdteknik för olika ändamål, men det är inte ett specifikt tekniskt ärende. Det är viktigt att ha kompetens inom rymdteknik för att utveckla och använda rymdsystem effektivt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "EUSPA",
+        "EU:s rymdprogram"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Space Segment Engineer",
+    "cached_at": "2026-06-15"
+  },
+  "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202636/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Utredningen handlar om att öka antalet kliniska prövningar och forskningsinitiativ i Sverige, med fokus på att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning. Utredningen har utrett möjligheterna att inkludera dessa personer och föreslår åtgärder för att underlätta deras deltagande. Detta kan påverka hur medicinsk forskning bedrivs i Sverige och hur personer med nedsatt beslutsförmåga kan delta i kliniska prövningar. Utredningen är ett steg mot att förbättra förutsättningarna för medicinsk forskning i Sverige.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Utredningen är viktig eftersom den kan leda till att fler personer med nedsatt beslutsförmåga kan delta i medicinsk forskning, vilket kan bidra till att förbättra vården och behandlingen av dessa personer. Detta kan också leda till att Sverige blir en mer attraktiv plats för medicinsk forskning och utveckling. Utredningen kan också ha konsekvenser för hur medicinsk forskning bedrivs i Sverige och hur personer med nedsatt beslutsförmåga kan delta i kliniska prövningar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "medicinsk forskning",
+        "kliniska prövningar",
+        "personer med nedsatt beslutsförmåga"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-15",
+          "beskrivning": "Utredningen publiceras"
+        }
+      ]
+    },
+    "title": "Bättre förutsättningar att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning, SOU 2026:36",
+    "cached_at": "2026-06-15"
   }
 }
