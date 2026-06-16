@@ -3756,5 +3756,131 @@
     },
     "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
     "cached_at": "2026-06-16"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260616CAN78919": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Uppkopplade fordon",
+      "sammanfattning": "EU-kommissionen har presenterat ett förslag för att förenkla vissa EU-regler för bilindustrin. Syftet är att minska administrativa bördor och stödja europeiska tillverkares konkurrenskraft, samtidigt som befintliga säkerhets- och miljökrav upprätthålls. Förslaget presenterades under ett gemensamt möte mellan EU-parlamentets utskott för den inre marknaden, miljö och transport. Förslaget syftar till att underlätta för bilindustrin att anpassa sig till nya tekniska krav och förbättra sin konkurrenskraft på den globala marknaden.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag kan ha betydande konsekvenser för bilindustrin i Europa, eftersom det kan påverka deras förmåga att konkurrera på den globala marknaden. Förslaget kan också ha en inverkan på miljö- och säkerhetskraven för fordon i Europa. Det är viktigt att följa utvecklingen av detta förslag för att förstå hur det kan påverka bilindustrin och konsumenterna.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU-regler",
+        "bilindustri",
+        "förenkling"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-03",
+          "beskrivning": "EU-kommissionen presenterade sitt förslag för att förenkla vissa EU-regler för bilindustrin"
+        }
+      ]
+    },
+    "title": "Highlights - EU plans to simplify automotive rules - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-06-16"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260616CAN78910": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att ha ett möte med kommissionär Magnus Brunner för att diskutera kommissionens förslag till en förordning som stärker Europol. Mötet är en del av parlamentets granskning av initiativet. Kommissionens förslag syftar till att förbättra Europols förmåga att bekämpa organiserad brottslighet och terrorism. Detta kan påverka hur EU-länderna samarbetar i frågor som rör inre säkerhet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det kan leda till förändringar i hur Europol fungerar och hur EU-länderna samarbetar i frågor som rör inre säkerhet. Det kan också ha konsekvenser för hur brottslighet och terrorism bekämpas inom EU. Kommissionens förslag kan också påverka hur EU-länderna hanterar frågor som rör dataskydd och integritet i samband med samarbetet med Europol.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Europol",
+        "inre säkerhet",
+        "organiserad brottslighet",
+        "terrorism"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-25",
+          "beskrivning": "Mötet mellan LIBE-utskottet och kommissionär Magnus Brunner"
+        }
+      ]
+    },
+    "title": "Highlights - Commissioner Brunner presents the Commission proposal to strengthen Europol - Committee on Civil Liberties, Justice and Home Affairs",
+    "cached_at": "2026-06-16"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260616CAN78902": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för transport och turism, EP-utskottet för transport (TRAN), ska rösta om en rapport om militär mobilitet. Rapporten innehåller flera ändringsförslag som syftar till att underlätta transport av militär utrustning, varor och personal, samtidigt som de ska minimera och mildra effekterna av sådana rörelser på civil transport. Detta är en del av EU:s arbete med att förbättra militär mobilitet inom unionen. Förslagen kan påverka hur militär utrustning och personal transporteras genom Europa.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende är viktigt eftersom det kan påverka EU:s förmåga att hantera militära operationer och krishantering. Det kan också ha konsekvenser för civila transporter och infrastruktur. Militär mobilitet är en viktig fråga för EU:s säkerhets- och försvarspolitik. Det är dock oklart vilka specifika tekniska aspekter som berörs i detta ärende.",
+      "eu_koppling": "null",
+      "keywords": [
+        "militär mobilitet",
+        "EU-parlamentet",
+        "TRAN-utskottet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-23",
+          "beskrivning": "EU-parlamentets utskott för transport och turism, TRAN, ska rösta om rapporten om militär mobilitet"
+        }
+      ]
+    },
+    "title": "Highlights -  SEDE-TRAN: Adoption of the Report on Military Mobility - Committee on Transport and Tourism",
+    "cached_at": "2026-06-16"
+  },
+  "https://www.edpb.europa.eu/our-work-tools/agenda/2026/g7-data-protection-authorities-research-roundtable-privacy-research-day_en": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "G7 Data Protection Authorities anordnar en rundabordsdiskussion och en forskningsdag om dataskydd den 24 juni 2026 i Paris. Syftet är att diskutera och dela kunskap om dataskydd och integritet. Detta evenemang är en del av det internationella samarbetet för att stärka dataskyddet. Evenemanget kommer att samla experter och beslutsfattare för att diskutera viktiga frågor inom dataskydd.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta evenemang är viktigt eftersom det kan bidra till att stärka dataskyddet och integriteten för individer. Det kan också leda till nya insikter och lösningar för att hantera dataskyddsfrågor. Evenemanget kan även bidra till att öka samarbetet mellan länder och organisationer för att skydda dataskyddet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "dataskydd",
+        "integritet",
+        "G7"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-24",
+          "beskrivning": "G7 Data Protection Authorities anordnar rundabordsdiskussion och forskningsdag om dataskydd"
+        }
+      ]
+    },
+    "title": "G7 Data Protection Authorities \"Research\" Roundtable, Privacy Research Day",
+    "cached_at": "2026-06-16"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post-och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-anvandning-av-digitala-tjanster/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att främja digital inkludering och användning av digitala tjänster under 2026-2028. Detta ska ske genom samordning och dialog med berörda aktörer. Målet är att öka tillgängligheten och användningen av digitala tjänster för alla medborgare. Detta kan leda till en mer digitalt inkluderande samhälle.",
+      "tech_vinkel": "Uppdraget fokuserar specifikt på att öka användningen av digitala tjänster, vilket innebär en tydlig tech-vinkel mot digital infrastruktur och tillgänglighet.",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan leda till en mer digitalt inkluderande samhälle, där alla medborgare har möjlighet att ta del av digitala tjänster. Detta kan också bidra till en mer effektiv och modern offentlig förvaltning. Dessutom kan det leda till att Sverige stärker sin position som en ledande nation inom digitalisering.",
+      "eu_koppling": "null",
+      "keywords": [
+        "digital inkludering",
+        "digitala tjänster",
+        "Post- och telestyrelsen"
+      ],
+      "arende": "null",
+      "nasta_steg": "Post- och telestyrelsen kommer att påbörja arbetet med att samordna och främja digital inkludering och användning av digitala tjänster, i dialog med berörda aktörer.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-16",
+          "beskrivning": "Regeringen ger Post- och telestyrelsen i uppdrag att främja digital inkludering och användning av digitala tjänster"
+        }
+      ]
+    },
+    "title": "Uppdrag till Post-och telestyrelsen att genomföra insatser för ökad digital inkludering och användning av digitala tjänster",
+    "cached_at": "2026-06-16"
   }
 }

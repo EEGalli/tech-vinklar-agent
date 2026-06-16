@@ -11774,11 +11774,11 @@
   ],
   "2026-06-16": [
     {
-      "title": "Latest news - Next Committee Meetings; 24 & 25 June, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
       "source": "EU-parlamentet",
       "type": "EP/Utskott",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Thu, 11 Jun 2026",
+      "date": "Tue, 16 Jun 2026",
       "analysis": {
         "relevans": "medel",
         "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
@@ -12228,6 +12228,34 @@
           {
             "datum": "2026-06-02",
             "beskrivning": "Publicering av BEREC:s årsrapport för 2025"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Uppdrag till Post-och telestyrelsen att genomföra insatser för ökad digital inkludering och användning av digitala tjänster",
+      "source": "Regeringen",
+      "type": "Regeringsuppdrag",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post-och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-anvandning-av-digitala-tjanster/",
+      "date": "2026-06-16",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att främja digital inkludering och användning av digitala tjänster under 2026-2028. Detta ska ske genom samordning och dialog med berörda aktörer. Målet är att öka tillgängligheten och användningen av digitala tjänster för alla medborgare. Detta kan leda till en mer digitalt inkluderande samhälle.",
+        "tech_vinkel": "Uppdraget fokuserar specifikt på att öka användningen av digitala tjänster, vilket innebär en tydlig tech-vinkel mot digital infrastruktur och tillgänglighet.",
+        "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan leda till en mer digitalt inkluderande samhälle, där alla medborgare har möjlighet att ta del av digitala tjänster. Detta kan också bidra till en mer effektiv och modern offentlig förvaltning. Dessutom kan det leda till att Sverige stärker sin position som en ledande nation inom digitalisering.",
+        "eu_koppling": "null",
+        "keywords": [
+          "digital inkludering",
+          "digitala tjänster",
+          "Post- och telestyrelsen"
+        ],
+        "arende": "null",
+        "nasta_steg": "Post- och telestyrelsen kommer att påbörja arbetet med att samordna och främja digital inkludering och användning av digitala tjänster, i dialog med berörda aktörer.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-16",
+            "beskrivning": "Regeringen ger Post- och telestyrelsen i uppdrag att främja digital inkludering och användning av digitala tjänster"
           }
         ]
       }
