@@ -3706,5 +3706,55 @@
     },
     "title": "Bättre förutsättningar att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning, SOU 2026:36",
     "cached_at": "2026-06-15"
+  },
+  "https://www.berec.europa.eu/en/news/publications/berec-annual-report-2025-design-version": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "BEREC:s årsrapport för 2025 ger en översikt av nyckelutvecklingar och marknadstrender inom elektronisk kommunikation i Europa. Rapporten diskuterar marknadsdynamik och utveckling av EU:s offentliga politik och regleringspraxis. Den ger också BEREC:s perspektiv på dessa frågor. Rapporten är en del av BEREC:s arbete med att främja en fungerande inre marknad för elektronisk kommunikation i EU.",
+      "tech_vinkel": "Rapporten innehåller en specifik skrivning om utvecklingen av 5G-nät och dess potential för att förbättra elektronisk kommunikation i Europa.",
+      "varfor_viktigt": "Rapporten är viktig eftersom den ger en översikt av den senaste utvecklingen inom elektronisk kommunikation i Europa. Den kan också påverka EU:s framtida regleringspraxis och politik inom området. Dessutom kan rapporten ge insikt i hur elektronisk kommunikation kan förbättras och utvecklas i framtiden. Tajmingen är viktig eftersom rapporten kommer att användas som underlag för framtida beslut och diskussioner inom EU.",
+      "eu_koppling": "EU:s direktiv om elektronisk kommunikation",
+      "keywords": [
+        "elektronisk kommunikation",
+        "BEREC",
+        "EU"
+      ],
+      "arende": null,
+      "nasta_steg": "Rapporten kommer att användas som underlag för framtida diskussioner och beslut inom EU om elektronisk kommunikation.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "Publicering av BEREC:s årsrapport för 2025"
+        }
+      ]
+    },
+    "title": "BEREC Annual Report 2025 (design version)",
+    "cached_at": "2026-06-16"
+  },
+  "https://data.riksdagen.se/dokument/HD03285.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har lämnat en proposition till riksdagen om hörande och tillfälligt överförande vid handläggning av en arresteringsorder. Propositionen handlar om att förbättra processen för hantering av arresteringsordrar och säkerställa att rättigheter respekteras. Det föreslås att det införs en möjlighet för den som är föremål för en arresteringsorder att höras innan beslut fattas. Detta förslag syftar till att stärka rättssäkerheten och säkerställa att alla parter får möjlighet att yttra sig.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna proposition är viktig eftersom den syftar till att förbättra rättssäkerheten och säkerställa att rättigheter respekteras. Det är viktigt att alla parter får möjlighet att yttra sig och att processen för hantering av arresteringsordrar är transparent och rättvis. Propositionen kan ha konsekvenser för hur arresteringsordrar hanteras i framtiden och kan påverka hur rättssystemet fungerar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "arresteringsorder",
+        "rättssäkerhet",
+        "hörande"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-11",
+          "beskrivning": "Regeringen överlämnar propositionen till riksdagen"
+        }
+      ]
+    },
+    "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
+    "cached_at": "2026-06-16"
   }
 }
