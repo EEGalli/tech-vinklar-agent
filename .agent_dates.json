@@ -694,5 +694,41 @@
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post-och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-anvandning-av-digitala-tjanster/",
       "arende": "null"
     }
+  ],
+  "2026-06-17": [
+    {
+      "beskrivning": "Publicering av den fjärde rapporten om digitala decenniet",
+      "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/2026-state-digital-decade-report-shows-progress-urges-closing-structural-gaps-reach-2030-goals",
+      "arende": "Digitala decenniet-initiativet"
+    },
+    {
+      "beskrivning": "Publicering av rapporten om framstegen inom Digital Decade-initiativet",
+      "title": "Digital Decade 2026 - Progress report on multi-country projects",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-progress-report-multi-country-projects",
+      "arende": "Digital Decade"
+    },
+    {
+      "beskrivning": "Publicering av eGovernment Benchmark 2026-rapporten",
+      "title": "Digital Decade 2026: eGovernment Benchmark 2026",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-egovernment-benchmark-2026",
+      "arende": "Digital Decade 2026"
+    }
+  ],
+  "2025-12-31": [
+    {
+      "beskrivning": "Övervakningsresultat för e-hälsovårdsmål",
+      "title": "The 2026 Digital Decade eHealth Indicator Study",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/2026-digital-decade-ehealth-indicator-study",
+      "arende": "Digital Decade Policy Programme"
+    }
+  ],
+  "2026-06-25": [
+    {
+      "beskrivning": "EU-kommissionen presenterar Technological Sovereignty Package",
+      "title": "Highlights - How Europe Plans to Strengthen Its Tech Independence - Committee on the Internal Market and Consumer Protection",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260608CAN78701",
+      "arende": "null"
+    }
   ]
 }

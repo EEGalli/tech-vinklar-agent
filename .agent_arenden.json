@@ -994,5 +994,23 @@
         "tech_vinkel": "Rapporten fokuserar specifikt på DORA (EU-förordningen om digital motståndskraft i finanssektorn), som är en EU-lagstiftning som kräver att kritiska verksamheter, inklusive banker, höjer sin cybersäkerhet och rapporterar om IT-relaterade incidenter."
       }
     ]
+  },
+  "Digitala decenniet-initiativet": {
+    "name": "Digitala decenniet-initiativet",
+    "first_seen": "2026-06-17",
+    "last_updated": "2026-06-17",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "EU-kommissionen kommer att fortsätta att arbeta med medlemsstaterna för att implementera de rekommendationer som presenteras i rapporten.",
+    "documents": [
+      {
+        "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/2026-state-digital-decade-report-shows-progress-urges-closing-structural-gaps-reach-2030-goals",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Rapporten pekar på vikten av att utveckla och implementera digitala teknologier, som artificiell intelligens och molntjänster, för att stödja den digitala transformationen i Europa."
+      }
+    ]
   }
 }
