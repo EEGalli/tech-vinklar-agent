@@ -3882,5 +3882,105 @@
     },
     "title": "Uppdrag till Post-och telestyrelsen att genomföra insatser för ökad digital inkludering och användning av digitala tjänster",
     "cached_at": "2026-06-16"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260616CAN78920": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentet har fått en presentation av det föreslagna Industrial Accelerator Act, som syftar till att stärka Europas industriella bas, minska strategiska beroenden och hjälpa europeiska företag att växa. Förslaget presenterades av Executive Vice-President Stéphane Séjourné för medlemmar i utskotten för den inre marknaden och konsumentskydd, industri, forskning och energi samt internationell handel. Detta initiativ är en del av EU:s strävan att främja ekonomisk tillväxt och konkurrenskraft. Förslaget syftar till att ge europeiska företag bättre möjligheter att konkurrera på den globala marknaden.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta initiativ är viktigt eftersom det kan ha en stor inverkan på den europeiska industrin och ekonomin. Om förslaget antas kan det leda till en ökning av investeringar i europeiska företag och en förbättring av deras konkurrenskraft på den globala marknaden. Detta kan i sin tur leda till skapandet av nya arbetstillfällen och en ökning av den ekonomiska tillväxten i Europa. Det är dock viktigt att notera att förslaget fortfarande är i ett tidigt skede och att det kommer att kräva ytterligare diskussioner och förhandlingar innan det kan antas.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Industrial Accelerator Act",
+        "EU-parlamentet",
+        "industriell bas"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-02",
+          "beskrivning": "Presentation av det föreslagna Industrial Accelerator Act för EU-parlamentet"
+        }
+      ]
+    },
+    "title": "Highlights - Made in Europe - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-06-17"
+  },
+  "https://www.edpb.europa.eu/about-edpb/who-we-are/edpb-chairmanship/agenda/g7-data-protection-authorities-research-roundtable-privacy-research-day_en": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "G7 Data Protection Authorities anordnar en 'Research' Roundtable och en Privacy Research Day den 24 juni 2026. Evenemanget syftar till att diskutera och forska kring dataskydd och integritet. Det är dock oklart vad som specifikt kommer att diskuteras eller vilka beslut som kommer att fattas. Evenemanget verkar vara en mötesplats för experter inom området.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget kan vara viktigt för att främja diskussion och forskning kring dataskydd och integritet. Det kan också bidra till att identifiera nya utmaningar och möjligheter inom området. Dock saknas information om specifika mål eller förväntade resultat från evenemanget.",
+      "eu_koppling": "null",
+      "keywords": [
+        "dataskydd",
+        "integritet",
+        "G7"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-24",
+          "beskrivning": "G7 Data Protection Authorities 'Research' Roundtable och Privacy Research Day"
+        }
+      ]
+    },
+    "title": "G7 Data Protection Authorities \"Research\" Roundtable, Privacy Research Day",
+    "cached_at": "2026-06-17"
+  },
+  "https://data.riksdagen.se/dokument/HD03284.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har överlämnat en skrivelse till riksdagen om Riksrevisionens rapport som visar att det finns stor risk för fel och missbruk i Migrationsverkets kontroller av arbetstillstånd. Regeringen presenterar rapporten och dess slutsatser. Det handlar om hur Migrationsverket hanterar kontrollen av arbetstillstånd och om det finns brister i processen. Regeringen vill att riksdagen tar del av rapporten och dess rekommendationer.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta är viktigt eftersom det handlar om hur Migrationsverket hanterar kontrollen av arbetstillstånd och om det finns brister i processen. Det kan påverka hur effektivt och säkert systemet är. Regeringen vill att riksdagen tar del av rapporten och dess rekommendationer för att förbättra processen. Det handlar om att säkerställa att systemet fungerar korrekt och att det inte finns några brister som kan utnyttjas.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Migrationsverket",
+        "arbetstillstånd",
+        "Riksrevisionen"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-11",
+          "beskrivning": "Regeringen överlämnar skrivelsen till riksdagen"
+        }
+      ]
+    },
+    "title": "Riksrevisionens rapport om Migrationsverkets kontroller av arbetstillstånd – stor risk för fel och missbruk",
+    "cached_at": "2026-06-17"
+  },
+  "https://data.riksdagen.se/dokument/HD03273.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har överlämnat en skrivelse till riksdagen om Riksrevisionens rapport om infiltration i staten. Skrivelsen redogör för regeringens bedömning av rapporten. Regeringen bedömer att rapporten är viktig för att förbättra säkerheten i staten. Infiltrationen i staten kan ha allvarliga konsekvenser för landets säkerhet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Rapporten om infiltration i staten är viktig för att förbättra säkerheten i staten. Infiltrationen kan ha allvarliga konsekvenser för landets säkerhet och kan påverka många olika områden, inklusive cybersäkerhet och dataskydd. Regeringens bedömning av rapporten kan leda till förbättringar i säkerhetsarbetet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "infiltration",
+        "säkerhet",
+        "staten"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-11",
+          "beskrivning": "Regeringen överlämnar skrivelsen till riksdagen"
+        }
+      ]
+    },
+    "title": "Riksrevisionens rapport om infiltration i staten",
+    "cached_at": "2026-06-17"
   }
 }
