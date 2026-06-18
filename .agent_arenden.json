@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -495,7 +495,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -721,7 +721,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -862,11 +862,11 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-06-08",
+    "last_updated": "2026-06-18",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Mediemyndigheten kommer att genomföra kartläggningen och analysen av sociala medieplattformars algoritmer och sedan rapportera tillbaka till regeringen med sina resultat och rekommendationer.",
+    "next_step": "Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten kommer att genomföra kartläggningen och lämna förslag på åtgärder till regeringen.",
     "documents": [
       {
         "title": "Uppdrag att kartlägga hur algoritmer i sociala medier styr innehåll till barn och unga",
@@ -881,6 +881,13 @@
         "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/",
         "source": "Regeringen",
         "tech_vinkel": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer, vilket är en specifik teknikfråga som rör hur innehåll styrs till användare."
+      },
+      {
+        "title": "Uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön",
+        "date": "2026-06-18",
+        "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-att-kartlagga-och-foresla-atgarder-for-att-bemota-desinformation-som-riktar-sig-mot-personer-pa-grund-av-kon/",
+        "source": "Regeringen",
+        "tech_vinkel": "Uppdraget inkluderar en kartläggning av desinformation på sociala medier och en analys av hur algoritmer och andra digitala verktyg kan användas för att sprida eller motverka desinformation."
       }
     ]
   },
@@ -937,7 +944,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -980,7 +987,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -998,11 +1005,11 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
-    "next_step": "EU-kommissionen kommer att fortsätta att arbeta med medlemsstaterna för att implementera de rekommendationer som presenteras i rapporten.",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "EU-kommissionen kommer att använda metodologin för att övervaka och utvärdera digitala framsteg i EU, och kommer att publicera rapporter och uppdateringar om framstegen.",
     "documents": [
       {
         "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
@@ -1010,6 +1017,27 @@
         "url": "https://digital-strategy.ec.europa.eu/en/news/2026-state-digital-decade-report-shows-progress-urges-closing-structural-gaps-reach-2030-goals",
         "source": "EU-kommissionen",
         "tech_vinkel": "Rapporten pekar på vikten av att utveckla och implementera digitala teknologier, som artificiell intelligens och molntjänster, för att stödja den digitala transformationen i Europa."
+      },
+      {
+        "title": "State of the Digital Decade 2026 - Factsheet",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-factsheet",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Dokumentet nämner specifika digitala mål för 2030, inklusive utbyggnad av digital infrastruktur och förbättring av digitala färdigheter."
+      },
+      {
+        "title": "State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-closing-structural-gaps-and-mobilising-investments-2030-and-beyond",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Rapporten innehåller en specifik skrivning om att EU behöver investera mer i digital infrastruktur, som exempelvis 5G-nät och höghastighetsinternet, för att nå de digitala målen."
+      },
+      {
+        "title": "Digital Decade 2026 - DESI methodological note",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-desi-methodological-note",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Dokumentet innehåller en tydlig tech-vinkel genom att det beskriver hur EU-kommissionen ska använda data och indikatorer för att mäta digitala framsteg, inklusive användning av digitala verktyg och tekniker."
       }
     ]
   }
