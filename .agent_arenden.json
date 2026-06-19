@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -495,7 +495,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -721,7 +721,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -862,7 +862,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -944,7 +944,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -987,7 +987,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1005,11 +1005,11 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "EU-kommissionen kommer att använda metodologin för att övervaka och utvärdera digitala framsteg i EU, och kommer att publicera rapporter och uppdateringar om framstegen.",
+    "next_step": "EU-kommissionen kommer att fortsätta att övervaka medlemsstaternas framsteg mot att uppnå Digital Decade 2030-målen och ge stöd och vägledning där det behövs.",
     "documents": [
       {
         "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
@@ -1038,6 +1038,20 @@
         "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-desi-methodological-note",
         "source": "EU-kommissionen",
         "tech_vinkel": "Dokumentet innehåller en tydlig tech-vinkel genom att det beskriver hur EU-kommissionen ska använda data och indikatorer för att mäta digitala framsteg, inklusive användning av digitala verktyg och tekniker."
+      },
+      {
+        "title": "Digital Decade 2026 - Monitoring of 2025 EU-level recommendations",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-monitoring-2025-eu-level-recommendations",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Rapporten innehåller en specifik skrivning om att medlemsstaterna bör investera i digital infrastruktur, såsom 5G-nät och höghastighetsbredband, för att stödja digitaliseringen av samhället."
+      },
+      {
+        "title": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-connectivity-coverage-europe-2025-report",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Rapporten nämner specifikt utbyggnaden av FTTP och 5G-nätet som viktiga tekniker för att uppnå Digital Decade 2030-målen."
       }
     ]
   }

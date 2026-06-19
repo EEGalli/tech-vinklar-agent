@@ -149,132 +149,6 @@
     "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-06-12"
   },
-  "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "AI",
-      "sammanfattning": "EU-kommissionen har publicerat utkast till riktlinjer för klassificering av högriskartificiell intelligens (AI)-system. Dessa riktlinjer syftar till att stödja leverantörer och användare av AI-system, samt marknadstillsynsmyndigheter, i att bedöma om ett AI-system ska klassificeras som högrisk. Detta är en del av EU-kommissionens arbete med att implementera AI Act (EU:s AI-förordning), som syftar till att reglera utveckling och användning av AI-system i EU. Riktlinjerna ska bidra till en enhetlig tillämpning och effektivt genomförande av AI Act.",
-      "tech_vinkel": "Utkastet till riktlinjer för klassificering av högrisk-AI-system innehåller specifika kriterier för att bedöma om ett AI-system ska klassificeras som högrisk, vilket är en central del av AI Act (EU:s AI-förordning).",
-      "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de kommer att påverka utveckling och användning av AI-system i EU. De kommer att bidra till att säkerställa att AI-system utvecklas och används på ett sätt som är säkert och respektfullt mot människors rättigheter. Riktlinjerna kommer också att ha en betydande inverkan på företag och organisationer som utvecklar och använder AI-system, eftersom de kommer att behöva anpassa sig till de nya reglerna.",
-      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
-      "keywords": [
-        "AI",
-        "högrisk-AI-system",
-        "AI Act"
-      ],
-      "arende": "AI Act",
-      "nasta_steg": "EU-kommissionen kommer att samla in synpunkter på utkastet till riktlinjer innan de antas i sin slutliga form.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-19",
-          "beskrivning": "Utkast till riktlinjer publicerades"
-        }
-      ]
-    },
-    "title": "Draft Commission guidelines on the classification of high-risk AI systems",
-    "cached_at": "2026-05-19"
-  },
-  "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "AI",
-      "sammanfattning": "EU-kommissionen har öppnat en konsultation om riktlinjer för klassificering av högriskartificiell intelligenssystem. Konsultationen syftar till att samla in synpunkter på tydligheten i riktlinjerna och användbarheten av exemplen. Målet är att förbättra klassificeringen av högrisk-AI-system för att säkerställa att de utvecklas och används på ett ansvarsfullt sätt. Konsultationen är öppen till den 23 juni 2026.",
-      "tech_vinkel": "EU-kommissionen föreslår specifika riktlinjer för klassificering av högriskartificiell intelligenssystem, vilket är en viktig teknisk aspekt av AI-utveckling.",
-      "varfor_viktigt": "Denna konsultation är viktig eftersom den kan leda till tydligare regler för utveckling och användning av högrisk-AI-system. Detta kan ha stor inverkan på företag och organisationer som utvecklar och använder AI, samt på samhället i stort. Konsultationen kan också bidra till att säkerställa att AI-system utvecklas och används på ett ansvarsfullt sätt, vilket är en prioritet för EU-kommissionen.",
-      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
-      "keywords": [
-        "AI",
-        "högrisk-AI-system",
-        "klassificering",
-        "EU-kommissionen"
-      ],
-      "arende": "AI Act",
-      "nasta_steg": "EU-kommissionen kommer att sammanställa synpunkterna från konsultationen och använda dem för att förbättra riktlinjerna för klassificering av högrisk-AI-system.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-23",
-          "beskrivning": "Sista datum för att lämna synpunkter på konsultationen"
-        }
-      ]
-    },
-    "title": "Targeted consultation on the draft guidelines for the classification of high-risk artificial intelligence systems",
-    "cached_at": "2026-05-19"
-  },
-  "https://www.edpb.europa.eu/our-work-tools/accountability-tools/register-code-of-conduct/2026/alliance-du-commerce_en": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "Dokumentet handlar om en kod för hantering av personuppgifter för konsumenter som utfärdats av Alliance du Commerce. Koden har godkänts av den franska dataskyddsmyndigheten CNIL och är tillämplig för detaljhandlare som agerar som personuppgiftsansvariga. Dokumentet innehåller detaljer om hur personuppgifter ska hanteras i enlighet med EU:s allmänna dataskyddsförordning (GDPR).",
-      "tech_vinkel": "Dokumentet innehåller en specifik kod för hantering av personuppgifter som är tillämplig för detaljhandlare som använder sig av digitala system för att samla in och hantera konsumenters personuppgifter.",
-      "varfor_viktigt": "Detta dokument är viktigt eftersom det visar hur EU:s dataskyddsförordning (GDPR) tillämpas i praktiken för att skydda konsumenters personuppgifter. Detaljhandlare som inte följer koden riskerar att få böter och skadad reputation. Dokumentet är också viktigt för konsumenter som vill ha kontroll över sina personuppgifter och veta att de hanteras på ett säkert sätt.",
-      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
-      "keywords": [
-        "Dataskydd",
-        "GDPR",
-        "Personuppgifter"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Dokumentet kommer att följas upp av den franska dataskyddsmyndigheten CNIL för att säkerställa att detaljhandlare följer koden och hanterar personuppgifter i enlighet med GDPR.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-02-12",
-          "beskrivning": "Koden för hantering av personuppgifter godkändes av CNIL"
-        }
-      ]
-    },
-    "title": "Alliance du Commerce",
-    "cached_at": "2026-05-19"
-  },
-  "https://www.edpb.europa.eu/about-edpb/who-we-are/edpb-chairmanship/agenda/meeting-committee-civil-liberties-justice-and-home-0_en": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "Mötet handlar om ett möte mellan European Data Protection Board och Committee on Civil Liberties, Justice and Home Affairs i EU-parlamentet. Mötet är planerat att äga rum den 8 juni 2026. Inga specifika förslag eller beslut presenteras i sammanfattningen. Mötet verkar vara en del av den löpande verksamheten inom EU-parlamentet.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Mötet kan vara viktigt för att diskutera och besluta om frågor som rör dataskydd och integritet inom EU. Det kan också vara en möjlighet för EU-parlamentet att granska och utvärdera den nuvarande lagstiftningen och politiken inom området. Det är dock svårt att bedöma den exakta betydelsen av mötet utan mer information.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Dataskydd",
-        "Integritet",
-        "EU-parlamentet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-08",
-          "beskrivning": "Mötet mellan European Data Protection Board och Committee on Civil Liberties, Justice and Home Affairs"
-        }
-      ]
-    },
-    "title": "Meeting Committee on Civil Liberties, Justice and Home Affairs (LIBE), European Parliament",
-    "cached_at": "2026-05-19"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/europe-aviation-joins-forces-airspace-world-2026": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har meddelat att Europe for Aviation kommer att delta i Airspace World 2026. Detta evenemang syftar till att främja samarbeten inom flygindustrin. Inga specifika tekniska detaljer eller förslag presenteras i meddelandet. Det handlar mer om en allmän presentation av evenemanget och dess syfte.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Evenemanget kan ha betydelse för flygindustrin och dess utveckling, men utan specifika tekniska detaljer eller förslag är det svårt att bedöma dess tekniska relevans. Det kan dock vara viktigt för att främja samarbeten och innovation inom branschen. Tajmingen för evenemanget kan vara viktig för att möta aktuella utmaningar och trender inom flygindustrin.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Europe for Aviation",
-        "Airspace World 2026",
-        "flygindustri"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026",
-          "beskrivning": "Airspace World 2026 evenemanget äger rum"
-        }
-      ]
-    },
-    "title": "Europe for Aviation joins forces at Airspace World 2026",
-    "cached_at": "2026-05-19"
-  },
   "https://digital-strategy.ec.europa.eu/en/consultations/survey-eu-legal-framework-health-data-and-data-driven-health-technologies": {
     "analysis": {
       "relevans": "medel",
@@ -4098,5 +3972,123 @@
     },
     "title": "Uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön",
     "cached_at": "2026-06-18"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-monitoring-2025-eu-level-recommendations": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-kommissionen har publicerat en rapport som granskar hur väl EU och medlemsstaterna har implementerat rekommendationerna från Digital Decade-initiativet sedan 2025. Rapporten syftar till att övervaka framstegen mot de mål som satts upp för det digitala decenniet. Det handlar om att förbättra den digitala infrastrukturen, öka tillgängligheten till digitala tjänster och förbättra digital kompetens i Europa. Medlemsstaterna ska rapportera om sina framsteg och utmaningar i att implementera dessa rekommendationer.",
+      "tech_vinkel": "Rapporten innehåller en specifik skrivning om att medlemsstaterna bör investera i digital infrastruktur, såsom 5G-nät och höghastighetsbredband, för att stödja digitaliseringen av samhället.",
+      "varfor_viktigt": "Denna rapport är viktig eftersom den visar hur väl EU och medlemsstaterna arbetar mot att uppnå de mål som satts upp för det digitala decenniet. Det handlar om att skapa en mer digital och konkurrenskraftig ekonomi i Europa, och att säkerställa att alla medborgare har tillgång till digitala tjänster och kompetens. Tajmingen spelar roll eftersom implementeringen av dessa rekommendationer kan påverka den ekonomiska tillväxten och konkurrenskraften i Europa. Dessutom kan det påverka medborgarnas tillgång till digitala tjänster och deras digitala kompetens.",
+      "eu_koppling": "Digital Decade-initiativet",
+      "keywords": [
+        "Digital Decade",
+        "digital infrastruktur",
+        "EU-kommissionen"
+      ],
+      "arende": "Digitala decenniet-initiativet",
+      "nasta_steg": "Medlemsstaterna kommer att fortsätta att rapportera om sina framsteg och utmaningar i att implementera rekommendationerna, och EU-kommissionen kommer att fortsätta att övervaka och stödja implementeringen.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-12-31",
+          "beskrivning": "Slutdatum för medlemsstaterna att rapportera om sina framsteg mot Digital Decade-målen"
+        }
+      ]
+    },
+    "title": "Digital Decade 2026 - Monitoring of 2025 EU-level recommendations",
+    "cached_at": "2026-06-19"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-connectivity-coverage-europe-2025-report": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-kommissionen har släppt en rapport som visar att fiberoptik till hemmen (FTTP) har blivit den vanligaste fasta tekniken i Europa, och att 5G-nätet nästan täcker hela kontinenten. Detta är en del av EU:s Digital Decade 2030-mål, som syftar till att förbättra digitala anslutningar och infrastruktur i Europa. Rapporten visar att medlemsstaterna gör framsteg mot att uppnå dessa mål. Detta kan leda till förbättrad digital tillgänglighet och hastighet för européer.",
+      "tech_vinkel": "Rapporten nämner specifikt utbyggnaden av FTTP och 5G-nätet som viktiga tekniker för att uppnå Digital Decade 2030-målen.",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan leda till förbättrad digital tillgänglighet och hastighet för européer, vilket kan ha positiva effekter på ekonomi, utbildning och hälsa. Dessutom kan det bidra till att Europa förblir konkurrenskraftigt i den digitala ekonomin. EU-kommissionens rapport visar att medlemsstaterna gör framsteg mot att uppnå Digital Decade 2030-målen, men det finns fortfarande utmaningar som måste övervinnas.",
+      "eu_koppling": "Digital Decade 2030",
+      "keywords": [
+        "Digital Decade 2030",
+        "FTTP",
+        "5G"
+      ],
+      "arende": "Digitala decenniet-initiativet",
+      "nasta_steg": "EU-kommissionen kommer att fortsätta att övervaka medlemsstaternas framsteg mot att uppnå Digital Decade 2030-målen och ge stöd och vägledning där det behövs.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-12-31",
+          "beskrivning": "Slutdatum för Digital Decade 2025-mål"
+        },
+        {
+          "datum": "2030-12-31",
+          "beskrivning": "Slutdatum för Digital Decade 2030-mål"
+        }
+      ]
+    },
+    "title": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report",
+    "cached_at": "2026-06-19"
+  },
+  "https://www.berec.europa.eu/en/news/latest-news/berec-chair-highlights-importance-of-regional-cooperation-on-digital-regulation-at-global-symposium-for-regulators": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, har haft sitt ordförande Marko Mismas som talare på Global Symposium for Regulators i Ankara, Turkiet. Där har han betonat vikten av regional samarbete när det gäller digital reglering. Det handlar om att utveckla effektiv och framtidsorienterad digital reglering. BEREC vill alltså att länder samarbetar mer för att skapa bra regler för den digitala världen.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta är viktigt eftersom digital reglering påverkar hur företag och myndigheter kan använda digitala verktyg och tjänster. Om regleringen är bra kan det leda till att fler människor får tillgång till digitala tjänster och att företag kan växa. Men om regleringen är dålig kan det leda till problem med säkerhet och integritet. Det är därför viktigt att länder samarbetar för att skapa bra regler.",
+      "eu_koppling": "null",
+      "keywords": [
+        "digital reglering",
+        "regional samarbete"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "BEREC Chair highlights importance of regional cooperation on digital regulation at Global Symposium for Regulators",
+    "cached_at": "2026-06-19"
+  },
+  "https://data.riksdagen.se/dokument/HEB336.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Utredningen om åtgärder för att öka antalet kliniska prövningar och vissa forskningsinitiativ i Sverige har lämnat ett delbetänkande. Betänkandet handlar om att förbättra förutsättningarna för att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning. Det föreslås att det ska bli lättare för dessa personer att delta i kliniska prövningar och att deras rättigheter och säkerhet ska skyddas. Utredningen föreslår också att det ska finnas tydliga riktlinjer för hur man ska hantera samtycke och informerat samtycke i dessa situationer.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta betänkande är viktigt eftersom det kan leda till att fler personer med nedsatt beslutsförmåga kan delta i medicinsk forskning och därmed bidra till att utveckla nya behandlingsmetoder och läkemedel. Det kan också leda till att deras rättigheter och säkerhet skyddas bättre. Utredningens förslag kan också ha konsekvenser för hur kliniska prövningar genomförs i Sverige och hur man hanterar samtycke och informerat samtycke.",
+      "eu_koppling": "null",
+      "keywords": [
+        "medicinsk forskning",
+        "kliniska prövningar",
+        "nedsatt beslutsförmåga"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-18",
+          "beskrivning": "Delbetänkande publicerat"
+        }
+      ]
+    },
+    "title": "Bättre förutsättningar att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning",
+    "cached_at": "2026-06-19"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-socialstyrelsen-att-komplettera-foreskrifter-om-tillstandsplikt-inom-tandvarden/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen ger Socialstyrelsen i uppdrag att komplettera föreskrifter om tillståndsplikt inom tandvården. Detta handlar om att säkerställa att tandvården bedrivs på ett säkert och kvalitetsmässigt sätt. Socialstyrelsen ska skyndsamt komplettera sina föreskrifter och allmänna råd om krav för tillstånd för att bedriva tandvård. Detta påverkar tandvårdsverksamheter som måste följa dessa föreskrifter.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta beslut är viktigt för att säkerställa att tandvården i Sverige bedrivs på ett säkert och kvalitetsmässigt sätt. Det påverkar tandvårdsverksamheter som måste följa dessa föreskrifter, och därmed också patienterna som får vården. Det är en del av regeringens arbete med att säkerställa en god och säker hälso- och sjukvård.",
+      "eu_koppling": null,
+      "keywords": [
+        "tandvård",
+        "Socialstyrelsen",
+        "föreskrifter"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Uppdrag till Socialstyrelsen att komplettera föreskrifter om tillståndsplikt inom tandvården",
+    "cached_at": "2026-06-19"
   }
 }
