@@ -149,195 +149,6 @@
     "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-06-12"
   },
-  "https://digital-strategy.ec.europa.eu/en/consultations/survey-eu-legal-framework-health-data-and-data-driven-health-technologies": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "EU-kommissionen genomför en undersökning om det rättsliga ramverket för hälsodata och datadriven hälsovägledning inom EU. Syftet är att samla in erfarenheter från verkligheten om hur man får tillgång till och återanvänder hälsodata, samt hur man följer EU-reglerna när det gäller datadriven hälsovård. Undersökningen är öppen från den 13 maj 2026 till den 22 maj 2026. Målet är att förbättra det rättsliga ramverket för hälsodata och datadriven hälsovård.",
-      "tech_vinkel": "EU-kommissionen undersöker det rättsliga ramverket för hälsodata, vilket inkluderar frågor om dataskydd, integritet och återanvändning av hälsodata i datadriven hälsovård.",
-      "varfor_viktigt": "Detta är viktigt eftersom det rättsliga ramverket för hälsodata och datadriven hälsovård har stor betydelse för patienters integritet och säkerhet. En väl fungerande ramverk kan bidra till att förbättra hälsovården och patienternas tillgång till vård. Dessutom kan det bidra till att öka förtroendet för datadriven hälsovård och hälsodata.",
-      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen) och andra EU-lagstiftningsakter som reglerar hälsodata och dataskydd",
-      "keywords": [
-        "hälsodata",
-        "datadriven hälsovård",
-        "EU-regler",
-        "dataskydd",
-        "integritet"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "EU-kommissionen kommer att analysera resultaten från undersökningen och använda dem för att förbättra det rättsliga ramverket för hälsodata och datadriven hälsovård.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-13",
-          "beskrivning": "Undersökningen öppnar"
-        },
-        {
-          "datum": "2026-05-22",
-          "beskrivning": "Undersökningen stänger"
-        }
-      ]
-    },
-    "title": "Survey on the EU legal framework for health data and data driven health technologies",
-    "cached_at": "2026-05-20"
-  },
-  "https://www.edpb.europa.eu/about-edpb/who-we-are/edpb-chairmanship/agenda/meeting-data-protection-working-group-council-3_en": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "Detta dokument handlar om ett möte i European Data Protection Board, som är en EU-byrå som arbetar med dataskydd och integritet. Mötet äger rum den 12 juni 2026 och leds av Anu Talus. Dokumentet innehåller ingen information om specifika förslag eller beslut, utan verkar vara enbart en möteskallelse.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta möte kan vara viktigt för att diskutera och fatta beslut om dataskydd och integritet i EU, men utan mer information är det svårt att säga exakt varför det är viktigt. Dataskydd och integritet är viktiga frågor i dagens digitala samhälle, och EU-byråer som European Data Protection Board spelar en viktig roll i att skydda medborgarnas rättigheter.",
-      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning, som reglerar hur personuppgifter ska hanteras inom EU)",
-      "keywords": [
-        "dataskydd",
-        "integritet",
-        "EU"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-12",
-          "beskrivning": "Möte i European Data Protection Board"
-        }
-      ]
-    },
-    "title": "Meeting Data Protection Working Group, Council",
-    "cached_at": "2026-05-20"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/events/dublin-stem-women-graduate-careers-event": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar en karriärhändelse för kvinnor som studerar STEM-ämnen i Dublin. Händelsen syftar till att främja karriärmöjligheter för kvinnor inom rymd- och tekniksektorn. Detta är en del av EU:s insatser för att öka jämställdheten inom STEM-områden. Händelsen är tänkt att inspirera och ge kvinnor verktyg för att lyckas i sina karriärer.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna händelse är viktig eftersom den syftar till att öka jämställdheten inom STEM-områden, som traditionellt har varit mansdominerade. Genom att främja karriärmöjligheter för kvinnor kan EU bidra till att öka mångfalden och kreativiteten inom tekniksektorn. Detta kan i sin tur leda till innovation och ekonomisk tillväxt.",
-      "eu_koppling": "null",
-      "keywords": [
-        "STEM",
-        "karriärhändelse",
-        "jämställdhet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-18",
-          "beskrivning": "Karriärhändelsen äger rum"
-        }
-      ]
-    },
-    "title": "Dublin STEM Women Graduate Careers Event",
-    "cached_at": "2026-05-20"
-  },
-  "https://data.riksdagen.se/dokument/HD01SoU29.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Riksdagen behandlar ett förslag om aktivitetskrav för mottagare av försörjningsstöd. Detta förslag syftar till att ställa krav på personer som mottar försörjningsstöd att delta i vissa aktiviteter. Förslaget påverkar främst personer som är beroende av försörjningsstöd för sin försörjning. Det är dock oklart vad som ändras i förhållande till nuvarande regler.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta förslag kan ha konsekvenser för personer som mottar försörjningsstöd, eftersom de kan tvingas delta i aktiviteter som de kanske inte vill eller kan delta i. Det kan också ha konsekvenser för samhället i stort, eftersom det kan påverka hur försörjningsstöd hanteras och vilka krav som ställs på mottagare. Tajmingen spelar roll eftersom det kan påverka den ekonomiska situationen för de personer som berörs.",
-      "eu_koppling": "null",
-      "keywords": [
-        "försörjningsstöd",
-        "aktivitetskrav"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-20",
-          "beskrivning": "Riksdagen behandlar förslaget om aktivitetskrav för mottagare av försörjningsstöd"
-        }
-      ]
-    },
-    "title": "Aktivitetskrav för mottagare av försörjningsstöd",
-    "cached_at": "2026-05-20"
-  },
-  "https://www.euspa.europa.eu/node/9705": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en annons för en tjänst som Inter-institutional Stakeholder Relations Officer. Denna roll handlar om att hantera relationer mellan olika institutioner och intressenter. Detta dokument handlar inte specifikt om tekniska frågor utan mer om en personalrekrytering. Inga specifika tekniska förslag eller beslut presenteras.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta dokument är inte särskilt viktigt ur ett tech-perspektiv eftersom det inte innehåller några specifika tekniska förslag eller beslut. Det handlar mer om en personalrekrytering inom Europeiska rymdbyrån. Det finns inga tydliga konsekvenser eller aktörer som påverkas direkt av detta dokument.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EUSPA",
-        "Inter-institutional Stakeholder Relations Officer"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Inter-institutional Stakeholder Relations Officer",
-    "cached_at": "2026-05-20"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/la-union-europea-adjudica-gmv-la-operacion-247-de-su-red-de-satelites-para": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån har gett företaget GMV i uppdrag att sköta driften av EU:s satellitnät för nödsituationer dygnet runt. Detta innebär att GMV kommer att ansvara för att nätverket fungerar utan avbrott och att det kan användas för att hantera nödsituationer på ett effektivt sätt. Uppdraget är en del av EU:s arbete för att förbättra sin förmåga att hantera nödsituationer och katastrofer. Detta kan ha en positiv inverkan på EU:s förmåga att hantera kriser.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan förbättra EU:s förmåga att hantera nödsituationer och katastrofer. Det kan också bidra till att förbättra samarbetet mellan EU-länderna i dessa situationer. Dessutom kan det leda till att EU:s satellitnät blir mer tillförlitligt och effektivt, vilket kan ha en positiv inverkan på EU:s ekonomi och säkerhet.",
-      "eu_koppling": "null",
-      "keywords": [
-        "satellitnät",
-        "nödsituationer",
-        "EU"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "La Unión Europea adjudica a GMV la operación 24/7 de su red de satélites para emergencias",
-    "cached_at": "2026-05-20"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/events/expandeo-1": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EXPANDEO är ett projekt från den europeiska rymdbyrån EUSPA. Projektet handlar om att expandera och utveckla rymdteknologi och tjänster. Det finns dock inte tillräckligt med information för att avgöra vad projektet specifikt handlar om eller vad det syftar till att uppnå. Projektet kan vara en del av EU:s övergripande strategi för rymd och satellitkommunikation.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Om EXPANDEO är en del av EU:s rymdstrategi, kan det ha betydelse för utvecklingen av rymdteknologi och satellitkommunikation i Europa. Det kan också ha implikationer för företag och organisationer som arbetar inom rymdsektorn. Dock saknas information om projektets specifika mål och syften, vilket gör det svårt att bedöma dess betydelse.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdteknologi",
-        "satellitkommunikation",
-        "EUSPA"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EXPANDEO",
-    "cached_at": "2026-05-20"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260520CAN78340": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att diskutera hur EU:s skydd mot katastrofer och kritisk infrastrukturs motståndskraft kan stärkas. Diskussionen kommer att fokusera på bedömningen av beredskapen och de åtgärder som redan är på plats, med fokus på möjliga förbättringar. Representanter från kommissionen, Hybrid CoE och civilsamhället kommer att delta i diskussionen. Mötet är planerat till den 1 juni.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta möte är viktigt eftersom det handlar om att stärka EU:s förmåga att hantera katastrofer och skydda kritisk infrastruktur. Det kan ha en stor inverkan på medborgarnas säkerhet och välbefinnande. EU:s beredskap och motståndskraft mot katastrofer och cyberhot är en prioriterad fråga, och diskussionen kan leda till viktiga beslut och åtgärder.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EU",
-        "katastrofskydd",
-        "kritisk infrastruktur"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-01",
-          "beskrivning": "LIBE-utskottet håller möte för att diskutera EU:s katastrofskydd och kritisk infrastrukturs motståndskraft"
-        }
-      ]
-    },
-    "title": "Highlights - Strengthening EU Civil Protection and European Critical Infrastructure Resilience - Committee on Civil Liberties, Justice and Home Affairs",
-    "cached_at": "2026-05-20"
-  },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260520CAN78360": {
     "analysis": {
       "relevans": "låg",
@@ -4090,5 +3901,96 @@
     },
     "title": "Uppdrag till Socialstyrelsen att komplettera föreskrifter om tillståndsplikt inom tandvården",
     "cached_at": "2026-06-19"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/user-consultation-platform-2026": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har lanserat en användarundersökning för 2026. Syftet med denna undersökning är att samla in synpunkter och åsikter från användare om byråns tjänster och produkter. Detta kan bidra till att förbättra kvaliteten och effektiviteten hos EUSPA:s verksamhet. Undersökningen är en del av byråns strävan att öka transparensen och delaktigheten i dess beslutsprocesser.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna undersökning kan ha betydelse för hur EUSPA utvecklar och tillhandahåller sina tjänster i framtiden. Genom att lyssna på användarnas behov och åsikter kan byrån förbättra sin verksamhet och bidra till att främja europeiskt samarbete inom rymdsektorn. Detta kan i sin tur ha positiva effekter på den europeiska rymdindustrin och samhället i stort.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "användarundersökning",
+        "rymdsektor"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "User Consultation Platform 2026",
+    "cached_at": "2026-06-20"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/cassini-action-some-space-start-ups-spotlight": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån presenterar två tjeckiska rymdstartups, 3L Robotics och Zaitra, som visar hur EU:s rymdprogram kan omvandlas till verkliga affärer. Dessa startups är exempel på hur CASSINI-initiativet kan stödja utvecklingen av rymdteknologi. Det handlar om att skapa möjligheter för nya företag att växa och bidra till EU:s rymdindustri. Detta är en del av EU:s strävan att främja innovation och entreprenörskap inom rymdsektorn.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta är viktigt eftersom det visar på EU:s engagemang för att stödja utvecklingen av rymdteknologi och främja innovation inom sektorn. Det kan också bidra till att skapa nya jobb och möjligheter för företag inom EU. Dessutom kan det bidra till att stärka EU:s position inom den globala rymdindustrin. Tajmingen spelar roll eftersom det är viktigt att EU kan konkurrera med andra länder inom rymdteknologi.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknologi",
+        "innovation",
+        "entreprenörskap"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "CASSINI in action: some space start-ups in the spotlight",
+    "cached_at": "2026-06-20"
+  },
+  "https://data.riksdagen.se/dokument/HD03290.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har lämnat en proposition till riksdagen om Sveriges utrikes underrättelsetjänst. Propositionen innehåller förslag om hur utrikes underrättelsetjänsten ska organiseras och arbeta. Det finns inga tydliga detaljer om vad propositionen faktiskt föreslår eller hur den påverkar olika aktörer. Propositionen är en del av regeringens arbete med att säkerställa Sveriges säkerhet och försvar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Propositionen är viktig eftersom den berör Sveriges säkerhet och försvar. Det är dock oklart vilka specifika konsekvenser propositionen kan ha, eftersom detaljerna inte är tydliga. Regeringens arbete med utrikes underrättelsetjänsten är en del av ett större arbete med att säkerställa Sveriges säkerhet och försvar. Propositionen kan ha betydelse för hur Sverige hanterar säkerhetsfrågor i framtiden.",
+      "eu_koppling": null,
+      "keywords": [
+        "utrikes underrättelsetjänst",
+        "säkerhet",
+        "försvar"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-18",
+          "beskrivning": "Propositionen lämnades till riksdagen"
+        }
+      ]
+    },
+    "title": "Sveriges utrikes underrättelsetjänst",
+    "cached_at": "2026-06-20"
+  },
+  "https://www.regeringen.se/remisser/2026/06/remiss-sou-202635-en-aldersgrans-for-barns-tillgang-till-sociala-medier/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Sociala medier",
+      "sammanfattning": "Regeringen har remitterat betänkandet SOU 2026:35, som handlar om att införa en åldersgräns för barns tillgång till sociala medier. Det föreslås att barn under en viss ålder inte ska få använda sociala medier utan föräldrarnas samtycke. Detta förslag syftar till att skydda barn från skadligt innehåll och att främja en tryggare online-miljö för unga. Regeringen vill ha synpunkter på förslaget från olika instanser.",
+      "tech_vinkel": "Det specifika förslaget om åldersgräns för sociala medier är en tydlig tech-vinkel, eftersom det rör regleringen av online-plattformar och deras ansvar för att skydda barn.",
+      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan ha en stor inverkan på hur sociala medier fungerar i Sverige och hur barn skyddas online. Det kan också påverka hur företag som driver sociala medier-plattformar utformar sina tjänster och vilka åtgärder de vidtar för att skydda unga användare. Regeringens beslut kan också skapa ett prejudikat för andra länder att följa.",
+      "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar online-plattformars ansvar för att skydda användare, inklusive barn.",
+      "keywords": [
+        "åldersgräns",
+        "sociala medier",
+        "barnskydd",
+        "online-säkerhet"
+      ],
+      "arende": "Åldersgräns för sociala medier",
+      "nasta_steg": "Regeringen kommer att sammanställa synpunkterna från remissinstanserna och därefter lämna ett förslag till riksdagen om införande av åldersgräns för sociala medier.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-18",
+          "beskrivning": "Regeringen remitterar betänkandet SOU 2026:35"
+        }
+      ]
+    },
+    "title": "Remiss SOU 2026:35, En åldersgräns för barns tillgång till sociala medier, S2026/01273",
+    "cached_at": "2026-06-20"
   }
 }

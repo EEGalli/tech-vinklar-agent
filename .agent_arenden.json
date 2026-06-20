@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-20",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -495,7 +495,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-20",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -721,7 +721,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-20",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -862,7 +862,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-20",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -944,11 +944,11 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-20",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Utredningens förslag kommer att remitteras till berörda myndigheter och organisationer för yttrande, varefter regeringen kommer att fatta beslut om huruvida förslaget ska gå vidare till riksdagen för beslut.",
+    "next_step": "Regeringen kommer att sammanställa synpunkterna från remissinstanserna och därefter lämna ett förslag till riksdagen om införande av åldersgräns för sociala medier.",
     "documents": [
       {
         "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
@@ -963,6 +963,13 @@
         "url": "https://www.regeringen.se/pressmeddelanden/2026/06/utredningen-om-aldersgrans-pa-sociala-medier-overlamnar-delbetankande/",
         "source": "Regeringen",
         "tech_vinkel": "Utredningen om åldersgräns på sociala medier behandlar tekniska aspekter kring hur sociala medier kan skydda barn och unga från skadligt innehåll och hur åldersgränser kan implementeras på plattformarna."
+      },
+      {
+        "title": "Remiss SOU 2026:35, En åldersgräns för barns tillgång till sociala medier, S2026/01273",
+        "date": "2026-06-18",
+        "url": "https://www.regeringen.se/remisser/2026/06/remiss-sou-202635-en-aldersgrans-for-barns-tillgang-till-sociala-medier/",
+        "source": "Regeringen",
+        "tech_vinkel": "Det specifika förslaget om åldersgräns för sociala medier är en tydlig tech-vinkel, eftersom det rör regleringen av online-plattformar och deras ansvar för att skydda barn."
       }
     ]
   },
@@ -987,7 +994,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-20",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1005,7 +1012,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-20",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
