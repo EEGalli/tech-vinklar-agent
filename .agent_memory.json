@@ -1,311 +1,4 @@
 {
-  "2026-05-21": [
-    {
-      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
-      "source": "EU-parlamentet",
-      "type": "EP/Utskott",
-      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Tue, 19 May 2026",
-      "analysis": {
-        "relevans": "medel",
-        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
-        "varfor_viktigt": "Med tanke på den snabba utvecklingen inom AI och digitala tjänster är det avgörande att EU-kommissionen och parlamentet kontinuerligt granskar och anpassar lagstiftningen för att skydda konsumenter och säkerställa en rättvis konkurrens. Dessa möten kan indikera riktningen för framtida regleringar som påverkar hur vi interagerar med digitala plattformar.",
-        "eu_koppling": "Digitala marknader (DMA) och Digital Services Act (DSA) är relevanta, eftersom IMCO-utskottet ofta arbetar med dessa frågor.",
-        "keywords": [
-          "IMCO",
-          "digitala marknader",
-          "konsumentskydd",
-          "algoritmer",
-          "plattformar"
-        ],
-        "arende": "Digitala marknader",
-        "nasta_steg": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-04-15",
-            "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor."
-          },
-          {
-            "datum": "2026-04-16",
-            "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Draft Commission guidelines on the classification of high-risk AI systems",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems",
-      "date": "Tue, 19 May 2026",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "AI",
-        "sammanfattning": "EU-kommissionen har publicerat utkast till riktlinjer för klassificering av högriskartificiell intelligens (AI)-system. Dessa riktlinjer syftar till att stödja leverantörer och användare av AI-system, samt marknadstillsynsmyndigheter, i att bedöma om ett AI-system ska klassificeras som högrisk. Detta är en del av EU-kommissionens arbete med att implementera AI Act (EU:s AI-förordning), som syftar till att reglera utveckling och användning av AI-system i EU. Riktlinjerna ska bidra till en enhetlig tillämpning och effektivt genomförande av AI Act.",
-        "tech_vinkel": "Utkastet till riktlinjer för klassificering av högrisk-AI-system innehåller specifika kriterier för att bedöma om ett AI-system ska klassificeras som högrisk, vilket är en central del av AI Act (EU:s AI-förordning).",
-        "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de kommer att påverka utveckling och användning av AI-system i EU. De kommer att bidra till att säkerställa att AI-system utvecklas och används på ett sätt som är säkert och respektfullt mot människors rättigheter. Riktlinjerna kommer också att ha en betydande inverkan på företag och organisationer som utvecklar och använder AI-system, eftersom de kommer att behöva anpassa sig till de nya reglerna.",
-        "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
-        "keywords": [
-          "AI",
-          "högrisk-AI-system",
-          "AI Act"
-        ],
-        "arende": "AI Act",
-        "nasta_steg": "EU-kommissionen kommer att samla in synpunkter på utkastet till riktlinjer innan de antas i sin slutliga form.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-19",
-            "beskrivning": "Utkast till riktlinjer publicerades"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Survey on the EU legal framework for health data and data driven health technologies",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Konsultation",
-      "url": "https://digital-strategy.ec.europa.eu/en/consultations/survey-eu-legal-framework-health-data-and-data-driven-health-technologies",
-      "date": "Tue, 19 May 2026",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Dataskydd och integritet",
-        "sammanfattning": "EU-kommissionen genomför en undersökning om det rättsliga ramverket för hälsodata och datadriven hälsovägledning inom EU. Syftet är att samla in erfarenheter från verkligheten om hur man får tillgång till och återanvänder hälsodata, samt hur man följer EU-reglerna när det gäller datadriven hälsovård. Undersökningen är öppen från den 13 maj 2026 till den 22 maj 2026. Målet är att förbättra det rättsliga ramverket för hälsodata och datadriven hälsovård.",
-        "tech_vinkel": "EU-kommissionen undersöker det rättsliga ramverket för hälsodata, vilket inkluderar frågor om dataskydd, integritet och återanvändning av hälsodata i datadriven hälsovård.",
-        "varfor_viktigt": "Detta är viktigt eftersom det rättsliga ramverket för hälsodata och datadriven hälsovård har stor betydelse för patienters integritet och säkerhet. En väl fungerande ramverk kan bidra till att förbättra hälsovården och patienternas tillgång till vård. Dessutom kan det bidra till att öka förtroendet för datadriven hälsovård och hälsodata.",
-        "eu_koppling": "GDPR (Allmänna dataskyddsförordningen) och andra EU-lagstiftningsakter som reglerar hälsodata och dataskydd",
-        "keywords": [
-          "hälsodata",
-          "datadriven hälsovård",
-          "EU-regler",
-          "dataskydd",
-          "integritet"
-        ],
-        "arende": "Dataskydd och integritet",
-        "nasta_steg": "EU-kommissionen kommer att analysera resultaten från undersökningen och använda dem för att förbättra det rättsliga ramverket för hälsodata och datadriven hälsovård.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-13",
-            "beskrivning": "Undersökningen öppnar"
-          },
-          {
-            "datum": "2026-05-22",
-            "beskrivning": "Undersökningen stänger"
-          }
-        ]
-      }
-    },
-    {
-      "title": "EU and Japan accelerate cooperation on AI, data, quantum and chips",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/eu-and-japan-accelerate-cooperation-ai-data-quantum-and-chips",
-      "date": "Tue, 05 May 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Halvledare",
-        "sammanfattning": "EU-kommissionen har meddelat att EU och Japan kommer att intensifiera sitt samarbete inom digital teknik. Vid ett möte i Bryssel har de båda parterna enats om att fördjupa samarbetet kring reglering, forskning och industri inom områden som data, artificiell intelligens, kvantteknik, halvledare, digital infrastruktur och onlineplattformar. Syftet är att stärka bådas positioner inom dessa teknologier och främja innovation. Samarbetet kommer att omfatta både politiska diskussioner och konkreta åtgärder.",
-        "tech_vinkel": "EU och Japan har specifikt uttryckt en avsikt att fördjupa samarbetet kring halvledare (chips), vilket är en viktig komponent i många digitala teknologier.",
-        "varfor_viktigt": "Detta samarbete är viktigt eftersom både EU och Japan står inför utmaningar inom halvledarproduktionen och behöver stärka sin konkurrenskraft. Genom att dela kunskap och resurser kan båda parter minska sin beroende av andra regioner och säkra tillgången till viktiga teknologier. Det kan även leda till nya innovationer och skapande av arbetstillfällen inom dessa sektorer.",
-        "eu_koppling": "EU Chips Act (EU:s lagstiftning som syftar till att stärka EU:s halvledarindustri och minska beroendet av utländska leverantörer)",
-        "keywords": [
-          "EU",
-          "Japan",
-          "AI",
-          "data",
-          "kvant",
-          "chips",
-          "halvledare",
-          "digital infrastruktur"
-        ],
-        "arende": "EU Chips Act",
-        "nasta_steg": "Det är troligt att mötet kommer att följas av konkreta avtal och initiativ för att genomföra det utökade samarbetet.",
-        "viktiga_datum": [
-          {
-            "datum": "null",
-            "beskrivning": "null"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Regulation remains critical for Europe’s transition to full fibre",
-      "source": "BEREC",
-      "type": "EU-byrå",
-      "url": "https://www.berec.europa.eu/en/news/latest-news/regulation-remains-critical-for-europes-transition-to-full-fibre",
-      "date": "Wed, 06 May 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "BEREC, en EU-byrå för telekom-reglering, betonar att reglering är avgörande för Europas övergång till fullt fibernät. Detta framgick under en paneldiskussion om det föreslagna Digitala Nätverkslagen i Europa. BEREC:s ordförande Marko Mismas underströk regleringens viktiga roll i denna övergång. Det handlar om att säkerställa att Europa kan bygga ut sin digitala infrastruktur på ett effektivt och samordnat sätt.",
-        "tech_vinkel": "Det föreslagna Digitala Nätverkslagen i Europa är en specifik skrivning som berör tech, då den syftar till att reglera och främja utbyggnaden av digitala nätverk i Europa.",
-        "varfor_viktigt": "Detta är viktigt eftersom en välutvecklad digital infrastruktur är avgörande för Europas ekonomiska tillväxt och konkurrenskraft. En fullständig övergång till fibernät kan också förbättra tillgången till snabb och pålitlig internetanslutning för medborgare och företag. Dessutom kan det bidra till att minska digitala klyftor och främja innovation inom olika sektorer.",
-        "eu_koppling": "Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll)",
-        "keywords": [
-          "Digitala Nätverkslagen",
-          "BEREC",
-          "fibernät",
-          "digital infrastruktur"
-        ],
-        "arende": "Digitala Nätverkslagen",
-        "nasta_steg": "Nästa steg i detta ärende är att det föreslagna lagförslaget kommer att diskuteras och bearbetas inom EU:s institutioner för att slutligen antas och implementeras.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-06",
-            "beskrivning": "Paneldiskussion om det föreslagna Digitala Nätverkslagen i Europa"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Cybercriminal VPN used by ransomware actors dismantled in global crackdown",
-      "source": "Europol",
-      "type": "EU-byrå",
-      "url": "https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown",
-      "date": "",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Cybersäkerhet",
-        "sammanfattning": "EU:s polisbyrå, Europol, har medverkat i en global insats för att stänga ner en VPN-tjänst som användes av cyberkriminella, inklusive ransomware-aktörer. Tjänsten, kallad 'First VPN', erbjöd anonyma betalningar och dold infrastruktur för att underlätta kriminell verksamhet. Insatsen är en del av en större ansträngning för att bekämpa cyberbrott och skydda medborgare och företag från cyberhot.",
-        "tech_vinkel": "Europol har identifierat och stängt ner en specifik VPN-tjänst som användes av cyberkriminella för att utföra ransomware-attacker och andra former av cyberbrott.",
-        "varfor_viktigt": "Denna insats är viktig eftersom den visar på EU:s förmåga att samarbeta med internationella partners för att bekämpa cyberbrott. Det också visar på vikten av att ha effektiva verktyg och strategier för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster för att dölja sin verksamhet. Detta kan ha en positiv inverkan på medborgarnas och företagens säkerhet i hela EU.",
-        "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
-        "keywords": [
-          "Cyberkriminalitet",
-          "VPN",
-          "Ransomware",
-          "Europol"
-        ],
-        "arende": "Cybersäkerhetscenter",
-        "nasta_steg": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
-        "viktiga_datum": [
-          {
-            "datum": "2024-01-01",
-            "beskrivning": "Europol meddelar att insatsen har varit framgångsrik och att flera kriminella nätverk har stängts ner"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Stärkt skydd mot utlänningar som utgör kvalificerade säkerhetshot",
-      "source": "Riksdagen",
-      "type": "Riksdagen/PROP",
-      "url": "https://data.riksdagen.se/dokument/HD03267.html",
-      "date": "2026-05-07",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Cybersäkerhet",
-        "sammanfattning": "Regeringen föreslår en proposition som syftar till att stärka skyddet mot utlänningar som utgör kvalificerade säkerhetshot. Detta inkluderar åtgärder för att begränsa deras tillgång till kritisk infrastruktur och information. Förslaget riktar sig mot individer som bedöms utgöra ett hot mot Sveriges nationella säkerhet och kan innebära skärpta krav på visum, uppehållstillstånd och anställning. Syftet är att minska riskerna för spionage, sabotage och annan skadlig verksamhet.",
-        "tech_vinkel": "Propositionen nämner indirekt digital infrastruktur genom att inkludera 'kritisk infrastruktur' i de områden som utlänningar med säkerhetshotande profil ska begränsas från att ha tillgång till, vilket ofta innefattar system och data som är beroende av digital teknik.",
-        "varfor_viktigt": "Förslaget kan leda till skärpta regler för utländska medborgare som arbetar inom sektorer som telekommunikation, energi och transport, vilket kan påverka företags rekryteringsmöjligheter och tillgång till kompetens. Det kan också öka spänningarna mellan Sverige och andra länder om det uppfattas som diskriminerande. Tajmingen är viktig med tanke på den ökande geopolitiska spänningen och hotbilden mot kritisk infrastruktur.",
-        "eu_koppling": "Propositionen kan behöva anpassas till EU:s regler om fri rörlighet och asyl, vilket kan begränsa regeringens handlingsutrymme. Det finns en koppling till EU:s arbete med att stärka cybersäkerheten och skydda kritisk infrastruktur.",
-        "keywords": [
-          "säkerhetshot",
-          "utlänningar",
-          "kritisk infrastruktur",
-          "digital infrastruktur",
-          "nationell säkerhet"
-        ],
-        "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
-        "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt lägga till ändringsförslag.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-07",
-            "beskrivning": "Förväntad debatt i riksdagen."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Förbättrade förutsättningar för operativt militärt samarbete",
-      "source": "Riksdagen",
-      "type": "Riksdagen/PROP",
-      "url": "https://data.riksdagen.se/dokument/HD03254.html",
-      "date": "2026-04-30",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "Regeringen föreslår i proposition 2025/26:254 förbättrade förutsättningar för militärt samarbete mellan olika aktörer, både inom Sverige och med andra länder. Förslaget syftar till att effektivisera gemensamma operationer och öka Sveriges försvarsförmåga. Det inkluderar förbättringar i logistik, kommunikation och informationsdelning. Förslaget riktar sig till Försvarsmakten, myndigheter och potentiellt även privata företag som är involverade i militära operationer.",
-        "tech_vinkel": "Propositionen nämner specifikt behovet av att förbättra ”informationsdelning och kommunikationssystem” för att underlätta operativt militärt samarbete, vilket implicerar investeringar i säker digital infrastruktur och potentiellt nya kommunikationsprotokoll.",
-        "varfor_viktigt": "Förbättrad digital infrastruktur är avgörande för modern militär verksamhet, vilket möjliggör snabbare beslut, bättre samordning och effektivare resurshantering. Säker kommunikation är särskilt viktigt för att skydda information och undvika avlyssning. Förslaget kan leda till ökad investering i krypterad kommunikation och robusta nätverk, vilket i sin tur kan påverka leverantörer av militär teknologi.",
-        "eu_koppling": "Propositionen kan indirekt påverkas av EU:s cybersäkerhetsstrategi och NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet), då militär infrastruktur ofta anses vara kritisk infrastruktur.",
-        "keywords": [
-          "militärt samarbete",
-          "digital infrastruktur",
-          "kommunikation",
-          "informationsdelning",
-          "försvarsförmåga"
-        ],
-        "arende": "Cybersolidaritetsakten",
-        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-30",
-            "beskrivning": "Riksdagen behandlar propositionen."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Insatser för den svenska rymdbranschen",
-      "source": "Riksdagen",
-      "type": "Riksdagen/IP",
-      "url": "https://data.riksdagen.se/dokument/HD10461.html",
-      "date": "2026-04-30",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Övrigt tech",
-        "sammanfattning": "Det här är en interpellation från en riksdagsledamot (Mats Wiking, Socialdemokraterna) till gymnasie-, högskole- och forskningsministern (Lotta Edholm, Liberalerna). Interpellationen handlar om att stärka den svenska rymdbranschen, med tanke på hur beroende samhället blivit av data från satelliter och hur kriget i Ukraina har belyst detta. Riksdagsledamoten vill att ministern ska redogöra för vilka insatser regeringen planerar att göra för att stödja den svenska rymdbranschen.",
-        "tech_vinkel": "Interpellationen lyfter fram att många samhällsfunktioner är beroende av data från satelliter, vilket är en direkt koppling till satellitteknik och rymdbaserad infrastruktur, en kritisk del av modern digital infrastruktur.",
-        "varfor_viktigt": "En stärkt rymdindustri kan bidra till ökad nationell säkerhet genom att minska beroendet av utländska satellittjänster. Det kan också skapa nya jobb och innovationer inom den svenska teknologin. Kriget i Ukraina har tydligt visat hur viktig rymdteknik är för kommunikation, navigering och säkerhet, vilket gör detta till en tidskänslig fråga.",
-        "eu_koppling": "EU har flera program och initiativ som stöder rymdverksamhet, t.ex. Copernicus (EU:s jordobservationprogram) och Galileo (EU:s satellitnavigationssystem). Det är troligt att Sverige kommer att påverkas av och bidra till dessa EU-initiativ.",
-        "keywords": [
-          "rymdindustri",
-          "satelliter",
-          "digital infrastruktur",
-          "nationell säkerhet",
-          "teknologi"
-        ],
-        "arende": "Rymdindustri",
-        "nasta_steg": "Ministern kommer att svara på interpellationen i riksdagen, vilket kan leda till ytterligare frågor och diskussioner om rymdbranschen.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-15",
-            "beskrivning": "Förväntat svar från ministern i riksdagen."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Polismyndighetens behandling av personuppgifter, Dir. 2026:17",
-      "source": "Regeringen",
-      "type": "Kommittédirektiv",
-      "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/03/polismyndighetens-behandling-av-personuppgifter/",
-      "date": "2026-03-16",
-      "analysis": {
-        "relevans": "hög",
-        "sammanfattning": "Regeringen startar en utredning om hur Polismyndigheten hanterar personuppgifter. Utredningen ska se över reglerna för att säkerställa att de är moderna och effektiva för brottsbekämpning, samtidigt som den tar hänsyn till individens rättigheter och dataskydd. Utredningen kommer att analysera hur Polismyndigheten använder information och tekniska system, och föreslå eventuella förändringar i lagstiftningen. Detta påverkar Polismyndigheten, brottsbekämpande myndigheter och allmänheten.",
-        "tech_vinkel": "Utredningen kommer sannolikt att granska Polismyndighetens användning av tekniska system för att samla in och analysera personuppgifter, vilket kan inkludera ansiktsigenkänning, automatisk nummerplåtavläsning och andra former av övervakningsteknik.",
-        "varfor_viktigt": "En uppdatering av reglerna för Polismyndighetens hantering av personuppgifter är viktig för att balansera brottsbekämpning med individens rättigheter och dataskydd. Om utredningen leder till nya regler kan det påverka hur Polismyndigheten använder teknik för att bekämpa brott, och det kan kräva investeringar i nya system och utbildning. Det är också viktigt att säkerställa att Polismyndighetens agerande är förenligt med GDPR (EU:s dataskyddsförordning) och andra relevanta lagar.",
-        "eu_koppling": "GDPR (EU:s dataskyddsförordning) (Europas dataskyddsförordning) reglerar hur personuppgifter får behandlas och kommer att vara en central referenspunkt för utredningen.",
-        "keywords": [
-          "personuppgifter",
-          "polismyndigheten",
-          "dataskydd",
-          "övervakning",
-          "teknik",
-          "brottsbekämpning"
-        ],
-        "arende": "Polismyndighetens personuppgiftsbehandling",
-        "nasta_steg": "Utredningen kommer att påbörjas och en utredningsgrupp kommer att utses för att genomföra analysen och lämna förslag.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-03-16",
-            "beskrivning": "Kommittédirektivet publicerades."
-          }
-        ]
-      }
-    }
-  ],
   "2026-05-22": [
     {
       "title": "Latest news - Committee on the Internal Market and Consumer Protection",
@@ -12322,6 +12015,405 @@
     }
   ],
   "2026-06-20": [
+    {
+      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+      "date": "Fri, 19 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
+        "varfor_viktigt": "Med tanke på den snabba utvecklingen inom AI och digitala tjänster är det avgörande att EU-kommissionen och parlamentet kontinuerligt granskar och anpassar lagstiftningen för att skydda konsumenter och säkerställa en rättvis konkurrens. Dessa möten kan indikera riktningen för framtida regleringar som påverkar hur vi interagerar med digitala plattformar.",
+        "eu_koppling": "Digitala marknader (DMA) och Digital Services Act (DSA) är relevanta, eftersom IMCO-utskottet ofta arbetar med dessa frågor.",
+        "keywords": [
+          "IMCO",
+          "digitala marknader",
+          "konsumentskydd",
+          "algoritmer",
+          "plattformar"
+        ],
+        "arende": "Digitala marknader",
+        "nasta_steg": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-15",
+            "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor."
+          },
+          {
+            "datum": "2026-04-16",
+            "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/2026-state-digital-decade-report-shows-progress-urges-closing-structural-gaps-reach-2030-goals",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat sin fjärde rapport om digitala decenniet, som visar att Europa har gjort framsteg mot sina digitala mål för 2030. Rapporten lyfter fram vikten av att stänga strukturella luckor för att nå målen, som inkluderar säkra och hållbara digitala infrastrukturer och digitalisering av offentliga tjänster. Detta innebär att kommissionen vill se en ökad investering i digitala områden för att nå de uppsatta målen. Kommissionen betonar också vikten av att förbättra den digitala kompetensen och tillgången till digitala tjänster för alla medborgare.",
+        "tech_vinkel": "Rapporten pekar på vikten av att utveckla och implementera digitala teknologier, som artificiell intelligens och molntjänster, för att stödja den digitala transformationen i Europa.",
+        "varfor_viktigt": "Detta är viktigt eftersom den digitala transformationen har en stor påverkan på Europas ekonomi och samhälle. En lyckad digital transformation kan leda till ökad tillväxt, innovation och konkurrenskraft, medan en misslyckad transformation kan leda till att Europa halkar efter i den globala digitala utvecklingen. Dessutom kan en framgångsrik digital transformation bidra till att lösa samhällsproblem som klimatförändringar, åldrande befolkning och ojämlikhet.",
+        "eu_koppling": "Digitala decenniet-initiativet",
+        "keywords": [
+          "digitala decenniet",
+          "digital transformation",
+          "EU-kommissionen"
+        ],
+        "arende": "Digitala decenniet-initiativet",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta att arbeta med medlemsstaterna för att implementera de rekommendationer som presenteras i rapporten.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-17",
+            "beskrivning": "Publicering av den fjärde rapporten om digitala decenniet"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Digital Decade 2026 - Progress report on multi-country projects",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-progress-report-multi-country-projects",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat en rapport som visar hur det går för flera länder som samarbetar i projekt för att förbättra digital infrastruktur. Rapporten täcker perioden från maj 2025 till maj 2026 och presenterar framstegen inom dessa projekt. Det handlar om att förbättra digitala nätverk och infrastruktur för att stödja ekonomisk tillväxt och utveckling inom EU. Rapporten är en del av EU:s Digital Decade-initiativ, som syftar till att främja digitalisering och innovation inom unionen.",
+        "tech_vinkel": "Rapporten fokuserar på framstegen inom digital infrastruktur, inklusive utvecklingen av europeiska digitala infrastrukturkonsortier (EDICs) och multi-country projects (MCPs), vilka är tekniska initiativ för att förbättra digitala nätverk och tjänster.",
+        "varfor_viktigt": "Denna rapport är viktig eftersom den visar hur EU:s medlemsländer samarbetar för att förbättra digitala förbindelser och tjänster, vilket kan påverka ekonomisk tillväxt, innovation och konkurrenskraft. Det kan också ge insikt i hur EU:s digitala strategi genomförs i praktiken. Dessutom kan rapporten bidra till att identifiera utmaningar och möjligheter för digitalisering inom EU.",
+        "eu_koppling": "Digital Decade-initiativet, som är en del av EU:s digitala strategi",
+        "keywords": [
+          "Digital Decade",
+          "digital infrastruktur",
+          "EU-kommissionen"
+        ],
+        "arende": "Digital Decade",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta att övervaka och stödja utvecklingen av digital infrastruktur inom EU, och kan komma att presentera ytterligare initiativ eller rekommendationer baserat på resultaten från denna rapport.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-17",
+            "beskrivning": "Publicering av rapporten om framstegen inom Digital Decade-initiativet"
+          }
+        ]
+      }
+    },
+    {
+      "title": "The 2026 Digital Decade eHealth Indicator Study",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/2026-digital-decade-ehealth-indicator-study",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat en rapport som presenterar resultaten från övervakningen av e-hälsovårdsmål för EU-27, Island och Norge enligt Digital Decade Policy Programme. Rapporten visar hur långt medlemsstaterna har kommit i att uppnå målen för e-hälsovård. Det handlar om tillgång till digitala hälsotjänster och hur de kan förbättras. Målet är att förbättra hälsosystemen i Europa genom digitalisering.",
+        "tech_vinkel": "Rapporten fokuserar på digitala lösningar för att förbättra hälsosystemen, vilket inkluderar användningen av digitala verktyg och teknologier för att öka tillgängligheten och kvaliteten på hälsotjänster.",
+        "varfor_viktigt": "Denna rapport är viktig eftersom den visar hur digitaliseringen av hälsosystemen kan förbättra hälsoutkomsterna och öka tillgängligheten till hälsotjänster. Det kan också bidra till att minska kostnaderna för hälsosystemen och förbättra patienternas upplevelse. EU-kommissionens insatser för att främja digitaliseringen av hälsosystemen kan ha en stor inverkan på medborgarnas liv och hälsa.",
+        "eu_koppling": "Digital Decade Policy Programme",
+        "keywords": [
+          "e-hälsovård",
+          "digitalisering",
+          "hälsosystem"
+        ],
+        "arende": "Digital Decade Policy Programme",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta att övervaka och stödja medlemsstaterna i deras ansträngningar att uppnå målen för e-hälsovård.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-12-31",
+            "beskrivning": "Övervakningsresultat för e-hälsovårdsmål"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Digital Decade 2026: eGovernment Benchmark 2026",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-egovernment-benchmark-2026",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat en rapport som heter eGovernment Benchmark 2026. Den här rapporten granskar hur bra digitala offentliga tjänster fungerar i olika länder. Rapporten tittar på hur lätt det är för människor att använda digitala tjänster för olika saker i livet, som att starta ett företag eller få tillgång till sjukvård. Målet är att se hur bra EU:s medlemsländer är på att erbjuda digitala tjänster som är enkla att använda och som fungerar bra.",
+        "tech_vinkel": "Rapporten fokuserar på digitala offentliga tjänster och hur de fungerar, vilket är en viktig del av digital infrastruktur.",
+        "varfor_viktigt": "Det här är viktigt för att förbättra hur offentliga tjänster fungerar och för att se till att alla människor i EU har tillgång till bra digitala tjänster. Det kan också hjälpa till att öka effektiviteten och minska kostnaderna för offentliga tjänster. Dessutom kan det bidra till att öka medborgarnas tillit till offentliga institutioner.",
+        "eu_koppling": "Digital Decade-politiken",
+        "keywords": [
+          "eGovernment",
+          "digitala offentliga tjänster",
+          "Digital Decade"
+        ],
+        "arende": "Digital Decade 2026",
+        "nasta_steg": "EU-kommissionen kommer att använda resultaten från rapporten för att ge rekommendationer till medlemsländerna om hur de kan förbättra sina digitala offentliga tjänster.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-17",
+            "beskrivning": "Publicering av eGovernment Benchmark 2026-rapporten"
+          }
+        ]
+      }
+    },
+    {
+      "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
+      "source": "BEREC",
+      "type": "EU-byrå",
+      "url": "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing",
+      "date": "Mon, 25 May 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, ska presentera sin slutliga bedömning av förslaget till Digital Networks Act (DNA) vid en offentlig debriefing. Detta förslag handlar om reglering av digitala nätverk inom EU. BEREC:s bedömning kommer att presenteras den 10 juni 2026 i Bryssel. Detta är en viktig milstolpe i processen att skapa en gemensam ram för digitala nätverk inom EU.",
+        "tech_vinkel": "Digital Networks Act (DNA) är en specifik lagstiftning som reglerar digitala nätverk inom EU, vilket är en tydlig tech-vinkel i detta dokument.",
+        "varfor_viktigt": "Detta är viktigt eftersom Digital Networks Act kan ha en stor inverkan på hur digitala nätverk utvecklas och regleras inom EU. Det kan påverka telekommunikationsföretag, internetleverantörer och andra aktörer inom digitala nätverk. Tajmingen är viktig eftersom EU försöker skapa en gemensam ram för digitala nätverk för att främja innovation och konkurrens.",
+        "eu_koppling": "Digital Networks Act (DNA) är en EU-lagstiftning som syftar till att reglera digitala nätverk inom EU.",
+        "keywords": [
+          "Digital Networks Act",
+          "BEREC",
+          "EU"
+        ],
+        "arende": "Digitala Nätverkslagen",
+        "nasta_steg": "BEREC kommer att presentera sin slutliga bedömning av förslaget till Digital Networks Act vid en offentlig debriefing den 10 juni 2026.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-10",
+            "beskrivning": "BEREC presenterar sin slutliga bedömning av förslaget till Digital Networks Act"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Call for Inputs on the amended template used for the roaming data collection",
+      "source": "BEREC",
+      "type": "EU-byrå",
+      "url": "https://www.berec.europa.eu/en/public-consultations-calls-for-inputs/call-for-inputs-on-the-amended-template-used-for-the-roaming-data-collection",
+      "date": "Wed, 03 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-byrån BEREC (Body of European Regulators for Electronic Communications) har startat en offentlig konsultation om en reviderad mall för insamling av data om roaming. Syftet är att samla in synpunkter från berörda parter om den föreslagna ändringen av mallen. Konsultationen är öppen till den 3 juli 2026. Detta är en del av BERECs arbete med att övervaka och reglera den europeiska telekommarknaden.",
+        "tech_vinkel": "Den reviderade mallen för insamling av roamingdata är en specifik teknisk fråga som berör hur telekomoperatörer samlar in och rapporterar data om roamingtjänster.",
+        "varfor_viktigt": "Denna konsultation är viktig eftersom den kan påverka hur telekomoperatörer i Europa samlar in och rapporterar data om roamingtjänster. Detta kan i sin tur påverka kvaliteten och tillgängligheten av roamingtjänster för konsumenter. Dessutom kan resultaten av denna konsultation bidra till att förbättra den europeiska telekommarknadens funktion och reglering.",
+        "eu_koppling": "Roamingförordningen (EU) 531/2012",
+        "keywords": [
+          "roaming",
+          "telekom",
+          "BEREC",
+          "EU"
+        ],
+        "arende": "Digital infrastruktur",
+        "nasta_steg": "BEREC kommer att sammanställa och analysera de inkomna synpunkterna och därefter publicera en rapport om resultaten av konsultationen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-03",
+            "beskrivning": "Sista datum för att lämna synpunkter på den reviderade mallen för insamling av roamingdata"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Ransomware gangs cut off from EUR 336 million ‘AudiA6’ crypto laundering pipeline",
+      "source": "Europol",
+      "type": "EU-byrå",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/ransomware-gangs-cut-eur-336-million-audia6-crypto-laundering-pipeline",
+      "date": "",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "En internationell polisoperation har slagit till mot en av de största kryptotjänsterna som används av ransomware-grupper och cyberkriminella nätverk för att tvätta pengar. Operationen har stoppat en viktig finansiell kanal som användes för att tvätta hundratals miljoner euro i olagliga vinster. Detta är en stor seger för myndigheterna i kampen mot cyberbrottslighet. Ransomware-grupperna har tidigare använt denna tjänst för att tvätta pengar som de fått från sina offer.",
+        "tech_vinkel": "Operationen har specifikt riktat sig mot en kryptotjänst som användes för att tvätta pengar, vilket visar på den viktiga roll som kryptoteknik spelar i modern cyberbrottslighet.",
+        "varfor_viktigt": "Detta är en viktig seger för myndigheterna eftersom det visar att de kan samarbeta över gränserna för att bekämpa cyberbrottslighet. Det visar också på den alltmer komplexa och sofistikerade natur som cyberbrottslighet har tagit. Ransomware-grupperna kommer nu att behöva hitta nya sätt att tvätta pengar, vilket kan göra det svårare för dem att fortsätta sin verksamhet.",
+        "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+        "keywords": [
+          "Ransomware",
+          "Kryptotjänst",
+          "Cyberbrottslighet",
+          "Polisoperation"
+        ],
+        "arende": "NIS2-implementering",
+        "nasta_steg": "Myndigheterna kommer att fortsätta att samarbeta för att bekämpa cyberbrottslighet och kommer att utvärdera effekten av denna operation för att se om det finns mer som kan göras för att stoppa ransomware-grupperna.",
+        "viktiga_datum": []
+      }
+    },
+    {
+      "title": "EBA E-mail alert 3 June, 2026",
+      "source": "EBA",
+      "type": "EU-byrå",
+      "url": "https://www.eba.europa.eu/node/19720",
+      "date": "Wed, 03 Jun 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "Europeiska bankmyndigheten, EBA, har publicerat en rapport om stora IT-relaterade incidenter i enlighet med DORA (EU-förordningen om digital motståndskraft i finanssektorn), en EU-lagstiftning som syftar till att förbättra cybersäkerheten inom den finansiella sektorn. Rapporten är den första i sitt slag och syftar till att öka transparensen och förbättra hanteringen av IT-relaterade risker. Denna rapport är ett viktigt steg mot att förbättra cybersäkerheten inom EU. Den kommer att påverka banker och andra finansiella institutioner som måste anpassa sig till de nya kraven.",
+        "tech_vinkel": "Rapporten fokuserar specifikt på DORA (EU-förordningen om digital motståndskraft i finanssektorn), som är en EU-lagstiftning som kräver att kritiska verksamheter, inklusive banker, höjer sin cybersäkerhet och rapporterar om IT-relaterade incidenter.",
+        "varfor_viktigt": "Denna rapport är viktig eftersom den visar på EU:s engagemang för att förbättra cybersäkerheten inom den finansiella sektorn. Det kan ha betydande konsekvenser för banker och andra finansiella institutioner som måste investera i bättre cybersäkerhetslösningar för att skydda sig mot IT-relaterade hot. Dessutom kan rapporten bidra till att öka transparensen och förtroendet inom den finansiella sektorn.",
+        "eu_koppling": "DORA (Digital Operational Resilience Act)",
+        "keywords": [
+          "DORA",
+          "cybersäkerhet",
+          "IT-relaterade incidenter",
+          "EU-lagstiftning"
+        ],
+        "arende": "DORA-implementering",
+        "nasta_steg": "EBA kommer att fortsätta att övervaka och rapportera om IT-relaterade incidenter inom den finansiella sektorn, och banker och andra finansiella institutioner måste anpassa sig till de nya kraven.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-03",
+            "beskrivning": "Publiceringen av EBA:s rapport om DORA"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Nya möjligheter att bekämpa onlinerekrytering",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03276.html",
+      "date": "2026-05-28",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen föreslår att det ska bli lättare att bekämpa onlinerekrytering av barn. Detta innebär att det ska bli enklare att identifiera och stoppa kriminella nätverk som använder sig av internet för att rekrytera barn. Förslaget syftar till att öka säkerheten för barn på nätet och förhindra att de blir offer för kriminella aktiviteter. Detta kan påverka hur sociala medier och andra onlineplattformar övervakar och hanterar innehåll som riktar sig till barn.",
+        "tech_vinkel": "Regeringens förslag innehåller en specifik skrivning om att utveckla metoder för att identifiera och stoppa onlinerekrytering av barn, vilket kan inkludera användning av AI och maskinlärning för att övervaka onlineinnehåll.",
+        "varfor_viktigt": "Detta förslag är viktigt eftersom det kan hjälpa till att skydda barn från kriminella nätverk som använder sig av internet för att rekrytera offer. Om förslaget antas kan det leda till en ökad säkerhet för barn på nätet och en minskning av kriminella aktiviteter som riktar sig mot barn. Detta kan också ha en positiv effekt på samhället i stort, eftersom det kan bidra till att minska brottsligheten och öka förtroendet för internet som en säker plats för barn.",
+        "eu_koppling": "Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll), som är en EU-lagstiftning som syftar till att reglera onlineplattformar och säkerställa att de tar ansvar för innehållet som publiceras på deras plattformar.",
+        "keywords": [
+          "onlinerekrytering",
+          "barn",
+          "kriminella nätverk",
+          "AI",
+          "maskinlärning"
+        ],
+        "arende": "Bekämpning av onlinerekrytering",
+        "nasta_steg": "Regeringens förslag kommer att behandlas av riksdagen, som kommer att fatta ett beslut om huruvida förslaget ska antas eller inte.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-15",
+            "beskrivning": "Riksdagen kommer att behandla regeringens förslag om bekämpning av onlinerekrytering"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön",
+      "source": "Regeringen",
+      "type": "Regeringsuppdrag",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-att-kartlagga-och-foresla-atgarder-for-att-bemota-desinformation-som-riktar-sig-mot-personer-pa-grund-av-kon/",
+      "date": "2026-06-18",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen ger Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten i uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön. Detta uppdrag syftar till att förbättra skyddet för personer som utsätts för desinformation och hat på internet. Uppdraget omfattar en kartläggning av desinformationen och en analys av vilka åtgärder som kan vidtas för att motverka den. Målet är att skapa en säkrare och mer inkluderande digital miljö.",
+        "tech_vinkel": "Uppdraget inkluderar en kartläggning av desinformation på sociala medier och en analys av hur algoritmer och andra digitala verktyg kan användas för att sprida eller motverka desinformation.",
+        "varfor_viktigt": "Detta uppdrag är viktigt eftersom desinformation och hat på internet kan ha allvarliga konsekvenser för personer som utsätts för det. Genom att kartlägga och motverka desinformation kan regeringen bidra till att skapa en säkrare och mer inkluderande digital miljö. Uppdraget kan också bidra till att stärka skyddet för personer som utsätts för diskriminering och hat på internet. Dessutom kan det bidra till att främja en mer informerad och ansvarsfull användning av sociala medier.",
+        "eu_koppling": "Digital Services Act (DSA), som syftar till att reglera sociala medier och andra digitala plattformar i EU",
+        "keywords": [
+          "desinformation",
+          "sociala medier",
+          "algoritmer",
+          "hat på internet"
+        ],
+        "arende": "Kartläggning av sociala mediers algoritmer",
+        "nasta_steg": "Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten kommer att genomföra kartläggningen och lämna förslag på åtgärder till regeringen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-12-31",
+            "beskrivning": "Uppdraget ska vara slutfört och förslag på åtgärder ska ha lämnats till regeringen"
+          }
+        ]
+      }
+    },
+    {
+      "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
+      "source": "Regeringen",
+      "type": "SOU",
+      "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202635/",
+      "date": "2026-06-02",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen har tillsatt en utredning för att undersöka möjligheten att införa en åldersgräns för barns tillgång till sociala medier. Utredningen har nu presenterat sitt delbetänkande, som analyserar frågan och föreslår en åldersgräns. Förslaget syftar till att skydda barn från skadligt innehåll och påverkan på sociala medier. Utredningen har också undersökt hur en sådan åldersgräns skulle kunna implementeras och kontrolleras.",
+        "tech_vinkel": "Utredningen föreslår att sociala medier ska införa ålderskontroller för att säkerställa att barn under en viss ålder inte kan skapa konton eller komma åt viss typ av innehåll.",
+        "varfor_viktigt": "En åldersgräns för sociala medier kan ha en stor inverkan på barns och ungas användning av sociala medier och deras exponering för skadligt innehåll. Det kan också påverka sociala mediers ansvar och skyldigheter att skydda sina användare. Utredningens förslag kommer att vara viktigt för att skydda barns rättigheter och säkerhet på internet.",
+        "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala mediers ansvar och skyldigheter att skydda sina användare",
+        "keywords": [
+          "åldersgräns",
+          "sociala medier",
+          "barnsäkerhet"
+        ],
+        "arende": "Åldersgräns för sociala medier",
+        "nasta_steg": "Utredningens förslag kommer att remitteras till berörda myndigheter och organisationer för yttrande, varefter regeringen kommer att fatta beslut om huruvida förslaget ska gå vidare till riksdagen för beslut.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-02",
+            "beskrivning": "Utredningens delbetänkande presenteras"
+          }
+        ]
+      }
+    },
+    {
+      "title": "BEREC Annual Report 2025 (design version)",
+      "source": "BEREC",
+      "type": "EU-byrå",
+      "url": "https://www.berec.europa.eu/en/news/publications/berec-annual-report-2025-design-version",
+      "date": "Tue, 02 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "BEREC:s årsrapport för 2025 ger en översikt av nyckelutvecklingar och marknadstrender inom elektronisk kommunikation i Europa. Rapporten diskuterar marknadsdynamik och utveckling av EU:s offentliga politik och regleringspraxis. Den ger också BEREC:s perspektiv på dessa frågor. Rapporten är en del av BEREC:s arbete med att främja en fungerande inre marknad för elektronisk kommunikation i EU.",
+        "tech_vinkel": "Rapporten innehåller en specifik skrivning om utvecklingen av 5G-nät och dess potential för att förbättra elektronisk kommunikation i Europa.",
+        "varfor_viktigt": "Rapporten är viktig eftersom den ger en översikt av den senaste utvecklingen inom elektronisk kommunikation i Europa. Den kan också påverka EU:s framtida regleringspraxis och politik inom området. Dessutom kan rapporten ge insikt i hur elektronisk kommunikation kan förbättras och utvecklas i framtiden. Tajmingen är viktig eftersom rapporten kommer att användas som underlag för framtida beslut och diskussioner inom EU.",
+        "eu_koppling": "EU:s direktiv om elektronisk kommunikation",
+        "keywords": [
+          "elektronisk kommunikation",
+          "BEREC",
+          "EU"
+        ],
+        "arende": null,
+        "nasta_steg": "Rapporten kommer att användas som underlag för framtida diskussioner och beslut inom EU om elektronisk kommunikation.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-02",
+            "beskrivning": "Publicering av BEREC:s årsrapport för 2025"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Uppdrag till Post-och telestyrelsen att genomföra insatser för ökad digital inkludering och användning av digitala tjänster",
+      "source": "Regeringen",
+      "type": "Regeringsuppdrag",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post-och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-anvandning-av-digitala-tjanster/",
+      "date": "2026-06-16",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att främja digital inkludering och användning av digitala tjänster under 2026-2028. Detta ska ske genom samordning och dialog med berörda aktörer. Målet är att öka tillgängligheten och användningen av digitala tjänster för alla medborgare. Detta kan leda till en mer digitalt inkluderande samhälle.",
+        "tech_vinkel": "Uppdraget fokuserar specifikt på att öka användningen av digitala tjänster, vilket innebär en tydlig tech-vinkel mot digital infrastruktur och tillgänglighet.",
+        "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan leda till en mer digitalt inkluderande samhälle, där alla medborgare har möjlighet att ta del av digitala tjänster. Detta kan också bidra till en mer effektiv och modern offentlig förvaltning. Dessutom kan det leda till att Sverige stärker sin position som en ledande nation inom digitalisering.",
+        "eu_koppling": "null",
+        "keywords": [
+          "digital inkludering",
+          "digitala tjänster",
+          "Post- och telestyrelsen"
+        ],
+        "arende": "null",
+        "nasta_steg": "Post- och telestyrelsen kommer att påbörja arbetet med att samordna och främja digital inkludering och användning av digitala tjänster, i dialog med berörda aktörer.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-16",
+            "beskrivning": "Regeringen ger Post- och telestyrelsen i uppdrag att främja digital inkludering och användning av digitala tjänster"
+          }
+        ]
+      }
+    }
+  ],
+  "2026-06-21": [
     {
       "title": "Latest news - Committee on the Internal Market and Consumer Protection",
       "source": "EU-parlamentet",
