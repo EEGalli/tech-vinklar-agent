@@ -12446,6 +12446,178 @@
   ],
   "2026-06-22": [
     {
+      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+      "date": "Fri, 19 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
+        "varfor_viktigt": "Med tanke på den snabba utvecklingen inom AI och digitala tjänster är det avgörande att EU-kommissionen och parlamentet kontinuerligt granskar och anpassar lagstiftningen för att skydda konsumenter och säkerställa en rättvis konkurrens. Dessa möten kan indikera riktningen för framtida regleringar som påverkar hur vi interagerar med digitala plattformar.",
+        "eu_koppling": "Digitala marknader (DMA) och Digital Services Act (DSA) är relevanta, eftersom IMCO-utskottet ofta arbetar med dessa frågor.",
+        "keywords": [
+          "IMCO",
+          "digitala marknader",
+          "konsumentskydd",
+          "algoritmer",
+          "plattformar"
+        ],
+        "arende": "Digitala marknader",
+        "nasta_steg": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-15",
+            "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor."
+          },
+          {
+            "datum": "2026-04-16",
+            "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter."
+          }
+        ]
+      }
+    },
+    {
+      "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/2026-state-digital-decade-report-shows-progress-urges-closing-structural-gaps-reach-2030-goals",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat sin fjärde rapport om digitala decenniet, som visar att Europa har gjort framsteg mot sina digitala mål för 2030. Rapporten lyfter fram vikten av att stänga strukturella luckor för att nå målen, som inkluderar säkra och hållbara digitala infrastrukturer och digitalisering av offentliga tjänster. Detta innebär att kommissionen vill se en ökad investering i digitala områden för att nå de uppsatta målen. Kommissionen betonar också vikten av att förbättra den digitala kompetensen och tillgången till digitala tjänster för alla medborgare.",
+        "tech_vinkel": "Rapporten pekar på vikten av att utveckla och implementera digitala teknologier, som artificiell intelligens och molntjänster, för att stödja den digitala transformationen i Europa.",
+        "varfor_viktigt": "Detta är viktigt eftersom den digitala transformationen har en stor påverkan på Europas ekonomi och samhälle. En lyckad digital transformation kan leda till ökad tillväxt, innovation och konkurrenskraft, medan en misslyckad transformation kan leda till att Europa halkar efter i den globala digitala utvecklingen. Dessutom kan en framgångsrik digital transformation bidra till att lösa samhällsproblem som klimatförändringar, åldrande befolkning och ojämlikhet.",
+        "eu_koppling": "Digitala decenniet-initiativet",
+        "keywords": [
+          "digitala decenniet",
+          "digital transformation",
+          "EU-kommissionen"
+        ],
+        "arende": "Digitala decenniet-initiativet",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta att arbeta med medlemsstaterna för att implementera de rekommendationer som presenteras i rapporten.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-17",
+            "beskrivning": "Publicering av den fjärde rapporten om digitala decenniet"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Digital Decade 2026 - Progress report on multi-country projects",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-progress-report-multi-country-projects",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat en rapport som visar hur det går för flera länder som samarbetar i projekt för att förbättra digital infrastruktur. Rapporten täcker perioden från maj 2025 till maj 2026 och presenterar framstegen inom dessa projekt. Det handlar om att förbättra digitala nätverk och infrastruktur för att stödja ekonomisk tillväxt och utveckling inom EU. Rapporten är en del av EU:s Digital Decade-initiativ, som syftar till att främja digitalisering och innovation inom unionen.",
+        "tech_vinkel": "Rapporten fokuserar på framstegen inom digital infrastruktur, inklusive utvecklingen av europeiska digitala infrastrukturkonsortier (EDICs) och multi-country projects (MCPs), vilka är tekniska initiativ för att förbättra digitala nätverk och tjänster.",
+        "varfor_viktigt": "Denna rapport är viktig eftersom den visar hur EU:s medlemsländer samarbetar för att förbättra digitala förbindelser och tjänster, vilket kan påverka ekonomisk tillväxt, innovation och konkurrenskraft. Det kan också ge insikt i hur EU:s digitala strategi genomförs i praktiken. Dessutom kan rapporten bidra till att identifiera utmaningar och möjligheter för digitalisering inom EU.",
+        "eu_koppling": "Digital Decade-initiativet, som är en del av EU:s digitala strategi",
+        "keywords": [
+          "Digital Decade",
+          "digital infrastruktur",
+          "EU-kommissionen"
+        ],
+        "arende": "Digital Decade",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta att övervaka och stödja utvecklingen av digital infrastruktur inom EU, och kan komma att presentera ytterligare initiativ eller rekommendationer baserat på resultaten från denna rapport.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-17",
+            "beskrivning": "Publicering av rapporten om framstegen inom Digital Decade-initiativet"
+          }
+        ]
+      }
+    },
+    {
+      "title": "The 2026 Digital Decade eHealth Indicator Study",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/2026-digital-decade-ehealth-indicator-study",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat en rapport som presenterar resultaten från övervakningen av e-hälsovårdsmål för EU-27, Island och Norge enligt Digital Decade Policy Programme. Rapporten visar hur långt medlemsstaterna har kommit i att uppnå målen för e-hälsovård. Det handlar om tillgång till digitala hälsotjänster och hur de kan förbättras. Målet är att förbättra hälsosystemen i Europa genom digitalisering.",
+        "tech_vinkel": "Rapporten fokuserar på digitala lösningar för att förbättra hälsosystemen, vilket inkluderar användningen av digitala verktyg och teknologier för att öka tillgängligheten och kvaliteten på hälsotjänster.",
+        "varfor_viktigt": "Denna rapport är viktig eftersom den visar hur digitaliseringen av hälsosystemen kan förbättra hälsoutkomsterna och öka tillgängligheten till hälsotjänster. Det kan också bidra till att minska kostnaderna för hälsosystemen och förbättra patienternas upplevelse. EU-kommissionens insatser för att främja digitaliseringen av hälsosystemen kan ha en stor inverkan på medborgarnas liv och hälsa.",
+        "eu_koppling": "Digital Decade Policy Programme",
+        "keywords": [
+          "e-hälsovård",
+          "digitalisering",
+          "hälsosystem"
+        ],
+        "arende": "Digital Decade Policy Programme",
+        "nasta_steg": "EU-kommissionen kommer att fortsätta att övervaka och stödja medlemsstaterna i deras ansträngningar att uppnå målen för e-hälsovård.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-12-31",
+            "beskrivning": "Övervakningsresultat för e-hälsovårdsmål"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Digital Decade 2026: eGovernment Benchmark 2026",
+      "source": "EU-kommissionen",
+      "type": "Digital Strategy — Nyhet",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-egovernment-benchmark-2026",
+      "date": "Wed, 17 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "EU-kommissionen har publicerat en rapport som heter eGovernment Benchmark 2026. Den här rapporten granskar hur bra digitala offentliga tjänster fungerar i olika länder. Rapporten tittar på hur lätt det är för människor att använda digitala tjänster för olika saker i livet, som att starta ett företag eller få tillgång till sjukvård. Målet är att se hur bra EU:s medlemsländer är på att erbjuda digitala tjänster som är enkla att använda och som fungerar bra.",
+        "tech_vinkel": "Rapporten fokuserar på digitala offentliga tjänster och hur de fungerar, vilket är en viktig del av digital infrastruktur.",
+        "varfor_viktigt": "Det här är viktigt för att förbättra hur offentliga tjänster fungerar och för att se till att alla människor i EU har tillgång till bra digitala tjänster. Det kan också hjälpa till att öka effektiviteten och minska kostnaderna för offentliga tjänster. Dessutom kan det bidra till att öka medborgarnas tillit till offentliga institutioner.",
+        "eu_koppling": "Digital Decade-politiken",
+        "keywords": [
+          "eGovernment",
+          "digitala offentliga tjänster",
+          "Digital Decade"
+        ],
+        "arende": "Digital Decade 2026",
+        "nasta_steg": "EU-kommissionen kommer att använda resultaten från rapporten för att ge rekommendationer till medlemsländerna om hur de kan förbättra sina digitala offentliga tjänster.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-17",
+            "beskrivning": "Publicering av eGovernment Benchmark 2026-rapporten"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Swedish SA: Administrative fine against Sportadmin",
+      "source": "EDPB",
+      "type": "EU-byrå",
+      "url": "https://www.edpb.europa.eu/news/swedish-sa-administrative-fine-against-sportadmin_en",
+      "date": "Fri, 05 Jun 2026",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "EU-byrån EDPB har meddelat att den svenska tillsynsmyndigheten, SA, har utfärdat en administrativ bot mot Sportadmin. Detta beslut har fattats med anledning av att Sportadmin har brutit mot EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning). Beslutet är ett exempel på hur EU:s dataskyddslagstiftning tillämpas i praktiken. Det visar att företag som hanterar personuppgifter måste följa lagstiftningen för att undvika sanktioner.",
+        "tech_vinkel": "Beslutet omfattar specifikt hur Sportadmin har hanterat personuppgifter i strid med GDPR (EU:s dataskyddsförordning), vilket är en tydlig tech-vinkel eftersom det handlar om hur företag måste implementera tekniska och organisatoriska åtgärder för att skydda personuppgifter.",
+        "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU:s dataskyddslagstiftning är tillämplig och att företag som bryter mot den kan få betala höga böter. Det påverkar alla företag som hanterar personuppgifter inom EU och visar att det är viktigt att ha en god förståelse för och efterlevnad av dataskyddslagstiftningen. Det kan också leda till att företag investerar mer i dataskydd och integritet för att undvika liknande sanktioner.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+        "keywords": [
+          "Dataskydd",
+          "GDPR",
+          "Administrativ bot"
+        ],
+        "arende": "Dataskydd och integritet",
+        "nasta_steg": "Sportadmin måste nu betala den administrativa boten och vidta åtgärder för att säkerställa att de följer GDPR i framtiden.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-05",
+            "beskrivning": "EDPB meddelade beslutet om administrativ bot mot Sportadmin"
+          }
+        ]
+      }
+    },
+    {
       "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
       "source": "BEREC",
       "type": "EU-byrå",
@@ -12551,38 +12723,6 @@
           {
             "datum": "2026-06-03",
             "beskrivning": "Publiceringen av EBA:s rapport om DORA"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
-      "source": "EU-parlamentet",
-      "type": "EP/Utskott",
-      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Fri, 19 Jun 2026",
-      "analysis": {
-        "relevans": "medel",
-        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
-        "varfor_viktigt": "Med tanke på den snabba utvecklingen inom AI och digitala tjänster är det avgörande att EU-kommissionen och parlamentet kontinuerligt granskar och anpassar lagstiftningen för att skydda konsumenter och säkerställa en rättvis konkurrens. Dessa möten kan indikera riktningen för framtida regleringar som påverkar hur vi interagerar med digitala plattformar.",
-        "eu_koppling": "Digitala marknader (DMA) och Digital Services Act (DSA) är relevanta, eftersom IMCO-utskottet ofta arbetar med dessa frågor.",
-        "keywords": [
-          "IMCO",
-          "digitala marknader",
-          "konsumentskydd",
-          "algoritmer",
-          "plattformar"
-        ],
-        "arende": "Digitala marknader",
-        "nasta_steg": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-04-15",
-            "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor."
-          },
-          {
-            "datum": "2026-04-16",
-            "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter."
           }
         ]
       }
@@ -12698,34 +12838,6 @@
           {
             "datum": "2026-06-02",
             "beskrivning": "Publicering av BEREC:s årsrapport för 2025"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Uppdrag till Post-och telestyrelsen att genomföra insatser för ökad digital inkludering och användning av digitala tjänster",
-      "source": "Regeringen",
-      "type": "Regeringsuppdrag",
-      "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post-och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-anvandning-av-digitala-tjanster/",
-      "date": "2026-06-16",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att främja digital inkludering och användning av digitala tjänster under 2026-2028. Detta ska ske genom samordning och dialog med berörda aktörer. Målet är att öka tillgängligheten och användningen av digitala tjänster för alla medborgare. Detta kan leda till en mer digitalt inkluderande samhälle.",
-        "tech_vinkel": "Uppdraget fokuserar specifikt på att öka användningen av digitala tjänster, vilket innebär en tydlig tech-vinkel mot digital infrastruktur och tillgänglighet.",
-        "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan leda till en mer digitalt inkluderande samhälle, där alla medborgare har möjlighet att ta del av digitala tjänster. Detta kan också bidra till en mer effektiv och modern offentlig förvaltning. Dessutom kan det leda till att Sverige stärker sin position som en ledande nation inom digitalisering.",
-        "eu_koppling": "null",
-        "keywords": [
-          "digital inkludering",
-          "digitala tjänster",
-          "Post- och telestyrelsen"
-        ],
-        "arende": "null",
-        "nasta_steg": "Post- och telestyrelsen kommer att påbörja arbetet med att samordna och främja digital inkludering och användning av digitala tjänster, i dialog med berörda aktörer.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-16",
-            "beskrivning": "Regeringen ger Post- och telestyrelsen i uppdrag att främja digital inkludering och användning av digitala tjänster"
           }
         ]
       }

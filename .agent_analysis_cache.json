@@ -3643,5 +3643,177 @@
     },
     "title": "Hantering av samhällskritisk infrastruktur",
     "cached_at": "2026-06-22"
+  },
+  "https://www.edpb.europa.eu/news/edpb-gets-a-new-look-discover-the-new-website-and-brand-identity_en": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "European Data Protection Board (EDPB) har lanserat en ny webbplats och varumärkesidentitet. Detta är en del av EDPB:s arbete för att förbättra sin kommunikation och tillgänglighet. Den nya webbplatsen syftar till att ge bättre tillgång till information om dataskydd och integritet. EDPB är en EU-byrå som ansvarar för att säkerställa att EU:s dataskyddslagstiftning följs.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "EDPB:s nya webbplats och varumärkesidentitet är en del av EU:s arbete för att stärka dataskyddet och integriteten för medborgarna. Detta är viktigt eftersom dataskydd är en grundläggande rättighet i EU. Den nya webbplatsen kan bidra till att öka medvetenheten och förståelsen för dataskydd och integritet bland medborgarna och organisationerna.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "EDPB",
+        "Dataskydd",
+        "Integritet"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "EDPB gets a new look: discover the new website and brand identity",
+    "cached_at": "2026-06-22"
+  },
+  "https://www.edpb.europa.eu/news/coordinated-supervision-committee-extends-scope-to-include-eurodac_en": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån European Data Protection Board har utvidgat sitt övervakningsområde till att omfatta Eurodac, ett system som används för att lagra och jämföra fingeravtryck från asylsökande och personer som har gripits för olaglig inresa eller vistelse i EU. Detta beslut syftar till att förbättra skyddet av personuppgifter inom ramen för Eurodac. Detta kan påverka hur personuppgifter hanteras och skyddas inom EU. Utvidgningen av övervakningsområdet är ett steg mot att säkerställa att EU:s dataskyddslagstiftning följs.",
+      "tech_vinkel": "Det specifika systemet Eurodac, som är ett tekniskt verktyg för att lagra och jämföra fingeravtryck, är den tekniska aspekten som omfattas av detta beslut.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det syftar till att stärka skyddet av personuppgifter inom EU, särskilt för asylsökande och personer som har gripits för olaglig inresa eller vistelse. Det kan ha konsekvenser för hur personuppgifter hanteras och skyddas inom ramen för Eurodac. Dessutom kan det påverka utvecklingen av dataskyddslagstiftningen inom EU. Det är också viktigt att notera att detta beslut kan ha implikationer för andra system som hanterar personuppgifter inom EU.",
+      "eu_koppling": "General Data Protection Regulation (GDPR), som är EU:s lagstiftning om dataskydd",
+      "keywords": [
+        "Eurodac",
+        "Dataskydd",
+        "EU"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Nästa steg i detta ärende är att implementera de nödvändiga åtgärderna för att säkerställa att Eurodac-systemet följer EU:s dataskyddslagstiftning.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-10",
+          "beskrivning": "European Data Protection Board utvidgar sitt övervakningsområde till att omfatta Eurodac"
+        }
+      ]
+    },
+    "title": "Coordinated Supervision Committee extends scope to include Eurodac",
+    "cached_at": "2026-06-22"
+  },
+  "https://www.edpb.europa.eu/news/edpb-meets-with-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification-template_en": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "European Data Protection Board (EDPB) har mött EU-kommissionär McGrath och antagit en gemensam mall för anmälan av dataintrång. Detta syftar till att underlätta för företag och organisationer att rapportera dataintrång på ett enhetligt sätt inom EU. EDPB arbetar för att stärka dataskyddet och integriteten för EU-medborgare. Den gemensamma mallen förväntas bidra till att förbättra hanteringen av dataintrång och skydda personuppgifter.",
+      "tech_vinkel": "Den gemensamma mallen för anmälan av dataintrång är en specifik teknisk lösning som syftar till att standardisera rapporteringen av dataintrång inom EU.",
+      "varfor_viktigt": "Detta är viktigt eftersom dataintrång kan ha allvarliga konsekvenser för enskilda personer och företag. En enhetlig mall för anmälan av dataintrång kan bidra till att förbättra hanteringen av dataintrång och skydda personuppgifter. Dessutom kan detta leda till en mer effektiv och samordnad hantering av dataintrång inom EU. Detta arbete är en del av EU:s övergripande strävan att stärka dataskyddet och integriteten för EU-medborgare.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "dataintrång",
+        "dataskydd",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EDPB kommer att fortsätta att arbeta med att implementera och utveckla den gemensamma mallen för anmälan av dataintrång, i samarbete med EU-kommissionen och medlemsstaterna.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-10",
+          "beskrivning": "EDPB mötte EU-kommissionär McGrath och antog den gemensamma mallen för anmälan av dataintrång"
+        }
+      ]
+    },
+    "title": "EDPB meets with EU Commissioner McGrath and adopts common data breach notification template",
+    "cached_at": "2026-06-22"
+  },
+  "https://www.edpb.europa.eu/news/swedish-sa-administrative-fine-against-sportadmin_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån EDPB har meddelat att den svenska tillsynsmyndigheten, SA, har utfärdat en administrativ bot mot Sportadmin. Detta beslut har fattats med anledning av att Sportadmin har brutit mot EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning). Beslutet är ett exempel på hur EU:s dataskyddslagstiftning tillämpas i praktiken. Det visar att företag som hanterar personuppgifter måste följa lagstiftningen för att undvika sanktioner.",
+      "tech_vinkel": "Beslutet omfattar specifikt hur Sportadmin har hanterat personuppgifter i strid med GDPR (EU:s dataskyddsförordning), vilket är en tydlig tech-vinkel eftersom det handlar om hur företag måste implementera tekniska och organisatoriska åtgärder för att skydda personuppgifter.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU:s dataskyddslagstiftning är tillämplig och att företag som bryter mot den kan få betala höga böter. Det påverkar alla företag som hanterar personuppgifter inom EU och visar att det är viktigt att ha en god förståelse för och efterlevnad av dataskyddslagstiftningen. Det kan också leda till att företag investerar mer i dataskydd och integritet för att undvika liknande sanktioner.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Administrativ bot"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Sportadmin måste nu betala den administrativa boten och vidta åtgärder för att säkerställa att de följer GDPR i framtiden.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-05",
+          "beskrivning": "EDPB meddelade beslutet om administrativ bot mot Sportadmin"
+        }
+      ]
+    },
+    "title": "Swedish SA: Administrative fine against Sportadmin",
+    "cached_at": "2026-06-22"
+  },
+  "https://www.edpb.europa.eu/news/imposition-of-fine-on-a-telecommunications-company-for-violations-of-data-subjects-rights_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån European Data Protection Board har utfärdat en bot på ett telekombolag för brott mot datasubjektens rättigheter. Detta beslut är en del av EU:s strävan att skydda medborgarnas personuppgifter och säkerställa att företag följer dataskyddslagstiftningen. Telekombolaget har alltså brutit mot reglerna för hur personuppgifter ska hanteras, vilket har lett till en ekonomisk sanktion. Detta visar på EU:s allvarliga inställning till dataskydd och dess vilja att se till att företag tar ansvar för sina handlingar.",
+      "tech_vinkel": "Beslutet gäller specifikt hanteringen av personuppgifter i enlighet med EU:s dataskyddsförordning, vilket är en teknisk och juridisk fråga som berör hur företag tekniskt ska implementera och upprätthålla dataskydd.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU är berett att vidta åtgärder mot företag som inte följer dataskyddslagstiftningen. Det påverkar telekombolag och andra företag som hanterar stora mängder personuppgifter, och det skickar en tydlig signal om att dataskydd är en prioritet inom EU. Det kan också leda till att företag blir mer medvetna om vikten av att investera i robusta dataskyddssystem och rutiner för att undvika liknande sanktioner i framtiden.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "Dataskydd",
+        "Telekombolag",
+        "EU",
+        "Bot"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Telekombolaget kommer troligen att överklaga beslutet eller vidta åtgärder för att komma i överensstämmelse med dataskyddslagstiftningen för att undvika ytterligare sanktioner.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Datum för beslutet om boten"
+        }
+      ]
+    },
+    "title": "Imposition of fine on a telecommunications company for violations of data subject’s rights",
+    "cached_at": "2026-06-22"
+  },
+  "https://www.edpb.europa.eu/news/the-italian-supervisory-authority-fined-a-company-120-000-eur-for-tracking-five-employees-who_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Italienska dataskyddsmyndigheten har utfärdat en bot på 120 000 euro till ett företag som spårade fem anställda som körde företagets bilar. Detta beslut är ett exempel på hur EU:s dataskyddsförordning (GDPR) tillämpas i praktiken. Företaget har alltså brutit mot reglerna om hur personuppgifter får behandlas. Detta visar att myndigheterna är aktiva i att skydda människors integritet.",
+      "tech_vinkel": "Det specifika tekniska aspekten i detta fall är användningen av spårningsteknik för att övervaka anställdas rörelser med företagets bilar, vilket anses vara en otillåten behandling av personuppgifter enligt GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att dataskyddsmyndigheterna i EU är beredda att vidta kraftfulla åtgärder mot företag som bryter mot dataskyddsförordningen. Det påverkar inte bara det specifika företaget utan också andra företag som kan tänkas använda liknande metoder för att spåra anställda eller kunder. Det sänder en tydlig signal om vikten av att respektera människors integritet och personuppgifter.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "personuppgifter",
+        "spårningsteknik"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Företaget kan överklaga beslutet, men det är också möjligt att detta beslut kommer att tjäna som en varning till andra företag att se över sina egna dataskyddspolicyer.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Italienska dataskyddsmyndigheten meddelar beslutet om boten"
+        }
+      ]
+    },
+    "title": "The Italian Supervisory Authority fined a company 120 000 EUR for tracking five employees who drove company cars",
+    "cached_at": "2026-06-22"
+  },
+  "https://data.riksdagen.se/dokument/HD03287.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen presenterar en proposition om en ny politisk inriktning för ett starkare filmland. Propositionen syftar till att stärka den svenska filmbranschen, men innehållet är inte tillgängligt i sammanfattningen. Det är oklart vilka specifika förslag som presenteras och hur de kan påverka filmbranschen. Propositionen har överlämnats till riksdagen för behandling.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det är viktigt att den svenska filmbranschen stärks för att kunna konkurrera på den globala marknaden. En stark filmbransch kan bidra till att skapa arbetstillfällen och stimulera den kreativa sektorn. Propositionen kan ha betydelse för den svenska filmbranschens framtid, men mer information behövs för att förstå dess innehåll och potential.",
+      "eu_koppling": "null",
+      "keywords": [
+        "filmbranschen",
+        "proposition",
+        "riksdagen"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-18",
+          "beskrivning": "Propositionen överlämnades till riksdagen"
+        }
+      ]
+    },
+    "title": "Ny politisk inriktning för ett starkare filmland",
+    "cached_at": "2026-06-22"
   }
 }
