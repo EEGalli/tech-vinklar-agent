@@ -12697,34 +12697,6 @@
       }
     },
     {
-      "title": "Greece: New framework promotes safe and responsible use of AI in schools",
-      "source": "CEDEFOP",
-      "type": "EU-byrå",
-      "url": "https://www.cedefop.europa.eu/en/news/greece-new-framework-promotes-safe-and-responsible-use-ai-schools",
-      "date": "Mon, 22 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "AI",
-        "sammanfattning": "Grekland inför för första gången tydliga regler för användning av artificiell intelligens i skolor. Det nya ramverket syftar till att främja ett säkert och ansvarsfullt användande av AI i utbildningssystemet. Detta initiativ kan påverka hur lärare och elever använder AI-verktyg i klassrummet och hur skolor hanterar etiska aspekter av AI-användning. Ramverket är ett steg mot att säkerställa att AI används på ett sätt som gynnar utbildningen och skyddar eleverna.",
-        "tech_vinkel": "Det nya ramverket innehåller specifika riktlinjer för användning av artificiell intelligens i utbildning, vilket inkluderar krav på transparent och förklarlig AI-användning.",
-        "varfor_viktigt": "Detta initiativ är viktigt eftersom det kan bidra till att säkerställa att AI används på ett ansvarsfullt sätt i skolor, vilket kan ha en positiv inverkan på utbildningskvaliteten och elevernas säkerhet. Det kan också bidra till att öka medvetenheten om etiska aspekter av AI-användning i utbildningssammanhang. Dessutom kan detta initiativ tjäna som en modell för andra länder som överväger att införa liknande regleringar.",
-        "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
-        "keywords": [
-          "AI i utbildning",
-          "säker användning av AI",
-          "etiska aspekter av AI"
-        ],
-        "arende": "AI Act",
-        "nasta_steg": "Det grekiska utbildningsdepartementet kommer att övervaka implementeringen av det nya ramverket och utvärdera dess effektivitet.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-22",
-            "beskrivning": "Offentliggörandet av det nya ramverket för AI-användning i grekiska skolor"
-          }
-        ]
-      }
-    },
-    {
       "title": "Nya möjligheter att bekämpa onlinerekrytering",
       "source": "Riksdagen",
       "type": "Riksdagen/PROP",
@@ -12750,35 +12722,6 @@
           {
             "datum": "2026-06-15",
             "beskrivning": "Riksdagen kommer att behandla regeringens förslag om bekämpning av onlinerekrytering"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön",
-      "source": "Regeringen",
-      "type": "Regeringsuppdrag",
-      "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-att-kartlagga-och-foresla-atgarder-for-att-bemota-desinformation-som-riktar-sig-mot-personer-pa-grund-av-kon/",
-      "date": "2026-06-18",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Sociala medier",
-        "sammanfattning": "Regeringen ger Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten i uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön. Detta uppdrag syftar till att förbättra skyddet för personer som utsätts för desinformation och hat på internet. Uppdraget omfattar en kartläggning av desinformationen och en analys av vilka åtgärder som kan vidtas för att motverka den. Målet är att skapa en säkrare och mer inkluderande digital miljö.",
-        "tech_vinkel": "Uppdraget inkluderar en kartläggning av desinformation på sociala medier och en analys av hur algoritmer och andra digitala verktyg kan användas för att sprida eller motverka desinformation.",
-        "varfor_viktigt": "Detta uppdrag är viktigt eftersom desinformation och hat på internet kan ha allvarliga konsekvenser för personer som utsätts för det. Genom att kartlägga och motverka desinformation kan regeringen bidra till att skapa en säkrare och mer inkluderande digital miljö. Uppdraget kan också bidra till att stärka skyddet för personer som utsätts för diskriminering och hat på internet. Dessutom kan det bidra till att främja en mer informerad och ansvarsfull användning av sociala medier.",
-        "eu_koppling": "Digital Services Act (DSA), som syftar till att reglera sociala medier och andra digitala plattformar i EU",
-        "keywords": [
-          "desinformation",
-          "sociala medier",
-          "algoritmer",
-          "hat på internet"
-        ],
-        "arende": "Kartläggning av sociala mediers algoritmer",
-        "nasta_steg": "Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten kommer att genomföra kartläggningen och lämna förslag på åtgärder till regeringen.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-12-31",
-            "beskrivning": "Uppdraget ska vara slutfört och förslag på åtgärder ska ha lämnats till regeringen"
           }
         ]
       }
@@ -12812,6 +12755,34 @@
       }
     },
     {
+      "title": "Highlights - How Europe Plans to Strengthen Its Tech Independence  - Committee on the Internal Market and Consumer Protection",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260608CAN78701",
+      "date": "Tue, 23 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Övrigt tech",
+        "sammanfattning": "EU-kommissionen planerar att presentera Technological Sovereignty Package, ett paket med åtgärder som syftar till att stärka Europas teknologiska oberoende. Detta paket ska boosta innovation, minska beroendet av icke-EU-leverantörer och förbättra den inre marknadens motståndskraft. Medlemmar i Europaparlamentets utskott för den inre marknaden och konsumentskydd (IMCO) kommer att diskutera detta paket.",
+        "tech_vinkel": "Technological Sovereignty Package innehåller specifika åtgärder för att stärka Europas teknologiska oberoende, men det är inte tydligt vilka specifika tekniker eller områden som kommer att prioriteras.",
+        "varfor_viktigt": "Detta paket kan ha stor betydelse för Europas ekonomi och teknologiska utveckling, eftersom det syftar till att minska beroendet av icke-EU-leverantörer och förbättra den inre marknadens motståndskraft. Det kan också påverka EU:s konkurrenskraft på den globala marknaden. Dessutom kan paketet ha konsekvenser för EU:s relationer med andra länder och regioner.",
+        "eu_koppling": "null",
+        "keywords": [
+          "Technological Sovereignty Package",
+          "EU-kommissionen",
+          "inre marknaden"
+        ],
+        "arende": "null",
+        "nasta_steg": "EU-kommissionen kommer att presentera Technological Sovereignty Package den 25 juni 2026, och därefter kommer medlemmar i Europaparlamentets utskott för den inre marknaden och konsumentskydd (IMCO) att diskutera paketet.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-25",
+            "beskrivning": "EU-kommissionen presenterar Technological Sovereignty Package"
+          }
+        ]
+      }
+    },
+    {
       "title": "BEREC Annual Report 2025 (design version)",
       "source": "BEREC",
       "type": "EU-byrå",
@@ -12835,6 +12806,35 @@
           {
             "datum": "2026-06-02",
             "beskrivning": "Publicering av BEREC:s årsrapport för 2025"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Uppdrag till Post- och telestyrelsen att genomföra insatser för ökad digital inkludering och säker användning av digitala tjänster bland äldre",
+      "source": "Regeringen",
+      "type": "Regeringsuppdrag",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post--och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-saker-anvandning-av-digitala-tjanster-bland-aldre/",
+      "date": "2026-06-23",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att samordna och främja arbetet för ökad digital inkludering och säker användning av digitala tjänster bland äldre. Detta innebär att PTS ska arbeta med att stödja och följa arbetet för att öka digitala färdigheter hos äldre och säkerställa att de kan använda digitala tjänster på ett säkert sätt. Målet är att öka digital delaktighet och minska den digitala klyftan bland äldre. Detta arbete kan också bidra till att förbättra tillgängligheten till digitala tjänster och minska risken för digitalt utanförskap.",
+        "tech_vinkel": "Uppdraget fokuserar på att öka digital inkludering och säker användning av digitala tjänster, vilket innebär att Post- och telestyrelsen (PTS) kommer att arbeta med specifika tekniska lösningar för att stödja äldres digitala färdigheter och säkerhet online.",
+        "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan bidra till att öka digital delaktighet och minska den digitala klyftan bland äldre. Det kan också bidra till att förbättra tillgängligheten till digitala tjänster och minska risken för digitalt utanförskap. Dessutom kan det bidra till att öka säkerheten online för äldre, som kan vara en utsatt grupp för digitala hot. Tajmingen spelar roll eftersom digitaliseringen av samhället fortsätter att öka och det är viktigt att alla grupper i samhället har möjlighet att delta och använda digitala tjänster på ett säkert sätt.",
+        "eu_koppling": "null",
+        "keywords": [
+          "digital inkludering",
+          "säker användning",
+          "digitala tjänster",
+          "äldre"
+        ],
+        "arende": "null",
+        "nasta_steg": "Post- och telestyrelsen (PTS) kommer att påbörja arbetet med att samordna och främja digital inkludering och säker användning av digitala tjänster bland äldre, i dialog med berörda aktörer.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-23",
+            "beskrivning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att genomföra insatser för ökad digital inkludering och säker användning av digitala tjänster bland äldre"
           }
         ]
       }

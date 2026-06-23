@@ -3850,5 +3850,122 @@
     },
     "title": "Greece: New framework promotes safe and responsible use of AI in schools",
     "cached_at": "2026-06-23"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260520CAN78360": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd diskuterade den europeiska enemarknadsstrategin med vice ordförande Stéphane Séjourné. Strategin syftar till att förbättra den inre marknaden och minska hinder för handel och konsumtion inom EU. Diskussionen fokuserade på vad som har uppnåtts hittills och vilka utmaningar som fortfarande finns. Utskottet granskade också de framsteg som har gjorts i att genomföra strategin.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Den europeiska enemarknadsstrategin är viktig för att främja ekonomisk tillväxt och konkurrenskraft inom EU. Strategin syftar till att skapa en mer integrerad och effektiv marknad, vilket kan leda till ökad handel och investeringar. Det är också viktigt att identifiera och åtgärda hinder för handel och konsumtion, för att säkerställa att konsumenterna har tillgång till en bred palett av varor och tjänster.",
+      "eu_koppling": "null",
+      "keywords": [
+        "enemarknadsstrategi",
+        "EU-parlamentet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Highlights - Breaking Down Barriers: One Year of the EU Single Market Strategy - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-06-23"
+  },
+  "https://www.edpb.europa.eu/news/healthcare-the-italian-sa-sanctions-a-company-that-manages-a-hospital-a-patients-tissue-sample_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Italienska dataskyddsmyndigheten har utfärdat en sanktion mot ett företag som driver ett sjukhus. Anledningen är att en patients vävnadsprov som skulle undersökas histologiskt slängdes. Detta är ett exempel på hur dataskydd och patientintegritet kan brytas inom hälso- och sjukvården. Företaget har fått en sanktion för att ha brutit mot reglerna för hantering av känsliga personuppgifter.",
+      "tech_vinkel": "Det specifika tekniska aspekten i detta fall är hanteringen av känsliga personuppgifter i form av patientprover och den bristande säkerheten kring detta.",
+      "varfor_viktigt": "Detta ärende är viktigt eftersom det visar på vikten av att skydda patienters personuppgifter och integritet inom hälso- och sjukvården. Det visar också att myndigheterna är beredda att vidta åtgärder mot företag som bryter mot reglerna. Det kan få konsekvenser för företag som hanterar känsliga personuppgifter och påverka utvecklingen av dataskyddslagstiftningen.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen), som reglerar hanteringen av personuppgifter inom EU",
+      "keywords": [
+        "dataskydd",
+        "patientintegritet",
+        "hälso- och sjukvård",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Företaget kommer troligen att behöva vidta åtgärder för att förbättra sin hantering av känsliga personuppgifter och säkerställa att det följer reglerna för dataskydd.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Italienska dataskyddsmyndigheten utfärdar sanktion mot företaget"
+        }
+      ]
+    },
+    "title": "Healthcare: the Italian SA sanctions a company that manages a hospital. A patient's tissue sample intended for histological examination was disposed of",
+    "cached_at": "2026-06-23"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/cassini-entrepreneurship-days-2026": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån arrangerar CASSINI Entrepreneurship Days 2026, som syftar till att främja entreprenörskap och innovation inom rymdsektorn. Evenemanget är tänkt att samla entreprenörer, investerare och experter för att diskutera och utveckla idéer och projekt relaterade till rymdteknologi. Detta initiativ är en del av EU:s strävan att stärka sin rymdkapacitet och främja samarbete mellan olika aktörer inom sektorn.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget kan bidra till att stimulera innovation och entreprenörskap inom rymdsektorn, vilket kan leda till nya tekniska framsteg och ekonomisk tillväxt. Det kan också bidra till att stärka EU:s position inom rymdteknologi och främja samarbete mellan olika länder och organisationer. Evenemanget kan också ge möjlighet för deltagarna att lära sig om de senaste trenderna och utvecklingen inom rymdsektorn.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknologi",
+        "entreprenörskap",
+        "innovation"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-22",
+          "beskrivning": "CASSINI Entrepreneurship Days 2026 arrangeras"
+        }
+      ]
+    },
+    "title": "CASSINI Entrepreneurship Days 2026",
+    "cached_at": "2026-06-23"
+  },
+  "https://www.euspa.europa.eu/node/9754": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har meddelat vinnarna i CASSINI Challenges 2026. Detta är en del av EU:s insatser för att främja innovation och utveckling inom rymdteknik och relaterade områden. Vinnarna har utvalts baserat på sina innovativa idéer och lösningar inom specifika kategorier. Detta initiativ syftar till att stödja och stimulera entreprenörer och företag som arbetar med rymdteknik och dess tillämpningar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta initiativ är viktigt eftersom det kan bidra till att öka innovationen och konkurrenskraften inom EU:s rymdsektor. Genom att stödja entreprenörer och företag kan EU främja utvecklingen av nya teknologier och lösningar som kan ha en positiv inverkan på samhället och ekonomin. Detta kan också bidra till att stärka EU:s position inom den globala rymdindustrin.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "CASSINI Challenges",
+        "rymdteknik",
+        "innovation"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "CASSINI Challenges Winners 2026",
+    "cached_at": "2026-06-23"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post--och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-saker-anvandning-av-digitala-tjanster-bland-aldre/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att samordna och främja arbetet för ökad digital inkludering och säker användning av digitala tjänster bland äldre. Detta innebär att PTS ska arbeta med att stödja och följa arbetet för att öka digitala färdigheter hos äldre och säkerställa att de kan använda digitala tjänster på ett säkert sätt. Målet är att öka digital delaktighet och minska den digitala klyftan bland äldre. Detta arbete kan också bidra till att förbättra tillgängligheten till digitala tjänster och minska risken för digitalt utanförskap.",
+      "tech_vinkel": "Uppdraget fokuserar på att öka digital inkludering och säker användning av digitala tjänster, vilket innebär att Post- och telestyrelsen (PTS) kommer att arbeta med specifika tekniska lösningar för att stödja äldres digitala färdigheter och säkerhet online.",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan bidra till att öka digital delaktighet och minska den digitala klyftan bland äldre. Det kan också bidra till att förbättra tillgängligheten till digitala tjänster och minska risken för digitalt utanförskap. Dessutom kan det bidra till att öka säkerheten online för äldre, som kan vara en utsatt grupp för digitala hot. Tajmingen spelar roll eftersom digitaliseringen av samhället fortsätter att öka och det är viktigt att alla grupper i samhället har möjlighet att delta och använda digitala tjänster på ett säkert sätt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "digital inkludering",
+        "säker användning",
+        "digitala tjänster",
+        "äldre"
+      ],
+      "arende": "null",
+      "nasta_steg": "Post- och telestyrelsen (PTS) kommer att påbörja arbetet med att samordna och främja digital inkludering och säker användning av digitala tjänster bland äldre, i dialog med berörda aktörer.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-23",
+          "beskrivning": "Regeringen ger Post- och telestyrelsen (PTS) i uppdrag att genomföra insatser för ökad digital inkludering och säker användning av digitala tjänster bland äldre"
+        }
+      ]
+    },
+    "title": "Uppdrag till Post- och telestyrelsen att genomföra insatser för ökad digital inkludering och säker användning av digitala tjänster bland äldre",
+    "cached_at": "2026-06-23"
   }
 }
