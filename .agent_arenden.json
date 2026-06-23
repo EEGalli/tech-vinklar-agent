@@ -495,7 +495,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-23",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -576,11 +576,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-23",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "EU-kommissionen kommer att analysera resultaten från undersökningen och använda dem för att informera framtida politiska beslut och initiativ.",
+    "next_step": "Det grekiska utbildningsdepartementet kommer att övervaka implementeringen av det nya ramverket och utvärdera dess effektivitet.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -609,6 +609,13 @@
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260311CAN76913",
         "source": "EU-parlamentet",
         "tech_vinkel": "Utskottet diskuterar den fortsatta förhandlingen av Digital Omnibus, som är ett paket av lagstiftning som inkluderar AI Act (EU:s AI-förordning), vilket reglerar utveckling och användning av AI-system."
+      },
+      {
+        "title": "Greece: New framework promotes safe and responsible use of AI in schools",
+        "date": "Mon, 22 Ju",
+        "url": "https://www.cedefop.europa.eu/en/news/greece-new-framework-promotes-safe-and-responsible-use-ai-schools",
+        "source": "CEDEFOP",
+        "tech_vinkel": "Det nya ramverket innehåller specifika riktlinjer för användning av artificiell intelligens i utbildning, vilket inkluderar krav på transparent och förklarlig AI-användning."
       },
       {
         "title": "Highlights - Agreement Reached on Updated AI Rules - Committee on the Internal Market and Consumer Protection",
@@ -721,7 +728,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-23",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -862,7 +869,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-23",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -944,7 +951,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-23",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -994,7 +1001,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-23",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1012,7 +1019,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-23",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,

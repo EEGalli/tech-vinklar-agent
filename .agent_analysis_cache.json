@@ -149,73 +149,6 @@
     "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-06-12"
   },
-  "https://data.riksdagen.se/dokument/HD024191.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "En motion från Miljöpartiet kräver att regeringen skyndsamt återkommer med förslag som säkerställer utökade befogenheter för Skatteverket inom folkbokföringsverksamheten. Detta handlar om att ge Skatteverket mer makt att hantera folkbokföringen. Motionen är en reaktion på en tidigare proposition om utökade befogenheter för Skatteverket. Det är inte tydligt vad motionen konkret föreslår förändras.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta ärende kan ha betydelse för hur Skatteverket hanterar personuppgifter och folkbokföring, men det är inte tydligt hur motionen påverkar teknikutvecklingen eller digitaliseringen av folkbokföringsverksamheten. Det kan ha konsekvenser för hur Skatteverket använder teknologi för att hantera folkbokföringen, men det är inte tydligt vad dessa konsekvenser är.",
-      "eu_koppling": "null",
-      "keywords": [
-        "folkbokföring",
-        "Skatteverket",
-        "personuppgifter"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "med anledning av prop. 2025/26:261 Utökade befogenheter för Skatteverket inom folkbokföringsverksamheten",
-    "cached_at": "2026-05-23"
-  },
-  "https://www.regeringen.se/pressmeddelanden/2026/05/nytt-bilateralt-samarbete-med-usa-ska-starka-forskning-inom-ai-rymd-och-kvantteknik/": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "AI",
-      "sammanfattning": "Regeringen har undertecknat ett samförståndsavtal med USA om bilateralt tekniksamarbete inom områden som AI, rymd och kvantteknik. Detta samarbete syftar till att stärka forskning och utveckling inom dessa områden. Sverige och USA kommer att samarbeta för att främja innovation och kunskapsutbyte. Detta avtal förväntas leda till nya möjligheter för forskare och företag i båda länderna.",
-      "tech_vinkel": "Detta dokument innehåller en tydlig tech-vinkel genom det bilaterala samarbetet inom AI, som syftar till att stärka forskning och utveckling inom detta område.",
-      "varfor_viktigt": "Detta samarbete är viktigt eftersom det kan leda till banbrytande innovationer inom AI, rymd och kvantteknik. Det kan också skapa nya möjligheter för företag och forskare i Sverige och USA. Dessutom kan detta samarbete bidra till att stärka båda ländernas positioner inom den globala teknikutvecklingen. Detta avtal kan också ha en positiv inverkan på den svenska och amerikanska ekonomin.",
-      "eu_koppling": "null",
-      "keywords": [
-        "AI",
-        "rymd",
-        "kvantteknik",
-        "Sverige",
-        "USA"
-      ],
-      "arende": "Sverige-USA AI-samarbete",
-      "nasta_steg": "Det nästa steget i detta ärende är att de båda länderna kommer att inleda ett arbete för att identifiera specifika områden för samarbete och utveckla en plan för hur detta samarbete ska genomföras.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-22",
-          "beskrivning": "Undertecknandet av samförståndsavtalet mellan Sverige och USA"
-        }
-      ]
-    },
-    "title": "Nytt bilateralt samarbete med USA ska stärka forskning inom AI, rymd och kvantteknik",
-    "cached_at": "2026-05-23"
-  },
-  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-trafikverket-att-genomfora-en-marknads--och-framtidsanalys-av-multimodala-godsterminaler-inom-det-transeuropeiska-transportnatet/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen ger Trafikverket i uppdrag att genomföra en marknads- och framtidsanalys av multimodala godsterminaler i Sverige. Detta syftar till att undersöka möjligheterna för effektivare och mer hållbara transporter. Analysen ska genomföras i enlighet med EU:s direktiv för det transeuropeiska transportnätet. Detta kan påverka hur godstransporter hanteras i framtiden.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna analys kan ha betydelse för Sveriges transportinfrastruktur och hur landet hanterar godstransporter. Det kan också påverka miljön genom att minska utsläppen från transporter. Regeringens beslut att ge Trafikverket detta uppdrag visar att de vill undersöka möjligheterna för mer effektiva och hållbara transporter.",
-      "eu_koppling": "Det transeuropeiska transportnätet",
-      "keywords": [
-        "transport",
-        "godsterminaler",
-        "Trafikverket"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": []
-    },
-    "title": "Uppdrag till Trafikverket att genomföra en marknads- och framtidsanalys av multimodala godsterminaler inom det transeuropeiska transportnätet",
-    "cached_at": "2026-05-23"
-  },
   "https://www.regeringen.se/pressmeddelanden/2026/05/sverige-och-usa-ingar-ett-bilateralt-tekniksamarbete/": {
     "analysis": {
       "relevans": "hög",
@@ -3815,5 +3748,107 @@
     },
     "title": "Ny politisk inriktning för ett starkare filmland",
     "cached_at": "2026-06-22"
+  },
+  "https://www.edpb.europa.eu/news/polish-sa-administrative-fine-of-9-625-eur-against-medical-centre-for-failure-to-notify-a_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån EDPB har utfärdat en administrativ bot på 9 625 euro mot ett polskt medicinskt center för att de inte anmälde en personuppgiftsincident. Detta beslut visar att EDPB tar dataskydd på allvar och att organisationer som hanterar personuppgifter måste följa reglerna. Det polska medicinska centret bröt mot reglerna genom att inte anmäla incidenten, vilket ledde till att de nu måste betala en bot. Detta beslut kan påverka andra organisationer som hanterar personuppgifter att se över sina rutiner för att undvika liknande bots.",
+      "tech_vinkel": "Beslutet gäller en personuppgiftsincident som inte anmäldes, vilket är en specifik tech-fråga som rör hantering och skydd av personuppgifter.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EDPB är aktiv i att övervaka och sanktionera organisationer som bryter mot dataskyddsreglerna. Det kan också leda till att andra organisationer blir mer medvetna om vikten av att följa reglerna och anmäla incidenter. Dessutom kan detta beslut bidra till att stärka skyddet för personuppgifter och öka förtroendet för organisationer som hanterar sådana uppgifter.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen), som är en EU-lagstiftning som reglerar hantering och skydd av personuppgifter",
+      "keywords": [
+        "dataskydd",
+        "personuppgiftsincident",
+        "EDPB",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Det polska medicinska centret måste nu betala boten och se över sina rutiner för hantering av personuppgifter för att undvika liknande incidenter i framtiden.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-05",
+          "beskrivning": "EDPB utfärdar administrativ bot mot det polska medicinska centret"
+        }
+      ]
+    },
+    "title": "Polish SA: administrative fine of 9 625 € against Medical Centre for failure to notify a personal data breach",
+    "cached_at": "2026-06-23"
+  },
+  "https://www.edpb.europa.eu/news/polish-sa-administrative-fine-of-2-700-eur-against-specer-sp-z-oo-for-appointing-chairman-of_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "EU-byrån EDPB har meddelat att det polska företaget Specer sp. z o.o. har fått en administrativ bot på 2 700 euro. Anledningen till boten är att företaget har utsett sin styrelseordförande som dataskyddsombud, vilket strider mot EU:s dataskyddsförordning. Detta beslut visar att EDPB är aktiv i att övervaka och sanktionera företag som inte följer dataskyddslagstiftningen. Företaget påverkas direkt av detta beslut och måste nu vidta åtgärder för att följa lagstiftningen.",
+      "tech_vinkel": "Det specifika tech-aspekt som är aktuell i detta dokument är dataskyddsombudets (DPO) roll och ansvar enligt EU:s dataskyddsförordning, som kräver att företag utser en ombud som kan säkerställa att personuppgifter hanteras på ett korrekt sätt.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EDPB är aktiv i att övervaka och sanktionera företag som inte följer dataskyddslagstiftningen. Detta kan ha konsekvenser för företag som inte tar dataskydd på allvar och kan leda till ekonomiska förluster och skador på företagets rykte. Dessutom kan detta beslut bidra till att öka medvetenheten om vikten av dataskydd och säkerställa att företag tar nödvändiga åtgärder för att skydda personuppgifter.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som kräver att företag utser en dataskyddsombud som kan säkerställa att personuppgifter hanteras på ett korrekt sätt.",
+      "keywords": [
+        "Dataskydd",
+        "EDPB",
+        "GDPR",
+        "DPO"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Företaget Specer sp. z o.o. måste nu vidta åtgärder för att följa dataskyddslagstiftningen och säkerställa att personuppgifter hanteras på ett korrekt sätt.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-05",
+          "beskrivning": "EDPB meddelar beslutet om administrativ bot mot Specer sp. z o.o."
+        }
+      ]
+    },
+    "title": "Polish SA: administrative fine of 2 700 € against Specer sp. z o.o. for appointing chairman of the company as its DPO",
+    "cached_at": "2026-06-23"
+  },
+  "https://www.edpb.europa.eu/news/italian-sa-fines-a-company-for-post-sick-leave-questionnaires_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Italienska dataskyddsmyndigheten har utfärdat en bot till ett företag för att de har använt sig av frågeformulär till anställda efter sjukledighet. Detta har bedömts som ett brott mot EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning). Företaget har inte respekterat de anställdas rätt till integritet och dataskydd. Detta beslut är ett exempel på hur dataskyddsmyndigheter i Europa arbetar för att skydda människors personuppgifter.",
+      "tech_vinkel": "Det specifika tech-aspekt som är relevant i detta fall är hur företaget hanterade personuppgifter i form av sjukledighetsinformation och hur detta överträdde principerna i GDPR (EU:s dataskyddsförordning) om dataminimering och proportionalitet.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar på vikten av att företag respekterar och skyddar anställdas personuppgifter. Det sänder också en signal till andra företag om att de måste ta dataskydd på allvar och följa gällande lagstiftning. Dessutom visar det på samarbetet och koordinationen mellan dataskyddsmyndigheter i Europa för att säkerställa att dataskyddslagstiftningen efterlevs.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Italien"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Företaget måste nu vidta åtgärder för att korrigera sina processer för hantering av personuppgifter och säkerställa att de följer GDPR.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-04",
+          "beskrivning": "Italienska dataskyddsmyndigheten meddelar beslutet om bot"
+        }
+      ]
+    },
+    "title": "Italian SA fines a company for post-sick leave questionnaires",
+    "cached_at": "2026-06-23"
+  },
+  "https://www.cedefop.europa.eu/en/news/greece-new-framework-promotes-safe-and-responsible-use-ai-schools": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI",
+      "sammanfattning": "Grekland inför för första gången tydliga regler för användning av artificiell intelligens i skolor. Det nya ramverket syftar till att främja ett säkert och ansvarsfullt användande av AI i utbildningssystemet. Detta initiativ kan påverka hur lärare och elever använder AI-verktyg i klassrummet och hur skolor hanterar etiska aspekter av AI-användning. Ramverket är ett steg mot att säkerställa att AI används på ett sätt som gynnar utbildningen och skyddar eleverna.",
+      "tech_vinkel": "Det nya ramverket innehåller specifika riktlinjer för användning av artificiell intelligens i utbildning, vilket inkluderar krav på transparent och förklarlig AI-användning.",
+      "varfor_viktigt": "Detta initiativ är viktigt eftersom det kan bidra till att säkerställa att AI används på ett ansvarsfullt sätt i skolor, vilket kan ha en positiv inverkan på utbildningskvaliteten och elevernas säkerhet. Det kan också bidra till att öka medvetenheten om etiska aspekter av AI-användning i utbildningssammanhang. Dessutom kan detta initiativ tjäna som en modell för andra länder som överväger att införa liknande regleringar.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "AI i utbildning",
+        "säker användning av AI",
+        "etiska aspekter av AI"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Det grekiska utbildningsdepartementet kommer att övervaka implementeringen av det nya ramverket och utvärdera dess effektivitet.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-22",
+          "beskrivning": "Offentliggörandet av det nya ramverket för AI-användning i grekiska skolor"
+        }
+      ]
+    },
+    "title": "Greece: New framework promotes safe and responsible use of AI in schools",
+    "cached_at": "2026-06-23"
   }
 }
