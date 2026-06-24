@@ -3,21 +3,26 @@
     "analysis": {
       "relevans": "låg",
       "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen har remitterat utredningen om en moderniserad reglering av handel med ädelmetallarbeten. Utredningen syftar till att förbättra regleringen av handel med ädelmetallarbeten och öka transparensen på marknaden. Detta påverkar främst företag som handlar med ädelmetallarbeten och konsumenter som köper dessa produkter. Förändringarna kan leda till en mer säker och transparent marknad.",
+      "sammanfattning": "Regeringen har remitterat Ädelmetallutredningens betänkande som syftar till att modernisera regleringen av handel med ädelmetallarbeten. Utredningen föreslår en ny lagstiftning som ska förbättra kontrollen av ädelmetallhandeln och minska risken för penningtvätt och terrorismfinansiering. Förslaget påverkar företag som handlar med ädelmetallarbeten och kan leda till ökad administration och kostnader för dessa företag.",
       "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna utredning är viktig eftersom den kan leda till en mer säker och transparent marknad för ädelmetallarbeten. Detta kan skydda konsumenter från bedrägeri och säkerställa att företag som handlar med ädelmetallarbeten följer lagar och regler. Utredningen kan också bidra till att öka förtroendet för marknaden och främja en sund konkurrens.",
+      "varfor_viktigt": "Detta förslag kan ha konsekvenser för företag som handlar med ädelmetallarbeten, eftersom de kan behöva anpassa sig till nya regler och krav. Förslaget kan också påverka konsumenterna, som kan få ett bättre skydd mot penningtvätt och terrorismfinansiering. Regeringens beslut om förslaget kommer att ha en direkt inverkan på branschen och dess aktörer.",
       "eu_koppling": "null",
       "keywords": [
-        "ädelmetallarbeten",
-        "reglering",
-        "transparens"
+        "ädelmetallhandel",
+        "penningtvätt",
+        "terrorismfinansiering"
       ],
       "arende": "null",
       "nasta_steg": "null",
-      "viktiga_datum": []
+      "viktiga_datum": [
+        {
+          "datum": "2026-04-09",
+          "beskrivning": "Regeringen remitterar Ädelmetallutredningens betänkande"
+        }
+      ]
     },
     "title": "Remiss av Ädelmetallutredningen – en moderniserad reglering av handel med ädelmetallarbeten (SOU 2026:14), KN2026/00741",
-    "cached_at": "2026-05-24"
+    "cached_at": "2026-06-24"
   },
   "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en": {
     "analysis": {
@@ -148,32 +153,6 @@
     },
     "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-06-12"
-  },
-  "https://www.regeringen.se/pressmeddelanden/2026/05/sverige-och-usa-ingar-ett-bilateralt-tekniksamarbete/": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen meddelar att Sverige och USA har ingått ett bilateralt tekniksamarbete. Detta samförståndsavtal undertecknades av utrikesminister Maria Malmer Stenergard och USA:s utrikesminister Marco Rubio. Samarbetet syftar till att stärka relationerna mellan länderna inom teknikutveckling och innovation. Detta kan leda till nya möjligheter för svenska företag och forskare att samarbeta med amerikanska aktörer.",
-      "tech_vinkel": "Det bilaterala tekniksamarbetet mellan Sverige och USA kommer att fokusera på att främja utbyte och samarbete inom teknikutveckling och innovation, vilket inkluderar områden som artificiell intelligens, cybersäkerhet och digital infrastruktur.",
-      "varfor_viktigt": "Detta samarbete är viktigt eftersom det kan leda till ökad innovation och ekonomisk tillväxt i båda länderna. Det kan också bidra till att stärka säkerheten och skyddet av kritisk infrastruktur genom samarbete inom cybersäkerhet. Dessutom kan det öppna upp nya möjligheter för svenska företag att expandera till den amerikanska marknaden.",
-      "eu_koppling": "null",
-      "keywords": [
-        "tekniksamarbete",
-        "Sverige",
-        "USA",
-        "innovation"
-      ],
-      "arende": "Sverige-USA tekniksamarbete",
-      "nasta_steg": "Nästa steg i detta samarbete kommer att vara att etablera en arbetsgrupp som ska identifiera och prioritera områden för samarbete och utveckla en handlingsplan för det bilaterala tekniksamarbetet.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-22",
-          "beskrivning": "Undertecknandet av det bilaterala tekniksamarbetsavtalet mellan Sverige och USA"
-        }
-      ]
-    },
-    "title": "Sverige och USA ingår ett bilateralt tekniksamarbete",
-    "cached_at": "2026-05-24"
   },
   "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-vetenskapsradet-om-nationell-stodfunktion-for-ansvarsfull-internationalisering-vid-utbildnings--forsknings--och-innovationssamarbeten/": {
     "analysis": {
@@ -3967,5 +3946,144 @@
     },
     "title": "Uppdrag till Post- och telestyrelsen att genomföra insatser för ökad digital inkludering och säker användning av digitala tjänster bland äldre",
     "cached_at": "2026-06-23"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260615CAN78886": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) har hållit ett möte med Christine Lagarde, chef för Europeiska centralbanken. De diskuterade den europeiska centralbankens penningpolitik. Det finns inga specifika tekniska förslag eller beslut i detta möte.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det visar på samarbetet mellan EU-parlamentet och Europeiska centralbanken. Det kan ha konsekvenser för den ekonomiska politiken i Europa, men det finns inga tydliga tekniska aspekter i detta möte. Det är mer en allmän diskussion om penningpolitik.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU-parlamentet",
+        "Europeiska centralbanken",
+        "penningpolitik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-22",
+          "beskrivning": "Mötet mellan EU-parlamentets utskott för ekonomi och valutafrågor och Europeiska centralbanken"
+        }
+      ]
+    },
+    "title": "Highlights - Monetary Dialogue with Christine Lagarde, President of the European Central Bank - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-06-24"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260616CAN78908": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) har haft ett möte för att diskutera de ekonomiska och finansiella konsekvenserna av Mellanöstern-krisen i Europa. De har haft en utfrågning med experter från Europeiska centralbanken, Europeiska kommissionen och OECD. Diskussionen handlade om hur krisen påverkar den europeiska ekonomin. Inga specifika förslag eller beslut togs under mötet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Mötet är en del av EU-parlamentets arbete med att förstå och hantera de ekonomiska konsekvenserna av internationella kriser. Det kan ha betydelse för EU:s ekonomiska politik och beslut om hur man ska hantera liknande kriser i framtiden. Det kan också påverka EU:s relationer med länder i Mellanöstern och dess ekonomiska samarbete med området.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Mellanöstern-krisen",
+        "ekonomiska konsekvenser",
+        "EU-parlamentet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Highlights - Economic and fiscal implications in Europe of the Middle East crisis - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-06-24"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260616CAN78900": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) och utskottet för sysselsättning och sociala frågor (EMPL) höll ett ekonomiskt samtal med Roxana Mînzatu och Valdis Dombrovskis om den europeiska semestern 2026. Samtalet handlade om den ekonomiska situationen i Europa och hur man kan främja tillväxt och sysselsättning. Det finns inga specifika tekniska förslag eller initiativ i detta samtal. Det är mer en allmän diskussion om ekonomi och sysselsättning.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta samtal är viktigt eftersom det visar på EU:s engagemang för att främja ekonomisk tillväxt och sysselsättning. Det kan dock inte anses vara direkt viktigt för teknikutvecklingen eller teknisk lagstiftning. Det är mer en allmän diskussion om ekonomi och sysselsättning. Det kan dock ha indirekta effekter på teknikutvecklingen om det leder till investeringar i teknisk forskning och utveckling.",
+      "eu_koppling": "null",
+      "keywords": [
+        "europeisk semester",
+        "ekonomi",
+        "sysselsättning"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-23",
+          "beskrivning": "Ekonomiskt samtal mellan ECON och EMPL"
+        }
+      ]
+    },
+    "title": "Highlights - Joint ECON-EMPL Economic Dialogue on the European Semester 2026 - Committee on Economic and Monetary Affairs",
+    "cached_at": "2026-06-24"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/world-space-business-week-1": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar World Space Business Week. Detta evenemang syftar till att samla experter och företag inom rymdindustrin för att diskutera utvecklingen och framtiden för rymdverksamhet. Evenemanget kan omfatta presentationer, paneldiskussioner och nätverksmöjligheter. Det är tänkt att främja samarbete och innovation inom rymdsektorn.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "World Space Business Week kan vara viktigt för rymdindustrin eftersom det ger en plattform för att diskutera utmaningar och möjligheter inom området. Det kan också bidra till att främja samarbete och innovation mellan företag och organisationer. Evenemanget kan dock inte anses vara direkt relevant för specifika tech-frågor eller lagstiftningsärenden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdindustri",
+        "innovation",
+        "samarbete"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-23",
+          "beskrivning": "World Space Business Week äger rum"
+        }
+      ]
+    },
+    "title": "World Space Business Week",
+    "cached_at": "2026-06-24"
+  },
+  "https://www.euspa.europa.eu/node/9761": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar en evenemangsserie kallad CASSINI Entrepreneurship Days. Detta evenemang syftar till att främja entreprenörskap och innovation inom rymdsektorn. Evenemanget kan locka till sig företagare och innovatörer som är intresserade av att utveckla nya idéer och lösningar med hjälp av rymdteknologi. Det är dock oklart vad evenemanget specifikt kommer att behandla eller vilka konkreta resultat som förväntas.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget kan vara viktigt för att främja innovation och entreprenörskap inom rymdsektorn, men det saknas information om specifika tekniska aspekter eller hur evenemanget kommer att påverka branschen. Det är möjligt att evenemanget kan leda till nya samarbeten eller investeringar i rymdteknologi, men detta är spekulativt. Evenemanget kan också bidra till att öka medvetenheten om rymdsektorns potential och möjligheter.",
+      "eu_koppling": null,
+      "keywords": [
+        "rymdteknologi",
+        "entreprenörskap",
+        "innovation"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-22",
+          "beskrivning": "Evenemanget CASSINI Entrepreneurship Days äger rum"
+        }
+      ]
+    },
+    "title": "CASSINI Entrepreneurship Days",
+    "cached_at": "2026-06-24"
+  },
+  "https://data.riksdagen.se/dokument/HD03272.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen presenterar en skrivelse om uppföljning av den brottsförebyggande strategin Barriärer mot brott. Strategin är en av regeringens främsta prioriteringar och syftar till att förebygga brott. Skrivelsen innehåller en redovisning av arbetet med att implementera strategin. Regeringen överlämnar skrivelsen till riksdagen för vidare hantering.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna skrivelse är viktig eftersom den visar regeringens engagemang för att förebygga brott och förbättra samhället. Strategin kan ha en positiv inverkan på medborgarnas trygghet och säkerhet. Riksdagens hantering av skrivelsen kan påverka den framtida utvecklingen av brottsförebyggande åtgärder.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Brottsförebyggande strategi",
+        "Barriärer mot brott"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Uppföljning av den brottsförebyggande strategin Barriärer mot brott",
+    "cached_at": "2026-06-24"
   }
 }

@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-24",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -495,7 +495,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-24",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -728,7 +728,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-24",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -951,7 +951,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-24",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1001,7 +1001,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-24",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1019,7 +1019,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-24",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
