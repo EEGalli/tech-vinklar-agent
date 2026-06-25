@@ -12417,6 +12417,38 @@
   ],
   "2026-06-25": [
     {
+      "title": "Latest news - Next Committee Meeting: Thursday, 25 June, 09:00-12:30; Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+      "source": "EU-parlamentet",
+      "type": "EP/Utskott",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+      "date": "Thu, 25 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
+        "varfor_viktigt": "Med tanke på den snabba utvecklingen inom AI och digitala tjänster är det avgörande att EU-kommissionen och parlamentet kontinuerligt granskar och anpassar lagstiftningen för att skydda konsumenter och säkerställa en rättvis konkurrens. Dessa möten kan indikera riktningen för framtida regleringar som påverkar hur vi interagerar med digitala plattformar.",
+        "eu_koppling": "Digitala marknader (DMA) och Digital Services Act (DSA) är relevanta, eftersom IMCO-utskottet ofta arbetar med dessa frågor.",
+        "keywords": [
+          "IMCO",
+          "digitala marknader",
+          "konsumentskydd",
+          "algoritmer",
+          "plattformar"
+        ],
+        "arende": "Digitala marknader",
+        "nasta_steg": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-04-15",
+            "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor."
+          },
+          {
+            "datum": "2026-04-16",
+            "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter."
+          }
+        ]
+      }
+    },
+    {
       "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
       "source": "EU-kommissionen",
       "type": "Digital Strategy — Nyhet",
@@ -12529,6 +12561,29 @@
       }
     },
     {
+      "title": "Supporting GDPR consistency: EDPB launches dedicated form",
+      "source": "EDPB",
+      "type": "EU-byrå",
+      "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
+      "date": "Wed, 24 Jun 2026",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "European Data Protection Board (EDPB) har lanserat en dedikerad blankett för att stödja konsekvensen av GDPR (EU:s dataskyddsförordning). Detta syftar till att underlätta för organisationer att följa dataskyddsförordningen. Blanketten ska hjälpa till att identifiera och rapportera incidenter som rör dataskydd. Detta är ett steg mot att förbättra dataskyddet inom EU.",
+        "tech_vinkel": "EDPB:s dedikerade blankett för att rapportera dataskyddsincidenter är en teknisk lösning för att underlätta efterlevnaden av GDPR (EU:s dataskyddsförordning).",
+        "varfor_viktigt": "Detta är viktigt eftersom det kan hjälpa organisationer att följa dataskyddsförordningen och skydda personuppgifter. Konsekvenserna av att inte följa GDPR (EU:s dataskyddsförordning) kan vara allvarliga, inklusive höga böter. Tajmingen spelar roll eftersom dataskyddet är ett ständigt aktuellt ämne och organisationer måste vara proaktiva för att skydda personuppgifter.",
+        "eu_koppling": "GDPR (General Data Protection Regulation)",
+        "keywords": [
+          "GDPR",
+          "Dataskydd",
+          "EDPB"
+        ],
+        "arende": "GDPR-implementering",
+        "nasta_steg": "Organisationer kommer att börja använda den dedikerade blanketten för att rapportera dataskyddsincidenter, vilket kommer att hjälpa EDPB att övervaka och säkerställa efterlevnaden av GDPR.",
+        "viktiga_datum": []
+      }
+    },
+    {
       "title": "Swedish SA: Administrative fine against Sportadmin",
       "source": "EDPB",
       "type": "EU-byrå",
@@ -12609,6 +12664,34 @@
           {
             "datum": "2026-07-03",
             "beskrivning": "Sista datum för att lämna synpunkter på den reviderade mallen för insamling av roamingdata"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
+      "source": "Europol",
+      "type": "EU-byrå",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/global-cyber-strike-disrupts-socgholish-amadey-and-stealc-malware-networks",
+      "date": "",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "Europol har tillsammans med internationella partners genomfört en stor operation mot cyberkriminalitet, kallad Operation Endgame. Målet var att slå till mot den kriminella infrastrukturen bakom ransomware och malware som SocGholish, Amadey och StealC. Under de senaste två veckorna har nyckelkomponenter i dessa skadliga verktyg avvecklats. Operationen är en del av en global insats för att bekämpa cyberbrottslighet.",
+        "tech_vinkel": "Operationen har specifikt riktat in sig på att dismantla SocGholish, Amadey och StealC-malware, som är kända för att sprida skadlig kod och stjäla känslig information.",
+        "varfor_viktigt": "Denna operation är viktig eftersom den visar på det internationella samarbetet för att bekämpa cyberkriminalitet. Den påverkar direkt de kriminella nätverk som använder sig av dessa malware för att utföra attacker mot företag och individer. Operationen kan också bidra till att förbättra cybersäkerheten globalt genom att avskräcka från liknande brottsliga aktiviteter.",
+        "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+        "keywords": [
+          "cyberkriminalitet",
+          "malware",
+          "Operation Endgame"
+        ],
+        "arende": "Cybersolidaritetsakten",
+        "nasta_steg": "Europol och dess partners kommer att fortsätta att övervaka och bekämpa cyberkriminalitet, med fokus på att förstärka den internationella samverkan för att skydda mot hot mot cybersäkerheten.",
+        "viktiga_datum": [
+          {
+            "datum": "2024-03-01",
+            "beskrivning": "Europol meddelar resultatet av Operation Endgame"
           }
         ]
       }

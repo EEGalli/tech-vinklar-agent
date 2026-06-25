@@ -129,6 +129,12 @@
       "title": "Latest news - Next Committee Meetings; 24 & 25 June, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
       "arende": "Digitala marknader"
+    },
+    {
+      "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor.",
+      "title": "Latest news - Next Committee Meeting: Thursday, 25 June, 09:00-12:30; Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+      "arende": "Digitala marknader"
     }
   ],
   "2026-03-31": [
@@ -325,6 +331,12 @@
     {
       "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter.",
       "title": "Latest news - Next Committee Meetings; 24 & 25 June, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+      "arende": "Digitala marknader"
+    },
+    {
+      "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter.",
+      "title": "Latest news - Next Committee Meeting: Thursday, 25 June, 09:00-12:30; Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
       "arende": "Digitala marknader"
     }
@@ -763,6 +775,14 @@
       "title": "Uppdrag till Post- och telestyrelsen att genomföra insatser för ökad digital inkludering och säker användning av digitala tjänster bland äldre",
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post--och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-saker-anvandning-av-digitala-tjanster-bland-aldre/",
       "arende": "null"
+    }
+  ],
+  "2024-03-01": [
+    {
+      "beskrivning": "Europol meddelar resultatet av Operation Endgame",
+      "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/global-cyber-strike-disrupts-socgholish-amadey-and-stealc-malware-networks",
+      "arende": "Cybersolidaritetsakten"
     }
   ]
 }

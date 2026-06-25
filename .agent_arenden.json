@@ -133,7 +133,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
     "documents": [
@@ -203,6 +203,13 @@
       {
         "title": "Latest news - Next Committee Meeting: 6 & 7 May, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
         "date": "Thu, 23 Ap",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
+      },
+      {
+        "title": "Latest news - Next Committee Meeting: Thursday, 25 June, 09:00-12:30; Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 25 Ju",
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
         "source": "EU-parlamentet",
         "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
@@ -671,12 +678,19 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+    "next_step": "Europol och dess partners kommer att fortsätta att övervaka och bekämpa cyberkriminalitet, med fokus på att förstärka den internationella samverkan för att skydda mot hot mot cybersäkerheten.",
     "documents": [
+      {
+        "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
+        "date": "",
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/global-cyber-strike-disrupts-socgholish-amadey-and-stealc-malware-networks",
+        "source": "Europol",
+        "tech_vinkel": "Operationen har specifikt riktat in sig på att dismantla SocGholish, Amadey och StealC-malware, som är kända för att sprida skadlig kod och stjäla känslig information."
+      },
       {
         "title": "Förbättrade förutsättningar för operativt militärt samarbete",
         "date": "2026-04-30",
@@ -1080,6 +1094,24 @@
         "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-5g-observatory-report",
         "source": "EU-kommissionen",
         "tech_vinkel": "Rapporten innehåller specifik information om utvecklingen av 5G och dess övergång till 6G, vilket är en viktig teknisk fråga för digital infrastruktur i Europa."
+      }
+    ]
+  },
+  "GDPR-implementering": {
+    "name": "GDPR-implementering",
+    "first_seen": "2026-06-25",
+    "last_updated": "2026-06-25",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Organisationer kommer att börja använda den dedikerade blanketten för att rapportera dataskyddsincidenter, vilket kommer att hjälpa EDPB att övervaka och säkerställa efterlevnaden av GDPR.",
+    "documents": [
+      {
+        "title": "Supporting GDPR consistency: EDPB launches dedicated form",
+        "date": "Wed, 24 Ju",
+        "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
+        "source": "EDPB",
+        "tech_vinkel": "EDPB:s dedikerade blankett för att rapportera dataskyddsincidenter är en teknisk lösning för att underlätta efterlevnaden av GDPR (EU:s dataskyddsförordning)."
       }
     ]
   }
