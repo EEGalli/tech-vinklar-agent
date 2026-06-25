@@ -495,7 +495,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -728,7 +728,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -919,11 +919,11 @@
   "Galileo-programmet": {
     "name": "Galileo-programmet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Europeiska rymdbyrån kommer att fortsätta utveckla och implementera STARGATE-systemet för att säkerställa en smidig integration med Galileo-programmet.",
+    "next_step": "Nästa steg i detta ärende är att fortsätta utveckla och förbättra Galileo-systemet för att möta de växande behoven av precisa och säkra navigationstjänster.",
     "documents": [
       {
         "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",
@@ -945,13 +945,20 @@
         "url": "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/stargate-system-trusted-and-reliable-galileo",
         "source": "EUSPA",
         "tech_vinkel": "STARGATE-systemet använder avancerad kryptering och autentiseringsteknik för att skydda tidssignalerna från Galileo-satelliterna."
+      },
+      {
+        "title": "With EUSPA support, Qualinx integrates Galileo OSNMA to receiver",
+        "date": "Wed, 24 Ju",
+        "url": "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-support-qualinx-integrates-galileo-osnma-receiver",
+        "source": "EUSPA",
+        "tech_vinkel": "Integrationen av Galileo OSNMA i Qualinx mottagare är den specifika tekniska aspekten som förbättrar navigationssystemens säkerhet och tillförlitlighet."
       }
     ]
   },
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1001,7 +1008,7 @@
   "DORA-implementering": {
     "name": "DORA-implementering",
     "first_seen": "2026-06-04",
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1019,7 +1026,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1066,6 +1073,13 @@
         "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-connectivity-coverage-europe-2025-report",
         "source": "EU-kommissionen",
         "tech_vinkel": "Rapporten nämner specifikt utbyggnaden av FTTP och 5G-nätet som viktiga tekniker för att uppnå Digital Decade 2030-målen."
+      },
+      {
+        "title": "Digital Decade 2026 - 5G Observatory Report",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-5g-observatory-report",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Rapporten innehåller specifik information om utvecklingen av 5G och dess övergång till 6G, vilket är en viktig teknisk fråga för digital infrastruktur i Europa."
       }
     ]
   }

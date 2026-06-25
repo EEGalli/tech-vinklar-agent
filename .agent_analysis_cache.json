@@ -154,45 +154,6 @@
     "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-06-12"
   },
-  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-vetenskapsradet-om-nationell-stodfunktion-for-ansvarsfull-internationalisering-vid-utbildnings--forsknings--och-innovationssamarbeten/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen ger Vetenskapsrådet i uppdrag att ansvara för en nationell stödfunktion för ansvarsfull internationalisering vid högre utbildnings-, forsknings- och innovationssamarbeten. Detta innebär att Vetenskapsrådet ska stödja universitet och högskolor i deras internationella samarbeten. Målet är att främja ansvarsfull internationalisering och öka kvaliteten på utbildning och forskning. Detta uppdrag är en del av regeringens arbete för att stärka den svenska forskningen och utbildningen.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan bidra till att stärka den svenska forskningen och utbildningen. Genom att främja ansvarsfull internationalisering kan universitet och högskolor öka sin kvalitet och konkurrenskraft. Detta kan i sin tur bidra till att stärka den svenska ekonomin och samhället. Tajmingen spelar roll eftersom det är viktigt att Sverige kan konkurrera med andra länder på den globala arenan.",
-      "eu_koppling": "null",
-      "keywords": [
-        "internationalisering",
-        "utbildning",
-        "forskning"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Uppdrag till Vetenskapsrådet om nationell stödfunktion för ansvarsfull internationalisering vid utbildnings-, forsknings- och innovationssamarbeten",
-    "cached_at": "2026-05-25"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/rontrigko-nta-kosta-sti-n-eyropaiko-diastimiko-programma-exelissetai-os": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån diskuterar det europeiska rymdprogrammet och dess utveckling som en respons på den geopolitiska osäkerheten. Det handlar om hur rymdprogrammet kan bidra till att stärka Europas position i världen. Rymdbyrån ser över hur programmet kan anpassas för att möta de nya utmaningarna. Det är dock oklart vad som specifikt föreslås eller vilka konsekvenser detta kan få.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Det europeiska rymdprogrammet är viktigt för Europas position i världen och kan ha betydande konsekvenser för den europeiska ekonomin och säkerheten. Rymdprogrammet kan bidra till att stärka Europas oberoende och självständighet. Det kan också ha en positiv effekt på den europeiska teknikutvecklingen och innovationen.",
-      "eu_koppling": "null",
-      "keywords": [
-        "europeiskt rymdprogram",
-        "geopolitisk osäkerhet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Ροντρίγκο ντα Κόστα στη «Ν»: Το Ευρωπαϊκό Διαστημικό Πρόγραμμα εξελίσσεται ως απάντηση στη γεωπολιτική αβεβαιότητα",
-    "cached_at": "2026-05-25"
-  },
   "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing": {
     "analysis": {
       "relevans": "hög",
@@ -4085,5 +4046,71 @@
     },
     "title": "Uppföljning av den brottsförebyggande strategin Barriärer mot brott",
     "cached_at": "2026-06-24"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-5g-observatory-report": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "EU-kommissionen har publicerat den 22:a upplagan av European 5G Observatory-rapporten, som är en viktig källa för data om 5G och dess utveckling mot 6G. Rapporten är en del av Digital Decade 2026-initiativet och syftar till att främja digitaliseringen i Europa. Den innehåller information om den senaste utvecklingen inom 5G och dess potential för att förbättra olika sektorer som hälsa, transport och utbildning. Kommissionen använder rapporten för att informera sin politik och beslut om digital infrastruktur.",
+      "tech_vinkel": "Rapporten innehåller specifik information om utvecklingen av 5G och dess övergång till 6G, vilket är en viktig teknisk fråga för digital infrastruktur i Europa.",
+      "varfor_viktigt": "Rapporten är viktig eftersom den ger en överblick av den senaste utvecklingen inom 5G och dess potential för att förbättra olika sektorer. Den kan också bidra till att informera EU-kommissionens beslut om digital infrastruktur och främja digitaliseringen i Europa. Dessutom kan rapporten bidra till att identifiera utmaningar och möjligheter för 5G-utvecklingen och ge rekommendationer för framtida investeringar och politiska beslut.",
+      "eu_koppling": "Digital Services Act (DSA) och Digital Markets Act (DMA), som syftar till att reglera digitala marknader och främja digitaliseringen i Europa",
+      "keywords": [
+        "5G",
+        "6G",
+        "Digital Decade 2026",
+        "digital infrastruktur"
+      ],
+      "arende": "Digitala decenniet-initiativet",
+      "nasta_steg": "EU-kommissionen kommer att använda rapporten för att informera sin politik och beslut om digital infrastruktur, och kan också använda den som underlag för framtida initiativ och projekt inom området.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-17",
+          "beskrivning": "Publicering av den 22:a upplagan av European 5G Observatory-rapporten"
+        }
+      ]
+    },
+    "title": "Digital Decade 2026 - 5G Observatory Report",
+    "cached_at": "2026-06-25"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-support-qualinx-integrates-galileo-osnma-receiver": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Digital infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har stöttat Qualinx i att integrera Galileo OSNMA i deras mottagare. Detta är en del av Galileo-programmet, som är EU:s globala navigeringssystem. Integrationen av Galileo OSNMA förbättrar säkerheten och tillförlitligheten i navigationssystemen. Detta kan ha en positiv inverkan på olika sektorer som transport, jordbruk och konstruktion.",
+      "tech_vinkel": "Integrationen av Galileo OSNMA i Qualinx mottagare är den specifika tekniska aspekten som förbättrar navigationssystemens säkerhet och tillförlitlighet.",
+      "varfor_viktigt": "Denna integration är viktig eftersom den förbättrar säkerheten och tillförlitligheten i navigationssystemen, vilket kan ha en positiv inverkan på olika sektorer som transport, jordbruk och konstruktion. Detta kan också bidra till att öka förtroendet för EU:s Galileo-program och dess förmåga att tillhandahålla precisa och säkra navigationstjänster.",
+      "eu_koppling": "Galileo-programmet",
+      "keywords": [
+        "Galileo",
+        "OSNMA",
+        "Navigationssystem",
+        "EUSPA"
+      ],
+      "arende": "Galileo-programmet",
+      "nasta_steg": "Nästa steg i detta ärende är att fortsätta utveckla och förbättra Galileo-systemet för att möta de växande behoven av precisa och säkra navigationstjänster.",
+      "viktiga_datum": []
+    },
+    "title": "With EUSPA support, Qualinx integrates Galileo OSNMA to receiver",
+    "cached_at": "2026-06-25"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/eu-sst-front-desk-welcomes-new-members-eu-sst-partnership": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU:s rymdbyrå, EUSPA, har välkomnat nya medlemmar till EU SST-partnerskapet, som nu består av 19 medlemmar. Detta partnerskap syftar till att förbättra EU:s förmåga att skydda satelliter och tillhandahålla tjänster för rymdsäkerhet till en växande användargrupp. Partnerskapet är en del av EU:s insatser för att stärka sin rymdkapacitet och säkerställa en trygg och säker rymdmiljö. Detta samarbete kan bidra till att öka medvetenheten om rymdsäkerhetsfrågor och främja internationellt samarbete inom området.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta partnerskap är viktigt eftersom det kan bidra till att förbättra EU:s förmåga att skydda sin rymdkapacitet och säkerställa en trygg och säker rymdmiljö. En ökad medvetenhet om rymdsäkerhetsfrågor kan också leda till ett ökat internationellt samarbete inom området. Detta kan i sin tur bidra till att minska risken för olyckor och incidenter i rymden och säkerställa en hållbar utveckling av rymdverksamheten.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdsäkerhet",
+        "EU SST-partnerskap"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EU SST Front Desk welcomes new members to EU SST Partnership",
+    "cached_at": "2026-06-25"
   }
 }
