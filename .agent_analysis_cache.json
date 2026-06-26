@@ -154,70 +154,6 @@
     "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-06-12"
   },
-  "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, ska presentera sin slutliga bedömning av förslaget till Digital Networks Act (DNA) vid en offentlig debriefing. Detta förslag handlar om reglering av digitala nätverk inom EU. BEREC:s bedömning kommer att presenteras den 10 juni 2026 i Bryssel. Detta är en viktig milstolpe i processen att skapa en gemensam ram för digitala nätverk inom EU.",
-      "tech_vinkel": "Digital Networks Act (DNA) är en specifik lagstiftning som reglerar digitala nätverk inom EU, vilket är en tydlig tech-vinkel i detta dokument.",
-      "varfor_viktigt": "Detta är viktigt eftersom Digital Networks Act kan ha en stor inverkan på hur digitala nätverk utvecklas och regleras inom EU. Det kan påverka telekommunikationsföretag, internetleverantörer och andra aktörer inom digitala nätverk. Tajmingen är viktig eftersom EU försöker skapa en gemensam ram för digitala nätverk för att främja innovation och konkurrens.",
-      "eu_koppling": "Digital Networks Act (DNA) är en EU-lagstiftning som syftar till att reglera digitala nätverk inom EU.",
-      "keywords": [
-        "Digital Networks Act",
-        "BEREC",
-        "EU"
-      ],
-      "arende": "Digitala Nätverkslagen",
-      "nasta_steg": "BEREC kommer att presentera sin slutliga bedömning av förslaget till Digital Networks Act vid en offentlig debriefing den 10 juni 2026.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-10",
-          "beskrivning": "BEREC presenterar sin slutliga bedömning av förslaget till Digital Networks Act"
-        }
-      ]
-    },
-    "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
-    "cached_at": "2026-05-26"
-  },
-  "https://www.euspa.europa.eu/market-report-2026-agriculture": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Denna rapport från Europeiska rymdbyrån handlar om marknaden för jordbruk år 2026. Den innehåller information om hur satellitdata och andra tekniker kan användas för att förbättra jordbruksproduktionen. Rapporten är en del av byråns arbete med att främja användningen av rymdteknik i olika sektorer. Den kan vara av intresse för jordbrukare, beslutsfattare och andra som arbetar med jordbruk och rymdteknik.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna rapport kan vara viktig för jordbrukare och beslutsfattare som vill förbättra jordbruksproduktionen med hjälp av rymdteknik. Den kan också bidra till att öka medvetenheten om möjligheterna med satellitdata och andra tekniker i jordbruket. Rapporten kan dock inte anses vara direkt tech-relevant eftersom den främst fokuserar på jordbruk och marknadsanalys.",
-      "eu_koppling": "null",
-      "keywords": [
-        "jordbruk",
-        "rymdteknik",
-        "satellitdata"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Market Report 2026 Agriculture",
-    "cached_at": "2026-05-26"
-  },
-  "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-att-utvardera-och-utveckla-stodmaterial-arbetssatt-och-metoder-med-fokus-pa-foraldrar-i-hederskontexter/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen ger länsstyrelserna, Myndigheten för familjerätt och föräldraskapsstöd och Socialstyrelsen i uppdrag att utvärdera och utveckla stödmaterial, arbetssätt och metoder med fokus på föräldrar i hederskontexter. Detta syftar till att stärka stödet till föräldrar och barn i dessa situationer. Uppdraget handlar om att förbättra samhällets insatser för att motverka hedersrelaterat våld och stödja de som drabbas. Detta är en del av regeringens arbete för att främja jämställdhet och skydda barns rättigheter.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det syftar till att stärka stödet till föräldrar och barn som lever i hederskontexter. Hedersrelaterat våld är ett allvarligt problem som kan ha förödande konsekvenser för de som drabbas. Genom att utvärdera och utveckla stödmaterial, arbetssätt och metoder kan samhället bättre skydda och stödja dessa individer. Detta arbete är en del av regeringens övergripande mål att främja jämställdhet och skydda barns rättigheter.",
-      "eu_koppling": "null",
-      "keywords": [
-        "hedersrelaterat våld",
-        "stöd till föräldrar och barn"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Uppdrag att utvärdera och utveckla stödmaterial, arbetssätt och metoder med fokus på föräldrar i hederskontexter",
-    "cached_at": "2026-05-26"
-  },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20240930CNW19304": {
     "analysis": {
       "relevans": "låg",
@@ -4230,5 +4166,132 @@
     },
     "title": "Uppföljning av den nationella strategin mot organiserad brottslighet",
     "cached_at": "2026-06-25"
+  },
+  "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/apogee-quasi-pilot-signal-test-bed": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån presenterar APOGEE, ett projekt som handlar om testning av signalsystem för rymdapplikationer. Projektet syftar till att utveckla och testa en quasi-pilotsignal för att förbättra navigering och kommunikation i rymden. Detta kan ha betydelse för framtida rymdmissioner och satellitbaserad teknik. Projektet är dock ganska specifikt och tekniskt, vilket gör det svårt att se en direkt koppling till bredare tech-politiska frågor.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "APOGEE-projektet kan ha betydelse för utvecklingen av rymdteknik och satellitbaserad kommunikation. Det kan också bidra till att förbättra navigering och kommunikation i rymden, vilket är viktigt för framtida rymdmissioner. Projektet är dock ganska specifikt och tekniskt, vilket gör det svårt att se en direkt koppling till bredare tech-politiska frågor. Det kan dock bidra till att stärka EU:s position inom rymdteknik och satellitbaserad kommunikation.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "satellitbaserad kommunikation",
+        "navigering"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "APOGEE - quAsi PilOt siGnal tEst bEd",
+    "cached_at": "2026-06-26"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/rosius-il-programma-spaziale-ue-e-uno-dei-piu-grandi-successi-collettivi": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har publicerat en sammanfattning av ett tal av Rosius, där han beskriver EU:s rymdprogram som en av de största kollektiva framgångarna för Europa. Talet fokuserar på rymdprogrammets framgångar och dess betydelse för Europa. Det finns inga specifika förslag eller ändringar som föreslås i talet. Det handlar mer om att hylla och reflektera över rymdprogrammets prestationer.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta tal är viktigt eftersom det visar på den europeiska rymdbyråns engagemang och framgångar inom rymdteknik och exploration. Det kan ha konsekvenser för framtida rymdprojekt och samarbeten inom Europa. Det visar också på den politiska viljan att stödja och utveckla rymdtekniken i Europa.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdprogram",
+        "EUSPA",
+        "Rosius"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Rosius: “Il programma spaziale Ue è uno dei più grandi successi collettivi dell’Europa”",
+    "cached_at": "2026-06-26"
+  },
+  "https://www.euspa.europa.eu/opportunities/procurement-grants/procurements/euspaop1926-administrative-support-services-euspa": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) söker administrativa stödtjänster. Detta handlar om en upphandling för att få hjälp med administrativa uppgifter. Byrån vill ha stöd för att kunna fokusera på sina huvudsakliga uppgifter. Detta är en intern process för byrån och berör inte direkt tech-utveckling eller lagstiftning.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna upphandling är viktig för EUSPA eftersom den möjliggör en effektivare administration, vilket kan påverka byråns förmåga att genomföra sina projekt och program. Det kan också ha en indirekt påverkan på de projekt som byrån stödjer, men det är inte en direkt tech-relaterad fråga. Byrån behöver denna typ av stöd för att kunna fokusera på sina kärnuppgifter.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "administrativa stödtjänster",
+        "upphandling"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA/OP/19/26 - Administrative support services to EUSPA",
+    "cached_at": "2026-06-26"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/euspa-projects-results-showcased-research-and-innovation-community-platform": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EUSPA, den europeiska rymdbyrån, visar upp resultaten från sina projekt på den europeiska kommissionens plattform för forskning och innovation. Projekten fokuserar på att skapa resilient, hållbar och smartare mobilitet genom innovativa tillämpningar av EU:s rymddata och tjänster. Detta är en del av Horizon Europe-initiativet, som syftar till att främja innovation och forskning inom EU. Resultaten från projekten kan bidra till att förbättra mobiliteten och skapa nya möjligheter för företag och samhället.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan bidra till att förbättra mobiliteten och skapa nya möjligheter för företag och samhället. Det kan också bidra till att främja innovation och forskning inom EU. Dessutom kan det bidra till att skapa nya jobb och stimulera den ekonomiska tillväxten. Det är dock svårt att se en direkt tech-vinkel i detta dokument, vilket gör det svårt att bedöma dess relevans.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "Horizon Europe",
+        "rymddata",
+        "mobilitet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA projects results showcased on the Research and Innovation community platform of the European Commission",
+    "cached_at": "2026-06-26"
+  },
+  "https://data.riksdagen.se/dokument/HD03288.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har överlämnat en skrivelse till riksdagen om Riksrevisionens rapport om statens styrning av kommunernas myndighetsutövning som avser LSS. Rapporten handlar om hur staten styr och övervakar kommunernas arbete med LSS, som är en lag som reglerar stöd och service till personer med funktionshinder. Regeringen presenterar skrivelsen som en del av sitt arbete med att förbättra styrningen och övervakningen av kommunernas myndighetsutövning. Detta är en del av regeringens arbete med att säkerställa att kommunerna följer lagar och regler när de hanterar myndighetsutövning.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende är viktigt eftersom det handlar om hur staten styr och övervakar kommunernas arbete med LSS, vilket är en viktig del av det svenska välfärdssystemet. Kommunernas myndighetsutövning påverkar många människors liv, och det är viktigt att staten säkerställer att kommunerna följer lagar och regler när de hanterar denna typ av ärenden. Regeringens skrivelse är ett steg i detta arbete, och det är viktigt att riksdagen granskar och diskuterar skrivelsen för att säkerställa att statens styrning och övervakning av kommunernas myndighetsutövning är effektiv och rättssäker.",
+      "eu_koppling": "null",
+      "keywords": [
+        "LSS",
+        "kommunernas myndighetsutövning",
+        "regeringens skrivelse"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-23",
+          "beskrivning": "Regeringen överlämnar skrivelsen till riksdagen"
+        }
+      ]
+    },
+    "title": "Riksrevisionens rapport om statens styrning av kommunernas myndighetsutövning som avser LSS",
+    "cached_at": "2026-06-26"
+  },
+  "https://data.riksdagen.se/dokument/HD10574.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Interpellationen från Håkan Svenneling (V) till Utrikesminister Maria Malmer Stenergard (M) handlar om den israeliska bosättarpolitiken och de palestinska valen. Det diskuteras den pågående konflikten och dess konsekvenser. Inga specifika tekniska eller digitala aspekter nämns i sammanfattningen. Dokumentet fokuserar på geopolitiska frågor och internationella relationer.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna interpellation är viktig eftersom den berör en känslig och komplex internationell konflikt. Den kan ha betydande konsekvenser för regionens stabilitet och för de människor som berörs av konflikten. Tajmingen spelar roll eftersom situationen i regionen är mycket dynamisk och föränderlig.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Israel",
+        "Palestina",
+        "konflikt",
+        "internationella relationer"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Den israeliska bosättarpolitiken och de palestinska valen",
+    "cached_at": "2026-06-26"
   }
 }
