@@ -154,197 +154,6 @@
     "title": "Latest news - Next meetings: - Committee on Civil Liberties, Justice and Home Affairs",
     "cached_at": "2026-06-12"
   },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260519CAN78319": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) kommer att ha en utfrågning med Piero Cipollone, ledamot i Europeiska centralbankens (ECB) verkställande styrelse, om det digitala euro-projektet. Projektet syftar till att införa en digital version av euron. Utskottet vill diskutera de senaste utvecklingarna i projektet, som bland annat inkluderar en pilotstudie som planeras att starta under andra halvåret 2026. Det digitala euro-projektet är en del av ECB:s arbete med att undersöka möjligheterna för en digital valuta.",
-      "tech_vinkel": "Det digitala euro-projektet innebär att ECB undersöker möjligheterna för en digital valuta, vilket är en tydlig tech-vinkel i detta dokument.",
-      "varfor_viktigt": "Det digitala euro-projektet kan ha stor betydelse för den europeiska ekonomin och för hur vi hanterar pengar i framtiden. En digital valuta kan öka effektiviteten och minska kostnaderna för transaktioner, men det kan också medföra risker för exempelvis penningtvätt och finansiell stabilitet. Utskottets utfrågning är viktig för att säkerställa att projektet utvecklas på ett ansvarsfullt sätt.",
-      "eu_koppling": "Digital euro-projektet har en tydlig koppling till EU-lagstiftning, särskilt när det gäller reglering av digitala valutor och betalningstjänster.",
-      "keywords": [
-        "digital euro",
-        "ECB",
-        "ECON"
-      ],
-      "arende": "Digital euro-projektet",
-      "nasta_steg": "Utskottet för ekonomi och valutafrågor (ECON) kommer att fortsätta att följa utvecklingen av det digitala euro-projektet och kan komma att lägga fram rekommendationer till ECB och EU-kommissionen.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-03",
-          "beskrivning": "Utskottet för ekonomi och valutafrågor (ECON) kommer att ha en utfrågning med Piero Cipollone om det digitala euro-projektet"
-        }
-      ]
-    },
-    "title": "Highlights - Exchange of views on the digital euro project - Committee on Economic and Monetary Affairs",
-    "cached_at": "2026-05-28"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260522CAN78423": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) ska ha en strukturerad dialog med kommissionär Teresa Ribera om konkurrenspolitik. Dialogen ska ge möjlighet att diskutera aktuella utvecklingar och framtida projekt inom EU. Detta är en möjlighet för utskottet att ställa frågor och få insikt i kommissionens planer. Ingen specifik teknisk fråga nämns i sammanfattningen.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna dialog är viktig eftersom den ger EU-parlamentet möjlighet att påverka och granska kommissionens politik. Det kan också ge insikt i hur kommissionen planerar att hantera olika utmaningar inom EU. Det är dock oklart vilka specifika konsekvenser denna dialog kan ha. Tajmingen spelar roll eftersom det kan påverka hur kommissionen prioriterar olika frågor.",
-      "eu_koppling": "null",
-      "keywords": [
-        "konkurrenspolitik",
-        "EU-parlamentet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-03",
-          "beskrivning": "Strukturerad dialog mellan ECON och kommissionär Teresa Ribera"
-        }
-      ]
-    },
-    "title": "Highlights - Structured Dialogue with Commissioner Teresa Ribera - Committee on Economic and Monetary Affairs",
-    "cached_at": "2026-05-28"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260521CAN78399": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor (ECON) har haft ett första utbyte av åsikter om paketet för marknadsintegration och tillsyn. Detta paket är en central del av EU:s sparande och investeringsstrategi. Mötet var till för att diskutera de viktigaste politiska frågorna i paketet innan utskottet publicerar sina utkast till betänkanden i juni 2026. Paketet syftar till att förbättra marknadsintegrationen och tillsynen inom EU.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta möte är viktigt eftersom det handlar om att förbättra marknadsintegrationen och tillsynen inom EU, vilket kan ha en stor inverkan på EU:s ekonomi och finansmarknader. Det kan också påverka hur företag och investerare agerar inom EU. Tajmingen är viktig eftersom utskottet behöver komma med förslag och betänkanden som kan implementeras för att förbättra marknadsintegrationen och tillsynen.",
-      "eu_koppling": "null",
-      "keywords": [
-        "marknadsintegration",
-        "tillsyn",
-        "EU"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06",
-          "beskrivning": "Utskottet publicerar sina utkast till betänkanden"
-        }
-      ]
-    },
-    "title": "Highlights - First exchange of views (EoV) on the Market Integration and Supervision Package  - Committee on Economic and Monetary Affairs",
-    "cached_at": "2026-05-28"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/rontrigko-nta-kosta-sto-ape-mpe-diastima-apotelei-meros-tis-kathimerinotitas": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Dokumentet handlar om en intervju med Rodrigo da Costa från Europeiska rymdbyrån. Intervjun diskuterar rymdens betydelse i vår vardag. Det finns inga specifika förslag eller beslut som presenteras i dokumentet. Europeiska rymdbyrån är en EU-byrå som arbetar med rymdfrågor.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Dokumentet är inte särskilt viktigt eftersom det inte presenterar några specifika förslag eller beslut. Det är mer av en allmän diskussion om rymdens betydelse. Europeiska rymdbyrån spelar en viktig roll i EU:s rymdpolitik, men detta dokument bidrar inte till några specifika lagstiftningsärenden.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymd",
-        "Europeiska rymdbyrån"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Ροντρίγκο ντα Κόστα στο ΑΠΕ-ΜΠΕ: Το Διάστημα αποτελεί μέρος της καθημερινότητάς μας",
-    "cached_at": "2026-05-28"
-  },
-  "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Plattformsreglering",
-      "sammanfattning": "EU-kommissionen har utfärdat en bot på 200 miljoner euro till företaget Temu för brott mot Digital Services Act (DSA). Detta är en av de första gångerna som kommissionen använt sig av DSA för att påföra en sådan bot. Beslutet visar på EU-kommissionens allvarliga inställning till att se till att företag följer de regler som finns för att skydda användare på internet. Temu har inte uppfyllt kraven enligt DSA, vilket har lett till denna betydande bot.",
-      "tech_vinkel": "Digital Services Act (DSA) är den specifika EU-lag som ligger till grund för boten mot Temu, vilken syftar till att reglera och säkerställa en säker och transparent online-miljö.",
-      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU-kommissionen är beredd att använda sin makt för att säkerställa att företag följer de regler som finns för att skydda användare på internet. Det sänder också en tydlig signal till andra företag att de måste ta sina skyldigheter enligt DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) på allvar. Konsekvenserna av detta beslut kan bli att fler företag ser över sina processer och ser till att de följer de regler som finns, vilket i sin tur kan leda till en säkrare och mer transparent online-miljö.",
-      "eu_koppling": "Digital Services Act (DSA), som är en EU-lag som syftar till att reglera digitala tjänster och säkerställa en säker och transparent online-miljö",
-      "keywords": [
-        "Digital Services Act",
-        "DSA",
-        "EU-kommissionen",
-        "Temu",
-        "bot"
-      ],
-      "arende": "Digital Services Act",
-      "nasta_steg": "Temu kommer troligen att överklaga beslutet, men EU-kommissionen kommer att fortsätta att övervaka situationen och se till att företaget följer de regler som finns.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-28",
-          "beskrivning": "EU-kommissionen utfärdar bot på 200 miljoner euro till Temu"
-        }
-      ]
-    },
-    "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
-    "cached_at": "2026-05-28"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/news/eu-patrol-vessels-adopt-galileo-osnma-secure-positioning": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "EU-byrån EUSPA har meddelat att Rumänien kommer att kräva att nya patrullfartyg använder Galileo-baserad autentiserad positionering efter en pilotstudie i Svarta havet. Detta ska ske med hjälp av EUSPA-levererad OSNMA-teknik för att motverka risker med GNSS-störningar. Detta är en del av EU:s arbete för att förbättra säkerheten och tillförlitligheten i sin rymdinfrastruktur. Detta beslut kommer att påverka utvecklingen av EU:s rymdprogram och dess förmåga att tillhandahålla precisa och säkra positioneringstjänster.",
-      "tech_vinkel": "Galileo-baserad autentiserad positionering med OSNMA-teknik kommer att användas i nya patrullfartyg för att motverka GNSS-störningar.",
-      "varfor_viktigt": "Detta beslut är viktigt eftersom det kommer att förbättra säkerheten och tillförlitligheten i EU:s rymdinfrastruktur, särskilt i områden där GNSS-störningar är vanliga. Det kommer också att påverka utvecklingen av EU:s rymdprogram och dess förmåga att tillhandahålla precisa och säkra positioneringstjänster. Dessutom kommer detta beslut att ha en positiv inverkan på EU:s försvars- och säkerhetssektor, eftersom det kommer att ge dem tillgång till mer precisa och tillförlitliga positioneringstjänster.",
-      "eu_koppling": "Galileo-programmet, som är EU:s globala navigationssatellitsystem",
-      "keywords": [
-        "Galileo",
-        "OSNMA",
-        "GNSS",
-        "Rymdinfrastruktur"
-      ],
-      "arende": "Galileo-programmet",
-      "nasta_steg": "EUSPA kommer att fortsätta att arbeta med att implementera Galileo-baserad autentiserad positionering i fler områden, inklusive i civila och kommersiella tillämpningar.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-28",
-          "beskrivning": "EUSPA meddelar att Rumänien kommer att kräva Galileo-baserad autentiserad positionering i nya patrullfartyg"
-        }
-      ]
-    },
-    "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",
-    "cached_at": "2026-05-28"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-launches-new-eu-space-market-report-strong-gnss-growth-predicted": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har släppt en ny rapport om EU:s rymdmarknad. Rapporten förutspår en stark tillväxt för GNSS, Global Navigation Satellite System. Detta kan innebära en ökad användning av satellitnavigering i olika sektorer. Rapporten ger en överblick över den nuvarande marknaden och dess potential för framtida tillväxt.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Rapporten kan ge värdefull information till företag och organisationer som är involverade i rymdindustrin. Den kan också bidra till att identifiera möjligheter för innovation och tillväxt inom sektorn. Dessutom kan rapporten ha betydelse för EU:s rymdpolitik och beslut om framtida satsningar.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdmarknad",
-        "GNSS",
-        "satellitnavigering"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA launches new EU Space Market Report, strong GNSS growth predicted",
-    "cached_at": "2026-05-28"
-  },
-  "https://data.riksdagen.se/dokument/HD01NU20.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Riksdagen behandlar ett ärende om vindkraft i kommuner. Det handlar om hur vindkraftverk ska placeras och regleras i olika kommuner. Kommunerna och vindkraftsbolagen påverkas av detta beslut. Det är oklart vad som ändras eller föreslås i detta ärende.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta ärende kan ha betydelse för hur Sverige hanterar sin energiproduktion och miljöpåverkan. Kommunerna och vindkraftsbolagen kan påverkas av beslutet. Tajmingen spelar roll eftersom Sverige strävar efter att öka sin användning av förnybar energi.",
-      "eu_koppling": "null",
-      "keywords": [
-        "vindkraft",
-        "kommuner",
-        "energiproduktion"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-28",
-          "beskrivning": "Riksdagen behandlar ärendet"
-        }
-      ]
-    },
-    "title": "Vindkraft i kommuner",
-    "cached_at": "2026-05-28"
-  },
   "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-trusted-flaggers-under-digital-services-act-dsa": {
     "analysis": {
       "relevans": "medel",
@@ -4258,5 +4067,45 @@
     },
     "title": "Ny kärnkraft i Sverige– moderna regler för beredskap och skadeståndsansvar",
     "cached_at": "2026-06-27"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/success-stories/enhancing-cultural-heritage-preservation-copernicus-world-heritage": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån presenterar ett projekt som syftar till att använda satellitdata från Copernicus för att övervaka och skydda kulturarvssidor runt om i världen. Projektet heter Copernicus World Heritage Hub och ska hjälpa till att identifiera och förstå hur klimatförändringar och miljöförhållanden påverkar dessa platser. Detta kan bidra till att utveckla strategier för att bevara och skydda kulturarvet. Projektet är ett samarbete mellan flera organisationer, däribland International Council on Monuments and Sites.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta projekt kan ha betydelse för att skydda och bevara kulturarvet runt om i världen. Klimatförändringar och miljöförhållanden kan ha en negativ inverkan på dessa platser, och det är viktigt att identifiera och förstå dessa effekter för att utveckla effektiva strategier för att skydda dem. Projektet kan också bidra till att öka medvetenheten om vikten av att skydda kulturarvet och främja internationellt samarbete för att uppnå detta mål.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Copernicus",
+        "kulturarv",
+        "satellitdata"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Enhancing Cultural Heritage Preservation with Copernicus World Heritage Hub",
+    "cached_at": "2026-06-28"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/06/regeringen-overlamnar-proposition-om-nya-regler-i-tandvarden/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Regeringen har lämnat en proposition till riksdagen med förslag om nya regler för tandvårdsavgifter för vissa utlänningar. Förslagen innebär att vissa utlänningar ska betala samma tandvårdsavgifter som svenska medborgare. Detta påverkar främst utlänningar som vistas i Sverige och behöver tandvård. Propositionen syftar till att skapa en mer rättvis och likvärdig tandvård för alla.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan påverka tandvården för utlänningar i Sverige. Det kan också ha konsekvenser för den svenska tandvårdssystemet och de utlänningar som vistas i Sverige. Propositionen är ett steg mot att skapa en mer rättvis och likvärdig tandvård för alla, men det är oklart hur det kommer att påverka den svenska tandvårdsekonomin.",
+      "eu_koppling": null,
+      "keywords": [
+        "tandvård",
+        "utlänningar",
+        "tandvårdsavgifter"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Regeringen överlämnar proposition om nya regler i tandvården",
+    "cached_at": "2026-06-28"
   }
 }
