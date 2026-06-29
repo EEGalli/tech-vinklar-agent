@@ -3913,5 +3913,50 @@
     },
     "title": "Regeringen överlämnar proposition om nya regler i tandvården",
     "cached_at": "2026-06-28"
+  },
+  "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/annual-accounts-2011": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Dokumentet handlar om Europeiska rymdbyråns årsredovisning för 2011. Det är en redovisning av byråns ekonomiska verksamhet och resultat under året. Dokumentet innehåller information om byråns budget, utgifter och inkomster. Det är en årlig rapport som syftar till att ge en översikt av byråns ekonomiska situation.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Dokumentet är viktigt för att ge en översikt av Europeiska rymdbyråns ekonomiska situation och verksamhet. Det kan vara av intresse för dem som följer byråns verksamhet och vill ha en djupare förståelse av dess ekonomi. Dokumentet kan också vara användbart för att jämföra byråns ekonomiska prestation över tid.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Europeiska rymdbyrån",
+        "årsredovisning",
+        "2011"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Annual Accounts 2011",
+    "cached_at": "2026-06-29"
+  },
+  "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-accounts-2025": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EUSPA, den europeiska rymdbyrån, har publicerat sin årsredovisning för 2025. Dokumentet innehåller en översikt av byråns verksamhet och ekonomi under det gångna året. Detta inkluderar information om byråns budget, personal och olika projekt som genomförts. Årsredovisningen är en del av byråns årliga rapportering till EU-kommissionen och medlemsstaterna.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna årsredovisning är viktig för att ge insyn i EUSPAs verksamhet och ekonomi. Den kan också ge ledtrådar om byråns framtida prioriteringar och utmaningar. Årsredovisningen kan dessutom användas som underlag för beslutsfattare och andra intressenter som vill följa utvecklingen inom den europeiska rymdsektorn.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "årsredovisning",
+        "rymdbyrå"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-26",
+          "beskrivning": "Publicering av EUSPAs årsredovisning för 2025"
+        }
+      ]
+    },
+    "title": "EUSPA Annual Accounts 2025",
+    "cached_at": "2026-06-29"
   }
 }

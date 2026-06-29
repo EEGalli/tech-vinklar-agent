@@ -12802,11 +12802,11 @@
   ],
   "2026-06-29": [
     {
-      "title": "Latest news - Next Committee Meeting: 14 July 2026 - Committee on the Internal Market and Consumer Protection",
+      "title": "Latest news - Next Committee Meeting: 14 July 2026, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
       "source": "EU-parlamentet",
       "type": "EP/Utskott",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Thu, 25 Jun 2026",
+      "date": "Mon, 29 Jun 2026",
       "analysis": {
         "relevans": "medel",
         "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
@@ -13102,30 +13102,6 @@
         ],
         "arende": "NIS2-implementering",
         "nasta_steg": "Myndigheterna kommer att fortsätta att samarbeta för att bekämpa cyberbrottslighet och kommer att utvärdera effekten av denna operation för att se om det finns mer som kan göras för att stoppa ransomware-grupperna.",
-        "viktiga_datum": []
-      }
-    },
-    {
-      "title": "With EUSPA support, Qualinx integrates Galileo OSNMA to receiver",
-      "source": "EUSPA",
-      "type": "EU-byrå",
-      "url": "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-support-qualinx-integrates-galileo-osnma-receiver",
-      "date": "Wed, 24 Jun 2026",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "Europeiska rymdbyrån, EUSPA, har stöttat Qualinx i att integrera Galileo OSNMA i deras mottagare. Detta är en del av Galileo-programmet, som är EU:s globala navigeringssystem. Integrationen av Galileo OSNMA förbättrar säkerheten och tillförlitligheten i navigationssystemen. Detta kan ha en positiv inverkan på olika sektorer som transport, jordbruk och konstruktion.",
-        "tech_vinkel": "Integrationen av Galileo OSNMA i Qualinx mottagare är den specifika tekniska aspekten som förbättrar navigationssystemens säkerhet och tillförlitlighet.",
-        "varfor_viktigt": "Denna integration är viktig eftersom den förbättrar säkerheten och tillförlitligheten i navigationssystemen, vilket kan ha en positiv inverkan på olika sektorer som transport, jordbruk och konstruktion. Detta kan också bidra till att öka förtroendet för EU:s Galileo-program och dess förmåga att tillhandahålla precisa och säkra navigationstjänster.",
-        "eu_koppling": "Galileo-programmet",
-        "keywords": [
-          "Galileo",
-          "OSNMA",
-          "Navigationssystem",
-          "EUSPA"
-        ],
-        "arende": "Galileo-programmet",
-        "nasta_steg": "Nästa steg i detta ärende är att fortsätta utveckla och förbättra Galileo-systemet för att möta de växande behoven av precisa och säkra navigationstjänster.",
         "viktiga_datum": []
       }
     },
