@@ -629,7 +629,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Europaparlamentet och EU:s råd måste nu rösta om att acceptera eller avvisa kompromissen.",
+    "next_step": "IMY kommer att påbörja sitt arbete som marknadskontrollmyndighet för EU:s AI-förordning och kommer att samarbeta med andra myndigheter och organisationer för att säkerställa en effektiv reglering av AI.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -637,6 +637,13 @@
         "url": "https://www.regeringen.se/pressmeddelanden/2026/05/regeringen-utser-nationell-samordnare-for-svenska-sprakmodeller/",
         "source": "Regeringen",
         "tech_vinkel": "Regeringen tillsätter en nationell samordnare specifikt för svenska språkmodeller, vilket innebär en satsning på utveckling och anpassning av en specifik typ av AI-teknik för den svenska marknaden."
+      },
+      {
+        "title": "IMY blir marknadskontrollmyndighet för AI-förordningen",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/imy-blir-marknadskontrollmyndighet-for-ai-forordningen/",
+        "source": "IMY",
+        "tech_vinkel": "EU:s AI-förordning, som IMY nu kommer att övervaka, innehåller specifika krav på hur AI-system ska utvecklas och användas för att säkerställa säkerhet, laglighet och etik."
       },
       {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
@@ -770,8 +777,15 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "CnaM kommer att genomföra utredningen och kan sedan fatta beslut om Meta har brutit mot DSA, vilket kan leda till sanktioner.",
+    "next_step": "Integritetsskyddsmyndigheten kommer att fortsätta att övervaka och utvärdera tillämpningen av de nya reglerna för politisk reklam och kan vidta ytterligare åtgärder för att säkerställa efterlevnaden.",
     "documents": [
+      {
+        "title": "Vägledning för nya regler om politisk reklam",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/vagledning-for-nya-regler-om-politisk-reklam/",
+        "source": "IMY",
+        "tech_vinkel": "Vägledningen fokuserar på den politiska reklam som sker online och där personuppgifter används vid spridningen, vilket innebär att den berör tekniska aspekter av personuppgiftshantering och dataskydd i digitala miljöer."
+      },
       {
         "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
         "date": "Fri, 29 Ma",
@@ -1035,7 +1049,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Resultaten från APOGEE-testerna kommer att integreras i designen av framtida Galileo-satelliter och systemuppdateringar.",
+    "next_step": "Resultaten från forumet kommer att sammanställas i en rapport och presenteras för EU:s beslutsfattare.",
     "documents": [
       {
         "title": "The European Space and Security Forum",
@@ -1251,8 +1265,85 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Organisationer kommer att börja använda den dedikerade blanketten för att rapportera dataskyddsincidenter, vilket kommer att hjälpa EDPB att övervaka och säkerställa efterlevnaden av GDPR.",
+    "next_step": "Företagen förväntas nu att implementera de rekommendationer som ges i guiden för att säkerställa att de följer GDPR.",
     "documents": [
+      {
+        "title": "Gemensam mall på gång för anmälan av personuppgiftsincidenter",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/gemensam-mall-pa-gang-for-anmalan-av-personuppgiftsincidenter/",
+        "source": "IMY",
+        "tech_vinkel": "Den gemensamma mallen för anmälan av personuppgiftsincidenter är en specifik teknisk lösning för att underlätta rapporteringen av dataincidenter i enlighet med GDPR (EU:s dataskyddsförordning)."
+      },
+      {
+        "title": "Ny rapport: IMY reder ut AI-bolagens ansvarsroller enligt GDPR",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/ny-rapport-ansvarsroller-enligt-gdpr-vid-finjustering-av-ai-applikationer/",
+        "source": "IMY",
+        "tech_vinkel": "Rapporten från IMY fokuserar specifikt på ansvarsrollerna för företag som använder AI-applikationer för hantering av personuppgifter, vilket är en viktig tech-fråga inom området dataskydd och integritet."
+      },
+      {
+        "title": "Rundabordssamtal om EDPB:s forskningsriktlinjer",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/rundabordssamtal-om-edpbs-forskningsriktlinjer/",
+        "source": "IMY",
+        "tech_vinkel": "EDPB:s forskningsriktlinjer behandlar specifikt hur dataskydd ska hanteras i forskningssammanhang, vilket inkluderar användning av personuppgifter och tillämpning av dataskyddslagstiftning i forskningsprojekt."
+      },
+      {
+        "title": "Avslutad granskning av Svensk Bakgrundsanalys AB",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/avslutad-granskning-av-svensk-bakgrundsanalys-ab/",
+        "source": "IMY",
+        "tech_vinkel": "Granskningen av Svensk Bakgrundsanalys AB handlar specifikt om hur de behandlar personuppgifter med hjälp av digitala system och om de följer reglerna i GDPR (EU:s dataskyddsförordning), som är en EU-lag om skydd för personuppgifter."
+      },
+      {
+        "title": "Livesändning av IMY:s rundabordssamtal om EDPB:s forskningsriktlinjer",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/anmalan-oppen-livesandning-av-imys-rundabordssamtal-om-edpbs-forskningsriktlinjer/",
+        "source": "IMY",
+        "tech_vinkel": "Det specifika dokumentet som diskuteras är EDPB:s forskningsriktlinjer, som rör hantering av personuppgifter i forskningssammanhang, vilket är en viktig aspekt av dataskydd och integritet."
+      },
+      {
+        "title": "Granskning av Region Gävleborgs användning av AI-transkribering i primärvården",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/granskning-av-region-gavleborgs-anvandning-av-ai-transkribering-i-primarvarden/",
+        "source": "IMY",
+        "tech_vinkel": "Användningen av AI-baserad transkribering i primärvården är den specifika tech-vinkeln i detta dokument."
+      },
+      {
+        "title": "EDPB antar nya riktlinjer om hantering av personuppgifter vid forskning",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/edpb-antar-nya-riktlinjer-om-hantering-av-personuppgifter-vid-forskning/",
+        "source": "IMY",
+        "tech_vinkel": "Riktlinjerna innehåller specifika krav på hur personuppgifter ska hanteras vid forskning, inklusive krav på samtycke och säkerhetsåtgärder."
+      },
+      {
+        "title": "IMY granskar om bakgrundskontrollföretag följer villkor i tillstånd",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/imy-granskar-om-bakgrundskontrollsforetag-foljer-villkor-i-tillstand/",
+        "source": "IMY",
+        "tech_vinkel": "Granskningen av bakgrundskontrollföretaget fokuserar på huruvida de följer villkoren för sitt tillstånd att behandla personuppgifter, vilket är en direkt tillämpning av dataskyddslagstiftningen."
+      },
+      {
+        "title": "Rekordmånga personuppgiftsincidenter under 2025",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/rekordmanga-personuppgiftsincidenter-under-2025/",
+        "source": "IMY",
+        "tech_vinkel": "Ökningen av personuppgiftsincidenter är en tydlig tech-vinkel, eftersom den visar på behovet av förbättrad datasäkerhet och skydd av personuppgifter i digitala system."
+      },
+      {
+        "title": "Både styrkor och risker i förslaget om ändringar av GDPR",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/bade-styrkor-och-risker-i-forslaget-om-andringar-av-gdpr/",
+        "source": "IMY",
+        "tech_vinkel": "Förslaget om ändringar av GDPR (EU:s dataskyddsförordning) innehåller specifika bestämmelser om användningen av artificiell intelligens och automatiserat beslutsfattande vid hantering av personuppgifter."
+      },
+      {
+        "title": "EDPB:s GDPR-guide för små och medelstora företag nu på svenska",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/gdpr-guide-for-sme/",
+        "source": "IMY",
+        "tech_vinkel": "Guiden innehåller specifik information om hur små och medelstora företag kan implementera tekniska och organisatoriska åtgärder för att följa GDPR (EU:s dataskyddsförordning), inklusive hur de ska hantera personuppgifter och säkerställa dataskydd."
+      },
       {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
@@ -1284,6 +1375,24 @@
         "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260608CAN78701",
         "source": "EU-parlamentet",
         "tech_vinkel": "Paketet adresserar specifikt behovet av att stärka Europas position inom nyckelteknologier, vilket implicerar investeringar och politiska åtgärder för att stödja utvecklingen av dessa tekniker – även om vilka tekniker som prioriteras inte specificeras i sammanfattningen."
+      }
+    ]
+  },
+  "EU-förordningen om transparens och inriktning av politisk reklam": {
+    "name": "EU-förordningen om transparens och inriktning av politisk reklam",
+    "first_seen": "2026-06-30",
+    "last_updated": "2026-06-30",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "EDPB kommer att ta fram en vägledning för hur personuppgifter ska behandlas i samband med riktad politisk reklam online, som sedan kommer att presenteras för allmänheten och remissinstanserna.",
+    "documents": [
+      {
+        "title": "Inbjudan till hearing om EU-vägledning om riktad politisk reklam online",
+        "date": "2026-06-30",
+        "url": "https://www.imy.se/nyheter/inbjudan-till-hearing-om-eu-vagledning-om-riktad-politisk-reklam-online/",
+        "source": "IMY",
+        "tech_vinkel": "Vägledningen kommer att handla om behandling av personuppgifter i samband med riktad politisk reklam online, vilket är en specifik teknikfråga som berör användningen av cookies, profilering och annan datadriven annonsering."
       }
     ]
   }

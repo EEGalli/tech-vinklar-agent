@@ -114,7 +114,7 @@
     },
     {
       "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor.",
-      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
+      "title": "Latest news - Next Committee Meeting: 14 July 2026, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
       "arende": "Digitala marknader"
     },
@@ -330,7 +330,7 @@
     },
     {
       "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter.",
-      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
+      "title": "Latest news - Next Committee Meeting: 14 July 2026, Room Antall 6Q2 - Committee on the Internal Market and Consumer Protection",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
       "arende": "Digitala marknader"
     },
@@ -675,6 +675,12 @@
       "title": "One-Stop-Shop case digest on right to object and right to erasure updated",
       "url": "https://www.edpb.europa.eu/news/one-stop-shop-case-digest-on-right-to-object-and-right-to-erasure-updated_en",
       "arende": "Dataskydd och integritet"
+    },
+    {
+      "beskrivning": "Publicering av IMY-rapporten om ansvarsroller för AI-bolag enligt GDPR",
+      "title": "Ny rapport: IMY reder ut AI-bolagens ansvarsroller enligt GDPR",
+      "url": "https://www.imy.se/nyheter/ny-rapport-ansvarsroller-enligt-gdpr-vid-finjustering-av-ai-applikationer/",
+      "arende": "GDPR-implementering"
     }
   ],
   "2026-05-28": [
@@ -777,6 +783,12 @@
       "title": "Riksrevisionens rapport om infiltration i staten",
       "url": "https://data.riksdagen.se/dokument/HD03273.html",
       "arende": "NIS2-implementering"
+    },
+    {
+      "beskrivning": "IMY meddelar att de tilldelat Securitas en reprimand för otillåten kamerabevakning av anställda",
+      "title": "IMY kritiserar Securitas för kamerabevakning i bil av anställda",
+      "url": "https://www.imy.se/nyheter/imy-kritiserar-securitas-for-kamerabevakning-i-bil-av-anstallda/",
+      "arende": "Dataskydd och integritet"
     }
   ],
   "2026-06-17": [
@@ -879,6 +891,22 @@
       "title": "Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska",
       "url": "https://data.riksdagen.se/dokument/HD03280.html",
       "arende": null
+    }
+  ],
+  "2026-09-01": [
+    {
+      "beskrivning": "Valrörelsen i Sverige inleds, och de nya reglerna för politisk reklam börjar tillämpas",
+      "title": "Vägledning för nya regler om politisk reklam",
+      "url": "https://www.imy.se/nyheter/vagledning-for-nya-regler-om-politisk-reklam/",
+      "arende": "Digital Services Act"
+    }
+  ],
+  "2025-10-10": [
+    {
+      "beskrivning": "EU-förordningen om transparens och inriktning av politisk reklam började gälla",
+      "title": "Inbjudan till hearing om EU-vägledning om riktad politisk reklam online",
+      "url": "https://www.imy.se/nyheter/inbjudan-till-hearing-om-eu-vagledning-om-riktad-politisk-reklam-online/",
+      "arende": "EU-förordningen om transparens och inriktning av politisk reklam"
     }
   ]
 }
