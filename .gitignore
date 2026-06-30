@@ -19,3 +19,4 @@ venv/
 # Lokala overrides
 .env
 .env.local
+.env*

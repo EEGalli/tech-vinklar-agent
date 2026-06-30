@@ -36,6 +36,8 @@ def save(items: list[dict]) -> None:
             "type": i.get("type", ""),
             "url": i.get("url", ""),
             "date": i.get("date", ""),
+            "committee": i.get("committee", ""),  # för regeringen: vilka departement
+            "summary": i.get("summary", ""),
             "analysis": i.get("analysis", {}),
         }
         for i in items
@@ -79,6 +81,11 @@ def save_analysis_cache(items: list[dict], max_age_days: int = 30) -> None:
         cache[url] = {
             "analysis": analysis,
             "title": item.get("title", ""),
+            "source": item.get("source", ""),
+            "type": item.get("type", ""),
+            "date": item.get("date", ""),
+            "committee": item.get("committee", ""),
+            "summary": item.get("summary", ""),
             "cached_at": today,
         }
         added += 1

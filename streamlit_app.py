@@ -38,6 +38,13 @@ SOURCE_TO_TAB = {
     "EUSPA": "EU-byråer",
     "Eurojust": "EU-byråer",
     "EU-OSHA": "EU-byråer",
+    "Frontex": "EU-byråer",
+    # Svenska myndigheter (separat från departement)
+    "IMY": "Svenska myndigheter",
+    "MSB": "Svenska myndigheter",
+    # Tech-policy-media (sekundärkällor)
+    "EDRi": "Tech-media",
+    "Politico EU Tech": "Tech-media",
 }
 
 RELEVANS_EMOJI = {"hög": "🔴", "medel": "🟡", "låg": "🟢", "okänd": "⚪"}
@@ -354,21 +361,27 @@ def _filter(tab: str) -> list[dict]:
 
 riksdagen_items = _filter("Riksdagen")
 regeringen_items = _filter("Regeringen")
+se_myndigheter_items = _filter("Svenska myndigheter")
 ep_items = _filter("EU-parlamentet")
 ek_items = _filter("EU-kommissionen")
 agency_items = _filter("EU-byråer")
+media_items = _filter("Tech-media")
 
 if search_query:
-    total = len(riksdagen_items) + len(regeringen_items) + len(ep_items) + len(ek_items) + len(agency_items)
+    total = (len(riksdagen_items) + len(regeringen_items) + len(se_myndigheter_items)
+             + len(ep_items) + len(ek_items) + len(agency_items) + len(media_items))
     st.sidebar.caption(f"🔎 {total} träffar för \"{search_query}\"")
 
-tab_dashboard, tab_riksdag, tab_reg, tab_ep, tab_ek, tab_byraer = st.tabs([
+(tab_dashboard, tab_riksdag, tab_reg, tab_myn,
+ tab_ep, tab_ek, tab_byraer, tab_media) = st.tabs([
     "📊 Dashboard",
     f"🇸🇪 Riksdagen ({len(riksdagen_items)})",
     f"🏛️ Regeringen ({len(regeringen_items)})",
+    f"🏤 SE-myndigheter ({len(se_myndigheter_items)})",
     f"🇪🇺 EU-parlamentet ({len(ep_items)})",
     f"🇪🇺 EU-kommissionen ({len(ek_items)})",
     f"🏢 EU-byråer ({len(agency_items)})",
+    f"📰 Tech-media ({len(media_items)})",
 ])
 
 with tab_dashboard:
@@ -396,3 +409,8 @@ with tab_ek:
     _render_tab("EU-kommissionen", ek_items)
 with tab_byraer:
     _render_tab("EU-byråer", agency_items)
+with tab_media:
+    st.caption("⚠ Sekundärkällor — Politico EU och EDRi rapporterar EU-policy-strider som "
+               "officiella institutionsfeeds ofta missar (t.ex. Chat Control/CSAM). "
+               "Använd som signal för att gräva vidare i primärkällor.")
+    _render_tab("Tech-policy-media", media_items)

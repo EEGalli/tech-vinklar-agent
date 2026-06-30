@@ -6,7 +6,8 @@ Agenten läser in listan automatiskt vid varje körning.
 ## Hög prioritet
 Ärenden om dessa ämnen markeras som potentiellt högrelevanta och analyseras noggrant.
 
-- Sociala medier (plattformar, algoritmer, reglering, innehållsmoderering, barnskydd online)
+- Sociala medier (plattformar, algoritmer, reglering, innehållsmoderering, barnskydd online, åldersgräns)
+- CSAM och Chat Control (barnsexbrott online, övervakning av meddelanden, end-to-end-kryptering, child sexual abuse material, message scanning, derogation)
 - AI och artificiell intelligens (AI Act, AI-system, automation, generativ AI, språkmodell, chatbot, maskininlärning)
 - Ansiktsigenkänning (biometrisk data, övervakning)
 - Deepfakes (syntetiska medier, desinformation, AI-genererade bilder)

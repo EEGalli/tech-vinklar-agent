@@ -638,9 +638,9 @@ def _item_anchor(item: dict) -> str:
 
 
 def _build_new_today_section(items: list[dict], today_date: date) -> str:
-    """Bygger en 'Nytt idag'-ruta: punktlista med klickbara titlar som
-    scrollar till korten i dashboarden. 'Nytt' = cachen har cached_at=idag.
-    Läser direkt från cachen så även items som klustrats/filtrerats syns."""
+    """Bygger en 'Senaste 24h'-ruta: items vars cached_at är idag eller igår
+    (rolling window) — så att items inte 'försvinner' bara för att man kör
+    flera gånger samma dag eller passerar midnatt."""
     try:
         import memory as _mem
         cache = _mem.load_analysis_cache()
@@ -648,12 +648,15 @@ def _build_new_today_section(items: list[dict], today_date: date) -> str:
         cache = {}
 
     today_iso = today_date.isoformat()
+    yesterday_iso = (today_date - timedelta(days=1)).isoformat()
     # Filtrera bort uppenbart icke-tech: bara hög/medel släpps in
     ok_relevans = {"hög", "medel"}
     new_items: list[dict] = []
     items_by_url = {i.get("url"): i for i in items if i.get("url")}
     for url, entry in cache.items():
-        if entry.get("cached_at") != today_iso:
+        cached_at = entry.get("cached_at", "")
+        # Rolling 24h: ta med items från idag och igår
+        if cached_at != today_iso and cached_at != yesterday_iso:
             continue
         analysis = entry.get("analysis") or {}
         if analysis.get("relevans") not in ok_relevans:

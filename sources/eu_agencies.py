@@ -21,6 +21,7 @@ AGENCIES = [
     ("EUSPA",    "Europeiska rymdbyrån",                       "https://www.euspa.europa.eu/rss.xml"),
     ("Eurojust", "EU:s straffrättsliga samarbetsbyrå",        "https://www.eurojust.europa.eu/rss.xml"),
     ("EU-OSHA",  "Arbetsmiljöbyrån",                          "https://osha.europa.eu/en/rss.xml"),
+    ("Frontex",  "Europeiska gräns- och kustbevakningsbyrån", "https://frontex.europa.eu/media-centre/news/news-release/feed"),
 ]
 
 
