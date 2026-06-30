@@ -110,17 +110,20 @@ def load_analysis_cache() -> dict:
     try:
         with open(CACHE_FILE, encoding="utf-8") as f:
             return json.load(f)
-    except Exception:
+    except Exception as e:
+        print(f"  ⚠ KORRUPT analys-cache ({CACHE_FILE}): {e} — börjar om från tom", flush=True)
         return {}
 
 
 def save_dates(items: list[dict]) -> None:
     """Sparar viktiga datum från AI-analysen till en separat fil.
-    Dedupe på (datum + item title): ett kalenderinlägg per dokument per datum.
-    Varianter av samma beskrivning skriver över den äldre."""
+    Dedupe på (datum + URL): primärnyckel är URL. Om samma titel kommer från
+    OLIKA URL:er (t.ex. Riksdagen + regeringen rapporterar samma sak) → KOMBINERA
+    källorna i en "urls"-lista, så att en samlad post visas istället för dubbletter."""
     existing = _load_dates_raw()
     for item in items:
         item_title = item.get("title", "")
+        item_url = item.get("url", "")
         for d in item.get("analysis", {}).get("viktiga_datum", []) or []:
             datum = d.get("datum", "")
             beskrivning = d.get("beskrivning", "")
@@ -135,14 +138,32 @@ def save_dates(items: list[dict]) -> None:
             entry = {
                 "beskrivning": beskrivning,
                 "title": item_title,
-                "url": item.get("url", ""),
+                "url": item_url,
                 "arende": item.get("analysis", {}).get("arende", ""),
             }
-            match = next((e for e in existing[datum] if e.get("title") == item_title), None)
-            if match is not None:
-                match.update(entry)
-            else:
-                existing[datum].append(entry)
+            # Primär: samma URL = uppdatera befintlig
+            match_url = next(
+                (e for e in existing[datum] if e.get("url") == item_url and item_url),
+                None,
+            )
+            if match_url is not None:
+                match_url.update(entry)
+                continue
+            # Sekundär: samma titel, OLIKA URL → KOMBINERA källor
+            match_title = next(
+                (e for e in existing[datum] if e.get("title") == item_title and item_title),
+                None,
+            )
+            if match_title is not None:
+                existing_urls = match_title.get("urls") or [match_title.get("url", "")]
+                if item_url and item_url not in existing_urls:
+                    existing_urls.append(item_url)
+                match_title["urls"] = [u for u in existing_urls if u]
+                # Behåll längsta beskrivning (mest info)
+                if len(beskrivning) > len(match_title.get("beskrivning", "")):
+                    match_title["beskrivning"] = beskrivning
+                continue
+            existing[datum].append(entry)
     with open(DATES_FILE, "w", encoding="utf-8") as f:
         json.dump(existing, f, ensure_ascii=False, indent=2)
 
@@ -211,7 +232,8 @@ def _load_dates_raw() -> dict:
     try:
         with open(DATES_FILE, encoding="utf-8") as f:
             return json.load(f)
-    except Exception:
+    except Exception as e:
+        print(f"  ⚠ KORRUPT datum-fil ({DATES_FILE}): {e} — börjar om från tom", flush=True)
         return {}
 
 
@@ -245,5 +267,6 @@ def _load_raw() -> dict:
                 if item.get("url"):
                     item["url"] = _fix_url(item["url"])
         return data
-    except Exception:
+    except Exception as e:
+        print(f"  ⚠ KORRUPT minnes-fil ({MEMORY_FILE}): {e} — börjar om från tom", flush=True)
         return {}

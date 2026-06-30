@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 import requests
 import subprocess
-from sources import (riksdagen, europarl, eurlex, regeringen, enisa,
+from sources import (riksdagen, eurlex, regeringen, enisa,
                      eu_agencies, tech_news, svenska_myndigheter)
 from analyzer import analyze_batch, create_digest
 from output.html_report import generate as generate_html
@@ -57,7 +57,6 @@ def main():
         fetch_tasks.append(("Regeringen.se", regeringen.fetch_all))
         fetch_tasks.append(("Svenska myndigheter (IMY+MSB)", svenska_myndigheter.fetch_all))
     if not args.riksdagen_only:
-        fetch_tasks.append(("EU-parlamentet", europarl.fetch_all))
         fetch_tasks.append(("EUR-Lex", eurlex.fetch_all))
         fetch_tasks.append(("ENISA", enisa.fetch_all))
         fetch_tasks.append(("EU-byråer", eu_agencies.fetch_all))

@@ -500,6 +500,11 @@ _TOPIC_NOT_ARENDE = {
     "uppkopplade fordon", "sociala medier", "övrigt tech",
     "ai och artificiell intelligens", "integritet",
     "dataskydd", "plattform", "telekom",
+    # Brett budget-/regeringsdokument — vi vill ta tech-vinklar UR dem,
+    # inte ha själva propositionen som ett ärende-namn
+    "vårpropositionen", "budgetpropositionen", "vårproposition",
+    "budgetproposition", "höstbudgeten", "vårändringsbudgeten",
+    "höständringsbudgeten", "statsbudget", "regeringsförklaringen",
 }
 
 
