@@ -1,0 +1,29 @@
+# Dependabot bevakar pip-paketen och öppnar en PR när:
+#  - en säkerhetsuppdatering släpps (kritiskt, gör genast)
+#  - en mindre uppdatering finns (förslag, granska vid behov)
+# Granska PR:en, kolla att inget knäcks, merga.
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "deps"
+
+  # GitHub Actions-versioner (actions/checkout, setup-python etc.)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "ci"

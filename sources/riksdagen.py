@@ -178,7 +178,7 @@ def fetch_recent_propositioner(days_back: int = 30) -> list[dict]:
 def _fetch_via_rss(doc_type: str) -> list[dict]:
     """Fallback: hämta dokument via RSS-feeden när JSON blockeras.
     Samma data, annan format — använder XML-parsing istället."""
-    import xml.etree.ElementTree as ET
+    import defusedxml.ElementTree as ET  # skyddar mot XXE + billion-laughs i feeden
     url = f"{BASE_URL}/dokumentlista/?utformat=rss&doktyp={doc_type}&sz=50"
     resp = SESSION.get(url, timeout=20)
     resp.raise_for_status()

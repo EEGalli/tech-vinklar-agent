@@ -5,7 +5,7 @@ ENISA hanteras separat i sources/enisa.py för historiska skäl, men inkluderas
 """
 import re
 import requests
-import xml.etree.ElementTree as ET
+import defusedxml.ElementTree as ET  # skyddar mot XXE + billion-laughs i feeden
 from config import TECH_KEYWORDS
 
 # Lista över EU-byråer med fungerande RSS-feeds
@@ -69,7 +69,7 @@ def fetch_all() -> list[dict]:
     results = []
     for short, full, rss_url in AGENCIES:
         try:
-            resp = requests.get(rss_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+            resp = requests.get(rss_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
             resp.raise_for_status()
             root = ET.fromstring(resp.content)
         except Exception as e:

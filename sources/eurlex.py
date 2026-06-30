@@ -14,7 +14,7 @@ Tech-relevanta utskott i EP:
 """
 import re
 import requests
-import xml.etree.ElementTree as ET
+import defusedxml.ElementTree as ET  # skyddar mot XXE + billion-laughs i feeden
 from config import TECH_KEYWORDS
 
 # EP utskotts-RSS (verifierat fungerande)

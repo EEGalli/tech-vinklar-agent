@@ -1219,6 +1219,23 @@ def generate(items: list[dict], output_path: str = "digest.html",
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Content Security Policy: andra säkerhetslagret utöver HTML-escape.
+     Webbläsaren tvingas följa dessa regler även om någon lyckas smyga in
+     skadlig kod via en RSS-titel. -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'unsafe-inline';
+  style-src 'self' 'unsafe-inline';
+  img-src 'self' data: https:;
+  font-src 'self' data:;
+  connect-src 'none';
+  object-src 'none';
+  frame-ancestors 'self';
+  base-uri 'self';
+  form-action 'none';
+">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Tech Vinklar — {date_str}</title>
 <style>
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}

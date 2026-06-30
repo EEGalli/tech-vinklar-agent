@@ -4,7 +4,7 @@ Departement täcker vi via regeringen.se redan.
 """
 import re
 import requests
-import xml.etree.ElementTree as ET
+import defusedxml.ElementTree as ET  # skyddar mot XXE + billion-laughs i feeden
 from config import TECH_KEYWORDS
 
 AGENCIES = [
