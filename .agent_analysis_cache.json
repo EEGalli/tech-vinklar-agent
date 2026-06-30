@@ -174,96 +174,6 @@
     "title": "En mer enhetlig reglering av tillsyn och kontroll på miljöbalkens område, KN2026/01187",
     "cached_at": "2026-06-29"
   },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-launches-new-eu-space-market-report": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har lanserat en ny rapport om EU:s rymdmarknad. Rapporten syftar till att ge en överblick över den aktuella situationen och utvecklingen inom rymdsektorn i EU. Den kan vara intressant för företag och organisationer som är verksamma inom rymdindustrin. Rapporten presenterar statistik och analyser om rymdmarknaden i EU.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Rapporten kan vara viktig för företag och organisationer som är verksamma inom rymdindustrin, eftersom den ger en överblick över den aktuella situationen och utvecklingen inom rymdsektorn i EU. Den kan också vara intressant för beslutsfattare och politiker som vill ha en bättre förståelse för rymdindustrins utveckling och potential. Rapporten kan bidra till att identifiera möjligheter och utmaningar inom rymdsektorn och ge underlag för beslut om framtida satsningar.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdmarknad",
-        "EU",
-        "rymdindustri"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA launches new EU Space Market Report",
-    "cached_at": "2026-05-30"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-tests-prove-suitability-galileo-has-precision-agriculture": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har genomfört tester för att undersöka lämpligheten av Galileo HAS (High Accuracy Service) för precisionsjordbruk. Testerna visar att Galileo HAS kan ge hög noggrannhet för jordbrukets behov. Detta kan leda till förbättrad effektivitet och produktivitet inom jordbruket. Europeiska rymdbyrån arbetar för att utveckla och förbättra Galileo-systemet för att möta olika användares behov.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta kan ha betydelse för jordbrukets utveckling och förbättring av precisionsjordbruket. Det kan också påverka utvecklingen av Galileo-systemet och dess tillämpningar inom olika områden. Europeiska rymdbyrån spelar en viktig roll i utvecklingen av Galileo-systemet och dess tillämpningar. Detta kan också ha betydelse för EU:s politik och strategier för rymd och jordbruk.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Galileo HAS",
-        "precisionsjordbruk",
-        "Europeiska rymdbyrån"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA tests prove suitability of Galileo HAS for precision agriculture",
-    "cached_at": "2026-05-30"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/events/egnss-training-drone-operators-international-drone-show": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) erbjuder utbildning för drönaroperatörer vid International Drone Show. Utbildningen fokuserar på EGNSS, som är ett europeiskt satellitnavigeringssystem. Detta initiativ syftar till att öka medvetenheten och kunskapen om hur EGNSS kan användas för att förbättra drönaroperationer. Utbildningen är en del av EUSPA:s arbete för att främja användningen av europeiska satellitnavigeringssystem.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Utbildningen kan bidra till att förbättra säkerheten och effektiviteten i drönaroperationer. Det kan också leda till en ökad användning av EGNSS i olika tillämpningar, vilket kan ha positiva effekter på den europeiska ekonomin. Dessutom kan initiativet bidra till att stärka den europeiska satellitnavigeringsindustrin.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EGNSS",
-        "drönaroperatörer",
-        "satellitnavigering"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-29",
-          "beskrivning": "Utbildningen för drönaroperatörer vid International Drone Show"
-        }
-      ]
-    },
-    "title": "EGNSS training for Drone operators at International Drone Show",
-    "cached_at": "2026-05-30"
-  },
-  "https://data.riksdagen.se/dokument/HD03275.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen föreslår en extra ändringsbudget för 2026 som innehåller stöd till Ukraina och stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern. Budgeten syftar till att hantera de ekonomiska konsekvenserna av kriget. Propositionen innehåller olika åtgärder för att stödja drabbade länder och hushåll. Det finns dock ingen tydlig teknisk vinkel i förslaget.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna proposition är viktig eftersom den hanterar de ekonomiska konsekvenserna av kriget i Mellanöstern och syftar till att stödja drabbade länder och hushåll. Det är en del av regeringens arbete för att hantera de humanitära och ekonomiska utmaningarna som uppstår i samband med internationella konflikter. Propositionen kan ha betydande konsekvenser för Sveriges ekonomi och relationer med andra länder.",
-      "eu_koppling": "null",
-      "keywords": [
-        "extra ändringsbudget",
-        "stöd till Ukraina",
-        "kriget i Mellanöstern"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-28",
-          "beskrivning": "Regeringen överlämnar propositionen till riksdagen"
-        }
-      ]
-    },
-    "title": "Extra ändringsbudget för 2026 – Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern",
-    "cached_at": "2026-05-30"
-  },
   "https://www.euspa.europa.eu/pressroom/in-the-news/space-prague-international-space-event-prague-showed-future-satellite": {
     "analysis": {
       "relevans": "låg",
@@ -3958,5 +3868,71 @@
     },
     "title": "EUSPA Annual Accounts 2025",
     "cached_at": "2026-06-29"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260629CAN79163": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "EU-kommissionen har uppdaterat utskottet för den inre marknaden och konsumenternas skydd (IMCO) om arbetet med att ta bort hinder för den fria rörligheten av varor och tjänster inom EU. Kommissionen har identifierat tio stora hinder, de så kallade 'Terrible Ten', som nu bryts ner i praktiska problem med mätbara indikatorer. Arbetet fokuserar på tjänster, den digitala inre marknaden och etablering av företag. Målet är att avlägsna dessa hinder för att stärka den inre marknaden.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Arbetet med att ta bort hinder för den fria rörligheten av varor och tjänster inom EU är viktigt för att främja ekonomisk tillväxt och integration. Det kan påverka företag och konsumenter inom hela EU. Kommissionens ansträngningar för att identifiera och åtgärda dessa hinder är en del av en större strategi för att stärka den inre marknaden och främja digitaliseringen av ekonomin.",
+      "eu_koppling": "null",
+      "keywords": [
+        "inre marknad",
+        "digitalisering",
+        "fria rörlighet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Highlights - The Terrible Ten Barriers to the Single Market  - Committee on the Internal Market and Consumer Protection",
+    "cached_at": "2026-06-30"
+  },
+  "https://www.eba.europa.eu/node/19791": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska bankmyndigheten (EBA) har publicerat en vägkarta för leveransen av sina mandat enligt den reviderade direktivet om insättningsgarantisystem. De har också publicerat en rapport om tillsynskonvergens för 2025, som syftar till att stödja en enklare och mer effektiv EU-prudentiell ram. Detta arbete är en del av EBA:s uppdrag att främja en stabil och säker banksektor inom EU. Dokumenten fokuserar på att förbättra tillsynen och regleringen av banker för att skydda insättare och främja finansiell stabilitet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Dessa dokument är viktiga eftersom de syftar till att förbättra den finansiella stabiliteten och skydda insättare inom EU. Genom att förbättra tillsynen och regleringen av banker kan EBA bidra till att minska risken för bankkriser och främja en stabil ekonomi. Detta arbete kan också ha en positiv inverkan på den övergripande finansiella sektorn och bidra till att öka förtroendet för banksystemet.",
+      "eu_koppling": "Deposit Guarantee Schemes Directive",
+      "keywords": [
+        "EBA",
+        "Deposit Guarantee Schemes Directive",
+        "tillsynskonvergens"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "EBA E-mail alert 29 June, 2026",
+    "cached_at": "2026-06-30"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/innotrans-2026": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "sammanfattning": "Europeiska rymdbyrån deltar i InnoTrans 2026, en mässa för järnväg och kollektivtrafik. Det är oklart vad byrån kommer att presentera eller diskutera under mässan. InnoTrans är en av de största mässorna inom järnvägssektorn och lockar besökare från hela världen. Mässan fokuserar på innovationer och tekniska lösningar för järnvägsindustrin.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "InnoTrans 2026 kan vara viktigt för företag och organisationer inom järnvägssektorn som vill visa upp sina senaste innovationer och tekniska lösningar. Mässan kan också vara en möjlighet för besökare att lära sig om de senaste trenderna och utvecklingen inom branschen. Europeiska rymdbyråns deltagande kan också vara ett tillfälle för dem att visa hur rymdteknologi kan användas inom järnvägssektorn.",
+      "eu_koppling": "null",
+      "keywords": [
+        "InnoTrans 2026",
+        "järnväg",
+        "kollektivtrafik",
+        "rymdteknologi"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-09-22",
+          "beskrivning": "InnoTrans 2026 öppnar"
+        }
+      ]
+    },
+    "title": "InnoTrans 2026",
+    "cached_at": "2026-06-30"
   }
 }
