@@ -449,6 +449,12 @@
       "title": "Highlights - Agreement Reached on Updated AI Rules - Committee on the Internal Market and Consumer Protection",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260506CAN78119",
       "arende": "AI Act"
+    },
+    {
+      "beskrivning": "EU-institutionerna nådde en överenskommelse.",
+      "title": "AI Omnibus deal: EU lawmakers should reject a rollback of AI safeguards",
+      "url": "https://edri.org/our-work/ai-omnibus-deal-eu-lawmakers-should-reject-a-rollback-of-ai-safeguards/",
+      "arende": "AI Act"
     }
   ],
   "2026-05-06": [
@@ -483,6 +489,18 @@
       "title": "Uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön",
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-att-kartlagga-och-foresla-atgarder-for-att-bemota-desinformation-som-riktar-sig-mot-personer-pa-grund-av-kon/",
       "arende": "Kartläggning av sociala mediers algoritmer"
+    },
+    {
+      "beskrivning": "Förväntad publicering av nästa rapport från European 5G Observatory.",
+      "title": "Digital Decade 2026 - 5G Observatory Report",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-5g-observatory-report",
+      "arende": "Digital infrastruktur"
+    },
+    {
+      "beskrivning": "Nästa årsrapport publiceras.",
+      "title": "EUSPA Annual Activity Report 2025",
+      "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-activity-report-2025",
+      "arende": "Galileo-programmet"
     }
   ],
   "2026-06-02": [
@@ -597,6 +615,12 @@
       "title": "Survey on the EU legal framework for health data and data driven health technologies",
       "url": "https://digital-strategy.ec.europa.eu/en/consultations/survey-eu-legal-framework-health-data-and-data-driven-health-technologies",
       "arende": "Dataskydd och integritet"
+    },
+    {
+      "beskrivning": "Inledande pressmeddelande från Coimisiún na Meán om utredningen.",
+      "title": "Ireland investigates Meta for breaching the DSA – a year on from our complaint",
+      "url": "https://edri.org/our-work/ireland-investigates-meta-for-breaching-the-dsa-a-year-on-from-our-complaint/",
+      "arende": "Digital Services Act"
     }
   ],
   "2026-05-22": [
@@ -645,6 +669,12 @@
       "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
       "url": "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing",
       "arende": "Digitala Nätverkslagen"
+    },
+    {
+      "beskrivning": "EDPB publicerade den uppdaterade 'One-Stop-Shop case digest'.",
+      "title": "One-Stop-Shop case digest on right to object and right to erasure updated",
+      "url": "https://www.edpb.europa.eu/news/one-stop-shop-case-digest-on-right-to-object-and-right-to-erasure-updated_en",
+      "arende": "Dataskydd och integritet"
     }
   ],
   "2026-05-28": [
@@ -741,6 +771,12 @@
       "title": "Uppdrag till Post-och telestyrelsen att genomföra insatser för ökad digital inkludering och användning av digitala tjänster",
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-post-och-telestyrelsen-att-genomfora-insatser-for-okad-digital-inkludering-och-anvandning-av-digitala-tjanster/",
       "arende": "null"
+    },
+    {
+      "beskrivning": "Skrivelsen överlämnas till riksdagen.",
+      "title": "Riksrevisionens rapport om infiltration i staten",
+      "url": "https://data.riksdagen.se/dokument/HD03273.html",
+      "arende": "NIS2-implementering"
     }
   ],
   "2026-06-17": [
@@ -783,6 +819,12 @@
       "title": "Highlights - How Europe Plans to Strengthen Its Tech Independence  - Committee on the Internal Market and Consumer Protection",
       "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260608CAN78701",
       "arende": "null"
+    },
+    {
+      "beskrivning": "EU-kommissionen uppdaterade IMCO om framstegen.",
+      "title": "Highlights - The Terrible Ten Barriers to the Single Market  - Committee on the Internal Market and Consumer Protection",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260629CAN79163",
+      "arende": "Digitala Marknader"
     }
   ],
   "2026-06-05": [
@@ -807,6 +849,36 @@
       "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
       "url": "https://www.europol.europa.eu/media-press/newsroom/news/global-cyber-strike-disrupts-socgholish-amadey-and-stealc-malware-networks",
       "arende": "Cybersolidaritetsakten"
+    }
+  ],
+  "2026-07-15": [
+    {
+      "beskrivning": "Förväntas att riksdagen behandlar skrivelsen i en debatt.",
+      "title": "Uppföljning av den nationella strategin mot organiserad brottslighet",
+      "url": "https://data.riksdagen.se/dokument/HD03274.html",
+      "arende": "Kartläggning av sociala mediers algoritmer"
+    }
+  ],
+  "2026-07-18": [
+    {
+      "beskrivning": "Förväntat riksdagsdebatt om propositionen.",
+      "title": "Sveriges utrikes underrättelsetjänst",
+      "url": "https://data.riksdagen.se/dokument/HD03290.html",
+      "arende": "Cybersäkerhetscenter"
+    },
+    {
+      "beskrivning": "Remisstidens slut, då synpunkter lämnas in.",
+      "title": "Ny kärnkraft i Sverige– moderna regler för beredskap och skadeståndsansvar",
+      "url": "https://data.riksdagen.se/dokument/HEB340.html",
+      "arende": null
+    }
+  ],
+  "2026-06-09": [
+    {
+      "beskrivning": "Skrivelsen överlämnas till riksdagen.",
+      "title": "Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska",
+      "url": "https://data.riksdagen.se/dokument/HD03280.html",
+      "arende": null
     }
   ]
 }

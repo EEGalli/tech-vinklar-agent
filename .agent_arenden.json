@@ -59,9 +59,9 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-30",
     "status": "aktiv",
-    "next_step": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
+    "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
       {
         "title": "Cybercriminal VPN used by ransomware actors dismantled in global crackdown",
@@ -97,6 +97,13 @@
         "url": "https://data.riksdagen.se/dokument/HD024093.html",
         "source": "Riksdagen",
         "tech_vinkel": "Motionen lyfter fram behovet av ytterligare analyser i samband med lagändringar som syftar till att stärka det nationella cybersäkerhetscentret, vilket direkt relaterar till tekniska aspekter av cybersäkerhet och incidenthantering."
+      },
+      {
+        "title": "Sveriges utrikes underrättelsetjänst",
+        "date": "2026-06-18",
+        "url": "https://data.riksdagen.se/dokument/HD03290.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Propositionen rör Sveriges utrikes underrättelsetjänst, vilket implicerar användningen av digitala verktyg och tekniker för informationsinsamling, analys och kommunikation – inklusive potentiellt övervakningsteknik och krypteringslösningar."
       },
       {
         "title": "What are the specific conditions for contractors to join the Reserve?",
@@ -135,7 +142,7 @@
     "first_seen": "2026-04-13",
     "last_updated": "2026-06-30",
     "status": "aktiv",
-    "next_step": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
+    "next_step": "Det är troligt att EU-kommissionen kommer att använda resultaten från rapporten för att justera sin digitala strategi och prioriteringar framåt.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -264,6 +271,13 @@
         "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens."
       },
       {
+        "title": "State of the Digital Decade 2026 - Factsheet",
+        "date": "Wed, 17 Ju",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-factsheet",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "Faktabladet nämner specifikt EU:s framsteg mot 2030-målen, vilket implicerar en granskning av digital infrastruktur som sannolikt inkluderar bredband, 5G/6G-nätverk och molninfrastruktur."
+      },
+      {
         "title": "Commission preliminarily finds Meta in breach of Digital Services Act for failing to prevent minors under 13 from using Instagram and Facebook",
         "date": "Wed, 29 Ap",
         "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-meta-breach-digital-services-act-failing-prevent-minors-under-13",
@@ -356,12 +370,19 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-30",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Förslaget kommer att skickas till EU-parlamentet och rådet för diskussion och antagande.",
+    "next_step": "Energi- och näringsministern kommer att svara på interpellationen i riksdagen.",
     "documents": [
+      {
+        "title": "Sveriges strategiska position inom halvledare och avancerad elektronik",
+        "date": "2026-06-05",
+        "url": "https://data.riksdagen.se/dokument/HD10545.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Interpellationen betonar halvledares roll som grundläggande komponent i artificiell intelligens (AI) och telekommunikation, vilket pekar på ett behov av strategiska investeringar och politiska beslut inom dessa teknikområden."
+      },
       {
         "title": "Open EU Foundry status granted to innovative chiplet facility",
         "date": "Mon, 16 Ma",
@@ -520,7 +541,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Myndigheterna kommer att fortsätta att samarbeta för att bekämpa cyberbrottslighet och kommer att utvärdera effekten av denna operation för att se om det finns mer som kan göras för att stoppa ransomware-grupperna.",
+    "next_step": "Riksdagen kommer nu att granska skrivelsen och eventuellt ta ställning till de åtgärder regeringen föreslår.",
     "documents": [
       {
         "title": "Joint Committee annual report highlights digitalisation, cyber resilience and sustainable finance as key priorities of 2025",
@@ -565,6 +586,13 @@
         "tech_vinkel": "Förslaget om kollektivtrafikskydd implicerar användning av digitala säkerhetslösningar, såsom övervakningssystem, larmtjänster och potentiellt även system för att hantera och analysera data från sensorer och kameror i kollektivtrafikfordon och på stationer, vilket kräver en bedömning av dataskydd och integritet."
       },
       {
+        "title": "Riksrevisionens rapport om infiltration i staten",
+        "date": "2026-06-16",
+        "url": "https://data.riksdagen.se/dokument/HD03273.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Rapporten om infiltration i staten kommer sannolikt att belysa sårbarheter i digital infrastruktur och system inom myndigheter, vilket kräver förbättrade tekniska säkerhetsåtgärder som autentisering, övervakning och incidenthantering."
+      },
+      {
         "title": "International Cooperation",
         "date": "Mon, 09 Fe",
         "url": "https://www.enisa.europa.eu/about-enisa/international-cooperation",
@@ -597,11 +625,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-30",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Det grekiska utbildningsdepartementet kommer att övervaka implementeringen av det nya ramverket och utvärdera dess effektivitet.",
+    "next_step": "Europaparlamentet och EU:s råd måste nu rösta om att acceptera eller avvisa kompromissen.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -660,6 +688,13 @@
         "tech_vinkel": "Avtalet inkluderar ett förbud mot 'nudification'-appar, vilket innebär att appar som använder sig av psykologiska knep och algoritmer för att manipulera användarnas beteende kommer att regleras och potentiellt förbjudas."
       },
       {
+        "title": "AI Omnibus deal: EU lawmakers should reject a rollback of AI safeguards",
+        "date": "Thu, 11 Ju",
+        "url": "https://edri.org/our-work/ai-omnibus-deal-eu-lawmakers-should-reject-a-rollback-of-ai-safeguards/",
+        "source": "EDRi",
+        "tech_vinkel": "Kompromissen i 'AI Omnibus' skulle fördröja implementeringen av specifika skyddsåtgärder inom AI Act (EU:s AI-förordning), vilket direkt påverkar hur algoritmer och AI-system regleras och övervakas."
+      },
+      {
         "title": "Draft Commission guidelines on the classification of high-risk AI systems",
         "date": "Tue, 19 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems",
@@ -696,7 +731,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Europol och dess partners kommer att fortsätta att övervaka och bekämpa cyberkriminalitet, med fokus på att förstärka den internationella samverkan för att skydda mot hot mot cybersäkerheten.",
+    "next_step": "Det är troligt att liknande operationer kommer att genomföras för att identifiera och störa andra kriminella nätverk som underlättar cyberbrottslighet.",
     "documents": [
       {
         "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
@@ -704,6 +739,13 @@
         "url": "https://www.europol.europa.eu/media-press/newsroom/news/global-cyber-strike-disrupts-socgholish-amadey-and-stealc-malware-networks",
         "source": "Europol",
         "tech_vinkel": "Operationen har specifikt riktat in sig på att dismantla SocGholish, Amadey och StealC-malware, som är kända för att sprida skadlig kod och stjäla känslig information."
+      },
+      {
+        "title": "Ransomware gangs cut off from EUR 336 million ‘AudiA6’ crypto laundering pipeline",
+        "date": "",
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/ransomware-gangs-cut-eur-336-million-audia6-crypto-laundering-pipeline",
+        "source": "Europol",
+        "tech_vinkel": "Operationen fokuserar på att störa kryptovaluta-tvättning, vilket visar på ett växande fokus på tekniken bakom cyberbrottslighet och behovet av att spåra och stoppa finansiella flöden kopplade till ransomware."
       },
       {
         "title": "Förbättrade förutsättningar för operativt militärt samarbete",
@@ -724,11 +766,11 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-30",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "EU-kommissionen kommer att sammanställa feedbacken och använda den för att slutligt fastställa riktlinjerna för 'trusted flaggers' enligt DSA.",
+    "next_step": "CnaM kommer att genomföra utredningen och kan sedan fatta beslut om Meta har brutit mot DSA, vilket kan leda till sanktioner.",
     "documents": [
       {
         "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
@@ -743,6 +785,13 @@
         "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
         "source": "EU-kommissionen",
         "tech_vinkel": "Digital Services Act (DSA) är den specifika EU-lag som ligger till grund för boten mot Temu, vilken syftar till att reglera och säkerställa en säker och transparent online-miljö."
+      },
+      {
+        "title": "Ireland investigates Meta for breaching the DSA – a year on from our complaint",
+        "date": "Wed, 13 Ma",
+        "url": "https://edri.org/our-work/ireland-investigates-meta-for-breaching-the-dsa-a-year-on-from-our-complaint/",
+        "source": "EDRi",
+        "tech_vinkel": "Utredningen fokuserar specifikt på Metas algoritmstyrda nyhetsflöden och deras bristande alternativ utan profilering, vilket är en direkt koppling till hur algoritmer används för att forma användarnas upplevelser på sociala medieplattformar."
       },
       {
         "title": "Commission urges Member States to rollout EU age verification app",
@@ -770,11 +819,25 @@
         "tech_vinkel": "Förslaget till Digital Networks Act innehåller specifika bestämmelser om hur digitala nätverk ska utvecklas och regleras, vilket direkt berör tekniska aspekter av internet och telekommunikation."
       },
       {
+        "title": "Did the EU Parliament really vote not to protect children online?",
+        "date": "Mon, 11 Ma",
+        "url": "https://edri.org/our-work/did-the-eu-parliament-really-vote-not-to-protect-children-online/",
+        "source": "EDRi",
+        "tech_vinkel": "Förslaget handlade om en undantagsregel i ePrivacy-direktivet (som reglerar hur webbplatser får använda cookies och liknande tekniker) för att tillåta viss datainsamling för att skydda barn online, vilket visar på ett försök att reglera användningen av spårningstekniker specifikt kopplat till barns säkerhet."
+      },
+      {
         "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
         "date": "Mon, 25 Ma",
         "url": "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing",
         "source": "BEREC",
         "tech_vinkel": "Digital Networks Act (DNA) är en specifik lagstiftning som reglerar digitala nätverk inom EU, vilket är en tydlig tech-vinkel i detta dokument."
+      },
+      {
+        "title": "Call for Inputs on the amended template used for the roaming data collection",
+        "date": "Wed, 03 Ju",
+        "url": "https://www.berec.europa.eu/en/public-consultations-calls-for-inputs/call-for-inputs-on-the-amended-template-used-for-the-roaming-data-collection",
+        "source": "BEREC",
+        "tech_vinkel": "Mallens ändringar handlar om hur data kring roaming – inklusive användningsmönster, prissättning och nätverksprestanda – samlas in och analyseras, vilket är en viktig aspekt av digital infrastruktur och datainsamlingstekniker."
       },
       {
         "title": "Regulation remains critical for Europe’s transition to full fibre",
@@ -788,9 +851,9 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-05-19",
+    "last_updated": "2026-06-30",
     "status": "aktiv",
-    "next_step": "Det är troligt att de punkter som lyfts fram i det gemensamma uttalandet kommer att operationaliseras genom konkreta projekt och avtal under det kommande året.",
+    "next_step": "Det är troligt att EDRi kommer fortsätta att övervaka efterlevnaden av DMA och utöva påtryckningar på EU-kommissionen för att vidta åtgärder mot de stora teknikföretagen.",
     "documents": [
       {
         "title": "Nya regler för att främja central clearing av OTC-derivat i EU",
@@ -863,6 +926,13 @@
         "tech_vinkel": "EU-kommissionen granskar nu hur en stor social medieplattform hanterar barns säkerhet, vilket sätter fokus på algoritmer, innehållsmoderering och plikt för plattformar att skydda unga användare – en central fråga i den pågående debatten om reglering av sociala medier."
       },
       {
+        "title": "If the DMA is fit for purpose why are the gatekeepers winning?",
+        "date": "Thu, 30 Ap",
+        "url": "https://edri.org/our-work/if-the-dma-is-fit-for-purpose-why-are-the-gatekeepers-winning/",
+        "source": "EDRi",
+        "tech_vinkel": "Rapporten kritiserar den bristande efterlevnaden av Digital Markets Act (DMA), vilket är en lagstiftning som syftar till att begränsa maktmissbruk från stora teknikplattformar genom att tvinga dem att öppna upp sina marknader och undvika självpåtvingade konkurrenshinder."
+      },
+      {
         "title": "Joint Statement of the fourth meeting of the European Union - Japan Digital Partnership Council",
         "date": "Tue, 05 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/joint-statement-fourth-meeting-european-union-japan-digital-partnership-council",
@@ -897,11 +967,11 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-30",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten kommer att genomföra kartläggningen och lämna förslag på åtgärder till regeringen.",
+    "next_step": "Riksdagen kommer att granska skrivelsen och eventuellt initiera debatt eller ytterligare utredningar baserat på dess innehåll.",
     "documents": [
       {
         "title": "Uppdrag att kartlägga hur algoritmer i sociala medier styr innehåll till barn och unga",
@@ -923,6 +993,20 @@
         "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-att-kartlagga-och-foresla-atgarder-for-att-bemota-desinformation-som-riktar-sig-mot-personer-pa-grund-av-kon/",
         "source": "Regeringen",
         "tech_vinkel": "Uppdraget inkluderar en kartläggning av desinformation på sociala medier och en analys av hur algoritmer och andra digitala verktyg kan användas för att sprida eller motverka desinformation."
+      },
+      {
+        "title": "Uppföljning av den nationella strategin mot organiserad brottslighet",
+        "date": "2026-06-23",
+        "url": "https://data.riksdagen.se/dokument/HD03274.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Skrivelsen nämner troligtvis användningen av digitala bevis och övervakningstekniker i utredningar av organiserad brottslighet, vilket är en viktig aspekt av hur polisen använder teknik för att bekämpa brott."
+      },
+      {
+        "title": "Uppföljning av den brottsförebyggande strategin Barriärer mot brott",
+        "date": "2026-06-23",
+        "url": "https://data.riksdagen.se/dokument/HD03272.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Skrivelsen nämner sannolikt behovet av åtgärder mot online-brottslighet, vilket kan inkludera diskussioner om plattformars ansvar för innehåll och algoritmers påverkan på ungas exponering för skadligt material – en direkt koppling till sociala medier."
       }
     ]
   },
@@ -947,12 +1031,40 @@
   "Galileo-programmet": {
     "name": "Galileo-programmet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-06-29",
+    "last_updated": "2026-06-30",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Nästa steg i detta ärende är att fortsätta utveckla och förbättra Galileo-systemet för att möta de växande behoven av precisa och säkra navigationstjänster.",
+    "next_step": "Resultaten från APOGEE-testerna kommer att integreras i designen av framtida Galileo-satelliter och systemuppdateringar.",
     "documents": [
+      {
+        "title": "The European Space and Security Forum",
+        "date": "Fri, 26 Ju",
+        "url": "https://www.euspa.europa.eu/newsroom-events/events/european-space-and-security-forum",
+        "source": "EUSPA",
+        "tech_vinkel": "Forumet diskuterar specifikt hot mot satellitkommunikation, vilket involverar tekniker för signalövervakning och potentiella störningar, samt behovet av att skydda dessa system från cyberattacker."
+      },
+      {
+        "title": "EUSPA Annual Accounts 2025",
+        "date": "Fri, 26 Ju",
+        "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-accounts-2025",
+        "source": "EUSPA",
+        "tech_vinkel": "Årsredovisningen inkluderar detaljer om utvecklingen och underhållet av Galileo-satellitsystemets infrastruktur, vilket involverar komplexa tekniker inom satellitkommunikation, precisionsnavigering och tidsbestämning."
+      },
+      {
+        "title": "Greek Space Tech Forum 2026",
+        "date": "Mon, 29 Ju",
+        "url": "https://www.euspa.europa.eu/newsroom-events/events/greek-space-tech-forum-2026",
+        "source": "EUSPA",
+        "tech_vinkel": "Forumet kommer sannolikt att fokusera på teknologier relaterade till satellitkommunikation, positionering (t.ex. Galileo-systemet) och datahantering från rymdbaserade sensorer, vilket är centrala delar av digital infrastruktur."
+      },
+      {
+        "title": "APOGEE - quAsi PilOt siGnal tEst bEd",
+        "date": "Thu, 25 Ju",
+        "url": "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/apogee-quasi-pilot-signal-test-bed",
+        "source": "EUSPA",
+        "tech_vinkel": "Rapporten beskriver specifika tester av signalmottagningsalgoritmer och bearbetningstekniker för satellitnavigationssystem, vilket direkt involverar utvecklingen av sofistikerad mjukvara och algoritmer för att hantera komplexa signaler."
+      },
       {
         "title": "EU patrol vessels adopt Galileo OSNMA for secure positioning",
         "date": "Thu, 28 Ma",
@@ -973,6 +1085,20 @@
         "url": "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/stargate-system-trusted-and-reliable-galileo",
         "source": "EUSPA",
         "tech_vinkel": "STARGATE-systemet använder avancerad kryptering och autentiseringsteknik för att skydda tidssignalerna från Galileo-satelliterna."
+      },
+      {
+        "title": "EUSPA Annual Activity Report 2025",
+        "date": "Tue, 30 Ju",
+        "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-activity-report-2025",
+        "source": "EUSPA",
+        "tech_vinkel": "Rapporten beskriver konkreta förbättringar i Galileo-systemets precision och säkerhet genom uppdateringar av satelliternas mjukvara och marksegmentens infrastruktur, vilket är en direkt teknisk utveckling."
+      },
+      {
+        "title": "EUSPA Annual Activity Report 2024",
+        "date": "Tue, 30 Ju",
+        "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-activity-report-2024",
+        "source": "EUSPA",
+        "tech_vinkel": "Rapporten beskriver utvecklingen av Galileo-satelliternas signalstyrka och precision, vilket är avgörande för navigeringstekniken och kräver komplexa algoritmer och precisionsinstrument."
       },
       {
         "title": "With EUSPA support, Qualinx integrates Galileo OSNMA to receiver",
@@ -1005,6 +1131,13 @@
         "url": "https://www.regeringen.se/pressmeddelanden/2026/06/utredningen-om-aldersgrans-pa-sociala-medier-overlamnar-delbetankande/",
         "source": "Regeringen",
         "tech_vinkel": "Utredningen om åldersgräns på sociala medier behandlar tekniska aspekter kring hur sociala medier kan skydda barn och unga från skadligt innehåll och hur åldersgränser kan implementeras på plattformarna."
+      },
+      {
+        "title": "Ungdomspolitisk skrivelse",
+        "date": "2026-06-16",
+        "url": "https://data.riksdagen.se/dokument/HD03283.html",
+        "source": "Riksdagen",
+        "tech_vinkel": "Skrivelsen kommer sannolikt att beröra frågor kring ungas användning av sociala medier, vilket kan innebära diskussioner om innehållsmoderering, åldersgränser på plattformar och risker kopplade till online-interaktion."
       },
       {
         "title": "Remiss SOU 2026:35, En åldersgräns för barns tillgång till sociala medier, S2026/01273",
@@ -1126,6 +1259,31 @@
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
         "source": "EDPB",
         "tech_vinkel": "EDPB:s dedikerade blankett för att rapportera dataskyddsincidenter är en teknisk lösning för att underlätta efterlevnaden av GDPR (EU:s dataskyddsförordning)."
+      }
+    ]
+  },
+  "Digitala Marknader": {
+    "name": "Digitala Marknader",
+    "first_seen": "2026-06-30",
+    "last_updated": "2026-06-30",
+    "status": "aktiv",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Utskottet kommer sannolikt att granska paketet mer detaljerat och eventuellt föreslå ändringar innan det presenteras för hela Europaparlamentet.",
+    "documents": [
+      {
+        "title": "Highlights - The Terrible Ten Barriers to the Single Market  - Committee on the Internal Market and Consumer Protection",
+        "date": "Mon, 29 Ju",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260629CAN79163",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Dokumentet nämner specifikt arbete med 'den digitala enskilda marknaden', vilket antyder fokus på reglering och integration av digitala tjänster och plattformar inom EU, potentiellt relaterat till Digital Services Act (DSA) och Digital Markets Act (DMA)."
+      },
+      {
+        "title": "Highlights - How Europe Plans to Strengthen Its Tech Independence  - Committee on the Internal Market and Consumer Protection",
+        "date": "Thu, 25 Ju",
+        "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260608CAN78701",
+        "source": "EU-parlamentet",
+        "tech_vinkel": "Paketet adresserar specifikt behovet av att stärka Europas position inom nyckelteknologier, vilket implicerar investeringar och politiska åtgärder för att stödja utvecklingen av dessa tekniker – även om vilka tekniker som prioriteras inte specificeras i sammanfattningen."
       }
     ]
   }
