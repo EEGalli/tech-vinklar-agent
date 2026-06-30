@@ -3,9 +3,43 @@ Genererar en snygg HTML-rapport med kalendervy av analyserade ärenden.
 Öppnas i webbläsaren, kopieras enkelt in i Google Docs.
 """
 import calendar
+import html as html_lib
+import json as _json_top
 from collections import defaultdict
 from datetime import datetime, date, timedelta
 from typing import Optional
+from urllib.parse import urlparse as _urlparse_top
+
+
+def _esc(text) -> str:
+    """HTML-säker text: skyddar mot XSS från RSS-titlar med <script>, &, " etc.
+    Förvandlar None till tom sträng."""
+    if text is None:
+        return ""
+    return html_lib.escape(str(text), quote=True)
+
+
+def _safe_url(url) -> str:
+    """Tillåt bara http(s)-URL:er som länkar. javascript:/data:/file:-URL:er
+    från trasiga RSS-källor blockeras så att en URL inte kan köra kod."""
+    if not url:
+        return ""
+    s = str(url).strip()
+    try:
+        scheme = _urlparse_top(s).scheme.lower()
+    except ValueError:
+        return ""
+    if scheme not in ("http", "https"):
+        return ""
+    return _esc(s)
+
+
+def _js_safe(text) -> str:
+    """JSON-encodea sträng för inbäddning i JavaScript-mall — skyddar mot
+    </script>-injection och kontrollerar tecken."""
+    if text is None:
+        return '""'
+    return _json_top.dumps(str(text), ensure_ascii=False).replace("</", "<\\/")
 
 
 RELEVANCE_EMOJI = {"hög": "🔴", "medel": "🟡", "låg": "🟢"}
@@ -175,7 +209,10 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
             for i in day_items
         ]
 
-    js_data_str = _json.dumps(js_data, ensure_ascii=False)
+    # JSON-serialisera + skydda mot </script>-injection från RSS-titlar.
+    # En RSS-titel som råkar innehålla "</script>" skulle annars kunna stänga
+    # vår script-tagg och köra godtycklig kod i webbläsaren.
+    js_data_str = _json.dumps(js_data, ensure_ascii=False).replace("</", "<\\/")
 
     # ── Idag ──────────────────────────────────────────────
     today_items = by_date.get(today, [])
@@ -629,17 +666,21 @@ def _mini_card(item: dict) -> str:
     relevans = analysis.get("relevans", "okänd")
     color = RELEVANCE_COLOR.get(relevans, "#888")
     emoji = RELEVANCE_EMOJI.get(relevans, "⚪")
-    title = _clean_title(item)
-    url = item.get("url", "")
+    # Råversioner används av full_data (JSON-escapas separat).
+    # Visuella versioner HTML-escapas så RSS-titlar med <script> är säkra.
+    title_raw = _clean_title(item)
+    title = _esc(title_raw)
+    url_raw = item.get("url", "")
+    url = _safe_url(url_raw)  # filtrerar bort javascript:/data:-URL:er
     from urllib.parse import urlparse as _urlparse
-    _url_specific = bool(url and _urlparse(url).path.strip("/"))
-    sammanfattning = analysis.get("sammanfattning", "")
-    vinkel = analysis.get("tech_vinkel", "")
-    source = item.get("source", "")
-    item_type = item.get("type", "")
+    _url_specific = bool(url_raw and _urlparse(url_raw).path.strip("/"))
+    sammanfattning_raw = analysis.get("sammanfattning", "")
+    vinkel_raw = analysis.get("tech_vinkel", "")
+    source = _esc(item.get("source", ""))
+    item_type = _esc(item.get("type", ""))
     meta_bits = [b for b in (source, item_type) if b]
     meta = " · ".join(meta_bits)
-    link = f'href="{url}"' if _url_specific else ""
+    link = f'href="{url}"' if (_url_specific and url) else ""
 
     # Mini-vy: bara första meningen av sammanfattning + tech-vinkel.
     # Full text finns i full-card och sido-panel.
@@ -655,19 +696,21 @@ def _mini_card(item: dict) -> str:
             return text
         return text[:max_chars].rsplit(" ", 1)[0] + "…"
 
-    samm_short = _first_sentence(sammanfattning)
-    vinkel_short = _first_sentence(vinkel)
+    samm_short = _esc(_first_sentence(sammanfattning_raw))
+    vinkel_short = _esc(_first_sentence(vinkel_raw))
 
     samm_html = f"<p class='mini-samm'>{samm_short}</p>" if samm_short else ""
     vinkel_html = f"<p class='mini-vinkel'><strong>Tech-vinkel:</strong> {vinkel_short}</p>" if vinkel_short else ""
     meta_html = f"<p class='mini-meta'>{meta}</p>" if meta else ""
 
-    # Bädda in full text som HTML-attribut — låt klick expandera kortet
+    # Bädda in full text som HTML-attribut — låt klick expandera kortet.
+    # Rådata används här (JSON-strängifieras + HTML-escapas) så att expandMini()
+    # får riktig text. JS-läsning skyddas via attribut-escape.
     import json as _json
     import html as _htmllib
     full_data = _htmllib.escape(_json.dumps({
-        "title": title, "url": url, "source": source, "meta": meta,
-        "sammanfattning": sammanfattning, "tech_vinkel": vinkel,
+        "title": title_raw, "url": url_raw, "source": item.get("source", ""), "meta": meta,
+        "sammanfattning": sammanfattning_raw, "tech_vinkel": vinkel_raw,
         "varfor": analysis.get("varfor_viktigt", ""),
         "eu_koppling": analysis.get("eu_koppling") or "",
     }, ensure_ascii=False), quote=True)
@@ -690,27 +733,29 @@ def _full_card(item: dict) -> str:
     emoji = RELEVANCE_EMOJI.get(relevans, "⚪")
     color = RELEVANCE_COLOR.get(relevans, "#888")
     label = RELEVANCE_LABEL.get(relevans, relevans)
-    title = _clean_title(item)
-    date_str = (item.get("date") or "")[:10]
-    committee = item.get("committee", "")
-    url = item.get("url", "")
-    sammanfattning = analysis.get("sammanfattning", "")
-    tech_vinkel = analysis.get("tech_vinkel", "")
-    varfor = analysis.get("varfor_viktigt", "")
-    eu_koppling = analysis.get("eu_koppling") or ""
+    # Escapea alla externt-kommande strängar för att skydda mot XSS via
+    # RSS-titlar som kan innehålla <script>, & eller andra HTML-specialtecken
+    title = _esc(_clean_title(item))
+    date_str = _esc((item.get("date") or "")[:10])
+    committee = _esc(item.get("committee", ""))
+    url = _safe_url(item.get("url", ""))
+    sammanfattning = _esc(analysis.get("sammanfattning", ""))
+    tech_vinkel = _esc(analysis.get("tech_vinkel", ""))
+    varfor = _esc(analysis.get("varfor_viktigt", ""))
+    eu_koppling = _esc(analysis.get("eu_koppling") or "")
     keywords = analysis.get("keywords", [])
 
     arende = analysis.get("arende") or ""
-    learned_from = analysis.get("_learned_from") or ""
+    learned_from = _esc(analysis.get("_learned_from") or "")
     manually_set = analysis.get("_manually_set")
     original_title = _original_title_if_translated(item)
     original_row = (
-        f'<p class="original-title" title="Originalrubrik">📰 <em>{original_title}</em></p>'
+        f'<p class="original-title" title="Originalrubrik">📰 <em>{_esc(original_title)}</em></p>'
         if original_title else ""
     )
     keyword_tags = " ".join(
         f'<span class="tag clickable" onclick="filterCards(\'keyword\', this.dataset.val)" '
-        f'data-val="{kw.lower()}">{kw}</span>'
+        f'data-val="{_esc(kw.lower())}">{_esc(kw)}</span>'
         for kw in keywords[:4]
     )
     learning_note = (
@@ -724,11 +769,11 @@ def _full_card(item: dict) -> str:
     meta = " · ".join(filter(None, [date_str, committee]))
     arende_chip = (
         f'<span class="arende-chip clickable" onclick="filterCards(\'arende\', this.dataset.val)" '
-        f'data-val="{arende.lower()}" title="Klicka för att filtrera på ärendet">📁 {arende}</span>'
+        f'data-val="{_esc(arende.lower())}" title="Klicka för att filtrera på ärendet">📁 {_esc(arende)}</span>'
         if arende else ""
     )
     # Lowercase keyword-set för data-attribut (CSS söker kommaseparerade lc-värden)
-    kw_data = ",".join(k.lower() for k in keywords[:8])
+    kw_data = _esc(",".join(k.lower() for k in keywords[:8]))
 
     sammanfattning_html = (
         f'<p class="sammanfattning"><strong>Vad handlar det om?</strong> {sammanfattning}</p>'
@@ -744,7 +789,7 @@ def _full_card(item: dict) -> str:
     )
 
     return f"""
-    <div class="card" data-url="{url}" data-relevans="{relevans}" data-arende="{arende.lower()}" data-keywords="{kw_data}">
+    <div class="card" data-url="{url}" data-relevans="{_esc(relevans)}" data-arende="{_esc(arende.lower())}" data-keywords="{kw_data}">
       <div class="card-header" style="border-left:4px solid {color}">
         <span class="relevance-badge clickable" style="background:{color}"
               onclick="filterCards('relevans', this.dataset.val)"
@@ -884,11 +929,17 @@ def _build_new_today_section(items: list[dict], today_date: date) -> str:
         if analysis.get("relevans") not in ok_relevans:
             continue
         # Föredra den item-instans som finns i items-listan (har all metadata);
-        # fall tillbaka till cache-entryn om itemet klustrats bort
+        # fall tillbaka till cache-entryn om itemet klustrats bort.
+        # Cache-entryn innehåller numera även source/type/date/committee/summary
+        # så att fallback-itemet får full meta (annars visades cached items utan källa).
         item = items_by_url.get(url) or {
             "title": entry.get("title", ""),
             "url": url,
-            "source": "",
+            "source": entry.get("source", ""),
+            "type": entry.get("type", ""),
+            "date": entry.get("date", ""),
+            "committee": entry.get("committee", ""),
+            "summary": entry.get("summary", ""),
             "analysis": analysis,
         }
         new_items.append(item)

@@ -15,12 +15,30 @@ def _clean_html(text: str) -> str:
 
 
 def fetch_all() -> list[dict]:
+    """Hämtar ENISA-flödet. Skiljer mellan tre olika typer av problem så att
+    en buggig källa inte ser ut som 'lugn vecka' i loggen:
+      1. HTTP-fel (nätverk, 5xx, timeout) → loggas tydligt
+      2. Trasig XML från servern → loggas tydligt
+      3. RSS-svar men 0 items → varning, kan tyda på ändrad struktur"""
     results = []
+    raw_item_count = 0
     try:
-        resp = requests.get(RSS_URL, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
-        resp.raise_for_status()
-        root = ET.fromstring(resp.content)
+        try:
+            resp = requests.get(RSS_URL, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
+            resp.raise_for_status()
+        except requests.exceptions.Timeout:
+            print(f"  ⚠ ENISA timeout (30s) — feed-servern svarade inte", flush=True)
+            return results
+        except requests.exceptions.RequestException as e:
+            print(f"  ⚠ ENISA HTTP-fel: {e}", flush=True)
+            return results
+        try:
+            root = ET.fromstring(resp.content)
+        except ET.ParseError as e:
+            print(f"  ⚠ ENISA: feeden gav trasig XML ({e})", flush=True)
+            return results
         for item in root.findall(".//item"):
+            raw_item_count += 1
             title = item.findtext("title", "").strip()
             link = item.findtext("link", "").strip()
             desc = _clean_html(item.findtext("description", ""))
@@ -37,6 +55,8 @@ def fetch_all() -> list[dict]:
                 "summary": desc[:400],
                 "doc_id": link,
             })
+        if raw_item_count == 0:
+            print(f"  ⚠ ENISA: feeden svarade men 0 items hittades — har strukturen ändrats?", flush=True)
     except Exception as e:
-        print(f"ENISA error: {e}")
+        print(f"  ⚠ ENISA okänt fel: {type(e).__name__}: {e}", flush=True)
     return results

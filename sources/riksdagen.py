@@ -140,15 +140,21 @@ def fetch_recent_propositioner(days_back: int = 30) -> list[dict]:
                     summary = doc.get("notis", "")
                     text = f"{title} {summary}"
                     if _is_tech_relevant(text) or _is_always_include(title):
+                        dok_id = doc.get("dok_id", "")
+                        item_url = _riksdagen_url(dok_id, doc_type, doc.get("dokument_url_html", ""))
+                        # Använd URL som backup-doc_id om dok_id saknas (händer för
+                        # nya/preliminära ärenden). Förut räknades alla tomma-dok_id-items
+                        # som "samma" och dedupering tog bort dem felaktigt.
+                        item_doc_id = dok_id or item_url or title
                         results.append({
                             "source": "Riksdagen",
                             "type": f"Riksdagen/{doc_type.upper()}",
                             "title": title,
                             "date": doc.get("datum", ""),
                             "committee": doc.get("organ", ""),
-                            "url": _riksdagen_url(doc.get("dok_id", ""), doc_type, doc.get("dokument_url_html", "")),
+                            "url": item_url,
                             "summary": summary[:400] if summary else "",
-                            "doc_id": doc.get("dok_id", ""),
+                            "doc_id": item_doc_id,
                         })
                 last_err = None
                 break  # lyckades, hoppa ur retry-loop

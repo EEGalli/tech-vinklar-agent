@@ -59,15 +59,19 @@ def _list_items(list_path: str, pages: int = 2) -> list[dict]:
 
     items: list[dict] = []
     seen_urls: set[str] = set()
+    pages_with_zero_matches = 0
     for page in range(1, pages + 1):
         url = f"{BASE}{list_path}"
         params = {"p": page} if page > 1 else {}
         try:
             resp = SESSION.get(url, params=params, timeout=15)
             resp.raise_for_status()
-        except Exception:
+        except Exception as e:
+            print(f"  ⚠ regeringen.se {list_path} sida {page}: {type(e).__name__}: {e}", flush=True)
             continue
+        matches_this_page = 0
         for m in item_re.finditer(resp.text):
+            matches_this_page += 1
             path, title_raw, datum, dept_raw = m.group(1), m.group(2), m.group(3), m.group(4)
             full_url = f"{BASE}{path}"
             if full_url in seen_urls:
@@ -85,7 +89,17 @@ def _list_items(list_path: str, pages: int = 2) -> list[dict]:
                 "date": datum,
                 "committee": ", ".join(departments[-3:]),
             })
+        # En sida som svarar OK men 0 matchningar = HTML-strukturen kan ha ändrats.
+        # Sidan returnerar typiskt 20 items, så 0 är ett starkt larm.
+        if matches_this_page == 0 and len(resp.text) > 1000:
+            pages_with_zero_matches += 1
         time.sleep(1)
+    if pages_with_zero_matches >= pages and pages > 0:
+        print(
+            f"  ⚠ regeringen.se {list_path}: ALLA {pages} sidor gav OK-svar men 0 träffar — "
+            f"HTML-strukturen har troligen ändrats, regexen behöver uppdateras",
+            flush=True,
+        )
     return items
 
 

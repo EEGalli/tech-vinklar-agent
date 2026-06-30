@@ -41,10 +41,15 @@ _EXCLUDE_PATTERNS = (
     "workshop", "conference", "summit", "webinar", "training session",
     "save the date", "hackathon", "info session", "info day",
     "registration is open", "join us", "exhibition", "fair ",
-    # Jobbannonser
+    # Jobbannonser — använd specifika fraser, inte bara "officer"/"architect"
+    # som ger falska träffar på "Data Protection Officer" (GDPR/NIS2-roll) och
+    # "reference architecture" (tekniska arkitekturer i policy-dokument).
     "vacancy", "recruitment", "we are hiring", "join our team",
     "applications open", "traineeship", "internship",
-    "officer", "architect", "engineer position",
+    "officer (m/f)", "officer vacancy", "officer position",
+    "architect (m/f)", "architect vacancy", "architect position",
+    "engineer position", "engineer (m/f)", "engineer vacancy",
+    "call for applications", "apply now",
     # Marknadsföring/material
     "brochure", "leaflet", "rollup", "prints", "save the date",
     "press kit", "media kit",

@@ -14,6 +14,8 @@ Användning:
 import argparse
 import os
 import sys
+import time
+from concurrent.futures import TimeoutError as FuturesTimeoutError
 from datetime import datetime
 
 # Lägg till projektkatalogen i Python-sökvägen
@@ -63,16 +65,29 @@ def main():
         fetch_tasks.append(("Tech-policy-media", tech_news.fetch_all))
 
     print(f"\nHämtar från {len(fetch_tasks)} källor parallellt...")
+    # Global tidsgräns (5 min): en enskild långsam källa får inte blockera allt.
+    # Per-källa-timeout: 3 min — räcker för Riksdagens långsamma sidor.
+    PER_SOURCE_TIMEOUT = 180  # 3 minuter
+    OVERALL_TIMEOUT = 300     # 5 minuter
+    overall_start = time.monotonic()
     with ThreadPoolExecutor(max_workers=len(fetch_tasks)) as pool:
         future_to_name = {pool.submit(fn): name for name, fn in fetch_tasks}
-        for future in as_completed(future_to_name):
+        for future in as_completed(future_to_name, timeout=OVERALL_TIMEOUT):
             name = future_to_name[future]
+            elapsed = time.monotonic() - overall_start
+            remaining = max(1, OVERALL_TIMEOUT - elapsed)
             try:
-                items = future.result()
+                items = future.result(timeout=min(PER_SOURCE_TIMEOUT, remaining))
                 print(f"  ✓ {name}: {len(items)} tech-relevanta")
                 all_items.extend(items)
+            except FuturesTimeoutError:
+                print(f"  ⏱ {name}: tog för lång tid (>{PER_SOURCE_TIMEOUT}s) — hoppar över")
             except Exception as e:
-                print(f"  ✗ {name}: {e}")
+                print(f"  ✗ {name}: {type(e).__name__}: {e}")
+        # Avbryt eventuellt fortfarande pågående futures så pool stängs snabbt
+        for f in future_to_name:
+            if not f.done():
+                f.cancel()
 
     # Filtrera bort ärenden vars URL är en ren startsida (t.ex. riksdagen.se/ eller europarl.europa.eu/)
     def _is_homepage_url(item: dict) -> bool:
@@ -111,18 +126,42 @@ def main():
         print("Inga ärenden hittades. Kontrollera nätverksanslutning och API-status.")
         return
 
-    # --- Claude-analys ---
+    # --- AI-analys: diagnostik först så vi vet vilken backend som används ---
     if not args.no_ai:
-        # Kontrollera att Ollama svarar
-        # Hoppa över Ollama-pingen om Gemini API-nyckel finns (då kör vi mot Gemini)
-        from analyzer import _use_gemini as _check_gemini
-        if not _check_gemini():
+        from analyzer import _use_gemini as _check_gemini, _use_groq as _check_groq
+        # Diagnostik: vilka nycklar är satta, vilka filer finns?
+        env_files_found = [
+            f for f in (".env", ".env.local")
+            if os.path.exists(os.path.join(os.path.dirname(__file__), f))
+        ]
+        if env_files_found:
+            print(f"  AI-config: läser från {env_files_found}", flush=True)
+        else:
+            paused = [
+                f for f in os.listdir(os.path.dirname(__file__) or ".")
+                if f.startswith(".env.") and f != ".env"
+            ]
+            if paused:
+                print(
+                    f"  AI-config: ingen .env hittad, men dessa pausade filer finns: {paused}. "
+                    f"Döp om till .env för att aktivera",
+                    flush=True,
+                )
+        has_groq = _check_groq()
+        has_gemini = _check_gemini()
+        print(f"  AI-nycklar: Groq={'✓' if has_groq else '✗'}, Gemini={'✓' if has_gemini else '✗'}", flush=True)
+
+        # Om varken Groq eller Gemini finns måste Ollama svara, annars hoppa AI helt
+        if not (has_groq or has_gemini):
             try:
                 r = requests.get("http://localhost:11434/api/tags", timeout=5)
                 r.raise_for_status()
+                print(f"  AI-backend: Ollama (lokal) — varken cloud-AI eller Gemini tillgängliga", flush=True)
             except Exception:
-                print("\nVARNING: Ollama svarar inte på http://localhost:11434.")
-                print("Starta Ollama och försök igen, eller kör med --no-ai.")
+                print("\nVARNING: Ingen AI-backend tillgänglig.")
+                print("  - Sätt GROQ_API_KEY eller GEMINI_API_KEY i .env, eller")
+                print("  - Starta Ollama på http://localhost:11434, eller")
+                print("  - Kör med --no-ai för bara rådata.")
                 args.no_ai = True
 
     if not args.no_ai:
@@ -261,10 +300,20 @@ def _auto_push(html_file: str) -> None:
                 cwd=project_dir, capture_output=True,
             )
             env = {**os.environ, "GIT_EDITOR": "true"}
-            subprocess.run(
+            rebase_cont = subprocess.run(
                 ["git", "rebase", "--continue"],
-                cwd=project_dir, capture_output=True, env=env, timeout=30,
+                cwd=project_dir, capture_output=True, text=True, env=env, timeout=30,
             )
+            # Säkerhetsnät: om rebase-continue också failade, abort:a hellre
+            # än att lämna repot i halvrebasat tillstånd som nästa körning kraschar på
+            if rebase_cont.returncode != 0:
+                print(f"(rebase --continue failade: {rebase_cont.stderr.strip()[:150]})")
+                print("(kör 'git rebase --abort' som säkerhetsnät — lämnar repo i clean tillstånd)")
+                subprocess.run(
+                    ["git", "rebase", "--abort"],
+                    cwd=project_dir, capture_output=True, timeout=15,
+                )
+                return  # Pusha inte — repo är i originalstate, säkrare
 
         push = subprocess.run(
             ["git", "push"],
@@ -273,9 +322,17 @@ def _auto_push(html_file: str) -> None:
         if push.returncode == 0:
             print("✓ Pushat till GitHub — Streamlit-appen uppdateras inom 1 min.")
         else:
-            print(f"(push failade: {push.stderr.strip()[:200]})")
+            # Spara felet i en fil så det inte tystas — Streamlit kan visa varning
+            err_msg = push.stderr.strip()[:500]
+            print(f"(push failade: {err_msg[:200]})")
+            try:
+                err_file = os.path.join(project_dir, ".last_push_error")
+                with open(err_file, "w") as f:
+                    f.write(f"{datetime.now().isoformat()}\n{err_msg}\n")
+            except Exception:
+                pass
     except Exception as e:
-        print(f"(auto-push kunde inte köras: {e})")
+        print(f"(auto-push kunde inte köras: {type(e).__name__}: {e})")
 
 
 if __name__ == "__main__":

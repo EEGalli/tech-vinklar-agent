@@ -350,8 +350,8 @@ _QUOTA_KEYWORDS = ("ResourceExhausted", "429", "quota", "rate limit", "RATE_LIMI
 
 def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
     """Routar AI-anrop med automatiska fallbacks.
-    Prioritet: Groq → Gemini → Ollama. Vid kvot-/rate-limit-fel försöker
-    nästa backend automatiskt."""
+    Prioritet: Groq → Gemini → Ollama. Faller över vid ALLA fel (kvot, nätverk,
+    timeout, 5xx) — inte bara kvot — så ett tillfälligt strul inte stjälper körningen."""
     # 1. Groq (primärt)
     if _use_groq():
         try:
@@ -359,17 +359,24 @@ def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
         except Exception as e:
             err = str(e)
             is_quota = any(kw in err for kw in _QUOTA_KEYWORDS)
-            if is_quota:
-                # Fallback till Gemini om tillgänglig, annars Ollama
-                if _use_gemini():
-                    print("  ⚠ Groq-kvot slut — fallback till Gemini", flush=True)
-                    try:
-                        return _call_gemini(prompt)
-                    except Exception:
-                        pass
-                if _is_ollama_available():
-                    print("  ⚠ Cloud-AI slut — fallback till Ollama", flush=True)
-                    return _call_ollama(prompt, model=model)
+            reason = "Groq-kvot slut" if is_quota else f"Groq-fel ({type(e).__name__}: {err[:80]})"
+            # Försök Gemini om tillgänglig
+            if _use_gemini():
+                print(f"  ⚠ {reason} — fallback till Gemini", flush=True)
+                try:
+                    return _call_gemini(prompt)
+                except Exception as ge:
+                    g_err = str(ge)
+                    g_quota = any(kw in g_err for kw in _QUOTA_KEYWORDS)
+                    g_reason = "Gemini-kvot slut" if g_quota else f"Gemini-fel ({type(ge).__name__}: {g_err[:80]})"
+                    if _is_ollama_available():
+                        print(f"  ⚠ {g_reason} — fallback till Ollama", flush=True)
+                        return _call_ollama(prompt, model=model)
+                    raise
+            # Ingen Gemini → prova Ollama direkt
+            if _is_ollama_available():
+                print(f"  ⚠ {reason} — fallback till Ollama", flush=True)
+                return _call_ollama(prompt, model=model)
             raise
 
     # 2. Gemini (om Groq saknas)
@@ -379,8 +386,9 @@ def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
         except Exception as e:
             err = str(e)
             is_quota = any(kw in err for kw in _QUOTA_KEYWORDS)
-            if is_quota and _is_ollama_available():
-                print("  ⚠ Gemini-kvot slut — fallback till Ollama", flush=True)
+            reason = "Gemini-kvot slut" if is_quota else f"Gemini-fel ({type(e).__name__}: {err[:80]})"
+            if _is_ollama_available():
+                print(f"  ⚠ {reason} — fallback till Ollama", flush=True)
                 return _call_ollama(prompt, model=model)
             raise
 
@@ -443,8 +451,14 @@ Svara EXAKT i detta JSON-format, inget annat:
   "viktiga_datum": [{{"datum": "YYYY-MM-DD", "beskrivning": "Vad händer detta datum"}}]
 }}"""
 
+    response_text = ""
     try:
         response_text = _call_ai(prompt, model=model).strip()
+
+        # Vissa modeller wrappar JSON i markdown-kodblock — strippa det.
+        if response_text.startswith("```"):
+            # Ta bort första raden (```json) och sista (```)
+            response_text = "\n".join(response_text.split("\n")[1:-1]).strip()
 
         # Extrahera JSON om modellen skrivit extra text runt det
         start = response_text.find("{")
@@ -468,21 +482,37 @@ Svara EXAKT i detta JSON-format, inget annat:
                 and any(title.startswith(p) for p in _DOWNGRADE_PREFIXES)):
             analysis["relevans"] = "medel"
         item["analysis"] = analysis
-    except json.JSONDecodeError:
-        # Försök hitta en parserbar delmängd
+    except json.JSONDecodeError as e:
+        # Trasig JSON — retry en gång, sen logga med URL så det går att granska
+        if _retry < 1:
+            print(f"  ↻ JSON trasig för '{title[:50]}' — retry", flush=True)
+            import time
+            time.sleep(3)
+            return analyze_item(item, model=model, known_arenden=known_arenden,
+                                _retry=_retry + 1, learning_hint=learning_hint)
+        print(
+            f"  ⚠ JSON-fel kvar efter retry: '{title[:50]}' "
+            f"({item.get('url','')}) — råsvar (200 första): {response_text[:200]}",
+            flush=True,
+        )
         item["analysis"] = {
             "relevans": "okänd",
-            "tech_vinkel": "Kunde inte parsa JSON-svar",
-            "varfor_viktigt": response_text[:200] if "response_text" in dir() else "",
+            "tech_vinkel": "Kunde inte tolka AI:ns svar (JSON-fel)",
+            "varfor_viktigt": response_text[:200],
             "eu_koppling": None,
             "keywords": [],
         }
     except Exception as e:
-        if _retry < 1:
+        # Nätverk/timeout — retry upp till 2 ggr med ökande väntetid
+        if _retry < 2:
             import time
-            time.sleep(10)
-            return analyze_item(item, model=model, known_arenden=known_arenden, _retry=_retry + 1)
-        print(f"  [analyze_item] FEL för '{title[:50]}': {type(e).__name__}: {e}", flush=True)
+            wait = 10 * (2 ** _retry)  # 10s, 20s
+            print(f"  ↻ AI-fel för '{title[:50]}' ({type(e).__name__}) — väntar {wait}s, retry {_retry+1}/2", flush=True)
+            time.sleep(wait)
+            return analyze_item(item, model=model, known_arenden=known_arenden,
+                                _retry=_retry + 1, learning_hint=learning_hint)
+        print(f"  ⚠ AI-fel kvar efter retries för '{title[:50]}' ({item.get('url','')}): "
+              f"{type(e).__name__}: {e}", flush=True)
         item["analysis"] = {
             "relevans": "okänd",
             "tech_vinkel": f"Fel: {e}",
