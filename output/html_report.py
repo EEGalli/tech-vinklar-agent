@@ -356,6 +356,149 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     renderCalendar(calYear, calMonth);
+
+    // ── Tryckbara filter på prioritet / ärende / keyword ──
+    let activeFilter = null;  // {{type, value}}
+
+    function filterCards(type, value) {{
+      if (!value) return;
+      // Klick på samma filter → toggla av
+      if (activeFilter && activeFilter.type === type && activeFilter.value === value) {{
+        resetFilter();
+        return;
+      }}
+      activeFilter = {{type: type, value: value}};
+      const cards = document.querySelectorAll('.card');
+      let matchCount = 0;
+      cards.forEach(c => {{
+        const attr = c.dataset[type] || '';
+        let match = false;
+        if (type === 'keyword') {{
+          // keywords är en kommaseparerad lista
+          match = attr.split(',').includes(value);
+        }} else {{
+          match = attr === value;
+        }}
+        if (match) {{ c.classList.remove('filtered-out'); matchCount++; }}
+        else {{ c.classList.add('filtered-out'); }}
+      }});
+      showFilterBar(type, value, matchCount);
+      // Scrolla mjukt upp så hon ser filtret
+      window.scrollTo({{top: 0, behavior: 'smooth'}});
+    }}
+
+    function resetFilter() {{
+      activeFilter = null;
+      document.querySelectorAll('.card').forEach(c => c.classList.remove('filtered-out'));
+      const bar = document.getElementById('filter-bar');
+      if (bar) bar.classList.remove('active');
+    }}
+
+    function showFilterBar(type, value, count) {{
+      const bar = document.getElementById('filter-bar');
+      if (!bar) return;
+      const typeLabel = ({{relevans: 'prioritet', arende: 'ärende', keyword: 'tagg'}})[type] || type;
+      bar.querySelector('.filter-bar-label').innerHTML =
+        `🔍 Visar ${{count}} ärenden filtrerade på ${{typeLabel}}:`;
+      bar.querySelector('.filter-bar-value').textContent = value;
+      bar.classList.add('active');
+    }}
+
+    // ── Manuella prioritet-overrides ─────────────────────────
+    const OVERRIDES_KEY = "tv_relevans_overrides_v1";
+    const REL_CYCLE = ["hög", "medel", "låg"];
+    const REL_LABEL = {{"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg"}};
+
+    function loadOverrides() {{
+      try {{ return JSON.parse(localStorage.getItem(OVERRIDES_KEY) || "{{}}"); }}
+      catch (e) {{ return {{}}; }}
+    }}
+    function saveOverrides(o) {{
+      localStorage.setItem(OVERRIDES_KEY, JSON.stringify(o));
+      updateSaveBar();
+    }}
+
+    function applyOverridesOnLoad() {{
+      const o = loadOverrides();
+      document.querySelectorAll('.card').forEach(card => {{
+        const url = card.dataset.url;
+        if (!url || !o[url]) return;
+        const newRel = o[url];
+        updateCardRelevans(card, newRel, true);
+      }});
+      updateSaveBar();
+    }}
+
+    function cycleRelevans(btn) {{
+      const card = btn.closest('.card');
+      if (!card) return;
+      const url = card.dataset.url;
+      if (!url) {{ alert("Saknar URL — kan inte spara ändring för detta ärende."); return; }}
+      const current = card.dataset.relevans;
+      const idx = REL_CYCLE.indexOf(current);
+      const next = REL_CYCLE[(idx + 1) % REL_CYCLE.length];
+      updateCardRelevans(card, next, true);
+      const overrides = loadOverrides();
+      overrides[url] = next;
+      saveOverrides(overrides);
+    }}
+
+    function updateCardRelevans(card, newRel, manual) {{
+      card.dataset.relevans = newRel;
+      card.classList.toggle('manually-set', !!manual);
+      const badge = card.querySelector('.relevance-badge');
+      if (badge) {{
+        const color = RELEVANCE_COLOR[newRel] || "#888";
+        const emoji = RELEVANCE_EMOJI[newRel] || "⚪";
+        const label = REL_LABEL[newRel] || newRel;
+        badge.style.background = color;
+        badge.dataset.val = newRel;
+        badge.setAttribute('title', `Klicka för att filtrera på ${{label}}`);
+        badge.textContent = `${{emoji}} ${{label}}`;
+      }}
+      const header = card.querySelector('.card-header');
+      if (header) header.style.borderLeft = `4px solid ${{RELEVANCE_COLOR[newRel] || "#888"}}`;
+    }}
+
+    function updateSaveBar() {{
+      const o = loadOverrides();
+      const n = Object.keys(o).length;
+      const bar = document.getElementById('save-overrides-bar');
+      if (!bar) return;
+      if (n > 0) {{
+        bar.querySelector('.save-count').textContent = n;
+        bar.classList.add('active');
+      }} else {{
+        bar.classList.remove('active');
+      }}
+    }}
+
+    function showOverridesModal() {{
+      const o = loadOverrides();
+      const json = JSON.stringify(o, null, 2);
+      const modal = document.getElementById('overrides-modal');
+      modal.querySelector('pre').textContent = json;
+      modal.classList.add('active');
+    }}
+    function closeOverridesModal() {{
+      document.getElementById('overrides-modal').classList.remove('active');
+    }}
+    function copyOverridesJson() {{
+      const json = document.getElementById('overrides-modal').querySelector('pre').textContent;
+      navigator.clipboard.writeText(json).then(() => {{
+        const btn = document.getElementById('overrides-modal').querySelector('button.copy');
+        const orig = btn.textContent;
+        btn.textContent = "✓ Kopierat!";
+        setTimeout(() => {{ btn.textContent = orig; }}, 1500);
+      }});
+    }}
+    function clearAllOverrides() {{
+      if (!confirm("Är du säker? Detta nollställer alla manuella prioritet-ändringar i webbläsaren (de som redan är i .agent_overrides.json behålls).")) return;
+      localStorage.removeItem(OVERRIDES_KEY);
+      location.reload();
+    }}
+
+    applyOverridesOnLoad();
     </script>"""
 
     return f"""
@@ -507,14 +650,30 @@ def _full_card(item: dict) -> str:
     eu_koppling = analysis.get("eu_koppling") or ""
     keywords = analysis.get("keywords", [])
 
+    arende = analysis.get("arende") or ""
+    learned_from = analysis.get("_learned_from") or ""
+    manually_set = analysis.get("_manually_set")
     keyword_tags = " ".join(
-        f'<span class="tag">{kw}</span>' for kw in keywords[:4]
+        f'<span class="tag clickable" onclick="filterCards(\'keyword\', this.dataset.val)" '
+        f'data-val="{kw.lower()}">{kw}</span>'
+        for kw in keywords[:4]
+    )
+    learning_note = (
+        f'<p class="learning-note">🎓 AI lärde sig: {learned_from}</p>'
+        if learned_from and not manually_set else ""
     )
     eu_row = f'<p class="eu-link">🇪🇺 <strong>EU-koppling:</strong> {eu_koppling}</p>' if eu_koppling and eu_koppling != "null" else ""
     from urllib.parse import urlparse as _urlparse
     _url_specific = bool(url and _urlparse(url).path.strip("/"))
     url_row = f'<a class="read-more" href="{url}" target="_blank">Läs originaldokumentet →</a>' if _url_specific else ""
     meta = " · ".join(filter(None, [date_str, committee]))
+    arende_chip = (
+        f'<span class="arende-chip clickable" onclick="filterCards(\'arende\', this.dataset.val)" '
+        f'data-val="{arende.lower()}" title="Klicka för att filtrera på ärendet">📁 {arende}</span>'
+        if arende else ""
+    )
+    # Lowercase keyword-set för data-attribut (CSS söker kommaseparerade lc-värden)
+    kw_data = ",".join(k.lower() for k in keywords[:8])
 
     sammanfattning_html = (
         f'<p class="sammanfattning"><strong>Vad handlar det om?</strong> {sammanfattning}</p>'
@@ -530,9 +689,15 @@ def _full_card(item: dict) -> str:
     )
 
     return f"""
-    <div class="card">
+    <div class="card" data-url="{url}" data-relevans="{relevans}" data-arende="{arende.lower()}" data-keywords="{kw_data}">
       <div class="card-header" style="border-left:4px solid {color}">
-        <span class="relevance-badge" style="background:{color}">{emoji} {label}</span>
+        <span class="relevance-badge clickable" style="background:{color}"
+              onclick="filterCards('relevans', this.dataset.val)"
+              data-val="{relevans}"
+              title="Klicka för att filtrera på {label}">{emoji} {label}</span>
+        <button class="edit-relevans-btn" onclick="cycleRelevans(this)"
+                title="Klicka för att ändra prioritet manuellt">✏️</button>
+        {arende_chip}
         <h3>{title}</h3>
         <p class="meta">{meta}</p>
       </div>
@@ -541,6 +706,7 @@ def _full_card(item: dict) -> str:
         {vinkel_html}
         {varfor_html}
         {eu_row}
+        {learning_note}
         <div class="card-footer">
           <div>{keyword_tags}</div>
           {url_row}
@@ -1353,6 +1519,12 @@ def generate(items: list[dict], output_path: str = "digest.html",
   .vinkel {{ font-weight: 500; margin-bottom: 0.5rem; color: #1a1a2e; line-height: 1.5; }}
   .varfor {{ font-size: 0.93rem; color: #3a3a4a; margin-bottom: 0.5rem; line-height: 1.55; }}
   .eu-link {{ font-size: 0.88rem; color: #2c5282; margin-top: 0.5rem; }}
+  .learning-note {{
+    font-size: 0.78rem; color: #6b21a8;
+    background: #faf5ff; border-left: 3px solid #c084fc;
+    padding: 0.4rem 0.7rem; border-radius: 4px;
+    margin-top: 0.5rem;
+  }}
   .card-footer {{
     display: flex;
     justify-content: space-between;
@@ -1369,6 +1541,100 @@ def generate(items: list[dict], output_path: str = "digest.html",
     padding: 0.15rem 0.55rem;
     border-radius: 20px;
     margin-right: 0.3rem;
+  }}
+  .arende-chip {{
+    display: inline-block;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.18rem 0.65rem;
+    border-radius: 20px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }}
+  .clickable {{ cursor: pointer; user-select: none; transition: transform 0.08s, box-shadow 0.08s; }}
+  .clickable:hover {{ transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.18); }}
+  .clickable:active {{ transform: translateY(0); }}
+  .filter-bar {{
+    position: sticky; top: 0; z-index: 100;
+    background: linear-gradient(90deg, #4a6cf7, #6366f1);
+    color: #fff; padding: 0.75rem 1.25rem;
+    border-radius: 10px; margin: 1rem 0;
+    display: none; align-items: center; gap: 1rem;
+    box-shadow: 0 4px 14px rgba(74,108,247,0.35);
+  }}
+  .filter-bar.active {{ display: flex; }}
+  .filter-bar-label {{ flex: 1; font-weight: 500; font-size: 0.95rem; }}
+  .filter-bar-value {{ background: rgba(255,255,255,0.25); padding: 0.2rem 0.7rem; border-radius: 12px; font-weight: 700; }}
+  .filter-reset-btn {{
+    background: #fff; color: #4a6cf7; border: 0;
+    padding: 0.45rem 1rem; border-radius: 8px; font-weight: 600;
+    cursor: pointer; font-size: 0.9rem;
+  }}
+  .filter-reset-btn:hover {{ background: #f0f4ff; }}
+  .card.filtered-out {{ display: none !important; }}
+  .edit-relevans-btn {{
+    background: rgba(255,255,255,0.7); border: 1px solid #ddd;
+    width: 26px; height: 26px; border-radius: 50%;
+    cursor: pointer; font-size: 0.75rem;
+    margin-left: 0.4rem; vertical-align: middle;
+    padding: 0; line-height: 1;
+    transition: transform 0.1s, background 0.1s;
+  }}
+  .edit-relevans-btn:hover {{ background: #fff; transform: scale(1.15); }}
+  .card.manually-set {{ box-shadow: 0 0 0 2px #8b5cf6, 0 2px 8px rgba(139,92,246,0.2); }}
+  .card.manually-set .relevance-badge::after {{
+    content: " ✏️"; font-size: 0.7rem;
+  }}
+  .save-overrides-bar {{
+    position: fixed; bottom: 1rem; right: 1rem; z-index: 200;
+    background: #8b5cf6; color: #fff;
+    padding: 1rem 1.4rem; border-radius: 12px;
+    display: none; align-items: center; gap: 1rem;
+    box-shadow: 0 6px 20px rgba(139,92,246,0.4);
+    max-width: 90vw;
+  }}
+  .save-overrides-bar.active {{ display: flex; }}
+  .save-overrides-btn {{
+    background: #fff; color: #8b5cf6; border: 0;
+    padding: 0.5rem 1.1rem; border-radius: 8px;
+    font-weight: 700; cursor: pointer; font-size: 0.9rem;
+  }}
+  .save-overrides-btn:hover {{ background: #f3f0ff; }}
+  .overrides-modal {{
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.7); z-index: 1000;
+    display: none; align-items: center; justify-content: center;
+    padding: 2rem;
+  }}
+  .overrides-modal.active {{ display: flex; }}
+  .overrides-modal-inner {{
+    background: #fff; border-radius: 12px;
+    padding: 2rem; max-width: 600px; width: 100%;
+    max-height: 90vh; overflow-y: auto;
+  }}
+  .overrides-modal h3 {{ margin-top: 0; }}
+  .overrides-modal pre {{
+    background: #f5f5fa; border: 1px solid #ddd;
+    padding: 1rem; border-radius: 8px;
+    overflow-x: auto; font-size: 0.8rem;
+    max-height: 200px;
+  }}
+  .overrides-modal ol {{ line-height: 1.7; font-size: 0.92rem; }}
+  .overrides-modal code {{
+    background: #f0f0f5; padding: 0.1rem 0.4rem;
+    border-radius: 4px; font-size: 0.85rem;
+  }}
+  .overrides-modal button.close {{
+    background: #ddd; color: #333; border: 0;
+    padding: 0.5rem 1rem; border-radius: 6px;
+    cursor: pointer; float: right; margin-top: 1rem;
+  }}
+  .overrides-modal button.copy {{
+    background: #8b5cf6; color: #fff; border: 0;
+    padding: 0.5rem 1rem; border-radius: 6px;
+    cursor: pointer; margin-top: 0.5rem;
   }}
   .read-more {{
     font-size: 0.82rem;
@@ -1567,6 +1833,32 @@ def generate(items: list[dict], output_path: str = "digest.html",
   </div>
 </header>
 <main>
+  <div id="filter-bar" class="filter-bar">
+    <span class="filter-bar-label"></span>
+    <span class="filter-bar-value"></span>
+    <button class="filter-reset-btn" onclick="resetFilter()">✕ Återställ</button>
+  </div>
+  <div id="save-overrides-bar" class="save-overrides-bar">
+    <span>✏️ <span class="save-count">0</span> osparade prioritet-ändringar</span>
+    <button class="save-overrides-btn" onclick="showOverridesModal()">Spara permanent →</button>
+  </div>
+  <div id="overrides-modal" class="overrides-modal" onclick="if(event.target===this)closeOverridesModal()">
+    <div class="overrides-modal-inner">
+      <h3>💾 Spara dina prioritet-ändringar permanent</h3>
+      <p>Dina ändringar finns i din webbläsare. För att agenten ska respektera dem nästa körning behöver de in i repo:t. Två sätt:</p>
+      <p><strong>Enkelt (rekommenderas):</strong></p>
+      <ol>
+        <li>Klicka <strong>Kopiera JSON</strong> nedan</li>
+        <li>Gå till <a href="https://github.com/EEGalli/tech-vinklar-agent/edit/main/.agent_overrides.json" target="_blank">.agent_overrides.json på GitHub</a> (skapas om den inte finns)</li>
+        <li>Klistra in, commit ändringen</li>
+      </ol>
+      <p><strong>Lokalt:</strong> kör <code>echo '...' &gt; .agent_overrides.json</code> i terminalen och pusha.</p>
+      <pre>{{}}</pre>
+      <button class="copy" onclick="copyOverridesJson()">📋 Kopiera JSON</button>
+      <button class="close" onclick="closeOverridesModal()">Stäng</button>
+      <button class="close" onclick="clearAllOverrides()" style="background:#fee;color:#c00">Nollställ alla</button>
+    </div>
+  </div>
   {new_today_section}
   {calendar_section}
   {lookback_section}

@@ -388,9 +388,11 @@ def _call_ai(prompt: str, model: str = DEFAULT_MODEL) -> str:
     return _call_ollama(prompt, model=model)
 
 
-def analyze_item(item: dict, model: str = DEFAULT_MODEL, known_arenden: list[str] = None, _retry: int = 0) -> dict:
+def analyze_item(item: dict, model: str = DEFAULT_MODEL, known_arenden: list[str] = None,
+                 _retry: int = 0, learning_hint: str = "") -> dict:
     """Analyserar ett enskilt ärende och lägger till tech-vinkel + ärende-identifiering.
-    Automatisk retry (max 1 gång) vid timeout — väntar 10s innan nytt försök."""
+    Automatisk retry (max 1 gång) vid timeout — väntar 10s innan nytt försök.
+    learning_hint: text med användarens preferenser från tidigare prioritet-val."""
     title = item.get("title", "")
     summary = item.get("summary", "")
     source = item.get("source", "")
@@ -422,7 +424,7 @@ Kända pågående ärenden (välj ett av dessa om dokumentet hör dit):
 "nasta_steg": "Vad händer härnäst i detta ärende? En mening. null om okänt.","""
 
     prompt = f"""Analysera följande politiska ärende och identifiera tech-vinkeln.
-
+{learning_hint}
 Källa: {source} ({item_type})
 Datum: {date}
 Organ/Utskott: {committee}
@@ -525,6 +527,30 @@ def _is_valid_arende(name: str) -> bool:
     return any(m in n_low for m in arende_markers) or name.endswith(
         ("en", "et", "er")
     ) and len(name.split()) <= 5  # tex "Cybersolidaritetsakten"
+
+
+def _load_relevans_overrides() -> dict[str, str]:
+    """Läser manuella prioritet-overrides från .agent_overrides.json.
+    Format: {url: "hög"|"medel"|"låg"}. Användaren sätter dessa via ✏️-knappen
+    i HTML-rapporten och committar JSON-filen till repo:t."""
+    import json, os
+    path = os.path.join(os.path.dirname(__file__), ".agent_overrides.json")
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        # Normalisera värden — ta emot både {url: "hög"} och {url: {"relevans": "hög"}}
+        result = {}
+        for url, val in data.items():
+            if isinstance(val, str):
+                result[url] = val
+            elif isinstance(val, dict) and "relevans" in val:
+                result[url] = val["relevans"]
+        return result
+    except Exception as e:
+        print(f"  ⚠ KORRUPT overrides-fil ({path}): {e}", flush=True)
+        return {}
 
 
 def _build_url_cache(max_age_days: int = 30) -> dict[str, dict]:
@@ -637,6 +663,21 @@ def analyze_batch(
     known_arenden = list(ar.load().keys())
     url_cache = _build_url_cache(max_age_days=30)
 
+    # Lärdomar från användarens tidigare prioritet-ändringar
+    try:
+        import learning
+        patterns = learning.extract_patterns()
+        learning_hint = learning.build_prompt_hint(patterns)
+        if learning_hint:
+            n_arende = len(patterns.get("arende", {}))
+            n_kw = len(patterns.get("keyword", {}))
+            n_src = len(patterns.get("source", {}))
+            print(f"  🎓 Lärdomar från manuella val: {n_arende} ärenden, {n_kw} nyckelord, {n_src} källor")
+    except Exception as e:
+        print(f"  (kunde inte ladda lärdomar: {e})")
+        patterns = {}
+        learning_hint = ""
+
     # Plocka ut items som har cache-träff → slipper AI-anrop
     to_analyze: list[tuple[int, dict]] = []
     results: dict[int, dict] = {}
@@ -660,7 +701,7 @@ def analyze_batch(
         print(f"  (kör {min(max_workers, len(to_analyze))} AI-anrop parallellt på {len(to_analyze)} nya items)")
         with ThreadPoolExecutor(max_workers=max_workers) as pool:
             future_to_idx = {
-                pool.submit(analyze_item, item, model, known_arenden): i
+                pool.submit(analyze_item, item, model, known_arenden, 0, learning_hint): i
                 for i, item in to_analyze
             }
             completed = 0
@@ -680,6 +721,55 @@ def analyze_batch(
                     results[i] = items[i]
                 title = results[i].get("title", "")[:70]
                 print(f"  [{completed}/{len(to_analyze)}] {title}...")
+
+    # Applicera manuella prioritet-overrides från .agent_overrides.json
+    # (skapas när användaren ändrar prioritet i HTML-rapporten via ✏️-knappen)
+    overrides = _load_relevans_overrides()
+    if overrides:
+        override_count = 0
+        for i in range(len(items)):
+            url = results[i].get("url", "")
+            if url and url in overrides:
+                new_rel = overrides[url]
+                if new_rel in ("hög", "medel", "låg"):
+                    results[i].setdefault("analysis", {})["relevans"] = new_rel
+                    results[i]["analysis"]["_manually_set"] = True
+                    override_count += 1
+        if override_count:
+            print(f"  ✏️ Applicerade {override_count} manuella prioritet-overrides")
+
+    # Säkerhetsnät: applicera mönster från tidigare manuella val på items
+    # som inte har explicit override. Kräver 3+ enstämmiga tidigare val
+    # innan vi overridar AI:n.
+    if patterns:
+        try:
+            import learning
+            learned_count = 0
+            for i in range(len(items)):
+                url = results[i].get("url", "")
+                if url and url in overrides:
+                    continue  # explicit override redan satt
+                analysis = results[i].get("analysis", {}) or {}
+                if analysis.get("_manually_set"):
+                    continue
+                arende = analysis.get("arende") or ""
+                keywords = analysis.get("keywords") or []
+                source = results[i].get("source", "")
+                committee = results[i].get("committee", "")
+                suggested, motivering = learning.suggest_relevans(
+                    arende, keywords, source, committee, patterns=patterns,
+                )
+                if suggested and suggested != analysis.get("relevans"):
+                    old = analysis.get("relevans", "okänd")
+                    analysis["relevans"] = suggested
+                    analysis["_learned_from"] = motivering
+                    learned_count += 1
+                    title_short = results[i].get("title", "")[:60]
+                    print(f"  🎓 '{title_short}' {old} → {suggested} ({motivering})")
+            if learned_count:
+                print(f"  🎓 Säkerhetsnät: justerade {learned_count} items baserat på dina tidigare val")
+        except Exception as e:
+            print(f"  (säkerhetsnät fel: {e})")
 
     # Sekventiell post-processing: filtrera och uppdatera ärenderegistret
     # Spara ALLA items (även filtrerade) till cache så vi slipper AI-analysera
