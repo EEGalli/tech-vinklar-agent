@@ -521,9 +521,30 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     {js_and_panel}"""
 
 
+def _is_english_title(title: str) -> bool:
+    """Heuristik: är titeln på engelska? Räknar vanliga engelska stoppord.
+    3+ stoppord = engelska."""
+    if not title:
+        return False
+    EN_STOPWORDS = {
+        " the ", " of ", " on ", " and ", " is ", " to ", " in ",
+        " for ", " with ", " by ", " a ", " an ", " are ", " be ",
+        " from ", " at ", " as ", " not ", " or ", " our ", " their ",
+        " its ", " new ", " how ", " why ", " what ", " when ",
+        " should ", " could ", " would ", " has ", " have ",
+    }
+    padded = f" {title.lower()} "
+    hits = sum(1 for w in EN_STOPWORDS if w in padded)
+    # Svenska-disqualifier: om titeln innehåller å/ä/ö är den nästan säkert svensk
+    if any(c in title for c in "åäöÅÄÖ"):
+        return False
+    return hits >= 3
+
+
 def _clean_title(item: dict) -> str:
-    """Tvättar intetsägande RSS/byrå-rubriker. Använder första meningen av
-    sammanfattningen som ersättningsrubrik när originaltiteln är opaque."""
+    """Tvättar intetsägande RSS/byrå-rubriker OCH översätter engelska titlar.
+    Använder första meningen av sammanfattningen som ersättningsrubrik när
+    originaltiteln är opaque eller engelsk."""
     title = (item.get("title") or "Utan titel").strip()
     samm = (item.get("analysis", {}).get("sammanfattning") or "").strip()
 
@@ -542,18 +563,29 @@ def _clean_title(item: dict) -> str:
         or any(p in lt for p in opaque_patterns)
         or len(title) < 15
     )
+    is_english = _is_english_title(title)
 
-    if is_opaque and samm:
-        # Första meningen av sammanfattning, men inte längre än 100 tecken
+    if (is_opaque or is_english) and samm:
+        # Första meningen av sammanfattning, men inte längre än 120 tecken
         import re as _re
         first = _re.split(r"(?<=[.!?])\s+", samm, maxsplit=1)[0]
         first = first.strip().rstrip(".")
-        if len(first) > 100:
-            first = first[:100].rsplit(" ", 1)[0] + "…"
+        if len(first) > 120:
+            first = first[:120].rsplit(" ", 1)[0] + "…"
         if len(first) > 15:  # bara om vi har en vettig mening
             return first
 
     return title
+
+
+def _original_title_if_translated(item: dict) -> str:
+    """Returnerar originaltiteln om _clean_title gav en svensk översättning.
+    Tom sträng om titel inte ändrades — visas som meta-undertext i kortet."""
+    original = (item.get("title") or "").strip()
+    cleaned = _clean_title(item)
+    if cleaned != original and original and not original.startswith(("Latest news", "Highlights")):
+        return original
+    return ""
 
 
 def _date_mini_card(entry: dict) -> str:
@@ -653,6 +685,11 @@ def _full_card(item: dict) -> str:
     arende = analysis.get("arende") or ""
     learned_from = analysis.get("_learned_from") or ""
     manually_set = analysis.get("_manually_set")
+    original_title = _original_title_if_translated(item)
+    original_row = (
+        f'<p class="original-title" title="Originalrubrik">📰 <em>{original_title}</em></p>'
+        if original_title else ""
+    )
     keyword_tags = " ".join(
         f'<span class="tag clickable" onclick="filterCards(\'keyword\', this.dataset.val)" '
         f'data-val="{kw.lower()}">{kw}</span>'
@@ -700,6 +737,7 @@ def _full_card(item: dict) -> str:
         {arende_chip}
         <h3>{title}</h3>
         <p class="meta">{meta}</p>
+        {original_row}
       </div>
       <div class="card-body">
         {sammanfattning_html}
@@ -1509,6 +1547,12 @@ def generate(items: list[dict], output_path: str = "digest.html",
     letter-spacing: 0.04em;
   }}
   .meta {{ font-size: 0.8rem; color: #888; margin-top: 0.2rem; }}
+  .original-title {{
+    font-size: 0.78rem; color: #666;
+    margin-top: 0.15rem; padding: 0.2rem 0;
+    border-top: 1px dashed #e0e0e0;
+  }}
+  .original-title em {{ font-style: italic; }}
   .card-body {{ padding: 0.8rem 1.2rem 1rem; border-top: 1px solid #f0f0f0; }}
   .sammanfattning {{
     background: #f6f8fc; border-left: 3px solid #cdd7ec;
