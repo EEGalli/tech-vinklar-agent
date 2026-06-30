@@ -485,7 +485,8 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     function cycleRelevans(btn) {{
-      const card = btn.closest('.card');
+      // Funkar både för fullkort (.card) och mini-kort (.mini-card)
+      const card = btn.closest('.card, .mini-card');
       if (!card) return;
       const url = card.dataset.url;
       if (!url) {{ alert("Saknar URL — kan inte spara ändring för detta ärende."); return; }}
@@ -493,6 +494,10 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       const idx = REL_CYCLE.indexOf(current);
       const next = REL_CYCLE[(idx + 1) % REL_CYCLE.length];
       updateCardRelevans(card, next, true);
+      // Synka alla andra kort med samma URL (samma ärende kan visas i flera sektioner)
+      document.querySelectorAll(`[data-url="${{CSS.escape(url)}}"]`).forEach(c => {{
+        if (c !== card) updateCardRelevans(c, next, true);
+      }});
       const overrides = loadOverrides();
       overrides[url] = next;
       saveOverrides(overrides);
@@ -501,18 +506,28 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     function updateCardRelevans(card, newRel, manual) {{
       card.dataset.relevans = newRel;
       card.classList.toggle('manually-set', !!manual);
+      const color = RELEVANCE_COLOR[newRel] || "#888";
+      const emoji = RELEVANCE_EMOJI[newRel] || "⚪";
+      const label = REL_LABEL[newRel] || newRel;
+      // Fullkort: uppdatera relevance-badge + header-kant
       const badge = card.querySelector('.relevance-badge');
       if (badge) {{
-        const color = RELEVANCE_COLOR[newRel] || "#888";
-        const emoji = RELEVANCE_EMOJI[newRel] || "⚪";
-        const label = REL_LABEL[newRel] || newRel;
         badge.style.background = color;
         badge.dataset.val = newRel;
         badge.setAttribute('title', `Klicka för att filtrera på ${{label}}`);
         badge.textContent = `${{emoji}} ${{label}}`;
       }}
       const header = card.querySelector('.card-header');
-      if (header) header.style.borderLeft = `4px solid ${{RELEVANCE_COLOR[newRel] || "#888"}}`;
+      if (header) header.style.borderLeft = `4px solid ${{color}}`;
+      // Mini-kort: uppdatera vänsterkanten + emoji i titeln
+      if (card.classList.contains('mini-card')) {{
+        card.style.borderLeft = `3px solid ${{color}}`;
+        const titleLink = card.querySelector('.mini-title');
+        if (titleLink) {{
+          const rest = titleLink.textContent.replace(/^[🔴🟡🟢⚪]\s*/, '');
+          titleLink.textContent = `${{emoji}} ${{rest}}`;
+        }}
+      }}
     }}
 
     function updateSaveBar() {{
@@ -715,10 +730,13 @@ def _mini_card(item: dict) -> str:
         "eu_koppling": analysis.get("eu_koppling") or "",
     }, ensure_ascii=False), quote=True)
 
+    # data-url + data-relevans behövs för att ✏️ ska kunna spara prio
+    url_attr = _esc(url_raw) if url_raw else ""
     return f"""
-    <div class="mini-card mini-card-expandable" style="border-left:3px solid {color}" onclick="expandMini(this)" data-full="{full_data}">
+    <div class="mini-card mini-card-expandable" style="border-left:3px solid {color}" onclick="expandMini(this)" data-full="{full_data}" data-url="{url_attr}" data-relevans="{_esc(relevans)}">
       <div class="mini-card-head">
         <a {link} target="_blank" class="mini-title" onclick="event.stopPropagation()">{emoji} {title}</a>
+        <button class="edit-relevans-btn mini-edit-btn" onclick="event.stopPropagation(); cycleRelevans(this)" title="Klicka för att ändra prioritet">✏️</button>
         <span class="mini-expand-hint">▾</span>
       </div>
       {meta_html}
@@ -1259,6 +1277,7 @@ def generate(items: list[dict], output_path: str = "digest.html",
     padding: 0.35rem 0.85rem;
     font-size: 0.85rem;
   }}
+  .stat.clickable:hover {{ background: rgba(255,255,255,0.25); }}
   main {{ max-width: 960px; margin: 2rem auto; padding: 0 1.5rem 4rem; }}
 
   /* ── Nytt idag-ruta ── */
@@ -1713,6 +1732,12 @@ def generate(items: list[dict], output_path: str = "digest.html",
     transition: transform 0.1s, background 0.1s;
   }}
   .edit-relevans-btn:hover {{ background: #fff; transform: scale(1.15); }}
+  .mini-edit-btn {{
+    width: 22px; height: 22px; font-size: 0.65rem;
+    margin-left: auto; flex-shrink: 0;
+  }}
+  .mini-card-head {{ display: flex; align-items: center; gap: 0.4rem; }}
+  .mini-card .mini-title {{ flex: 1; min-width: 0; }}
   .card.manually-set {{ box-shadow: 0 0 0 2px #8b5cf6, 0 2px 8px rgba(139,92,246,0.2); }}
   .card.manually-set .relevance-badge::after {{
     content: " ✏️"; font-size: 0.7rem;
@@ -1957,9 +1982,9 @@ def generate(items: list[dict], output_path: str = "digest.html",
   <h1>🔍 Tech Vinklar</h1>
   <p>EU &amp; Riksdagen · {date_str}</p>
   <div class="stats">
-    <div class="stat">📋 {len(items)} ärenden</div>
-    <div class="stat">🔴 {n_hog} hög prioritet</div>
-    <div class="stat">🟡 {n_med} medel</div>
+    <div class="stat clickable" onclick="resetFilter()" title="Visa alla ärenden">📋 {len(items)} ärenden</div>
+    <div class="stat clickable" onclick="filterCards('relevans', 'hög')" title="Filtrera på hög prioritet">🔴 {n_hog} hög prioritet</div>
+    <div class="stat clickable" onclick="filterCards('relevans', 'medel')" title="Filtrera på medel prioritet">🟡 {n_med} medel</div>
   </div>
 </header>
 <main>
