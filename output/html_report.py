@@ -21,9 +21,27 @@ SWEDISH_DAYS_SHORT = ["Mån", "Tis", "Ons", "Tor", "Fre", "Lör", "Sön"]
 
 
 def _parse_date(date_str: str) -> Optional[date]:
+    """Tolkar både ISO (2026-06-30) och RFC 822 (Mon, 01 Jan 2026 12:00:00 +0000).
+    Sex RSS-källor sparar pubDate i RFC 822-format som .strptime inte klarade
+    av — vilket fick ~70% av items att hamna utanför kalender och denna-vecka-vyn."""
+    if not date_str:
+        return None
+    s = date_str.strip()
+    # ISO först (vanligast)
+    try:
+        return datetime.fromisoformat(s[:19].replace("Z", "")).date()
+    except ValueError:
+        pass
+    # RFC 822 (RSS pubDate) — hanterar alla varianter inkl tidszoner
+    from email.utils import parsedate_to_datetime
+    try:
+        return parsedate_to_datetime(s).date()
+    except (TypeError, ValueError):
+        pass
+    # Fallback: gamla strptime-mönster
     for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%a, %d %b %Y"):
         try:
-            return datetime.strptime(date_str[:len(fmt) + 2], fmt).date()
+            return datetime.strptime(s[:len(fmt) + 2], fmt).date()
         except Exception:
             continue
     return None
@@ -34,14 +52,14 @@ def _swedish_date(d: date) -> str:
 
 
 def _date_sort_key(date_str: str) -> int:
-    """ISO-datum som heltal (YYYYMMDD) för sortering. Returnerar 0 om tomt/ogiltigt."""
+    """Datum som heltal (YYYYMMDD) för sortering. Tolkar både ISO och RFC 822
+    så att RSS-datum sorteras korrekt (förut blev 'Mon, 01 Jan' till 0)."""
     if not date_str:
         return 0
-    s = date_str[:10].replace("-", "")
-    try:
-        return int(s)
-    except ValueError:
-        return 0
+    d = _parse_date(date_str)
+    if d:
+        return int(d.strftime("%Y%m%d"))
+    return 0
 
 
 def _build_calendar_section(items: list[dict], important_dates: dict = None) -> str:

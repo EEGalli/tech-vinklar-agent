@@ -41,11 +41,13 @@ DOC_TYPE_PATH = {
 
 
 def _is_published(url: str) -> bool:
-    """Kontrollerar att dokumentet faktiskt är publicerat (inte bara reserverat i API:t)."""
+    """Kontrollerar att dokumentet faktiskt är publicerat (inte bara reserverat i API:t).
+    Använder HEAD-anrop + HTTP-status — den tidigare text-checken på 'inte publicerat'
+    matchade Riksdagens språkresurser som finns inbäddade på ALLA sidor (även publicerade),
+    vilket fick alla URL:er att tömmas felaktigt."""
     try:
-        time.sleep(1)
-        resp = SESSION.get(url, timeout=8)
-        return "inte publicerat" not in resp.text
+        resp = SESSION.head(url, timeout=20, allow_redirects=True)
+        return resp.status_code == 200
     except Exception:
         return False
 

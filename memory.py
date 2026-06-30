@@ -5,7 +5,27 @@ så att nästa körning kan summera vad som hände igår / i veckan.
 import json
 import os
 import re
+import time
 from datetime import datetime, date, timedelta
+
+
+def _atomic_write(path: str, data: dict) -> None:
+    """Skriv JSON atomärt: tmp-fil + rename. Förhindrar halvskrivna filer
+    vid avbruten process (CI-timeout, Ctrl-C)."""
+    tmp = f"{path}.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, path)
+
+
+def _backup_corrupt(path: str, reason: str) -> None:
+    """Döper om en korrupt fil till .corrupt-<ts> så data inte tyst skrivs över."""
+    backup = f"{path}.corrupt-{int(time.time())}"
+    try:
+        os.replace(path, backup)
+        print(f"  ⚠ KORRUPT {os.path.basename(path)}: {reason} — backup: {backup}", flush=True)
+    except OSError as e:
+        print(f"  ⚠ KORRUPT {os.path.basename(path)}: {reason} (backup misslyckades: {e})", flush=True)
 
 
 def _fix_url(url: str) -> str:
@@ -45,8 +65,7 @@ def save(items: list[dict]) -> None:
     # Behåll bara senaste 30 dagarna
     cutoff = (date.today() - timedelta(days=30)).isoformat()
     trimmed = {k: v for k, v in existing.items() if k >= cutoff}
-    with open(MEMORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(trimmed, f, ensure_ascii=False, indent=2)
+    _atomic_write(MEMORY_FILE, trimmed)
 
 
 def save_analysis_cache(items: list[dict], max_age_days: int = 30) -> None:
@@ -98,20 +117,20 @@ def save_analysis_cache(items: list[dict], max_age_days: int = 30) -> None:
     # Rensa poster äldre än max_age_days
     cutoff = (date.today() - timedelta(days=max_age_days)).isoformat()
     cache = {u: e for u, e in cache.items() if e.get("cached_at", "") >= cutoff}
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
+    _atomic_write(CACHE_FILE, cache)
     print(f"  [save_analysis_cache] skrev {len(cache)} items till disk", flush=True)
 
 
 def load_analysis_cache() -> dict:
-    """Läser analys-cachen. Returnerar {url: {analysis, title, cached_at}}."""
+    """Läser analys-cachen. Returnerar {url: {analysis, title, cached_at}}.
+    Säkerhetskopierar korrupt fil innan tom dict returneras."""
     if not os.path.exists(CACHE_FILE):
         return {}
     try:
         with open(CACHE_FILE, encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
-        print(f"  ⚠ KORRUPT analys-cache ({CACHE_FILE}): {e} — börjar om från tom", flush=True)
+        _backup_corrupt(CACHE_FILE, str(e))
         return {}
 
 
@@ -164,8 +183,7 @@ def save_dates(items: list[dict]) -> None:
                     match_title["beskrivning"] = beskrivning
                 continue
             existing[datum].append(entry)
-    with open(DATES_FILE, "w", encoding="utf-8") as f:
-        json.dump(existing, f, ensure_ascii=False, indent=2)
+    _atomic_write(DATES_FILE, existing)
 
 
 def get_important_dates() -> dict:
@@ -233,7 +251,7 @@ def _load_dates_raw() -> dict:
         with open(DATES_FILE, encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
-        print(f"  ⚠ KORRUPT datum-fil ({DATES_FILE}): {e} — börjar om från tom", flush=True)
+        _backup_corrupt(DATES_FILE, str(e))
         return {}
 
 
@@ -268,5 +286,5 @@ def _load_raw() -> dict:
                     item["url"] = _fix_url(item["url"])
         return data
     except Exception as e:
-        print(f"  ⚠ KORRUPT minnes-fil ({MEMORY_FILE}): {e} — börjar om från tom", flush=True)
+        _backup_corrupt(MEMORY_FILE, str(e))
         return {}

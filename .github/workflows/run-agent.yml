@@ -3,7 +3,13 @@ name: Run Tech Vinklar Agent
 on:
   workflow_dispatch:    # Manuell körning från Streamlit-knappen eller GitHub UI
   schedule:
-    - cron: "0 7 * * *"  # Varje dag 09:00 svensk tid (07:00 UTC)
+    - cron: "0 7 * * *"  # Varje dag 08:00 vintertid / 09:00 sommartid svensk tid (07:00 UTC)
+
+# Förhindra att två körningar (Streamlit-knapp + cron) skriver över varandras state.
+# En andra körning köas tills den första är klar istället för att krocka.
+concurrency:
+  group: run-agent
+  cancel-in-progress: false
 
 jobs:
   run-agent:

@@ -181,7 +181,10 @@ def fetch_cellar_recent_com_docs() -> list[dict]:
             title = b.get("title", {}).get("value", "")
             date = b.get("date", {}).get("value", "")[:10]
 
-            if title and _is_tech_relevant(title):
+            # SPARQL-frågan filtrerar redan på tech-ord (rad 152-158). Vi gör inte
+            # ett andra Python-filter — det krävde svenska nyckelord och slängde
+            # engelska COM-dokument om AI Act, Data Act, Cybersecurity etc.
+            if title:
                 results.append({
                     "source": "EU-kommissionen",
                     "type": "EC/COM-dokument (Cellar)",
