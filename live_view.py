@@ -174,10 +174,12 @@ def _change_prio(url: str, new_rel: str) -> None:
         st.session_state.overrides_pending[url] = new_rel
 
 
-def _render_item_card(item: dict, auto_save_ctx: dict | None = None) -> None:
+def _render_item_card(item: dict, auto_save_ctx: dict | None = None, key_prefix: str = "") -> None:
     """Renderar ett enda item som ett Streamlit-kort med prio-dropdown.
     auto_save_ctx (dict med root/repo/pat) triggar direkt-sparning till GitHub
-    vid varje ändring. Om None faller vi tillbaka till pending-model."""
+    vid varje ändring. Om None faller vi tillbaka till pending-model.
+    key_prefix läggs till widget-keys så samma item kan visas i flera sektioner
+    utan att Streamlit klagar på dubblett-keys."""
     url = item.get("url", "")
     rel = _effective_relevans(item)
     manual = _is_manually_set(item)
@@ -204,7 +206,7 @@ def _render_item_card(item: dict, auto_save_ctx: dict | None = None) -> None:
                 "Prioritet",
                 labels,
                 index=current_idx,
-                key=f"prio_{url or title}",
+                key=f"prio_{key_prefix}_{url or title}",
                 label_visibility="collapsed",
             )
             new_rel = options[labels.index(new_label)]
@@ -480,7 +482,7 @@ def _render_topics_section(arenden_data: dict, all_items: list[dict], auto_save_
                 doc_url = doc.get("url", "")
                 item = by_url.get(doc_url)
                 if item:
-                    _render_item_card(item, auto_save_ctx)
+                    _render_item_card(item, auto_save_ctx, key_prefix=f"topic_{arende_name}")
                 else:
                     # Item saknas i memory (kanske klustrat bort) — visa minimalt
                     d = (doc.get("date") or "")[:10]
@@ -519,7 +521,7 @@ def _render_uncategorized_section(all_items: list[dict], arenden_data: dict, fil
 
     st.caption(f"{len(uncat)} puckar som inte hör till ett specifikt ämne")
     for item in uncat[:30]:  # begränsa initial rendering
-        _render_item_card(item, auto_save_ctx)
+        _render_item_card(item, auto_save_ctx, key_prefix="uncat")
     if len(uncat) > 30:
         st.caption(f"... och {len(uncat) - 30} till (filtrera i sidopanelen för att smalna av)")
 
