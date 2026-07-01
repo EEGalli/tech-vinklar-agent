@@ -741,16 +741,10 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     function updateSaveBar() {{
-      const o = loadOverrides();
-      const n = Object.keys(o).length;
+      // Save-baren är utfasad — auto-save-flödet ersatte behovet.
+      // Behåller funktionen som no-op så andra ställen som anropar den inte kraschar.
       const bar = document.getElementById('save-overrides-bar');
-      if (!bar) return;
-      if (n > 0) {{
-        bar.querySelector('.save-count').textContent = n;
-        bar.classList.add('active');
-      }} else {{
-        bar.classList.remove('active');
-      }}
+      if (bar) bar.classList.remove('active');
     }}
 
     function showOverridesModal() {{
@@ -2512,27 +2506,8 @@ def generate(items: list[dict], output_path: str = "digest.html",
     <span>🚫 <span class="count">0</span> ärenden uteslutna ur rapporten.</span>
     <button id="excluded-toggle-btn" class="excluded-btn" onclick="toggleExcludedVisible()">Visa dem</button>
   </div>
-  <div id="save-overrides-bar" class="save-overrides-bar">
-    <span>✏️ <span class="save-count">0</span> osparade prioritet-ändringar</span>
-    <button class="save-overrides-btn" onclick="showOverridesModal()">Spara permanent →</button>
-  </div>
-  <div id="overrides-modal" class="overrides-modal" onclick="if(event.target===this)closeOverridesModal()">
-    <div class="overrides-modal-inner">
-      <h3>💾 Spara dina prioritet-ändringar permanent</h3>
-      <p>Dina ändringar finns i din webbläsare. För att agenten ska respektera dem nästa körning behöver de in i repo:t. Två sätt:</p>
-      <p><strong>Enkelt (rekommenderas):</strong></p>
-      <ol>
-        <li>Klicka <strong>Kopiera JSON</strong> nedan</li>
-        <li>Gå till <a href="https://github.com/EEGalli/tech-vinklar-agent/edit/main/.agent_overrides.json" target="_blank">.agent_overrides.json på GitHub</a> (skapas om den inte finns)</li>
-        <li>Klistra in, commit ändringen</li>
-      </ol>
-      <p><strong>Lokalt:</strong> kör <code>echo '...' &gt; .agent_overrides.json</code> i terminalen och pusha.</p>
-      <pre>{{}}</pre>
-      <button class="copy" onclick="copyOverridesJson()">📋 Kopiera JSON</button>
-      <button class="close" onclick="closeOverridesModal()">Stäng</button>
-      <button class="close" onclick="clearAllOverrides()" style="background:#fee;color:#c00">Nollställ alla</button>
-    </div>
-  </div>
+  <!-- save-overrides-bar och overrides-modal utfasade — auto-save ska ske via Streamlit-topbaren -->
+
   {new_today_section}
   {calendar_section}
   {lookback_section}
