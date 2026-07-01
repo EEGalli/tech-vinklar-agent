@@ -342,7 +342,6 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       const body = document.getElementById("day-panel-body");
       // Native <select> för prio — funkar oavsett iframe/panel-context
       const badge = `<div class="panel-card" data-url="${{url}}" data-relevans="${{rel}}">
-        <span class="relevance-badge" style="background:${{color}}">${{emoji}} ${{relLabel}}</span>
         <select class="prio-select" style="background:${{color}}"
                 onchange="setPrio(this.closest('.panel-card').dataset.url, this.value); this.blur();"
                 title="Ändra prioritet">
@@ -631,13 +630,18 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       const color = RELEVANCE_COLOR[newRel] || "#888";
       const emoji = RELEVANCE_EMOJI[newRel] || "⚪";
       const label = REL_LABEL[newRel] || newRel;
-      // Fullkort: uppdatera prio-trigger + header-kant
-      const badge = card.querySelector('.prio-trigger, .relevance-badge');
+      // Fullkort: uppdatera <select> så vald option matchar samt bakgrundsfärg
+      const sel = card.querySelector('.prio-select, .mini-prio-select');
+      if (sel) {{
+        sel.value = newRel;
+        sel.style.background = color;
+      }}
+      // Bakåtkompatibilitet: en gammal <span class="relevance-badge"> kan finnas
+      // i legacy-rapporter — uppdatera den också om den finns
+      const badge = card.querySelector('.relevance-badge');
       if (badge) {{
         badge.style.background = color;
-        badge.dataset.val = newRel;
-        badge.setAttribute('title', `Klicka för att ändra prioritet`);
-        badge.innerHTML = `${{emoji}} ${{label}} ▾`;
+        badge.innerHTML = `${{emoji}} ${{label}}`;
       }}
       const header = card.querySelector('.card-header');
       if (header) header.style.borderLeft = `4px solid ${{color}}`;
@@ -939,7 +943,6 @@ def _full_card(item: dict) -> str:
     return f"""
     <div class="card" data-url="{url}" data-relevans="{_esc(relevans)}" data-arende="{_esc(arende.lower())}" data-keywords="{kw_data}">
       <div class="card-header" style="border-left:4px solid {color}">
-        <span class="relevance-badge" style="background:{color}">{emoji} {label}</span>
         <select class="prio-select" style="background:{color}"
                 onchange="setPrio(this.closest('.card').dataset.url, this.value); this.blur();"
                 title="Ändra prioritet">
