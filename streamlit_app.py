@@ -514,6 +514,8 @@ with tab_live:
     for _day_items in _load_json(".agent_memory.json").values():
         for _it in _day_items:
             _u = _it.get("url", "")
+            if _u and _u in _seen_urls:
+                continue  # samma URL i flera dagar → visa bara en gång
             if _u:
                 _seen_urls.add(_u)
             _all_items.append(_it)
