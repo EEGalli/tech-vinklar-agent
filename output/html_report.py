@@ -340,11 +340,17 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       const relLabel = ({{"hög":"Hög prioritet","medel":"Medel","låg":"Låg","okänd":"Okänd"}})[rel] || rel;
       document.getElementById("day-panel-title").textContent = d.title;
       const body = document.getElementById("day-panel-body");
-      // Prio-badge med dropdown-trigger — samma UX som på kort-sidan
+      // Native <select> för prio — funkar oavsett iframe/panel-context
       const badge = `<div class="panel-card" data-url="${{url}}" data-relevans="${{rel}}">
-        <span class="relevance-badge prio-trigger" style="background:${{color}}"
-              onclick="openPrioMenu(this, event)" data-val="${{rel}}"
-              title="Klicka för att ändra prioritet">${{emoji}} ${{relLabel}} ▾</span>`;
+        <span class="relevance-badge" style="background:${{color}}">${{emoji}} ${{relLabel}}</span>
+        <select class="prio-select" style="background:${{color}}"
+                onchange="setPrio(this.closest('.panel-card').dataset.url, this.value); this.blur();"
+                title="Ändra prioritet">
+          <option value="hög" ${{rel === "hög" ? "selected" : ""}}>🔴 Hög prioritet</option>
+          <option value="medel" ${{rel === "medel" ? "selected" : ""}}>🟡 Medel</option>
+          <option value="låg" ${{rel === "låg" ? "selected" : ""}}>🟢 Låg</option>
+          <option value="utesluten" ${{rel === "utesluten" ? "selected" : ""}}>🚫 Uteslut från rapport</option>
+        </select>`;
       const meta = d.meta ? `<p class="panel-meta">${{d.meta}}</p>` : "";
       const samm = d.sammanfattning ? `<p class="panel-samm"><strong>Vad handlar det om?</strong> ${{d.sammanfattning}}</p>` : "";
       const vinkel = d.tech_vinkel ? `<p class="panel-vinkel"><strong>Tech-vinkel:</strong> ${{d.tech_vinkel}}</p>` : "";
@@ -851,7 +857,15 @@ def _mini_card(item: dict) -> str:
     return f"""
     <div class="mini-card mini-card-expandable" style="border-left:3px solid {color}" onclick="expandMini(this)" data-full="{full_data}" data-url="{url_attr}" data-relevans="{_esc(relevans)}">
       <div class="mini-card-head">
-        <span class="mini-prio-trigger" style="background:{color}" onclick="event.stopPropagation(); openPrioMenu(this, event)" title="Klicka för att ändra prioritet">{emoji}</span>
+        <select class="mini-prio-select" style="background:{color}"
+                onclick="event.stopPropagation()"
+                onchange="event.stopPropagation(); setPrio(this.closest('.mini-card').dataset.url, this.value); this.blur();"
+                title="Ändra prioritet">
+          <option value="hög" {"selected" if relevans == "hög" else ""}>🔴 Hög</option>
+          <option value="medel" {"selected" if relevans == "medel" else ""}>🟡 Medel</option>
+          <option value="låg" {"selected" if relevans == "låg" else ""}>🟢 Låg</option>
+          <option value="utesluten" {"selected" if relevans == "utesluten" else ""}>🚫 Uteslut</option>
+        </select>
         <a {link} target="_blank" class="mini-title" onclick="event.stopPropagation()">{title}</a>
         <span class="mini-expand-hint">▾</span>
       </div>
@@ -925,10 +939,15 @@ def _full_card(item: dict) -> str:
     return f"""
     <div class="card" data-url="{url}" data-relevans="{_esc(relevans)}" data-arende="{_esc(arende.lower())}" data-keywords="{kw_data}">
       <div class="card-header" style="border-left:4px solid {color}">
-        <span class="relevance-badge prio-trigger" style="background:{color}"
-              onclick="openPrioMenu(this, event)"
-              data-val="{relevans}"
-              title="Klicka för att ändra prioritet">{emoji} {label} ▾</span>
+        <span class="relevance-badge" style="background:{color}">{emoji} {label}</span>
+        <select class="prio-select" style="background:{color}"
+                onchange="setPrio(this.closest('.card').dataset.url, this.value); this.blur();"
+                title="Ändra prioritet">
+          <option value="hög" {"selected" if relevans == "hög" else ""}>🔴 Hög prioritet</option>
+          <option value="medel" {"selected" if relevans == "medel" else ""}>🟡 Medel</option>
+          <option value="låg" {"selected" if relevans == "låg" else ""}>🟢 Låg</option>
+          <option value="utesluten" {"selected" if relevans == "utesluten" else ""}>🚫 Uteslut från rapport</option>
+        </select>
         {arende_chip}
         <h3>{title}</h3>
         <p class="meta">{meta}</p>
@@ -1853,6 +1872,24 @@ def generate(items: list[dict], output_path: str = "digest.html",
   .mini-card-head {{ display: flex; align-items: center; gap: 0.5rem; }}
   .mini-card .mini-title {{ flex: 1; min-width: 0; }}
   /* Dropdown-meny för prio-val */
+  /* Native <select> som prio-väljare — funkar oavsett iframe/CSS-quirks */
+  .prio-select, .mini-prio-select {{
+    color: white; border: 0;
+    font-size: 0.75rem; font-weight: 600;
+    padding: 0.2rem 0.5rem; border-radius: 20px;
+    cursor: pointer; margin-left: 0.4rem;
+    -webkit-appearance: none; appearance: none;
+    text-align: center;
+  }}
+  .prio-select {{ font-size: 0.72rem; padding: 0.2rem 0.6rem; }}
+  .mini-prio-select {{
+    width: 26px; height: 26px; padding: 0;
+    border-radius: 50%; font-size: 0.75rem;
+  }}
+  .prio-select option, .mini-prio-select option {{
+    background: white; color: #1a1a2e;
+    padding: 0.4rem;
+  }}
   .prio-menu {{
     position: fixed; z-index: 2000;
     background: #fff; border: 1px solid #ddd;

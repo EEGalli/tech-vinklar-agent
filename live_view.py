@@ -348,7 +348,8 @@ def _items_last_24h(all_items: list[dict], cache: dict) -> list[dict]:
             continue
         analysis = entry.get("analysis") or {}
         rel = analysis.get("relevans", "okänd")
-        if rel not in ("hög", "medel"):
+        # Bara hög-prio i "Nytt idag" — medel/låg finns i sina egna sektioner
+        if rel != "hög":
             continue
         # Föredra full item om det finns, fall tillbaka till cache-entryn
         by_url = {i.get("url"): i for i in all_items if i.get("url") == url}
