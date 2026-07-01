@@ -446,16 +446,16 @@ with tab_live:
             return True, f"synkade {len(merged)} val"
         return False, f"PUT misslyckades (HTTP {r.status_code})"
 
-    # Om HTML-rapporten skickade ändringar via URL-parameter → spara till GitHub
+    # Om HTML-rapporten öppnat oss i ny flik med spardata i URL:en → spara till GitHub
     _params = st.query_params
     _save_param = _params.get("_save_overrides", "")
     if _save_param:
+        _incoming = {}
         try:
             import base64 as _b64_dec
             _decoded = _b64_dec.b64decode(_save_param).decode("utf-8")
             _incoming = json.loads(_decoded)
         except Exception:
-            _incoming = {}
             st.error("Kunde inte tolka sparningsdata från webbläsaren")
         if _incoming:
             _pat = _get_pat()
@@ -464,7 +464,16 @@ with tab_live:
             else:
                 _ok, _msg = _sync_overrides_to_github(_incoming, _pat)
                 if _ok:
-                    st.success(f"✓ Prio-ändringar sparade ({_msg})")
+                    st.success(f"✅ Prio-ändringar sparade! ({_msg}) — den här fliken kan stängas.")
+                    # Rensa localStorage i den här fliken + försök säga till andra flikar
+                    # att också rensa (samma origin så det funkar via storage-event)
+                    st.markdown("""
+                    <script>
+                      try {
+                        localStorage.removeItem('tv_relevans_overrides_v1');
+                      } catch(e){}
+                    </script>
+                    """, unsafe_allow_html=True)
                 else:
                     st.error(f"Sparfel: {_msg}")
         # Rensa URL-parametern så refresh inte upprepar sparningen

@@ -755,19 +755,23 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       }}
     }}
 
-    // Kodar dina prio-ändringar i URL:en och navigerar hela sidan så
-    // Streamlit-appen kan läsa dem och spara till GitHub.
+    // Öppna Streamlit-appen i ny flik med sparningsdatan i URL:en.
+    // (Streamlit Cloud sandboxar iframen så vi kan inte navigera parent direkt.)
     function saveToRepo() {{
       const o = loadOverrides();
       if (Object.keys(o).length === 0) return;
       try {{
         const json = JSON.stringify(o);
         const b64 = btoa(unescape(encodeURIComponent(json)));
-        // Navigera parent-fönstret så Streamlit ser query param
-        const target = window.top || window.parent || window;
-        const url = new URL(target.location.href);
+        // Bygg URL från parent's location om möjligt, annars document.referrer,
+        // annars aktuell URL
+        let baseUrl = "";
+        try {{ baseUrl = (window.top || window.parent).location.href; }}
+        catch (e) {{ baseUrl = document.referrer || window.location.href; }}
+        const url = new URL(baseUrl);
         url.searchParams.set('_save_overrides', b64);
-        target.location.href = url.toString();
+        // Öppna i ny flik — undviker sandbox-restriktioner helt
+        window.open(url.toString(), '_blank');
       }} catch (e) {{
         alert('Kunde inte spara: ' + e.message);
       }}
