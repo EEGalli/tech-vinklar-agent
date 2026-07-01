@@ -780,6 +780,17 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
 
     applyOverridesOnLoad();
 
+    // Toggla "Visa mer" per tema på dashboarden
+    function toggleDashMore(btn) {{
+      const tema = btn.closest('.dash-tema');
+      if (!tema) return;
+      const isExpanded = tema.classList.toggle('expanded');
+      const hiddenCount = tema.querySelectorAll('.dash-row.dash-hidden-extra').length;
+      btn.textContent = isExpanded
+        ? 'Visa färre ↑'
+        : `Visa ${{hiddenCount}} till →`;
+    }}
+
     // Klick på dashboard-rad (eller annan sammanfattning) → scrolla till fullkortet
     // och highlighta det i en sekund så användaren ser var det landade
     function jumpToCard(anchor, ev) {{
@@ -1422,7 +1433,8 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
 
         emoji = TEMA_EMOJI.get(tema, "•")
         rows = ""
-        for item in tema_items:
+        for _idx, item in enumerate(tema_items):
+            _is_hidden = _idx >= 3  # bara topp 3 syns som default per tema
             analysis = item.get("analysis", {})
             title = _clean_title(item)
             relevans = analysis.get("relevans", "okänd")
@@ -1490,8 +1502,9 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
                 "varfor": analysis.get("varfor_viktigt", ""),
                 "eu_koppling": analysis.get("eu_koppling") or "",
             }, ensure_ascii=False), quote=True)
+            _hidden_class = " dash-hidden-extra" if _is_hidden else ""
             rows += f"""
-            <div class="dash-row clickable" id="{anchor}" data-full="{dash_full_data}" data-url="{_esc(item.get('url',''))}" data-relevans="{_esc(relevans)}" onclick="expandMini(this)" title="Klicka för att öppna ärendekortet">
+            <div class="dash-row clickable{_hidden_class}" id="{anchor}" data-full="{dash_full_data}" data-url="{_esc(item.get('url',''))}" data-relevans="{_esc(relevans)}" onclick="expandMini(this)" title="Klicka för att öppna ärendekortet">
               <span class="dash-dot" style="background:{dot_color}"></span>
               <div class="dash-main">
                 {title_el}
@@ -1505,10 +1518,17 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
               </div>
             </div>"""
 
+        _extra_count = max(0, len(tema_items) - 3)
+        _more_btn = (
+            f'<button class="dash-more-btn" onclick="toggleDashMore(this)">'
+            f'Visa {_extra_count} till →</button>'
+            if _extra_count > 0 else ""
+        )
         blocks += f"""
         <div class="dash-tema">
           <h3 class="dash-tema-title">{emoji} {tema} <span class="dash-count">{len(tema_items)}</span></h3>
           <div class="dash-rows">{rows}</div>
+          {_more_btn}
         </div>"""
 
     return f"""
@@ -1774,6 +1794,16 @@ def generate(items: list[dict], output_path: str = "digest.html",
     border-radius: 20px;
   }}
   .dash-rows {{ display: flex; flex-direction: column; gap: 0.5rem; }}
+  /* Gömda extra items per tema — visas när "Visa X till" klickas */
+  .dash-row.dash-hidden-extra {{ display: none; }}
+  .dash-tema.expanded .dash-row.dash-hidden-extra {{ display: grid; }}
+  .dash-more-btn {{
+    background: none; border: 0; color: #4a6cf7;
+    padding: 0.5rem 0.25rem 0; font-size: 0.85rem;
+    cursor: pointer; text-align: left; width: 100%;
+    font-weight: 500;
+  }}
+  .dash-more-btn:hover {{ text-decoration: underline; }}
   .dash-row {{
     display: grid;
     grid-template-columns: 10px 1fr auto;
