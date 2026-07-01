@@ -446,28 +446,31 @@ with tab_live:
             return True, f"synkade {len(merged)} val"
         return False, f"PUT misslyckades (HTTP {r.status_code})"
 
-    # Läs localStorage-nyckeln (kräver streamlit-local-storage)
-    try:
-        from streamlit_local_storage import LocalStorage
-        _lstorage = LocalStorage()
-        _local_overrides_raw = _lstorage.getItem("tv_relevans_overrides_v1")
-        _local_overrides = json.loads(_local_overrides_raw) if _local_overrides_raw else {}
-    except Exception:
-        _local_overrides = {}
+    # Kör bara localStorage-läsning + sync EN gång per session, inte vid varje rerender.
+    # Streamlit rerender vid varje klick — om vi läste localStorage varje gång skulle
+    # UI kännas laggigt (dold iframe måste laddas + ev. GitHub-anrop).
+    if not st.session_state.get("_synced_this_session", False):
+        try:
+            from streamlit_local_storage import LocalStorage
+            _lstorage = LocalStorage()
+            _local_overrides_raw = _lstorage.getItem("tv_relevans_overrides_v1")
+            _local_overrides = json.loads(_local_overrides_raw) if _local_overrides_raw else {}
+        except Exception:
+            _local_overrides = {}
 
-    # Auto-synka om något finns i webbläsaren
-    if _local_overrides:
-        _pat = _get_pat()
-        _committed = _load_json(".agent_overrides.json") or {}
-        # Detektera skillnad
-        _diff = {k: v for k, v in _local_overrides.items()
-                 if _is_safe_url(k) and v in _VALID_RELEVANS and _committed.get(k) != v}
-        if _diff:
-            _ok, _msg = _sync_overrides_to_github(_local_overrides, _pat)
-            if _ok:
-                st.toast(f"✓ Synkade {len(_diff)} prio-ändringar", icon="💾")
-            else:
-                st.warning(f"Kunde inte synka prio-ändringar: {_msg}")
+        if _local_overrides:
+            _pat = _get_pat()
+            _committed = _load_json(".agent_overrides.json") or {}
+            _diff = {k: v for k, v in _local_overrides.items()
+                     if _is_safe_url(k) and v in _VALID_RELEVANS and _committed.get(k) != v}
+            if _diff:
+                _ok, _msg = _sync_overrides_to_github(_local_overrides, _pat)
+                if _ok:
+                    st.toast(f"✓ Synkade {len(_diff)} prio-ändringar", icon="💾")
+                else:
+                    st.warning(f"Kunde inte synka prio-ändringar: {_msg}")
+        # Markera att vi kollat — nästa rerender skippar sync-jobbet
+        st.session_state["_synced_this_session"] = True
 
     # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
     _STRETCH_TECH_PATTERNS = (
