@@ -574,14 +574,14 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
         </div>
       `).join('');
       document.body.appendChild(menu);
-      // Positionera menyn under badgen
+      // Positionera menyn under badgen (position: fixed = viewport-koordinater)
       const rect = trigger.getBoundingClientRect();
-      menu.style.top = (window.scrollY + rect.bottom + 6) + 'px';
-      menu.style.left = (window.scrollX + rect.left) + 'px';
+      menu.style.top = (rect.bottom + 6) + 'px';
+      menu.style.left = rect.left + 'px';
       // Om menyn sticker ut åt höger, justera
       const menuRect = menu.getBoundingClientRect();
       if (menuRect.right > window.innerWidth - 10) {{
-        menu.style.left = (window.scrollX + window.innerWidth - menuRect.width - 10) + 'px';
+        menu.style.left = (window.innerWidth - menuRect.width - 10) + 'px';
       }}
       // Klick-handler för menyval
       menu.querySelectorAll('.prio-menu-item').forEach(el => {{
@@ -1854,9 +1854,9 @@ def generate(items: list[dict], output_path: str = "digest.html",
   .mini-card .mini-title {{ flex: 1; min-width: 0; }}
   /* Dropdown-meny för prio-val */
   .prio-menu {{
-    position: absolute; z-index: 500;
+    position: fixed; z-index: 2000;
     background: #fff; border: 1px solid #ddd;
-    border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);
     padding: 0.35rem; min-width: 200px;
     font-size: 0.9rem;
   }}
