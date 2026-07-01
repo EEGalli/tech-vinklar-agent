@@ -524,6 +524,13 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
           updateCardRelevans(card, val, true);
         }}
       }});
+      // 'Nytt idag' visar bara hög — göm de items där override sagt lägre prio
+      document.querySelectorAll('.nt-li-click').forEach(li => {{
+        const url = li.dataset.url;
+        if (url && o[url] && o[url] !== 'hög') {{
+          li.classList.add('nt-hidden-by-prio');
+        }}
+      }});
       updateSaveBar();
       updateExcludedBanner();
     }}
@@ -616,6 +623,14 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
         }} else {{
           card.classList.remove('excluded', 'showing');
           updateCardRelevans(card, newVal, true);
+        }}
+      }});
+      // 'Nytt idag' visar bara hög-prio — dölj items som blivit medel/låg/utesluten
+      document.querySelectorAll(`.nt-li-click[data-url="${{CSS.escape(url)}}"]`).forEach(li => {{
+        if (newVal === 'hög') {{
+          li.classList.remove('nt-hidden-by-prio');
+        }} else {{
+          li.classList.add('nt-hidden-by-prio');
         }}
       }});
       const overrides = loadOverrides();
@@ -1917,6 +1932,8 @@ def generate(items: list[dict], output_path: str = "digest.html",
   .prio-menu-item.exclude:hover {{ background: #fef2f2; color: #991b1b; }}
   /* Uteslutna kort göms */
   .card.excluded, .mini-card.excluded {{ display: none !important; }}
+  /* Nytt idag-items som ändrats till lägre prio göms från listan */
+  .nt-li-click.nt-hidden-by-prio {{ display: none !important; }}
   /* Flärp uppe som visar utslutna items */
   .excluded-banner {{
     position: sticky; top: 0; z-index: 90;
