@@ -1022,8 +1022,8 @@ def _build_new_today_section(items: list[dict], today_date: date) -> str:
 
     today_iso = today_date.isoformat()
     yesterday_iso = (today_date - timedelta(days=1)).isoformat()
-    # Filtrera bort uppenbart icke-tech: bara hög/medel släpps in
-    ok_relevans = {"hög", "medel"}
+    # Bara högt prioriterade i "Nytt idag" — medel/låg hamnar i sina egna sektioner
+    ok_relevans = {"hög"}
     new_items: list[dict] = []
     items_by_url = {i.get("url"): i for i in items if i.get("url")}
     for url, entry in cache.items():
