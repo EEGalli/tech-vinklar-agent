@@ -1489,7 +1489,7 @@ def generate(items: list[dict], output_path: str = "digest.html",
   }}
   .compact-stats .stat {{ background: #eef2ff; color: #1a1a2e; }}
   .compact-stats .stat.clickable:hover {{ background: #dbe4ff; }}
-  main {{ max-width: 960px; margin: 2rem auto; padding: 0 1.5rem 4rem; }}
+  main {{ max-width: 1400px; margin: 1rem auto 2rem; padding: 0 1.5rem 4rem; }}
 
   /* ── Nytt idag-ruta ── */
   .new-today-section {{
