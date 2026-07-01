@@ -834,7 +834,8 @@ def _mini_card(item: dict) -> str:
     vinkel_raw = analysis.get("tech_vinkel", "")
     source = _esc(item.get("source", ""))
     item_type = _esc(item.get("type", ""))
-    meta_bits = [b for b in (source, item_type) if b]
+    date_str = _esc(_format_item_date(item.get("date", "")))
+    meta_bits = [b for b in (date_str, source, item_type) if b]
     meta = " · ".join(meta_bits)
     link = f'href="{url}"' if (_url_specific and url) else ""
 
@@ -1144,10 +1145,13 @@ def _build_new_today_section(items: list[dict], today_date: date) -> str:
             "varfor": analysis.get("varfor_viktigt", ""),
             "eu_koppling": analysis.get("eu_koppling") or "",
         }, ensure_ascii=False), quote=True)
+        item_date = _format_item_date(item.get("date", ""))
+        date_html = f'<span class="nt-date">{_esc(item_date)}</span>' if item_date else ""
         rows += f"""
         <li onclick="expandMini(this)" data-full="{full_data}" data-url="{_esc(item.get('url',''))}" data-relevans="{_esc(relevans)}" class="nt-li-click">
           <span class="nt-dot" style="background:{dot_color}"></span>
           <span class="nt-link">{title}</span>
+          {date_html}
           <span class="nt-src">{source}</span>
         </li>"""
 
@@ -1203,20 +1207,18 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
             source = item.get("source", "")
             source_short = SOURCE_SHORT.get(source, source)
 
-            # Badge för status + formaterat datum (alltid synligt)
-            date_str = (item.get("date") or "")[:10]
+            # Badge för status + formaterat datum (alltid synligt).
+            # Använd _parse_date för att hantera både ISO och RSS-format
+            raw_date = item.get("date") or ""
+            d = _parse_date(raw_date)
             status_badge = ""
             date_label = ""
-            if date_str:
-                try:
-                    d = date.fromisoformat(date_str)
-                    date_label = _swedish_date(d)
-                    if d == today_date:
-                        status_badge = '<span class="dash-badge dash-badge-today">IDAG</span>'
-                    elif d == today_date - timedelta(days=1):
-                        status_badge = '<span class="dash-badge dash-badge-new">IGÅR</span>'
-                except ValueError:
-                    date_label = date_str
+            if d:
+                date_label = _swedish_date(d)
+                if d == today_date:
+                    status_badge = '<span class="dash-badge dash-badge-today">IDAG</span>'
+                elif d == today_date - timedelta(days=1):
+                    status_badge = '<span class="dash-badge dash-badge-new">IGÅR</span>'
             date_html = f'<span class="dash-date">{date_label}</span>' if date_label else ""
 
             # Både kort sammanfattning (vad det är) och tech-vinkel (varför tech).
@@ -1474,6 +1476,7 @@ def generate(items: list[dict], output_path: str = "digest.html",
     font-weight: 500;
   }}
   .nt-li-click {{ cursor: pointer; transition: background 0.1s; }}
+  .nt-date {{ font-size: 0.78rem; color: #667; margin-right: 0.5rem; white-space: nowrap; }}
   .nt-li-click:hover {{ background: rgba(255,255,255,0.4); }}
   .nt-li-click:hover .nt-link {{ color: #4a6cf7; }}
   .nt-src {{
