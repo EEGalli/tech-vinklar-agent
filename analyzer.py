@@ -449,7 +449,7 @@ Svara EXAKT i detta JSON-format, inget annat:
   "varfor_viktigt": "3-4 meningar om konkreta konsekvenser, vad som står på spel, vilka aktörer som påverkas, och varför tajmingen spelar roll.",
   "eu_koppling": "Koppling till EU-lagstiftning eller null",
   "keywords": ["nyckelord1", "nyckelord2"],{arende_instruction}
-  "viktiga_datum": [{{"datum": "YYYY-MM-DD", "beskrivning": "Vad händer detta datum"}}]
+  "viktiga_datum": [{{"datum": "YYYY-MM-DD", "beskrivning": "Vad händer detta datum. Måste stå på egna ben som en kalenderrad — börja INTE med 'Den/Det/Denna X' utan kontext. Prefixa alltid med ärendenamnet eller vad-det-gäller så en tech-journalist förstår vid första anblick. Exempel bra: 'GDPR-anmälningsmall: Träder i kraft'. Exempel dåligt: 'Den gemensamma mallen träder i kraft'."}}]
 }}"""
 
     response_text = ""

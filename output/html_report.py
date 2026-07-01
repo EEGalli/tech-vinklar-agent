@@ -112,6 +112,59 @@ def _date_sort_key(date_str: str) -> int:
     return 0
 
 
+_GENERIC_DESC_STARTS = (
+    "den ", "det ", "denna ", "detta ", "de ", "en ", "ett ",
+    "rapport ", "rapporten ", "beslutet ", "mötet ", "utfallet ",
+    "propositionen ", "utskottet ", "beskrivningen ", "förslaget ",
+    "förhandlingen ", "överenskommelsen ", "resultatet ",
+    "uppdraget ", "granskningen ", "utredningen ",
+)
+
+
+def _contextualize_date_description(
+    beskrivning: str, src_title: str, arende: str
+) -> str:
+    """Prefixar en kalender-händelse med källdokumentets kontext om beskrivningen
+    står ensam ('Den gemensamma mallen träder i kraft' → 'GDPR-anmälningsmall:
+    Träder i kraft'). Kontext = ärendenamn (om finns) eller renskuren titel."""
+    if not beskrivning:
+        return beskrivning
+    b = beskrivning.strip()
+    b_low = b.lower()
+    # Bestäm kontext-strängen — arende om finns, annars titel-derivat
+    context = (arende or "").strip()
+    if not context and src_title:
+        clean_title = src_title.strip()
+        # Skippa opake RSS-prefix
+        for prefix in ("Latest news -", "Highlights -", "Next Committee",
+                       "Committee on ", "Meeting of", "News from"):
+            if clean_title.startswith(prefix):
+                clean_title = ""
+                break
+        # Långa titlar → klipp vid naturlig brytpunkt så vi får ett kort ledord
+        if clean_title and len(clean_title) > 60:
+            for br in (": ", " — ", " – ", " - ", ", "):
+                idx = clean_title.find(br, 8, 55)
+                if idx > 0:
+                    clean_title = clean_title[:idx]
+                    break
+            else:
+                # Ingen brytpunkt: ta första 5 orden
+                clean_title = " ".join(clean_title.split()[:5])
+        if clean_title and len(clean_title) > 6:
+            context = clean_title
+    if not context:
+        return b
+    # Om kontexten redan finns i beskrivningen — lämna
+    if len(context) > 6 and context.lower() in b_low:
+        return b
+    # Om beskrivningen börjar kontext-löst (pronomen/generisk term) → prefixa
+    starts_generic = any(b_low.startswith(p) for p in _GENERIC_DESC_STARTS)
+    if starts_generic:
+        return f"{context}: {b}"
+    return b
+
+
 def _build_calendar_section(items: list[dict], important_dates: dict = None) -> str:
     """Bygger idag / denna vecka / månadskalender med klickbara datum."""
     import json as _json
@@ -179,18 +232,20 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
         existing_beskrivningar = {i.get("title","") for i in by_date[d]}
         existing_urls = {i.get("url","") for i in by_date[d] if i.get("url")}
         for e in entries:
-            beskrivning = e.get("beskrivning", "")
+            raw_beskr = e.get("beskrivning", "")
             src_url = e.get("url", "")
-            # Dedupera mot allt som redan finns på datumet:
-            # 1. Samma beskrivning (gamla dedup)
-            # 2. Samma URL — synthetic item är en duplicering av källdokumentet
-            if beskrivning in existing_beskrivningar:
+            # Dedupera mot allt som redan finns på datumet
+            if raw_beskr in existing_beskrivningar:
                 continue
             if src_url and src_url in existing_urls:
                 continue
             # Hämta sammanfattning + tech-vinkel från källdokumentet
             src_title = e.get("title", "")
             src_analysis = title_to_analysis.get(src_title, {})
+            # Prefixa beskrivningen med ärende/titel om den saknar kontext
+            beskrivning = _contextualize_date_description(
+                raw_beskr, src_title, e.get("arende", "") or ""
+            )
             by_date[d].append({
                 "title": beskrivning,
                 "url": e.get("url", ""),
