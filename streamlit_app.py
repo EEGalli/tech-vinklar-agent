@@ -435,10 +435,41 @@ with tab_live:
             "analysis": _entry.get("analysis", {}),
         })
 
+    # Bygg important_dates: kombinera .agent_dates.json (bara memory-items har landat där)
+    # med viktiga_datum från alla items (inkl cache-items som annars saknar sina framtida datum).
+    from datetime import datetime as _dt
+    _important_dates = _load_json(".agent_dates.json") or {}
+    _seen_date_entries: set[tuple[str, str, str]] = set()
+    for _d_iso, _entries in _important_dates.items():
+        for _e in _entries:
+            _seen_date_entries.add((_d_iso, _e.get("title", ""), _e.get("beskrivning", "")))
+    for _it in _all_items:
+        _analysis = _it.get("analysis") or {}
+        for _vd in (_analysis.get("viktiga_datum") or []):
+            _datum = _vd.get("datum", "")
+            _beskr = _vd.get("beskrivning", "")
+            if not _datum or not _beskr:
+                continue
+            try:
+                _dt.strptime(_datum, "%Y-%m-%d")
+            except (ValueError, TypeError):
+                continue
+            _entry = {
+                "beskrivning": _beskr,
+                "title": _it.get("title", ""),
+                "url": _it.get("url", ""),
+                "arende": _analysis.get("arende", "") or "",
+            }
+            _key = (_datum, _entry["title"], _beskr)
+            if _key in _seen_date_entries:
+                continue
+            _seen_date_entries.add(_key)
+            _important_dates.setdefault(_datum, []).append(_entry)
+
     try:
         with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
             _tmp_path = _f.name
-        _gen_html(_all_items, output_path=_tmp_path)
+        _gen_html(_all_items, output_path=_tmp_path, important_dates=_important_dates)
         with open(_tmp_path, encoding="utf-8") as _f:
             _live_html = _f.read()
         os.unlink(_tmp_path)
