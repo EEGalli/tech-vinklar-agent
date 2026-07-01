@@ -1075,28 +1075,36 @@ def _item_anchor(item: dict) -> str:
 
 
 def _build_new_today_section(items: list[dict], today_date: date) -> str:
-    """Bygger en 'Senaste 24h'-ruta: items vars cached_at är idag eller igår
-    (rolling window) — så att items inte 'försvinner' bara för att man kör
-    flera gånger samma dag eller passerar midnatt."""
+    """Bygger en 'Senaste 24h'-ruta: items vars faktiska publiceringsdatum är
+    idag eller igår. Cachar_at duger inte som "nytt"-indikator: när en ny källa
+    läggs till får alla dess historiska items cached_at=idag men publiceringsdatum
+    är gammalt. Vi vill bara visa dokument som faktiskt är nya."""
     try:
         import memory as _mem
         cache = _mem.load_analysis_cache()
     except Exception:
         cache = {}
 
-    today_iso = today_date.isoformat()
-    yesterday_iso = (today_date - timedelta(days=1)).isoformat()
+    yesterday_date = today_date - timedelta(days=1)
     # Bara högt prioriterade i "Nytt idag" — medel/låg hamnar i sina egna sektioner
     ok_relevans = {"hög"}
     new_items: list[dict] = []
     items_by_url = {i.get("url"): i for i in items if i.get("url")}
     for url, entry in cache.items():
-        cached_at = entry.get("cached_at", "")
-        # Rolling 24h: ta med items från idag och igår
-        if cached_at != today_iso and cached_at != yesterday_iso:
-            continue
         analysis = entry.get("analysis") or {}
         if analysis.get("relevans") not in ok_relevans:
+            continue
+        # Kolla publiceringsdatum — bara dokument från idag eller igår räknas som nya
+        raw_date = entry.get("date") or ""
+        # Om cachen saknar datum, fall tillbaka till memory-versionen
+        if not raw_date:
+            mem_item = items_by_url.get(url)
+            if mem_item:
+                raw_date = mem_item.get("date", "")
+        parsed = _parse_date(raw_date)
+        if parsed is None:
+            continue  # inget giltigt datum — kan inte avgöra om det är nytt
+        if parsed != today_date and parsed != yesterday_date:
             continue
         # Föredra den item-instans som finns i items-listan (har all metadata);
         # fall tillbaka till cache-entryn om itemet klustrats bort.
