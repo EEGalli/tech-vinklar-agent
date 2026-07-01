@@ -447,27 +447,50 @@ with tab_live:
         return False, f"PUT misslyckades (HTTP {r.status_code})"
 
     # Läs localStorage vid varje rerender — så nya ändringar syncas även om
-    # användaren byter tabb istället för att ladda om sidan. Streamlit-local-storage
-    # är snabbt nog att inte orsaka lagg.
+    # användaren byter tabb istället för att ladda om sidan.
+    _sync_status = "ingen ändring att synka"
+    _local_overrides = {}
+    _lstorage_ok = False
     try:
         from streamlit_local_storage import LocalStorage
         _lstorage = LocalStorage()
         _local_overrides_raw = _lstorage.getItem("tv_relevans_overrides_v1")
-        _local_overrides = json.loads(_local_overrides_raw) if _local_overrides_raw else {}
-    except Exception:
-        _local_overrides = {}
+        _lstorage_ok = True
+        if _local_overrides_raw:
+            try:
+                _local_overrides = json.loads(_local_overrides_raw)
+            except Exception:
+                _sync_status = f"⚠ localStorage innehåll är trasig JSON: {_local_overrides_raw[:80]}"
+    except ImportError:
+        _sync_status = "⚠ streamlit-local-storage saknas (paketet ej installerat)"
+    except Exception as _e:
+        _sync_status = f"⚠ localStorage-fel: {type(_e).__name__}: {str(_e)[:100]}"
 
     if _local_overrides:
         _pat = _get_pat()
         _committed = _load_json(".agent_overrides.json") or {}
         _diff = {k: v for k, v in _local_overrides.items()
                  if _is_safe_url(k) and v in _VALID_RELEVANS and _committed.get(k) != v}
-        if _diff:
+        if not _pat:
+            _sync_status = f"⚠ {len(_local_overrides)} pending — GITHUB_PAT saknas i secrets"
+        elif not _diff:
+            _sync_status = f"✓ {len(_local_overrides)} val redan synkade"
+        else:
             _ok, _msg = _sync_overrides_to_github(_local_overrides, _pat)
             if _ok:
-                st.toast(f"✓ Synkade {len(_diff)} prio-ändringar", icon="💾")
+                _sync_status = f"✓ Synkade {len(_diff)} ändringar till repo"
+                st.toast(_sync_status, icon="💾")
             else:
-                st.warning(f"Kunde inte synka prio-ändringar: {_msg}")
+                _sync_status = f"⚠ Sync misslyckades: {_msg} ({len(_diff)} pending)"
+
+    # Diagnostisk info längst upp så hon ser vad som händer
+    with st.expander(f"🔍 Sync-status: {_sync_status}", expanded=False):
+        st.caption(f"localStorage OK: {_lstorage_ok}")
+        st.caption(f"Local overrides: {len(_local_overrides)}")
+        st.caption(f"Committed in repo: {len(_load_json('.agent_overrides.json') or {})}")
+        st.caption(f"PAT konfigurerad: {bool(_get_pat())}")
+        if _local_overrides:
+            st.json(dict(list(_local_overrides.items())[:5]))
 
     # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
     _STRETCH_TECH_PATTERNS = (
