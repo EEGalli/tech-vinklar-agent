@@ -396,10 +396,12 @@ if search_query:
 ])
 
 with tab_live:
-    # Live-vyn renderas med Streamlit-widgets direkt från data — ingen HTML-generering,
-    # inga iframes. UX-ändringar syns direkt vid nästa deploy.
-    from live_view import render_live_view
+    # Live-vyn = HTML-rapportens design, genererad on-the-fly från senaste data.
+    # Ingen fil sparas till reports/. UX-ändringar (CSS/JS i html_report.py) syns
+    # direkt vid nästa sidladdning.
     ROOT = Path(__file__).parent
+    from output.html_report import generate as _gen_html
+    import tempfile
 
     def _load_json(name: str) -> dict:
         try:
@@ -408,15 +410,20 @@ with tab_live:
         except Exception:
             return {}
 
-    render_live_view(
-        ROOT,
-        memory=_load_json(".agent_memory.json"),
-        cache=_load_json(".agent_analysis_cache.json"),
-        arenden=_load_json(".agent_arenden.json"),
-        dates=_load_json(".agent_dates.json"),
-        repo=GITHUB_REPO,
-        pat=_get_pat(),
-    )
+    _all_items = []
+    for _day_items in _load_json(".agent_memory.json").values():
+        _all_items.extend(_day_items)
+
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
+            _tmp_path = _f.name
+        _gen_html(_all_items, output_path=_tmp_path)
+        with open(_tmp_path, encoding="utf-8") as _f:
+            _live_html = _f.read()
+        os.unlink(_tmp_path)
+        st.components.v1.html(_live_html, height=2200, scrolling=True)
+    except Exception as _e:
+        st.error(f"Kunde inte bygga live-vyn: {type(_e).__name__}: {_e}")
 
 with tab_dashboard:
     with open(selected, encoding="utf-8") as f:
