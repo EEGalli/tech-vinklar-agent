@@ -1395,8 +1395,23 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
                 if vinkel_short else ""
             )
             anchor = _item_anchor(item)
+            # Bädda in all info i data-full — expandMini öppnar sidopanelen med kortet
+            import json as _json
+            import html as _htmllib
+            _dash_meta_parts = [item.get("source", ""), item.get("committee", "")]
+            _dash_meta = " · ".join([p for p in _dash_meta_parts if p])
+            dash_full_data = _htmllib.escape(_json.dumps({
+                "title": title,
+                "url": item.get("url", ""),
+                "source": item.get("source", ""),
+                "meta": _dash_meta,
+                "sammanfattning": sammanfattning,
+                "tech_vinkel": vinkel,
+                "varfor": analysis.get("varfor_viktigt", ""),
+                "eu_koppling": analysis.get("eu_koppling") or "",
+            }, ensure_ascii=False), quote=True)
             rows += f"""
-            <div class="dash-row clickable" id="{anchor}" data-url="{_esc(item.get('url',''))}" data-relevans="{_esc(relevans)}" onclick="jumpToCard('{anchor}', event)" title="Klicka för att öppna ärendekortet">
+            <div class="dash-row clickable" id="{anchor}" data-full="{dash_full_data}" data-url="{_esc(item.get('url',''))}" data-relevans="{_esc(relevans)}" onclick="expandMini(this)" title="Klicka för att öppna ärendekortet">
               <span class="dash-dot" style="background:{dot_color}"></span>
               <div class="dash-main">
                 {title_el}
