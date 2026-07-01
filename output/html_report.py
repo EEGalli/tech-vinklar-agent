@@ -1075,28 +1075,124 @@ def _build_lookback_section(yesterday: list[dict], last_week: list[dict]) -> str
 
 
 TEMA_EMOJI = {
-    "AI": "🤖",
+    "AI och algoritmer": "🤖",
     "Cybersäkerhet": "🛡️",
-    "Plattformsreglering": "📱",
-    "Halvledare": "🔬",
-    "Dataskydd och integritet": "🔒",
-    "Digital infrastruktur": "🌐",
+    "Dataskydd och GDPR": "🔒",
+    "Övervakning och biometri": "👁️",
+    "Sociala medier och plattformar": "💬",
+    "Barnskydd online (CSAM/Chat Control)": "🧒",
+    "Telekom och nätverk": "📡",
+    "Digital identitet och e-tjänster": "🪪",
+    "Tech-suveränitet och halvledare": "🔬",
+    "Satellit och rymdteknik": "🛰️",
     "Uppkopplade fordon": "🚗",
-    "Sociala medier": "💬",
+    "Deepfakes och desinformation": "🎭",
     "Övrigt tech": "⚙️",
 }
 
-TEMA_ORDER = [
-    "AI",
-    "Cybersäkerhet",
-    "Plattformsreglering",
-    "Halvledare",
-    "Dataskydd och integritet",
-    "Digital infrastruktur",
-    "Uppkopplade fordon",
-    "Sociala medier",
-    "Övrigt tech",
+TEMA_ORDER = list(TEMA_EMOJI.keys())
+
+# Keyword-baserad omkategorisering — mappar gamla breda teman till nya specifika
+# via keywords/titel/tech_vinkel. Ordning betyder något: tidiga regler vinner.
+_TEMA_KEYWORD_RULES = [
+    ("Barnskydd online (CSAM/Chat Control)", (
+        "csam", "chat control", "barnsex", "child sexual", "message scanning",
+        "derogation", "barnskydd online", "åldersgräns",
+    )),
+    ("Deepfakes och desinformation", (
+        "deepfake", "syntetiska medier", "ai-genererade bilder", "desinformation",
+        "disinformation", "syntetiskt innehåll", "manipulation",
+    )),
+    ("Övervakning och biometri", (
+        "ansiktsigenkänning", "biometri", "biometrisk", "facial recognition",
+        "biometric", "kamerabevakning", "övervakning", "dataavläsning",
+        "signalspaning", "datalagring",
+    )),
+    ("AI och algoritmer", (
+        "ai act", "artificial intelligence", "artificiell intelligens",
+        "generativ ai", "chatbot", "språkmodell", "maskininlärning",
+        "algoritm", "ai-system", "machine learning", "llm ",
+    )),
+    ("Cybersäkerhet", (
+        "cybersäkerhet", "cybersecurity", "nis2", "dora", "cyberattack",
+        "ransomware", "phishing", "kryptering", "encryption",
+        "cyberförsvar", "cyberhot", "cyberbrott", "hotbild",
+    )),
+    ("Dataskydd och GDPR", (
+        "gdpr", "dataskydd", "personuppgifter", "dpa", "integritet",
+        "one-stop-shop", "edpb", "imy", "datainspektionen",
+    )),
+    ("Barnskydd online (CSAM/Chat Control)", (
+        "children online", "online safety", "unga på nätet",
+    )),
+    ("Sociala medier och plattformar", (
+        "dsa ", "dma ", "digital services act", "digital markets act",
+        "plattform", "sociala medier", "social media", "innehållsmoderering",
+        "content moderation", "tiktok", "meta ", "facebook", "instagram",
+    )),
+    ("Telekom och nätverk", (
+        "5g", "6g", "bredband", "mobil täckning", "fiber", "berec",
+        "telekom", "roaming", "nätverksinfrastruktur", "spektrum",
+        "digital networks act", "elektronisk kommunikation",
+    )),
+    ("Digital identitet och e-tjänster", (
+        "e-legitimation", "digital identitet", "eid", "eidas",
+        "digital wallet", "e-tjänst", "digital tillgänglighet",
+        "digital pkt", "digitalisering av",
+    )),
+    ("Tech-suveränitet och halvledare", (
+        "halvledare", "semiconductor", "chips act", "chipsact",
+        "tech-suveränitet", "digital autonomi", "teknologisk suveränitet",
+        "tech sovereignty", "kritiska teknologier",
+    )),
+    ("Satellit och rymdteknik", (
+        "satellit", "galileo", "gnss", "rymdteknik", "space",
+        "euspa", "satellitnavigering", "osnma",
+    )),
+    ("Uppkopplade fordon", (
+        "uppkopplade fordon", "connected vehicle", "v2x", "autonoma fordon",
+        "self-driving", "elfordon", "laddinfrastruktur",
+    )),
 ]
+
+# Gamla tema-namn → nya (för items som fortfarande har gamla värden i cachen)
+_LEGACY_TEMA_MAP = {
+    "AI": "AI och algoritmer",
+    "Dataskydd och integritet": "Dataskydd och GDPR",
+    "Plattformsreglering": "Sociala medier och plattformar",
+    "Sociala medier": "Sociala medier och plattformar",
+    "Halvledare": "Tech-suveränitet och halvledare",
+    "Digital infrastruktur": None,  # behöver keyword-omkategorisering
+    "Övrigt tech": None,
+}
+
+
+def _refine_tema(item: dict) -> str:
+    """Bestämmer tema för dashboard-vyn: kollar först keywords/titel för specifika
+    mönster, sen legacy-mapp, sen fallback till Övrigt tech."""
+    analysis = item.get("analysis") or {}
+    raw_tema = analysis.get("tema") or ""
+    keywords = " ".join(k.lower() for k in (analysis.get("keywords") or []))
+    title = (item.get("title") or "").lower()
+    vinkel = (analysis.get("tech_vinkel") or "").lower()
+    haystack = f"{keywords} {title} {vinkel}"
+
+    # Keyword-regler vinner alltid (mer specifikt än raw_tema)
+    for new_tema, patterns in _TEMA_KEYWORD_RULES:
+        if any(p in haystack for p in patterns):
+            return new_tema
+
+    # Fall tillbaka till mappning från gammalt tema
+    if raw_tema in _LEGACY_TEMA_MAP:
+        mapped = _LEGACY_TEMA_MAP[raw_tema]
+        if mapped:
+            return mapped
+
+    # Om raw_tema redan är ett giltigt nytt tema, behåll det
+    if raw_tema in TEMA_ORDER:
+        return raw_tema
+
+    return "Övrigt tech"
 
 # Kort källetikett i dashboard-raden
 SOURCE_SHORT = {
@@ -1215,12 +1311,11 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
     if not items:
         return ""
 
-    # Gruppera efter tema
+    # Gruppera efter tema — använd _refine_tema för att bryta upp brett
+    # kategoriserade items (t.ex. "Digital infrastruktur") i granulära ämnen
     by_tema: dict[str, list[dict]] = {}
     for item in items:
-        tema = item.get("analysis", {}).get("tema") or "Övrigt tech"
-        if tema not in TEMA_ORDER:
-            tema = "Övrigt tech"
+        tema = _refine_tema(item)
         by_tema.setdefault(tema, []).append(item)
 
     # Sortera inom tema: nyast datum först (fallande)

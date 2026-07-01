@@ -442,7 +442,7 @@ Sammanfattning: {summary}
 Svara EXAKT i detta JSON-format, inget annat:
 {{
   "relevans": "hög|medel|låg",
-  "tema": "Välj EXAKT ETT av: 'AI', 'Cybersäkerhet', 'Plattformsreglering', 'Halvledare', 'Dataskydd och integritet', 'Digital infrastruktur', 'Uppkopplade fordon', 'Sociala medier', 'Övrigt tech'. Om inget passar väl, 'Övrigt tech'.",
+  "tema": "Välj EXAKT ETT av: 'AI och algoritmer', 'Cybersäkerhet', 'Dataskydd och GDPR', 'Övervakning och biometri', 'Sociala medier och plattformar', 'Barnskydd online (CSAM/Chat Control)', 'Telekom och nätverk', 'Digital identitet och e-tjänster', 'Tech-suveränitet och halvledare', 'Satellit och rymdteknik', 'Uppkopplade fordon', 'Deepfakes och desinformation', 'Övrigt tech'. Om inget passar väl, 'Övrigt tech'.",
   "sammanfattning": "3-4 meningar på vardagssvenska: vad handlar dokumentet faktiskt om? Vad föreslås, vem påverkas, vad ändras? Ingen jurist-svenska.",
   "tech_vinkel": "En konkret mening om VAD i detta dokument som är tech. FÖRBJUDNA ord: 'kan', 'potentiellt', 'berör', 'möjligen', 'sannolikt'. Peka på en specifik skrivning, ett konkret förslag, en namngiven teknikfråga. Om ingen konkret tech-vinkel finns, skriv 'Ingen tydlig tech-vinkel'.",
   "varfor_viktigt": "3-4 meningar om konkreta konsekvenser, vad som står på spel, vilka aktörer som påverkas, och varför tajmingen spelar roll.",
