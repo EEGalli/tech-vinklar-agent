@@ -512,8 +512,8 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
 
     function applyOverridesOnLoad() {{
       const o = loadOverrides();
-      // Nu även mini-cards (inte bara fullkort)
-      document.querySelectorAll('.card, .mini-card').forEach(card => {{
+      // Fullkort + mini-kort + dashboard-rader
+      document.querySelectorAll('.card, .mini-card, .dash-row').forEach(card => {{
         const url = card.dataset.url;
         if (!url || !o[url]) return;
         const val = o[url];
@@ -613,9 +613,10 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       if (existing) existing.remove();
     }}
 
-    // Sätt prioritet på alla kort med URL — synkar över alla sektioner
+    // Sätt prioritet på alla element med samma URL — synkar över kort, mini-kort och dashboard
     function setPrio(url, newVal) {{
-      document.querySelectorAll(`[data-url="${{CSS.escape(url)}}"]`).forEach(card => {{
+      // Query alla card/mini-card/dash-row samt panel-card i sidopanelen
+      document.querySelectorAll(`.card[data-url="${{CSS.escape(url)}}"], .mini-card[data-url="${{CSS.escape(url)}}"], .dash-row[data-url="${{CSS.escape(url)}}"], .panel-card[data-url="${{CSS.escape(url)}}"]`).forEach(card => {{
         if (newVal === 'utesluten') {{
           card.classList.add('excluded');
           card.classList.remove('showing');  // start med gömd
@@ -645,6 +646,19 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       const color = RELEVANCE_COLOR[newRel] || "#888";
       const emoji = RELEVANCE_EMOJI[newRel] || "⚪";
       const label = REL_LABEL[newRel] || newRel;
+      // Dashboard-rad: uppdatera dash-dot bakgrundsfärg
+      if (card.classList.contains('dash-row')) {{
+        const dot = card.querySelector('.dash-dot');
+        if (dot) dot.style.background = color;
+        return;  // dash-rader har ingen badge/select att uppdatera
+      }}
+      // Mini-prio-emoji-cirkel (utan dropdown)
+      const miniEmoji = card.querySelector('.mini-prio-emoji');
+      if (miniEmoji) {{
+        miniEmoji.style.background = color;
+        miniEmoji.textContent = emoji;
+        miniEmoji.setAttribute('title', `Prioritet: ${{label}}`);
+      }}
       // Fullkort: uppdatera <select> så vald option matchar samt bakgrundsfärg
       const sel = card.querySelector('.prio-select, .mini-prio-select');
       if (sel) {{
@@ -1287,7 +1301,7 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
             )
             anchor = _item_anchor(item)
             rows += f"""
-            <div class="dash-row clickable" id="{anchor}" onclick="jumpToCard('{anchor}', event)" title="Klicka för att öppna ärendekortet">
+            <div class="dash-row clickable" id="{anchor}" data-url="{_esc(item.get('url',''))}" data-relevans="{_esc(relevans)}" onclick="jumpToCard('{anchor}', event)" title="Klicka för att öppna ärendekortet">
               <span class="dash-dot" style="background:{dot_color}"></span>
               <div class="dash-main">
                 {title_el}
@@ -1396,7 +1410,8 @@ def generate(items: list[dict], output_path: str = "digest.html",
              yesterday: Optional[list] = None,
              last_week: Optional[list] = None,
              arenden: Optional[dict] = None,
-             important_dates: Optional[dict] = None) -> str:
+             important_dates: Optional[dict] = None,
+             include_header: bool = True) -> str:
     now = datetime.now()
     today = now.date()
     date_str = f"{today.day} {SWEDISH_MONTHS[today.month]} {today.year}"
@@ -1467,6 +1482,13 @@ def generate(items: list[dict], output_path: str = "digest.html",
     font-size: 0.85rem;
   }}
   .stat.clickable:hover {{ background: rgba(255,255,255,0.25); }}
+  /* Kompakt stats-rad när live-vyn körs utan egen header (Streamlit-topbaren tar rubriken) */
+  .compact-stats {{
+    display: flex; gap: 0.75rem; padding: 0.5rem 1rem 0;
+    justify-content: flex-end; flex-wrap: wrap;
+  }}
+  .compact-stats .stat {{ background: #eef2ff; color: #1a1a2e; }}
+  .compact-stats .stat.clickable:hover {{ background: #dbe4ff; }}
   main {{ max-width: 960px; margin: 2rem auto; padding: 0 1.5rem 4rem; }}
 
   /* ── Nytt idag-ruta ── */
@@ -2251,15 +2273,15 @@ def generate(items: list[dict], output_path: str = "digest.html",
 </style>
 </head>
 <body>
-<header>
+{'''<header>
   <h1>🔍 Tech Vinklar</h1>
-  <p>EU &amp; Riksdagen · {date_str}</p>
+  <p>EU &amp; Riksdagen · ''' + date_str + '''</p>
   <div class="stats">
-    <div class="stat clickable" onclick="resetFilter()" title="Visa alla ärenden">📋 {len(items)} ärenden</div>
-    <div class="stat clickable" onclick="filterCards('relevans', 'hög')" title="Filtrera på hög prioritet">🔴 {n_hog} hög prioritet</div>
-    <div class="stat clickable" onclick="filterCards('relevans', 'medel')" title="Filtrera på medel prioritet">🟡 {n_med} medel</div>
+    <div class="stat clickable" onclick="resetFilter()" title="Visa alla ärenden">📋 ''' + str(len(items)) + ''' ärenden</div>
+    <div class="stat clickable" onclick="filterCards(\'relevans\', \'hög\')" title="Filtrera på hög prioritet">🔴 ''' + str(n_hog) + ''' hög prioritet</div>
+    <div class="stat clickable" onclick="filterCards(\'relevans\', \'medel\')" title="Filtrera på medel prioritet">🟡 ''' + str(n_med) + ''' medel</div>
   </div>
-</header>
+</header>''' if include_header else '<div class="compact-stats"><span class="stat clickable" onclick="resetFilter()" title="Visa alla">📋 ' + str(len(items)) + '</span><span class="stat clickable" onclick="filterCards(\'relevans\', \'hög\')" title="Filtrera hög">🔴 ' + str(n_hog) + '</span><span class="stat clickable" onclick="filterCards(\'relevans\', \'medel\')" title="Filtrera medel">🟡 ' + str(n_med) + '</span></div>'}
 <main>
   <div id="filter-bar" class="filter-bar">
     <span class="filter-bar-label"></span>

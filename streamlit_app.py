@@ -496,7 +496,8 @@ with tab_live:
     try:
         with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
             _tmp_path = _f.name
-        _gen_html(_all_items, output_path=_tmp_path, important_dates=_important_dates)
+        _gen_html(_all_items, output_path=_tmp_path, important_dates=_important_dates,
+                  include_header=False)
         with open(_tmp_path, encoding="utf-8") as _f:
             _live_html = _f.read()
         os.unlink(_tmp_path)
