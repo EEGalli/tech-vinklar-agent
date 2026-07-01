@@ -779,22 +779,35 @@ def _is_english_title(title: str) -> bool:
 
 
 def _clean_title(item: dict) -> str:
-    """Tvättar intetsägande RSS/byrå-rubriker OCH översätter engelska titlar.
-    Använder första meningen av sammanfattningen som ersättningsrubrik när
-    originaltiteln är opaque eller engelsk. Om rubriken saknar kontext
-    (typ 'Den gemensamma mallen träder i kraft') prefixas ärendenamnet."""
+    """Tvättar rubriker för tech-journalist: kort, konkret, kontext vid första anblick.
+    - Slänger boilerplate-prefix ('Latest news', 'Next Committee Meeting', 'Committee on')
+    - Översätter engelska titlar via sammanfattning
+    - Prefixar med ärendenamn om rubriken saknar kontext
+    - Trunkerar långa meningar vid naturliga brytpunkter (kolon, tankstreck, kommatecken)"""
+    import re as _re
     title = (item.get("title") or "Utan titel").strip()
     analysis = item.get("analysis", {})
+    # AI-genererad svensk rubrik har högsta prio om den finns och är kort nog
+    ai_rubrik = (analysis.get("svensk_rubrik") or "").strip()
+    if ai_rubrik and 15 < len(ai_rubrik) <= 110:
+        return ai_rubrik
     samm = (analysis.get("sammanfattning") or "").strip()
+    vinkel = (analysis.get("tech_vinkel") or "").strip()
     arende = (analysis.get("arende") or "").strip()
 
-    # Opaque-mönster där originaltiteln säger lite eller inget
+    # Bredare opaque-mönster — inkluderar alla "Latest news"-varianter och "Committee on"
     opaque_prefixes = (
-        "Latest news -", "Highlights -", "Newsletters",
+        "Latest news -", "Latest news:", "Latest News",
+        "Highlights -", "Highlights:", "Newsletters",
+        "Next Committee Meeting", "Next meeting",
+        "Committee on ",
+        "Meeting of", "Meeting on",
+        "News from",
     )
     opaque_patterns = (
         "e-mail alert", "press release",
         "opinion ", "annual report ",
+        "committee meeting", "next meeting",
     )
 
     lt = title.lower()
@@ -805,23 +818,34 @@ def _clean_title(item: dict) -> str:
     )
     is_english = _is_english_title(title)
 
+    def _cut_at_natural_break(text: str, hard_max: int = 90) -> str:
+        """Trunkera vid naturlig brytpunkt istället för mitt i en tanke."""
+        text = text.strip().rstrip(".")
+        if len(text) <= hard_max:
+            return text
+        for br in (" — ", " – ", ": ", "; ", ", "):
+            idx = text.find(br, 40, hard_max + 20)
+            if idx > 0:
+                return text[:idx].rstrip(",-–—; ") + "…"
+        return text[:hard_max].rsplit(" ", 1)[0] + "…"
+
     chosen = title
     if (is_opaque or is_english) and samm:
-        # Första meningen av sammanfattning, men inte längre än 120 tecken
-        import re as _re
         first = _re.split(r"(?<=[.!?])\s+", samm, maxsplit=1)[0]
-        first = first.strip().rstrip(".")
-        if len(first) > 120:
-            first = first[:120].rsplit(" ", 1)[0] + "…"
+        first = _cut_at_natural_break(first, 100)
         if len(first) > 15:
             chosen = first
 
-    # Om vald rubrik saknar konkret kontext (börjar med "Den/Det X träder..." typ)
-    # och vi har ett ärendenamn — prefixa så journalisten vet vad det gäller
+    # Långa rubriker (även svenska) trunkeras vid rimlig brytpunkt
+    if len(chosen) > 100:
+        chosen = _cut_at_natural_break(chosen, 100)
+
+    # Prefixa ärendenamn om rubriken saknar konkret kontext
     context_lack_starts = (
         "den ", "det ", "denna ", "detta ", "de nya ", "en ny ", "ett nytt ",
         "den nya ", "det nya ", "förslaget ", "regeringen ", "beslutet ",
         "utredningen ", "propositionen ", "utskottet ", "mötet ", "rapporten ",
+        "kommissionen ", "myndigheten ",
     )
     chosen_low = chosen.lower()
     lacks_context = (
@@ -830,7 +854,8 @@ def _clean_title(item: dict) -> str:
         and any(chosen_low.startswith(p) for p in context_lack_starts)
     )
     if lacks_context:
-        return f"{arende}: {chosen}"
+        result = f"{arende}: {chosen}"
+        return _cut_at_natural_break(result, 110) if len(result) > 110 else result
 
     return chosen
 

@@ -443,6 +443,7 @@ Svara EXAKT i detta JSON-format, inget annat:
 {{
   "relevans": "hög|medel|låg",
   "tema": "Välj EXAKT ETT av: 'AI och algoritmer', 'Cybersäkerhet', 'Dataskydd och GDPR', 'Övervakning och biometri', 'Sociala medier och plattformar', 'Barnskydd online (CSAM/Chat Control)', 'Telekom och nätverk', 'Digital identitet och e-tjänster', 'Tech-suveränitet och halvledare', 'Satellit och rymdteknik', 'Uppkopplade fordon', 'Deepfakes och desinformation', 'Övrigt tech'. Om inget passar väl, 'Övrigt tech'.",
+  "svensk_rubrik": "En kort, tech-journalistisk rubrik på svenska (max 90 tecken). Vid första anblick ska en journalist förstå VAD ärendet handlar om. Prefixa med ärendenamnet om rubriken annars saknar kontext. Exempel bra: 'AI Act: Kommissionen föreslår omprövning av risklistan'. Exempel dåligt: 'Den gemensamma mallen träder i kraft'. Om originaltiteln redan är bra svenska så kort och tydlig, upprepa den.",
   "sammanfattning": "3-4 meningar på vardagssvenska: vad handlar dokumentet faktiskt om? Vad föreslås, vem påverkas, vad ändras? Ingen jurist-svenska.",
   "tech_vinkel": "En konkret mening om VAD i detta dokument som är tech. FÖRBJUDNA ord: 'kan', 'potentiellt', 'berör', 'möjligen', 'sannolikt'. Peka på en specifik skrivning, ett konkret förslag, en namngiven teknikfråga. Om ingen konkret tech-vinkel finns, skriv 'Ingen tydlig tech-vinkel'.",
   "varfor_viktigt": "3-4 meningar om konkreta konsekvenser, vad som står på spel, vilka aktörer som påverkas, och varför tajmingen spelar roll.",
