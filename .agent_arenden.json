@@ -660,6 +660,13 @@
         "tech_vinkel": "Förslaget till ändringar av AI-förordningen innehåller specifika bestämmelser om dataskydd och integritet i samband med AI-teknologier, inklusive krav på transparent och förklarlig AI-beslutsfattning."
       },
       {
+        "title": "Utökat budgetanslag för IMY:s kommande AI-uppdrag",
+        "date": "2026-07-01",
+        "url": "https://www.imy.se/nyheter/utokat-budgetanslag-for-imys-kommande-ai-uppdrag/",
+        "source": "IMY",
+        "tech_vinkel": "Det specifika AI-uppdrag som IMY ska förbereda sig för är en tydlig tech-vinkel i detta dokument."
+      },
+      {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
@@ -1420,6 +1427,20 @@
         "url": "https://www.imy.se/nyheter/kammarratten-bekraftar-sanktionsavgift-for-tele2/",
         "source": "IMY",
         "tech_vinkel": "Det specifika tech-aspekt som är relevant i detta fall är hur Tele2 hanterat personuppgifter i strid med dataskyddsförordningen, GDPR (EU:s dataskyddsförordning), vilket resulterat i en sanktionsavgift."
+      },
+      {
+        "title": "Sanktionsavgift mot Sportadmin för bristande säkerhet",
+        "date": "2026-07-01",
+        "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-sportadmin-for-bristande-it-sakerhet/",
+        "source": "IMY",
+        "tech_vinkel": "IT-angreppet mot Sportadmin visar på brister i deras datasäkerhet, vilket är en tydlig tech-vinkel i detta ärende."
+      },
+      {
+        "title": "Effektivare tillsyn och tydligare vägledning när IMY omorganiserar",
+        "date": "2026-07-01",
+        "url": "https://www.imy.se/nyheter/effektivare-tillsyn-och-tydligare-vagledning-nar-imy-omorganiserar/",
+        "source": "IMY",
+        "tech_vinkel": "Inrättandet av en avdelning för vägledning, innovation och teknik tydliggör IMY:s fokus på att stödja utvecklingen av tekniker som främjar dataskydd och integritet."
       },
       {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",

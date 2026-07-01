@@ -5692,5 +5692,123 @@
     "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
     "summary": "Regeringen har utsett David Törngren till ny vikarierande generaldirektör och chef för Integritetsskyddsmyndigheten (IMY).",
     "cached_at": "2026-07-01"
+  },
+  "https://www.imy.se/nyheter/utokat-budgetanslag-for-imys-kommande-ai-uppdrag/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Regeringen föreslår att Integritetsskyddsmyndigheten (IMY) får ett utökat budgetanslag för 2026. Detta för att ge IMY förutsättningar att förbereda sig inför kommande AI-uppdrag. Utökat budgetanslag kommer att ge IMY möjlighet att stärka sin kapacitet att hantera AI-relaterade frågor. Detta är en del av regeringens vårändringsbudget för 2026.",
+      "tech_vinkel": "Det specifika AI-uppdrag som IMY ska förbereda sig för är en tydlig tech-vinkel i detta dokument.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar regeringens prioritering av AI-relaterade frågor och dess vilja att stärka IMY:s kapacitet att hantera dessa frågor. Det kan också ha konsekvenser för hur AI används och regleras i Sverige. Dessutom kan det påverka företag och organisationer som använder AI i sin verksamhet.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "AI",
+        "IMY",
+        "Dataskydd"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "IMY kommer att förbereda sig för de kommande AI-uppdragen med det utökade budgetanslaget.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-01-01",
+          "beskrivning": "Regeringens vårändringsbudget för 2026 träder i kraft"
+        }
+      ]
+    },
+    "title": "Utökat budgetanslag för IMY:s kommande AI-uppdrag",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 13 Apr 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Regeringen föreslår i sin vårändringsbudget att Integritetsskyddsmyndigheten (IMY) får ett utökat budgetanslag för 2026. Syftet är att ge IMY förutsättningar att förbereda sig inför kommande AI-uppdrag.",
+    "cached_at": "2026-07-01"
+  },
+  "https://www.imy.se/nyheter/transkribering-med-ai-kan-avlasta-socialtjansten/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har undersökt möjligheten att använda en AI-baserad transkriberingstjänst inom socialtjänsten i Kalmar kommun. IMY bedömer att det finns rättsliga förutsättningar för socialtjänsten att börja använda en sådan tjänst, vilket förväntas minska den administrativa bördan och ge socialsekreterare mer tid för möten med enskilda. Detta kan leda till en mer effektiv och personlig socialtjänst. IMY har samarbetat med Kalmar kommun för att undersöka denna möjlighet.",
+      "tech_vinkel": "IMY har undersökt användningen av en AI-baserad transkriberingstjänst, som kan transkribera samtal och möten med hjälp av artificiell intelligens.",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan leda till en mer effektiv och personlig socialtjänst, där socialsekreterare kan fokusera på att hjälpa enskilda istället för att lägga tid på administrativa uppgifter. Det kan också bidra till att förbättra kvaliteten på socialtjänstens insatser. Dessutom kan detta vara ett steg mot att implementera mer AI-baserade lösningar inom offentlig sektor.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar hur personuppgifter hanteras inom EU",
+      "keywords": [
+        "AI",
+        "transkribering",
+        "socialtjänst",
+        "dataskydd"
+      ],
+      "arende": "AI-baserad transkribering inom socialtjänst",
+      "nasta_steg": "Kalmar kommun och IMY kommer att fortsätta att utvärdera och förbättra användningen av AI-baserad transkribering inom socialtjänsten.",
+      "viktiga_datum": []
+    },
+    "title": "Ny rapport: Transkribering med AI kan avlasta socialtjänsten",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 13 Apr 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har tillsammans med Kalmar kommun undersökt möjligheten att använda en AI-baserad transkriberingstjänst inom socialtjänsten. IMY bedömer att det finns rättsliga förutsättningar för socialtjänsten att börja använda en sådan tjänst. Resultatet förväntas bli minskad administrativ börda och ge socialsekreterare mer tid för möten med de enskilda.",
+    "cached_at": "2026-07-01"
+  },
+  "https://www.imy.se/nyheter/sanktionsavgift-mot-sportadmin-for-bristande-it-sakerhet/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, har granskat företaget Sportadmin efter ett IT-angrepp som ledde till en stor läckage av personuppgifter. Granskningen visade att Sportadmin inte hade en tillräcklig säkerhetsnivå för att skydda personuppgifter. Därför beslutar IMY att utfärda en sanktionsavgift på 6 miljoner kronor. Detta beslut är en direkt följd av bristande efterlevnad av dataskyddslagstiftningen.",
+      "tech_vinkel": "IT-angreppet mot Sportadmin visar på brister i deras datasäkerhet, vilket är en tydlig tech-vinkel i detta ärende.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att myndigheterna tar dataskydd på allvar och att företag som inte följer lagstiftningen kan få betala dyra böter. Det påverkar inte bara Sportadmin utan också andra företag som hanterar personuppgifter, och det kan leda till att fler företag förbättrar sin datasäkerhet. Dessutom kan det bidra till att öka allmänhetens förtroende för hur personuppgifter hanteras.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "Dataskydd",
+        "IT-säkerhet",
+        "Personuppgifter",
+        "Sanktionsavgift"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Sportadmin måste betala sanktionsavgiften och förbättra sin datasäkerhet för att följa dataskyddslagstiftningen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-01-26",
+          "beskrivning": "IMY meddelar om sanktionsavgift mot Sportadmin"
+        }
+      ]
+    },
+    "title": "Sanktionsavgift mot Sportadmin för bristande säkerhet",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 26 Jan 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har granskat företaget Sportadmin efter ett IT-angrepp då en stor mängd personuppgifter läckte. Granskningen visar att Sportadmin inte har haft en lämplig säkerhetsnivå för att skydda de personuppgifter de har hanterat. IMY beslutar därför om en sanktionsavgift på 6 miljoner kronor.",
+    "cached_at": "2026-07-01"
+  },
+  "https://www.imy.se/nyheter/effektivare-tillsyn-och-tydligare-vagledning-nar-imy-omorganiserar/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och integritet",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har omorganiserat sin operativa verksamhet från och med 1 januari. Detta innebär att en ny avdelning för tillsyn och klagomål samt en avdelning för vägledning, innovation och teknik har inrättats. Syftet är att effektivisera tillsynen och ge tydligare vägledning. Denna förändring påverkar hur IMY hanterar dataskyddsfrågor och hur de stödjer organisationer i deras efterlevnad av dataskyddslagstiftningen.",
+      "tech_vinkel": "Inrättandet av en avdelning för vägledning, innovation och teknik tydliggör IMY:s fokus på att stödja utvecklingen av tekniker som främjar dataskydd och integritet.",
+      "varfor_viktigt": "Denna omorganisation är viktig eftersom den kan leda till en mer effektiv tillsyn av dataskyddslagstiftningen i Sverige. Det kan också bidra till att öka förtroendet för hur personuppgifter hanteras inom olika sektorer. Dessutom kan den nya avdelningen för innovation och teknik bidra till att främja utvecklingen av tekniker som stödjer dataskydd och integritet.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "Dataskydd",
+        "Integritet",
+        "IMY",
+        "GDPR"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "IMY kommer att fortsätta att utveckla och förbättra sin tillsyn och vägledning baserat på den nya organisationen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-01-01",
+          "beskrivning": "IMY:s omorganisation träder i kraft"
+        }
+      ]
+    },
+    "title": "Effektivare tillsyn och tydligare vägledning när IMY omorganiserar",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Fri, 02 Jan 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Från och med 1 januari har Integritetsskyddsmyndigheten (IMY) en ny organisation för den operativa verksamheten. Då inrättas en avdelning för tillsyn och klagomål och en avdelning för vägledning, innovation och teknik.",
+    "cached_at": "2026-07-01"
   }
 }

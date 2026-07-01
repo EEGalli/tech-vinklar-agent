@@ -13440,6 +13440,32 @@
       }
     },
     {
+      "title": "Ny rapport: Transkribering med AI kan avlasta socialtjänsten",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/transkribering-med-ai-kan-avlasta-socialtjansten/",
+      "date": "Mon, 13 Apr 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har tillsammans med Kalmar kommun undersökt möjligheten att använda en AI-baserad transkriberingstjänst inom socialtjänsten. IMY bedömer att det finns rättsliga förutsättningar för socialtjänsten att börja använda en sådan tjänst. Resultatet förväntas bli minskad administrativ börda och ge socialsekreterare mer tid för möten med de enskilda.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har undersökt möjligheten att använda en AI-baserad transkriberingstjänst inom socialtjänsten i Kalmar kommun. IMY bedömer att det finns rättsliga förutsättningar för socialtjänsten att börja använda en sådan tjänst, vilket förväntas minska den administrativa bördan och ge socialsekreterare mer tid för möten med enskilda. Detta kan leda till en mer effektiv och personlig socialtjänst. IMY har samarbetat med Kalmar kommun för att undersöka denna möjlighet.",
+        "tech_vinkel": "IMY har undersökt användningen av en AI-baserad transkriberingstjänst, som kan transkribera samtal och möten med hjälp av artificiell intelligens.",
+        "varfor_viktigt": "Detta är viktigt eftersom det kan leda till en mer effektiv och personlig socialtjänst, där socialsekreterare kan fokusera på att hjälpa enskilda istället för att lägga tid på administrativa uppgifter. Det kan också bidra till att förbättra kvaliteten på socialtjänstens insatser. Dessutom kan detta vara ett steg mot att implementera mer AI-baserade lösningar inom offentlig sektor.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar hur personuppgifter hanteras inom EU",
+        "keywords": [
+          "AI",
+          "transkribering",
+          "socialtjänst",
+          "dataskydd"
+        ],
+        "arende": "AI-baserad transkribering inom socialtjänst",
+        "nasta_steg": "Kalmar kommun och IMY kommer att fortsätta att utvärdera och förbättra användningen av AI-baserad transkribering inom socialtjänsten.",
+        "viktiga_datum": []
+      }
+    },
+    {
       "title": "Vägledning för nya regler om politisk reklam",
       "source": "IMY",
       "type": "Svensk myndighet",
