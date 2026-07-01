@@ -446,51 +446,50 @@ with tab_live:
             return True, f"synkade {len(merged)} val"
         return False, f"PUT misslyckades (HTTP {r.status_code})"
 
-    # Läs localStorage vid varje rerender — så nya ändringar syncas även om
-    # användaren byter tabb istället för att ladda om sidan.
-    _sync_status = "ingen ändring att synka"
+    # Läs localStorage + visa knapp för manuell synk. Ingen "auto-sync i bakgrunden"
+    # som failar tyst — hon trycker på knappen och ser resultatet direkt.
     _local_overrides = {}
-    _lstorage_ok = False
+    _lstorage_err = ""
     try:
         from streamlit_local_storage import LocalStorage
         _lstorage = LocalStorage()
         _local_overrides_raw = _lstorage.getItem("tv_relevans_overrides_v1")
-        _lstorage_ok = True
         if _local_overrides_raw:
             try:
                 _local_overrides = json.loads(_local_overrides_raw)
             except Exception:
-                _sync_status = f"⚠ localStorage innehåll är trasig JSON: {_local_overrides_raw[:80]}"
+                _lstorage_err = "trasig JSON i localStorage"
     except ImportError:
-        _sync_status = "⚠ streamlit-local-storage saknas (paketet ej installerat)"
+        _lstorage_err = "streamlit-local-storage saknas"
     except Exception as _e:
-        _sync_status = f"⚠ localStorage-fel: {type(_e).__name__}: {str(_e)[:100]}"
+        _lstorage_err = f"localStorage-fel: {type(_e).__name__}"
 
-    if _local_overrides:
-        _pat = _get_pat()
-        _committed = _load_json(".agent_overrides.json") or {}
-        _diff = {k: v for k, v in _local_overrides.items()
-                 if _is_safe_url(k) and v in _VALID_RELEVANS and _committed.get(k) != v}
-        if not _pat:
-            _sync_status = f"⚠ {len(_local_overrides)} pending — GITHUB_PAT saknas i secrets"
-        elif not _diff:
-            _sync_status = f"✓ {len(_local_overrides)} val redan synkade"
-        else:
-            _ok, _msg = _sync_overrides_to_github(_local_overrides, _pat)
-            if _ok:
-                _sync_status = f"✓ Synkade {len(_diff)} ändringar till repo"
-                st.toast(_sync_status, icon="💾")
-            else:
-                _sync_status = f"⚠ Sync misslyckades: {_msg} ({len(_diff)} pending)"
+    _committed = _load_json(".agent_overrides.json") or {}
+    _diff_count = sum(
+        1 for k, v in _local_overrides.items()
+        if _is_safe_url(k) and v in _VALID_RELEVANS and _committed.get(k) != v
+    )
 
-    # Diagnostisk info längst upp så hon ser vad som händer
-    with st.expander(f"🔍 Sync-status: {_sync_status}", expanded=False):
-        st.caption(f"localStorage OK: {_lstorage_ok}")
-        st.caption(f"Local overrides: {len(_local_overrides)}")
-        st.caption(f"Committed in repo: {len(_load_json('.agent_overrides.json') or {})}")
-        st.caption(f"PAT konfigurerad: {bool(_get_pat())}")
-        if _local_overrides:
-            st.json(dict(list(_local_overrides.items())[:5]))
+    # Statusrad + spara-knapp — bara synlig om det finns något att synka
+    if _lstorage_err:
+        st.error(f"⚠ Kan inte läsa dina prio-ändringar: {_lstorage_err}")
+    elif _diff_count > 0:
+        _s1, _s2 = st.columns([3, 1])
+        with _s1:
+            st.info(f"✏️ {_diff_count} osparade prio-ändringar i webbläsaren")
+        with _s2:
+            if st.button("💾 Spara till repo", type="primary", key="save_prios",
+                         use_container_width=True):
+                _pat = _get_pat()
+                if not _pat:
+                    st.error("GITHUB_PAT saknas i Streamlit secrets — kan inte skriva till repo")
+                else:
+                    _ok, _msg = _sync_overrides_to_github(_local_overrides, _pat)
+                    if _ok:
+                        st.success(f"✓ {_msg}")
+                        st.rerun()
+                    else:
+                        st.error(f"Sparfel: {_msg}")
 
     # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
     _STRETCH_TECH_PATTERNS = (
