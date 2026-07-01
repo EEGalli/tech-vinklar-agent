@@ -446,50 +446,32 @@ with tab_live:
             return True, f"synkade {len(merged)} val"
         return False, f"PUT misslyckades (HTTP {r.status_code})"
 
-    # Läs localStorage + visa knapp för manuell synk. Ingen "auto-sync i bakgrunden"
-    # som failar tyst — hon trycker på knappen och ser resultatet direkt.
-    _local_overrides = {}
-    _lstorage_err = ""
-    try:
-        from streamlit_local_storage import LocalStorage
-        _lstorage = LocalStorage()
-        _local_overrides_raw = _lstorage.getItem("tv_relevans_overrides_v1")
-        if _local_overrides_raw:
-            try:
-                _local_overrides = json.loads(_local_overrides_raw)
-            except Exception:
-                _lstorage_err = "trasig JSON i localStorage"
-    except ImportError:
-        _lstorage_err = "streamlit-local-storage saknas"
-    except Exception as _e:
-        _lstorage_err = f"localStorage-fel: {type(_e).__name__}"
-
-    _committed = _load_json(".agent_overrides.json") or {}
-    _diff_count = sum(
-        1 for k, v in _local_overrides.items()
-        if _is_safe_url(k) and v in _VALID_RELEVANS and _committed.get(k) != v
-    )
-
-    # Statusrad + spara-knapp — bara synlig om det finns något att synka
-    if _lstorage_err:
-        st.error(f"⚠ Kan inte läsa dina prio-ändringar: {_lstorage_err}")
-    elif _diff_count > 0:
-        _s1, _s2 = st.columns([3, 1])
-        with _s1:
-            st.info(f"✏️ {_diff_count} osparade prio-ändringar i webbläsaren")
-        with _s2:
-            if st.button("💾 Spara till repo", type="primary", key="save_prios",
-                         use_container_width=True):
-                _pat = _get_pat()
-                if not _pat:
-                    st.error("GITHUB_PAT saknas i Streamlit secrets — kan inte skriva till repo")
+    # Om HTML-rapporten skickade ändringar via URL-parameter → spara till GitHub
+    _params = st.query_params
+    _save_param = _params.get("_save_overrides", "")
+    if _save_param:
+        try:
+            import base64 as _b64_dec
+            _decoded = _b64_dec.b64decode(_save_param).decode("utf-8")
+            _incoming = json.loads(_decoded)
+        except Exception:
+            _incoming = {}
+            st.error("Kunde inte tolka sparningsdata från webbläsaren")
+        if _incoming:
+            _pat = _get_pat()
+            if not _pat:
+                st.error("GITHUB_PAT saknas i Streamlit secrets — kan inte skriva till repo")
+            else:
+                _ok, _msg = _sync_overrides_to_github(_incoming, _pat)
+                if _ok:
+                    st.success(f"✓ Prio-ändringar sparade ({_msg})")
                 else:
-                    _ok, _msg = _sync_overrides_to_github(_local_overrides, _pat)
-                    if _ok:
-                        st.success(f"✓ {_msg}")
-                        st.rerun()
-                    else:
-                        st.error(f"Sparfel: {_msg}")
+                    st.error(f"Sparfel: {_msg}")
+        # Rensa URL-parametern så refresh inte upprepar sparningen
+        try:
+            del st.query_params["_save_overrides"]
+        except Exception:
+            pass
 
     # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
     _STRETCH_TECH_PATTERNS = (

@@ -741,10 +741,32 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     function updateSaveBar() {{
-      // Save-baren är utfasad — auto-save-flödet ersatte behovet.
-      // Behåller funktionen som no-op så andra ställen som anropar den inte kraschar.
+      // Visar en flytande "Spara"-knapp när det finns osparade ändringar
       const bar = document.getElementById('save-overrides-bar');
-      if (bar) bar.classList.remove('active');
+      if (!bar) return;
+      const n = Object.keys(loadOverrides()).length;
+      const count = bar.querySelector('.save-count');
+      if (count) count.textContent = n;
+      if (n > 0) bar.classList.add('active');
+      else bar.classList.remove('active');
+    }}
+
+    // Kodar dina prio-ändringar i URL:en och navigerar hela sidan så
+    // Streamlit-appen kan läsa dem och spara till GitHub.
+    function saveToRepo() {{
+      const o = loadOverrides();
+      if (Object.keys(o).length === 0) return;
+      try {{
+        const json = JSON.stringify(o);
+        const b64 = btoa(unescape(encodeURIComponent(json)));
+        // Navigera parent-fönstret så Streamlit ser query param
+        const target = window.top || window.parent || window;
+        const url = new URL(target.location.href);
+        url.searchParams.set('_save_overrides', b64);
+        target.location.href = url.toString();
+      }} catch (e) {{
+        alert('Kunde inte spara: ' + e.message);
+      }}
     }}
 
     function showOverridesModal() {{
@@ -2506,7 +2528,11 @@ def generate(items: list[dict], output_path: str = "digest.html",
     <span>🚫 <span class="count">0</span> ärenden uteslutna ur rapporten.</span>
     <button id="excluded-toggle-btn" class="excluded-btn" onclick="toggleExcludedVisible()">Visa dem</button>
   </div>
-  <!-- save-overrides-bar och overrides-modal utfasade — auto-save ska ske via Streamlit-topbaren -->
+  <!-- Flytande spara-knapp — visas bara när det finns osparade ändringar -->
+  <div id="save-overrides-bar" class="save-overrides-bar">
+    <span>✏️ <span class="save-count">0</span> osparade prio-ändringar</span>
+    <button class="save-overrides-btn" onclick="saveToRepo()">💾 Spara →</button>
+  </div>
 
   {new_today_section}
   {calendar_section}
