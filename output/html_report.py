@@ -710,6 +710,18 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     applyOverridesOnLoad();
+
+    // Klick på dashboard-rad (eller annan sammanfattning) → scrolla till fullkortet
+    // och highlighta det i en sekund så användaren ser var det landade
+    function jumpToCard(anchor, ev) {{
+      // Om användaren klickade på en länk (typ dokumentet), låt den öppna som vanligt
+      if (ev && ev.target && ev.target.tagName === 'A') return;
+      const card = document.getElementById('card-' + anchor);
+      if (!card) return;
+      card.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+      card.classList.add('flash-highlight');
+      setTimeout(() => card.classList.remove('flash-highlight'), 1500);
+    }}
     </script>"""
 
     return f"""
@@ -755,9 +767,12 @@ def _is_english_title(title: str) -> bool:
 def _clean_title(item: dict) -> str:
     """Tvättar intetsägande RSS/byrå-rubriker OCH översätter engelska titlar.
     Använder första meningen av sammanfattningen som ersättningsrubrik när
-    originaltiteln är opaque eller engelsk."""
+    originaltiteln är opaque eller engelsk. Om rubriken saknar kontext
+    (typ 'Den gemensamma mallen träder i kraft') prefixas ärendenamnet."""
     title = (item.get("title") or "Utan titel").strip()
-    samm = (item.get("analysis", {}).get("sammanfattning") or "").strip()
+    analysis = item.get("analysis", {})
+    samm = (analysis.get("sammanfattning") or "").strip()
+    arende = (analysis.get("arende") or "").strip()
 
     # Opaque-mönster där originaltiteln säger lite eller inget
     opaque_prefixes = (
@@ -776,6 +791,7 @@ def _clean_title(item: dict) -> str:
     )
     is_english = _is_english_title(title)
 
+    chosen = title
     if (is_opaque or is_english) and samm:
         # Första meningen av sammanfattning, men inte längre än 120 tecken
         import re as _re
@@ -783,10 +799,26 @@ def _clean_title(item: dict) -> str:
         first = first.strip().rstrip(".")
         if len(first) > 120:
             first = first[:120].rsplit(" ", 1)[0] + "…"
-        if len(first) > 15:  # bara om vi har en vettig mening
-            return first
+        if len(first) > 15:
+            chosen = first
 
-    return title
+    # Om vald rubrik saknar konkret kontext (börjar med "Den/Det X träder..." typ)
+    # och vi har ett ärendenamn — prefixa så journalisten vet vad det gäller
+    context_lack_starts = (
+        "den ", "det ", "denna ", "detta ", "de nya ", "en ny ", "ett nytt ",
+        "den nya ", "det nya ", "förslaget ", "regeringen ", "beslutet ",
+        "utredningen ", "propositionen ", "utskottet ", "mötet ", "rapporten ",
+    )
+    chosen_low = chosen.lower()
+    lacks_context = (
+        arende
+        and arende.lower() not in chosen_low
+        and any(chosen_low.startswith(p) for p in context_lack_starts)
+    )
+    if lacks_context:
+        return f"{arende}: {chosen}"
+
+    return chosen
 
 
 def _original_title_if_translated(item: dict) -> str:
@@ -822,6 +854,7 @@ def _mini_card(item: dict) -> str:
     relevans = analysis.get("relevans", "okänd")
     color = RELEVANCE_COLOR.get(relevans, "#888")
     emoji = RELEVANCE_EMOJI.get(relevans, "⚪")
+    label = RELEVANCE_LABEL.get(relevans, relevans)
     # Råversioner används av full_data (JSON-escapas separat).
     # Visuella versioner HTML-escapas så RSS-titlar med <script> är säkra.
     title_raw = _clean_title(item)
@@ -872,20 +905,12 @@ def _mini_card(item: dict) -> str:
         "eu_koppling": analysis.get("eu_koppling") or "",
     }, ensure_ascii=False), quote=True)
 
-    # data-url + data-relevans behövs för att prioritet-dropdown ska kunna spara
+    # data-url + data-relevans behövs för att sidopanelens dropdown ska kunna spara
     url_attr = _esc(url_raw) if url_raw else ""
     return f"""
     <div class="mini-card mini-card-expandable" style="border-left:3px solid {color}" onclick="expandMini(this)" data-full="{full_data}" data-url="{url_attr}" data-relevans="{_esc(relevans)}">
       <div class="mini-card-head">
-        <select class="mini-prio-select" style="background:{color}"
-                onclick="event.stopPropagation()"
-                onchange="event.stopPropagation(); setPrio(this.closest('.mini-card').dataset.url, this.value); this.blur();"
-                title="Ändra prioritet">
-          <option value="hög" {"selected" if relevans == "hög" else ""}>🔴 Hög</option>
-          <option value="medel" {"selected" if relevans == "medel" else ""}>🟡 Medel</option>
-          <option value="låg" {"selected" if relevans == "låg" else ""}>🟢 Låg</option>
-          <option value="utesluten" {"selected" if relevans == "utesluten" else ""}>🚫 Uteslut</option>
-        </select>
+        <span class="mini-prio-emoji" style="background:{color}" title="Prioritet: {label}">{emoji}</span>
         <a {link} target="_blank" class="mini-title" onclick="event.stopPropagation()">{title}</a>
         <span class="mini-expand-hint">▾</span>
       </div>
@@ -956,8 +981,9 @@ def _full_card(item: dict) -> str:
         if varfor else ""
     )
 
+    _card_anchor = _item_anchor(item)
     return f"""
-    <div class="card" data-url="{url}" data-relevans="{_esc(relevans)}" data-arende="{_esc(arende.lower())}" data-keywords="{kw_data}">
+    <div class="card" id="card-{_card_anchor}" data-url="{url}" data-relevans="{_esc(relevans)}" data-arende="{_esc(arende.lower())}" data-keywords="{kw_data}">
       <div class="card-header" style="border-left:4px solid {color}">
         <select class="prio-select" style="background:{color}"
                 onchange="setPrio(this.closest('.card').dataset.url, this.value); this.blur();"
@@ -1261,7 +1287,7 @@ def _build_dashboard_section(items: list[dict], today_date: date) -> str:
             )
             anchor = _item_anchor(item)
             rows += f"""
-            <div class="dash-row" id="{anchor}">
+            <div class="dash-row clickable" id="{anchor}" onclick="jumpToCard('{anchor}', event)" title="Klicka för att öppna ärendekortet">
               <span class="dash-dot" style="background:{dot_color}"></span>
               <div class="dash-main">
                 {title_el}
@@ -1323,7 +1349,9 @@ def _build_arenden_section(arenden: dict) -> str:
         )
         timeline_rows = ""
         for doc in sorted_docs[:5]:
-            doc_date = doc.get("date", "")[:10]
+            # Använd _format_item_date som klarar både ISO och RSS-format
+            # (förut visades "Wed, 15 Ap" för ~56% av dokumenten pga rå [:10]-slicing)
+            doc_date = _format_item_date(doc.get("date", ""))
             doc_title = doc.get("title", "")
             doc_url = doc.get("url", "")
             doc_source = doc.get("source", "")
@@ -1914,6 +1942,22 @@ def generate(items: list[dict], output_path: str = "digest.html",
   .mini-prio-select {{
     width: 26px; height: 26px; padding: 0;
     border-radius: 50%; font-size: 0.75rem;
+  }}
+  /* Enkel prioritet-indikator som ren emoji-cirkel (ingen dropdown i mini-vyn) */
+  .mini-prio-emoji {{
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; border-radius: 50%;
+    font-size: 0.9rem; flex-shrink: 0;
+    line-height: 1;
+  }}
+  /* Klick-flash-highlight på fullkortet när man hoppar från dashboarden */
+  .card.flash-highlight {{
+    animation: flashHighlight 1.5s ease;
+  }}
+  @keyframes flashHighlight {{
+    0% {{ box-shadow: 0 0 0 3px rgba(74,108,247,0); background: #fff; }}
+    30% {{ box-shadow: 0 0 0 3px rgba(74,108,247,0.6); background: #f0f4ff; }}
+    100% {{ box-shadow: 0 0 0 3px rgba(74,108,247,0); background: #fff; }}
   }}
   .prio-select option, .mini-prio-select option {{
     background: white; color: #1a1a2e;

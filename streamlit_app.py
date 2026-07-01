@@ -410,6 +410,46 @@ with tab_live:
         except Exception:
             return {}
 
+    # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
+    _STRETCH_TECH_PATTERNS = (
+        "ingen tydlig tech", "ingen tech-vinkel", "saknar tech-vinkel",
+    )
+    _INTERNAL_ADMIN_PATTERNS = (
+        # Regeringsintern administration
+        "lämnar in", "lämnar över", "lämnas över", "överlämnar",
+        "överlämnade", "lämnade in", "överlämning av",
+        "regeringen ger", "regeringen ger i uppdrag",
+        "regeringsuppdrag", "regeringens skrivelse",
+        "propositionens ankomst", "ministern besöker",
+        "delbetänkande överlämnas", "utredningen presenterar",
+        "utredningsdirektiv", "kommittédirektiv",
+        "riksrevisionens rapport", "årsredovisning",
+        # Möten och utfrågningar (interna proceduren)
+        "exchange of views", "hearing on", "presentation of",
+        "meeting of", "voting time", "committee meeting",
+        "public hearing", "structured dialogue",
+        # Konsultationer och remisser (inte substantiella beslut)
+        "call for input", "call for evidence", "have your say",
+        "public consultation", "targeted consultation",
+    )
+
+    def _should_exclude(item: dict) -> bool:
+        """Filtrerar bort items som inte är intressanta nyhetsvinklar:
+        1. Saknar tech-vinkel eller AI sa 'ingen tydlig tech-vinkel'
+        2. Interna administrativa dokument (regeringsuppdrag, hearings, konsultationer)"""
+        a = item.get("analysis") or {}
+        tv = (a.get("tech_vinkel") or "").strip().lower()
+        if not tv:
+            return True
+        if any(p in tv for p in _STRETCH_TECH_PATTERNS):
+            return True
+        title_low = (item.get("title") or "").lower()
+        samm_low = (a.get("sammanfattning") or "").lower()
+        haystack = f"{title_low} {samm_low}"
+        if any(p in haystack for p in _INTERNAL_ADMIN_PATTERNS):
+            return True
+        return False
+
     _all_items = []
     _seen_urls: set[str] = set()
     for _day_items in _load_json(".agent_memory.json").values():
@@ -434,6 +474,10 @@ with tab_live:
             "summary": _entry.get("summary", ""),
             "analysis": _entry.get("analysis", {}),
         })
+    # Filtrera bort items utan tech-vinkel och interna admin-dokument
+    _before = len(_all_items)
+    _all_items = [it for it in _all_items if not _should_exclude(it)]
+    _filtered = _before - len(_all_items)
 
     # Bygg important_dates: kombinera .agent_dates.json (bara memory-items har landat där)
     # med viktiga_datum från alla items (inkl cache-items som annars saknar sina framtida datum).
