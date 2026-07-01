@@ -404,7 +404,8 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
           <option value="medel" ${{rel === "medel" ? "selected" : ""}}>🟡 Medel</option>
           <option value="låg" ${{rel === "låg" ? "selected" : ""}}>🟢 Låg</option>
           <option value="utesluten" ${{rel === "utesluten" ? "selected" : ""}}>🚫 Uteslut från rapport</option>
-        </select>`;
+        </select>
+        <button class="card-save-btn" onclick="saveToRepo()" title="Spara ändringar till repo">💾 Spara</button>`;
       const meta = d.meta ? `<p class="panel-meta">${{d.meta}}</p>` : "";
       const samm = d.sammanfattning ? `<p class="panel-samm"><strong>Vad handlar det om?</strong> ${{d.sammanfattning}}</p>` : "";
       const vinkel = d.tech_vinkel ? `<p class="panel-vinkel"><strong>Tech-vinkel:</strong> ${{d.tech_vinkel}}</p>` : "";
@@ -741,14 +742,17 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     function updateSaveBar() {{
-      // Visar en flytande "Spara"-knapp när det finns osparade ändringar
-      const bar = document.getElementById('save-overrides-bar');
-      if (!bar) return;
+      // Sätter en body-klass när det finns osparade ändringar → CSS visar spara-knappar
+      // inuti korten (bredvid prio-dropdown) samt den flytande baren i hörnet.
       const n = Object.keys(loadOverrides()).length;
-      const count = bar.querySelector('.save-count');
-      if (count) count.textContent = n;
-      if (n > 0) bar.classList.add('active');
-      else bar.classList.remove('active');
+      document.body.classList.toggle('has-pending-overrides', n > 0);
+      const bar = document.getElementById('save-overrides-bar');
+      if (bar) {{
+        const count = bar.querySelector('.save-count');
+        if (count) count.textContent = n;
+        if (n > 0) bar.classList.add('active');
+        else bar.classList.remove('active');
+      }}
     }}
 
     // Kodar dina prio-ändringar i URL:en och navigerar hela sidan så
@@ -1114,6 +1118,7 @@ def _full_card(item: dict) -> str:
           <option value="låg" {"selected" if relevans == "låg" else ""}>🟢 Låg</option>
           <option value="utesluten" {"selected" if relevans == "utesluten" else ""}>🚫 Uteslut från rapport</option>
         </select>
+        <button class="card-save-btn" onclick="saveToRepo()" title="Spara ändringar till repo">💾 Spara</button>
         {arende_chip}
         <h3>{title}</h3>
         <p class="meta">{meta}</p>
@@ -2197,6 +2202,18 @@ def generate(items: list[dict], output_path: str = "digest.html",
     text-align: center;
   }}
   .prio-select {{ font-size: 0.72rem; padding: 0.2rem 0.6rem; }}
+  /* Spara-knapp bredvid prio-dropdown — bara synlig när ändringar finns */
+  .card-save-btn {{
+    display: none;
+    background: #8b5cf6; color: white; border: 0;
+    font-size: 0.72rem; font-weight: 600;
+    padding: 0.25rem 0.65rem; border-radius: 20px;
+    cursor: pointer; margin-left: 0.4rem;
+    vertical-align: middle;
+  }}
+  .card-save-btn:hover {{ background: #7c3aed; }}
+  /* Visas när sidan har pending overrides */
+  body.has-pending-overrides .card-save-btn {{ display: inline-block; }}
   .mini-prio-select {{
     width: 26px; height: 26px; padding: 0;
     border-radius: 50%; font-size: 0.75rem;
