@@ -411,8 +411,29 @@ with tab_live:
             return {}
 
     _all_items = []
+    _seen_urls: set[str] = set()
     for _day_items in _load_json(".agent_memory.json").values():
-        _all_items.extend(_day_items)
+        for _it in _day_items:
+            _u = _it.get("url", "")
+            if _u:
+                _seen_urls.add(_u)
+            _all_items.append(_it)
+    # Komplettera med cache-items som INTE finns i memory — så att analyserade
+    # items som filtrerats bort vid körningen ändå visas på sajten i sina rätta
+    # sektioner. De hamnar inte i Nytt idag eftersom den filtrerar på publiceringsdatum.
+    for _url, _entry in _load_json(".agent_analysis_cache.json").items():
+        if not _url or _url in _seen_urls:
+            continue
+        _all_items.append({
+            "title": _entry.get("title", ""),
+            "url": _url,
+            "source": _entry.get("source", ""),
+            "type": _entry.get("type", ""),
+            "date": _entry.get("date", ""),
+            "committee": _entry.get("committee", ""),
+            "summary": _entry.get("summary", ""),
+            "analysis": _entry.get("analysis", {}),
+        })
 
     try:
         with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
