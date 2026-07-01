@@ -385,6 +385,7 @@ with tab_live:
     ROOT = Path(__file__).parent
     from output.html_report import generate as _gen_html
     import tempfile
+    import base64 as _b64
 
     def _load_json(name: str) -> dict:
         try:
@@ -392,6 +393,81 @@ with tab_live:
                 return json.load(f)
         except Exception:
             return {}
+
+    # ── Auto-sync av prio-ändringar: localStorage → GitHub ────
+    # HTML-rapporten sparar ändringar i webbläsarens localStorage under
+    # 'tv_relevans_overrides_v1'. Vid varje sidladdning läses den nyckeln + synkas
+    # till .agent_overrides.json i repo:t om något ändrats. Så AI:n ser dem.
+    _VALID_RELEVANS = {"hög", "medel", "låg", "utesluten"}
+
+    def _is_safe_url(u: str) -> bool:
+        return (isinstance(u, str) and u.strip().startswith(("http://", "https://"))
+                and len(u) < 2000)
+
+    def _sync_overrides_to_github(new_data: dict, pat: str) -> tuple[bool, str]:
+        """PAT skickas ENDAST i Authorization-header. Felmeddelanden avslöjar aldrig
+        token-innehåll — bara HTTP-status + generisk hint."""
+        if not pat:
+            return False, "GITHUB_PAT saknas"
+        # Validera + slå ihop med befintlig repo-fil
+        current = _load_json(".agent_overrides.json") or {}
+        merged = dict(current)
+        for url, val in new_data.items():
+            if _is_safe_url(url) and val in _VALID_RELEVANS:
+                merged[url] = val
+        if merged == current:
+            return True, "ingen ändring"
+        new_content = json.dumps(merged, ensure_ascii=False, indent=2) + "\n"
+        api = f"https://api.github.com/repos/{GITHUB_REPO}/contents/.agent_overrides.json"
+        headers = {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
+        try:
+            r = requests.get(api, headers=headers, timeout=10)
+        except requests.RequestException as e:
+            return False, f"Nätverksfel: {type(e).__name__}"
+        sha = r.json().get("sha") if r.status_code == 200 else None
+        if r.status_code not in (200, 404):
+            return False, f"GET misslyckades (HTTP {r.status_code})"
+        payload = {
+            "message": f"Auto-sync prio-ändringar ({len(new_data)} från browser)",
+            "content": _b64.b64encode(new_content.encode("utf-8")).decode("ascii"),
+        }
+        if sha:
+            payload["sha"] = sha
+        try:
+            r = requests.put(api, headers=headers, json=payload, timeout=15)
+        except requests.RequestException as e:
+            return False, f"Nätverksfel vid PUT: {type(e).__name__}"
+        if r.status_code in (200, 201):
+            # Uppdatera lokal kopia så nästa sidladdning inte pushar igen
+            try:
+                (ROOT / ".agent_overrides.json").write_text(new_content, encoding="utf-8")
+            except Exception:
+                pass
+            return True, f"synkade {len(merged)} val"
+        return False, f"PUT misslyckades (HTTP {r.status_code})"
+
+    # Läs localStorage-nyckeln (kräver streamlit-local-storage)
+    try:
+        from streamlit_local_storage import LocalStorage
+        _lstorage = LocalStorage()
+        _local_overrides_raw = _lstorage.getItem("tv_relevans_overrides_v1")
+        _local_overrides = json.loads(_local_overrides_raw) if _local_overrides_raw else {}
+    except Exception:
+        _local_overrides = {}
+
+    # Auto-synka om något finns i webbläsaren
+    if _local_overrides:
+        _pat = _get_pat()
+        _committed = _load_json(".agent_overrides.json") or {}
+        # Detektera skillnad
+        _diff = {k: v for k, v in _local_overrides.items()
+                 if _is_safe_url(k) and v in _VALID_RELEVANS and _committed.get(k) != v}
+        if _diff:
+            _ok, _msg = _sync_overrides_to_github(_local_overrides, _pat)
+            if _ok:
+                st.toast(f"✓ Synkade {len(_diff)} prio-ändringar", icon="💾")
+            else:
+                st.warning(f"Kunde inte synka prio-ändringar: {_msg}")
 
     # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
     _STRETCH_TECH_PATTERNS = (
