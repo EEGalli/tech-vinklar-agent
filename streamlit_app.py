@@ -396,22 +396,26 @@ if search_query:
 ])
 
 with tab_live:
-    # Läser data direkt från memory + cache — ingen HTML behövs
+    # Läser data direkt från JSON-filer — ingen HTML behövs
     from live_view import render_live_view
     ROOT = Path(__file__).parent
-    _memory = {}
-    _cache = {}
-    try:
-        with open(ROOT / ".agent_memory.json", encoding="utf-8") as f:
-            _memory = json.load(f)
-    except Exception:
-        pass
-    try:
-        with open(ROOT / ".agent_analysis_cache.json", encoding="utf-8") as f:
-            _cache = json.load(f)
-    except Exception:
-        pass
-    render_live_view(ROOT, _memory, _cache, GITHUB_REPO, _get_pat())
+
+    def _load_json(name: str) -> dict:
+        try:
+            with open(ROOT / name, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
+
+    render_live_view(
+        ROOT,
+        memory=_load_json(".agent_memory.json"),
+        cache=_load_json(".agent_analysis_cache.json"),
+        arenden=_load_json(".agent_arenden.json"),
+        dates=_load_json(".agent_dates.json"),
+        repo=GITHUB_REPO,
+        pat=_get_pat(),
+    )
 
 with tab_dashboard:
     with open(selected, encoding="utf-8") as f:

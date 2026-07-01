@@ -174,8 +174,10 @@ def _change_prio(url: str, new_rel: str) -> None:
         st.session_state.overrides_pending[url] = new_rel
 
 
-def _render_item_card(item: dict) -> None:
-    """Renderar ett enda item som ett Streamlit-kort med prio-dropdown."""
+def _render_item_card(item: dict, auto_save_ctx: dict | None = None) -> None:
+    """Renderar ett enda item som ett Streamlit-kort med prio-dropdown.
+    auto_save_ctx (dict med root/repo/pat) triggar direkt-sparning till GitHub
+    vid varje ändring. Om None faller vi tillbaka till pending-model."""
     url = item.get("url", "")
     rel = _effective_relevans(item)
     manual = _is_manually_set(item)
@@ -207,7 +209,19 @@ def _render_item_card(item: dict) -> None:
             )
             new_rel = options[labels.index(new_label)]
             if new_rel != rel:
-                _change_prio(url, new_rel)
+                if auto_save_ctx and auto_save_ctx.get("pat"):
+                    # Autosave direkt till GitHub — ingen mellansteg
+                    ok, msg = _autosave_single_change(
+                        auto_save_ctx["root"], auto_save_ctx["repo"],
+                        auto_save_ctx["pat"], url, new_rel,
+                    )
+                    if ok:
+                        st.toast(f"✓ Sparat: {RELEVANS_LABEL[new_rel]}", icon="💾")
+                    else:
+                        st.toast(f"⚠ Kunde inte spara: {msg}", icon="⚠️")
+                else:
+                    # Ingen PAT → fall tillbaka till pending-model
+                    _change_prio(url, new_rel)
                 st.rerun()
         with cols[1]:
             emoji = RELEVANS_EMOJI.get(rel, "⚪")
@@ -247,6 +261,26 @@ _HTTP_STATUS_HINTS = {
     404: "Repo hittades inte — kontrollera GITHUB_REPO-inställningen.",
     422: "GitHub avvisade payload (fel format).",
 }
+
+
+def _autosave_single_change(root: Path, repo: str, pat: str, url: str, new_rel: str) -> tuple[bool, str]:
+    """Sparar EN prio-ändring direkt till GitHub. Uppdaterar session_state
+    committed direkt vid framgång. Använder samma säkerhetscheckar som
+    batch-savefunktionen (validerar URL, whitelist på relevans, ingen PAT-läcka)."""
+    if not _is_safe_url(url) or new_rel not in _VALID_RELEVANS:
+        return False, "Ogiltigt värde."
+    # Sätt i committed direkt (optimistic) — reverterar om PUT failar
+    prev = st.session_state.overrides_committed.get(url)
+    st.session_state.overrides_committed[url] = new_rel
+
+    ok, msg = _save_to_github(root, repo, pat)
+    if not ok:
+        # Revertera vid fel så state matchar disk
+        if prev is None:
+            st.session_state.overrides_committed.pop(url, None)
+        else:
+            st.session_state.overrides_committed[url] = prev
+    return ok, msg
 
 
 def _save_to_github(root: Path, repo: str, pat: str) -> tuple[bool, str]:
@@ -300,21 +334,225 @@ def _save_to_github(root: Path, repo: str, pat: str) -> tuple[bool, str]:
     return False, f"GitHub PUT misslyckades (HTTP {r.status_code}). {hint}"
 
 
+def _items_last_24h(all_items: list[dict], cache: dict) -> list[dict]:
+    """Items vars cached_at är idag eller igår (rolling 24h-fönster).
+    Skyddar mot att items 'försvinner' när man kör flera gånger samma dag."""
+    today = date.today().isoformat()
+    yesterday = (date.today() - timedelta(days=1)).isoformat()
+    ok_dates = {today, yesterday}
+    result = []
+    for url, entry in cache.items():
+        if entry.get("cached_at", "") not in ok_dates:
+            continue
+        analysis = entry.get("analysis") or {}
+        rel = analysis.get("relevans", "okänd")
+        if rel not in ("hög", "medel"):
+            continue
+        # Föredra full item om det finns, fall tillbaka till cache-entryn
+        by_url = {i.get("url"): i for i in all_items if i.get("url") == url}
+        if url in by_url:
+            result.append(by_url[url])
+        else:
+            result.append({
+                "title": entry.get("title", ""),
+                "url": url,
+                "source": entry.get("source", ""),
+                "type": entry.get("type", ""),
+                "date": entry.get("date", ""),
+                "committee": entry.get("committee", ""),
+                "analysis": analysis,
+            })
+    return _sort_items(result)
+
+
+def _render_summary_section(items_24h: list[dict]) -> None:
+    """Snabb summering — de viktigaste nya puckarna från senaste 24h."""
+    st.markdown("## 🆕 Nytt de senaste 24 timmarna")
+    if not items_24h:
+        st.caption("Inga nya puckar de senaste 24 timmarna.")
+        return
+    # Ta de 5 viktigaste (hög-prio först, sen datum-nyast)
+    top = items_24h[:5]
+    st.caption(f"{len(items_24h)} nya totalt · visar topp {len(top)}")
+    for item in top:
+        rel = _effective_relevans(item)
+        emoji = RELEVANS_EMOJI.get(rel, "⚪")
+        title = item.get("title", "Utan titel")
+        source = item.get("source", "")
+        d = (item.get("date") or "")[:10]
+        vinkel = item.get("analysis", {}).get("tech_vinkel", "")
+        url = item.get("url", "")
+        meta = " · ".join([p for p in (d, source) if p])
+        with st.container(border=True):
+            # Escape via st.markdown-safe formatering
+            st.markdown(f"**{emoji} {title}**")
+            if meta:
+                st.caption(meta)
+            if vinkel:
+                st.markdown(f"*{vinkel}*")
+            if _is_safe_url(url):
+                st.markdown(f"[Läs originaldokumentet →]({url})")
+
+
+def _render_calendar_section(dates_data: dict, items_by_url: dict) -> None:
+    """Månadskalender + kommande viktiga datum."""
+    st.markdown("## 📅 Kalender")
+    today = date.today()
+    # Filter: bara datum från idag och 30 dagar framåt
+    upcoming = {}
+    for d_iso, entries in (dates_data or {}).items():
+        try:
+            d = date.fromisoformat(d_iso)
+        except ValueError:
+            continue
+        if today <= d <= today + timedelta(days=60):
+            upcoming[d_iso] = entries
+    if not upcoming:
+        st.caption("Inga inplanerade viktiga datum de närmaste 60 dagarna.")
+        return
+    # Sortera efter datum
+    for d_iso in sorted(upcoming.keys()):
+        entries = upcoming[d_iso]
+        d = date.fromisoformat(d_iso)
+        days_from_now = (d - today).days
+        if days_from_now == 0:
+            when = "**Idag**"
+        elif days_from_now == 1:
+            when = "**Imorgon**"
+        elif days_from_now < 7:
+            when = f"**Om {days_from_now} dagar**"
+        else:
+            when = f"Om {days_from_now} dagar"
+        with st.container(border=True):
+            st.markdown(f"### 📅 {d.strftime('%-d %B %Y').replace('January','januari').replace('February','februari').replace('March','mars').replace('April','april').replace('May','maj').replace('June','juni').replace('July','juli').replace('August','augusti').replace('September','september').replace('October','oktober').replace('November','november').replace('December','december')} — {when}")
+            for e in entries:
+                beskr = e.get("beskrivning", "")
+                arende = e.get("arende", "")
+                src_url = e.get("url", "")
+                if arende:
+                    st.markdown(f"- **{arende}** — {beskr}")
+                else:
+                    st.markdown(f"- {beskr}")
+                if src_url:
+                    st.caption(f"[Källa]({src_url})")
+
+
+def _render_topics_section(arenden_data: dict, all_items: list[dict], auto_save_ctx: dict) -> None:
+    """Ärenden sorterade efter senast uppdaterade. Under varje ärende visas
+    de tillhörande puckarna som mindre kort."""
+    st.markdown("## 🎯 Ämnen — sorterade efter senast händelse")
+    if not arenden_data:
+        st.caption("Inga aktiva ärenden ännu.")
+        return
+
+    # Sortera ärenden efter last_updated (nyast först)
+    sorted_arenden = sorted(
+        arenden_data.items(),
+        key=lambda x: x[1].get("last_updated", ""),
+        reverse=True,
+    )
+
+    # Bygg URL → item lookup för snabb åtkomst
+    by_url = {i.get("url", ""): i for i in all_items if i.get("url")}
+
+    for arende_name, arende_info in sorted_arenden:
+        docs = arende_info.get("documents", [])
+        if not docs:
+            continue
+        last_updated = arende_info.get("last_updated", "")
+        n_docs = len(docs)
+        # Räkna hög-prio-dokument i ärendet
+        n_hog = 0
+        for doc in docs:
+            item = by_url.get(doc.get("url", ""))
+            if item and _effective_relevans(item) == "hög":
+                n_hog += 1
+        header = f"📁 **{arende_name}** — {n_docs} dokument"
+        if n_hog:
+            header += f" ({n_hog} 🔴 hög)"
+        header += f" · Senaste händelse: {last_updated}"
+        with st.expander(header, expanded=False):
+            next_step = arende_info.get("next_step", "")
+            if next_step:
+                st.info(f"**Nästa steg:** {next_step}")
+            # Visa dokumenten (nyast först) som mindre kort
+            for doc in sorted(docs, key=lambda d: d.get("date", ""), reverse=True):
+                doc_url = doc.get("url", "")
+                item = by_url.get(doc_url)
+                if item:
+                    _render_item_card(item, auto_save_ctx)
+                else:
+                    # Item saknas i memory (kanske klustrat bort) — visa minimalt
+                    d = (doc.get("date") or "")[:10]
+                    title = doc.get("title", "Utan titel")
+                    source = doc.get("source", "")
+                    tech = doc.get("tech_vinkel", "")
+                    with st.container(border=True):
+                        st.markdown(f"**{title}**")
+                        st.caption(" · ".join([p for p in (d, source) if p]))
+                        if tech:
+                            st.markdown(f"*{tech}*")
+                        if doc_url:
+                            st.markdown(f"[Läs originaldokumentet →]({doc_url})")
+
+
+def _render_uncategorized_section(all_items: list[dict], arenden_data: dict, filters: dict, auto_save_ctx: dict) -> None:
+    """Puckar som INTE ligger under ett ärende — grupperade per prio."""
+    st.markdown("## 📌 Övriga puckar")
+    # Samla alla URL:er som redan visas under ett ärende
+    used_urls = set()
+    for arende_info in (arenden_data or {}).values():
+        for doc in arende_info.get("documents", []):
+            if doc.get("url"):
+                used_urls.add(doc["url"])
+
+    uncat = [i for i in all_items if i.get("url", "") not in used_urls]
+    # Applicera filter + sortering
+    uncat = _apply_filters(uncat, filters)
+    if not st.session_state.show_excluded:
+        uncat = [i for i in uncat if _effective_relevans(i) != "utesluten"]
+    uncat = _sort_items(uncat)
+
+    if not uncat:
+        st.caption("Inga övriga puckar utanför ämneslistan.")
+        return
+
+    st.caption(f"{len(uncat)} puckar som inte hör till ett specifikt ämne")
+    for item in uncat[:30]:  # begränsa initial rendering
+        _render_item_card(item, auto_save_ctx)
+    if len(uncat) > 30:
+        st.caption(f"... och {len(uncat) - 30} till (filtrera i sidopanelen för att smalna av)")
+
+
 def render_live_view(
     root: Path,
     memory: dict,
     cache: dict,
-    repo: str,
-    pat: str,
+    arenden: dict = None,
+    dates: dict = None,
+    repo: str = "",
+    pat: str = "",
 ) -> None:
-    """Huvudrenderare — anropas från streamlit_app.py inuti Live-fliken."""
+    """Huvudrenderare — anropas från streamlit_app.py inuti Live-fliken.
+
+    Layout:
+    1. Header med stats + osparade ändringar-flärp
+    2. Sidopanel-filter
+    3. 🆕 Nytt de senaste 24h (topp 5)
+    4. 📅 Kalender med kommande viktiga datum
+    5. 🎯 Ämnen — ärenden sorterade efter senast uppdaterade
+    6. 📌 Övriga puckar — items utanför ärendelistan
+    """
     _init_state(root)
+    arenden = arenden or {}
+    dates = dates or {}
 
     all_items = _flatten_items(memory, cache)
+    items_by_url = {i.get("url", ""): i for i in all_items if i.get("url")}
 
     # ── Sidopanel-filter ─────────────────────────
     st.sidebar.markdown("### 🔴 Live-vy filter")
-    search = st.sidebar.text_input("🔎 Sök i titel/sammanfattning/ärende", key="lv_search")
+    search = st.sidebar.text_input("🔎 Sök", key="lv_search")
     prio_choices = st.sidebar.multiselect(
         "Prioritet",
         ["hög", "medel", "låg"],
@@ -349,38 +587,33 @@ def render_live_view(
     if counts["utesluten"]:
         top_cols[4].metric("🚫 Uteslutna", counts["utesluten"])
 
-    # ── Osparade ändringar-flärp ─────────────────
-    n_pending = len(st.session_state.overrides_pending)
-    if n_pending:
-        c1, c2 = st.columns([3, 1])
-        with c1:
-            st.info(f"✏️ {n_pending} osparade prio-ändringar")
-        with c2:
-            if st.button("💾 Spara till GitHub", type="primary", key="lv_save"):
-                ok, msg = _save_to_github(root, repo, pat)
-                if ok:
-                    st.success(msg)
-                    st.rerun()
-                else:
-                    st.error(msg)
+    # Auto-save kontext skickas till varje kort så prio-ändringar direktsparas
+    auto_save_ctx = {"root": root, "repo": repo, "pat": pat}
+    if not pat:
+        st.warning(
+            "⚠ GITHUB_PAT saknas i Streamlit secrets — prio-ändringar sparas bara "
+            "i denna webbläsar-session tills PAT konfigureras."
+        )
 
-    # ── Filter + sortering ───────────────────────
+    st.caption("💡 Ändra prioritet på ett ärende sparas direkt. AI:n läser dina val och lär sig av mönstret framöver.")
+    st.divider()
+
+    # ── 1. Nytt de senaste 24h ───────────────────
+    items_24h = _items_last_24h(all_items, cache)
+    _render_summary_section(items_24h)
+
+    st.divider()
+
+    # ── 2. Kalender ──────────────────────────────
+    _render_calendar_section(dates, items_by_url)
+
+    st.divider()
+
+    # ── 3. Ämnen (per ärende, sorterade efter senast händelse) ──
+    _render_topics_section(arenden, all_items, auto_save_ctx)
+
+    st.divider()
+
+    # ── 4. Övriga puckar (utan tillhörande ärende) ──
     filters = {"search": search, "prios": prio_choices, "sources": source_choices}
-    filtered = _apply_filters(all_items, filters)
-    # Uteslut-hantering
-    if not st.session_state.show_excluded:
-        n_hidden = sum(1 for i in filtered if _effective_relevans(i) == "utesluten")
-        filtered = [i for i in filtered if _effective_relevans(i) != "utesluten"]
-        if n_hidden:
-            st.caption(f"🚫 {n_hidden} uteslutna göms — bocka i 'Visa uteslutna' i sidopanelen för att se dem")
-
-    sorted_items = _sort_items(filtered)
-
-    st.markdown(f"### {len(sorted_items)} ärenden efter filter")
-
-    if not sorted_items:
-        st.info("Inga ärenden matchar filtren. Prova att bocka i fler prioriteter eller rensa sökrutan.")
-        return
-
-    for item in sorted_items:
-        _render_item_card(item)
+    _render_uncategorized_section(all_items, arenden, filters, auto_save_ctx)
