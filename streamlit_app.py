@@ -64,13 +64,23 @@ def _list_reports() -> list[Path]:
 
 
 def _format_label(p: Path) -> str:
-    """Formaterar 'digest_20260427_0808.html' → '27 april 2026, 08:08'."""
+    """Formaterar 'digest_20260427_0808.html' → '27 apr 2026, 10:08' (svensk tid).
+    Filnamnen är UTC (både lokala körningar och GitHub Actions stämplar UTC),
+    så vi konverterar till Europe/Stockholm för visning."""
+    from datetime import timezone
+    try:
+        from zoneinfo import ZoneInfo
+        stockholm = ZoneInfo("Europe/Stockholm")
+    except Exception:
+        stockholm = None  # fallback: visa UTC om zoneinfo saknas
     name = p.stem.replace("digest_", "").replace("_rebuild", "").replace("_nytt", "")
     parts = name.split("_")
     if len(parts) >= 2:
         try:
-            dt = datetime.strptime(f"{parts[0]}_{parts[1][:4]}", "%Y%m%d_%H%M")
-            return dt.strftime("%-d %b %Y, %H:%M")
+            dt_utc = datetime.strptime(f"{parts[0]}_{parts[1][:4]}", "%Y%m%d_%H%M")
+            dt_utc = dt_utc.replace(tzinfo=timezone.utc)
+            dt_local = dt_utc.astimezone(stockholm) if stockholm else dt_utc
+            return dt_local.strftime("%-d %b %Y, %H:%M")
         except ValueError:
             pass
     return p.name
@@ -372,9 +382,10 @@ if search_query:
              + len(ep_items) + len(ek_items) + len(agency_items) + len(media_items))
     st.sidebar.caption(f"🔎 {total} träffar för \"{search_query}\"")
 
-(tab_dashboard, tab_riksdag, tab_reg, tab_myn,
+(tab_live, tab_dashboard, tab_riksdag, tab_reg, tab_myn,
  tab_ep, tab_ek, tab_byraer, tab_media) = st.tabs([
-    "📊 Dashboard",
+    "🔴 Live",
+    "📊 Arkiv (HTML)",
     f"🇸🇪 Riksdagen ({len(riksdagen_items)})",
     f"🏛️ Regeringen ({len(regeringen_items)})",
     f"🏤 SE-myndigheter ({len(se_myndigheter_items)})",
@@ -383,6 +394,24 @@ if search_query:
     f"🏢 EU-byråer ({len(agency_items)})",
     f"📰 Tech-media ({len(media_items)})",
 ])
+
+with tab_live:
+    # Läser data direkt från memory + cache — ingen HTML behövs
+    from live_view import render_live_view
+    ROOT = Path(__file__).parent
+    _memory = {}
+    _cache = {}
+    try:
+        with open(ROOT / ".agent_memory.json", encoding="utf-8") as f:
+            _memory = json.load(f)
+    except Exception:
+        pass
+    try:
+        with open(ROOT / ".agent_analysis_cache.json", encoding="utf-8") as f:
+            _cache = json.load(f)
+    except Exception:
+        pass
+    render_live_view(ROOT, _memory, _cache, GITHUB_REPO, _get_pat())
 
 with tab_dashboard:
     with open(selected, encoding="utf-8") as f:

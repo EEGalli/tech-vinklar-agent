@@ -462,7 +462,13 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     // ── Manuella prioritet-overrides ─────────────────────────
     const OVERRIDES_KEY = "tv_relevans_overrides_v1";
     const REL_CYCLE = ["hög", "medel", "låg"];
-    const REL_LABEL = {{"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg"}};
+    const REL_LABEL = {{"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg", "utesluten": "Utesluten"}};
+    const REL_MENU_ITEMS = [
+      {{val: "hög",       label: "Hög prioritet",     color: "#c0392b", dot: "#e74c3c"}},
+      {{val: "medel",     label: "Medel",             color: "#d68910", dot: "#f39c12"}},
+      {{val: "låg",       label: "Låg",               color: "#27ae60", dot: "#2ecc71"}},
+      {{val: "utesluten", label: "Uteslut från rapport", color: "#6b7280", dot: "#9ca3af", exclude: true}},
+    ];
 
     function loadOverrides() {{
       try {{ return JSON.parse(localStorage.getItem(OVERRIDES_KEY) || "{{}}"); }}
@@ -475,32 +481,116 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
 
     function applyOverridesOnLoad() {{
       const o = loadOverrides();
-      document.querySelectorAll('.card').forEach(card => {{
+      // Nu även mini-cards (inte bara fullkort)
+      document.querySelectorAll('.card, .mini-card').forEach(card => {{
         const url = card.dataset.url;
         if (!url || !o[url]) return;
-        const newRel = o[url];
-        updateCardRelevans(card, newRel, true);
+        const val = o[url];
+        if (val === 'utesluten') {{
+          card.classList.add('excluded');
+          card.dataset.relevans = 'utesluten';
+        }} else {{
+          updateCardRelevans(card, val, true);
+        }}
       }});
       updateSaveBar();
+      updateExcludedBanner();
     }}
 
-    function cycleRelevans(btn) {{
-      // Funkar både för fullkort (.card) och mini-kort (.mini-card)
-      const card = btn.closest('.card, .mini-card');
+    // Räkna uteslutna items och visa flärp — grupperar per URL så
+    // varje ärende räknas EN gång även om det syns i flera sektioner
+    function updateExcludedBanner() {{
+      const excluded = new Set();
+      document.querySelectorAll('.card.excluded, .mini-card.excluded').forEach(c => {{
+        if (c.dataset.url) excluded.add(c.dataset.url);
+      }});
+      const banner = document.getElementById('excluded-banner');
+      if (!banner) return;
+      if (excluded.size > 0) {{
+        banner.querySelector('.count').textContent = excluded.size;
+        banner.classList.add('active');
+      }} else {{
+        banner.classList.remove('active');
+      }}
+    }}
+
+    // Toggla mellan att visa/dölja uteslutna items
+    let excludedVisible = false;
+    function toggleExcludedVisible() {{
+      excludedVisible = !excludedVisible;
+      document.querySelectorAll('.card.excluded, .mini-card.excluded').forEach(c => {{
+        c.classList.toggle('showing', excludedVisible);
+      }});
+      const btn = document.getElementById('excluded-toggle-btn');
+      if (btn) btn.textContent = excludedVisible ? 'Göm igen' : 'Visa dem';
+    }}
+
+    // Öppna dropdown-menyn vid klick på prioritet-badge (fullkort eller mini)
+    function openPrioMenu(trigger, ev) {{
+      if (ev) ev.stopPropagation();
+      closePrioMenu();  // stäng ev befintlig
+      const card = trigger.closest('.card, .mini-card');
       if (!card) return;
       const url = card.dataset.url;
-      if (!url) {{ alert("Saknar URL — kan inte spara ändring för detta ärende."); return; }}
+      if (!url) {{
+        alert("Saknar URL — kan inte spara ändring för detta ärende.");
+        return;
+      }}
       const current = card.dataset.relevans;
-      const idx = REL_CYCLE.indexOf(current);
-      const next = REL_CYCLE[(idx + 1) % REL_CYCLE.length];
-      updateCardRelevans(card, next, true);
-      // Synka alla andra kort med samma URL (samma ärende kan visas i flera sektioner)
-      document.querySelectorAll(`[data-url="${{CSS.escape(url)}}"]`).forEach(c => {{
-        if (c !== card) updateCardRelevans(c, next, true);
+      const menu = document.createElement('div');
+      menu.className = 'prio-menu';
+      menu.id = 'active-prio-menu';
+      menu.innerHTML = REL_MENU_ITEMS.map(m => `
+        <div class="prio-menu-item ${{m.exclude ? 'exclude' : ''}} ${{m.val === current ? 'current' : ''}}"
+             data-val="${{m.val}}">
+          <span class="dot" style="background:${{m.dot}}"></span>
+          <span>${{m.label}}</span>
+        </div>
+      `).join('');
+      document.body.appendChild(menu);
+      // Positionera menyn under badgen
+      const rect = trigger.getBoundingClientRect();
+      menu.style.top = (window.scrollY + rect.bottom + 6) + 'px';
+      menu.style.left = (window.scrollX + rect.left) + 'px';
+      // Om menyn sticker ut åt höger, justera
+      const menuRect = menu.getBoundingClientRect();
+      if (menuRect.right > window.innerWidth - 10) {{
+        menu.style.left = (window.scrollX + window.innerWidth - menuRect.width - 10) + 'px';
+      }}
+      // Klick-handler för menyval
+      menu.querySelectorAll('.prio-menu-item').forEach(el => {{
+        el.addEventListener('click', (e) => {{
+          e.stopPropagation();
+          const val = el.dataset.val;
+          setPrio(url, val);
+          closePrioMenu();
+        }});
+      }});
+      // Stäng vid klick utanför
+      setTimeout(() => document.addEventListener('click', closePrioMenu, {{ once: true }}), 10);
+    }}
+
+    function closePrioMenu() {{
+      const existing = document.getElementById('active-prio-menu');
+      if (existing) existing.remove();
+    }}
+
+    // Sätt prioritet på alla kort med URL — synkar över alla sektioner
+    function setPrio(url, newVal) {{
+      document.querySelectorAll(`[data-url="${{CSS.escape(url)}}"]`).forEach(card => {{
+        if (newVal === 'utesluten') {{
+          card.classList.add('excluded');
+          card.classList.remove('showing');  // start med gömd
+          card.dataset.relevans = 'utesluten';
+        }} else {{
+          card.classList.remove('excluded', 'showing');
+          updateCardRelevans(card, newVal, true);
+        }}
       }});
       const overrides = loadOverrides();
-      overrides[url] = next;
+      overrides[url] = newVal;
       saveOverrides(overrides);
+      updateExcludedBanner();
     }}
 
     function updateCardRelevans(card, newRel, manual) {{
@@ -509,23 +599,23 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       const color = RELEVANCE_COLOR[newRel] || "#888";
       const emoji = RELEVANCE_EMOJI[newRel] || "⚪";
       const label = REL_LABEL[newRel] || newRel;
-      // Fullkort: uppdatera relevance-badge + header-kant
-      const badge = card.querySelector('.relevance-badge');
+      // Fullkort: uppdatera prio-trigger + header-kant
+      const badge = card.querySelector('.prio-trigger, .relevance-badge');
       if (badge) {{
         badge.style.background = color;
         badge.dataset.val = newRel;
-        badge.setAttribute('title', `Klicka för att filtrera på ${{label}}`);
-        badge.textContent = `${{emoji}} ${{label}}`;
+        badge.setAttribute('title', `Klicka för att ändra prioritet`);
+        badge.innerHTML = `${{emoji}} ${{label}} ▾`;
       }}
       const header = card.querySelector('.card-header');
       if (header) header.style.borderLeft = `4px solid ${{color}}`;
-      // Mini-kort: uppdatera vänsterkanten + emoji i titeln
+      // Mini-kort: uppdatera vänsterkanten + prio-trigger-cirkel
       if (card.classList.contains('mini-card')) {{
         card.style.borderLeft = `3px solid ${{color}}`;
-        const titleLink = card.querySelector('.mini-title');
-        if (titleLink) {{
-          const rest = titleLink.textContent.replace(/^[🔴🟡🟢⚪]\s*/, '');
-          titleLink.textContent = `${{emoji}} ${{rest}}`;
+        const miniTrig = card.querySelector('.mini-prio-trigger');
+        if (miniTrig) {{
+          miniTrig.style.background = color;
+          miniTrig.textContent = emoji;
         }}
       }}
     }}
@@ -730,13 +820,13 @@ def _mini_card(item: dict) -> str:
         "eu_koppling": analysis.get("eu_koppling") or "",
     }, ensure_ascii=False), quote=True)
 
-    # data-url + data-relevans behövs för att ✏️ ska kunna spara prio
+    # data-url + data-relevans behövs för att prioritet-dropdown ska kunna spara
     url_attr = _esc(url_raw) if url_raw else ""
     return f"""
     <div class="mini-card mini-card-expandable" style="border-left:3px solid {color}" onclick="expandMini(this)" data-full="{full_data}" data-url="{url_attr}" data-relevans="{_esc(relevans)}">
       <div class="mini-card-head">
-        <a {link} target="_blank" class="mini-title" onclick="event.stopPropagation()">{emoji} {title}</a>
-        <button class="edit-relevans-btn mini-edit-btn" onclick="event.stopPropagation(); cycleRelevans(this)" title="Klicka för att ändra prioritet">✏️</button>
+        <span class="mini-prio-trigger" style="background:{color}" onclick="event.stopPropagation(); openPrioMenu(this, event)" title="Klicka för att ändra prioritet">{emoji}</span>
+        <a {link} target="_blank" class="mini-title" onclick="event.stopPropagation()">{title}</a>
         <span class="mini-expand-hint">▾</span>
       </div>
       {meta_html}
@@ -809,12 +899,10 @@ def _full_card(item: dict) -> str:
     return f"""
     <div class="card" data-url="{url}" data-relevans="{_esc(relevans)}" data-arende="{_esc(arende.lower())}" data-keywords="{kw_data}">
       <div class="card-header" style="border-left:4px solid {color}">
-        <span class="relevance-badge clickable" style="background:{color}"
-              onclick="filterCards('relevans', this.dataset.val)"
+        <span class="relevance-badge prio-trigger" style="background:{color}"
+              onclick="openPrioMenu(this, event)"
               data-val="{relevans}"
-              title="Klicka för att filtrera på {label}">{emoji} {label}</span>
-        <button class="edit-relevans-btn" onclick="cycleRelevans(this)"
-                title="Klicka för att ändra prioritet manuellt">✏️</button>
+              title="Klicka för att ändra prioritet">{emoji} {label} ▾</span>
         {arende_chip}
         <h3>{title}</h3>
         <p class="meta">{meta}</p>
@@ -1723,21 +1811,68 @@ def generate(items: list[dict], output_path: str = "digest.html",
   }}
   .filter-reset-btn:hover {{ background: #f0f4ff; }}
   .card.filtered-out {{ display: none !important; }}
-  .edit-relevans-btn {{
-    background: rgba(255,255,255,0.7); border: 1px solid #ddd;
+  .prio-trigger, .mini-prio-trigger {{
+    cursor: pointer; user-select: none;
+    transition: transform 0.08s, box-shadow 0.08s;
+  }}
+  .prio-trigger:hover, .mini-prio-trigger:hover {{
+    transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+  }}
+  .mini-prio-trigger {{
+    display: inline-flex; align-items: center; justify-content: center;
     width: 26px; height: 26px; border-radius: 50%;
-    cursor: pointer; font-size: 0.75rem;
-    margin-left: 0.4rem; vertical-align: middle;
-    padding: 0; line-height: 1;
-    transition: transform 0.1s, background 0.1s;
+    font-size: 0.85rem; flex-shrink: 0;
+    color: white;
   }}
-  .edit-relevans-btn:hover {{ background: #fff; transform: scale(1.15); }}
-  .mini-edit-btn {{
-    width: 22px; height: 22px; font-size: 0.65rem;
-    margin-left: auto; flex-shrink: 0;
-  }}
-  .mini-card-head {{ display: flex; align-items: center; gap: 0.4rem; }}
+  .mini-card-head {{ display: flex; align-items: center; gap: 0.5rem; }}
   .mini-card .mini-title {{ flex: 1; min-width: 0; }}
+  /* Dropdown-meny för prio-val */
+  .prio-menu {{
+    position: absolute; z-index: 500;
+    background: #fff; border: 1px solid #ddd;
+    border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    padding: 0.35rem; min-width: 200px;
+    font-size: 0.9rem;
+  }}
+  .prio-menu-item {{
+    display: flex; align-items: center; gap: 0.6rem;
+    padding: 0.5rem 0.7rem; border-radius: 6px;
+    cursor: pointer; color: #1a1a2e;
+  }}
+  .prio-menu-item:hover {{ background: #f0f4ff; }}
+  .prio-menu-item.current {{ background: #eef2ff; font-weight: 600; }}
+  .prio-menu-item .dot {{
+    width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+  }}
+  .prio-menu-item.exclude {{
+    color: #666; border-top: 1px solid #eee;
+    margin-top: 0.25rem; padding-top: 0.6rem;
+  }}
+  .prio-menu-item.exclude:hover {{ background: #fef2f2; color: #991b1b; }}
+  /* Uteslutna kort göms */
+  .card.excluded, .mini-card.excluded {{ display: none !important; }}
+  /* Flärp uppe som visar utslutna items */
+  .excluded-banner {{
+    position: sticky; top: 0; z-index: 90;
+    background: #f3f4f6; color: #4b5563;
+    padding: 0.55rem 1rem; border-radius: 8px;
+    margin: 0.5rem 0; display: none;
+    align-items: center; gap: 0.75rem;
+    font-size: 0.88rem; border: 1px solid #e5e7eb;
+  }}
+  .excluded-banner.active {{ display: flex; }}
+  .excluded-banner .count {{ font-weight: 700; color: #374151; }}
+  .excluded-btn {{
+    background: transparent; border: 1px solid #d1d5db;
+    color: #4b5563; padding: 0.3rem 0.75rem; border-radius: 6px;
+    cursor: pointer; font-size: 0.85rem;
+  }}
+  .excluded-btn:hover {{ background: #fff; color: #1a1a2e; }}
+  /* När uteslutna visas: markera dem visuellt */
+  .card.excluded.showing, .mini-card.excluded.showing {{
+    display: block !important; opacity: 0.55;
+    outline: 2px dashed #d1d5db;
+  }}
   .card.manually-set {{ box-shadow: 0 0 0 2px #8b5cf6, 0 2px 8px rgba(139,92,246,0.2); }}
   .card.manually-set .relevance-badge::after {{
     content: " ✏️"; font-size: 0.7rem;
@@ -1992,6 +2127,10 @@ def generate(items: list[dict], output_path: str = "digest.html",
     <span class="filter-bar-label"></span>
     <span class="filter-bar-value"></span>
     <button class="filter-reset-btn" onclick="resetFilter()">✕ Återställ</button>
+  </div>
+  <div id="excluded-banner" class="excluded-banner">
+    <span>🚫 <span class="count">0</span> ärenden uteslutna ur rapporten.</span>
+    <button id="excluded-toggle-btn" class="excluded-btn" onclick="toggleExcludedVisible()">Visa dem</button>
   </div>
   <div id="save-overrides-bar" class="save-overrides-bar">
     <span>✏️ <span class="save-count">0</span> osparade prioritet-ändringar</span>

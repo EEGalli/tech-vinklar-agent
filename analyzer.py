@@ -561,8 +561,9 @@ def _is_valid_arende(name: str) -> bool:
 
 def _load_relevans_overrides() -> dict[str, str]:
     """Läser manuella prioritet-overrides från .agent_overrides.json.
-    Format: {url: "hög"|"medel"|"låg"}. Användaren sätter dessa via ✏️-knappen
-    i HTML-rapporten och committar JSON-filen till repo:t."""
+    Format: {url: "hög"|"medel"|"låg"|"utesluten"}. Användaren sätter dessa
+    via dropdown i HTML-rapporten och committar JSON-filen till repo:t.
+    'utesluten' = användaren har markerat ärendet som ointressant."""
     import json, os
     path = os.path.join(os.path.dirname(__file__), ".agent_overrides.json")
     if not os.path.exists(path):
@@ -690,6 +691,18 @@ def analyze_batch(
     if excluded:
         print(f"  ⊘  {excluded} items filtrerade (events/jobb/marknadsföring)")
 
+    # Steg 0b: släng items som användaren manuellt uteslutit (via dropdown i UI).
+    # Sparar AI-tokens: de går inte igenom analys eller cache-skrivning.
+    user_overrides = _load_relevans_overrides()
+    if user_overrides:
+        excluded_urls = {u for u, v in user_overrides.items() if v == "utesluten"}
+        if excluded_urls:
+            before = len(items)
+            items = [i for i in items if i.get("url", "") not in excluded_urls]
+            skipped = before - len(items)
+            if skipped:
+                print(f"  🚫 {skipped} items skippade (uteslutna av användaren)")
+
     known_arenden = list(ar.load().keys())
     url_cache = _build_url_cache(max_age_days=30)
 
@@ -752,8 +765,8 @@ def analyze_batch(
                 title = results[i].get("title", "")[:70]
                 print(f"  [{completed}/{len(to_analyze)}] {title}...")
 
-    # Applicera manuella prioritet-overrides från .agent_overrides.json
-    # (skapas när användaren ändrar prioritet i HTML-rapporten via ✏️-knappen)
+    # Applicera manuella prioritet-overrides från .agent_overrides.json.
+    # 'utesluten' hanteras redan i steg 0b (filtreras bort helt).
     overrides = _load_relevans_overrides()
     if overrides:
         override_count = 0

@@ -16,7 +16,7 @@ import os
 import sys
 import time
 from concurrent.futures import TimeoutError as FuturesTimeoutError
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Lägg till projektkatalogen i Python-sökvägen
 sys.path.insert(0, os.path.dirname(__file__))
@@ -216,7 +216,9 @@ def main():
     mem.save_dates(analyzed)
 
     # --- Generera HTML-rapport (sparas i reports/YYYY-MM/) ---
-    now_dt = datetime.now()
+    # Stämpla filnamnet med UTC oavsett var vi kör (lokal Mac eller GitHub Actions).
+    # Streamlit konverterar till svensk tid vid visning så tider blir konsekventa.
+    now_dt = datetime.now(timezone.utc)
     date_slug = now_dt.strftime("%Y%m%d_%H%M")
     if args.output:
         html_file = args.output
