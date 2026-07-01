@@ -1108,7 +1108,7 @@ def _build_new_today_section(items: list[dict], today_date: date) -> str:
             "eu_koppling": analysis.get("eu_koppling") or "",
         }, ensure_ascii=False), quote=True)
         rows += f"""
-        <li onclick="expandMini(this)" data-full="{full_data}" class="nt-li-click">
+        <li onclick="expandMini(this)" data-full="{full_data}" data-url="{_esc(item.get('url',''))}" data-relevans="{_esc(relevans)}" class="nt-li-click">
           <span class="nt-dot" style="background:{dot_color}"></span>
           <span class="nt-link">{title}</span>
           <span class="nt-src">{source}</span>
