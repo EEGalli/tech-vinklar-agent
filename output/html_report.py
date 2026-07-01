@@ -72,17 +72,33 @@ def _parse_date(date_str: str) -> Optional[date]:
         return parsedate_to_datetime(s).date()
     except (TypeError, ValueError):
         pass
-    # Fallback: gamla strptime-mönster
+    # Fallback: strptime med varianter — försök både med och utan trailing chars
     for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%a, %d %b %Y"):
         try:
-            return datetime.strptime(s[:len(fmt) + 2], fmt).date()
-        except Exception:
+            return datetime.strptime(s, fmt).date()
+        except ValueError:
+            pass
+        # RSS-datum kan komma utan tid ("Tue, 02 Jun 2026") — trimma till exakt längd
+        try:
+            trimmed = s[:16]  # täcker "Tue, 02 Jun 2026" (16 tecken)
+            return datetime.strptime(trimmed, fmt).date()
+        except ValueError:
             continue
     return None
 
 
 def _swedish_date(d: date) -> str:
     return f"{d.day} {SWEDISH_MONTHS[d.month]}"
+
+
+def _format_item_date(raw: str) -> str:
+    """Formaterar item-datum till 'DD MMM YYYY' på svenska.
+    Hanterar både ISO ('2026-06-29') och RSS/RFC822 ('Fri, 29 May 2026...').
+    Returnerar tom sträng om parsning misslyckas."""
+    d = _parse_date(raw or "")
+    if d is None:
+        return ""
+    return f"{d.day} {SWEDISH_MONTHS[d.month]} {d.year}"
 
 
 def _date_sort_key(date_str: str) -> int:
@@ -317,15 +333,25 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       if (!raw) return;
       let d;
       try {{ d = JSON.parse(raw); }} catch (e) {{ return; }}
+      const url = el.dataset.url || d.url || "";
+      const rel = el.dataset.relevans || "okänd";
+      const color = RELEVANCE_COLOR[rel] || "#888";
+      const emoji = RELEVANCE_EMOJI[rel] || "⚪";
+      const relLabel = ({{"hög":"Hög prioritet","medel":"Medel","låg":"Låg","okänd":"Okänd"}})[rel] || rel;
       document.getElementById("day-panel-title").textContent = d.title;
       const body = document.getElementById("day-panel-body");
+      // Prio-badge med dropdown-trigger — samma UX som på kort-sidan
+      const badge = `<div class="panel-card" data-url="${{url}}" data-relevans="${{rel}}">
+        <span class="relevance-badge prio-trigger" style="background:${{color}}"
+              onclick="openPrioMenu(this, event)" data-val="${{rel}}"
+              title="Klicka för att ändra prioritet">${{emoji}} ${{relLabel}} ▾</span>`;
       const meta = d.meta ? `<p class="panel-meta">${{d.meta}}</p>` : "";
       const samm = d.sammanfattning ? `<p class="panel-samm"><strong>Vad handlar det om?</strong> ${{d.sammanfattning}}</p>` : "";
       const vinkel = d.tech_vinkel ? `<p class="panel-vinkel"><strong>Tech-vinkel:</strong> ${{d.tech_vinkel}}</p>` : "";
       const varfor = d.varfor ? `<p class="panel-varfor"><strong>Varför viktigt:</strong> ${{d.varfor}}</p>` : "";
       const eu = d.eu_koppling ? `<p class="panel-eu">🇪🇺 ${{d.eu_koppling}}</p>` : "";
       const link = d.url ? `<a href="${{d.url}}" target="_blank" class="panel-read-more">Läs originaldokumentet →</a>` : "";
-      body.innerHTML = `<div class="panel-card">${{meta}}${{samm}}${{vinkel}}${{varfor}}${{eu}}${{link}}</div>`;
+      body.innerHTML = `${{badge}}${{meta}}${{samm}}${{vinkel}}${{varfor}}${{eu}}${{link}}</div>`;
       document.getElementById("day-panel").classList.add("open");
     }}
 
@@ -844,7 +870,7 @@ def _full_card(item: dict) -> str:
     # Escapea alla externt-kommande strängar för att skydda mot XSS via
     # RSS-titlar som kan innehålla <script>, & eller andra HTML-specialtecken
     title = _esc(_clean_title(item))
-    date_str = _esc((item.get("date") or "")[:10])
+    date_str = _esc(_format_item_date(item.get("date", "")))
     committee = _esc(item.get("committee", ""))
     url = _safe_url(item.get("url", ""))
     sammanfattning = _esc(analysis.get("sammanfattning", ""))
