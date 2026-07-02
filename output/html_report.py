@@ -704,7 +704,11 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     // Batch flera ändringar inom 1 sekund till EN sparning.
     let _autoSaveTimer = null;
     function scheduleAutoSave() {{
-      if (!GITHUB_CONFIG.enabled) return;
+      if (!GITHUB_CONFIG.enabled) {{
+        // Visa tydligt fel istället för tyst avbrott
+        showSaveToast('⚠ PAT eller repo saknas — sparning gick inte igenom', true);
+        return;
+      }}
       if (_autoSaveTimer) clearTimeout(_autoSaveTimer);
       _autoSaveTimer = setTimeout(() => {{
         _autoSaveTimer = null;
@@ -870,6 +874,13 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     applyOverridesOnLoad();
+    // Diagnostisk toast om sparning inte kommer fungera — så användaren vet direkt
+    if (!GITHUB_CONFIG.enabled) {{
+      setTimeout(() => showSaveToast(
+        '⚠ Sparning inaktiverad: ' + (!GITHUB_CONFIG.pat ? 'PAT saknas' : 'repo saknas'),
+        true
+      ), 500);
+    }}
 
     // Toggla "Visa mer" per tema på dashboarden
     function toggleDashMore(btn) {{
