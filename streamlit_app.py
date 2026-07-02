@@ -560,10 +560,12 @@ with tab_live:
             "summary": _entry.get("summary", ""),
             "analysis": _entry.get("analysis", {}),
         })
-    # Filtrera bort items utan tech-vinkel och interna admin-dokument
-    _before = len(_all_items)
-    _all_items = [it for it in _all_items if not _should_exclude(it)]
-    _filtered = _before - len(_all_items)
+    # Auto-filter: items utan tech-vinkel / interna procedurer (workshops, hearings,
+    # konsultationer) hör inte hemma i journalist-vyn. MEN vi tar INTE bort dem ur
+    # _all_items längre — panelen ska kunna hitta OCH styra ALLA ärenden. Vi markerar
+    # bara vilka som auto-göms i iframen. Sätter du en prio manuellt vinner ditt val
+    # över auto-filtret (invariant #4 — respektera overrides).
+    _auto_excluded = {it.get("url", "") for it in _all_items if _should_exclude(it)}
 
     # ── Applicera manuella prio-overrides server-side ─────────────────────
     # Sanningen är .agent_overrides.json (som AI:n också läser). Vi speglar in den
@@ -581,17 +583,25 @@ with tab_live:
     _PRIOS = ["hög", "medel", "låg", "utesluten"]
     _PRIO_LABEL = {"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg", "utesluten": "Utesluten"}
     _PRIO_RANK = {"hög": 0, "medel": 1, "låg": 2, "okänd": 3, "utesluten": 4}
+
+    def _clean_t(it: dict) -> str:
+        # Samma tvättade/svenska rubrik som visas på korten → sökningen i panelen
+        # matchar det du faktiskt ser (inte den råa engelska titeln).
+        try:
+            return _hr._clean_title(it)
+        except Exception:
+            return it.get("title") or "Utan titel"
+
     _editable = [it for it in _all_items if it.get("url")]
     _editable.sort(key=lambda it: (_PRIO_RANK.get(it.get("analysis", {}).get("relevans", "okänd"), 3),
-                                   (it.get("title") or "").lower()))
+                                   _clean_t(it).lower()))
     _url_to_item = {it["url"]: it for it in _editable}
 
     def _opt_label(u: str) -> str:
         it = _url_to_item.get(u, {})
         rel = it.get("analysis", {}).get("relevans", "okänd")
-        title = it.get("title") or "Utan titel"
         src = it.get("source", "")
-        return f"{RELEVANS_EMOJI.get(rel, '⚪')} {title[:90]}" + (f" · {src}" if src else "")
+        return f"{RELEVANS_EMOJI.get(rel, '⚪')} {_clean_t(it)[:90]}" + (f" · {src}" if src else "")
 
     with st.container(border=True):
         st.markdown("#### ✎ Ändra prioritet på ett ärende")
@@ -633,15 +643,29 @@ with tab_live:
         if not _get_pat():
             st.caption("⚠ GITHUB_PAT saknas — ändringar sparas lokalt men pushas inte till repot.")
 
+    # ── Vilka items visas i iframen? ─────────────────────────────────────
+    # - "utesluten" (manuellt) → alltid gömd
+    # - manuell prio satt (hög/medel/låg) → alltid visad (ditt val slår auto-filtret)
+    # - ingen manuell prio → visas om auto-filtret inte gömmer den
+    _iframe_items = []
+    for _it in _all_items:
+        _u = _it.get("url", "")
+        _rel = _it.get("analysis", {}).get("relevans", "okänd")  # override redan applicerad ovan
+        if _rel == "utesluten":
+            continue
+        if (_u in _ov) or (_u not in _auto_excluded):
+            _iframe_items.append(_it)
+
     # Bygg important_dates: kombinera .agent_dates.json (bara memory-items har landat där)
-    # med viktiga_datum från alla items (inkl cache-items som annars saknar sina framtida datum).
+    # med viktiga_datum från de items som faktiskt visas (inkl cache-items som annars saknar
+    # sina framtida datum).
     from datetime import datetime as _dt
     _important_dates = _load_json(".agent_dates.json") or {}
     _seen_date_entries: set[tuple[str, str, str]] = set()
     for _d_iso, _entries in _important_dates.items():
         for _e in _entries:
             _seen_date_entries.add((_d_iso, _e.get("title", ""), _e.get("beskrivning", "")))
-    for _it in _all_items:
+    for _it in _iframe_items:
         _analysis = _it.get("analysis") or {}
         for _vd in (_analysis.get("viktiga_datum") or []):
             _datum = _vd.get("datum", "")
@@ -664,10 +688,7 @@ with tab_live:
             _seen_date_entries.add(_key)
             _important_dates.setdefault(_datum, []).append(_entry)
 
-    # Uteslutna items göms i iframen (matchar 'uteslut ur rapporten'); de går fortfarande
-    # att hitta och återställa via panelen ovanför.
-    _iframe_items = [it for it in _all_items
-                     if it.get("analysis", {}).get("relevans") != "utesluten"]
+    # _iframe_items byggdes ovan (respekterar 'utesluten' + manuella overrides över auto-filtret).
     try:
         with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
             _tmp_path = _f.name
