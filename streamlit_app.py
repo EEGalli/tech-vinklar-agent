@@ -446,41 +446,8 @@ with tab_live:
             return True, f"synkade {len(merged)} val"
         return False, f"PUT misslyckades (HTTP {r.status_code})"
 
-    # Om HTML-rapporten öppnat oss i ny flik med spardata i URL:en → spara till GitHub
-    _params = st.query_params
-    _save_param = _params.get("_save_overrides", "")
-    if _save_param:
-        _incoming = {}
-        try:
-            import base64 as _b64_dec
-            _decoded = _b64_dec.b64decode(_save_param).decode("utf-8")
-            _incoming = json.loads(_decoded)
-        except Exception:
-            st.error("Kunde inte tolka sparningsdata från webbläsaren")
-        if _incoming:
-            _pat = _get_pat()
-            if not _pat:
-                st.error("GITHUB_PAT saknas i Streamlit secrets — kan inte skriva till repo")
-            else:
-                _ok, _msg = _sync_overrides_to_github(_incoming, _pat)
-                if _ok:
-                    st.success(f"✅ Prio-ändringar sparade! ({_msg}) — den här fliken kan stängas.")
-                    # Rensa localStorage i den här fliken + försök säga till andra flikar
-                    # att också rensa (samma origin så det funkar via storage-event)
-                    st.markdown("""
-                    <script>
-                      try {
-                        localStorage.removeItem('tv_relevans_overrides_v1');
-                      } catch(e){}
-                    </script>
-                    """, unsafe_allow_html=True)
-                else:
-                    st.error(f"Sparfel: {_msg}")
-        # Rensa URL-parametern så refresh inte upprepar sparningen
-        try:
-            del st.query_params["_save_overrides"]
-        except Exception:
-            pass
+    # HTML-rapporten sparar nu direkt till GitHub via klient-JS (sajten är privat)
+    # så vi behöver inte längre hantera URL-parametrar eller localStorage-brygga här.
 
     # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
     _STRETCH_TECH_PATTERNS = (
@@ -588,7 +555,9 @@ with tab_live:
         with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
             _tmp_path = _f.name
         _gen_html(_all_items, output_path=_tmp_path, important_dates=_important_dates,
-                  include_header=False)
+                  include_header=False,
+                  github_pat=_get_pat(),
+                  github_repo=GITHUB_REPO)
         with open(_tmp_path, encoding="utf-8") as _f:
             _live_html = _f.read()
         os.unlink(_tmp_path)

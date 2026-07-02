@@ -548,6 +548,9 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
 
     // ── Manuella prioritet-overrides ─────────────────────────
     const OVERRIDES_KEY = "tv_relevans_overrides_v1";
+    // GitHub-konfiguration injiceras av Streamlit vid rendering.
+    // OK att exponera i HTML eftersom sajten är privat (bara inloggade GitHub-konton ser den).
+    const GITHUB_CONFIG = __GITHUB_CONFIG_PLACEHOLDER__;
     const REL_CYCLE = ["hög", "medel", "låg"];
     const REL_LABEL = {{"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg", "utesluten": "Utesluten"}};
     const REL_MENU_ITEMS = [
@@ -755,26 +758,77 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       }}
     }}
 
-    // Öppna Streamlit-appen i ny flik med sparningsdatan i URL:en.
-    // (Streamlit Cloud sandboxar iframen så vi kan inte navigera parent direkt.)
-    function saveToRepo() {{
+    // Spara direkt till GitHub Contents API. Sajten är privat → PAT kan finnas
+    // i klienten. Ingen popup, ingen omladdning — bara ett litet toast-meddelande.
+    async function saveToRepo() {{
       const o = loadOverrides();
       if (Object.keys(o).length === 0) return;
-      try {{
-        const json = JSON.stringify(o);
-        const b64 = btoa(unescape(encodeURIComponent(json)));
-        // Bygg URL från parent's location om möjligt, annars document.referrer,
-        // annars aktuell URL
-        let baseUrl = "";
-        try {{ baseUrl = (window.top || window.parent).location.href; }}
-        catch (e) {{ baseUrl = document.referrer || window.location.href; }}
-        const url = new URL(baseUrl);
-        url.searchParams.set('_save_overrides', b64);
-        // Öppna i ny flik — undviker sandbox-restriktioner helt
-        window.open(url.toString(), '_blank');
-      }} catch (e) {{
-        alert('Kunde inte spara: ' + e.message);
+      if (!GITHUB_CONFIG.enabled) {{
+        showSaveToast('⚠ GitHub-konfiguration saknas', true);
+        return;
       }}
+      const saveBtns = document.querySelectorAll('.card-save-btn, .save-overrides-btn');
+      saveBtns.forEach(b => {{ b.disabled = true; b.textContent = '⏳ Sparar…'; }});
+      try {{
+        const api = `https://api.github.com/repos/${{GITHUB_CONFIG.repo}}/contents/.agent_overrides.json`;
+        const authHeaders = {{
+          'Authorization': `Bearer ${{GITHUB_CONFIG.pat}}`,
+          'Accept': 'application/vnd.github+json',
+        }};
+        // Hämta ev. befintlig fil för SHA (behövs vid uppdatering)
+        let sha = null;
+        let existing = {{}};
+        const getResp = await fetch(api, {{ headers: authHeaders }});
+        if (getResp.status === 200) {{
+          const meta = await getResp.json();
+          sha = meta.sha;
+          try {{
+            existing = JSON.parse(atob(meta.content.replace(/\\s/g, '')));
+          }} catch(e) {{ existing = {{}}; }}
+        }} else if (getResp.status !== 404) {{
+          throw new Error(`GET misslyckades: HTTP ${{getResp.status}}`);
+        }}
+        // Slå ihop lokala ändringar över befintliga
+        const merged = Object.assign({{}}, existing, o);
+        const newContent = JSON.stringify(merged, null, 2) + '\\n';
+        const b64Content = btoa(unescape(encodeURIComponent(newContent)));
+        const payload = {{
+          message: `Prio-ändringar från Live-vyn (${{Object.keys(o).length}} nya)`,
+          content: b64Content,
+        }};
+        if (sha) payload.sha = sha;
+        const putResp = await fetch(api, {{
+          method: 'PUT',
+          headers: {{ ...authHeaders, 'Content-Type': 'application/json' }},
+          body: JSON.stringify(payload),
+        }});
+        if (!putResp.ok) {{
+          throw new Error(`Spara misslyckades: HTTP ${{putResp.status}}`);
+        }}
+        // Lyckades! Rensa lokal cache + återställ knapparna
+        localStorage.removeItem(OVERRIDES_KEY);
+        document.body.classList.remove('has-pending-overrides');
+        document.querySelectorAll('.card.manually-set').forEach(c =>
+          c.classList.remove('manually-set')
+        );
+        showSaveToast(`✓ Sparade ${{Object.keys(o).length}} ändringar`);
+      }} catch (e) {{
+        showSaveToast(`⚠ ${{e.message}}`, true);
+      }} finally {{
+        saveBtns.forEach(b => {{ b.disabled = false; b.textContent = '💾 Spara'; }});
+      }}
+    }}
+
+    function showSaveToast(msg, isError) {{
+      const toast = document.createElement('div');
+      toast.className = 'save-toast' + (isError ? ' save-toast-error' : '');
+      toast.textContent = msg;
+      document.body.appendChild(toast);
+      setTimeout(() => toast.classList.add('show'), 10);
+      setTimeout(() => {{
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+      }}, isError ? 4000 : 2200);
     }}
 
     function showOverridesModal() {{
@@ -1646,7 +1700,9 @@ def generate(items: list[dict], output_path: str = "digest.html",
              last_week: Optional[list] = None,
              arenden: Optional[dict] = None,
              important_dates: Optional[dict] = None,
-             include_header: bool = True) -> str:
+             include_header: bool = True,
+             github_pat: str = "",
+             github_repo: str = "") -> str:
     now = datetime.now()
     today = now.date()
     date_str = f"{today.day} {SWEDISH_MONTHS[today.month]} {today.year}"
@@ -2218,6 +2274,22 @@ def generate(items: list[dict], output_path: str = "digest.html",
   .card-save-btn:hover {{ background: #7c3aed; }}
   /* Visas när sidan har pending overrides */
   body.has-pending-overrides .card-save-btn {{ display: inline-block; }}
+  /* Litet toast-meddelande i nedre hörnet vid save */
+  .save-toast {{
+    position: fixed; bottom: 2rem; right: 2rem;
+    background: #10b981; color: white;
+    padding: 0.8rem 1.2rem; border-radius: 8px;
+    font-weight: 600; font-size: 0.9rem;
+    box-shadow: 0 6px 20px rgba(16,185,129,0.35);
+    z-index: 3000;
+    opacity: 0; transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
+  }}
+  .save-toast.show {{ opacity: 1; transform: translateY(0); }}
+  .save-toast-error {{
+    background: #ef4444;
+    box-shadow: 0 6px 20px rgba(239,68,68,0.35);
+  }}
   .mini-prio-select {{
     width: 26px; height: 26px; padding: 0;
     border-radius: 50%; font-size: 0.75rem;
@@ -2566,6 +2638,18 @@ def generate(items: list[dict], output_path: str = "digest.html",
 <footer>Genererad {now.strftime('%Y-%m-%d %H:%M')} · Tech Vinklar Agent</footer>
 </body>
 </html>"""
+
+    # Injicera GitHub-konfiguration för direkt-spara från klient-JS.
+    # Använd JSON-dump så tokens/repo-namn escapas säkert och inte kan bryta ut ur JS.
+    import json as _json_inj
+    _gh_config = _json_inj.dumps({
+        "pat": github_pat or "",
+        "repo": github_repo or "",
+        "enabled": bool(github_pat and github_repo),
+    })
+    # Ersätt </ med <\/ så JSON inte kan stänga en </script>-tagg tidigt
+    _gh_config = _gh_config.replace("</", "<\\/")
+    html = html.replace("__GITHUB_CONFIG_PLACEHOLDER__", _gh_config)
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
