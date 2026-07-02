@@ -598,7 +598,7 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     // varje ärende räknas EN gång även om det syns i flera sektioner
     function updateExcludedBanner() {{
       const excluded = new Set();
-      document.querySelectorAll('.card.excluded, .mini-card.excluded').forEach(c => {{
+      document.querySelectorAll('.card.excluded, .mini-card.excluded, .dash-row.excluded, .panel-card.excluded').forEach(c => {{
         if (c.dataset.url) excluded.add(c.dataset.url);
       }});
       const banner = document.getElementById('excluded-banner');
@@ -615,7 +615,7 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     let excludedVisible = false;
     function toggleExcludedVisible() {{
       excludedVisible = !excludedVisible;
-      document.querySelectorAll('.card.excluded, .mini-card.excluded').forEach(c => {{
+      document.querySelectorAll('.card.excluded, .mini-card.excluded, .dash-row.excluded, .panel-card.excluded').forEach(c => {{
         c.classList.toggle('showing', excludedVisible);
       }});
       const btn = document.getElementById('excluded-toggle-btn');
@@ -2337,7 +2337,7 @@ def generate(items: list[dict], output_path: str = "digest.html",
   }}
   .prio-menu-item.exclude:hover {{ background: #fef2f2; color: #991b1b; }}
   /* Uteslutna kort göms */
-  .card.excluded, .mini-card.excluded {{ display: none !important; }}
+  .card.excluded, .mini-card.excluded, .dash-row.excluded, .panel-card.excluded {{ display: none !important; }}
   /* Nytt idag-items som ändrats till lägre prio göms från listan */
   .nt-li-click.nt-hidden-by-prio {{ display: none !important; }}
   /* Flärp uppe som visar utslutna items */
@@ -2358,7 +2358,8 @@ def generate(items: list[dict], output_path: str = "digest.html",
   }}
   .excluded-btn:hover {{ background: #fff; color: #1a1a2e; }}
   /* När uteslutna visas: markera dem visuellt */
-  .card.excluded.showing, .mini-card.excluded.showing {{
+  .card.excluded.showing, .mini-card.excluded.showing,
+  .dash-row.excluded.showing, .panel-card.excluded.showing {{
     display: block !important; opacity: 0.55;
     outline: 2px dashed #d1d5db;
   }}
