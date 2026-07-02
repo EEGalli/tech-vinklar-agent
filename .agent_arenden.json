@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -140,7 +140,7 @@
   "Digitala marknader": {
     "name": "Digitala marknader",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "next_step": "Det är troligt att EU-kommissionen kommer att använda resultaten från rapporten för att justera sin digitala strategi och prioriteringar framåt.",
     "documents": [
@@ -370,7 +370,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -537,7 +537,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -625,11 +625,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Yttrandet kommer att överlämnas till Europeiska kommissionen, som sedan kommer att överväga synpunkterna i samband med den fortsatta utvecklingen av AI-förordningen.",
+    "next_step": "Nästa steg i processen kommer att vara att AI-kommissionen överväger IMY:s yttrande och andra synpunkter innan de presenterar en reviderad version av färdplanen.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -665,6 +665,20 @@
         "url": "https://www.imy.se/nyheter/utokat-budgetanslag-for-imys-kommande-ai-uppdrag/",
         "source": "IMY",
         "tech_vinkel": "Det specifika AI-uppdrag som IMY ska förbereda sig för är en tydlig tech-vinkel i detta dokument."
+      },
+      {
+        "title": "Gemensamt uttalande från 20 dataskyddsmyndigheter om utvecklingen av integritetsvänlig AI",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/gemensamt-uttalande-fran-20-dataskyddsmyndigheter-om-utvecklingen-av-integritetsvanlig-ai/",
+        "source": "IMY",
+        "tech_vinkel": "Uttalandet fokuserar på utvecklingen av integritetsvänlig AI, vilket innebär att AI-system utvecklas och används på ett sätt som respekterar individens integritet och följer dataskyddslagstiftningen."
+      },
+      {
+        "title": "IMY yttrar sig över AI-kommissionens rapport Färdplan för Sverige",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/imy-yttrar-sig-over-ai-kommissionens-rapport-fardplan-for-sverige/",
+        "source": "IMY",
+        "tech_vinkel": "IMY yttrar sig specifikt över AI-kommissionens förslag om en färdplan för Sverige, vilket innehåller rekommendationer om hur AI ska utvecklas och implementeras i landet."
       },
       {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
@@ -755,7 +769,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -794,7 +808,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -840,7 +854,7 @@
   "Digitala Nätverkslagen": {
     "name": "Digitala Nätverkslagen",
     "first_seen": "2026-05-18",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -886,7 +900,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1009,7 +1023,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1073,7 +1087,7 @@
   "Galileo-programmet": {
     "name": "Galileo-programmet",
     "first_seen": "2026-05-28",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1154,7 +1168,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1289,7 +1303,7 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1443,6 +1457,62 @@
         "tech_vinkel": "Inrättandet av en avdelning för vägledning, innovation och teknik tydliggör IMY:s fokus på att stödja utvecklingen av tekniker som främjar dataskydd och integritet."
       },
       {
+        "title": "Möjlighet att lämna synpunkter på IMY:s rättsliga ställningstagande om brottsuppgifter",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/mojlighet-att-lamna-synpunkter-pa-imys-rattsliga-stallningstagande-om-brottsuppgifter/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s rättsliga ställningstagande om brottsuppgifter berör specifikt hantering och skydd av personuppgifter i enlighet med GDPR (EU:s dataskyddsförordning)."
+      },
+      {
+        "title": "IMY ger vägledning om träning av AI",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/imy-ger-vagledning-om-traning-av-ai/",
+        "source": "IMY",
+        "tech_vinkel": "IMY ger vägledning om hur man kan använda personuppgifter för att träna AI på ett sätt som är förenligt med dataskyddsförordningen (GDPR)."
+      },
+      {
+        "title": "IMY stöttar innovationsprojekt med vägledning i GDPR",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/imy-stottar-innovationsprojekt-med-vagledning-i-gdpr/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s regulatoriska sandlåda ger stöd i komplexa dataskyddsfrågor relaterade till GDPR (EU:s dataskyddsförordning), vilket är en specifik tech-fråga."
+      },
+      {
+        "title": "EDPB anordnar intressentmöte om pseudonymisering",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/edpb-anordnar-intressentmote-om-pseudonymisering/",
+        "source": "IMY",
+        "tech_vinkel": "Mötet fokuserar på pseudonymisering, en teknik som används för att skydda personuppgifter genom att ersätta direkt identifierande information med ett pseudonym, vilket gör det svårare att direkt koppla uppgifterna till en specifik person."
+      },
+      {
+        "title": "EU-domstolen om överföring av personuppgifter till USA",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/eu-domstolen-om-overforing-av-personuppgifter-till-usa/",
+        "source": "IMY",
+        "tech_vinkel": "Domen rör direkt tillämpningen av EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning), i förhållande till personuppgiftsöverföring till USA."
+      },
+      {
+        "title": "EDPB positiv till ändringar av GDPR",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/edpb-positiv-till-andringar-av-gdpr/",
+        "source": "IMY",
+        "tech_vinkel": "Förslagen till ändringar av GDPR (EU:s dataskyddsförordning) innehåller specifika bestämmelser om hur personuppgifter ska skyddas med hjälp av tekniska åtgärder, såsom kryptering och pseudonymisering."
+      },
+      {
+        "title": "Sanktionsavgifter mot två företag i SL-koncernen",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/sanktionsavgifter-mot-tva-foretag-i-sl-koncernen/",
+        "source": "IMY",
+        "tech_vinkel": "Sanktionsavgifterna är en direkt följd av att företagen inte har följt dataskyddsförordningen, GDPR (EU:s dataskyddsförordning), som är en EU-lag som reglerar hur personuppgifter ska hanteras."
+      },
+      {
+        "title": "Förenkling av GDPR på EDPB:s agenda",
+        "date": "2026-07-02",
+        "url": "https://www.imy.se/nyheter/forenkling-av-gdpr-pa-edpbs-agenda/",
+        "source": "IMY",
+        "tech_vinkel": "EU-kommissionens förslag till förenkling av GDPR (EU:s dataskyddsförordning) innehåller specifika riktlinjer för hur företag ska hantera begäran om personuppgifter från tredje land."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1454,11 +1524,11 @@
   "Digitala Marknader": {
     "name": "Digitala Marknader",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Utskottet kommer sannolikt att granska paketet mer detaljerat och eventuellt föreslå ändringar innan det presenteras för hela Europaparlamentet.",
+    "next_step": "Det är troligt att IMCO kommer att fortsätta granska kommissionens framsteg och eventuellt föreslå ytterligare åtgärder för att ta bort hindren.",
     "documents": [
       {
         "title": "Highlights - The Terrible Ten Barriers to the Single Market  - Committee on the Internal Market and Consumer Protection",
@@ -1479,7 +1549,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
