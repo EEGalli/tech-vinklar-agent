@@ -404,8 +404,7 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
           <option value="medel" ${{rel === "medel" ? "selected" : ""}}>🟡 Medel</option>
           <option value="låg" ${{rel === "låg" ? "selected" : ""}}>🟢 Låg</option>
           <option value="utesluten" ${{rel === "utesluten" ? "selected" : ""}}>🚫 Uteslut från rapport</option>
-        </select>
-        <button class="card-save-btn" onclick="saveToRepo()" title="Spara ändringar till repo">💾 Spara</button>`;
+        </select>`;
       const meta = d.meta ? `<p class="panel-meta">${{d.meta}}</p>` : "";
       const samm = d.sammanfattning ? `<p class="panel-samm"><strong>Vad handlar det om?</strong> ${{d.sammanfattning}}</p>` : "";
       const vinkel = d.tech_vinkel ? `<p class="panel-vinkel"><strong>Tech-vinkel:</strong> ${{d.tech_vinkel}}</p>` : "";
@@ -1190,7 +1189,6 @@ def _full_card(item: dict) -> str:
           <option value="låg" {"selected" if relevans == "låg" else ""}>🟢 Låg</option>
           <option value="utesluten" {"selected" if relevans == "utesluten" else ""}>🚫 Uteslut från rapport</option>
         </select>
-        <button class="card-save-btn" onclick="saveToRepo()" title="Spara ändringar till repo">💾 Spara</button>
         {arende_chip}
         <h3>{title}</h3>
         <p class="meta">{meta}</p>
@@ -2635,11 +2633,6 @@ def generate(items: list[dict], output_path: str = "digest.html",
   <div id="excluded-banner" class="excluded-banner">
     <span>🚫 <span class="count">0</span> ärenden uteslutna ur rapporten.</span>
     <button id="excluded-toggle-btn" class="excluded-btn" onclick="toggleExcludedVisible()">Visa dem</button>
-  </div>
-  <!-- Flytande spara-knapp — visas bara när det finns osparade ändringar -->
-  <div id="save-overrides-bar" class="save-overrides-bar">
-    <span>✏️ <span class="save-count">0</span> osparade prio-ändringar</span>
-    <button class="save-overrides-btn" onclick="saveToRepo()">💾 Spara →</button>
   </div>
 
   {new_today_section}
