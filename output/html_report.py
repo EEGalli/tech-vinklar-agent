@@ -697,6 +697,20 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       overrides[url] = newVal;
       saveOverrides(overrides);
       updateExcludedBanner();
+      // Auto-spara till GitHub efter kort debounce så vi inte spammar API:t
+      // vid snabba ändringar. En knapp finns kvar som fallback.
+      scheduleAutoSave();
+    }}
+
+    // Batch flera ändringar inom 1 sekund till EN sparning.
+    let _autoSaveTimer = null;
+    function scheduleAutoSave() {{
+      if (!GITHUB_CONFIG.enabled) return;
+      if (_autoSaveTimer) clearTimeout(_autoSaveTimer);
+      _autoSaveTimer = setTimeout(() => {{
+        _autoSaveTimer = null;
+        saveToRepo();
+      }}, 1000);
     }}
 
     function updateCardRelevans(card, newRel, manual) {{
