@@ -550,6 +550,9 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     // GitHub-konfiguration injiceras av Streamlit vid rendering.
     // OK att exponera i HTML eftersom sajten är privat (bara inloggade GitHub-konton ser den).
     const GITHUB_CONFIG = __GITHUB_CONFIG_PLACEHOLDER__;
+    // I read-only-läge (Streamlit Live-vyn) applicerar vi INTE gamla localStorage-
+    // overrides — server-side satt relevans är sanningen, redigering sker i nativ panel.
+    const READ_ONLY = __READ_ONLY_PLACEHOLDER__;
     const REL_CYCLE = ["hög", "medel", "låg"];
     const REL_LABEL = {{"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg", "utesluten": "Utesluten"}};
     const REL_MENU_ITEMS = [
@@ -824,7 +827,13 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       location.reload();
     }}
 
-    applyOverridesOnLoad();
+    if (READ_ONLY) {{
+      // Neutralisera ev. gammal localStorage från kopiera-flödet så den inte
+      // skriver över den server-side satta prioriteten.
+      try {{ localStorage.removeItem(OVERRIDES_KEY); }} catch (e) {{}}
+    }} else {{
+      applyOverridesOnLoad();
+    }}
 
     // Toggla "Visa mer" per tema på dashboarden
     function toggleDashMore(btn) {{
@@ -1669,7 +1678,8 @@ def generate(items: list[dict], output_path: str = "digest.html",
              important_dates: Optional[dict] = None,
              include_header: bool = True,
              github_pat: str = "",
-             github_repo: str = "") -> str:
+             github_repo: str = "",
+             read_only: bool = False) -> str:
     now = datetime.now()
     today = now.date()
     date_str = f"{today.day} {SWEDISH_MONTHS[today.month]} {today.year}"
@@ -1693,6 +1703,10 @@ def generate(items: list[dict], output_path: str = "digest.html",
 
     n_hog  = sum(1 for i in items if i.get("analysis", {}).get("relevans") == "hög")
     n_med  = sum(1 for i in items if i.get("analysis", {}).get("relevans") == "medel")
+
+    # Read-only-läge (Streamlit Live-vyn): redigering sker i den nativa panelen
+    # ovanför iframen, så in-i-kortet-dropdown + kopiera-baren stängs av via body-klass.
+    _body_cls = ' class="read-only"' if read_only else ''
 
     html = f"""<!DOCTYPE html>
 <html lang="sv">
@@ -2241,6 +2255,13 @@ def generate(items: list[dict], output_path: str = "digest.html",
   .card-save-btn:hover {{ background: #7c3aed; }}
   /* Visas när sidan har pending overrides */
   body.has-pending-overrides .card-save-btn {{ display: inline-block; }}
+  /* Read-only-läge (Streamlit Live-vyn): all redigering sker i den nativa panelen
+     ovanför iframen. Prio-dropdownen visas kvar som färgad badge men går inte att
+     ändra, och kopiera/spara-baren + kort-spara-knappar göms helt. */
+  body.read-only .prio-select {{ pointer-events: none; }}
+  body.read-only #save-overrides-bar,
+  body.read-only .save-overrides-bar,
+  body.read-only .card-save-btn {{ display: none !important; }}
   /* Litet toast-meddelande i nedre hörnet vid save */
   .save-toast {{
     position: fixed; bottom: 2rem; right: 2rem;
@@ -2569,7 +2590,7 @@ def generate(items: list[dict], output_path: str = "digest.html",
   }}
 </style>
 </head>
-<body>
+<body{_body_cls}>
 {'''<header>
   <h1>🔍 Tech Vinklar</h1>
   <p>EU &amp; Riksdagen · ''' + date_str + '''</p>
@@ -2618,6 +2639,7 @@ def generate(items: list[dict], output_path: str = "digest.html",
     # Ersätt </ med <\/ så JSON inte kan stänga en </script>-tagg tidigt
     _gh_config = _gh_config.replace("</", "<\\/")
     html = html.replace("__GITHUB_CONFIG_PLACEHOLDER__", _gh_config)
+    html = html.replace("__READ_ONLY_PLACEHOLDER__", "true" if read_only else "false")
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)

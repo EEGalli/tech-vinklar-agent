@@ -191,78 +191,98 @@ with _top:
 
 selected = reports[selected_idx]
 
-# ── Spara prio-ändringar från Live-vyn (klistras in från urklipp) ──
-with st.expander("💾 Spara prio-ändringar från Live-vyn", expanded=False):
-    st.caption(
-        "1. På Live-fliken: klicka **📋 Kopiera & spara i topbaren**  \n"
-        "2. Klistra in i rutan nedan (Cmd/Ctrl+V)  \n"
-        "3. Klicka **Spara till repo**"
-    )
-    _paste_area = st.text_area(
-        "Klistra in här",
-        height=80,
-        key="_paste_overrides",
-        placeholder='{"https://url.com/x": "hög", ...}',
-        label_visibility="collapsed",
-    )
-    _paste_save = st.button("💾 Spara till repo", type="primary", key="_paste_save_btn")
-    if _paste_save:
-        if not _paste_area.strip():
-            st.warning("Ingenting inklistrat")
-        else:
-            try:
-                _paste_data = json.loads(_paste_area.strip())
-                if not isinstance(_paste_data, dict):
-                    st.error("Formatet måste vara ett JSON-objekt")
-                    _paste_data = None
-            except Exception as _e:
-                st.error(f"Kunde inte tolka JSON: {_e}")
-                _paste_data = None
-            if _paste_data:
-                _paste_pat = st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
-                if not _paste_pat:
-                    st.error("GITHUB_PAT saknas i Streamlit secrets")
-                else:
-                    import base64 as _b64
-                    _api = f"https://api.github.com/repos/{GITHUB_REPO}/contents/.agent_overrides.json"
-                    _hdrs = {
-                        "Authorization": f"Bearer {_paste_pat}",
-                        "Accept": "application/vnd.github+json",
-                    }
-                    try:
-                        # Hämta befintlig fil för SHA + för att slå ihop
-                        _get = requests.get(_api, headers=_hdrs, timeout=10)
-                        _sha = None
-                        _existing = {}
-                        if _get.status_code == 200:
-                            _meta = _get.json()
-                            _sha = _meta.get("sha")
-                            try:
-                                _existing = json.loads(_b64.b64decode(_meta["content"]).decode())
-                            except Exception:
-                                _existing = {}
-                        # Slå ihop och skriv
-                        _merged = {**_existing, **{k: v for k, v in _paste_data.items()
-                                                   if isinstance(k, str) and k.startswith(("http://","https://"))
-                                                   and v in ("hög","medel","låg","utesluten")}}
-                        _new_content = json.dumps(_merged, ensure_ascii=False, indent=2) + "\n"
-                        _payload = {
-                            "message": f"Prio-ändringar från Live-vyn ({len(_paste_data)} nya)",
-                            "content": _b64.b64encode(_new_content.encode()).decode(),
-                        }
-                        if _sha:
-                            _payload["sha"] = _sha
-                        _put = requests.put(_api, headers=_hdrs, json=_payload, timeout=15)
-                        if _put.status_code in (200, 201):
-                            st.success(f"✅ Sparade {len(_paste_data)} prio-ändringar till repo")
-                        else:
-                            st.error(f"Kunde inte spara: HTTP {_put.status_code}")
-                    except Exception as _e:
-                        st.error(f"Nätverksfel: {type(_e).__name__}: {_e}")
-
-
 def _get_pat() -> str:
-    return st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
+    try:
+        return st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
+    except Exception:
+        # Ingen secrets.toml (t.ex. lokal körning) → ingen PAT, men appen ska inte krascha.
+        return ""
+
+
+# ── Prioritet-overrides: ladda + spara (server-side, ingen token i webbläsaren) ──
+OVERRIDES_FILE = ROOT / ".agent_overrides.json"
+VALID_RELEVANS = {"hög", "medel", "låg", "utesluten"}
+
+
+def _is_safe_override_url(u: str) -> bool:
+    return isinstance(u, str) and u.strip().startswith(("http://", "https://")) and len(u) < 2000
+
+
+def _load_overrides_file() -> dict[str, str]:
+    """Läser .agent_overrides.json (str-värden) från repo:t. Tål äldre dict-format."""
+    if not OVERRIDES_FILE.exists():
+        return {}
+    try:
+        data = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    out: dict[str, str] = {}
+    for url, val in (data or {}).items():
+        if isinstance(val, str):
+            out[url] = val
+        elif isinstance(val, dict) and isinstance(val.get("relevans"), str):
+            out[url] = val["relevans"]
+    return out
+
+
+def _save_override(url: str, new_rel: str) -> tuple[bool, str]:
+    """Sparar EN prio-ändring: uppdaterar session + lokal fil + (om PAT finns) GitHub.
+    PAT stannar server-side och läcker aldrig till webbläsaren eller felmeddelanden."""
+    if not _is_safe_override_url(url) or new_rel not in VALID_RELEVANS:
+        return False, "Ogiltigt värde"
+
+    # Slå ihop mot filen OCH sessionen så inga befintliga val tappas bort vid lokal skrivning.
+    merged = {**_load_overrides_file(), **st.session_state.get("live_overrides", {})}
+    merged[url] = new_rel
+    st.session_state["live_overrides"] = merged
+
+    new_content = json.dumps(merged, ensure_ascii=False, indent=2) + "\n"
+    # Skriv lokalt först (fungerar vid lokal körning; på Streamlit Cloud är det flyktigt
+    # men ofarligt — GitHub är den beständiga lagringen).
+    try:
+        OVERRIDES_FILE.write_text(new_content, encoding="utf-8")
+    except Exception:
+        pass
+
+    pat = _get_pat()
+    if not pat:
+        return True, "Sparat lokalt (GITHUB_PAT saknas — inte pushat till repo)"
+
+    import base64 as _b64
+    api = f"https://api.github.com/repos/{GITHUB_REPO}/contents/.agent_overrides.json"
+    headers = {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
+    try:
+        r = requests.get(api, headers=headers, timeout=10)
+        sha = r.json().get("sha") if r.status_code == 200 else None
+        if r.status_code not in (200, 404):
+            return False, f"GitHub GET fel (HTTP {r.status_code})"
+        # Slå ihop mot repo-versionen så samtidiga ändringar inte skrivs över
+        repo_data: dict[str, str] = {}
+        if r.status_code == 200:
+            try:
+                repo_data = json.loads(_b64.b64decode(r.json()["content"]).decode())
+            except Exception:
+                repo_data = {}
+        full = {**repo_data, **merged}
+        full = {k: v for k, v in full.items() if _is_safe_override_url(k) and v in VALID_RELEVANS}
+        full_content = json.dumps(full, ensure_ascii=False, indent=2) + "\n"
+        payload = {
+            "message": "Prio-ändring från Live-vyn",
+            "content": _b64.b64encode(full_content.encode("utf-8")).decode("ascii"),
+        }
+        if sha:
+            payload["sha"] = sha
+        r = requests.put(api, headers=headers, json=payload, timeout=15)
+        if r.status_code in (200, 201):
+            st.session_state["live_overrides"] = full
+            try:
+                OVERRIDES_FILE.write_text(full_content, encoding="utf-8")
+            except Exception:
+                pass
+            return True, "Sparat till repo"
+        return False, f"GitHub PUT fel (HTTP {r.status_code})"
+    except requests.RequestException as e:
+        return False, f"Nätverksfel: {type(e).__name__}"
 
 
 def _latest_run_status(pat: str) -> dict | None:
@@ -454,7 +474,6 @@ with tab_live:
     ROOT = Path(__file__).parent
     from output.html_report import generate as _gen_html
     import tempfile
-    import base64 as _b64
 
     def _load_json(name: str) -> dict:
         try:
@@ -463,60 +482,8 @@ with tab_live:
         except Exception:
             return {}
 
-    # ── Auto-sync av prio-ändringar: localStorage → GitHub ────
-    # HTML-rapporten sparar ändringar i webbläsarens localStorage under
-    # 'tv_relevans_overrides_v1'. Vid varje sidladdning läses den nyckeln + synkas
-    # till .agent_overrides.json i repo:t om något ändrats. Så AI:n ser dem.
-    _VALID_RELEVANS = {"hög", "medel", "låg", "utesluten"}
-
-    def _is_safe_url(u: str) -> bool:
-        return (isinstance(u, str) and u.strip().startswith(("http://", "https://"))
-                and len(u) < 2000)
-
-    def _sync_overrides_to_github(new_data: dict, pat: str) -> tuple[bool, str]:
-        """PAT skickas ENDAST i Authorization-header. Felmeddelanden avslöjar aldrig
-        token-innehåll — bara HTTP-status + generisk hint."""
-        if not pat:
-            return False, "GITHUB_PAT saknas"
-        # Validera + slå ihop med befintlig repo-fil
-        current = _load_json(".agent_overrides.json") or {}
-        merged = dict(current)
-        for url, val in new_data.items():
-            if _is_safe_url(url) and val in _VALID_RELEVANS:
-                merged[url] = val
-        if merged == current:
-            return True, "ingen ändring"
-        new_content = json.dumps(merged, ensure_ascii=False, indent=2) + "\n"
-        api = f"https://api.github.com/repos/{GITHUB_REPO}/contents/.agent_overrides.json"
-        headers = {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
-        try:
-            r = requests.get(api, headers=headers, timeout=10)
-        except requests.RequestException as e:
-            return False, f"Nätverksfel: {type(e).__name__}"
-        sha = r.json().get("sha") if r.status_code == 200 else None
-        if r.status_code not in (200, 404):
-            return False, f"GET misslyckades (HTTP {r.status_code})"
-        payload = {
-            "message": f"Auto-sync prio-ändringar ({len(new_data)} från browser)",
-            "content": _b64.b64encode(new_content.encode("utf-8")).decode("ascii"),
-        }
-        if sha:
-            payload["sha"] = sha
-        try:
-            r = requests.put(api, headers=headers, json=payload, timeout=15)
-        except requests.RequestException as e:
-            return False, f"Nätverksfel vid PUT: {type(e).__name__}"
-        if r.status_code in (200, 201):
-            # Uppdatera lokal kopia så nästa sidladdning inte pushar igen
-            try:
-                (ROOT / ".agent_overrides.json").write_text(new_content, encoding="utf-8")
-            except Exception:
-                pass
-            return True, f"synkade {len(merged)} val"
-        return False, f"PUT misslyckades (HTTP {r.status_code})"
-
-    # HTML-rapporten sparar nu direkt till GitHub via klient-JS (sajten är privat)
-    # så vi behöver inte längre hantera URL-parametrar eller localStorage-brygga här.
+    # Prio-ändringar sparas server-side via den nativa panelen nedan (se _save_override).
+    # Ingen token skickas till webbläsaren och ingen localStorage-brygga behövs längre.
 
     # Filter: items som inte hör hemma i journalist-vyn (workshops, interna admin, saknar tech-vinkel)
     _STRETCH_TECH_PATTERNS = (
@@ -589,6 +556,72 @@ with tab_live:
     _all_items = [it for it in _all_items if not _should_exclude(it)]
     _filtered = _before - len(_all_items)
 
+    # ── Applicera manuella prio-overrides server-side ─────────────────────
+    # Sanningen är .agent_overrides.json (som AI:n också läser). Vi speglar in den
+    # i itemens relevans så iframen visar rätt färg/prio direkt — ingen localStorage,
+    # ingen token i webbläsaren.
+    if "live_overrides" not in st.session_state:
+        st.session_state["live_overrides"] = _load_overrides_file()
+    _ov = st.session_state["live_overrides"]
+    for _it in _all_items:
+        _u = _it.get("url", "")
+        if _u in _ov and _ov[_u] in VALID_RELEVANS:
+            _it.setdefault("analysis", {})["relevans"] = _ov[_u]
+
+    # ── Nativ panel: ändra prioritet smidigt (sparar direkt server-side) ──
+    _PRIOS = ["hög", "medel", "låg", "utesluten"]
+    _PRIO_LABEL = {"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg", "utesluten": "Utesluten"}
+    _PRIO_RANK = {"hög": 0, "medel": 1, "låg": 2, "okänd": 3, "utesluten": 4}
+    _editable = [it for it in _all_items if it.get("url")]
+    _editable.sort(key=lambda it: (_PRIO_RANK.get(it.get("analysis", {}).get("relevans", "okänd"), 3),
+                                   (it.get("title") or "").lower()))
+    _url_to_item = {it["url"]: it for it in _editable}
+
+    def _opt_label(u: str) -> str:
+        it = _url_to_item.get(u, {})
+        rel = it.get("analysis", {}).get("relevans", "okänd")
+        title = it.get("title") or "Utan titel"
+        src = it.get("source", "")
+        return f"{RELEVANS_EMOJI.get(rel, '⚪')} {title[:90]}" + (f" · {src}" if src else "")
+
+    with st.container(border=True):
+        st.markdown("#### ✎ Ändra prioritet")
+        _pc1, _pc2 = st.columns([3, 1])
+        with _pc1:
+            _sel_url = st.selectbox(
+                "Välj ärende",
+                options=[it["url"] for it in _editable],
+                index=None,
+                format_func=_opt_label,
+                placeholder="Sök ärende (skriv del av titeln)…",
+                key="qe_item",
+                label_visibility="collapsed",
+            )
+        with _pc2:
+            if _sel_url:
+                _cur = _url_to_item[_sel_url].get("analysis", {}).get("relevans", "okänd")
+                _cur = _cur if _cur in _PRIOS else "medel"
+                # Nollställ prio-väljaren när man byter ärende (så inget sparas av misstag)
+                if st.session_state.get("qe_prev_url") != _sel_url:
+                    st.session_state["qe_prio"] = _cur
+                    st.session_state["qe_prev_url"] = _sel_url
+                _new = st.selectbox(
+                    "Ny prioritet",
+                    options=_PRIOS,
+                    format_func=lambda p: f"{RELEVANS_EMOJI[p]} {_PRIO_LABEL[p]}",
+                    key="qe_prio",
+                    label_visibility="collapsed",
+                )
+                if _new != _cur:
+                    _ok, _msg = _save_override(_sel_url, _new)
+                    st.toast(f"✓ Sparat: {_PRIO_LABEL[_new]}" if _ok else f"⚠ {_msg}",
+                             icon="💾" if _ok else "⚠️")
+                    st.rerun()
+            else:
+                st.caption("Välj ett ärende →")
+        if not _get_pat():
+            st.caption("⚠ GITHUB_PAT saknas — ändringar sparas lokalt men pushas inte till repot.")
+
     # Bygg important_dates: kombinera .agent_dates.json (bara memory-items har landat där)
     # med viktiga_datum från alla items (inkl cache-items som annars saknar sina framtida datum).
     from datetime import datetime as _dt
@@ -620,13 +653,20 @@ with tab_live:
             _seen_date_entries.add(_key)
             _important_dates.setdefault(_datum, []).append(_entry)
 
+    # Uteslutna items göms i iframen (matchar 'uteslut ur rapporten'); de går fortfarande
+    # att hitta och återställa via panelen ovanför.
+    _iframe_items = [it for it in _all_items
+                     if it.get("analysis", {}).get("relevans") != "utesluten"]
     try:
         with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
             _tmp_path = _f.name
-        _gen_html(_all_items, output_path=_tmp_path, important_dates=_important_dates,
+        # github_pat="" → ingen token i webbläsaren; sparning sker server-side via panelen.
+        # read_only=True → iframens egna dropdowns/kopiera-bar stängs av (ett ställe att ändra på).
+        _gen_html(_iframe_items, output_path=_tmp_path, important_dates=_important_dates,
                   include_header=False,
-                  github_pat=_get_pat(),
-                  github_repo=GITHUB_REPO)
+                  github_pat="",
+                  github_repo="",
+                  read_only=True)
         with open(_tmp_path, encoding="utf-8") as _f:
             _live_html = _f.read()
         os.unlink(_tmp_path)
