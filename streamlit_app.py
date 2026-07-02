@@ -47,7 +47,7 @@ SOURCE_TO_TAB = {
     "Politico EU Tech": "Tech-media",
 }
 
-RELEVANS_EMOJI = {"hög": "🔴", "medel": "🟡", "låg": "🟢", "okänd": "⚪"}
+RELEVANS_EMOJI = {"hög": "🔴", "medel": "🟡", "låg": "🟢", "okänd": "⚪", "utesluten": "🚫"}
 
 st.set_page_config(
     page_title="Tech Vinklar — EU & Riksdagen",
@@ -619,7 +619,7 @@ with tab_live:
                 _new = st.selectbox(
                     "Ny prioritet",
                     options=_PRIOS,
-                    format_func=lambda p: f"{RELEVANS_EMOJI[p]} {_PRIO_LABEL[p]}",
+                    format_func=lambda p: f"{RELEVANS_EMOJI.get(p, '⚪')} {_PRIO_LABEL.get(p, p)}",
                     key="qe_prio",
                     label_visibility="collapsed",
                 )
