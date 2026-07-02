@@ -696,24 +696,6 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       overrides[url] = newVal;
       saveOverrides(overrides);
       updateExcludedBanner();
-      // Auto-spara till GitHub efter kort debounce så vi inte spammar API:t
-      // vid snabba ändringar. En knapp finns kvar som fallback.
-      scheduleAutoSave();
-    }}
-
-    // Batch flera ändringar inom 1 sekund till EN sparning.
-    let _autoSaveTimer = null;
-    function scheduleAutoSave() {{
-      if (!GITHUB_CONFIG.enabled) {{
-        // Visa tydligt fel istället för tyst avbrott
-        showSaveToast('⚠ PAT eller repo saknas — sparning gick inte igenom', true);
-        return;
-      }}
-      if (_autoSaveTimer) clearTimeout(_autoSaveTimer);
-      _autoSaveTimer = setTimeout(() => {{
-        _autoSaveTimer = null;
-        saveToRepo();
-      }}, 1000);
     }}
 
     function updateCardRelevans(card, newRel, manual) {{
@@ -775,65 +757,34 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
       }}
     }}
 
-    // Spara direkt till GitHub Contents API. Sajten är privat → PAT kan finnas
-    // i klienten. Ingen popup, ingen omladdning — bara ett litet toast-meddelande.
+    // Kopiera osparade ändringar till urklipp — hon klistrar in i Streamlit-topbaren.
     async function saveToRepo() {{
       const o = loadOverrides();
-      if (Object.keys(o).length === 0) return;
-      if (!GITHUB_CONFIG.enabled) {{
-        showSaveToast('⚠ GitHub-konfiguration saknas', true);
+      if (Object.keys(o).length === 0) {{
+        showSaveToast('Inga ändringar att kopiera');
         return;
       }}
-      const saveBtns = document.querySelectorAll('.card-save-btn, .save-overrides-btn');
-      saveBtns.forEach(b => {{ b.disabled = true; b.textContent = '⏳ Sparar…'; }});
+      const json = JSON.stringify(o);
       try {{
-        const api = `https://api.github.com/repos/${{GITHUB_CONFIG.repo}}/contents/.agent_overrides.json`;
-        const authHeaders = {{
-          'Authorization': `Bearer ${{GITHUB_CONFIG.pat}}`,
-          'Accept': 'application/vnd.github+json',
-        }};
-        // Hämta ev. befintlig fil för SHA (behövs vid uppdatering)
-        let sha = null;
-        let existing = {{}};
-        const getResp = await fetch(api, {{ headers: authHeaders }});
-        if (getResp.status === 200) {{
-          const meta = await getResp.json();
-          sha = meta.sha;
-          try {{
-            existing = JSON.parse(atob(meta.content.replace(/\\s/g, '')));
-          }} catch(e) {{ existing = {{}}; }}
-        }} else if (getResp.status !== 404) {{
-          throw new Error(`GET misslyckades: HTTP ${{getResp.status}}`);
-        }}
-        // Slå ihop lokala ändringar över befintliga
-        const merged = Object.assign({{}}, existing, o);
-        const newContent = JSON.stringify(merged, null, 2) + '\\n';
-        const b64Content = btoa(unescape(encodeURIComponent(newContent)));
-        const payload = {{
-          message: `Prio-ändringar från Live-vyn (${{Object.keys(o).length}} nya)`,
-          content: b64Content,
-        }};
-        if (sha) payload.sha = sha;
-        const putResp = await fetch(api, {{
-          method: 'PUT',
-          headers: {{ ...authHeaders, 'Content-Type': 'application/json' }},
-          body: JSON.stringify(payload),
-        }});
-        if (!putResp.ok) {{
-          throw new Error(`Spara misslyckades: HTTP ${{putResp.status}}`);
-        }}
-        // Lyckades! Rensa lokal cache + återställ knapparna
-        localStorage.removeItem(OVERRIDES_KEY);
-        document.body.classList.remove('has-pending-overrides');
-        document.querySelectorAll('.card.manually-set').forEach(c =>
-          c.classList.remove('manually-set')
-        );
-        showSaveToast(`✓ Sparade ${{Object.keys(o).length}} ändringar`);
+        await navigator.clipboard.writeText(json);
+        showSaveToast('✓ Kopierat! Klistra in i topbaren → Spara');
       }} catch (e) {{
-        showSaveToast(`⚠ ${{e.message}}`, true);
-      }} finally {{
-        saveBtns.forEach(b => {{ b.disabled = false; b.textContent = '💾 Spara'; }});
+        // Fallback: visa en modal med JSON att kopiera manuellt
+        showJsonFallback(json);
       }}
+    }}
+
+    function showJsonFallback(json) {{
+      const modal = document.createElement('div');
+      modal.className = 'save-toast save-toast-error';
+      modal.style.maxWidth = '500px';
+      modal.style.padding = '1rem';
+      modal.style.fontSize = '0.75rem';
+      modal.style.wordBreak = 'break-all';
+      modal.textContent = 'Kopiera manuellt: ' + json;
+      document.body.appendChild(modal);
+      setTimeout(() => modal.classList.add('show'), 10);
+      setTimeout(() => modal.remove(), 15000);
     }}
 
     function showSaveToast(msg, isError) {{
@@ -874,13 +825,6 @@ def _build_calendar_section(items: list[dict], important_dates: dict = None) -> 
     }}
 
     applyOverridesOnLoad();
-    // Diagnostisk toast om sparning inte kommer fungera — så användaren vet direkt
-    if (!GITHUB_CONFIG.enabled) {{
-      setTimeout(() => showSaveToast(
-        '⚠ Sparning inaktiverad: ' + (!GITHUB_CONFIG.pat ? 'PAT saknas' : 'repo saknas'),
-        true
-      ), 500);
-    }}
 
     // Toggla "Visa mer" per tema på dashboarden
     function toggleDashMore(btn) {{
@@ -2640,6 +2584,11 @@ def generate(items: list[dict], output_path: str = "digest.html",
     <span class="filter-bar-label"></span>
     <span class="filter-bar-value"></span>
     <button class="filter-reset-btn" onclick="resetFilter()">✕ Återställ</button>
+  </div>
+  <!-- Kopiera-knapp för att skicka ändringar till Streamlit-topbaren -->
+  <div id="save-overrides-bar" class="save-overrides-bar">
+    <span>✏️ <span class="save-count">0</span> osparade prio-ändringar</span>
+    <button class="save-overrides-btn" onclick="saveToRepo()">📋 Kopiera & spara i topbaren</button>
   </div>
   <div id="excluded-banner" class="excluded-banner">
     <span>🚫 <span class="count">0</span> ärenden uteslutna ur rapporten.</span>

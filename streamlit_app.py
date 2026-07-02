@@ -191,6 +191,75 @@ with _top:
 
 selected = reports[selected_idx]
 
+# ── Spara prio-ändringar från Live-vyn (klistras in från urklipp) ──
+with st.expander("💾 Spara prio-ändringar från Live-vyn", expanded=False):
+    st.caption(
+        "1. På Live-fliken: klicka **📋 Kopiera & spara i topbaren**  \n"
+        "2. Klistra in i rutan nedan (Cmd/Ctrl+V)  \n"
+        "3. Klicka **Spara till repo**"
+    )
+    _paste_area = st.text_area(
+        "Klistra in här",
+        height=80,
+        key="_paste_overrides",
+        placeholder='{"https://url.com/x": "hög", ...}',
+        label_visibility="collapsed",
+    )
+    _paste_save = st.button("💾 Spara till repo", type="primary", key="_paste_save_btn")
+    if _paste_save:
+        if not _paste_area.strip():
+            st.warning("Ingenting inklistrat")
+        else:
+            try:
+                _paste_data = json.loads(_paste_area.strip())
+                if not isinstance(_paste_data, dict):
+                    st.error("Formatet måste vara ett JSON-objekt")
+                    _paste_data = None
+            except Exception as _e:
+                st.error(f"Kunde inte tolka JSON: {_e}")
+                _paste_data = None
+            if _paste_data:
+                _paste_pat = st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
+                if not _paste_pat:
+                    st.error("GITHUB_PAT saknas i Streamlit secrets")
+                else:
+                    import base64 as _b64
+                    _api = f"https://api.github.com/repos/{GITHUB_REPO}/contents/.agent_overrides.json"
+                    _hdrs = {
+                        "Authorization": f"Bearer {_paste_pat}",
+                        "Accept": "application/vnd.github+json",
+                    }
+                    try:
+                        # Hämta befintlig fil för SHA + för att slå ihop
+                        _get = requests.get(_api, headers=_hdrs, timeout=10)
+                        _sha = None
+                        _existing = {}
+                        if _get.status_code == 200:
+                            _meta = _get.json()
+                            _sha = _meta.get("sha")
+                            try:
+                                _existing = json.loads(_b64.b64decode(_meta["content"]).decode())
+                            except Exception:
+                                _existing = {}
+                        # Slå ihop och skriv
+                        _merged = {**_existing, **{k: v for k, v in _paste_data.items()
+                                                   if isinstance(k, str) and k.startswith(("http://","https://"))
+                                                   and v in ("hög","medel","låg","utesluten")}}
+                        _new_content = json.dumps(_merged, ensure_ascii=False, indent=2) + "\n"
+                        _payload = {
+                            "message": f"Prio-ändringar från Live-vyn ({len(_paste_data)} nya)",
+                            "content": _b64.b64encode(_new_content.encode()).decode(),
+                        }
+                        if _sha:
+                            _payload["sha"] = _sha
+                        _put = requests.put(_api, headers=_hdrs, json=_payload, timeout=15)
+                        if _put.status_code in (200, 201):
+                            st.success(f"✅ Sparade {len(_paste_data)} prio-ändringar till repo")
+                        else:
+                            st.error(f"Kunde inte spara: HTTP {_put.status_code}")
+                    except Exception as _e:
+                        st.error(f"Nätverksfel: {type(_e).__name__}: {_e}")
+
 
 def _get_pat() -> str:
     return st.secrets.get("GITHUB_PAT", "") if hasattr(st, "secrets") else ""
