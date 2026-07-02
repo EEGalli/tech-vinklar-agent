@@ -285,6 +285,89 @@ def _save_override(url: str, new_rel: str) -> tuple[bool, str]:
         return False, f"Nätverksfel: {type(e).__name__}"
 
 
+_NV_PRIOS = ["hög", "medel", "låg", "utesluten"]
+_NV_LABEL = {"hög": "Hög", "medel": "Medel", "låg": "Låg", "utesluten": "Utesluten"}
+_NV_RANK = {"hög": 0, "medel": 1, "låg": 2, "okänd": 3, "utesluten": 4}
+_NV_COLOR = {"hög": "#c0392b", "medel": "#d68910", "låg": "#27ae60", "utesluten": "#6b7280"}
+
+
+def _render_native_live(items: list[dict]) -> None:
+    """Nativ Live-vy (TEST): varje kort har en prio-dropdown direkt på kortet.
+    Ändring sparas server-side via _save_override — ingen sökning, ingen kopiering.
+    Ser ut som Streamlit-kort (inte den exakta HTML-dashboarden)."""
+    import output.html_report as _hr
+
+    def _clean(it: dict) -> str:
+        try:
+            return _hr._clean_title(it)
+        except Exception:
+            return it.get("title") or "Utan titel"
+
+    counts = {"hög": 0, "medel": 0, "låg": 0}
+    for it in items:
+        r = it.get("analysis", {}).get("relevans", "okänd")
+        if r in counts:
+            counts[r] += 1
+    m = st.columns(4)
+    m[0].metric("📋 Visade", len(items))
+    m[1].metric("🔴 Hög", counts["hög"])
+    m[2].metric("🟡 Medel", counts["medel"])
+    m[3].metric("🟢 Låg", counts["låg"])
+    st.caption("💡 Ändra prioritet direkt på kortet — sparas automatiskt, ingen sökning.")
+    st.divider()
+
+    # Sortera: nyast datum först, hög-prio före inom samma datum
+    ordered = sorted(
+        items,
+        key=lambda it: ((it.get("date") or "")[:10],
+                        -_NV_RANK.get(it.get("analysis", {}).get("relevans", "okänd"), 3)),
+        reverse=True,
+    )
+
+    for it in ordered:
+        url = it.get("url", "")
+        a = it.get("analysis", {})
+        rel = a.get("relevans", "okänd")
+        rel = rel if rel in _NV_PRIOS else "medel"
+        color = _NV_COLOR.get(rel, "#888")
+        with st.container(border=True):
+            ccol, tcol = st.columns([0.2, 0.8])
+            with ccol:
+                new = st.selectbox(
+                    "Prioritet",
+                    _NV_PRIOS,
+                    index=_NV_PRIOS.index(rel),
+                    format_func=lambda p: f"{RELEVANS_EMOJI.get(p, '⚪')} {_NV_LABEL[p]}",
+                    key=f"nv_prio_{url}",
+                    label_visibility="collapsed",
+                )
+                if new != rel:
+                    ok, msg = _save_override(url, new)
+                    st.toast(f"✓ Sparat: {_NV_LABEL[new]}" if ok else f"⚠ {msg}",
+                             icon="💾" if ok else "⚠️")
+                    st.rerun()
+            with tcol:
+                st.markdown(
+                    f"<span style='background:{color};color:#fff;padding:1px 8px;"
+                    f"border-radius:10px;font-size:0.72rem;font-weight:600'>"
+                    f"{_NV_LABEL[rel].upper()}</span>", unsafe_allow_html=True)
+                st.markdown(f"##### {_clean(it)}")
+                meta = " · ".join([p for p in [(it.get("date") or "")[:10],
+                                               it.get("source", ""), it.get("committee", "")] if p])
+                if meta:
+                    st.caption(meta)
+            if a.get("sammanfattning"):
+                st.markdown(f"**Vad handlar det om?** {a['sammanfattning']}")
+            if a.get("tech_vinkel"):
+                st.markdown(f"**Tech-vinkel:** {a['tech_vinkel']}")
+            if a.get("varfor_viktigt"):
+                st.markdown(f"**Varför viktigt:** {a['varfor_viktigt']}")
+            if a.get("eu_koppling") and a["eu_koppling"] != "null":
+                st.markdown(f"🇪🇺 **EU-koppling:** {a['eu_koppling']}")
+            if url:
+                st.markdown(f"[Läs originaldokumentet →]({url})")
+
+
 def _latest_run_status(pat: str) -> dict | None:
     """Hämtar status på den senaste workflow-körningen."""
     url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{WORKFLOW_FILE}/runs?per_page=1"
@@ -579,7 +662,19 @@ with tab_live:
         if _u in _ov and _ov[_u] in VALID_RELEVANS:
             _it.setdefault("analysis", {})["relevans"] = _ov[_u]
 
-    # ── Nativ panel: ändra prioritet smidigt (sparar direkt server-side) ──
+    # ── Vy-växel (TEST) ──────────────────────────────────────────────────
+    # HTML-vyn (default) = dagens dashboard i iframe. Nativa kort = prio-dropdown
+    # direkt på varje kort (ingen sökning). Så du kan jämföra och avgöra looken själv.
+    _view_mode = st.radio(
+        "Vy",
+        ["🎨 HTML-vy (som idag)", "🧩 Nativa kort (test — prio direkt på kortet)"],
+        horizontal=True,
+        key="live_view_mode",
+        label_visibility="collapsed",
+    )
+    _native = _view_mode.startswith("🧩")
+
+    # ── Snabb-panel: ändra prioritet via sökning (sparar direkt server-side) ──
     _PRIOS = ["hög", "medel", "låg", "utesluten"]
     _PRIO_LABEL = {"hög": "Hög prioritet", "medel": "Medel", "låg": "Låg", "utesluten": "Utesluten"}
     _PRIO_RANK = {"hög": 0, "medel": 1, "låg": 2, "okänd": 3, "utesluten": 4}
@@ -605,8 +700,12 @@ with tab_live:
 
     with st.container(border=True):
         st.markdown("#### ✎ Ändra prioritet på ett ärende")
-        st.caption("1️⃣ Sök ärendet i fältet nedan  ·  2️⃣ välj ny prioritet till höger. "
-                   "Sparas direkt. (Dropdownarna på korten längre ner är bara färg-etiketter.)")
+        if _native:
+            st.caption("Nativ vy nedan — ändra prio direkt på varje kort. "
+                       "Den här sökrutan är bara en genväg om du vill hoppa till ett visst ärende.")
+        else:
+            st.caption("1️⃣ Sök ärendet i fältet nedan  ·  2️⃣ välj ny prioritet till höger. "
+                       "Sparas direkt. (Dropdownarna på korten längre ner är bara färg-etiketter.)")
         _pc1, _pc2 = st.columns([3, 1])
         with _pc1:
             _sel_url = st.selectbox(
@@ -689,22 +788,25 @@ with tab_live:
             _important_dates.setdefault(_datum, []).append(_entry)
 
     # _iframe_items byggdes ovan (respekterar 'utesluten' + manuella overrides över auto-filtret).
-    try:
-        with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
-            _tmp_path = _f.name
-        # github_pat="" → ingen token i webbläsaren; sparning sker server-side via panelen.
-        # read_only=True → iframens egna dropdowns/kopiera-bar stängs av (ett ställe att ändra på).
-        _gen_html(_iframe_items, output_path=_tmp_path, important_dates=_important_dates,
-                  include_header=False,
-                  github_pat="",
-                  github_repo="",
-                  read_only=True)
-        with open(_tmp_path, encoding="utf-8") as _f:
-            _live_html = _f.read()
-        os.unlink(_tmp_path)
-        st.components.v1.html(_live_html, height=2200, scrolling=True)
-    except Exception as _e:
-        st.error(f"Kunde inte bygga live-vyn: {type(_e).__name__}: {_e}")
+    if _native:
+        _render_native_live(_iframe_items)
+    else:
+        try:
+            with tempfile.NamedTemporaryFile(mode="w", suffix=".html", delete=False, encoding="utf-8") as _f:
+                _tmp_path = _f.name
+            # github_pat="" → ingen token i webbläsaren; sparning sker server-side via panelen.
+            # read_only=True → iframens egna dropdowns/kopiera-bar stängs av (ett ställe att ändra på).
+            _gen_html(_iframe_items, output_path=_tmp_path, important_dates=_important_dates,
+                      include_header=False,
+                      github_pat="",
+                      github_repo="",
+                      read_only=True)
+            with open(_tmp_path, encoding="utf-8") as _f:
+                _live_html = _f.read()
+            os.unlink(_tmp_path)
+            st.components.v1.html(_live_html, height=2200, scrolling=True)
+        except Exception as _e:
+            st.error(f"Kunde inte bygga live-vyn: {type(_e).__name__}: {_e}")
 
 
 def _render_tab(label: str, items: list[dict]) -> None:
