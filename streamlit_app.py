@@ -594,7 +594,9 @@ with tab_live:
         return f"{RELEVANS_EMOJI.get(rel, '⚪')} {title[:90]}" + (f" · {src}" if src else "")
 
     with st.container(border=True):
-        st.markdown("#### ✎ Ändra prioritet")
+        st.markdown("#### ✎ Ändra prioritet på ett ärende")
+        st.caption("1️⃣ Sök ärendet i fältet nedan  ·  2️⃣ välj ny prioritet till höger. "
+                   "Sparas direkt. (Dropdownarna på korten längre ner är bara färg-etiketter.)")
         _pc1, _pc2 = st.columns([3, 1])
         with _pc1:
             _sel_url = st.selectbox(
