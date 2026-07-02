@@ -717,6 +717,12 @@
       "title": "Nya möjligheter att bekämpa onlinerekrytering",
       "url": "https://data.riksdagen.se/dokument/HD03276.html",
       "arende": "Bekämpning av onlinerekrytering"
+    },
+    {
+      "beskrivning": "Regeringen beslutade att ge IMY ett nytt uppdrag som marknadskontrollmyndighet för EU:s AI-förordning",
+      "title": "IMY blir marknadskontrollmyndighet för AI-förordningen",
+      "url": "https://www.imy.se/nyheter/imy-blir-marknadskontrollmyndighet-for-ai-forordningen/",
+      "arende": "AI Act"
     }
   ],
   "2026-06-01": [
@@ -931,6 +937,30 @@
       "title": "Nya riktlinjer om samspelet mellan DSA och GDPR",
       "url": "https://www.imy.se/nyheter/nya-riktlinjer-om-samspelet-mellan-dsa-och-gdpr/",
       "arende": "DSA och GDPR"
+    }
+  ],
+  "2026-07-02": [
+    {
+      "beskrivning": "EU-domstolens dom i målet mot Google Android-böter offentliggörs",
+      "title": "Top EU court upholds Google Android fine in landmark antitrust case",
+      "url": "https://www.politico.eu/article/top-eu-court-upholds-google-android-fine-in-landmark-antitrust-case/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "arende": "Google Android-böter"
+    }
+  ],
+  "2030-12-31": [
+    {
+      "beskrivning": "Slutdatum för Digital Decade 2030, då en omfattande utvärdering av framstegen kommer att genomföras.",
+      "title": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-connectivity-coverage-europe-2025-report",
+      "arende": "Digital infrastruktur"
+    }
+  ],
+  "2024-12-31": [
+    {
+      "beskrivning": "Årsrapporten publiceras officiellt.",
+      "title": "EUSPA Annual Activity Report 2024",
+      "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-activity-report-2024",
+      "arende": "Galileo-programmet"
     }
   ]
 }

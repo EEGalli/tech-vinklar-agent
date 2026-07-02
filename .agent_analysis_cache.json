@@ -6385,5 +6385,101 @@
     "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
     "summary": "I samband med det årliga nordiska dataskyddsmötet har Integritetsskyddsmyndigheten (IMY) tillsammans med de övriga dataskyddsmyndigheterna i Norden antagit en gemensam deklaration om åtgärder för att fördjupa det nordiska samarbetet, bland annat vad gäller effektivare hantering av klagomål från enskilda.",
     "cached_at": "2026-07-02"
+  },
+  "https://www.politico.eu/article/top-eu-court-upholds-google-android-fine-in-landmark-antitrust-case/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Sociala medier och plattformar",
+      "svensk_rubrik": "EU-domstol fastställer Google Android-böter",
+      "sammanfattning": "EU:s högsta domstol har fastställt en böter på 4,3 miljarder euro som Google ålagts för att ha missbrukat sin dominantposition på marknaden för Android-operativsystem. Domen är en seger för EU-kommissionen som har drivit fallet mot Google. Domen kan ha stor betydelse för hur tech-jättar som Google agerar på den europeiska marknaden. Det kan också påverka hur EU-kommissionen hanterar liknande fall i framtiden.",
+      "tech_vinkel": "Domen handlar specifikt om hur Google har använt sitt operativsystem Android för att främja sina egna tjänster och begränsa konkurrenter.",
+      "varfor_viktigt": "Domen är viktig eftersom den visar att EU-kommissionen är beredd att ta i med hårdhandskarna mot tech-jättar som missbrukar sin makt. Det kan också leda till att Google och andra tech-företag blir mer försiktiga med hur de agerar på den europeiska marknaden. Dessutom kan domen ha en stor inverkan på den digitala marknaden i Europa och hur den utvecklas i framtiden.",
+      "eu_koppling": "Domen är en del av EU-kommissionens arbete med att tillämpa EU:s konkurrensregler, särskilt artikel 102 i EUF-fördraget som förbjuder missbruk av en dominantposition på den inre marknaden.",
+      "keywords": [
+        "Google",
+        "Android",
+        "EU-kommissionen",
+        "konkurrensregler"
+      ],
+      "arende": "Google Android-böter",
+      "nasta_steg": "Google kan överklaga domen till EU-domstolens överinstans, men det är osäkert om de kommer att göra det.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-02",
+          "beskrivning": "EU-domstolens dom i målet mot Google Android-böter offentliggörs"
+        }
+      ]
+    },
+    "title": "Top EU court upholds Google Android fine in landmark antitrust case",
+    "source": "Politico EU Tech",
+    "type": "Tech-policy-nyhet",
+    "date": "Thu, 02 Jul 2026",
+    "committee": "Politico Europe — tech-policy",
+    "summary": "The judgment strengthens Brussels’ hand as it increasingly relies on new digital competition rules to police Big Tech.",
+    "cached_at": "2026-07-02"
+  },
+  "https://www.imy.se/nyheter/ratten-att-bli-bortglomd-och-soktraffar-till-nyhetsartiklar/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Rätten att bli bortglömd",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har möjlighet att avgöra om sökträffar ska tas bort från söktjänster om de kränker en persons integritet. Detta baseras på rätten att bli bortglömd, som har funnits i över tio år sedan en dom i EU-domstolen. Enskilda personer kan vända sig direkt till söktjänsterna för att begära borttagning av sökträffar. Om söktjänsten inte tar bort sökträffen kan IMY avgöra saken.",
+      "tech_vinkel": "Sökträffar från söktjänster kan tas bort om de kränker en persons integritet, vilket är en direkt tillämpning av rätten att bli bortglömd.",
+      "varfor_viktigt": "Detta är viktigt eftersom det direkt påverkar hur personer kan skydda sin integritet online. Sökträffar kan innehålla känslig information som kan skada en persons rykte eller privatliv. Genom att ha möjlighet att begära borttagning av sådana sökträffar kan personer bättre kontrollera sin online-närvaro. Dessutom visar det på vikten av att söktjänster och andra online-aktörer respekterar användarnas integritet.",
+      "eu_koppling": "Rätten att bli bortglömd är en del av EU:s lagstiftning om dataskydd, som fastställdes genom en dom i EU-domstolen och senare förstärktes genom GDPR (General Data Protection Regulation), som är EU:s direktiv som tvingar företag att skydda personuppgifter.",
+      "keywords": [
+        "Rätten att bli bortglömd",
+        "Dataskydd",
+        "GDPR",
+        "Integritetsskyddsmyndigheten"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att fortsätta att hantera ärenden där personer begär att få sökträffar borttagna, och det kan leda till ytterligare riktlinjer eller vägledning för söktjänster och andra online-aktörer.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-12-03",
+          "beskrivning": "Rätten att bli bortglömd: IMY publicerar information om möjligheten att begära borttagning av sökträffar"
+        }
+      ]
+    },
+    "title": "Rätten att bli bortglömd och sökträffar till nyhetsartiklar",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 03 Dec 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Enskilda personer har rätt att vända sig till söktjänster och be att få sökträffar borttagna vid sökning på deras namn. Det brukar kallas för rätten att bli bortglömd. Om söktjänsten inte tar bort sökträffen kan saken avgöras av Integritetsskyddsmyndigheten (IMY). Det är inget nytt system, utan har funnits i mer än tio år efter en dom i EU-domstolen.",
+    "cached_at": "2026-07-02"
+  },
+  "https://www.imy.se/nyheter/imy-inleder-granskningar-utifran-miljodata-lackan/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Granskning av Miljödata-läckan",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har beslutat att inleda granskningar efter IT-angreppet mot Miljödata, där personuppgifter läckte ut. Granskningarna kommer att omfatta företaget Miljödata samt två kommuner och en region som använt företagets tjänster. Detta är en reaktion på den allvarliga dataincidenten och syftar till att undersöka om personuppgiftshantering och datasäkerhet har skötts på ett tillfredsställande sätt. IMY kommer att granska om företaget och de berörda kommunerna och regionen har följt gällande lagstiftning och riktlinjer för dataskydd.",
+      "tech_vinkel": "Granskningarna kommer att fokusera på hanteringen av personuppgifter och datasäkerheten i samband med IT-angreppet mot Miljödata, vilket är en direkt tillämpning av EU:s dataskyddsförordning (GDPR).",
+      "varfor_viktigt": "Denna granskning är viktig eftersom den rör hanteringen av känsliga personuppgifter och datasäkerheten i offentlig sektor. Det är av stor vikt att myndigheter och företag som hanterar personuppgifter följer gällande lagstiftning för att skydda individers integritet. Granskningen kan leda till rekommendationer för förbättring av datasäkerheten och personuppgiftshantering, vilket i sin tur kan bidra till att stärka allmänhetens förtroende för hur deras personuppgifter hanteras.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "IMY",
+        "Miljödata-läckan"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att genomföra granskningarna och därefter presentera sina slutsatser och eventuella rekommendationer för förbättring.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-11-03",
+          "beskrivning": "IMY inleder granskningar av Miljödata-läckan"
+        }
+      ]
+    },
+    "title": "IMY inleder granskningar utifrån Miljödata-läckan",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 03 Nov 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndighet (IMY) har beslutat att inleda granskningar med anledning av IT-angreppet mot Miljödata och de personuppgifter som då läckte. Granskningarna gäller företaget Miljödata samt två kommuner och en region som använt företagets tjänster.",
+    "cached_at": "2026-07-02"
   }
 }

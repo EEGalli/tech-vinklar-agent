@@ -773,7 +773,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Det är troligt att liknande operationer kommer att genomföras för att identifiera och störa andra kriminella nätverk som underlättar cyberbrottslighet.",
+    "next_step": "Det är troligt att Europol och dess partners kommer att fortsätta liknande operationer för att identifiera och störa cyberkriminella nätverk.",
     "documents": [
       {
         "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
@@ -858,7 +858,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "BEREC kommer att presentera sin slutliga bedömning av förslaget till Digital Networks Act vid en offentlig debriefing den 10 juni 2026.",
+    "next_step": "EU-parlamentet och rådet kommer nu att överväga BERECs position papers i sina förhandlingar om DNA.",
     "documents": [
       {
         "title": "BEREC position papers on the Digital Networks Act proposal",
@@ -1091,7 +1091,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Resultaten från forumet kommer att sammanställas i en rapport och presenteras för EU:s beslutsfattare.",
+    "next_step": "Resultaten från forumet kommer troligtvis att sammanställas i en rapport och användas för att forma framtida strategier för den grekiska rymdindustrin.",
     "documents": [
       {
         "title": "The European Space and Security Forum",
@@ -1561,6 +1561,24 @@
         "url": "https://www.imy.se/nyheter/inbjudan-till-hearing-om-eu-vagledning-om-riktad-politisk-reklam-online/",
         "source": "IMY",
         "tech_vinkel": "Vägledningen kommer att handla om behandling av personuppgifter i samband med riktad politisk reklam online, vilket är en specifik teknikfråga som berör användningen av cookies, profilering och annan datadriven annonsering."
+      }
+    ]
+  },
+  "Google Android-böter": {
+    "name": "Google Android-böter",
+    "first_seen": "2026-07-02",
+    "last_updated": "2026-07-02",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Google kan överklaga domen till EU-domstolens överinstans, men det är osäkert om de kommer att göra det.",
+    "documents": [
+      {
+        "title": "Top EU court upholds Google Android fine in landmark antitrust case",
+        "date": "2026-07-02",
+        "url": "https://www.politico.eu/article/top-eu-court-upholds-google-android-fine-in-landmark-antitrust-case/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "source": "Politico EU Tech",
+        "tech_vinkel": "Domen handlar specifikt om hur Google har använt sitt operativsystem Android för att främja sina egna tjänster och begränsa konkurrenter."
       }
     ]
   }

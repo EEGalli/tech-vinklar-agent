@@ -13677,35 +13677,63 @@
   ],
   "2026-07-02": [
     {
-      "title": "AI Omnibus deal: EU lawmakers should reject a rollback of AI safeguards",
-      "source": "EDRi",
-      "type": "Tech-policy-nyhet",
-      "url": "https://edri.org/our-work/ai-omnibus-deal-eu-lawmakers-should-reject-a-rollback-of-ai-safeguards/",
-      "date": "Thu, 11 Jun 2026",
-      "committee": "European Digital Rights (NGO)",
-      "summary": "On 7 May 2026, EU institutions reached a final deal on the AI Omnibus, a file presented as technical simplification of the Artificial Intelligence Act (AI Act). In practice, the deal delays key protections, weakens transparency and creates a dangerous precedent for the EU digital rulebook. The European Parliament and the Council of the EU should reject it. The post AI Omnibus deal: EU lawmakers sh",
+      "title": "IMY blir marknadskontrollmyndighet för AI-förordningen",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/imy-blir-marknadskontrollmyndighet-for-ai-forordningen/",
+      "date": "Mon, 15 Jun 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Regeringen har beslutat att ge Integritetsskyddsmyndigheten (IMY) ett nytt uppdrag som marknadskontrollmyndighet för EU:s AI-förordning. Beslutet innebär att IMY får en central roll i att säkerställa att AI används på ett säkert, lagligt och etiskt sätt i Sverige.",
       "analysis": {
         "relevans": "hög",
-        "tema": "AI",
-        "sammanfattning": "EU:s institutioner har nått en överenskommelse om så kallat 'AI Omnibus', som ska förenkla den tekniska implementeringen av AI-lagen (AI Act). I praktiken innebär detta att viktiga skyddsföreskrifter fördröjs, transparensen minskas och ett farligt prejudikat skapas för EU:s digitala regelverk. Europaparlamentet och EU:s råd uppmanas att avvisa denna kompromiss. Det handlar om en justering av den redan antagna AI-lagen.",
-        "tech_vinkel": "Kompromissen i 'AI Omnibus' skulle fördröja implementeringen av specifika skyddsåtgärder inom AI Act (EU:s AI-förordning), vilket direkt påverkar hur algoritmer och AI-system regleras och övervakas.",
-        "varfor_viktigt": "Om EU:s lagstiftare godkänner denna kompromiss riskerar man att undergräva syftet med AI Act (EU:s AI-förordning) – att skydda medborgarnas rättigheter och säkerhet i en tid av snabb teknikutveckling. Det skulle kunna leda till mindre transparens kring hur AI-system fungerar och vilka beslut de fattar, samt minskade möjligheter att hålla utvecklare ansvariga för skador som orsakas av deras system. Detta kan påverka allt från automatiserad rekrytering till bedrägeribekämpning.",
-        "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens, syftar till att reglera utveckling och användning av AI-system)",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Regeringen har beslutat att ge Integritetsskyddsmyndigheten (IMY) ett nytt uppdrag som marknadskontrollmyndighet för EU:s AI-förordning. Detta innebär att IMY kommer att ha en central roll i att säkerställa att AI används på ett säkert, lagligt och etiskt sätt i Sverige. Beslutet är en del av EU:s strävan att reglera AI och säkerställa att det används på ett ansvarsfullt sätt. IMY kommer att arbeta för att övervaka och kontrollera att företag och organisationer följer AI-förordningen.",
+        "tech_vinkel": "EU:s AI-förordning, som IMY nu kommer att övervaka, innehåller specifika krav på hur AI-system ska utvecklas och användas för att säkerställa säkerhet, laglighet och etik.",
+        "varfor_viktigt": "Detta beslut är viktigt eftersom det säkerställer att Sverige har en tydlig och effektiv reglering av AI. Det kommer att påverka företag och organisationer som utvecklar och använder AI-system, och det kommer att bidra till att skydda medborgarnas rättigheter och intressen. Beslutet är också en del av EU:s bredare strävan att reglera AI och säkerställa att det används på ett ansvarsfullt sätt.",
+        "eu_koppling": "AI Act (EU:s förordning om artificiell intelligens)",
         "keywords": [
           "AI",
-          "AI Act",
-          "algoritmer",
-          "transparens",
-          "reglering",
-          "Europaparlamentet",
-          "EU:s råd"
+          "Integritetsskyddsmyndigheten",
+          "EU:s AI-förordning"
         ],
         "arende": "AI Act",
-        "nasta_steg": "Europaparlamentet och EU:s råd måste nu rösta om att acceptera eller avvisa kompromissen.",
+        "nasta_steg": "IMY kommer att påbörja sitt arbete som marknadskontrollmyndighet för EU:s AI-förordning och kommer att samarbeta med andra myndigheter och organisationer för att säkerställa en effektiv reglering av AI.",
         "viktiga_datum": [
           {
-            "datum": "2026-05-07",
-            "beskrivning": "EU-institutionerna nådde en överenskommelse."
+            "datum": "2026-06-15",
+            "beskrivning": "Regeringen beslutade att ge IMY ett nytt uppdrag som marknadskontrollmyndighet för EU:s AI-förordning"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Top EU court upholds Google Android fine in landmark antitrust case",
+      "source": "Politico EU Tech",
+      "type": "Tech-policy-nyhet",
+      "url": "https://www.politico.eu/article/top-eu-court-upholds-google-android-fine-in-landmark-antitrust-case/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "date": "Thu, 02 Jul 2026",
+      "committee": "Politico Europe — tech-policy",
+      "summary": "The judgment strengthens Brussels’ hand as it increasingly relies on new digital competition rules to police Big Tech.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Sociala medier och plattformar",
+        "svensk_rubrik": "EU-domstol fastställer Google Android-böter",
+        "sammanfattning": "EU:s högsta domstol har fastställt en böter på 4,3 miljarder euro som Google ålagts för att ha missbrukat sin dominantposition på marknaden för Android-operativsystem. Domen är en seger för EU-kommissionen som har drivit fallet mot Google. Domen kan ha stor betydelse för hur tech-jättar som Google agerar på den europeiska marknaden. Det kan också påverka hur EU-kommissionen hanterar liknande fall i framtiden.",
+        "tech_vinkel": "Domen handlar specifikt om hur Google har använt sitt operativsystem Android för att främja sina egna tjänster och begränsa konkurrenter.",
+        "varfor_viktigt": "Domen är viktig eftersom den visar att EU-kommissionen är beredd att ta i med hårdhandskarna mot tech-jättar som missbrukar sin makt. Det kan också leda till att Google och andra tech-företag blir mer försiktiga med hur de agerar på den europeiska marknaden. Dessutom kan domen ha en stor inverkan på den digitala marknaden i Europa och hur den utvecklas i framtiden.",
+        "eu_koppling": "Domen är en del av EU-kommissionens arbete med att tillämpa EU:s konkurrensregler, särskilt artikel 102 i EUF-fördraget som förbjuder missbruk av en dominantposition på den inre marknaden.",
+        "keywords": [
+          "Google",
+          "Android",
+          "EU-kommissionen",
+          "konkurrensregler"
+        ],
+        "arende": "Google Android-böter",
+        "nasta_steg": "Google kan överklaga domen till EU-domstolens överinstans, men det är osäkert om de kommer att göra det.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-02",
+            "beskrivning": "EU-domstolens dom i målet mot Google Android-böter offentliggörs"
           }
         ]
       }
@@ -13956,129 +13984,67 @@
       }
     },
     {
-      "title": "Latest news - Committee on the Internal Market and Consumer Protection",
-      "source": "EU-parlamentet",
-      "type": "EP/Utskott",
-      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Wed, 01 Jul 2026",
-      "committee": "IMCO",
-      "summary": "Next meetings - Tuesday, 14 July   14:30-14:45 - ENVI-IMCO (Joint), SPAAK 3C50 15:00-15:15 - EMPL-IMCO (Joint), ANTALL 6Q2 15:15-17:30 - IMCO, ANTALL 6Q2     Agenda of Committee Meeting - 14 July 2026   Follow IMCO's Inquiry on Unsafe Online Products   Calendar of Committee Meetings    IMCO Timetables    List of Coordinators   Source :  © European Union, 2026 - EP",
-      "analysis": {
-        "relevans": "medel",
-        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
-        "varfor_viktigt": "Med tanke på den snabba utvecklingen inom AI och digitala tjänster är det avgörande att EU-kommissionen och parlamentet kontinuerligt granskar och anpassar lagstiftningen för att skydda konsumenter och säkerställa en rättvis konkurrens. Dessa möten kan indikera riktningen för framtida regleringar som påverkar hur vi interagerar med digitala plattformar.",
-        "eu_koppling": "Digitala marknader (DMA) och Digital Services Act (DSA) är relevanta, eftersom IMCO-utskottet ofta arbetar med dessa frågor.",
-        "keywords": [
-          "IMCO",
-          "digitala marknader",
-          "konsumentskydd",
-          "algoritmer",
-          "plattformar"
-        ],
-        "arende": "Digitala marknader",
-        "nasta_steg": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-04-15",
-            "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor."
-          },
-          {
-            "datum": "2026-04-16",
-            "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Highlights - The Terrible Ten Barriers to the Single Market  - Committee on the Internal Market and Consumer Protection",
-      "source": "EU-parlamentet",
-      "type": "EP/Utskott",
-      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260629CAN79163",
-      "date": "Mon, 29 Jun 2026",
-      "committee": "IMCO",
-      "summary": "On 25 June 2026, the Commission updated IMCO on progress in addressing the \"Terrible Ten\" barriers to the free movement of goods and services. The barriers have been broken down into practical problems with measurable indicators, with work progressing on services, the digital single market and business establishment. The Commission stressed that removing these barriers is a key priority for streng",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Plattformsreglering",
-        "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) har fått en uppdatering från EU-kommissionen om arbetet med att ta bort tio hinder för den fria rörligheten av varor och tjänster inom EU. Dessa hinder är nedbrutna till konkreta problem med mätbara resultat, och arbetet inkluderar områden som tjänster, den digitala enskilda marknaden och företagsregistrering. Kommissionen betonade att detta arbete är en viktig prioritet för att skapa en mer integrerad europeisk marknad.",
-        "tech_vinkel": "Dokumentet nämner specifikt arbete med 'den digitala enskilda marknaden', vilket antyder fokus på reglering och integration av digitala tjänster och plattformar inom EU, potentiellt relaterat till Digital Services Act (DSA) och Digital Markets Act (DMA).",
-        "varfor_viktigt": "Att ta bort hinder för den inre marknaden kan underlätta för företag att erbjuda sina tjänster över gränserna, vilket ökar konkurrensen och potentiellt sänker priserna för konsumenter. Fokus på den digitala enskilda marknaden är särskilt viktigt eftersom det påverkar hur stora plattformar fungerar och hur de hanterar data och innehåll.",
-        "eu_koppling": "Digital Services Act (DSA) – Lagen reglerar skyldigheter för onlineplattformar, inklusive sociala medier och marknadsplatser, för att säkerställa ett säkert och transparent digitalt utrymme.",
-        "keywords": [
-          "inre marknaden",
-          "digital enskild marknad",
-          "hinder",
-          "EU-kommissionen",
-          "IMCO"
-        ],
-        "arende": "Digitala Marknader",
-        "nasta_steg": "Det är troligt att IMCO kommer att fortsätta granska kommissionens framsteg och eventuellt föreslå ytterligare åtgärder för att ta bort hindren.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-25",
-            "beskrivning": "EU-kommissionen uppdaterade IMCO om framstegen."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Digital Decade 2026 - 5G Observatory Report",
+      "title": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report",
       "source": "EU-kommissionen",
       "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-5g-observatory-report",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-connectivity-coverage-europe-2025-report",
       "date": "Wed, 17 Jun 2026",
       "committee": "EU-kommissionen (digital-strategy)",
-      "summary": "Digital Decade 2026 - 5G Observatory Report \n  dumimar  \n  Wed, 06/17/2026 - 09:10 \n \n\n \n   \n        \n               \n                                     The 22nd edition of the European 5G Observatory report is the Commission’s key policy repository for data related to 5G and its evolution towards 6G. \n\n  \n               \n       \n                     \n             \n\n\n\n\n\n          \n    \n    \n                 \n      \n  \n       \n    \n     \n                             This report is prepared by a",
+      "summary": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report \n  dumimar  \n  Wed, 06/17/2026 - 09:10 \n \n\n \n   \n        \n               \n                                     Fibre to the Premises (FTTP) becomes Europe's most widespread fixed technology, while 5G signal nears universal reach as Member States advance towards the Digital Decade 2030 targets. \n\n  \n               \n       \n                     \n             \n\n\n\n\n\n          \n    \n    \n                 \n      \n  \n       \n    \n     \n ",
       "analysis": {
         "relevans": "hög",
         "tema": "Digital infrastruktur",
-        "sammanfattning": "EU-kommissionen har publicerat den 22:a upplagan av rapporten från European 5G Observatory. Rapporten samlar data om 5G-tekniken och dess utveckling mot 6G, och ska fungera som en viktig referens för EU:s digitalpolitik. Den ger en översikt över nuläget och framtida planer inom området. Syftet är att stödja EU:s strategi för den digitala eran.",
-        "tech_vinkel": "Rapporten fokuserar på utvecklingen av 5G-tekniken och dess övergång till 6G, vilket innebär en konkret teknisk analys av framtida mobilnätverk och relaterade standarder.",
-        "varfor_viktigt": "Denna rapport är viktig eftersom den ger en tydlig bild av hur EU ligger till när det gäller utbyggnad av 5G-nätverk och förberedelser för 6G. Det påverkar investeringsbeslut inom telekommunikationsindustrin, samt regeringars politik kring digital infrastruktur och framtida teknikutveckling. Rapporten kan också ligga till grund för nya regleringar och standarder.",
-        "eu_koppling": "Rapporten är kopplad till EU:s Digital Decade-strategi, som syftar till att modernisera Europas ekonomi och samhälle genom digitalisering.",
+        "sammanfattning": "EU-kommissionen har publicerat en rapport om anslutningsgraden i Europa under 2025, som en del av Digital Decade 2030. Rapporten visar att fiberanslutning via FTTP (Fiber to the Premises) nu är den mest utbredda fasta tekniken och att 5G-täckningen närmar sig universell nivå i EU:s medlemsländer.  Rapporten följer upp framstegen mot de mål som satts för det digitala decenniet, vilket syftar till att modernisera Europas ekonomi och samhälle genom digitalisering.",
+        "tech_vinkel": "Rapporten konstaterar en utbredning av FTTP-tekniken (Fiber to the Premises) som den dominerande fasta anslutningsmetoden samt nära universell 5G-täckning, vilket indikerar en betydande utveckling inom bredbandsinfrastruktur.",
+        "varfor_viktigt": "Utbyggnaden av snabbare och mer tillförlitlig internetuppkoppling är avgörande för att stödja digitala tjänster, distansarbete, utbildning och innovation i hela Europa. Denna rapport visar på framsteg mot målen för Digital Decade 2030, vilket kan påverka investeringar i infrastruktur och politiska beslut kring bredbandsuppkoppling.  Förbättrad anslutningsgrad är också en viktig faktor för att stödja andra digitala initiativ som AI-utveckling och uppkopplade fordon.",
+        "eu_koppling": "Digital Decade 2030 är ett strategiskt ramverk som syftar till att forma Europas digitala framtid. Rapporten kopplar direkt till målen inom detta ramverk, vilket kan påverka hur EU:s medlemsländer prioriterar och finansierar bredbandsprojekt.",
         "keywords": [
+          "Digital Decade",
+          "bredband",
           "5G",
-          "6G",
-          "digital strategi",
-          "telekommunikation",
-          "EU"
+          "FTTP",
+          "anslutningsgrad",
+          "digital infrastruktur"
         ],
         "arende": "Digital infrastruktur",
-        "nasta_steg": "Rapportens resultat kommer sannolikt att påverka framtida politiska beslut och investeringar inom digital infrastruktur i EU.",
+        "nasta_steg": "EU-kommissionen kommer sannolikt att använda rapportens resultat för att utvärdera framstegen och eventuellt justera strategier för att nå Digital Decade 2030-målen.",
         "viktiga_datum": [
           {
-            "datum": "2026-12-31",
-            "beskrivning": "Förväntad publicering av nästa rapport från European 5G Observatory."
+            "datum": "2030-12-31",
+            "beskrivning": "Slutdatum för Digital Decade 2030, då en omfattande utvärdering av framstegen kommer att genomföras."
           }
         ]
       }
     },
     {
-      "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
+      "title": "BEREC position papers on the Digital Networks Act proposal",
       "source": "BEREC",
       "type": "EU-byrå",
-      "url": "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing",
-      "date": "Mon, 25 May 2026",
+      "url": "https://www.berec.europa.eu/en/berec-position-papers-on-the-digital-networks-act-proposal",
+      "date": "Fri, 12 Jun 2026",
       "committee": "Telekom-reglerare",
-      "summary": "BEREC to present Digital Networks Act assessment at upcoming public debriefing yannick.stephan Mon, 25/05/2026 - 17:56 Latest News On 10 June 2026, BEREC will hold its public debriefing , where it will present its latest assessment of the Digital Networks Act (DNA) proposal. The event will also cover the outcomes of BEREC’s latest plenary meetings. It will take place in Brussels, Belgium, at the I",
+      "summary": "BEREC position papers on the Digital Networks Act proposal yannick.stephan Fri, 12/06/2026 - 15:59 Europe’s electronic communications framework is entering a pivotal phase of reform, with the proposed Digital Networks Act (DNA) set to update the regulatory framework for connectivity across the European Union (EU). BEREC has developed 19 thematic papers examining key elements of the proposal in gre",
       "analysis": {
-        "relevans": "hög",
+        "relevans": "medel",
         "tema": "Digital infrastruktur",
-        "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, ska presentera sin slutliga bedömning av förslaget till Digital Networks Act (DNA) vid en offentlig debriefing. Detta förslag handlar om reglering av digitala nätverk inom EU. BEREC:s bedömning kommer att presenteras den 10 juni 2026 i Bryssel. Detta är en viktig milstolpe i processen att skapa en gemensam ram för digitala nätverk inom EU.",
-        "tech_vinkel": "Digital Networks Act (DNA) är en specifik lagstiftning som reglerar digitala nätverk inom EU, vilket är en tydlig tech-vinkel i detta dokument.",
-        "varfor_viktigt": "Detta är viktigt eftersom Digital Networks Act kan ha en stor inverkan på hur digitala nätverk utvecklas och regleras inom EU. Det kan påverka telekommunikationsföretag, internetleverantörer och andra aktörer inom digitala nätverk. Tajmingen är viktig eftersom EU försöker skapa en gemensam ram för digitala nätverk för att främja innovation och konkurrens.",
-        "eu_koppling": "Digital Networks Act (DNA) är en EU-lagstiftning som syftar till att reglera digitala nätverk inom EU.",
+        "sammanfattning": "BEREC, EU:s byrå för telekom-reglerare, har publicerat en serie position papers om det föreslagna Digital Networks Act (DNA). DNA syftar till att uppdatera regelverket för anslutningar inom EU. Rapporterna analyserar viktiga delar av förslaget och kommer att påverka hur nätverk byggs ut och drivs i framtiden, vilket berör både telekombolag och konsumenter.",
+        "tech_vinkel": "Position papersen granskar specifika tekniska aspekter inom DNA-förslaget, inklusive regler kring 5G-nätverk, nätneutralitet och hur nya teknologier som edge computing ska integreras i den befintliga infrastrukturen.",
+        "varfor_viktigt": "DNA kommer att forma framtidens digitala infrastruktur i EU och påverka tillgången till snabba och pålitliga internetuppkopplingar. BERECs analyser är viktiga eftersom de kan leda till förändringar i hur telekombolag agerar och hur konsumenter upplever sina anslutningar, samt påverka konkurrensen inom branschen.",
+        "eu_koppling": "Digital Networks Act (DNA) – ett EU-initiativ som syftar till att modernisera regelverket för elektronisk kommunikation och anslutning i EU.",
         "keywords": [
-          "Digital Networks Act",
           "BEREC",
-          "EU"
+          "Digital Networks Act",
+          "DNA",
+          "telekommunikation",
+          "nätneutralitet",
+          "5G"
         ],
         "arende": "Digitala Nätverkslagen",
-        "nasta_steg": "BEREC kommer att presentera sin slutliga bedömning av förslaget till Digital Networks Act vid en offentlig debriefing den 10 juni 2026.",
+        "nasta_steg": "EU-parlamentet och rådet kommer nu att överväga BERECs position papers i sina förhandlingar om DNA.",
         "viktiga_datum": [
           {
-            "datum": "2026-06-10",
-            "beskrivning": "BEREC presenterar sin slutliga bedömning av förslaget till Digital Networks Act"
+            "datum": "null",
+            "beskrivning": "null"
           }
         ]
       }
@@ -14092,7 +14058,7 @@
       "committee": "EU:s polisbyrå",
       "summary": "Europol together with partners from across the globe today announces a landmark blow to cybercriminal networks as part of Operation Endgame, a sweeping international operation targeting the criminal infrastructure behind ransomware and malware like SocGholish, Amadey, and StealC. In coordinated actions over the past two weeks, key components of these malicious toolkits were dismantled as part of a",
       "analysis": {
-        "relevans": "hög",
+        "relevans": "medel",
         "tema": "Cybersäkerhet",
         "sammanfattning": "Europol har tillsammans med internationella partners genomfört en stor operation, Operation Endgame, som syftar till att slå mot cyberkriminalitet. Genom samordnade insatser under de senaste två veckorna har viktiga delar av verktygslådor för skadlig programvara som SocGholish, Amadey och StealC tagits bort. Operationen riktar sig specifikt mot den kriminella infrastruktur som ligger bakom utpressningstrojaner (ransomware) och malware. Målet är att avsevärt störa cyberkriminellas verksamhet.",
         "tech_vinkel": "Operationen fokuserar på att demontera specifika verktygslådor för skadlig programvara, vilket innebär en direkt attack mot den tekniska infrastruktur som används för cyberbrott.",
@@ -14110,37 +14076,38 @@
         ],
         "arende": "Cybersolidaritetsakten",
         "nasta_steg": "Det är troligt att Europol och dess partners kommer att fortsätta liknande operationer för att identifiera och störa cyberkriminella nätverk.",
-        "viktiga_datum": []
+        "viktiga_datum": [],
+        "_manually_set": true
       }
     },
     {
-      "title": "EUSPA Annual Activity Report 2025",
+      "title": "EUSPA Annual Activity Report 2024",
       "source": "EUSPA",
       "type": "EU-byrå",
-      "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-activity-report-2025",
+      "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-activity-report-2024",
       "date": "Tue, 30 Jun 2026",
       "committee": "Europeiska rymdbyrån",
       "summary": "",
       "analysis": {
         "relevans": "medel",
         "tema": "Digital infrastruktur",
-        "sammanfattning": "EUSPA:s årsrapport för 2025 sammanfattar byråns aktiviteter under året. Rapporten beskriver framstegen inom Galileo-programmet, som är EU:s satellitnavigationssystem, samt andra rymdrelaterade tjänster och program. Den belyser även utmaningar och möjligheter för framtida utveckling av rymdbaserad infrastruktur. Rapporten riktar sig till EU-institutioner, medlemsländer och intressenter inom rymdindustrin.",
-        "tech_vinkel": "Rapporten beskriver konkreta förbättringar i Galileo-systemets precision och säkerhet genom uppdateringar av satelliternas mjukvara och marksegmentens infrastruktur, vilket är en direkt teknisk utveckling.",
-        "varfor_viktigt": "Galileo-programmet är avgörande för EU:s digitala infrastruktur och ekonomiska konkurrenskraft, då det möjliggör exakt positionering för allt från transport till jordbruk. Förbättringar i systemets precision och säkerhet påverkar direkt användare av navigationssystem inom Europa och globalt. Rapporten visar på framsteg som är viktiga för att upprätthålla EU:s självständighet inom rymdteknik.",
-        "eu_koppling": "Galileo-programmet är en del av EU:s strategiska autonomi och bygger på direktiv och beslut från EU-kommissionen och Europaparlamentet, vilket syftar till att skapa ett oberoende europeiskt satellitnavigationssystem.",
+        "sammanfattning": "EUSPA:s årsrapport för 2024 sammanfattar Europeiska rymdbyrån EUSPAs aktiviteter under året. Rapporten beskriver framsteg inom Galileo-programmet, som är EU:s satellitnavigeringssystem, samt Copernicus-programmet för jordobservation. Den lyfter fram hur dessa system bidrar till en mängd tjänster, från transport och landbruk till miljöövervakning och säkerhet. Rapporten ger också en överblick över EUSPAs arbete med att skydda rymdinfrastrukturen mot störningar och cyberattacker.",
+        "tech_vinkel": "Rapporten beskriver utvecklingen av Galileo-satelliternas signalstyrka och precision, vilket är avgörande för navigeringstekniken och kräver komplexa algoritmer och precisionsinstrument.",
+        "varfor_viktigt": "Galileo och Copernicus är kritiska delar av EU:s digitala infrastruktur som påverkar många sektorer. Förbättringar i dessa system leder till mer exakt navigering, bättre miljöövervakning och ökad säkerhet för medborgarna. Rapporten visar hur EU investerar i sin egen rymdteknik istället för att vara beroende av andra länders system.",
+        "eu_koppling": "Galileo-programmet är en del av EU:s rymdstrategi och faller under den allmänna lagstiftningen om rymdverksamhet, som syftar till att främja europeisk konkurrenskraft och oberoende inom rymdområdet.",
         "keywords": [
           "Galileo",
-          "satelliter",
-          "navigation",
-          "rymdteknik",
-          "digital infrastruktur"
+          "Copernicus",
+          "satellitnavigation",
+          "jordobservation",
+          "rymdprogram"
         ],
         "arende": "Galileo-programmet",
-        "nasta_steg": "EUSPA kommer att fortsätta implementera förbättringar baserat på de resultat som presenteras i årsrapporten och anpassa sig till framtida tekniska utmaningar.",
+        "nasta_steg": "EUSPA kommer att fortsätta att uppgradera Galileo-systemet och integrera nya tjänster baserat på feedback från användarna.",
         "viktiga_datum": [
           {
-            "datum": "2026-12-31",
-            "beskrivning": "Nästa årsrapport publiceras."
+            "datum": "2024-12-31",
+            "beskrivning": "Årsrapporten publiceras officiellt."
           }
         ]
       }
@@ -14186,7 +14153,7 @@
       "committee": "Utrikesdepartementet",
       "summary": "Sveriges utrikes underrättelsetjänst\n Regeringens proposition 2025/26:290\n Sveriges utrikes underrättelsetjänst\n Prop.\n 2025/26:290\n Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 18 juni 2026\n Ebba Busch\n Maria Malmer Stenergard (Utrikesdepartementet)\n Propositionens huvudsakliga innehåll\n I propositionen",
       "analysis": {
-        "relevans": "hög",
+        "relevans": "medel",
         "tema": "Cybersäkerhet",
         "sammanfattning": "Regeringen lämnar en proposition till riksdagen som handlar om Sveriges utrikes underrättelsetjänst. Propositionen syftar till att stärka tjänstens mandat och resurser för att möta växande säkerhetsutmaningar i utlandet. Den detaljerade innebörden av förändringarna framgår inte av sammanfattningen, men den indikerar en ökad satsning på underrättelseverksamhet. Detta kommer sannolikt att påverka hur Sverige hanterar internationella kriser och säkerhetsfrågor.",
         "tech_vinkel": "Propositionen rör Sveriges utrikes underrättelsetjänst, vilket implicerar användningen av digitala verktyg och tekniker för informationsinsamling, analys och kommunikation – inklusive potentiellt övervakningsteknik och krypteringslösningar.",
@@ -14205,7 +14172,8 @@
             "datum": "2026-07-18",
             "beskrivning": "Förväntat riksdagsdebatt om propositionen."
           }
-        ]
+        ],
+        "_manually_set": true
       }
     },
     {
@@ -14331,7 +14299,7 @@
       "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
       "summary": "Glasögon med inbyggd kamera och annan teknik, så kallade smarta glasögon, blir allt svårare att skilja från vanliga glasögon och tekniken blir allt mer avancerad. Samtidigt känner många människor inte till vilka regler som gäller. Integritetsskyddsmyndigheten (IMY) publicerar nu tio råd om vad man bör tänka på om man använder smarta glasögon.",
       "analysis": {
-        "relevans": "medel",
+        "relevans": "hög",
         "tema": "Dataskydd och integritet",
         "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har publicerat råd om hur man bör använda smarta glasögon med inbyggd kamera och annan teknik. Många människor är inte medvetna om vilka regler som gäller för dessa enheter. IMY:s råd syftar till att öka medvetenheten om dataskydd och integritet när det gäller smarta glasögon. Råden omfattar tio punkter som man bör tänka på när man använder dessa enheter.",
         "tech_vinkel": "IMY ger råd om hur man bör hantera insamling och lagring av personuppgifter med hjälp av smarta glasögon, vilket är en specifik teknikfråga relaterad till dataskydd.",
@@ -14345,7 +14313,8 @@
         ],
         "arende": null,
         "nasta_steg": null,
-        "viktiga_datum": []
+        "viktiga_datum": [],
+        "_manually_set": true
       }
     },
     {
@@ -14357,7 +14326,7 @@
       "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
       "summary": "Integritetsskyddsmyndigheten (IMY) har fokus på tre områden i sin vägledning och tillsyn under 2026. Områdena är brottsbekämpning, barn och unga samt AI i offentlig sektor.",
       "analysis": {
-        "relevans": "medel",
+        "relevans": "hög",
         "tema": "Dataskydd och integritet",
         "sammanfattning": "Integritetsskyddsmyndigheten (IMY) presenterar sina prioriteringar för 2026, med fokus på tre områden: brottsbekämpning, barn och unga samt AI i offentlig sektor. Detta innebär att myndigheten kommer att lägga extra resurser på att övervaka och styra dessa områden under året. IMY:s prioriteringar syftar till att säkerställa att personuppgifter hanteras på ett säkert och ansvarsfullt sätt. Myndighetens fokus på AI i offentlig sektor är särskilt intressant, eftersom det kan ha stor inverkan på hur myndigheter och offentliga organisationer använder sig av artificiell intelligens.",
         "tech_vinkel": "IMY:s prioritering av AI i offentlig sektor är en tydlig tech-vinkel, eftersom det handlar om hur myndigheter och offentliga organisationer använder sig av artificiell intelligens för att förbättra sina tjänster och processer.",
@@ -14370,7 +14339,8 @@
         ],
         "arende": "null",
         "nasta_steg": "null",
-        "viktiga_datum": []
+        "viktiga_datum": [],
+        "_manually_set": true
       }
     },
     {
@@ -14425,70 +14395,6 @@
         "arende": "null",
         "nasta_steg": "IMY kommer att genomföra projektet tillsammans med CanaryBit, Volvokoncernen och Ericsson, men nästa steg är inte specificerat.",
         "viktiga_datum": []
-      }
-    },
-    {
-      "title": "Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska",
-      "source": "Riksdagen",
-      "type": "Riksdagen/PROP",
-      "url": "https://data.riksdagen.se/dokument/HD03280.html",
-      "date": "2026-06-09",
-      "committee": "Socialdepartementet",
-      "summary": "Regeringens skrivelse  2025/26:280  Riksrevisionens rapport om handläggning av  Skr.  ärenden där den enskilde inte behärskar svenska  2025/26:280  Regeringen överlämnar denna skrivelse till riksdagen.\n Stockholm den 4 juni 2026\n Ulf Kristersson\n Anna Tenje (Socialdepartementet)\n Skrivelsens huvudsakliga innehåll\n I skrivelsen",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Övrigt tech",
-        "sammanfattning": "Regeringen överlämnar en skrivelse till riksdagen som sammanfattar Riksrevisionens rapport om hur myndigheter hanterar ärenden där den enskilde inte behärskar svenska. Rapporten granskar hur tolkar och översättare används, samt kvaliteten på kommunikationen med personer som inte kan svenska. Skrivelsen syftar till att informera riksdagen om Riksrevisionens slutsatser och eventuella åtgärder som bör vidtas för att förbättra processerna. Detta påverkar primärt myndigheter och de individer som behöver stöd i kommunikationen med dem.",
-        "tech_vinkel": "Rapporten kan implicera behovet av automatiserad översättning eller AI-drivna tolktjänster för att effektivisera handläggningen, även om detta inte uttryckligen nämns. Det finns en underliggande fråga om hur digital teknik kan användas för att förbättra tillgänglighet och kommunikation.",
-        "varfor_viktigt": "En bristfällig hantering av ärenden där språkbarriärer förekommer riskerar att leda till felaktiga beslut, långa handläggningstider och otillbörlig behandling. Förbättrade processer kan öka rättssäkerheten och minska risken för diskriminering. Rapporten lyfter fram behovet av att säkerställa att alla medborgare har möjlighet att förstå sina rättigheter och skyldigheter.",
-        "eu_koppling": "Ingen direkt koppling till EU-lagstiftning, men berör principer om icke-diskriminering som är en del av EU:s grundläggande värden och lagstiftning.",
-        "keywords": [
-          "Riksrevisionen",
-          "tolkar",
-          "översättning",
-          "språkbarriär",
-          "myndigheter"
-        ],
-        "arende": null,
-        "nasta_steg": "Riksdagen kommer att granska skrivelsen och eventuellt ta ställning till de åtgärder som föreslås.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-09",
-            "beskrivning": "Skrivelsen överlämnas till riksdagen."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Ny kärnkraft i Sverige– moderna regler för beredskap och skadeståndsansvar",
-      "source": "Riksdagen",
-      "type": "Riksdagen/SOU",
-      "url": "https://data.riksdagen.se/dokument/HEB340.html",
-      "date": "2026-06-18",
-      "committee": "",
-      "summary": "Ny kärnkraft i Sverige–moderna regler för beredskap och skadeståndsansvar\n Ny kärnkraft i Sverige\n moderna regler för beredskap och skadeståndsansvar\n Slutbetänkande av Kärnkraftsprövningsutredningen\n Stockholm 2026\n SOU 2026:40\n SOU och Ds finns på regeringen.se under Rättsliga dokument.\n Svara på remiss hur och varför\n",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Övrigt tech",
-        "sammanfattning": "Regeringen har gett Kärnkraftsprövningsutredningen i uppdrag att ta fram förslag på moderna regler för beredskap och skadeståndsansvar vid kärnkraftshändelser. Utredningen, som nu lämnar sitt slutbetänkande (SOU 2026:40), föreslår nya bestämmelser kring ansvar och skyldigheter i händelse av olyckor eller incidenter med kärnkraftverk. Rapporten är nu ute på remiss, vilket innebär att myndigheter och andra intressenter kan lämna synpunkter innan regeringen fattar beslut om hur förslagen ska implementeras. Syftet är att modernisera regelverket i takt med ny kärnkraftsteknik.",
-        "tech_vinkel": "Utredningen kommer sannolikt att behöva ta hänsyn till tekniska aspekter kring avancerad kärnkraft, såsom små modulära reaktorer (SMR) och deras säkerhetssystem, vilket kan innebära krav på nya övervaknings- och insamlingssystem.",
-        "varfor_viktigt": "De nya reglerna kommer att påverka kärnkraftsbolagens ansvar vid eventuella olyckor, samt hur staten hanterar potentiella skador. En tydligare reglering kan underlätta för investeringar i ny kärnkraft genom att minska osäkerheten kring ansvarsfrågor. Remissvaren kommer vara avgörande för att forma det slutgiltiga regelverket.",
-        "eu_koppling": "Ingen direkt koppling till EU-lagstiftning, men säkerhetsaspekter kan relatera till EU:s kärnsäkerhetsstandarder och krav på gränsöverskridande samarbete vid allvarliga incidenter.",
-        "keywords": [
-          "kärnkraft",
-          "beredskap",
-          "skadeståndsansvar",
-          "SOU",
-          "remiss"
-        ],
-        "arende": null,
-        "nasta_steg": "Remisstiden löper ut och regeringen analyserar sedan remissvaren innan beslut fattas om hur förslagen ska implementeras.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-07-18",
-            "beskrivning": "Remisstidens slut, då synpunkter lämnas in."
-          }
-        ]
       }
     },
     {
