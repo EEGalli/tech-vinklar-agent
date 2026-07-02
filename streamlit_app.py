@@ -472,7 +472,16 @@ with tab_live:
     # Ingen fil sparas till reports/. UX-ändringar (CSS/JS i html_report.py) syns
     # direkt vid nästa sidladdning.
     ROOT = Path(__file__).parent
-    from output.html_report import generate as _gen_html
+    import importlib
+    import inspect
+    import output.html_report as _hr
+    # Streamlit Cloud kan re-köra huvudskriptet men behålla en GAMMAL cachad version
+    # av importerade submoduler i sys.modules. Om den cachade generate() saknar
+    # read_only (dvs. modulen är äldre än pushen) → ladda om från disk. Annars
+    # kraschar hela Live-vyn med "unexpected keyword argument 'read_only'".
+    if "read_only" not in inspect.signature(_hr.generate).parameters:
+        _hr = importlib.reload(_hr)
+    _gen_html = _hr.generate
     import tempfile
 
     def _load_json(name: str) -> dict:
