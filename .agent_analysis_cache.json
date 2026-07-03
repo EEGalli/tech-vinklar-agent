@@ -182,96 +182,30 @@
     "title": "En mer enhetlig reglering av tillsyn och kontroll på miljöbalkens område, KN2026/01187",
     "cached_at": "2026-06-30"
   },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260601CAN78572": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentet, den europeiska ekonomiska och sociala kommittén och regionkommittén kommer att hålla ett gemensamt evenemang om EU:s inre marknad den 3 juni 2026. Evenemanget kommer att samla politiker, företag och representanter för det civila samhället för att diskutera hur man kan göra EU-marknaden starkare, rättvisare och mer konkurrenskraftig. Målet är att leverera praktiska fördelar för medborgarna. Evenemanget är en del av EU:s strävan att stärka den inre marknaden.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Evenemanget är viktigt eftersom det kan leda till förbättringar i EU:s inre marknad, vilket kan ha positiva effekter på den europeiska ekonomin och medborgarnas liv. Det kan också bidra till att stärka EU:s konkurrenskraft på den globala marknaden. Evenemanget kan också ge insikt i hur EU kan hantera utmaningar och möjligheter i den digitala eran.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EU:s inre marknad",
-        "digitalisering",
-        "konkurrenskraft"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-03",
-          "beskrivning": "EU-parlamentet, den europeiska ekonomiska och sociala kommittén och regionkommittén håller ett gemensamt evenemang om EU:s inre marknad"
-        }
-      ]
-    },
-    "title": "Highlights - One Europe, One Market: from strategy to delivery - Committee on the Internal Market and Consumer Protection",
-    "cached_at": "2026-06-02"
-  },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260114CNW20359": {
     "analysis": {
       "relevans": "låg",
       "tema": "Övrigt tech",
-      "sammanfattning": "Dokumentet är en samling nyhetsbrev från EU-parlamentets utskott för ekonomi och monetära frågor. Det innehåller en lista över datum och möten, men saknar specifik information om vad som diskuterades eller beslutades. Dokumentet ger en översikt över utskottets aktiviteter, men det är svårt att identifiera något specifikt ärende eller förslag.",
+      "svensk_rubrik": "ECON-utskottets nyhetsbrev",
+      "sammanfattning": "EU-parlamentets utskott för ekonomiska och monetära frågor, EU-parlamentet:s ekonomiutskott (ECON), har publicerat en samling nyhetsbrev från 2026. Dessa nyhetsbrev innehåller information om utskottets möten och diskussioner om olika ekonomiska och monetära ämnen. Innehållet verkar vara en samling av olika möten och diskussioner utan en tydlig fokus på specifika tech-ärenden. Det finns ingen tydlig koppling till specifika tech-frågor eller lagstiftningsärenden.",
       "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Det är svårt att se några konkreta konsekvenser av detta dokument, eftersom det inte innehåller någon specifik information om teknikutveckling eller lagstiftning. Dokumentet verkar vara en allmän översikt över utskottets aktiviteter, men det saknar djup och substans.",
+      "varfor_viktigt": "Detta dokument kan vara viktigt för dem som följer EU-parlamentets utskott för ekonomiska och monetära frågor, men det verkar inte ha någon direkt koppling till specifika tech-ärenden. Det kan vara en del av en större samling av information om utskottets verksamhet, men det saknar tydliga tech-relevanta aspekter. Det är möjligt att vissa av diskussionerna eller mötena som nämns i nyhetsbreven kan ha en indirekt koppling till tech-frågor, men detta är inte tydligt uttryckt.",
       "eu_koppling": "null",
       "keywords": [
-        "EU-parlamentet",
-        "ekonomi",
-        "monetära frågor"
+        "ECON-utskottet",
+        "EU-parlamentet"
       ],
       "arende": "null",
       "nasta_steg": "null",
       "viktiga_datum": []
     },
     "title": "Newsletters - 2026 - Committee on Economic and Monetary Affairs",
-    "cached_at": "2026-06-02"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260602CAN78600": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att diskutera effekterna av islamistisk extremism på det europeiska samhället. Diskussionen kommer att fokusera på hur EU hanterar utmaningar relaterade till detta ämne, särskilt i ljuset av den nya agendan för att förebygga och bekämpa terrorism. Detta är en allmän diskussion och inga specifika förslag eller lagändringar presenteras.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna diskussion är viktig eftersom den kan påverka hur EU hanterar terrorism och extremism i framtiden. Det kan också ha konsekvenser för medborgarnas säkerhet och frihet. EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) spelar en viktig roll i att forma EU:s politik inom detta område.",
-      "eu_koppling": "null",
-      "keywords": [
-        "islamistisk extremism",
-        "terrorism",
-        "EU:s säkerhetspolitik"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-08",
-          "beskrivning": "LIBE-kommittén håller en diskussion om effekterna av islamistisk extremism på det europeiska samhället"
-        }
-      ]
-    },
-    "title": "Highlights - Impact of Islamic extremism on the European way of life - Committee on Civil Liberties, Justice and Home Affairs",
-    "cached_at": "2026-06-02"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/success-stories/monitoring-biodiversity-space": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån har lanserat en webbaserad tjänst som använder Copernicus-data för att övervaka biodiversitet från rymden. Tjänsten syftar till att förbättra livsmiljön för fågelarter på jordbruksmark och optimera gröna åtgärder. Detta initiativ är en del av EU:s insatser för att skydda och bevara biologisk mångfald. Tjänsten kan bidra till att ge mer precisa mätningar och förbättra beslutsfattandet inom jordbruk och miljövård.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta initiativ kan ha betydande konsekvenser för jordbruk och miljövård i Europa. Genom att använda satellitdata kan man få en mer detaljerad förståelse av biodiversitet och hur den påverkas av mänsklig verksamhet. Detta kan leda till mer effektiva åtgärder för att skydda och bevara biologisk mångfald. Tajmingen spelar roll eftersom EU:s miljö- och klimatmål kräver snabba och effektiva åtgärder för att minska miljöpåverkan.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Copernicus",
-        "biodiversitet",
-        "jordbruk",
-        "miljövård"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Monitoring Biodiversity from Space",
-    "cached_at": "2026-06-02"
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Thu, 02 Jul 2026",
+    "committee": "ECON",
+    "summary": "2 July 2026   22-23 June 2026   3 June 2026   4-5 May 2026   14 April 2026   8-9 April 2026   24 March 2026   18-19 March 2026   25-26 February 2026   28-29 January 2026   15 January 2026   Source :  © European Union, 2026 - EP",
+    "cached_at": "2026-07-03"
   },
   "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-172026-draft-decision-dutch-supervisory_en": {
     "analysis": {
@@ -6481,5 +6415,697 @@
     "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
     "summary": "Integritetsskyddsmyndighet (IMY) har beslutat att inleda granskningar med anledning av IT-angreppet mot Miljödata och de personuppgifter som då läckte. Granskningarna gäller företaget Miljödata samt två kommuner och en region som använt företagets tjänster.",
     "cached_at": "2026-07-02"
+  },
+  "https://www.imy.se/nyheter/polisen-brister-i-sin-information-pa-arlanda/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Polisen brister i informationen på Arlanda",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har granskat hur polisen hanterar personuppgifter vid gränskontrollen på Arlanda flygplats. Myndigheten riktar kritik mot att polisen inte tillräckligt informerar resenärerna om hur deras personuppgifter används. Detta är ett problem eftersom resenärerna har rätt att veta hur deras personliga information hanteras. Polisens brister i informationen kan leda till att resenärerna inte kan utöva sina rättigheter enligt dataskyddslagstiftningen.",
+      "tech_vinkel": "Polisens hantering av personuppgifter vid gränskontrollen är en specifik tech-fråga som berörs av dataskyddsförordningen (GDPR), som kräver att personuppgifter hanteras på ett sätt som respekterar individens integritet.",
+      "varfor_viktigt": "Detta är viktigt eftersom det handlar om resenärernas rätt till integritet och dataskydd. Om polisen inte informerar resenärerna korrekt om hur deras personuppgifter används, kan det leda till en brist på förtroende för myndigheterna och en känsla av osäkerhet bland resenärerna. Dessutom kan det leda till rättsliga konsekvenser för polisen om de inte följer dataskyddslagstiftningen.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "integritet",
+        "personuppgifter"
+      ],
+      "arende": "Polismyndighetens personuppgiftsbehandling",
+      "nasta_steg": "Polismyndigheten kommer att behöva vidta åtgärder för att förbättra sin information till resenärerna och säkerställa att de följer dataskyddslagstiftningen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-03",
+          "beskrivning": "Polismyndighetens personuppgiftsbehandling: IMY publicerar kritik mot polisens brister i informationen på Arlanda"
+        }
+      ]
+    },
+    "title": "Polisen brister i sin information på Arlanda",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Fri, 03 Jul 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har granskat polisens hantering av personuppgifter vid gränskontrollen vid Arlanda flygplats och riktar kritik mot bristande information till resenärerna.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/personuppgiftsansvarigas-roll-med-anledning-av-miljodata-och-darknet/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Personuppgiftsansvariga och Darknet",
+      "sammanfattning": "Integritetsskyddsmyndigheten har fått många frågor om hur personuppgiftsansvariga ska hantera situationen efter it-angreppet mot Miljödata, där personuppgifter har publicerats på Darknet. Myndigheten ska ge vägledning om hur man ska hantera sådana situationer. Det handlar om att skydda personuppgifter och säkerställa att de inte hamnar i orätta händer. Personuppgiftsansvariga måste ha rutiner på plats för att hantera dataintrång och informera berörda personer.",
+      "tech_vinkel": "Dokumentet berör hanteringen av personuppgifter som har publicerats på Darknet efter it-angreppet mot Miljödata, vilket är en specifik teknikfråga som rör dataskydd och cybersäkerhet.",
+      "varfor_viktigt": "Det är viktigt att personuppgiftsansvariga har tydliga rutiner för att hantera dataintrång och skydda personuppgifter, eftersom det kan ha allvarliga konsekvenser för de personer vars uppgifter har publicerats. Det kan också påverka förtroendet för organisationer som hanterar personuppgifter. Integritetsskyddsmyndighetens vägledning kommer att vara viktig för att säkerställa att personuppgiftsansvariga följer lagstiftningen och skyddar personuppgifter på ett bra sätt.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning, som reglerar hur personuppgifter ska hanteras och skyddas)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "Darknet",
+        "personuppgiftsansvariga"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Integritetsskyddsmyndigheten kommer att ge vägledning till personuppgiftsansvariga om hur de ska hantera situationen efter it-angreppet mot Miljödata.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-09-17",
+          "beskrivning": "Personuppgiftsansvariga och Darknet: Integritetsskyddsmyndigheten mottar frågor om hantering av personuppgifter efter it-angrepp"
+        }
+      ]
+    },
+    "title": "Personuppgiftsansvarigas roll med anledning av Miljödata och Darknet",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 17 Sep 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten har mottagit många frågor kring hur personuppgiftsansvariga bör hantera utvecklingen efter it-angreppet mot Miljödata där personuppgifter har publicerats på Darknet.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-rapporterar-iakttagelser-om-ratten-till-radering-till-edpb/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Rätt till radering undersöks",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, har rapporterat sina iakttagelser om hur verksamheter hanterar rätten till radering av personuppgifter till den Europeiska dataskyddsstyrelsen, EDPB. Detta är en del av en samordnad åtgärd för att undersöka hur verksamheter efterlever GDPR (EU:s dataskyddsförordning) när det gäller rätten till radering. IMY:s rapport är en viktig del i arbetet med att säkerställa att personuppgifter hanteras på ett korrekt sätt. Detta arbete kan leda till förbättringar i hur verksamheter hanterar personuppgifter och därmed stärka skyddet för enskildas integritet.",
+      "tech_vinkel": "Rätten till radering av personuppgifter enligt GDPR (EU:s dataskyddsförordning) är den specifika tech-fråga som undersöks i denna rapport.",
+      "varfor_viktigt": "Detta är viktigt eftersom det handlar om skyddet för enskildas personuppgifter och integritet. Om verksamheter inte efterlever GDPR (EU:s dataskyddsförordning) kan det leda till allvarliga konsekvenser för de enskilda och för förtroendet för digitala tjänster. Arbetet med att undersöka och förbättra hanteringen av rätten till radering är därför en prioritet. Det kan också leda till att verksamheter måste anpassa sina system och processer för att bättre hantera personuppgifter, vilket kan innebära investeringar i ny teknik och utbildning av personal.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "GDPR",
+        "rätt till radering",
+        "dataskydd"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "EDPB kommer att analysera de insamlade iakttagelserna från alla deltagande länder och publicera en rapport med slutsatser och rekommendationer för förbättring.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-09-15",
+          "beskrivning": "IMY rapporterar iakttagelser om rätten till radering till EDPB"
+        }
+      ]
+    },
+    "title": "IMY rapporterar iakttagelser om rätten till radering till EDPB",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 15 Sep 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Den Europeiska dataskyddsstyrelsen, EDPB, inledde tidigare i år en samordnad åtgärd för att undersöka hur verksamheter hanterar rätten till radering, alltså begäranden från enskilda om att få sina personuppgifter raderade hos verksamheten. Nu rapporterar Integritetsskyddsmyndigheten (IMY) sina iakttagelser till EDPB.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/socialtjansten-far-hjalp-att-anvanda-ai-pa-sakert-satt/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "IMY: Vägledning för AI i socialtjänsten",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) startar ett vägledningsprojekt med socialförvaltningen i Kalmar kommun för att undersöka hur socialtjänsten kan använda AI på ett säkert sätt. Projektet syftar till att ge socialtjänsten verktyg för att hantera AI-baserade system på ett sätt som respekterar integritet och dataskydd. Resultatet från projektet ska kunna användas av socialtjänsten i hela landet. Målet är att öka säkerheten och effektiviteten i socialtjänstens användning av AI.",
+      "tech_vinkel": "Projektet fokuserar på att ge vägledning för säker användning av AI i socialtjänsten, med särskild hänsyn till dataskydd och integritet.",
+      "varfor_viktigt": "Detta projekt är viktigt eftersom det kan bidra till att öka förtroendet för AI-baserade system i socialtjänsten och säkerställa att dessa system används på ett sätt som respekterar människors integritet. Om AI används på ett säkert och ansvarsfullt sätt kan det också bidra till att förbättra effektiviteten och kvaliteten i socialtjänsten. Dessutom kan projektet bidra till att identifiera och hantera potentiella risker och utmaningar i samband med användningen av AI i socialtjänsten.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "AI",
+        "Integritetsskyddsmyndigheten",
+        "Dataskydd"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "IMY kommer att samarbeta med socialförvaltningen i Kalmar kommun för att genomföra projektet och utvärdera resultaten.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-08-26",
+          "beskrivning": "IMY startar vägledningsprojekt för AI i socialtjänsten"
+        }
+      ]
+    },
+    "title": "Socialtjänsten får hjälp att använda AI på säkert sätt",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 26 Aug 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Idag startar Integritetsskyddsmyndigheten (IMY) ett vägledningsprojekt med socialförvaltningen i Kalmar kommun. Tillsammans ska man undersöka hur socialtjänsten kan använda AI på ett säkert sätt och resultatet ska kunna komma till nytta på många håll i landet.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/edpb-antar-gemensamt-uttalande-efter-toppmote-i-helsingfors/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Enklare dataskydd",
+      "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har antagit ett uttalande efter ett toppmöte i Helsingfors. Uttalandet handlar om initiativ för att göra det enklare att följa dataskyddsförordningen. Detta kan påverka hur företag och organisationer hanterar personuppgifter. EDPB:s uttalande syftar till att förbättra dataskyddet i Europa.",
+      "tech_vinkel": "EDPB:s uttalande fokuserar på att underlätta efterlevnaden av dataskyddsförordningen, vilket innebär att det finns en tydlig tech-vinkel kring hantering och skydd av personuppgifter.",
+      "varfor_viktigt": "Detta uttalande är viktigt eftersom det kan leda till förbättringar i dataskyddet i Europa. Företag och organisationer som hanterar personuppgifter kommer att påverkas av detta uttalande. Det kan också leda till ökad transparens och ansvarstagande när det gäller dataskydd.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "EDPB"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "EDPB kommer att fortsätta att arbeta för att förbättra dataskyddet i Europa genom att ge vägledning och stöd till företag och organisationer.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-07-03",
+          "beskrivning": "GDPR-implementering: EDPB antar uttalande om enklare dataskydd"
+        }
+      ]
+    },
+    "title": "EDPB antar gemensamt uttalande efter toppmöte i Helsingfors",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 03 Jul 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Den Europeiska dataskyddsstyrelsen, EDPB, har efter ett toppmöte i veckan antagit ett uttalande kring initiativ för att göra det enklare att följa dataskyddsförordningen.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-granskar-ytterligare-tva-soktjanster-med-utgivningsbevis/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Granskning av söktjänster",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, har inlett en granskning av två söktjänstföretag som tillhandahåller personuppgifter om en stor del av Sveriges befolkning. Granskningen fokuserar på hur företagen hanterar personers begäran om att få sina uppgifter borttagna från söktjänsterna. Detta är en del av IMY:s arbete med att säkerställa att företag följer dataskyddslagstiftningen. IMY kommer att undersöka om företagen följer reglerna för dataskydd och om de tar tillräckliga åtgärder för att skydda personuppgifter.",
+      "tech_vinkel": "Granskningen fokuserar specifikt på hur söktjänstföretagen hanterar personuppgifter och efterlevnaden av dataskyddsförordningen, GDPR (EU:s dataskyddsförordning), när det gäller rätten till radering av personuppgifter.",
+      "varfor_viktigt": "Denna granskning är viktig eftersom den berör hur personuppgifter hanteras och skyddas i Sverige. Det handlar om att säkerställa att företag respekterar individernas rättigheter enligt dataskyddslagstiftningen. Om företagen inte följer reglerna kan det leda till allvarliga konsekvenser, såsom böter och skadat förtroende hos kunderna. Dessutom kan granskningen bidra till att förbättra dataskyddet i Sverige och säkerställa att företag tar ansvar för hanteringen av personuppgifter.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "IMY",
+        "Söktjänster"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att genomföra en detaljerad granskning av de utvalda söktjänstföretagen och därefter presentera sina slutsatser och eventuella rekommendationer.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-06-23",
+          "beskrivning": "IMY inleder granskning av söktjänstföretag"
+        }
+      ]
+    },
+    "title": "IMY granskar ytterligare två söktjänster med utgivningsbevis",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 23 Jun 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) inleder tillsyner av två söktjänstföretag som tillhandahåller personuppgifter om större delen av Sveriges befolkning. Det som granskas är företagens agerande när personer vill få sina uppgifter borttagna från söktjänsterna.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-samtalar-om-dataskydd-och-ai-i-almedalen/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY i Almedalen: Dataskydd och AI",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) deltar i Almedalen för att diskutera dataskydd och AI. Myndighetens generaldirektör Eric Leijonram medverkar i flera seminarier och rundabordssamtal. Diskussionerna kommer att fokusera på dataskydd, bakgrundskontroller och innovation inom AI. Detta är en möjlighet för IMY att lyfta viktiga frågor om dataskydd och AI i en offentlig miljö.",
+      "tech_vinkel": "IMY diskuterar dataskydd och bakgrundskontroller i relation till AI och innovation.",
+      "varfor_viktigt": "Detta är viktigt eftersom det handlar om att skydda människors personuppgifter och säkerställa att AI används på ett ansvarsfullt sätt. Diskussionerna i Almedalen kan bidra till att öka medvetenheten om vikten av dataskydd och AI-etik. Dessutom kan det leda till nya initiativ och samarbeten för att främja innovation och ansvarsfull användning av AI.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "AI",
+        "IMY",
+        "Almedalen"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att fortsätta att arbeta med frågor om dataskydd och AI, och det kan leda till nya initiativ och rekommendationer för att förbättra skyddet av personuppgifter.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-06-10",
+          "beskrivning": "IMY i Almedalen: Dataskydd och AI-diskussioner"
+        }
+      ]
+    },
+    "title": "IMY samtalar om dataskydd och AI i Almedalen",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 10 Jun 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) är på plats i Almedalen för att bland annat samtala om dataskydd och bakgrundskontroller, AI och innovation. IMY:s generaldirektör Eric Leijonram medverkar i flera seminarier och rundabordssamtal under veckan.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/inga-brister-vid-kamerabevakning-av-provtagningar/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Inga brister vid kamerabevakning av provtagningar",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har granskat kamerabevakningen vid en vårdinrättning där provtagning övervakas för att säkerställa att proven inte manipuleras. Granskningen visar inte på några brister i efterlevnaden av dataskyddslagstiftningen. Detta innebär att vårdinrättningen har följt reglerna för dataskydd och att patienternas personuppgifter har hanterats på ett korrekt sätt. Granskningen är en del av IMY:s arbete för att säkerställa att svenska myndigheter och organisationer följer dataskyddslagstiftningen.",
+      "tech_vinkel": "Granskningen fokuserar på kamerabevakningens efterlevnad av dataskyddslagstiftningen, vilket är en specifik teknikfråga som rör hantering av personuppgifter och övervakning.",
+      "varfor_viktigt": "Detta är viktigt eftersom det visar att svenska myndigheter och organisationer tar dataskydd på allvar och att de följer reglerna för att skydda patienternas personuppgifter. Det är också viktigt för att säkerställa att provtagningar och andra medicinska processer genomförs på ett korrekt och säkert sätt. Om dataskyddslagstiftningen inte följs kan det leda till allvarliga konsekvenser för patienterna och för samhället i stort.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR) som är en EU-lagstiftning som reglerar hantering av personuppgifter",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "kamerabevakning",
+        "IMY"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att fortsätta att granska och övervaka efterlevnaden av dataskyddslagstiftningen i svenska myndigheter och organisationer.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-05-27",
+          "beskrivning": "IMY publicerar granskningsresultat för kamerabevakning av provtagningar"
+        }
+      ]
+    },
+    "title": "Inga brister vid kamerabevakning av provtagningar",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 27 May 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har granskat kamerabevakningen vid en vårdinrättning där provtagning övervakas för att säkerställa att proven inte manipuleras. Granskningen visar inte på några brister i efterlevnaden av dataskyddslagstiftningen.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/sa-undviker-du-att-grannar-klagar-pa-din-kamerabevakning/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Övervakning och biometri",
+      "svensk_rubrik": "Kamerabevakning: IMY ger råd",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har mottagit över 500 klagomål om kamerabevakning förra året. Majoriteten av klagomålen rör privatpersoners bevakning, oftast mellan grannar. IMY ger nu råd om hur man kan undvika att grannar klagar på sin kamerabevakning. Det handlar om att vara medveten om var kamerorna placeras och att informera grannar om bevakningen.",
+      "tech_vinkel": "IMY ger råd om hur man kan konfigurera och placera kameror för att undvika att de kränker grannars integritet, vilket är en specifik teknikfråga relaterad till övervakning.",
+      "varfor_viktigt": "Det är viktigt att hantera kamerabevakning på ett ansvarsfullt sätt för att skydda människors integritet. Om kamerabevakning inte hanteras korrekt kan det leda till klagomål och eventuella rättsliga åtgärder. Dessutom kan det också påverka relationen mellan grannar och skapa en känsla av otrygghet.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR) som reglerar hur personuppgifter, inklusive bilder från kamerabevakning, ska hanteras",
+      "keywords": [
+        "kamerabevakning",
+        "integritet",
+        "GDPR"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Så undviker du att grannar klagar på din kamerabevakning",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 12 May 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Förra året tog Integritetsskyddsmyndigheten (IMY) emot drygt 500 klagomål om kamerabevakning. Antalet klagomål ökar för varje år och majoriteten av dem rör privatpersoners bevakning – oftast mellan grannar.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/eu-kommissionen-vill-infora-nya-lattnader-i-gdpr-for-sma-och-medelstora-foretag/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "GDPR: EU-kommissionen föreslår lättnader för småföretag",
+      "sammanfattning": "EU-kommissionen har rådfrågat Europeiska dataskyddsstyrelsen om ett förslag att införa ytterligare undantag från skyldigheten i GDPR (EU:s dataskyddsförordning) att föra förteckning över personuppgiftsbehandling. Detta förslag syftar till att underlätta för små och medelstora företag att följa GDPR. Företagen skulle inte längre behöva föra en detaljerad förteckning över all personuppgiftsbehandling, vilket kan minska deras administrativa bördor. Förslaget är ett led i EU-kommissionens arbete med att förenkla och förbättra tillämpningen av GDPR.",
+      "tech_vinkel": "Förslaget handlar specifikt om undantag från skyldigheten att föra förteckning över personuppgiftsbehandling enligt GDPR (EU:s dataskyddsförordning), vilket direkt berör hur företag hanterar och dokumenterar personuppgifter.",
+      "varfor_viktigt": "Detta förslag kan ha betydande konsekvenser för små och medelstora företag som hanterar personuppgifter, eftersom det kan minska deras administrativa kostnader och bördor. Det kan också påverka hur effektivt företagen kan skydda personuppgifter och följa GDPR (EU:s dataskyddsförordning). Dessutom kan förslaget bidra till att förbättra den allmänna dataskyddsmiljön inom EU.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "GDPR",
+        "Dataskydd",
+        "EU-kommissionen"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "EU-kommissionen kommer att överväga synpunkter från Europeiska dataskyddsstyrelsen och andra intressenter innan de fattar ett slutgiltigt beslut om förslaget.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-05-09",
+          "beskrivning": "GDPR-förslag: EU-kommissionen rådfrågar Europeiska dataskyddsstyrelsen om lättnader för småföretag"
+        }
+      ]
+    },
+    "title": "EU-kommissionen vill införa nya lättnader i GDPR för små och medelstora företag",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Fri, 09 May 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "EU-kommissionen har rådfrågat Europeiska dataskyddsstyrelsen, EDPB, om ett förslag att införa ytterligare undantag från skyldigheten i GDPR att föra förteckning över personuppgiftsbehandling.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-deltar-pa-arets-vitalis/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: AI i vården måste skydda personuppgifter",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) deltar på årets Vitalis och fokuserar på hur vård och omsorg kan dra nytta av AI samtidigt som de skyddar personuppgifter. Detta är en viktig fråga eftersom AI-innovationer inom vården ofta kräver tillgång till känsliga patientuppgifter. IMY:s seminarium syftar till att diskutera möjliga lösningar för att balansera nyttan av AI med behovet av dataskydd. Detta kan påverka hur vården och omsorgen använder AI i framtiden.",
+      "tech_vinkel": "IMY fokuserar på hur AI-teknik kan användas i vården samtidigt som personuppgifter skyddas enligt GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Detta är viktigt eftersom AI-innovationer inom vården kan förbättra patientvården men också utgöra en risk för dataskydd. Om vården och omsorgen inte kan skydda personuppgifter på ett tillfredsställande sätt kan det leda till allvarliga konsekvenser, såsom dataintrång och skadat förtroende för vården. IMY:s arbete för att främja ett balanserat tillvägagångssätt kan bidra till att säkerställa att AI-teknik används på ett ansvarsfullt sätt.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "AI",
+        "Dataskydd",
+        "GDPR",
+        "Vård och omsorg"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att fortsätta att arbeta med frågor om AI och dataskydd inom vården och omsorgen, och det kan förväntas att det kommer att ges ytterligare vägledning och riktlinjer för hur AI-teknik kan användas på ett säkert sätt.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-05-07",
+          "beskrivning": "IMY deltar på årets Vitalis och presenterar sitt arbete med AI och dataskydd inom vården och omsorgen."
+        }
+      ]
+    },
+    "title": "IMY deltar på årets Vitalis",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 07 May 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Hur kan vård och omsorg dra nytta av AI och samtidigt skydda de personuppgifter som behandlas? Det är fokus för Integritetsskyddsmyndighetens (IMY) seminarium på årets Vitalis.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/delta-pa-imys-webbinarier-om-generativ-ai-och-ai-forordningen/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "IMY: Webbinarier om generativ AI och AI-förordningen",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) anordnar webbinarier om AI under våren. Dessa webbinarier syftar till att öka kunskapen om AI-förordningen och hur generativ AI kan användas i enlighet med GDPR (EU:s dataskyddsförordning). Detta är en möjlighet för deltagare att lära sig mer om de senaste utvecklingarna inom AI och dess tillämpningar. IMY:s webbinarier är en del av deras arbete med att övervaka och styra användningen av personuppgifter och AI i Sverige.",
+      "tech_vinkel": "IMY:s webbinarier kommer att fokusera på hur generativ AI kan användas i enlighet med GDPR (EU:s dataskyddsförordning), vilket är en specifik och viktig tech-fråga.",
+      "varfor_viktigt": "Dessa webbinarier är viktiga eftersom de kan hjälpa deltagare att förstå de senaste utvecklingarna inom AI och dess tillämpningar, samt hur man kan använda AI på ett sätt som är förenligt med GDPR (EU:s dataskyddsförordning). Detta kan ha betydande konsekvenser för företag och organisationer som använder AI i sin verksamhet. Dessutom kan webbinarierna bidra till att öka medvetenheten om vikten av dataskydd och integritet i samband med AI-användning.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "AI",
+        "GDPR",
+        "Integritetsskyddsmyndigheten"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "IMY kommer att genomföra webbinarierna under våren, och deltagare kan anmäla sig för att delta.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-05-06",
+          "beskrivning": "IMY:s webbinarier om generativ AI och AI-förordningen inleds"
+        }
+      ]
+    },
+    "title": "Delta på IMY:s webbinarier om generativ AI och AI-förordningen",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 06 May 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Under våren genomför Integritetsskyddsmyndigheten (IMY) två webbinarier om AI. Passa på att öka dina kunskaper om AI-förordningen och hur generativ AI kan användas enligt GDPR.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-riktar-kritik-mot-foretags-kakbanners/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Kritik mot företags kakbanners",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har granskat hur tre företag använder kakbanner och riktar kritik mot dem. Kritiken gäller hur företagen hanterar samtycke och informerar användare om kakor. IMY menar att företagen inte följer dataskyddsförordningen (GDPR) tillräckligt väl. Detta är ett exempel på hur myndigheten arbetar för att säkerställa att företag respekterar användarnas integritet på nätet.",
+      "tech_vinkel": "IMY har funnit att företagen inte tillhandahåller tillräcklig information om kakor och inte heller samlar in giltigt samtycke från användare, vilket strider mot bestämmelserna i dataskyddsförordningen (GDPR).",
+      "varfor_viktigt": "Detta är viktigt eftersom det visar på vikten av att företag tar användarnas integritet på allvar och följer gällande lagstiftning. Om företag inte följer reglerna kan de få böter och skadliga konsekvenser för sin verksamhet. Dessutom är det viktigt för användarna att känna till hur deras personuppgifter hanteras och att de har kontroll över sin egen integritet.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "kakbanners",
+        "integritet"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Företagen kommer att behöva vidta åtgärder för att komma i överensstämmelse med dataskyddsförordningen och IMY kommer att fortsätta att övervaka situationen.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-30",
+          "beskrivning": "IMY: Kritik mot företags kakbanners offentliggörs"
+        }
+      ]
+    },
+    "title": "IMY riktar kritik mot företags kakbanners",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 30 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har utrett klagomål som rör tre företags användning av kakbanner och riktar i samtliga tre fall kritik mot företagen.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-staller-fragor-till-20-verksamheter-om-ratten-till-radering/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Rätten till radering undersöks",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) undersöker hur 20 verksamheter i offentlig och privat sektor hanterar rätten till radering av personuppgifter. Detta sker genom ett frågeformulär som skickats ut till dessa verksamheter. Syftet är att granska om verksamheterna följer reglerna i GDPR (EU:s dataskyddsförordning) om rätten till radering. Detta är en del av IMY:s arbete med att säkerställa att personuppgifter hanteras på ett korrekt sätt i Sverige.",
+      "tech_vinkel": "IMY undersöker specifikt hur verksamheterna implementerar artikel 17 i GDPR (EU:s dataskyddsförordning), som handlar om rätten till radering av personuppgifter.",
+      "varfor_viktigt": "Detta är viktigt eftersom rätten till radering är en grundläggande rättighet för individer enligt GDPR (EU:s dataskyddsförordning). Om verksamheterna inte följer reglerna kan det leda till sanktioner och skadat förtroende för verksamheterna. Dessutom kan det påverka hur personuppgifter hanteras i Sverige och därmed påverka medborgarnas integritet.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "GDPR",
+        "rätten till radering",
+        "dataskydd"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "IMY kommer att analysera svaren från verksamheterna och vidta eventuella åtgärder för att säkerställa att de följer reglerna i GDPR.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-29",
+          "beskrivning": "IMY skickar ut frågeformulär till 20 verksamheter om rätten till radering"
+        }
+      ]
+    },
+    "title": "IMY ställer frågor till 20 verksamheter om rätten till radering",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 29 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) skickar nu ut ett frågeformulär till 20 verksamheter i offentlig och privat sektor med frågor som rör rätten till radering, alltså begäranden från enskilda att få sina personuppgifter raderade hos verksamheten.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-besoker-sveriges-blivande-ai-fabrik-i-linkoping/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "IMY: Sveriges AI-fabrik i Linköping",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) besöker Sveriges blivande AI-fabrik i Linköping. Syftet med besöket är att öka kunskapen om den forskning som pågår i Sverige. IMY:s generaldirektör, Eric Leijonram, kommer att göra tre AI-besök under våren. Linköpings universitet kommer att stå värd för en av Europas sju AI-fabriker.",
+      "tech_vinkel": "IMY undersöker den forskning som pågår vid Sveriges blivande AI-fabrik i Linköping, som kommer att vara en av Europas sju AI-fabriker.",
+      "varfor_viktigt": "Detta besök är viktigt eftersom det kan ge IMY en djupare förståelse för den forskning som pågår inom AI i Sverige. Det kan också bidra till att säkerställa att den nya AI-fabriken utvecklas med hänsyn till integritet och dataskydd. Dessutom kan besöket bidra till att stärka samarbetet mellan IMY och den akademiska världen.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "AI",
+        "Integritetsskyddsmyndigheten",
+        "IMY"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "IMY kommer att fortsätta att följa utvecklingen av AI-fabriken i Linköping och säkerställa att den utvecklas med hänsyn till integritet och dataskydd.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-28",
+          "beskrivning": "IMY besöker Sveriges blivande AI-fabrik i Linköping"
+        }
+      ]
+    },
+    "title": "IMY besöker Sveriges blivande AI-fabrik i Linköping",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 28 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Under våren gör Eric Leijonram, Integritetsskyddsmyndighetens (IMY) generaldirektör tre AI-besök med syftet att bland annat få ökad kunskap om den forskning som pågår i Sverige. Först ut är Linköpings universitet som bland annat kommer att stå värd för en av Europas sju AI-fabriker.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/sjukhusstyrelsen-har-brustit-i-sakerhetsatgarderna-vid-hanteringen-av-e-post/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Sjukhusstyrelsen brister i e-postsäkerhet",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har riktat kritik mot Sjukhusstyrelsen i Region Uppsala för att de inte har vidtagit tillräckliga säkerhetsåtgärder vid hanteringen av personuppgifter om hälsa i e-post. Detta är ett brott mot dataskyddsförordningen GDPR (EU:s dataskyddsförordning). Sjukhusstyrelsen måste nu vidta åtgärder för att förbättra säkerheten. Detta är ett viktigt steg för att skydda patienters personuppgifter.",
+      "tech_vinkel": "Sjukhusstyrelsen har inte använt tillräckliga säkerhetsåtgärder för att skydda personuppgifter i e-post, vilket är en kränkning av dataskyddsförordningen GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Detta är viktigt eftersom patienters personuppgifter är känsliga och måste skyddas. Om uppgifterna hamnar i fel händer kan det leda till allvarliga konsekvenser för patienterna. Det är därför viktigt att Sjukhusstyrelsen vidtar åtgärder för att förbättra säkerheten. Detta är också ett exempel på hur viktigt det är att följa dataskyddsförordningen GDPR (EU:s dataskyddsförordning).",
+      "eu_koppling": "Dataskyddsförordningen GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "e-postsäkerhet"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Sjukhusstyrelsen måste nu vidta åtgärder för att förbättra säkerheten och följa dataskyddsförordningen GDPR.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-25",
+          "beskrivning": "Sjukhusstyrelsen kritiserades av Integritetsskyddsmyndigheten för brister i e-postsäkerhet"
+        }
+      ]
+    },
+    "title": "Sjukhusstyrelsen har brustit i säkerhetsåtgärderna vid hanteringen av e-post",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Fri, 25 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) riktar kritik mot Sjukhusstyrelsen i Region Uppsala. Detta för att inte ha vidtagit tillräckliga säkerhetsåtgärder i samband med behandling av personuppgifter om bland annat hälsa i e-post.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/europeiska-dataskyddsstyrelsen-publicerar-sin-arsredovisning/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Europeiska dataskyddsstyrelsen: Årsredovisning",
+      "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har publicerat sin årsredovisning. I den presenteras EDPB:s strategiska inriktning fram till 2027 och intressanta ärenden från nationella dataskyddsmyndigheter. Årsredovisningen ger en överblick över EDPB:s arbete och prioriteringar inom dataskydd. Det är en viktig publikation för att förstå den europeiska dataskyddslagstiftningens utveckling och tillämpning.",
+      "tech_vinkel": "EDPB:s årsredovisning innehåller en specifik strategisk inriktning för dataskydd som sträcker sig fram till 2027, vilket ger en tydlig tech-vinkel på hur dataskyddsmyndigheterna kommer att arbeta med dataskydd under de kommande åren.",
+      "varfor_viktigt": "Den europeiska dataskyddsstyrelsens årsredovisning är viktig eftersom den ger insyn i hur dataskyddslagstiftningen tillämpas och utvecklas i Europa. Det påverkar alla som hanterar personuppgifter, från stora företag till mindre organisationer och enskilda individer. Årsredovisningen kan också ge ledtrådar om framtida utmaningar och möjligheter inom dataskydd, vilket är viktigt för att förstå den tekniska utvecklingen inom området.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "EDPB"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Förväntas att EDPB kommer att fortsätta arbeta med att implementera och utveckla dataskyddslagstiftningen i enlighet med sin strategiska inriktning.",
+      "viktiga_datum": [
+        {
+          "datum": "2027",
+          "beskrivning": "GDPR-implementering: EDPB:s strategiska inriktning sträcker sig fram till detta år"
+        }
+      ]
+    },
+    "title": "Europeiska dataskyddsstyrelsen publicerar sin årsredovisning",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 23 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Den Europeiska dataskyddsstyrelsen, EDPB, publicerar nu sin årsredovisning. Den tar bland annat upp EDPB:s strategiska inriktning som sträcker sig fram till 2027 men listar även intressanta ärenden från de olika nationella dataskyddsmyndigheterna.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/regeringen-vill-satsa-pa-imys-regulatoriska-sandlada/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY:s regulatoriska sandlåda",
+      "sammanfattning": "Regeringen har lämnat över vårbudgeten till riksdagen, där det föreslås att Integritetsskyddsmyndigheten (IMY) får ytterligare sex miljoner kronor i anslag. Detta anslag ska användas för att stärka myndighetens regulatoriska sandlåda. Detta innebär att IMY kommer att ha mer resurser för att övervaka och reglera hur företag och organisationer hanterar personuppgifter. Detta är en del av regeringens arbete för att stärka dataskyddet i Sverige.",
+      "tech_vinkel": "Regeringens förslag innehåller en specifik skrivning om att IMY ska använda anslaget för att stärka sin regulatoriska sandlåda, vilket är en teknisk aspekt av dataskyddet.",
+      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan leda till en ökad övervakning och reglering av hur företag och organisationer hanterar personuppgifter. Detta kan i sin tur leda till en ökad säkerhet för personuppgifter och en minskad risk för dataintrång. Dessutom kan detta förslag ha en positiv effekt på den svenska ekonomin, eftersom företag och organisationer som hanterar personuppgifter på ett säkert sätt kan få en konkurrensfördel.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "IMY"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Riksdagen kommer att behandla regeringens förslag och fatta ett beslut om anslaget till IMY.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-15",
+          "beskrivning": "IMY:s regulatoriska sandlåda: Regeringen lämnar över vårbudgeten till riksdagen"
+        }
+      ]
+    },
+    "title": "Regeringen vill satsa på IMY:s regulatoriska sandlåda",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 15 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Idag har regeringen lämnat över vårbudgeten till riksdagen. I den föreslås att Integritetsskyddsmyndigheten (IMY) får ytterligare sex miljoner kronor i anslag som ska användas för att stärka myndighetens regulatoriska sandlåda.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-godkanner-bindande-foretagsbestammelser-bcr-for-alfa-laval/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY godkänner bindande företagsbestämmelser för Alfa Laval",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har godkänt bindande företagsbestämmelser (BCR) för Alfa Laval. Detta innebär att Alfa Laval kan föra över personuppgifter till koncernbolag utanför EU med stöd av dessa bestämmelser. Beslutet är viktigt för företag som hanterar personuppgifter och verkar i flera länder. Det visar också hur IMY arbetar för att säkerställa att företag följer dataskyddsreglerna.",
+      "tech_vinkel": "IMY har godkänt bindande företagsbestämmelser (BCR) som möjliggör överföring av personuppgifter till koncernbolag utanför EU.",
+      "varfor_viktigt": "Detta beslut är viktigt för företag som hanterar personuppgifter och verkar i flera länder. Det visar hur IMY arbetar för att säkerställa att företag följer dataskyddsreglerna. Det kan också påverka hur företag väljer att hantera personuppgifter i framtiden. Dessutom kan det ha konsekvenser för hur personuppgifter skyddas och överförs mellan länder.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Bindande företagsbestämmelser",
+        "IMY"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Alfa Laval kommer att implementera de godkända bindande företagsbestämmelserna för att säkerställa att personuppgifter hanteras i enlighet med GDPR.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-09",
+          "beskrivning": "IMY godkänner bindande företagsbestämmelser för Alfa Laval"
+        }
+      ]
+    },
+    "title": "IMY godkänner bindande företagsbestämmelser (BCR) för Alfa Laval",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 09 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har godkänt bindande företagsbestämmelser (BCR) för Alfa Laval. Alfa Laval kan nu föra över personuppgifter till koncernbolag utanför EU med stöd av dessa.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-inleder-tillsyn-mot-tva-soktjanster/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Tillsyn mot söktjänster",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har inlett en tillsyn mot två söktjänster som publicerar uppgifter om lagöverträdelser. Syftet är att undersöka om det är lagligt att publicera sådana uppgifter i sökbara databaser. Detta är en del av IMY:s arbete med att säkerställa att personuppgifter hanteras i enlighet med dataskyddsförordningen (GDPR). Tillsynen kommer att granska om söktjänsterna följer reglerna för hantering av personuppgifter.",
+      "tech_vinkel": "Tillsynen kommer att fokusera på om söktjänsterna använder sig av lagliga metoder för att samla in och publicera uppgifter om lagöverträdelser, och om de följer kraven i dataskyddsförordningen (GDPR) när det gäller hantering av personuppgifter.",
+      "varfor_viktigt": "Denna tillsyn är viktig eftersom den kan ha betydande konsekvenser för hur personuppgifter hanteras på internet. Om söktjänsterna inte följer reglerna kan det leda till att personer som har begått lagöverträdelser inte kan få sina uppgifter raderade, vilket kan ha negativa konsekvenser för deras privatliv och integritet. Dessutom kan tillsynen bidra till att stärka skyddet för personuppgifter på internet och säkerställa att företag och organisationer följer dataskyddsförordningen.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "söktjänster",
+        "personuppgifter"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att genomföra en granskning av söktjänsterna och sedan fatta beslut om eventuella åtgärder.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-02",
+          "beskrivning": "IMY inleder tillsyn mot två söktjänster"
+        }
+      ]
+    },
+    "title": "IMY inleder tillsyn mot två söktjänster",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 02 Apr 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) inleder nu tillsyn mot två söktjänster med utgivningsbevis som publicerar uppgifter om lagöverträdelser. Detta för att undersöka om det är lagligt att publicera sådana uppgifter i sökbara databaser.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-vagleder-om-nya-kameraregler/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Nya kameraregler",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) inför nya kameraregler den 1 april. Dessa regler innebär att det inte längre krävs tillstånd från IMY för bevakning. IMY kommer istället att fokusera på att ge vägledning och har planerat ett webbinarium den 28 mars för att informera om de nya reglerna. Detta är en del av myndighetens arbete med att skydda integriteten och säkerställa att personuppgifter hanteras på ett korrekt sätt. De nya reglerna syftar till att underlätta för verksamheter som använder kamerabevakning samtidigt som de säkerställer att integriteten respekteras.",
+      "tech_vinkel": "De nya kameraregler som införs av IMY handlar specifikt om hur kamerabevakning ska hanteras i förhållande till dataskydd och integritet, vilket är en central tech-fråga.",
+      "varfor_viktigt": "De nya reglerna är viktiga eftersom de påverkar hur verksamheter som använder kamerabevakning ska hantera personuppgifter och säkerställa integritetsskydd. Detta kan ha betydande konsekvenser för företag och organisationer som använder kamerabevakning i sin verksamhet. Dessutom är det en del av det bredare arbetet med att implementera och följa EU:s dataskyddsförordning (GDPR), vilket är en central fråga inom tech och dataskydd.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "kameraregler",
+        "dataskydd",
+        "integritet",
+        "IMY"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "IMY kommer att fortsätta att ge vägledning och övervaka efterlevnaden av de nya reglerna, medan verksamheter som använder kamerabevakning måste anpassa sig till de nya kraven.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-04-01",
+          "beskrivning": "IMY: Nya kameraregler träder i kraft"
+        },
+        {
+          "datum": "2025-03-28",
+          "beskrivning": "IMY: Webbinarium om nya kameraregler"
+        }
+      ]
+    },
+    "title": "IMY vägleder om nya kameraregler",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 27 Mar 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Den 1 april införs nya kameraregler. De innebär att ingen längre behöver söka tillstånd hos Integritetsskyddsmyndigheten (IMY) för sin bevakning. IMY ökar sitt fokus på vägledning och bjuder in till webbinarium den 28 mars.",
+    "cached_at": "2026-07-03"
+  },
+  "https://www.imy.se/nyheter/imy-soker-nu-dataskyddsombud-till-vara-referensgrupper/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Söker dataskyddsombud",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, söker dataskyddsombud till sina referensgrupper för att bidra till myndighetens vägledningsarbete. Detta arbete fokuserar på att stödja organisationer i deras hantering av personuppgifter enligt GDPR (EU:s dataskyddsförordning). Referensgrupperna är indelade i en för privat verksamhet och en för offentlig verksamhet. Syftet är att samla experter som kan ge råd och bidra till utvecklingen av dataskydd inom olika sektorer.",
+      "tech_vinkel": "IMY:s sökande efter dataskyddsombud för att stärka implementeringen av GDPR (EU:s dataskyddsförordning) i olika verksamheter, särskilt inom privat och offentlig sektor.",
+      "varfor_viktigt": "Detta är viktigt eftersom det visar på en aktiv insats för att förbättra dataskyddet i Sverige. Genom att engagera dataskyddsombud från olika sektorer kan IMY samla in värdefull kunskap och erfarenhet för att ge bättre vägledning till organisationer. Detta kan i sin tur bidra till att stärka skyddet av personuppgifter och främja en hög nivå av dataskydd i enlighet med EU:s lagstiftning.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "IMY",
+        "dataskyddsombud"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "IMY kommer att utvärdera ansökningar och utse lämpliga kandidater till dataskyddsombudsrollerna för att stödja det fortsatta arbetet med dataskydd.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-03-20",
+          "beskrivning": "IMY: Sista ansökningsdag för dataskyddsombud"
+        }
+      ]
+    },
+    "title": "IMY söker nu dataskyddsombud till våra referensgrupper!",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 20 Mar 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "IMY har två referensgrupper med dataskyddsombud, en för privat verksamhet och en för offentlig verksamhet. Vi söker nu fler dataskyddsombud som är intresserade av att bidra till myndighetens vägledningsarbete.",
+    "cached_at": "2026-07-03"
   }
 }

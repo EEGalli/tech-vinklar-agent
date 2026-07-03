@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -370,7 +370,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -537,7 +537,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -625,11 +625,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Nästa steg i processen kommer att vara att AI-kommissionen överväger IMY:s yttrande och andra synpunkter innan de presenterar en reviderad version av färdplanen.",
+    "next_step": "IMY kommer att fortsätta att följa utvecklingen av AI-fabriken i Linköping och säkerställa att den utvecklas med hänsyn till integritet och dataskydd.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -679,6 +679,27 @@
         "url": "https://www.imy.se/nyheter/imy-yttrar-sig-over-ai-kommissionens-rapport-fardplan-for-sverige/",
         "source": "IMY",
         "tech_vinkel": "IMY yttrar sig specifikt över AI-kommissionens förslag om en färdplan för Sverige, vilket innehåller rekommendationer om hur AI ska utvecklas och implementeras i landet."
+      },
+      {
+        "title": "Socialtjänsten får hjälp att använda AI på säkert sätt",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/socialtjansten-far-hjalp-att-anvanda-ai-pa-sakert-satt/",
+        "source": "IMY",
+        "tech_vinkel": "Projektet fokuserar på att ge vägledning för säker användning av AI i socialtjänsten, med särskild hänsyn till dataskydd och integritet."
+      },
+      {
+        "title": "Delta på IMY:s webbinarier om generativ AI och AI-förordningen",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/delta-pa-imys-webbinarier-om-generativ-ai-och-ai-forordningen/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s webbinarier kommer att fokusera på hur generativ AI kan användas i enlighet med GDPR (EU:s dataskyddsförordning), vilket är en specifik och viktig tech-fråga."
+      },
+      {
+        "title": "IMY besöker Sveriges blivande AI-fabrik i Linköping",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/imy-besoker-sveriges-blivande-ai-fabrik-i-linkoping/",
+        "source": "IMY",
+        "tech_vinkel": "IMY undersöker den forskning som pågår vid Sveriges blivande AI-fabrik i Linköping, som kommer att vara en av Europas sju AI-fabriker."
       },
       {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
@@ -769,7 +790,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -808,7 +829,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -900,7 +921,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1023,7 +1044,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1168,7 +1189,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1303,7 +1324,7 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1513,6 +1534,62 @@
         "tech_vinkel": "EU-kommissionens förslag till förenkling av GDPR (EU:s dataskyddsförordning) innehåller specifika riktlinjer för hur företag ska hantera begäran om personuppgifter från tredje land."
       },
       {
+        "title": "IMY rapporterar iakttagelser om rätten till radering till EDPB",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/imy-rapporterar-iakttagelser-om-ratten-till-radering-till-edpb/",
+        "source": "IMY",
+        "tech_vinkel": "Rätten till radering av personuppgifter enligt GDPR (EU:s dataskyddsförordning) är den specifika tech-fråga som undersöks i denna rapport."
+      },
+      {
+        "title": "EDPB antar gemensamt uttalande efter toppmöte i Helsingfors",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/edpb-antar-gemensamt-uttalande-efter-toppmote-i-helsingfors/",
+        "source": "IMY",
+        "tech_vinkel": "EDPB:s uttalande fokuserar på att underlätta efterlevnaden av dataskyddsförordningen, vilket innebär att det finns en tydlig tech-vinkel kring hantering och skydd av personuppgifter."
+      },
+      {
+        "title": "EU-kommissionen vill införa nya lättnader i GDPR för små och medelstora företag",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/eu-kommissionen-vill-infora-nya-lattnader-i-gdpr-for-sma-och-medelstora-foretag/",
+        "source": "IMY",
+        "tech_vinkel": "Förslaget handlar specifikt om undantag från skyldigheten att föra förteckning över personuppgiftsbehandling enligt GDPR (EU:s dataskyddsförordning), vilket direkt berör hur företag hanterar och dokumenterar personuppgifter."
+      },
+      {
+        "title": "IMY riktar kritik mot företags kakbanners",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/imy-riktar-kritik-mot-foretags-kakbanners/",
+        "source": "IMY",
+        "tech_vinkel": "IMY har funnit att företagen inte tillhandahåller tillräcklig information om kakor och inte heller samlar in giltigt samtycke från användare, vilket strider mot bestämmelserna i dataskyddsförordningen (GDPR)."
+      },
+      {
+        "title": "IMY ställer frågor till 20 verksamheter om rätten till radering",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/imy-staller-fragor-till-20-verksamheter-om-ratten-till-radering/",
+        "source": "IMY",
+        "tech_vinkel": "IMY undersöker specifikt hur verksamheterna implementerar artikel 17 i GDPR (EU:s dataskyddsförordning), som handlar om rätten till radering av personuppgifter."
+      },
+      {
+        "title": "Europeiska dataskyddsstyrelsen publicerar sin årsredovisning",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/europeiska-dataskyddsstyrelsen-publicerar-sin-arsredovisning/",
+        "source": "IMY",
+        "tech_vinkel": "EDPB:s årsredovisning innehåller en specifik strategisk inriktning för dataskydd som sträcker sig fram till 2027, vilket ger en tydlig tech-vinkel på hur dataskyddsmyndigheterna kommer att arbeta med dataskydd under de kommande åren."
+      },
+      {
+        "title": "IMY godkänner bindande företagsbestämmelser (BCR) för Alfa Laval",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/imy-godkanner-bindande-foretagsbestammelser-bcr-for-alfa-laval/",
+        "source": "IMY",
+        "tech_vinkel": "IMY har godkänt bindande företagsbestämmelser (BCR) som möjliggör överföring av personuppgifter till koncernbolag utanför EU."
+      },
+      {
+        "title": "IMY söker nu dataskyddsombud till våra referensgrupper!",
+        "date": "2026-07-03",
+        "url": "https://www.imy.se/nyheter/imy-soker-nu-dataskyddsombud-till-vara-referensgrupper/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s sökande efter dataskyddsombud för att stärka implementeringen av GDPR (EU:s dataskyddsförordning) i olika verksamheter, särskilt inom privat och offentlig sektor."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1549,7 +1626,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1567,10 +1644,10 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-02",
+    "last_updated": "2026-07-03",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
+    "is_new_today": false,
+    "is_updated_today": true,
     "next_step": "Google kan överklaga domen till EU-domstolens överinstans, men det är osäkert om de kommer att göra det.",
     "documents": [
       {
