@@ -759,6 +759,12 @@
       "title": "Polisen brister i sin information på Arlanda",
       "url": "https://www.imy.se/nyheter/polisen-brister-i-sin-information-pa-arlanda/",
       "arende": "Polismyndighetens personuppgiftsbehandling"
+    },
+    {
+      "beskrivning": "Amerikansk dom påverkar överföringar till USA: EDPB-analys påbörjas",
+      "title": "Amerikansk dom kan påverka överföringar till USA",
+      "url": "https://www.imy.se/nyheter/amerikansk-dom-kan-paverka-overforingar-till-usa/",
+      "arende": "Dataskydd och integritet"
     }
   ],
   "2026-06-08": [
@@ -973,6 +979,22 @@
       "title": "EUSPA Annual Activity Report 2024",
       "url": "https://www.euspa.europa.eu/about/how-we-work/register-of-documents/euspa-annual-activity-report-2024",
       "arende": "Galileo-programmet"
+    }
+  ],
+  "2025-03-14": [
+    {
+      "beskrivning": "PNR-direktivet: EDPB antar uttalande om genomförande",
+      "title": "EDPB antar uttalande om genomförandet av PNR-direktivet",
+      "url": "https://www.imy.se/nyheter/edpb-antar-uttalande-om-genomforandet-av-pnr-direktivet/",
+      "arende": "PNR-direktivet"
+    }
+  ],
+  "2025-04-01": [
+    {
+      "beskrivning": "Kamerabevakningsregler: Nya regler träder i kraft",
+      "title": "Från 1 april gäller nya regler för verksamheter som kamerabevakar",
+      "url": "https://www.imy.se/nyheter/fran-1-april-galler-nya-regler-for-verksamheter-som-kamerabevakar/",
+      "arende": "Kamerabevakningsregler"
     }
   ]
 }
