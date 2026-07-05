@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -370,7 +370,7 @@
   "EU Chips Act": {
     "name": "EU Chips Act",
     "first_seen": "2026-04-15",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -537,7 +537,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -625,11 +625,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "IMY kommer att arbeta vidare med att utveckla och stärka sin vägledning och arbete med regulatorisk sandlåda för AI, i enlighet med förslagen i AI-kommissionens rapport.",
+    "next_step": "IMY kommer att genomföra projektet i samarbete med Lidingö stad och Atea Sverige, och resultaten kommer att utvärderas och rapporteras.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -723,6 +723,34 @@
         "tech_vinkel": "Förslaget om att utveckla och stärka IMY:s vägledning och arbete med regulatorisk sandlåda för AI är en tydlig tech-vinkel, eftersom det handlar om att skapa en ram för hur AI-teknik kan utvecklas och användas på ett sätt som respekterar den personliga integriteten."
       },
       {
+        "title": "Budgetsatsning på IMY:s sandlåda för AI i offentlig förvaltning",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/budgetsatsning-pa-imys-sandlada-for-ai-i-offentlig-forvaltning/",
+        "source": "IMY",
+        "tech_vinkel": "Förslaget innehåller en specifik satsning på Integritetsskyddsmyndighetens regulatoriska sandlåda för AI, som syftar till att underlätta för offentlig förvaltning att använda AI."
+      },
+      {
+        "title": "Nu lanseras nationella riktlinjer för användningen av generativ AI inom offentlig förvaltning",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/nu-lanseras-nationella-riktlinjer-for-anvandningen-av-generativ-ai-inom-offentlig-forvaltning/",
+        "source": "IMY",
+        "tech_vinkel": "Riktlinjerna fokuserar specifikt på användningen av generativ AI inom offentlig förvaltning, vilket inkluderar tekniker för att generera text, bilder och annan media."
+      },
+      {
+        "title": "Första delrapporten från pilotprojekt om AI-regulatorisk sandlåda publicerad",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/forsta-delrapporten-fran-pilotprojekt-om-ai-regulatorisk-sandlada-publicerad/",
+        "source": "IMY",
+        "tech_vinkel": "Delrapporten presenterar specifika förslag för hur AI-regulatoriska sandlådor kan implementeras i Sverige, inklusive riktlinjer för AI-utveckling och testning."
+      },
+      {
+        "title": "Generativ AI är i fokus i vårens regulatoriska sandlåda",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/generativ-ai-ar-i-fokus-i-varens-regulatoriska-sandlada/",
+        "source": "IMY",
+        "tech_vinkel": "Projektet fokuserar på att använda generativ artificiell intelligens för att skapa effektivare handläggningsprocesser."
+      },
+      {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
@@ -811,7 +839,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -850,7 +878,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -942,7 +970,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1065,7 +1093,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1210,7 +1238,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1345,11 +1373,11 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Företagen förväntas nu att implementera de rekommendationer som ges i guiden för att säkerställa att de följer GDPR.",
+    "next_step": "Avanza Bank AB kommer att behöva betala sanktionsavgiften och vidta åtgärder för att säkerställa att de följer dataskyddsförordningen i framtiden.",
     "documents": [
       {
         "title": "Gemensam mall på gång för anmälan av personuppgiftsincidenter",
@@ -1660,6 +1688,48 @@
         "tech_vinkel": "Certifieringsordningen Brand Compliance är en specifik teknisk lösning som godkänts av EDPB för att säkerställa dataskydd i enlighet med EU:s dataskyddsförordning."
       },
       {
+        "title": "Förlängning av adekvansbeslut för Storbritannien",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/forlangning-av-adekvansbeslut-for-storbritannien/",
+        "source": "IMY",
+        "tech_vinkel": "Förlängningen av adekvansbeslutet för Storbritannien handlar specifikt om tillämpningen av EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning), på internationella dataöverföringar."
+      },
+      {
+        "title": "Snabbguide om pseudonymisering",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/snabbguide-om-pseudonymisering/",
+        "source": "IMY",
+        "tech_vinkel": "Snabbguiden fokuserar på pseudonymisering som en specifik teknik för att skydda personuppgifter, vilket är en viktig tech-aspekt inom dataskydd och GDPR (EU:s dataskyddsförordning)."
+      },
+      {
+        "title": "IMY klar med ytterligare granskningar av Meta-pixeln",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/imy-klar-med-ytterligare-granskningar-av-meta-pixeln/",
+        "source": "IMY",
+        "tech_vinkel": "IMY har granskat Meta-pixeln, en teknik som används för att spåra och samla in personuppgifter på webbplatser, för att undersöka om den används i enlighet med dataskyddsförordningen (GDPR)."
+      },
+      {
+        "title": "IMY söker innovationsprojekt med GPDR-utmaningar",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/imy-soker-innovationsprojekt-med-gpdr-utmaningar/",
+        "source": "IMY",
+        "tech_vinkel": "Innovationsprojekten kommer att få vägledning i hur de kan hantera dataskydds- och integritetsfrågor i enlighet med GDPR (EU:s dataskyddsförordning)."
+      },
+      {
+        "title": "IMY och fyra banker i GDPR-projekt för minskad penningtvätt",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/imy-och-banker-i-gdpr-projekt-for-minskad-penningtvatt/",
+        "source": "IMY",
+        "tech_vinkel": "Projektet handlar om att använda datadelning och informationsutbyte mellan banker för att bekämpa penningtvätt och bedrägerier, vilket kräver en tydlig tillämpning av dataskyddsförordningen (GDPR) för att skydda personuppgifter."
+      },
+      {
+        "title": "Sanktionsavgift mot Avanza för överföring av personuppgifter till Meta",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-avanza-for-overforing-av-personuppgifter-till-meta/",
+        "source": "IMY",
+        "tech_vinkel": "Användningen av Meta-pixel på Avanzas webbplats och app har möjliggjort överföring av personuppgifter till Meta, vilket är en specifik teknikfråga som berör dataskydd och integritet."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1696,7 +1766,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1714,7 +1784,7 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1732,10 +1802,10 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
+    "is_new_today": false,
+    "is_updated_today": true,
     "next_step": "Medlemsstaterna förväntas följa EDPB:s uttalande och implementera PNR-direktivet i enlighet med GDPR, vilket kan kräva ändringar i nationell lagstiftning och praxis.",
     "documents": [
       {
@@ -1750,11 +1820,11 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
-    "next_step": "Integritetsskyddsmyndigheten (IMY) kommer att övervaka och säkerställa att de nya reglerna följs av berörda verksamheter.",
+    "is_new_today": false,
+    "is_updated_today": true,
+    "next_step": "Förslaget kommer att behandlas i den svenska riksdagen för beslut om huruvida reglerna för kamerabevakning ska ändras.",
     "documents": [
       {
         "title": "Från 1 april gäller nya regler för verksamheter som kamerabevakar",
@@ -1762,6 +1832,13 @@
         "url": "https://www.imy.se/nyheter/fran-1-april-galler-nya-regler-for-verksamheter-som-kamerabevakar/",
         "source": "IMY",
         "tech_vinkel": "De nya reglerna för kamerabevakning innehåller specifika krav på hur kameror ska användas och hur inspelad data ska hanteras, vilket direkt berör tekniska aspekter av övervakningssystem."
+      },
+      {
+        "title": "IMY yttrar sig över förslag till ändrade regler för kamerabevakning",
+        "date": "2026-07-05",
+        "url": "https://www.imy.se/nyheter/imy-yttrar-sig-over-forslag-till-andrade-regler-for-kamerabevakning/",
+        "source": "IMY",
+        "tech_vinkel": "Förslaget innehåller specifika bestämmelser om användningen av kamerabevakningsteknik, inklusive krav på dataskydd och säkerhet för inspelade uppgifter."
       }
     ]
   }

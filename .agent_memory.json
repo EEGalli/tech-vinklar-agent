@@ -1,475 +1,4 @@
 {
-  "2026-06-04": [
-    {
-      "title": "Latest news - Next Committee Meetings; 24 & 25 June 2026  - Committee on the Internal Market and Consumer Protection",
-      "source": "EU-parlamentet",
-      "type": "EP/Utskott",
-      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20251216CAL20682",
-      "date": "Thu, 04 Jun 2026",
-      "analysis": {
-        "relevans": "medel",
-        "tech_vinkel": "IMCO-utskottet behandlar möten som sannolikt berör reglering av digitala marknader och konsumentskydd, vilket kan påverka plattformars ansvar och algoritmers transparens.",
-        "varfor_viktigt": "Med tanke på den snabba utvecklingen inom AI och digitala tjänster är det avgörande att EU-kommissionen och parlamentet kontinuerligt granskar och anpassar lagstiftningen för att skydda konsumenter och säkerställa en rättvis konkurrens. Dessa möten kan indikera riktningen för framtida regleringar som påverkar hur vi interagerar med digitala plattformar.",
-        "eu_koppling": "Digitala marknader (DMA) och Digital Services Act (DSA) är relevanta, eftersom IMCO-utskottet ofta arbetar med dessa frågor.",
-        "keywords": [
-          "IMCO",
-          "digitala marknader",
-          "konsumentskydd",
-          "algoritmer",
-          "plattformar"
-        ],
-        "arende": "Digitala marknader",
-        "nasta_steg": "Utskottets möten kommer att fastställa detaljerna i eventuella ändringar eller nya förslag inom digitala marknader.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-04-15",
-            "beskrivning": "IMCO-utskottet har möte med agenda som kan inkludera digitala marknadsfrågor."
-          },
-          {
-            "datum": "2026-04-16",
-            "beskrivning": "IMCO-utskottet har ett andra möte med potentiellt relaterade punkter."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Proposal for the Cloud and AI Development Act (CADA)",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada",
-      "date": "Wed, 03 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "AI",
-        "sammanfattning": "EU-kommissionen har lagt fram ett förslag för Cloud and AI Development Act (CADA) med målet att stärka EU:s moln- och AI-ekosystem, investeringar och infrastruktur. Detta förslag syftar till att främja utvecklingen av molntjänster och artificiell intelligens inom EU. Kommissionen vill med detta förslag skapa en mer konkurrenskraftig och innovativ marknad för moln- och AI-tjänster. Detta kan påverka företag och organisationer som arbetar med moln- och AI-lösningar.",
-        "tech_vinkel": "Förslaget för Cloud and AI Development Act (CADA) innehåller specifika bestämmelser för att främja utvecklingen av molntjänster och artificiell intelligens inom EU, vilket är en tydlig tech-vinkel.",
-        "varfor_viktigt": "Detta förslag är viktigt eftersom det kan ha en stor inverkan på EU:s konkurrenskraft och innovationsförmåga inom områdena moln- och AI-tjänster. Det kan också påverka företag och organisationer som arbetar med moln- och AI-lösningar, samt bidra till att skapa nya jobb och möjligheter inom dessa områden. Tajmingen är viktig eftersom EU behöver hålla jämna steg med andra regioner i världen när det gäller utvecklingen av moln- och AI-tjänster.",
-        "eu_koppling": "AI Act (EU:s AI-förordning)",
-        "keywords": [
-          "Cloud and AI Development Act",
-          "CADA",
-          "molntjänster",
-          "artificiell intelligens"
-        ],
-        "arende": "Cloud and AI Development Act",
-        "nasta_steg": "Förslaget kommer att skickas till EU-parlamentet och rådet för ytterligare diskussion och beslut.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-01",
-            "beskrivning": "EU-kommissionen lade fram förslaget för Cloud and AI Development Act"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Commission proposes tech sovereignty package to strengthen Europe's digital autonomy and resilience",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-tech-sovereignty-package-strengthen-europes-digital-autonomy-and-resilience",
-      "date": "Wed, 03 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "EU-kommissionen presenterar ett paket för att stärka Europas digitala autonomi och motståndskraft. Detta paket innehåller åtgärder för att förbättra Europas kapacitet inom halvledare, artificiell intelligens (AI), molntjänster och öppen källkod. Målet är att öka Europas självständighet och konkurrenskraft inom den digitala sektorn. Detta paket är en del av EU-kommissionens digitala strategi för att främja en stark och innovativ digital ekonomi i Europa.",
-        "tech_vinkel": "Paketet innehåller specifika åtgärder för att stärka Europas kapacitet inom halvledare, artificiell intelligens (AI), molntjänster och öppen källkod, vilket är en tydlig tech-vinkel.",
-        "varfor_viktigt": "Detta paket är viktigt eftersom det kan bidra till att öka Europas självständighet och konkurrenskraft inom den digitala sektorn. Det kan också leda till skapandet av nya jobb och möjligheter för företag och innovatörer i Europa. Dessutom kan paketet bidra till att förbättra Europas motståndskraft mot digitala hot och utmaningar, såsom cybersäkerhetsattacker och dataintrång.",
-        "eu_koppling": "EU Chips Act (EU-satsningen på halvledartillverkning), som är en del av EU-kommissionens digitala strategi för att främja en stark och innovativ digital ekonomi i Europa.",
-        "keywords": [
-          "digital autonomi",
-          "motståndskraft",
-          "halvledare",
-          "artificiell intelligens",
-          "molntjänster",
-          "öppen källkod"
-        ],
-        "arende": "EU Chips Act",
-        "nasta_steg": "EU-kommissionen kommer att arbeta med medlemsstaterna och andra aktörer för att implementera paketet och säkerställa att målen uppnås.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-03",
-            "beskrivning": "EU-kommissionen presenterar det europeiska teknologiska suveränitetspaketet"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Communication on European Tech Sovereignty, accompanied by an EU Open Source Strategy",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy",
-      "date": "Wed, 03 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "EU-kommissionen presenterar ett paket för europeisk teknologisk suveränitet, vilket innebär en förändring i Europas tillvägagångssätt för sina tekniska ekosystem. Detta paket omfattar en strategi för öppen källkod inom EU. Kommissionen föreslår att Europa ska stärka sin teknologiska suveränitet genom att främja öppen källkod och andra initiativ. Detta förväntas påverka hur teknologi utvecklas och används i Europa.",
-        "tech_vinkel": "EU-kommissionen presenterar en specifik strategi för öppen källkod som en del av paketet för europeisk teknologisk suveränitet.",
-        "varfor_viktigt": "Denna förändring kan ha betydande konsekvenser för hur teknologi utvecklas och används i Europa. Det kan påverka allt från hur programvaror skapas till hur data hanteras. Dessutom kan det stärka Europas position i den globala teknologiska landskapsbilden. Tajmingen är viktig eftersom teknologin utvecklas snabbt och Europa behöver hänga med för att inte hamna på efterkälken.",
-        "eu_koppling": "Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) och Digital Markets Act (EU-lagen som reglerar stora plattformars marknadsmakt)",
-        "keywords": [
-          "teknologisk suveränitet",
-          "öppen källkod",
-          "EU-strategi"
-        ],
-        "arende": "European Tech Sovereignty Package",
-        "nasta_steg": "EU-kommissionen kommer att arbeta med medlemsstaterna och andra intressenter för att implementera paketet för europeisk teknologisk suveränitet.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-03",
-            "beskrivning": "EU-kommissionen presenterar paketet för europeisk teknologisk suveränitet"
-          }
-        ]
-      }
-    },
-    {
-      "title": "European Commission survey: AI in healthcare and pharmaceuticals",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Konsultation",
-      "url": "https://digital-strategy.ec.europa.eu/en/consultations/european-commission-survey-ai-healthcare-and-pharmaceuticals",
-      "date": "Wed, 03 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "AI",
-        "sammanfattning": "EU-kommissionen genomför en undersökning om användningen av artificiell intelligens (AI) inom hälso- och läkemedelssektorn. Syftet är att samla in synpunkter om fördelarna, möjliggörande faktorer och hinder för att anta AI-lösningar. Undersökningen är en del av EU-kommissionens digitala strategi och syftar till att förbättra användningen av AI inom dessa sektorer. Resultatet från undersökningen kommer att användas för att informera framtida politiska beslut och initiativ.",
-        "tech_vinkel": "Undersökningen fokuserar specifikt på användningen av AI inom hälso- och läkemedelssektorn, vilket är en tydlig tech-vinkel.",
-        "varfor_viktigt": "Denna undersökning är viktig eftersom den kan bidra till att förbättra användningen av AI inom hälso- och läkemedelssektorn, vilket i sin tur kan leda till förbättrad patientvård och hälsoutkomst. Resultatet från undersökningen kan också påverka framtida politiska beslut och initiativ inom området. Dessutom kan undersökningen bidra till att identifiera hinder och utmaningar som måste övervinnas för att AI ska kunna användas effektivt inom dessa sektorer.",
-        "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
-        "keywords": [
-          "AI",
-          "hälso- och läkemedelssektorn",
-          "EU-kommissionen"
-        ],
-        "arende": "AI Act",
-        "nasta_steg": "EU-kommissionen kommer att analysera resultaten från undersökningen och använda dem för att informera framtida politiska beslut och initiativ.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-26",
-            "beskrivning": "Sista datum för att svara på undersökningen"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
-      "source": "EU-kommissionen",
-      "type": "Digital Strategy — Nyhet",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
-      "date": "Thu, 28 May 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Plattformsreglering",
-        "sammanfattning": "EU-kommissionen har utfärdat en bot på 200 miljoner euro till företaget Temu för brott mot Digital Services Act (DSA). Detta är en av de första gångerna som kommissionen använt sig av DSA för att påföra en sådan bot. Beslutet visar på EU-kommissionens allvarliga inställning till att se till att företag följer de regler som finns för att skydda användare på internet. Temu har inte uppfyllt kraven enligt DSA, vilket har lett till denna betydande bot.",
-        "tech_vinkel": "Digital Services Act (DSA) är den specifika EU-lag som ligger till grund för boten mot Temu, vilken syftar till att reglera och säkerställa en säker och transparent online-miljö.",
-        "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU-kommissionen är beredd att använda sin makt för att säkerställa att företag följer de regler som finns för att skydda användare på internet. Det sänder också en tydlig signal till andra företag att de måste ta sina skyldigheter enligt DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) på allvar. Konsekvenserna av detta beslut kan bli att fler företag ser över sina processer och ser till att de följer de regler som finns, vilket i sin tur kan leda till en säkrare och mer transparent online-miljö.",
-        "eu_koppling": "Digital Services Act (DSA), som är en EU-lag som syftar till att reglera digitala tjänster och säkerställa en säker och transparent online-miljö",
-        "keywords": [
-          "Digital Services Act",
-          "DSA",
-          "EU-kommissionen",
-          "Temu",
-          "bot"
-        ],
-        "arende": "Digital Services Act",
-        "nasta_steg": "Temu kommer troligen att överklaga beslutet, men EU-kommissionen kommer att fortsätta att övervaka situationen och se till att företaget följer de regler som finns.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-28",
-            "beskrivning": "EU-kommissionen utfärdar bot på 200 miljoner euro till Temu"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Opinion 17/2026 on the draft decision of the Dutch Supervisory Authority regarding the Processor Binding Corporate Rules of the Infor Group",
-      "source": "EDPB",
-      "type": "EU-byrå",
-      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-172026-draft-decision-dutch-supervisory_en",
-      "date": "Tue, 02 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Dataskydd och integritet",
-        "sammanfattning": "Denna opinion från European Data Protection Board (EDPB) handlar om ett utkast till beslut från den nederländska tillsynsmyndigheten gällande Infor Group:s regler för behandling av personuppgifter inom företagsgruppen. Detta beslut berör hur Infor Group ska hantera personuppgifter i sina internationella överföringar. EDPB ger sin syn på huruvida Infor Group:s regler uppfyller kraven enligt EU:s dataskyddsförordning. Detta är viktigt för att säkerställa att personuppgifter skyddas när de överförs mellan olika länder.",
-        "tech_vinkel": "Dokumentet innehåller en specifik tech-vinkel genom att det diskuterar implementeringen av Binding Corporate Rules (BCR) för internationella dataöverföringar, vilket är en teknisk lösning för att säkerställa dataskydd i multinationella företag.",
-        "varfor_viktigt": "Detta är viktigt eftersom det påverkar hur företag som Infor Group hanterar personuppgifter i sina globala verksamheter. Det kan ha konsekvenser för företagets rykte och ekonomi om de inte följer dataskyddsförordningen. Dessutom kan det påverka hur EU:s dataskyddsförordning implementeras i praktiken och hur den påverkar företag som verkar inom EU.",
-        "eu_koppling": "General Data Protection Regulation (GDPR), som är EU:s dataskyddsförordning, som reglerar hur personuppgifter ska hanteras och skyddas inom EU.",
-        "keywords": [
-          "Dataskydd",
-          "Infor Group",
-          "Binding Corporate Rules",
-          "GDPR"
-        ],
-        "arende": "Dataskydd och integritet",
-        "nasta_steg": "Nästa steg i detta ärende är att den nederländska tillsynsmyndigheten ska ta ställning till EDPB:s opinion och fatta ett slutligt beslut om Infor Group:s regler för behandling av personuppgifter.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-02",
-            "beskrivning": "EDPB publicerar sin opinion om Infor Group:s regler för behandling av personuppgifter"
-          }
-        ]
-      }
-    },
-    {
-      "title": "En statlig e-legitimation",
-      "source": "Riksdagen",
-      "type": "Riksdagen/PROP",
-      "url": "https://data.riksdagen.se/dokument/HD03250.html",
-      "date": "2026-05-07",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "Regeringen föreslår en ny lag om statlig e-legitimation. Detta innebär att staten ska erbjuda en digital identitet som medborgare kan använda för att logga in på statliga och privata tjänster online. Syftet är att göra det enklare och säkrare för medborgare att identifiera sig digitalt och att minska beroendet av privata aktörer. Lagen kommer att påverka både medborgare och företag som erbjuder digitala tjänster.",
-        "tech_vinkel": "Propositionen föreslår en ny lagstiftning som reglerar och möjliggör en statlig e-legitimation, vilket är en specifik digital infrastruktur för identitetshantering och autentisering.",
-        "varfor_viktigt": "En statlig e-legitimation kan öka medborgarnas förtroende för digitala tjänster och minska risken för identitetsstöld. Det kan också underlätta för företag att erbjuda digitala tjänster och minska kostnaderna för identitetskontroll. En sådan lösning är central för att möjliggöra digitaliseringen av samhället och för att säkerställa att alla medborgare kan delta i den digitala ekonomin.",
-        "eu_koppling": "eIDAS (European Digital Identification Authentication and Trust Services) – EU-förordningen som fastställer ramarna för elektronisk identifiering och betrottjänster på EU-nivå. Den svenska lagen om statlig e-legitimation måste vara förenlig med eIDAS.",
-        "keywords": [
-          "e-legitimation",
-          "digital identitet",
-          "statlig identitet",
-          "digitalisering",
-          "eIDAS"
-        ],
-        "arende": "Digital infrastruktur",
-        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-07",
-            "beskrivning": "Riksdagen behandlar propositionen"
-          }
-        ]
-      }
-    },
-    {
-      "title": "BEREC to present Digital Networks Act assessment at upcoming public debriefing",
-      "source": "BEREC",
-      "type": "EU-byrå",
-      "url": "https://www.berec.europa.eu/en/news/latest-news/berec-to-present-digital-networks-act-assessment-at-upcoming-public-debriefing",
-      "date": "Mon, 25 May 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, ska presentera sin slutliga bedömning av förslaget till Digital Networks Act (DNA) vid en offentlig debriefing. Detta förslag handlar om reglering av digitala nätverk inom EU. BEREC:s bedömning kommer att presenteras den 10 juni 2026 i Bryssel. Detta är en viktig milstolpe i processen att skapa en gemensam ram för digitala nätverk inom EU.",
-        "tech_vinkel": "Digital Networks Act (DNA) är en specifik lagstiftning som reglerar digitala nätverk inom EU, vilket är en tydlig tech-vinkel i detta dokument.",
-        "varfor_viktigt": "Detta är viktigt eftersom Digital Networks Act kan ha en stor inverkan på hur digitala nätverk utvecklas och regleras inom EU. Det kan påverka telekommunikationsföretag, internetleverantörer och andra aktörer inom digitala nätverk. Tajmingen är viktig eftersom EU försöker skapa en gemensam ram för digitala nätverk för att främja innovation och konkurrens.",
-        "eu_koppling": "Digital Networks Act (DNA) är en EU-lagstiftning som syftar till att reglera digitala nätverk inom EU.",
-        "keywords": [
-          "Digital Networks Act",
-          "BEREC",
-          "EU"
-        ],
-        "arende": "Digitala Nätverkslagen",
-        "nasta_steg": "BEREC kommer att presentera sin slutliga bedömning av förslaget till Digital Networks Act vid en offentlig debriefing den 10 juni 2026.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-10",
-            "beskrivning": "BEREC presenterar sin slutliga bedömning av förslaget till Digital Networks Act"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Cybercriminal VPN used by ransomware actors dismantled in global crackdown",
-      "source": "Europol",
-      "type": "EU-byrå",
-      "url": "https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown",
-      "date": "",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Cybersäkerhet",
-        "sammanfattning": "EU:s polisbyrå, Europol, har medverkat i en global insats för att stänga ner en VPN-tjänst som användes av cyberkriminella, inklusive ransomware-aktörer. Tjänsten, kallad 'First VPN', erbjöd anonyma betalningar och dold infrastruktur för att underlätta kriminell verksamhet. Insatsen är en del av en större ansträngning för att bekämpa cyberbrott och skydda medborgare och företag från cyberhot.",
-        "tech_vinkel": "Europol har identifierat och stängt ner en specifik VPN-tjänst som användes av cyberkriminella för att utföra ransomware-attacker och andra former av cyberbrott.",
-        "varfor_viktigt": "Denna insats är viktig eftersom den visar på EU:s förmåga att samarbeta med internationella partners för att bekämpa cyberbrott. Det också visar på vikten av att ha effektiva verktyg och strategier för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster för att dölja sin verksamhet. Detta kan ha en positiv inverkan på medborgarnas och företagens säkerhet i hela EU.",
-        "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
-        "keywords": [
-          "Cyberkriminalitet",
-          "VPN",
-          "Ransomware",
-          "Europol"
-        ],
-        "arende": "Cybersäkerhetscenter",
-        "nasta_steg": "Europol och andra internationella partners kommer att fortsätta att samarbeta för att identifiera och stänga ner kriminella nätverk som använder sig av VPN-tjänster och andra former av cyberbrott.",
-        "viktiga_datum": [
-          {
-            "datum": "2024-01-01",
-            "beskrivning": "Europol meddelar att insatsen har varit framgångsrik och att flera kriminella nätverk har stängts ner"
-          }
-        ]
-      }
-    },
-    {
-      "title": "EBA E-mail alert 3 June, 2026",
-      "source": "EBA",
-      "type": "EU-byrå",
-      "url": "https://www.eba.europa.eu/node/19720",
-      "date": "Wed, 03 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Cybersäkerhet",
-        "sammanfattning": "Europeiska bankmyndigheten, EBA, har publicerat en rapport om stora IT-relaterade incidenter i enlighet med DORA (EU-förordningen om digital motståndskraft i finanssektorn), en EU-lagstiftning som syftar till att förbättra cybersäkerheten inom den finansiella sektorn. Rapporten är den första i sitt slag och syftar till att öka transparensen och förbättra hanteringen av IT-relaterade risker. Denna rapport är ett viktigt steg mot att förbättra cybersäkerheten inom EU. Den kommer att påverka banker och andra finansiella institutioner som måste anpassa sig till de nya kraven.",
-        "tech_vinkel": "Rapporten fokuserar specifikt på DORA (EU-förordningen om digital motståndskraft i finanssektorn), som är en EU-lagstiftning som kräver att kritiska verksamheter, inklusive banker, höjer sin cybersäkerhet och rapporterar om IT-relaterade incidenter.",
-        "varfor_viktigt": "Denna rapport är viktig eftersom den visar på EU:s engagemang för att förbättra cybersäkerheten inom den finansiella sektorn. Det kan ha betydande konsekvenser för banker och andra finansiella institutioner som måste investera i bättre cybersäkerhetslösningar för att skydda sig mot IT-relaterade hot. Dessutom kan rapporten bidra till att öka transparensen och förtroendet inom den finansiella sektorn.",
-        "eu_koppling": "DORA (Digital Operational Resilience Act)",
-        "keywords": [
-          "DORA",
-          "cybersäkerhet",
-          "IT-relaterade incidenter",
-          "EU-lagstiftning"
-        ],
-        "arende": "DORA-implementering",
-        "nasta_steg": "EBA kommer att fortsätta att övervaka och rapportera om IT-relaterade incidenter inom den finansiella sektorn, och banker och andra finansiella institutioner måste anpassa sig till de nya kraven.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-03",
-            "beskrivning": "Publiceringen av EBA:s rapport om DORA"
-          }
-        ]
-      }
-    },
-    {
-      "title": "STARGATE - System for Trusted And Reliable Galileo Authenticated Time Ecosystem",
-      "source": "EUSPA",
-      "type": "EU-byrå",
-      "url": "https://www.euspa.europa.eu/opportunities/fundamental-elements/project-portfolio/stargate-system-trusted-and-reliable-galileo",
-      "date": "Tue, 02 Jun 2026",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Digital infrastruktur",
-        "sammanfattning": "Europeiska rymdbyrån presenterar STARGATE, ett system för att skapa en pålitlig och säker tidsekosystem för Galileo. Detta system syftar till att förbättra säkerheten och tillförlitligheten för tidssignaler som används i olika tillämpningar. STARGATE är en del av Galileo-programmet, som är EU:s globala navigeringssystem. Detta system kommer att påverka olika sektorer som använder Galileo, såsom transport, jordbruk och telekommunikation.",
-        "tech_vinkel": "STARGATE-systemet använder avancerad kryptering och autentiseringsteknik för att skydda tidssignalerna från Galileo-satelliterna.",
-        "varfor_viktigt": "Detta system är viktigt eftersom det kommer att förbättra säkerheten och tillförlitligheten för Galileo-tidssignaler, vilket är kritiskt för många tillämpningar. En förbättrad säkerhet kommer att minska risken för störningar och attacker på system som använder Galileo. Dessutom kommer STARGATE att bidra till att stärka EU:s position inom satellitnavigering och geografisk information.",
-        "eu_koppling": "Galileo-programmet",
-        "keywords": [
-          "Galileo",
-          "STARGATE",
-          "satellitnavigering",
-          "tidsekosystem"
-        ],
-        "arende": "Galileo-programmet",
-        "nasta_steg": "Europeiska rymdbyrån kommer att fortsätta utveckla och implementera STARGATE-systemet för att säkerställa en smidig integration med Galileo-programmet.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-02",
-            "beskrivning": "Presentation av STARGATE-systemet"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Nya möjligheter att bekämpa onlinerekrytering",
-      "source": "Riksdagen",
-      "type": "Riksdagen/PROP",
-      "url": "https://data.riksdagen.se/dokument/HD03276.html",
-      "date": "2026-05-28",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Sociala medier",
-        "sammanfattning": "Regeringen föreslår att det ska bli lättare att bekämpa onlinerekrytering av barn. Detta innebär att det ska bli enklare att identifiera och stoppa kriminella nätverk som använder sig av internet för att rekrytera barn. Förslaget syftar till att öka säkerheten för barn på nätet och förhindra att de blir offer för kriminella aktiviteter. Detta kan påverka hur sociala medier och andra onlineplattformar övervakar och hanterar innehåll som riktar sig till barn.",
-        "tech_vinkel": "Regeringens förslag innehåller en specifik skrivning om att utveckla metoder för att identifiera och stoppa onlinerekrytering av barn, vilket kan inkludera användning av AI och maskinlärning för att övervaka onlineinnehåll.",
-        "varfor_viktigt": "Detta förslag är viktigt eftersom det kan hjälpa till att skydda barn från kriminella nätverk som använder sig av internet för att rekrytera offer. Om förslaget antas kan det leda till en ökad säkerhet för barn på nätet och en minskning av kriminella aktiviteter som riktar sig mot barn. Detta kan också ha en positiv effekt på samhället i stort, eftersom det kan bidra till att minska brottsligheten och öka förtroendet för internet som en säker plats för barn.",
-        "eu_koppling": "Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll), som är en EU-lagstiftning som syftar till att reglera onlineplattformar och säkerställa att de tar ansvar för innehållet som publiceras på deras plattformar.",
-        "keywords": [
-          "onlinerekrytering",
-          "barn",
-          "kriminella nätverk",
-          "AI",
-          "maskinlärning"
-        ],
-        "arende": "Bekämpning av onlinerekrytering",
-        "nasta_steg": "Regeringens förslag kommer att behandlas av riksdagen, som kommer att fatta ett beslut om huruvida förslaget ska antas eller inte.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-15",
-            "beskrivning": "Riksdagen kommer att behandla regeringens förslag om bekämpning av onlinerekrytering"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Stärkt skydd mot utlänningar som utgör kvalificerade säkerhetshot",
-      "source": "Riksdagen",
-      "type": "Riksdagen/PROP",
-      "url": "https://data.riksdagen.se/dokument/HD03267.html",
-      "date": "2026-05-07",
-      "analysis": {
-        "relevans": "medel",
-        "tema": "Cybersäkerhet",
-        "sammanfattning": "Regeringen föreslår en proposition som syftar till att stärka skyddet mot utlänningar som utgör kvalificerade säkerhetshot. Detta inkluderar åtgärder för att begränsa deras tillgång till kritisk infrastruktur och information. Förslaget riktar sig mot individer som bedöms utgöra ett hot mot Sveriges nationella säkerhet och kan innebära skärpta krav på visum, uppehållstillstånd och anställning. Syftet är att minska riskerna för spionage, sabotage och annan skadlig verksamhet.",
-        "tech_vinkel": "Propositionen nämner indirekt digital infrastruktur genom att inkludera 'kritisk infrastruktur' i de områden som utlänningar med säkerhetshotande profil ska begränsas från att ha tillgång till, vilket ofta innefattar system och data som är beroende av digital teknik.",
-        "varfor_viktigt": "Förslaget kan leda till skärpta regler för utländska medborgare som arbetar inom sektorer som telekommunikation, energi och transport, vilket kan påverka företags rekryteringsmöjligheter och tillgång till kompetens. Det kan också öka spänningarna mellan Sverige och andra länder om det uppfattas som diskriminerande. Tajmingen är viktig med tanke på den ökande geopolitiska spänningen och hotbilden mot kritisk infrastruktur.",
-        "eu_koppling": "Propositionen kan behöva anpassas till EU:s regler om fri rörlighet och asyl, vilket kan begränsa regeringens handlingsutrymme. Det finns en koppling till EU:s arbete med att stärka cybersäkerheten och skydda kritisk infrastruktur.",
-        "keywords": [
-          "säkerhetshot",
-          "utlänningar",
-          "kritisk infrastruktur",
-          "digital infrastruktur",
-          "nationell säkerhet"
-        ],
-        "arende": "Stärkt lagstiftning mot hedersrelaterat våld",
-        "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt lägga till ändringsförslag.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-07",
-            "beskrivning": "Förväntad debatt i riksdagen."
-          }
-        ]
-      }
-    },
-    {
-      "title": "Uppdrag till Mediemyndigheten om kartläggning av hur sociala medieplattformars algoritmer styr innehåll till barn och unga",
-      "source": "Regeringen",
-      "type": "Regeringsuppdrag",
-      "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-mediemyndigheten-om-kartlaggning-av-hur-sociala-medieplattformars-algoritmer-styr-innehall-till-barn-och-unga/",
-      "date": "2026-05-22",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Sociala medier",
-        "sammanfattning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera hur sociala medieplattformars algoritmer styr innehåll till barn och unga. Detta innebär att Mediemyndigheten kommer att undersöka vilka metoder som används för att avgöra vad barn och unga ser på sociala medier. Syftet är att förstå hur dessa algoritmer kan påverka barns och ungas välbefinnande och utveckling. Uppdraget är en del av regeringens arbete för att skydda barn och unga på internet.",
-        "tech_vinkel": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer, vilket är en specifik teknikfråga som rör hur innehåll styrs till användare.",
-        "varfor_viktigt": "Detta uppdrag är viktigt eftersom sociala medier har en stor påverkan på barns och ungas liv. Algoritmerna som styr innehåll kan ha en betydande inverkan på deras välbefinnande och utveckling. Genom att kartlägga och analysera dessa algoritmer kan regeringen få en bättre förståelse för hur de kan skydda barn och unga på internet. Detta arbete kan också leda till förbättringar i regleringen av sociala medier och skyddet av barns och ungas rättigheter.",
-        "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala medier och andra digitala tjänster",
-        "keywords": [
-          "sociala medier",
-          "algoritmer",
-          "barns och ungas skydd",
-          "Digital Services Act"
-        ],
-        "arende": "Kartläggning av sociala mediers algoritmer",
-        "nasta_steg": "Mediemyndigheten kommer att genomföra kartläggningen och analysen av sociala medieplattformars algoritmer och sedan rapportera tillbaka till regeringen med sina resultat och rekommendationer.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-05-22",
-            "beskrivning": "Regeringen ger Mediemyndigheten i uppdrag att kartlägga och analysera sociala medieplattformars algoritmer"
-          }
-        ]
-      }
-    },
-    {
-      "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
-      "source": "Regeringen",
-      "type": "SOU",
-      "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202635/",
-      "date": "2026-06-02",
-      "analysis": {
-        "relevans": "hög",
-        "tema": "Sociala medier",
-        "sammanfattning": "Regeringen har tillsatt en utredning för att undersöka möjligheten att införa en åldersgräns för barns tillgång till sociala medier. Utredningen har nu presenterat sitt delbetänkande, som analyserar frågan och föreslår en åldersgräns. Förslaget syftar till att skydda barn från skadligt innehåll och påverkan på sociala medier. Utredningen har också undersökt hur en sådan åldersgräns skulle kunna implementeras och kontrolleras.",
-        "tech_vinkel": "Utredningen föreslår att sociala medier ska införa ålderskontroller för att säkerställa att barn under en viss ålder inte kan skapa konton eller komma åt viss typ av innehåll.",
-        "varfor_viktigt": "En åldersgräns för sociala medier kan ha en stor inverkan på barns och ungas användning av sociala medier och deras exponering för skadligt innehåll. Det kan också påverka sociala mediers ansvar och skyldigheter att skydda sina användare. Utredningens förslag kommer att vara viktigt för att skydda barns rättigheter och säkerhet på internet.",
-        "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala mediers ansvar och skyldigheter att skydda sina användare",
-        "keywords": [
-          "åldersgräns",
-          "sociala medier",
-          "barnsäkerhet"
-        ],
-        "arende": "Åldersgräns för sociala medier",
-        "nasta_steg": "Utredningens förslag kommer att remitteras till berörda myndigheter och organisationer för yttrande, varefter regeringen kommer att fatta beslut om huruvida förslaget ska gå vidare till riksdagen för beslut.",
-        "viktiga_datum": [
-          {
-            "datum": "2026-06-02",
-            "beskrivning": "Utredningens delbetänkande presenteras"
-          }
-        ]
-      }
-    }
-  ],
   "2026-06-05": [
     {
       "title": "Latest news - Next Committee Meetings; 24 & 25 June 2026  - Committee on the Internal Market and Consumer Protection",
@@ -15021,6 +14550,818 @@
           {
             "datum": "2026-06-16",
             "beskrivning": "Skrivelsen överlämnas till riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Sveriges strategiska position inom halvledare och avancerad elektronik",
+      "source": "Riksdagen",
+      "type": "Riksdagen/IP",
+      "url": "https://data.riksdagen.se/dokument/HD10545.html",
+      "date": "2026-06-05",
+      "committee": "SD",
+      "summary": "Interpellation 2025/26:545 Sveriges strategiska position inom halvledare och avancerad elektronik\n av  Rashid Farivar (SD)\n till Energi- och näringsminister Ebba Busch (KD)\n Halvledare och avancerad elektronik utgör i dag grunden för nästan all modern teknik. De är avgörande för allt från artificiell intelligens, telekommunikation",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Halvledare",
+        "sammanfattning": "Detta är en interpellation från SD till energi- och näringsministern Ebba Busch, där Rashid Farivar frågar om Sveriges strategiska position inom halvledare och avancerad elektronik. Interpellationen lyfter fram att halvledare är grundläggande för modern teknik som AI och telekommunikation. Frågeställningen handlar om hur Sverige kan stärka sin ställning i detta område, vilket är avgörande för landets konkurrenskraft och säkerhet.",
+        "tech_vinkel": "Interpellationen betonar halvledares roll som grundläggande komponent i artificiell intelligens (AI) och telekommunikation, vilket pekar på ett behov av strategiska investeringar och politiska beslut inom dessa teknikområden.",
+        "varfor_viktigt": "Sveriges position inom halvledare är avgörande för landets industriella konkurrenskraft, teknologiska självständighet och nationella säkerhet. Brist på tillgång till halvledare kan hindra utvecklingen av viktiga sektorer som fordonsindustrin och medicinteknik, vilket i sin tur påverkar Sveriges ekonomi och globala position. En stärkt svensk position inom detta område skulle kunna skapa nya jobb och öka innovationen.",
+        "eu_koppling": "EU Chips Act (ett initiativ för att stärka Europas halvledarindustri)",
+        "keywords": [
+          "halvledare",
+          "elektronik",
+          "strategi",
+          "AI",
+          "telekommunikation"
+        ],
+        "arende": "EU Chips Act",
+        "nasta_steg": "Energi- och näringsministern kommer att svara på interpellationen i riksdagen.",
+        "viktiga_datum": []
+      }
+    },
+    {
+      "title": "EDPB och EDPS stöder harmonisering av regler kring kliniska prövningar men vill se starkare skydd för känsliga uppgifter",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/edpb-och-edps-stoder-harmonisering-av-regler-kring-kliniska-provningar-men-vill-se-starkare-skydd-for-kansliga-uppgifter/",
+      "date": "Thu, 12 Mar 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Europeiska dataskyddsstyrelsen (EDPB) och Europeiska datatillsynsmannen (EDPS) har antagit ett gemensamt yttrande om EU-kommissionens förslag till en europeisk bioteknikakt. Förslaget syftar till att stärka Europas biotekniksektor och förenkla reglerna för kliniska prövningar.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Europeiska dataskyddsstyrelsen (EDPB) och Europeiska datatillsynsmannen (EDPS) har antagit ett gemensamt yttrande om EU-kommissionens förslag till en europeisk bioteknikakt. Förslaget syftar till att stärka Europas biotekniksektor och förenkla reglerna för kliniska prövningar. EDPB och EDPS vill se starkare skydd för känsliga uppgifter i samband med kliniska prövningar. Detta kan påverka hur bioteknikföretag hanterar personuppgifter i framtiden.",
+        "tech_vinkel": "Förslaget innehåller bestämmelser om dataskydd och integritet i samband med kliniska prövningar, vilket är en specifik teknikfråga.",
+        "varfor_viktigt": "Detta förslag kan ha stor betydelse för biotekniksektorn i Europa, eftersom det kan påverka hur företag inom sektorn hanterar personuppgifter och genomför kliniska prövningar. EDPB och EDPS:s yttrande är viktigt eftersom det kan bidra till att stärka skyddet för känsliga uppgifter. Tajmingen spelar roll eftersom EU-kommissionens förslag är en del av en större strategi för att stärka Europas biotekniksektor.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+        "keywords": [
+          "bioteknik",
+          "kliniska prövningar",
+          "dataskydd",
+          "integritet"
+        ],
+        "arende": "null",
+        "nasta_steg": "null",
+        "viktiga_datum": []
+      }
+    },
+    {
+      "title": "IMY ger råd om smarta glasögon",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/imy-ger-rad-om-smarta-glasogon/",
+      "date": "Thu, 12 Mar 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Glasögon med inbyggd kamera och annan teknik, så kallade smarta glasögon, blir allt svårare att skilja från vanliga glasögon och tekniken blir allt mer avancerad. Samtidigt känner många människor inte till vilka regler som gäller. Integritetsskyddsmyndigheten (IMY) publicerar nu tio råd om vad man bör tänka på om man använder smarta glasögon.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har publicerat råd om hur man bör använda smarta glasögon med inbyggd kamera och annan teknik. Många människor är inte medvetna om vilka regler som gäller för dessa enheter. IMY:s råd syftar till att öka medvetenheten om dataskydd och integritet när det gäller smarta glasögon. Råden omfattar tio punkter som man bör tänka på när man använder dessa enheter.",
+        "tech_vinkel": "IMY ger råd om hur man bör hantera insamling och lagring av personuppgifter med hjälp av smarta glasögon, vilket är en specifik teknikfråga relaterad till dataskydd.",
+        "varfor_viktigt": "Detta är viktigt eftersom smarta glasögon kan samla in och lagra stora mängder personuppgifter, vilket kan utgöra en risk för dataskydd och integritet om det inte hanteras på rätt sätt. IMY:s råd syftar till att skydda människors personuppgifter och öka medvetenheten om vikten av dataskydd. Detta är särskilt viktigt i en tid då tekniken utvecklas snabbt och allt fler enheter kan samla in och lagra personuppgifter.",
+        "eu_koppling": "GDPR (Allmänna dataskyddsförordningen), som är en EU-lagstiftning som reglerar hantering av personuppgifter",
+        "keywords": [
+          "smarta glasögon",
+          "dataskydd",
+          "integritet",
+          "IMY"
+        ],
+        "arende": null,
+        "nasta_steg": null,
+        "viktiga_datum": [],
+        "_manually_set": true
+      }
+    },
+    {
+      "title": "IMY:s prioriteringar 2026 – AI, barn och brottsbekämpning",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/imys-prioriteringar-2026--ai-barn-och-brottsbekampning/",
+      "date": "Tue, 03 Feb 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har fokus på tre områden i sin vägledning och tillsyn under 2026. Områdena är brottsbekämpning, barn och unga samt AI i offentlig sektor.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) presenterar sina prioriteringar för 2026, med fokus på tre områden: brottsbekämpning, barn och unga samt AI i offentlig sektor. Detta innebär att myndigheten kommer att lägga extra resurser på att övervaka och styra dessa områden under året. IMY:s prioriteringar syftar till att säkerställa att personuppgifter hanteras på ett säkert och ansvarsfullt sätt. Myndighetens fokus på AI i offentlig sektor är särskilt intressant, eftersom det kan ha stor inverkan på hur myndigheter och offentliga organisationer använder sig av artificiell intelligens.",
+        "tech_vinkel": "IMY:s prioritering av AI i offentlig sektor är en tydlig tech-vinkel, eftersom det handlar om hur myndigheter och offentliga organisationer använder sig av artificiell intelligens för att förbättra sina tjänster och processer.",
+        "varfor_viktigt": "IMY:s prioriteringar är viktiga eftersom de kan ha en stor inverkan på hur personuppgifter hanteras i Sverige. Myndighetens fokus på AI i offentlig sektor kan också leda till att myndigheter och offentliga organisationer blir mer effektiva och transparenta i sin användning av artificiell intelligens. Dessutom kan IMY:s prioriteringar bidra till att skydda barn och unga från otillbörlig hantering av personuppgifter.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+        "keywords": [
+          "AI",
+          "Dataskydd",
+          "Integritet"
+        ],
+        "arende": "null",
+        "nasta_steg": "null",
+        "viktiga_datum": [],
+        "_manually_set": true
+      }
+    },
+    {
+      "title": "Polisen bör förbättra sina beslut vid drönarbevakning",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/polisen-bor-forbattra-sina-beslut-vid-dronarbevakning/",
+      "date": "Thu, 22 Jan 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har granskat de beslut som Polismyndigheten fattar inför bevakning med drönare. Granskningen visar vissa svagheter som innebär risk för överträdelser av regelverken. IMY ger nu Polismyndigheten råd om hur de kan förbättra bedömningarna.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har granskat Polismyndighetens beslut om drönarbevakning och funnit vissa svagheter som kan leda till överträdelser av regelverken. IMY ger nu råd till Polismyndigheten om hur de kan förbättra sina bedömningar. Detta syftar till att stärka skyddet av människors integritet vid drönarbevakning. Polismyndigheten påverkas direkt av dessa rekommendationer.",
+        "tech_vinkel": "Drönarbevakning är den specifika teknikfråga som behandlas i detta dokument, där IMY granskar och ger råd om hur Polismyndigheten kan förbättra sina beslut vid sådan bevakning.",
+        "varfor_viktigt": "Detta är viktigt eftersom drönarbevakning kan innebära en betydande risk för överträdelser av människors integritet om den inte sker på ett lagligt och etiskt sätt. Polismyndighetens förmåga att hantera drönarbevakning på ett ansvarsfullt sätt har direkt inverkan på allmänhetens förtroende för myndigheten. Dessutom kan det ha långsiktiga konsekvenser för hur tekniken används i samhället.",
+        "eu_koppling": "GDPR (Allmänna dataskyddsförordningen) och möjligtvis andra EU-lagstiftningar om dataskydd och integritet",
+        "keywords": [
+          "drönarbevakning",
+          "integritetsskydd",
+          "Polismyndigheten",
+          "IMY"
+        ],
+        "arende": null,
+        "nasta_steg": "Polismyndigheten förväntas implementera IMY:s rekommendationer för att förbättra sina beslut och processer kring drönarbevakning.",
+        "viktiga_datum": []
+      }
+    },
+    {
+      "title": "CanaryBit, Volvo och Ericsson samarbetar med IMY för ökad trafiksäkerhet",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/canarybit-volvo-och-ericsson-samarbetar-med-imy-for-okad-trafiksakerhet/",
+      "date": "Thu, 02 Oct 2025",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Integritetsskyddsmyndigheten (IMY) startar nu ett nytt vägledningsprojekt med CanaryBit, Volvokoncernen och Ericsson. Syftet är att undersöka hur kamerainformation från olika typer av fordon eller trafiksystem kan delas med andra aktörer på ett integritetssäkert sätt för att öka trafiksäkerheten.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Uppkopplade fordon",
+        "svensk_rubrik": "CanaryBit, Volvo och Ericsson samarbetar med IMY för ökad trafiksäkerhet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har startat ett nytt vägledningsprojekt med CanaryBit, Volvokoncernen och Ericsson. Syftet är att undersöka hur kamerainformation från olika typer av fordon eller trafiksystem kan delas med andra aktörer på ett integritetssäkert sätt för att öka trafiksäkerheten. Detta projekt syftar till att hitta en balans mellan att skydda personuppgifter och att förbättra trafiksäkerheten. IMY kommer att undersöka hur man kan dela kamerainformation på ett sätt som respekterar integriteten.",
+        "tech_vinkel": "Projektet fokuserar på att dela kamerainformation från fordon och trafiksystem på ett integritetssäkert sätt, vilket är en specifik teknikfråga.",
+        "varfor_viktigt": "Detta projekt är viktigt eftersom det kan bidra till att förbättra trafiksäkerheten genom att dela viktig information mellan aktörer. Samtidigt måste man säkerställa att personuppgifter skyddas och att integriteten respekteras. Projektet kan också bidra till att utveckla nya tekniska lösningar för att dela information på ett säkert sätt.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning, som reglerar hur personuppgifter ska skyddas)",
+        "keywords": [
+          "trafiksäkerhet",
+          "integritetsskydd",
+          "kamerainformation",
+          "fordon",
+          "trafiksystem"
+        ],
+        "arende": "null",
+        "nasta_steg": "IMY kommer att genomföra projektet tillsammans med CanaryBit, Volvokoncernen och Ericsson, men nästa steg är inte specificerat.",
+        "viktiga_datum": []
+      }
+    },
+    {
+      "title": "Så undviker du att grannar klagar på din kamerabevakning",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/sa-undviker-du-att-grannar-klagar-pa-din-kamerabevakning/",
+      "date": "Mon, 12 May 2025",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Förra året tog Integritetsskyddsmyndigheten (IMY) emot drygt 500 klagomål om kamerabevakning. Antalet klagomål ökar för varje år och majoriteten av dem rör privatpersoners bevakning – oftast mellan grannar.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Övervakning och biometri",
+        "svensk_rubrik": "Kamerabevakning: IMY ger råd",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har mottagit över 500 klagomål om kamerabevakning förra året. Majoriteten av klagomålen rör privatpersoners bevakning, oftast mellan grannar. IMY ger nu råd om hur man kan undvika att grannar klagar på sin kamerabevakning. Det handlar om att vara medveten om var kamerorna placeras och att informera grannar om bevakningen.",
+        "tech_vinkel": "IMY ger råd om hur man kan konfigurera och placera kameror för att undvika att de kränker grannars integritet, vilket är en specifik teknikfråga relaterad till övervakning.",
+        "varfor_viktigt": "Det är viktigt att hantera kamerabevakning på ett ansvarsfullt sätt för att skydda människors integritet. Om kamerabevakning inte hanteras korrekt kan det leda till klagomål och eventuella rättsliga åtgärder. Dessutom kan det också påverka relationen mellan grannar och skapa en känsla av otrygghet.",
+        "eu_koppling": "Dataskyddsförordningen (GDPR) som reglerar hur personuppgifter, inklusive bilder från kamerabevakning, ska hanteras",
+        "keywords": [
+          "kamerabevakning",
+          "integritet",
+          "GDPR"
+        ],
+        "arende": "null",
+        "nasta_steg": "null",
+        "viktiga_datum": []
+      }
+    },
+    {
+      "title": "Bättre förutsättningar att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning",
+      "source": "Riksdagen",
+      "type": "Riksdagen/SOU",
+      "url": "https://data.riksdagen.se/dokument/HEB336.html",
+      "date": "2026-06-18",
+      "committee": "",
+      "summary": "Bättre förutsättningar att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning\n Delbetänkande av Utredningen om\n åtgärder för att öka antalet kliniska prövningar och vissa forskningsinitiativ i Sverige\n Stockholm 2026\n SOU 2026:36\n SOU och Ds finns på regeringen.se under Rättsliga dokument.\n Svara på remiss",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Övrigt tech",
+        "sammanfattning": "Regeringen har gett en utredning i uppdrag att föreslå åtgärder för att öka antalet kliniska prövningar och forskningsinitiativ i Sverige. Ett delbetänkande fokuserar på hur personer med nedsatt beslutsförmåga bättre ska kunna inkluderas i medicinsk forskning. Utredningen vill säkerställa att dessa individer kan delta i forskning på ett etiskt och rättssäkert sätt, vilket kräver anpassade processer och stödstrukturer. Rapporten är en del av ett större arbete för att stärka svensk medicinsk forskning.",
+        "tech_vinkel": "Utredningen kommer sannolikt att behöva ta hänsyn till hur digitala verktyg och plattformar kan användas för att underlätta informerat samtycke och dokumentation av beslut från personer med nedsatt beslutsförmåga, vilket kan innebära krav på säkerhet och dataskydd.",
+        "varfor_viktigt": "Att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning är viktigt för att säkerställa att forskningen är relevant och rättvis. Det kan leda till bättre behandlingsmetoder och ökad kunskap om sjukdomar som påverkar dessa grupper. Förbättrade rutiner kan också stärka förtroendet för svensk forskning och bidra till att locka fler patienter till kliniska prövningar.",
+        "eu_koppling": "GDPR (EU:s dataskyddsförordning) kommer att vara relevant då hanteringen av personuppgifter, inklusive känsliga uppgifter om hälsotillstånd och beslutsförmåga, måste ske i enlighet med förordningen.",
+        "keywords": [
+          "kliniska prövningar",
+          "forskning",
+          "nedsatt beslutsförmåga",
+          "samtycke",
+          "etik"
+        ],
+        "arende": null,
+        "nasta_steg": "Utredningen kommer att presentera ytterligare förslag baserat på detta delbetänkande och lämna sina slutgiltiga rekommendationer till regeringen.",
+        "viktiga_datum": [
+          {
+            "datum": "null",
+            "beskrivning": "null"
+          }
+        ]
+      }
+    }
+  ],
+  "2026-07-05": [
+    {
+      "title": "IMY blir marknadskontrollmyndighet för AI-förordningen",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/imy-blir-marknadskontrollmyndighet-for-ai-forordningen/",
+      "date": "Mon, 15 Jun 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Regeringen har beslutat att ge Integritetsskyddsmyndigheten (IMY) ett nytt uppdrag som marknadskontrollmyndighet för EU:s AI-förordning. Beslutet innebär att IMY får en central roll i att säkerställa att AI används på ett säkert, lagligt och etiskt sätt i Sverige.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Regeringen har beslutat att ge Integritetsskyddsmyndigheten (IMY) ett nytt uppdrag som marknadskontrollmyndighet för EU:s AI-förordning. Detta innebär att IMY kommer att ha en central roll i att säkerställa att AI används på ett säkert, lagligt och etiskt sätt i Sverige. Beslutet är en del av EU:s strävan att reglera AI och säkerställa att det används på ett ansvarsfullt sätt. IMY kommer att arbeta för att övervaka och kontrollera att företag och organisationer följer AI-förordningen.",
+        "tech_vinkel": "EU:s AI-förordning, som IMY nu kommer att övervaka, innehåller specifika krav på hur AI-system ska utvecklas och användas för att säkerställa säkerhet, laglighet och etik.",
+        "varfor_viktigt": "Detta beslut är viktigt eftersom det säkerställer att Sverige har en tydlig och effektiv reglering av AI. Det kommer att påverka företag och organisationer som utvecklar och använder AI-system, och det kommer att bidra till att skydda medborgarnas rättigheter och intressen. Beslutet är också en del av EU:s bredare strävan att reglera AI och säkerställa att det används på ett ansvarsfullt sätt.",
+        "eu_koppling": "AI Act (EU:s förordning om artificiell intelligens)",
+        "keywords": [
+          "AI",
+          "Integritetsskyddsmyndigheten",
+          "EU:s AI-förordning"
+        ],
+        "arende": "AI Act",
+        "nasta_steg": "IMY kommer att påbörja sitt arbete som marknadskontrollmyndighet för EU:s AI-förordning och kommer att samarbeta med andra myndigheter och organisationer för att säkerställa en effektiv reglering av AI.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-15",
+            "beskrivning": "Regeringen beslutade att ge IMY ett nytt uppdrag som marknadskontrollmyndighet för EU:s AI-förordning"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Top EU court upholds Google Android fine in landmark antitrust case",
+      "source": "Politico EU Tech",
+      "type": "Tech-policy-nyhet",
+      "url": "https://www.politico.eu/article/top-eu-court-upholds-google-android-fine-in-landmark-antitrust-case/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "date": "Thu, 02 Jul 2026",
+      "committee": "Politico Europe — tech-policy",
+      "summary": "The judgment strengthens Brussels’ hand as it increasingly relies on new digital competition rules to police Big Tech.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Sociala medier och plattformar",
+        "svensk_rubrik": "EU-domstol fastställer Google Android-böter",
+        "sammanfattning": "EU:s högsta domstol har fastställt en böter på 4,3 miljarder euro som Google ålagts för att ha missbrukat sin dominantposition på marknaden för Android-operativsystem. Domen är en seger för EU-kommissionen som har drivit fallet mot Google. Domen kan ha stor betydelse för hur tech-jättar som Google agerar på den europeiska marknaden. Det kan också påverka hur EU-kommissionen hanterar liknande fall i framtiden.",
+        "tech_vinkel": "Domen handlar specifikt om hur Google har använt sitt operativsystem Android för att främja sina egna tjänster och begränsa konkurrenter.",
+        "varfor_viktigt": "Domen är viktig eftersom den visar att EU-kommissionen är beredd att ta i med hårdhandskarna mot tech-jättar som missbrukar sin makt. Det kan också leda till att Google och andra tech-företag blir mer försiktiga med hur de agerar på den europeiska marknaden. Dessutom kan domen ha en stor inverkan på den digitala marknaden i Europa och hur den utvecklas i framtiden.",
+        "eu_koppling": "Domen är en del av EU-kommissionens arbete med att tillämpa EU:s konkurrensregler, särskilt artikel 102 i EUF-fördraget som förbjuder missbruk av en dominantposition på den inre marknaden.",
+        "keywords": [
+          "Google",
+          "Android",
+          "EU-kommissionen",
+          "konkurrensregler"
+        ],
+        "arende": "Google Android-böter",
+        "nasta_steg": "Google kan överklaga domen till EU-domstolens överinstans, men det är osäkert om de kommer att göra det.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-02",
+            "beskrivning": "EU-domstolens dom i målet mot Google Android-böter offentliggörs"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Amerikansk dom kan påverka överföringar till USA",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/amerikansk-dom-kan-paverka-overforingar-till-usa/",
+      "date": "Fri, 03 Jul 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Tidigare i veckan fattade USA:s högsta domstol beslut i det s.k. Trump v. Slaughter-fallet. I korthet kommer domstolen fram till att en president har rätt att skilja en ledamot i tillsynsorganet Federal Trade Commission (FTC) från sitt uppdrag utan särskild grund. Beslutet kan påverka överföringar till USA, och kommer nu att analyseras av den Europeiska dataskyddsstyrelsen (EDPB) där Integritetssk",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och GDPR",
+        "svensk_rubrik": "Amerikansk dom påverkar överföringar till USA",
+        "sammanfattning": "En amerikansk dom har gett presidenten rätt att skilja en ledamot i Federal Trade Commission (FTC) från sitt uppdrag utan särskild grund. Detta beslut kan påverka överföringar av personuppgifter till USA. Den Europeiska dataskyddsstyrelsen (EDPB) kommer att analysera beslutet och dess konsekvenser för dataskyddet. Detta kan leda till förändringar i hur personuppgifter överförs mellan EU och USA.",
+        "tech_vinkel": "Beslutet kan påverka giltigheten av Privacy Shield-avtalet, som reglerar överföringar av personuppgifter mellan EU och USA.",
+        "varfor_viktigt": "Detta beslut kan ha stor påverkan på företag som överför personuppgifter mellan EU och USA. Det kan leda till förändringar i hur dessa företag hanterar personuppgifter och kan även påverka deras verksamhet. Dessutom kan det leda till en översyn av dataskyddslagstiftningen i EU och USA.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+        "keywords": [
+          "dataskydd",
+          "GDPR",
+          "USA",
+          "överföringar"
+        ],
+        "arende": "Dataskydd och integritet",
+        "nasta_steg": "Den Europeiska dataskyddsstyrelsen (EDPB) kommer att analysera beslutet och dess konsekvenser för dataskyddet.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-03",
+            "beskrivning": "Amerikansk dom påverkar överföringar till USA: EDPB-analys påbörjas"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Polisen brister i sin information på Arlanda",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/polisen-brister-i-sin-information-pa-arlanda/",
+      "date": "Fri, 03 Jul 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har granskat polisens hantering av personuppgifter vid gränskontrollen vid Arlanda flygplats och riktar kritik mot bristande information till resenärerna.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och GDPR",
+        "svensk_rubrik": "Polisen brister i informationen på Arlanda",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har granskat hur polisen hanterar personuppgifter vid gränskontrollen på Arlanda flygplats. Myndigheten riktar kritik mot att polisen inte tillräckligt informerar resenärerna om hur deras personuppgifter används. Detta är ett problem eftersom resenärerna har rätt att veta hur deras personliga information hanteras. Polisens brister i informationen kan leda till att resenärerna inte kan utöva sina rättigheter enligt dataskyddslagstiftningen.",
+        "tech_vinkel": "Polisens hantering av personuppgifter vid gränskontrollen är en specifik tech-fråga som berörs av dataskyddsförordningen (GDPR), som kräver att personuppgifter hanteras på ett sätt som respekterar individens integritet.",
+        "varfor_viktigt": "Detta är viktigt eftersom det handlar om resenärernas rätt till integritet och dataskydd. Om polisen inte informerar resenärerna korrekt om hur deras personuppgifter används, kan det leda till en brist på förtroende för myndigheterna och en känsla av osäkerhet bland resenärerna. Dessutom kan det leda till rättsliga konsekvenser för polisen om de inte följer dataskyddslagstiftningen.",
+        "eu_koppling": "Dataskyddsförordningen (GDPR)",
+        "keywords": [
+          "dataskydd",
+          "GDPR",
+          "integritet",
+          "personuppgifter"
+        ],
+        "arende": "Polismyndighetens personuppgiftsbehandling",
+        "nasta_steg": "Polismyndigheten kommer att behöva vidta åtgärder för att förbättra sin information till resenärerna och säkerställa att de följer dataskyddslagstiftningen.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-03",
+            "beskrivning": "Polismyndighetens personuppgiftsbehandling: IMY publicerar kritik mot polisens brister i informationen på Arlanda"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Ny rapport: IMY reder ut AI-bolagens ansvarsroller enligt GDPR",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/ny-rapport-ansvarsroller-enligt-gdpr-vid-finjustering-av-ai-applikationer/",
+      "date": "Wed, 10 Jun 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har undersökt vilket ansvar företag har för personuppgifter när de arbetar med AI-applikationer. Rapporten fastställer att ansvarsrollen beror på vilket inflytande företaget har över behandlingen av uppgifterna.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har publicerat en rapport som undersöker ansvarsrollerna för företag som arbetar med AI-applikationer och hantering av personuppgifter. Rapporten fastställer att ansvarsrollen beror på vilket inflytande företaget har över behandlingen av uppgifterna. Detta innebär att företag som har stort inflytande över behandlingen av personuppgifter också har ett stort ansvar för att säkerställa att uppgifterna hanteras på ett korrekt sätt. Detta kan påverka hur företag utvecklar och implementerar AI-lösningar i framtiden.",
+        "tech_vinkel": "Rapporten från IMY fokuserar specifikt på ansvarsrollerna för företag som använder AI-applikationer för hantering av personuppgifter, vilket är en viktig tech-fråga inom området dataskydd och integritet.",
+        "varfor_viktigt": "Denna rapport är viktig eftersom den klargör ansvarsrollerna för företag som arbetar med AI-applikationer och personuppgifter, vilket kan bidra till att öka transparensen och säkerheten i hanteringen av personuppgifter. Detta kan också leda till att företag blir mer medvetna om sitt ansvar och tar proaktiva åtgärder för att säkerställa att de följer reglerna för dataskydd. Dessutom kan rapporten bidra till att skapa en mer enhetlig och tydlig tillämpning av dataskyddsreglerna i Sverige.",
+        "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+        "keywords": [
+          "AI",
+          "Dataskydd",
+          "Integritet",
+          "GDPR"
+        ],
+        "arende": "GDPR-implementering",
+        "nasta_steg": "Företag och organisationer som arbetar med AI-applikationer och personuppgifter kommer att behöva granska och anpassa sina processer och rutiner för att säkerställa att de följer de tydliggjorda ansvarsrollerna och reglerna för dataskydd.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-10",
+            "beskrivning": "Publicering av IMY-rapporten om ansvarsroller för AI-bolag enligt GDPR"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Ny rapport: Transkribering med AI kan avlasta socialtjänsten",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/transkribering-med-ai-kan-avlasta-socialtjansten/",
+      "date": "Mon, 13 Apr 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har tillsammans med Kalmar kommun undersökt möjligheten att använda en AI-baserad transkriberingstjänst inom socialtjänsten. IMY bedömer att det finns rättsliga förutsättningar för socialtjänsten att börja använda en sådan tjänst. Resultatet förväntas bli minskad administrativ börda och ge socialsekreterare mer tid för möten med de enskilda.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har undersökt möjligheten att använda en AI-baserad transkriberingstjänst inom socialtjänsten i Kalmar kommun. IMY bedömer att det finns rättsliga förutsättningar för socialtjänsten att börja använda en sådan tjänst, vilket förväntas minska den administrativa bördan och ge socialsekreterare mer tid för möten med enskilda. Detta kan leda till en mer effektiv och personlig socialtjänst. IMY har samarbetat med Kalmar kommun för att undersöka denna möjlighet.",
+        "tech_vinkel": "IMY har undersökt användningen av en AI-baserad transkriberingstjänst, som kan transkribera samtal och möten med hjälp av artificiell intelligens.",
+        "varfor_viktigt": "Detta är viktigt eftersom det kan leda till en mer effektiv och personlig socialtjänst, där socialsekreterare kan fokusera på att hjälpa enskilda istället för att lägga tid på administrativa uppgifter. Det kan också bidra till att förbättra kvaliteten på socialtjänstens insatser. Dessutom kan detta vara ett steg mot att implementera mer AI-baserade lösningar inom offentlig sektor.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar hur personuppgifter hanteras inom EU",
+        "keywords": [
+          "AI",
+          "transkribering",
+          "socialtjänst",
+          "dataskydd"
+        ],
+        "arende": "AI-baserad transkribering inom socialtjänst",
+        "nasta_steg": "Kalmar kommun och IMY kommer att fortsätta att utvärdera och förbättra användningen av AI-baserad transkribering inom socialtjänsten.",
+        "viktiga_datum": []
+      }
+    },
+    {
+      "title": "Vägledning för nya regler om politisk reklam",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/vagledning-for-nya-regler-om-politisk-reklam/",
+      "date": "Mon, 16 Mar 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Den kommande valrörelsen blir den första i Sverige med de nya EU-reglerna om politisk reklam. Integritetsskyddsmyndigheten (IMY) publicerar nu en vägledning om reglerna. Vägledningen gäller den politiska reklam som sker online och där personuppgifter används vid spridningen.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har publicerat en vägledning om de nya EU-reglerna för politisk reklam som sker online och där personuppgifter används. Vägledningen är till för att hjälpa politiska partier och annonsörer att förstå och följa de nya reglerna. De nya reglerna syftar till att öka transparensen och kontrollen över politisk reklam på internet. Detta är särskilt viktigt inför den kommande valrörelsen i Sverige.",
+        "tech_vinkel": "Vägledningen fokuserar på den politiska reklam som sker online och där personuppgifter används vid spridningen, vilket innebär att den berör tekniska aspekter av personuppgiftshantering och dataskydd i digitala miljöer.",
+        "varfor_viktigt": "De nya reglerna och vägledningen är viktiga för att säkerställa att politisk reklam på internet är transparent och inte missbrukar personuppgifter. Detta kan ha en positiv inverkan på allmänhetens förtroende för politiska processer och för den digitala annonseringsindustrin som helhet. Dessutom kan det bidra till att minska risken för desinformation och manipulativa kampanjer under valrörelsen.",
+        "eu_koppling": "Digital Services Act (DSA) och GDPR (Allmänna dataskyddsförordningen)",
+        "keywords": [
+          "politisk reklam",
+          "dataskydd",
+          "onlineannonsering"
+        ],
+        "arende": "Digital Services Act",
+        "nasta_steg": "Integritetsskyddsmyndigheten kommer att fortsätta att övervaka och utvärdera tillämpningen av de nya reglerna för politisk reklam och kan vidta ytterligare åtgärder för att säkerställa efterlevnaden.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-09-01",
+            "beskrivning": "Valrörelsen i Sverige inleds, och de nya reglerna för politisk reklam börjar tillämpas"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Inbjudan till hearing om EU-vägledning om riktad politisk reklam online",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/inbjudan-till-hearing-om-eu-vagledning-om-riktad-politisk-reklam-online/",
+      "date": "Fri, 30 Jan 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Den 10 oktober 2025 började EU:s förordning om transparens och inriktning av politisk reklam att gälla. Europeiska dataskyddsstyrelsen, EDPB, ska nu ta fram en vägledning på EU-nivå kring sådan behandling av personuppgifter som sker i samband med riktad politisk reklam online och som omfattas av förordningen.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "EU-kommissionen har infört en ny förordning om transparens och inriktning av politisk reklam online. Nu ska Europeiska dataskyddsstyrelsen, EDPB, ta fram en vägledning för hur personuppgifter ska behandlas i samband med riktad politisk reklam online. Detta är en del av EU:s arbete för att öka transparensen och skydda personuppgifter på internet. Vägledningen kommer att påverka hur politiska partier och annonsörer använder personuppgifter för att rikta sin reklam.",
+        "tech_vinkel": "Vägledningen kommer att handla om behandling av personuppgifter i samband med riktad politisk reklam online, vilket är en specifik teknikfråga som berör användningen av cookies, profilering och annan datadriven annonsering.",
+        "varfor_viktigt": "Detta är viktigt eftersom det kan påverka hur politiska partier och annonsörer använder personuppgifter för att rikta sin reklam. Det kan också bidra till att öka transparensen och skydda personuppgifter på internet. Dessutom kan detta ha konsekvenser för hur annonsörer och politiska partier använder sociala medier och andra online-plattformar för att nå ut till väljare.",
+        "eu_koppling": "EU-förordningen om transparens och inriktning av politisk reklam",
+        "keywords": [
+          "politisk reklam",
+          "personuppgifter",
+          "dataskydd",
+          "transparens"
+        ],
+        "arende": "EU-förordningen om transparens och inriktning av politisk reklam",
+        "nasta_steg": "EDPB kommer att ta fram en vägledning för hur personuppgifter ska behandlas i samband med riktad politisk reklam online, som sedan kommer att presenteras för allmänheten och remissinstanserna.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-10-10",
+            "beskrivning": "EU-förordningen om transparens och inriktning av politisk reklam började gälla"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Riktlinjer för samspelet mellan DMA och GDPR",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/riktlinjer-for-samspelet-mellan-dma-och-gdpr/",
+      "date": "Mon, 13 Oct 2025",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Nu finns riktlinjer för hur förordningen om digitala marknader (Digital Markets Act, DMA) samspelar med dataskyddsförordningen (GDPR). Riktlinjerna godkändes av den europeiska dataskyddsstyrelsen, EDPB, på sitt senaste möte och har tagits fram tillsammans med EU-kommissionen.",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Dataskydd och integritet",
+        "sammanfattning": "Integritetsskyddsmyndigheten har tagit fram riktlinjer för hur förordningen om digitala marknader (Digital Markets Act, DMA) samspelar med dataskyddsförordningen (GDPR). Dessa riktlinjer har godkänts av den europeiska dataskyddsstyrelsen, EDPB, och har tagits fram tillsammans med EU-kommissionen. Syftet är att tydliggöra hur dessa två förordningar ska tillämpas tillsammans för att skydda användarnas integritet och säkerställa en rättvis digital marknad. Riktlinjerna kommer att påverka företag som omfattas av DMA och som hanterar personuppgifter.",
+        "tech_vinkel": "Riktlinjerna fokuserar specifikt på hur Digital Markets Act (DMA) och dataskyddsförordningen (GDPR) ska samspela, vilket innebär en tydlig tech-vinkel kring dataskydd och digitala marknader.",
+        "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de syftar till att säkerställa att företag som verkar på den digitala marknaden respekterar användarnas integritet och dataskydd. Detta kan ha betydande konsekvenser för hur företag hanterar personuppgifter och hur de utvecklar sina digitala tjänster. Riktlinjerna kan också påverka den övergripande digitala marknadsutvecklingen i Europa och bidra till att skapa en mer rättvis och säker digital miljö.",
+        "eu_koppling": "Digital Markets Act (DMA) och dataskyddsförordningen (GDPR)",
+        "keywords": [
+          "Digital Markets Act",
+          "GDPR",
+          "dataskydd",
+          "digitala marknader"
+        ],
+        "arende": "Digital Markets Act",
+        "nasta_steg": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-10-13",
+            "beskrivning": "Riktlinjerna för samspelet mellan DMA och GDPR godkändes av EDPB"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Nytt system för in- och utresor i länder inom Schengenområdet",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/nytt-system-for-in--och-utresor-i-lander-inom-schengenomradet/",
+      "date": "Thu, 02 Oct 2025",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Den 12 oktober införs Entry Exit System. Det är ett nytt in- och utresesystem för medborgare i ett land utanför EU som reser till eller från Schengenområdet för kortare vistelser. IMY kommer vara tillsynsmyndighet för systemet.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och GDPR",
+        "svensk_rubrik": "Entry Exit System: Nytt in- och utresesystem",
+        "sammanfattning": "Den 12 oktober införs Entry Exit System, ett nytt system för att spåra in- och utresor för medborgare i länder utanför EU som besöker Schengenområdet. Systemet kommer att hanteras av Integritetsskyddsmyndigheten (IMY) som tillsynsmyndighet. Detta innebär att IMY kommer att övervaka hur systemet används och säkerställa att det följer gällande dataskyddslagar. Entry Exit System är ett viktigt verktyg för att förbättra säkerheten och kontrollen av gränserna inom Schengenområdet.",
+        "tech_vinkel": "Entry Exit System kommer att använda biometri och databaser för att spåra in- och utresor, vilket innebär en tydlig tech-vinkel i form av datalagring och -behandling.",
+        "varfor_viktigt": "Införandet av Entry Exit System är viktigt för att förbättra säkerheten och kontrollen av gränserna inom Schengenområdet. Det kommer också att ha en betydande inverkan på hur dataskydd och integritet hanteras i samband med gränspassage. Detta är särskilt viktigt i ljuset av den ökande användningen av biometri och databaser för att spåra och övervaka individer.",
+        "eu_koppling": "Schengenavtalet och EU:s dataskyddsförordning (GDPR)",
+        "keywords": [
+          "Entry Exit System",
+          "Schengenområdet",
+          "Dataskydd",
+          "Biometri"
+        ],
+        "arende": "Entry Exit System",
+        "nasta_steg": "Införandet av Entry Exit System den 12 oktober kommer att följas av en utvärdering av systemets effektivitet och eventuella justeringar för att säkerställa att det uppfyller sina syften.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-10-12",
+            "beskrivning": "Entry Exit System: Införandet av det nya in- och utresesystemet"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Nya riktlinjer om samspelet mellan DSA och GDPR",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/nya-riktlinjer-om-samspelet-mellan-dsa-och-gdpr/",
+      "date": "Fri, 12 Sep 2025",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om hur EU:s förordning om digitala tjänster (DSA) samspelar med dataskyddsförordningen (GDPR).",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och GDPR",
+        "svensk_rubrik": "DSA och GDPR: Nya riktlinjer",
+        "sammanfattning": "Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om hur EU:s förordning om digitala tjänster (DSA) samspelar med dataskyddsförordningen (GDPR). Dessa riktlinjer syftar till att klargöra hur företag och organisationer ska hantera personuppgifter i enlighet med båda förordningarna. Det handlar om att säkerställa att personuppgifter skyddas när de samlas in och används av digitala tjänster. Riktlinjerna ger vägledning om hur man ska tolka och tillämpa DSA och GDPR i praktiken.",
+        "tech_vinkel": "Riktlinjerna fokuserar på den tekniska aspekten av hur digitala tjänster som sociala medier och onlineplattformar ska hantera personuppgifter i enlighet med DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) och GDPR (EU:s dataskyddsförordning).",
+        "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de ger tydlig vägledning till företag och organisationer om hur de ska hantera personuppgifter i enlighet med EU:s lagstiftning. Det handlar om att skydda personuppgifter och säkerställa att digitala tjänster är säkra och pålitliga. Riktlinjerna kan också påverka hur digitala tjänster utvecklas och implementeras i framtiden.",
+        "eu_koppling": "DSA (EU:s förordning om digitala tjänster) och GDPR (dataskyddsförordningen)",
+        "keywords": [
+          "DSA",
+          "GDPR",
+          "dataskydd",
+          "digitala tjänster"
+        ],
+        "arende": "DSA och GDPR",
+        "nasta_steg": "Företag och organisationer måste nu implementera dessa riktlinjer i sin verksamhet för att säkerställa att de följer EU:s lagstiftning.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-09-12",
+            "beskrivning": "DSA och GDPR: Nya riktlinjer antagna"
+          }
+        ]
+      }
+    },
+    {
+      "title": "EDPB antar uttalande om genomförandet av PNR-direktivet",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/edpb-antar-uttalande-om-genomforandet-av-pnr-direktivet/",
+      "date": "Fri, 14 Mar 2025",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "På ett plenarmöte i veckan antog Europeiska dataskyddsstyrelsen, EDPB, ett uttalande om genomförandet av direktivet om passageraruppgifter mot bakgrund av en dom i EU-domstolen.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och GDPR",
+        "svensk_rubrik": "PNR-direktivet: EDPB antar uttalande",
+        "sammanfattning": "Europeiska dataskyddsstyrelsen, EDPB, har antagit ett uttalande om genomförandet av direktivet om passageraruppgifter. Detta sker mot bakgrund av en dom i EU-domstolen. EDPB:s uttalande syftar till att ge vägledning om hur medlemsstaterna ska implementera direktivet på ett sätt som respekterar dataskyddslagstiftningen. Detta är en viktig fråga eftersom direktivet omfattar insamling och lagring av passageraruppgifter för att förhindra och bekämpa terrorism och grov brottslighet.",
+        "tech_vinkel": "Uttalandet från EDPB handlar specifikt om hur PNR-direktivet ska implementeras i enlighet med EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning), för att säkerställa skyddet av personuppgifter.",
+        "varfor_viktigt": "Detta uttalande är viktigt eftersom det kan ha betydande konsekvenser för hur personuppgifter hanteras inom EU. Det kan påverka hur flygbolag, reseföretag och myndigheter samlar in, lagrar och delar passageraruppgifter. Dessutom kan det ha implikationer för individens rätt till dataskydd och integritet. Tajmingen spelar roll eftersom EU-domstolens dom har skapat ett behov av tydlig vägledning för medlemsstaterna.",
+        "eu_koppling": "PNR-direktivet och GDPR (EU:s dataskyddsförordning)",
+        "keywords": [
+          "PNR-direktivet",
+          "EDPB",
+          "GDPR",
+          "dataskydd"
+        ],
+        "arende": "PNR-direktivet",
+        "nasta_steg": "Medlemsstaterna förväntas följa EDPB:s uttalande och implementera PNR-direktivet i enlighet med GDPR, vilket kan kräva ändringar i nationell lagstiftning och praxis.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-03-14",
+            "beskrivning": "PNR-direktivet: EDPB antar uttalande om genomförande"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Från 1 april gäller nya regler för verksamheter som kamerabevakar",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/fran-1-april-galler-nya-regler-for-verksamheter-som-kamerabevakar/",
+      "date": "Wed, 12 Mar 2025",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Den 1 april 2025 börjar nya kameraregler att gälla. De innebär att ingen längre behöver söka tillstånd hos Integritetsskyddsmyndigheten (IMY) för sin bevakning. Istället införs nya krav på framför allt offentlig verksamhet som kamerabevakar eller planerar att bevaka.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Övervakning och biometri",
+        "svensk_rubrik": "Kamerabevakning: Nya regler från 1 april",
+        "sammanfattning": "Från den 1 april 2025 gäller nya regler för verksamheter som använder kamerabevakning. De nya reglerna innebär att det inte längre krävs tillstånd från Integritetsskyddsmyndigheten (IMY) för att bedriva kamerabevakning. Istället införs nya krav på offentlig verksamhet som kamerabevakar eller planerar att göra det. Detta påverkar bland annat myndigheter och kommuner som använder kameror för övervakning. De nya reglerna syftar till att stärka skyddet för människors integritet och personuppgifter.",
+        "tech_vinkel": "De nya reglerna för kamerabevakning innehåller specifika krav på hur kameror ska användas och hur inspelad data ska hanteras, vilket direkt berör tekniska aspekter av övervakningssystem.",
+        "varfor_viktigt": "De nya reglerna är viktiga eftersom de syftar till att skydda människors integritet och personuppgifter i samband med kamerabevakning. Detta är särskilt viktigt i en tid då övervakningsteknik blir allt vanligare. De nya reglerna kommer att påverka hur myndigheter och kommuner använder kameror för övervakning, och det är därför viktigt att dessa regler är tydliga och effektiva. Dessutom kan de nya reglerna bidra till att öka allmänhetens förtroende för hur deras personuppgifter hanteras.",
+        "eu_koppling": "Dataskyddsförordningen (GDPR) som reglerar hantering av personuppgifter inom EU",
+        "keywords": [
+          "kamerabevakning",
+          "integritet",
+          "dataskydd",
+          "GDPR"
+        ],
+        "arende": "Kamerabevakningsregler",
+        "nasta_steg": "Integritetsskyddsmyndigheten (IMY) kommer att övervaka och säkerställa att de nya reglerna följs av berörda verksamheter.",
+        "viktiga_datum": [
+          {
+            "datum": "2025-04-01",
+            "beskrivning": "Kamerabevakningsregler: Nya regler träder i kraft"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
+      "source": "Europol",
+      "type": "EU-byrå",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/global-cyber-strike-disrupts-socgholish-amadey-and-stealc-malware-networks",
+      "date": "",
+      "committee": "EU:s polisbyrå",
+      "summary": "Europol together with partners from across the globe today announces a landmark blow to cybercriminal networks as part of Operation Endgame, a sweeping international operation targeting the criminal infrastructure behind ransomware and malware like SocGholish, Amadey, and StealC. In coordinated actions over the past two weeks, key components of these malicious toolkits were dismantled as part of a",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "Europol har tillsammans med internationella partners genomfört en stor operation, Operation Endgame, som syftar till att slå mot cyberkriminalitet. Genom samordnade insatser under de senaste två veckorna har viktiga delar av verktygslådor för skadlig programvara som SocGholish, Amadey och StealC tagits bort. Operationen riktar sig specifikt mot den kriminella infrastruktur som ligger bakom utpressningstrojaner (ransomware) och malware. Målet är att avsevärt störa cyberkriminellas verksamhet.",
+        "tech_vinkel": "Operationen fokuserar på att demontera specifika verktygslådor för skadlig programvara, vilket innebär en direkt attack mot den tekniska infrastruktur som används för cyberbrott.",
+        "varfor_viktigt": "Denna operation är viktig eftersom den visar på ett samordnat internationellt agerande mot cyberkriminalitet och kan leda till att kostnader och risker ökar för cyberkriminella. Det påverkar organisationer och individer som riskerar att drabbas av ransomware-attacker och malware, samt bidrar till en säkrare digital miljö globalt. Framgången i Operation Endgame kan inspirera till ytterligare liknande insatser.",
+        "eu_koppling": "Operationen är relevant för EU:s cybersäkerhetsstrategi och syftar till att implementera principerna i NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet) genom internationellt samarbete.",
+        "keywords": [
+          "Europol",
+          "Operation Endgame",
+          "Cyberkriminalitet",
+          "Ransomware",
+          "Malware",
+          "SocGholish",
+          "Amadey",
+          "StealC"
+        ],
+        "arende": "Cybersolidaritetsakten",
+        "nasta_steg": "Det är troligt att Europol och dess partners kommer att fortsätta liknande operationer för att identifiera och störa cyberkriminella nätverk.",
+        "viktiga_datum": [],
+        "_manually_set": true
+      }
+    },
+    {
+      "title": "Uppföljning av den nationella strategin mot organiserad brottslighet",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03274.html",
+      "date": "2026-06-23",
+      "committee": "Justitiedepartementet",
+      "summary": "Regeringens skrivelse 2025/26:274\n Uppföljning av den nationella strategin mot  Skr.  organiserad brottslighet  2025/26:274  Regeringen överlämnar denna skrivelse till riksdagen.\n Stockholm den 18 juni 2026\n Ebba Busch\n Gunnar Strömmer (Justitiedepartementet)\n Skrivelsens huvudsakliga innehåll\n I skrivelsen lämnar regeringen",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen överlämnar en skrivelse till riksdagen som följer upp den nationella strategin mot organiserad brottslighet. Skrivelsen redogör för hur arbetet har gått hittills och vilka resultat som uppnåtts. Den syftar till att ge riksdagen en bild av läget och de utmaningar som finns i kampen mot organiserad brottslighet. Dokumentet kommer sannolikt att ligga till grund för framtida politiska beslut inom området.",
+        "tech_vinkel": "Skrivelsen nämner troligtvis användningen av digitala bevis och övervakningstekniker i utredningar av organiserad brottslighet, vilket är en viktig aspekt av hur polisen använder teknik för att bekämpa brott.",
+        "varfor_viktigt": "En uppföljning av strategin mot organiserad brottslighet kan leda till nya lagförslag eller åtgärder som påverkar hur polisen och rättsväsendet använder digitala verktyg. Detta är särskilt viktigt med tanke på den ökande användningen av krypterade kommunikationskanaler och andra tekniker av kriminella nätverk. Det kan också innebära förändringar i hur myndigheterna hanterar data och skyddar individers integritet.",
+        "eu_koppling": "Kan potentiellt kopplas till EU:s direktiv om dataskydd (GDPR) när det gäller insamling och användning av digitala bevis. GDPR",
+        "keywords": [
+          "organiserad brottslighet",
+          "digital kriminalitet",
+          "övervakning",
+          "strategi",
+          "polisen"
+        ],
+        "arende": "Kartläggning av sociala mediers algoritmer",
+        "nasta_steg": "Riksdagen kommer att granska skrivelsen och eventuellt lämna förslag på åtgärder eller ytterligare utredningar.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-15",
+            "beskrivning": "Förväntas att riksdagen behandlar skrivelsen i en debatt."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Sveriges utrikes underrättelsetjänst",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03290.html",
+      "date": "2026-06-18",
+      "committee": "Utrikesdepartementet",
+      "summary": "Sveriges utrikes underrättelsetjänst\n Regeringens proposition 2025/26:290\n Sveriges utrikes underrättelsetjänst\n Prop.\n 2025/26:290\n Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 18 juni 2026\n Ebba Busch\n Maria Malmer Stenergard (Utrikesdepartementet)\n Propositionens huvudsakliga innehåll\n I propositionen",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "Regeringen lämnar en proposition till riksdagen som handlar om Sveriges utrikes underrättelsetjänst. Propositionen syftar till att stärka tjänstens mandat och resurser för att möta växande säkerhetsutmaningar i utlandet. Den detaljerade innebörden av förändringarna framgår inte av sammanfattningen, men den indikerar en ökad satsning på underrättelseverksamhet. Detta kommer sannolikt att påverka hur Sverige hanterar internationella kriser och säkerhetsfrågor.",
+        "tech_vinkel": "Propositionen rör Sveriges utrikes underrättelsetjänst, vilket implicerar användningen av digitala verktyg och tekniker för informationsinsamling, analys och kommunikation – inklusive potentiellt övervakningsteknik och krypteringslösningar.",
+        "varfor_viktigt": "En stärkt underrättelsetjänst kan förbättra Sveriges förmåga att förutse och hantera säkerhetshot från utlandet. Detta är särskilt viktigt i en tid av geopolitisk spänning och ökade cyberattacker. Propositionen kommer att påverka hur svenska myndigheter agerar internationellt, samt potentiellt begränsa individers rättigheter till privatliv och yttrandefrihet.",
+        "eu_koppling": "Ingen tydlig koppling till specifik EU-lagstiftning framgår av sammanfattningen. Dock kan underrättelsetjänstens arbete påverkas av EU:s regler kring dataskydd (GDPR) och internationellt samarbete.",
+        "keywords": [
+          "underrättelseverksamhet",
+          "utrikesdepartementet",
+          "nationell säkerhet",
+          "proposition"
+        ],
+        "arende": "Cybersäkerhetscenter",
+        "nasta_steg": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-07-18",
+            "beskrivning": "Förväntat riksdagsdebatt om propositionen."
+          }
+        ],
+        "_manually_set": true
+      }
+    },
+    {
+      "title": "En åldersgräns för barns tillgång till sociala medier, SOU 2026:35",
+      "source": "Regeringen",
+      "type": "SOU",
+      "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202635/",
+      "date": "2026-06-02",
+      "committee": "Socialdepartementet",
+      "summary": "Utredningen om en åldersgräns på sociala medier har i delbetänkandet En åldersgräns för barns tillgång till sociala medier analyserat",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Sociala medier",
+        "sammanfattning": "Regeringen har tillsatt en utredning för att undersöka möjligheten att införa en åldersgräns för barns tillgång till sociala medier. Utredningen har nu presenterat sitt delbetänkande, som analyserar frågan och föreslår en åldersgräns. Förslaget syftar till att skydda barn från skadligt innehåll och påverkan på sociala medier. Utredningen har också undersökt hur en sådan åldersgräns skulle kunna implementeras och kontrolleras.",
+        "tech_vinkel": "Utredningen föreslår att sociala medier ska införa ålderskontroller för att säkerställa att barn under en viss ålder inte kan skapa konton eller komma åt viss typ av innehåll.",
+        "varfor_viktigt": "En åldersgräns för sociala medier kan ha en stor inverkan på barns och ungas användning av sociala medier och deras exponering för skadligt innehåll. Det kan också påverka sociala mediers ansvar och skyldigheter att skydda sina användare. Utredningens förslag kommer att vara viktigt för att skydda barns rättigheter och säkerhet på internet.",
+        "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar sociala mediers ansvar och skyldigheter att skydda sina användare",
+        "keywords": [
+          "åldersgräns",
+          "sociala medier",
+          "barnsäkerhet"
+        ],
+        "arende": "Åldersgräns för sociala medier",
+        "nasta_steg": "Utredningens förslag kommer att remitteras till berörda myndigheter och organisationer för yttrande, varefter regeringen kommer att fatta beslut om huruvida förslaget ska gå vidare till riksdagen för beslut.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-02",
+            "beskrivning": "Utredningens delbetänkande presenteras"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Riksrevisionens rapport om infiltration i staten",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03273.html",
+      "date": "2026-06-16",
+      "committee": "Justitiedepartementet",
+      "summary": "Regeringens skrivelse 2025/26:273\n Riksrevisionens rapport om infiltration i staten Skr. 2025/26:273\n Regeringen överlämnar denna skrivelse till riksdagen.\n Stockholm den 11 juni 2026\n Ulf Kristersson\n Gunnar Strömmer (Justitiedepartementet)\n Skrivelsens huvudsakliga innehåll\n I skrivelsen redogör regeringen för sin bedömning",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Cybersäkerhet",
+        "sammanfattning": "Regeringen överlämnar en skrivelse till riksdagen som redogör för Riksrevisionens rapport om infiltration i staten. Rapporten undersöker hur främmande makter och andra aktörer kan infiltrera svenska myndigheter och system. Skrivelsen beskriver regeringens bedömning av rapporens slutsatser och vilka åtgärder som vidtas för att stärka säkerheten. Denna rapport är en följd av ökad oro kring statlig cybersäkerhet.",
+        "tech_vinkel": "Rapporten om infiltration i staten kommer sannolikt att belysa sårbarheter i digital infrastruktur och system inom myndigheter, vilket kräver förbättrade tekniska säkerhetsåtgärder som autentisering, övervakning och incidenthantering.",
+        "varfor_viktigt": "Riksrevisionens rapport kan leda till skärpta krav på cybersäkerhet hos statliga myndigheter, vilket påverkar hur de hanterar digitala system och data. Resultaten kan också tvinga fram investeringar i ny teknik och kompetens för att skydda kritisk infrastruktur mot cyberattacker. En ökad transparens kring säkerhetsbrister kan även påverka allmänhetens förtroende för staten.",
+        "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet) är relevant, då rapporten sannolikt kommer att granska hur svenska myndigheter uppfyller dessa krav.",
+        "keywords": [
+          "cybersäkerhet",
+          "statlig infiltration",
+          "Riksrevisionen",
+          "myndighetssäkerhet"
+        ],
+        "arende": "NIS2-implementering",
+        "nasta_steg": "Riksdagen kommer nu att granska skrivelsen och eventuellt ta ställning till de åtgärder regeringen föreslår.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-16",
+            "beskrivning": "Skrivelsen överlämnas till riksdagen."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Effektivare kontrollmöjligheter i systemen för rot, rut, grön teknik och personalliggare",
+      "source": "Riksdagen",
+      "type": "Riksdagen/PROP",
+      "url": "https://data.riksdagen.se/dokument/HD03282.html",
+      "date": "2026-06-09",
+      "committee": "Finansdepartementet",
+      "summary": "Regeringens proposition 2025/26:282\n Effektivare kontrollmöjligheter i systemen för  Prop.  rot, rut, grön teknik och personalliggare  2025/26:282  Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 4 juni 2026\n Ulf Kristersson\n Elisabeth Svantesson (Finansdepartementet)\n Propositionens huvudsakliga",
+      "analysis": {
+        "relevans": "medel",
+        "tema": "Digital infrastruktur",
+        "sammanfattning": "Regeringen föreslår en proposition som syftar till att förbättra kontrollmöjligheterna i systemen för rot- och rutavdrag, bidrag för grön teknik samt personalliggare. Förslaget handlar om att stärka möjligheten för Skatteverket och andra myndigheter att säkerställa att avdragen och bidragen används korrekt. Detta inkluderar förbättringar i datainsamling och rapportering inom dessa system. Ändringarna påverkar främst hushåll, entreprenörer och företag som använder sig av rot- och rutavdrag samt de som söker bidrag för grön teknik.",
+        "tech_vinkel": "Propositionen implicerar behovet av att uppdatera och integrera digitala system för datainsamling, verifiering och rapportering inom de berörda områdena, vilket kräver tekniska lösningar för säker dataöverföring och analys.",
+        "varfor_viktigt": "Förbättrade kontrollmöjligheter kan minska fusk och felaktigheter i systemen, vilket leder till mer rättvisa bidrag och avdrag för skattebetalarna. Det stärker också Skatteverkets förmåga att upptäcka och motverka ekonomisk brottslighet relaterad till dessa tjänster. Effektivare digitala processer kan minska administrationens kostnader och förbättra användarupplevelsen.",
+        "eu_koppling": "Ingen direkt koppling till specifik EU-lagstiftning, men systemen måste följa GDPR (EU:s dataskyddsförordning) när personuppgifter hanteras.",
+        "keywords": [
+          "rot",
+          "rut",
+          "grön teknik",
+          "personalliggare",
+          "Skatteverket",
+          "digitalisering"
+        ],
+        "arende": "Digital infrastruktur",
+        "nasta_steg": "Propositionen kommer nu att behandlas i riksdagen, där utskottet kommer att granska förslaget och eventuellt föreslå ändringar innan det slutgiltigt beslutas om.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-06-09",
+            "beskrivning": "Propositionen lämnas till riksdagen."
           }
         ]
       }
