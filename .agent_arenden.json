@@ -1786,6 +1786,20 @@
         "tech_vinkel": "Rapporten fokuserar på dataskyddsombudens roll i att implementera och övervaka dataskyddsregler, särskilt i relation till EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning)."
       },
       {
+        "title": "Sanktions­avgifter mot Apoteket och Apohem för överföring av person­uppgifter till Meta",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/sanktionsavgifter-mot-apoteket-och-apohem-for-overforing-av-personuppgifter-till-meta/",
+        "source": "IMY",
+        "tech_vinkel": "Användningen av Meta-pixeln på webbplatserna har lett till överföring av personuppgifter till Meta, vilket är en specifik teknikfråga som rör dataskydd och integritet."
+      },
+      {
+        "title": "IMY ser över sin hantering av klagomål mot innehavare av utgivningsbevis",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/imy-ser-over-sin-hantering-av-klagomal-mot-innehavare-av-utgivningsbevis/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s översyn fokuserar på att säkerställa att hanteringen av klagomål mot innehavare av utgivningsbevis är förenlig med EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning)."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1903,8 +1917,8 @@
     "first_seen": "2026-07-06",
     "last_updated": "2026-07-06",
     "status": "aktiv",
-    "is_new_today": true,
-    "is_updated_today": false,
+    "is_new_today": false,
+    "is_updated_today": true,
     "next_step": "Nästa steg i processen kommer att vara att regeringen överväger IMY:s yttrande och andra synpunkter innan ett eventuellt förslag till lagändring läggs fram.",
     "documents": [
       {

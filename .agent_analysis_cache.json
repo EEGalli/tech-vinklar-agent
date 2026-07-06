@@ -8557,5 +8557,131 @@
     "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
     "summary": "Integritetsskyddsmyndigheten (IMY) har granskat kamerabevakningen på Aspuddens skola i Stockholm. I beslutet konstaterar IMY att bevakningen på dagtid har varit motiverad på vissa platser för att komma åt problem med anlagda bränder.",
     "cached_at": "2026-07-06"
+  },
+  "https://www.imy.se/nyheter/imy-lamnar-over-rapport-om-integritet-och-ny-teknik-till-regeringen/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY-rapport: Integritet och ny teknik",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har lämnat över en rapport till regeringen om integritet och ny teknik. I rapporten konstateras att Sverige bör satsa på forskning kring integritetsvänliga tekniker och att regeringen bör se över vilka effekter ny lagstiftning på brottsbekämpningsområdet och övervakningen i arbetslivet har fått på integritetsskyddet. IMY anser också att tiden är mogen för att se över integritetsskyddet i samhället. Rapporten är en del av IMY:s arbete med att skydda människors integritet i en alltmer digitaliserad värld.",
+      "tech_vinkel": "Rapporten pekar på vikten av att utveckla integritetsvänliga tekniker för att skydda människors personuppgifter och integritet i en digital värld.",
+      "varfor_viktigt": "Rapporten är viktig eftersom den lyfter fram vikten av att skydda människors integritet i en tid då tekniken utvecklas snabbt och alltmer personliga uppgifter samlas in och används. Det är också viktigt att regeringen ser över vilka effekter ny lagstiftning har fått på integritetsskyddet och att man tar till sig av IMY:s rekommendationer för att förbättra integritetsskyddet i Sverige. Detta kan ha stor påverkan på hur företag och myndigheter hanterar personuppgifter och integritet i framtiden.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "integritet",
+        "dataskydd",
+        "IMY",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Regeringen kommer att granska rapporten och överväga IMY:s rekommendationer för att förbättra integritetsskyddet i Sverige.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-01-28",
+          "beskrivning": "IMY-rapport: Integritet och ny teknik lämnas över till regeringen"
+        }
+      ]
+    },
+    "title": "IMY lämnar över rapport om integritet och ny teknik till regeringen",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 28 Jan 2025",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) lämnar i dag över sin senaste rapport om integritet och ny teknik till regeringen. I den konstaterar vi att Sverige bör satsa på forskning kring integritetsvänliga tekniker och att regeringen bör se över vilka effekter ny lagstiftning på brottsbekämpningsområdet och övervakningen i arbetslivet har fått på integritetsskyddet. Vi anser också att tiden är mogen för ",
+    "cached_at": "2026-07-06"
+  },
+  "https://www.imy.se/nyheter/eric-leijonram-ar-nu-generaldirektor-for-integritetsskyddsmyndigheten/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Eric Leijonram blir ny generaldirektör",
+      "sammanfattning": "Eric Leijonram har utsetts till ny generaldirektör för Integritetsskyddsmyndigheten, IMY. Han kommer från en tjänst som chefsjurist på Finansinspektionen. Detta beslut kan påverka hur IMY hanterar dataskyddsfrågor och övervakar företags efterlevnad av GDPR (EU:s dataskyddsförordning). Leijonram tillträder sin nya roll den 1 oktober 2024.",
+      "tech_vinkel": "Integritetsskyddsmyndigheten, IMY, ansvarar för att övervaka och säkerställa att företag och organisationer följer dataskyddsförordningen, GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan påverka hur IMY hanterar dataskyddsfrågor och övervakar företags efterlevnad av GDPR (EU:s dataskyddsförordning). Det kan också ha konsekvenser för företag och organisationer som måste följa dataskyddsförordningen. Eric Leijonrams bakgrund som chefsjurist på Finansinspektionen kan också ge en ny infallsvinkel på hur IMY hanterar dataskyddsfrågor.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "IMY",
+        "Dataskydd",
+        "GDPR"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2024-10-01",
+          "beskrivning": "IMY: Eric Leijonram tillträder som ny generaldirektör"
+        }
+      ]
+    },
+    "title": "Eric Leijonram är nu generaldirektör för Integritets­skydds­myndigheten",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 01 Oct 2024",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "I dag tillträder Eric Leijonram som generaldirektör och chef för Integritetsskyddsmyndigheten (IMY). Han kommer närmast från en tjänst som chefsjurist på Finansinspektionen.",
+    "cached_at": "2026-07-06"
+  },
+  "https://www.imy.se/nyheter/sanktionsavgifter-mot-apoteket-och-apohem-for-overforing-av-personuppgifter-till-meta/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Sanktionsavgifter mot Apoteket och Apohem",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, har beslutat om sanktionsavgifter mot Apoteket AB och Apohem AB. Bolagen har använt Meta-pixeln på sina webbplatser, vilket har lett till överföring av integritetskänsliga personuppgifter till Meta. Sanktionsavgiften uppgår till 37 miljoner kronor för Apoteket AB och 8 miljoner kronor för Apohem AB. Detta är ett exempel på hur IMY arbetar för att skydda personuppgifter och säkerställa att företag följer dataskyddslagstiftningen.",
+      "tech_vinkel": "Användningen av Meta-pixeln på webbplatserna har lett till överföring av personuppgifter till Meta, vilket är en specifik teknikfråga som rör dataskydd och integritet.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att IMY är aktiv i att skydda personuppgifter och säkerställa att företag följer dataskyddslagstiftningen. Det kan också ha en avskräckande effekt på andra företag som överväger att använda liknande metoder för att samla in personuppgifter. Dessutom kan detta beslut ha konsekvenser för hur företag använder sig av olika typer av spårningstekniker på sina webbplatser.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen), som är en EU-lagstiftning som reglerar skyddet av personuppgifter",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Meta-pixel",
+        "Integritetsskyddsmyndigheten"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Apoteket AB och Apohem AB kommer att behöva betala sanktionsavgiften och vidta åtgärder för att säkerställa att de följer dataskyddslagstiftningen i framtiden.",
+      "viktiga_datum": [
+        {
+          "datum": "2024-08-30",
+          "beskrivning": "GDPR-implementering: IMY beslutar om sanktionsavgifter mot Apoteket och Apohem"
+        }
+      ]
+    },
+    "title": "Sanktions­avgifter mot Apoteket och Apohem för överföring av person­uppgifter till Meta",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Fri, 30 Aug 2024",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) beslutar om sanktionsavgifter på 37 miljoner kronor mot Apoteket AB och 8 miljoner mot Apohem AB. Detta efter att bolagen använt den så kallade Meta-pixeln på sina webbplatser och överfört integritetskänsliga personuppgifter till Meta.",
+    "cached_at": "2026-07-06"
+  },
+  "https://www.imy.se/nyheter/imy-ser-over-sin-hantering-av-klagomal-mot-innehavare-av-utgivningsbevis/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Översyn av klagomål mot utgivningsbevis",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, ser över sin hantering av klagomål mot innehavare av frivilliga utgivningsbevis. Detta sker efter att kammarrätten har bedömt att grundlagsskyddet för utgivningsbevis inte alltid har företräde framför EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning). Syftet är att säkerställa att hanteringen av klagomål är förenlig med GDPR. Detta kan påverka hur klagomål mot utgivningsbevis hanteras i framtiden.",
+      "tech_vinkel": "IMY:s översyn fokuserar på att säkerställa att hanteringen av klagomål mot innehavare av utgivningsbevis är förenlig med EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Denna översyn är viktig eftersom den kan leda till förändringar i hur klagomål mot utgivningsbevis hanteras. Det kan också ha konsekvenser för hur grundlagsskyddet för utgivningsbevis balanseras mot dataskyddsförordningen. Detta kan påverka medieföretag och andra som hanterar personuppgifter.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "GDPR",
+        "dataskydd",
+        "utgivningsbevis"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "IMY kommer att presentera en rapport om sin översyn och eventuella förändringar i hanteringen av klagomål mot utgivningsbevis.",
+      "viktiga_datum": [
+        {
+          "datum": "2024-03-15",
+          "beskrivning": "IMY påbörjar översynen av sin hantering av klagomål mot utgivningsbevis"
+        }
+      ]
+    },
+    "title": "IMY ser över sin hantering av klagomål mot innehavare av utgivningsbevis",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Fri, 15 Mar 2024",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "IMY ser nu över sin hantering av klagomål mot innehavare av så kallade frivilliga utgivningsbevis. Bakgrunden är att kammarrätten har gjort bedömningen att grundlagsskyddet för utgivningsbevis inte alltid har företräde framför EU:s dataskyddsförordning, GDPR.",
+    "cached_at": "2026-07-06"
   }
 }

@@ -15899,6 +15899,37 @@
       }
     },
     {
+      "title": "Eric Leijonram är nu generaldirektör för Integritets­skydds­myndigheten",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/eric-leijonram-ar-nu-generaldirektor-for-integritetsskyddsmyndigheten/",
+      "date": "Tue, 01 Oct 2024",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "I dag tillträder Eric Leijonram som generaldirektör och chef för Integritetsskyddsmyndigheten (IMY). Han kommer närmast från en tjänst som chefsjurist på Finansinspektionen.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och GDPR",
+        "svensk_rubrik": "IMY: Eric Leijonram blir ny generaldirektör",
+        "sammanfattning": "Eric Leijonram har utsetts till ny generaldirektör för Integritetsskyddsmyndigheten, IMY. Han kommer från en tjänst som chefsjurist på Finansinspektionen. Detta beslut kan påverka hur IMY hanterar dataskyddsfrågor och övervakar företags efterlevnad av GDPR (EU:s dataskyddsförordning). Leijonram tillträder sin nya roll den 1 oktober 2024.",
+        "tech_vinkel": "Integritetsskyddsmyndigheten, IMY, ansvarar för att övervaka och säkerställa att företag och organisationer följer dataskyddsförordningen, GDPR (EU:s dataskyddsförordning).",
+        "varfor_viktigt": "Detta beslut är viktigt eftersom det kan påverka hur IMY hanterar dataskyddsfrågor och övervakar företags efterlevnad av GDPR (EU:s dataskyddsförordning). Det kan också ha konsekvenser för företag och organisationer som måste följa dataskyddsförordningen. Eric Leijonrams bakgrund som chefsjurist på Finansinspektionen kan också ge en ny infallsvinkel på hur IMY hanterar dataskyddsfrågor.",
+        "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+        "keywords": [
+          "IMY",
+          "Dataskydd",
+          "GDPR"
+        ],
+        "arende": "null",
+        "nasta_steg": "null",
+        "viktiga_datum": [
+          {
+            "datum": "2024-10-01",
+            "beskrivning": "IMY: Eric Leijonram tillträder som ny generaldirektör"
+          }
+        ]
+      }
+    },
+    {
       "title": "IMY yttrar sig om förslag till preventiva tvångsmedel",
       "source": "IMY",
       "type": "Svensk myndighet",
