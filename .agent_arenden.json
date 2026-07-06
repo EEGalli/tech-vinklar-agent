@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -537,7 +537,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -625,11 +625,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "IMY kommer att genomföra projektet i samarbete med Lidingö stad och Atea Sverige, och resultaten kommer att utvärderas och rapporteras.",
+    "next_step": "IMY kommer att börja arbeta med att implementera AI-förordningen och utföra de nya uppdrag som myndigheten har fått.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -751,6 +751,27 @@
         "tech_vinkel": "Projektet fokuserar på att använda generativ artificiell intelligens för att skapa effektivare handläggningsprocesser."
       },
       {
+        "title": "IMY inleder AI-projekt tillsammans med juristbyrån Familjens Jurist",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/imy-inleder-ai-projekt-tillsammans-med-juristbyran-familjens-jurist/",
+        "source": "IMY",
+        "tech_vinkel": "Projektet fokuserar på att ge vägledning i hur personuppgifter kan vidarebehandlas för att utveckla och använda AI, vilket är en specifik teknikfråga som berör dataskydd och AI."
+      },
+      {
+        "title": "IMY deltar i pilotprojekt för AI-regulatorisk sandlåda",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/imy-deltar-i-pilotprojekt-for-ai-regulatorisk-sandlada/",
+        "source": "IMY",
+        "tech_vinkel": "IMY deltar i ett pilotprojekt för att testa och utveckla regulatoriska ramverk för AI, med fokus på AI Act (EU:s AI-förordning)."
+      },
+      {
+        "title": "AI-förordningen kommer med nya uppdrag till IMY",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/ai-forordningen-kommer-med-nya-uppdrag-till-imy/",
+        "source": "IMY",
+        "tech_vinkel": "AI-förordningen innehåller specifika bestämmelser om användningen av artificiell intelligens, inklusive krav på transparens och ansvarsskyldighet för utvecklare av AI-system."
+      },
+      {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
@@ -839,7 +860,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -878,7 +899,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -970,7 +991,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1093,7 +1114,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1238,7 +1259,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1373,11 +1394,11 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Avanza Bank AB kommer att behöva betala sanktionsavgiften och vidta åtgärder för att säkerställa att de följer dataskyddsförordningen i framtiden.",
+    "next_step": "Rapporten kommer att användas som underlag för att utveckla ytterligare riktlinjer och verktyg för dataskyddsombuden.",
     "documents": [
       {
         "title": "Gemensam mall på gång för anmälan av personuppgiftsincidenter",
@@ -1730,6 +1751,41 @@
         "tech_vinkel": "Användningen av Meta-pixel på Avanzas webbplats och app har möjliggjort överföring av personuppgifter till Meta, vilket är en specifik teknikfråga som berör dataskydd och integritet."
       },
       {
+        "title": "EDPB yttrar sig över träning och användning av AI-modeller",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/edpb-yttrar-sig-over-traning-och-anvandning-av-ai-modeller/",
+        "source": "IMY",
+        "tech_vinkel": "EDPB:s yttrande fokuserar specifikt på behandling av personuppgifter vid utveckling och användning av AI-modeller, vilket är en viktig tech-fråga."
+      },
+      {
+        "title": "Nya föreskrifter förenklar för företag att genomföra kontroller mot sanktionslistor",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/nya-foreskrifter-forenklar-for-foretag-att-genomfora-kontroller-mot-sanktionslistor/",
+        "source": "IMY",
+        "tech_vinkel": "De nya föreskrifterna från IMY specifikt tillåter företag att använda automatiserad behandling av personuppgifter för att kontrollera mot sanktionslistor, under förutsättning att de uppfyller kraven enligt dataskyddsförordningen (GDPR)."
+      },
+      {
+        "title": "IMY fastställer krav för ackreditering av certifierings­organ",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/imy-faststaller-krav-for-ackreditering-av-certifieringsorgan/",
+        "source": "IMY",
+        "tech_vinkel": "Kraven för ackreditering av certifieringsorgan enligt dataskyddsförordningen, GDPR (EU:s dataskyddsförordning), är en specifik tech-vinkel i detta dokument."
+      },
+      {
+        "title": "IMY söker DSO:er till referensgrupper",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/imy-soker-dsoer-till-referensgrupper/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s referensgrupper kommer att fokusera på dataskyddsfrågor relaterade till General Data Protection Regulation (GDPR), som är en EU-lagstiftning som reglerar hur personuppgifter ska hanteras."
+      },
+      {
+        "title": "EDPB publicerar rapport om dataskyddsombudens roll och ställning",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/edpb-publicerar-rapport-om-dataskyddsombudens-roll-och-stallning/",
+        "source": "IMY",
+        "tech_vinkel": "Rapporten fokuserar på dataskyddsombudens roll i att implementera och övervaka dataskyddsregler, särskilt i relation till EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning)."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1766,7 +1822,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1784,7 +1840,7 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1802,7 +1858,7 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1820,7 +1876,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1839,6 +1895,24 @@
         "url": "https://www.imy.se/nyheter/imy-yttrar-sig-over-forslag-till-andrade-regler-for-kamerabevakning/",
         "source": "IMY",
         "tech_vinkel": "Förslaget innehåller specifika bestämmelser om användningen av kamerabevakningsteknik, inklusive krav på dataskydd och säkerhet för inspelade uppgifter."
+      }
+    ]
+  },
+  "Biometriutredning": {
+    "name": "Biometriutredning",
+    "first_seen": "2026-07-06",
+    "last_updated": "2026-07-06",
+    "status": "aktiv",
+    "is_new_today": true,
+    "is_updated_today": false,
+    "next_step": "Nästa steg i processen kommer att vara att regeringen överväger IMY:s yttrande och andra synpunkter innan ett eventuellt förslag till lagändring läggs fram.",
+    "documents": [
+      {
+        "title": "IMY avstyrker förslaget att göra passregistret till ett biometriskt register",
+        "date": "2026-07-06",
+        "url": "https://www.imy.se/nyheter/imy-avstyrker-forslaget-att-gora-passregistret-till-ett-biometriskt-register/",
+        "source": "IMY",
+        "tech_vinkel": "Förslaget att omvandla passregistret till ett biometriskt register är en specifik tech-fråga som berör hur biometrisk data, som ansiktsbilder och fingeravtryck, ska samlas in, lagras och användas av myndigheter."
       }
     ]
   }

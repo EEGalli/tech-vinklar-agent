@@ -1002,5 +1002,21 @@
       "url": "https://www.imy.se/nyheter/fran-1-april-galler-nya-regler-for-verksamheter-som-kamerabevakar/",
       "arende": "Kamerabevakningsregler"
     }
+  ],
+  "2023-10-24": [
+    {
+      "beskrivning": "Biometriutredning: IMY avstyrker förslag om biometriskt passregister",
+      "title": "IMY avstyrker förslaget att göra passregistret till ett biometriskt register",
+      "url": "https://www.imy.se/nyheter/imy-avstyrker-forslaget-att-gora-passregistret-till-ett-biometriskt-register/",
+      "arende": "Biometriutredning"
+    }
+  ],
+  "2023-10-04": [
+    {
+      "beskrivning": "IMY:s beslut om kamerabevakning på Aspuddens skola offentliggörs",
+      "title": "Skola får kamerabevaka för att förebygga anlagda bränder",
+      "url": "https://www.imy.se/nyheter/skola-far-kamerabevaka-for-att-forebygga-anlagda-brander/",
+      "arende": null
+    }
   ]
 }
