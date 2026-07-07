@@ -9386,5 +9386,31 @@
     "committee": "Myndigheten för samhällsskydd och beredskap / Civilt försvar (cyber, NIS2)",
     "summary": "Cybersäkerhetslagen som trädde i kraft i januari 2026 ställer krav på företag och myndigheter inom samhällsviktig verksamhet att hålla en hög nivå av cybersäkerhet.",
     "cached_at": "2026-07-07"
+  },
+  "https://www.mcf.se/sv/aktuellt/nyheter/2026/juni/skyddsrumstema-i-befolkningsskyddsradet/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Skyddsrumstema: Ny lag om skyddsrum",
+      "sammanfattning": "Myndigheten för samhällsskydd och beredskap har presenterat en ny lag om skyddsrum och skyddade utrymmen. Lagen inför ett nytt skyddsalternativ och definierar det, samt förtydligar kraven på kontroll och underhåll av skyddsrum. Parallellt med detta pågår ett arbete med att ta fram nya föreskrifter inom området. Lagen syftar till att förbättra skyddet för befolkningen i händelse av kris eller katastrof.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Den nya lagen om skyddsrum och skyddade utrymmen är viktig eftersom den syftar till att förbättra skyddet för befolkningen i händelse av kris eller katastrof. Lagen kan påverka hur skyddsrum och skyddade utrymmen utformas och underhålls, vilket i sin tur kan påverka säkerheten för människor i nödsituationer. Det är också viktigt att notera att lagen är en del av ett större arbete med att förbättra samhällsskyddet och beredskapen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "skyddsrum",
+        "samhällsskydd",
+        "beredskap"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Skyddsrumstema i befolkningsskyddsrådet",
+    "source": "MSB",
+    "type": "Svensk myndighet",
+    "date": "Mon, 22 Jun 2026",
+    "committee": "Myndigheten för samhällsskydd och beredskap / Civilt försvar (cyber, NIS2)",
+    "summary": "Den nya lagen om skyddsrum och skyddade utrymmen presenterades, där ett nytt skyddsalternativ införs och definieras, och kraven på kontroll och underhåll av skyddsrum förtydligas. Parallellt pågår ett omfattande arbete med att ta fram ett tiotal nya föreskrifter inom området.",
+    "cached_at": "2026-07-07"
   }
 }
