@@ -887,6 +887,12 @@
       "title": "Uppföljning av den nationella strategin mot organiserad brottslighet",
       "url": "https://data.riksdagen.se/dokument/HD03274.html",
       "arende": "Kartläggning av sociala mediers algoritmer"
+    },
+    {
+      "beskrivning": "Google och EU-kommissionen: Möte för att diskutera dataskydd och konkurrens",
+      "title": "Google says it’s protecting our privacy. The EU thinks it’s guarding a monopoly.",
+      "url": "https://www.politico.eu/article/google-says-its-protecting-our-privacy-the-eu-thinks-its-guarding-its-monopoly/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "arende": "Google Android-böter"
     }
   ],
   "2026-07-18": [
@@ -1025,6 +1031,22 @@
       "title": "Eric Leijonram är nu generaldirektör för Integritets­skydds­myndigheten",
       "url": "https://www.imy.se/nyheter/eric-leijonram-ar-nu-generaldirektor-for-integritetsskyddsmyndigheten/",
       "arende": "null"
+    }
+  ],
+  "2023-05-17": [
+    {
+      "beskrivning": "Nordiskt samarbete kring EU:s digitala årtionde: Gemensam förklaring antagen",
+      "title": "Nordiskt samarbete kring EU:s digitala årtionde",
+      "url": "https://www.imy.se/nyheter/nordiskt-samarbete-kring-eus-digitala-artionde/",
+      "arende": "Digitala decenniet-initiativet"
+    }
+  ],
+  "2026-01-01": [
+    {
+      "beskrivning": "Cybersäkerhetslagen trädde i kraft",
+      "title": "Krav på säkerhetsåtgärder som stärker cybersäkerheten",
+      "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/juni/krav-pa-sakerhetsatgarder-som-starker-cybersakerheten/",
+      "arende": "NIS2-implementering"
     }
   ]
 }

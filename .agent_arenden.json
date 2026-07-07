@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -537,7 +537,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -593,6 +593,13 @@
         "tech_vinkel": "Rapporten om infiltration i staten kommer sannolikt att belysa sårbarheter i digital infrastruktur och system inom myndigheter, vilket kräver förbättrade tekniska säkerhetsåtgärder som autentisering, övervakning och incidenthantering."
       },
       {
+        "title": "Krav på säkerhetsåtgärder som stärker cybersäkerheten",
+        "date": "2026-07-07",
+        "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/juni/krav-pa-sakerhetsatgarder-som-starker-cybersakerheten/",
+        "source": "MSB",
+        "tech_vinkel": "Cybersäkerhetslagen kräver att företag och myndigheter inom samhällsviktig verksamhet implementerar specifika säkerhetsåtgärder, såsom kryptering, brandväggar och incidenthantering, för att skydda mot cyberhot."
+      },
+      {
         "title": "International Cooperation",
         "date": "Mon, 09 Fe",
         "url": "https://www.enisa.europa.eu/about-enisa/international-cooperation",
@@ -625,11 +632,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "IMY kommer att börja arbeta med att implementera AI-förordningen och utföra de nya uppdrag som myndigheten har fått.",
+    "next_step": "IMY kommer att utvärdera resultaten från pilotprojektet och överväga hur de kan implementeras i framtida arbeten med AI-relaterade frågor.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -772,6 +779,13 @@
         "tech_vinkel": "AI-förordningen innehåller specifika bestämmelser om användningen av artificiell intelligens, inklusive krav på transparens och ansvarsskyldighet för utvecklare av AI-system."
       },
       {
+        "title": "Framgångsrik pilot med regulatorisk testverksamhet om AI",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/framgangsrik-pilot-med-regulatorisk-testverksamhet-om-ai/",
+        "source": "IMY",
+        "tech_vinkel": "Pilotprojektet fokuserade specifikt på decentraliserad AI mellan två vårdgivare, vilket är en viktig teknisk aspekt inom AI-utveckling."
+      },
+      {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
@@ -860,7 +874,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -899,7 +913,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -991,7 +1005,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1114,7 +1128,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1259,7 +1273,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1334,12 +1348,19 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "EU-kommissionen kommer att fortsätta att övervaka medlemsstaternas framsteg mot att uppnå Digital Decade 2030-målen och ge stöd och vägledning där det behövs.",
+    "next_step": "Det nordiska samarbetet kommer att fortsätta att utveckla och implementera åtgärder för att stärka dataskyddet och integriteten i Norden.",
     "documents": [
+      {
+        "title": "Nordiskt samarbete kring EU:s digitala årtionde",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/nordiskt-samarbete-kring-eus-digitala-artionde/",
+        "source": "IMY",
+        "tech_vinkel": "Det nordiska samarbetet kommer att fokusera på att implementera EU:s digitala årtionde-initiativ, som inkluderar frågor om dataskydd och integritet."
+      },
       {
         "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
         "date": "Wed, 17 Ju",
@@ -1394,11 +1415,11 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Rapporten kommer att användas som underlag för att utveckla ytterligare riktlinjer och verktyg för dataskyddsombuden.",
+    "next_step": "Region Skåne måste nu betala sanktionsavgiften och vidta åtgärder för att förbättra sin dataskyddshantering, under övervakning av IMY.",
     "documents": [
       {
         "title": "Gemensam mall på gång för anmälan av personuppgiftsincidenter",
@@ -1800,6 +1821,76 @@
         "tech_vinkel": "IMY:s översyn fokuserar på att säkerställa att hanteringen av klagomål mot innehavare av utgivningsbevis är förenlig med EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning)."
       },
       {
+        "title": "IMY klar med fördjupade granskningar av dataskyddsombudens roll",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/imy-klar-med-fordjupade-granskningar-av-dataskyddsombudens-roll/",
+        "source": "IMY",
+        "tech_vinkel": "Granskningen fokuserar på dataskyddsombudens roll och hur de hanterar intressekonflikter, vilket är en central del av dataskyddsförordningen, GDPR (EU:s dataskyddsförordning)."
+      },
+      {
+        "title": "IMY:s tillsynsplan för 2024",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/imys-tillsynsplan-for-2024/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s tillsynsplan för 2024 innehåller en specifik punkt om granskning av kommuners arbete med GDPR (EU:s dataskyddsförordning) och nya tekniska lösningar inom kamerabevakning, vilket är en tydlig tech-vinkel."
+      },
+      {
+        "title": "Sanktionsavgift mot bolag som skickat kunduppgifter fel",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-bolag-som-skickat-kunduppgifter-fel/",
+        "source": "IMY",
+        "tech_vinkel": "Sanktionsavgiften är en direkt följd av bolagets brott mot GDPR (EU:s dataskyddsförordning), som är EU:s lagstiftning om skydd för personuppgifter. Det handlar specifikt om hur bolaget hanterade känsliga uppgifter om sina kunder."
+      },
+      {
+        "title": "IMY rapporterar iakttagelser från DSO-tillsyner till EDPB",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/imy-rapporterar-iakttagelser-fran-dso-tillsyner-till-edpb/",
+        "source": "IMY",
+        "tech_vinkel": "IMY:s rapport fokuserar på dataskyddsombudens roll i att säkerställa att företag och organisationer följer den allmänna dataskyddsförordningen (GDPR), som är en central tech-fråga inom dataskydd."
+      },
+      {
+        "title": "Nya föreskrifter ska förenkla för vissa bolag att hantera uppgifter om lagöverträdelser",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/nya-foreskrifter-ska-forenkla-for-vissa-bolag-att-hantera-uppgifter-om-lagovertradelser/",
+        "source": "IMY",
+        "tech_vinkel": "Förslaget handlar om hantering av personuppgifter om lagöverträdelser, vilket är en specifik teknikfråga inom dataskydd och GDPR (EU:s dataskyddsförordning)."
+      },
+      {
+        "title": "Sanktionsavgift på 35 miljoner mot Trygg-Hansa",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/sanktionsavgift-pa-35-miljoner-mot-trygg-hansa/",
+        "source": "IMY",
+        "tech_vinkel": "Sanktionsavgiften är en direkt följd av Trygg-Hansas bristande efterlevnad av dataskyddsförordningen, GDPR (EU:s dataskyddsförordning), som kräver att företag skyddar personuppgifter genom lämpliga tekniska och organisatoriska åtgärder."
+      },
+      {
+        "title": "Vklass måste skärpa säkerheten",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/vklass-maste-skarpa-sakerheten/",
+        "source": "IMY",
+        "tech_vinkel": "IMY kräver att Vklass förbättrar sin förmåga att upptäcka och utreda personuppgiftsincidenter, vilket är en specifik teknisk åtgärd för att stärka datasäkerheten."
+      },
+      {
+        "title": "IMY inleder bred granskning av dataskyddsombudens roll och ställning",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/imy-inleder-bred-granskning-av-dataskyddsombudens-roll-och-stallning/",
+        "source": "IMY",
+        "tech_vinkel": "Granskningen kommer att fokusera på dataskyddsombudens roll i att implementera och övervaka dataskyddsbestämmelser enligt GDPR (EU:s dataskyddsförordning), vilket är en specifik teknikfråga som rör skyddet av personuppgifter."
+      },
+      {
+        "title": "Tillsynsplan 2023 är publicerad",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/tillsynsplan-2023-ar-publicerad/",
+        "source": "IMY",
+        "tech_vinkel": "Tillsynsplanen kommer att fokusera på granskningar av kamerabevakning på allmän plats, vilket är en teknikfråga som berör dataskydd och integritet."
+      },
+      {
+        "title": "Sanktionsavgift mot Region Skåne",
+        "date": "2026-07-07",
+        "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-region-skane/",
+        "source": "IMY",
+        "tech_vinkel": "Det specifika tekniska problemet i detta fall är användningen av okrypterade usb-minnen för att lagra känsliga personuppgifter, vilket strider mot GDPR (EU:s dataskyddsförordning):s krav på lämpliga tekniska och organisatoriska åtgärder för att skydda personuppgifter."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1836,7 +1927,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1854,7 +1945,7 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1866,13 +1957,20 @@
         "url": "https://www.politico.eu/article/top-eu-court-upholds-google-android-fine-in-landmark-antitrust-case/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
         "source": "Politico EU Tech",
         "tech_vinkel": "Domen handlar specifikt om hur Google har använt sitt operativsystem Android för att främja sina egna tjänster och begränsa konkurrenter."
+      },
+      {
+        "title": "Google says it’s protecting our privacy. The EU thinks it’s guarding a monopoly.",
+        "date": "2026-07-07",
+        "url": "https://www.politico.eu/article/google-says-its-protecting-our-privacy-the-eu-thinks-its-guarding-its-monopoly/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "source": "Politico EU Tech",
+        "tech_vinkel": "EU-kommissionen undersöker specifikt om Google:s sökmotor-algoritmer och datainsamling kan öppnas för konkurrenter utan att bryta mot dataskyddsförordningen (GDPR)."
       }
     ]
   },
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1890,7 +1988,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1915,7 +2013,7 @@
   "Biometriutredning": {
     "name": "Biometriutredning",
     "first_seen": "2026-07-06",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
