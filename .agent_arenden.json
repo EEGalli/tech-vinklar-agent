@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -104,6 +104,13 @@
         "url": "https://data.riksdagen.se/dokument/HD03290.html",
         "source": "Riksdagen",
         "tech_vinkel": "Propositionen rör Sveriges utrikes underrättelsetjänst, vilket implicerar användningen av digitala verktyg och tekniker för informationsinsamling, analys och kommunikation – inklusive potentiellt övervakningsteknik och krypteringslösningar."
+      },
+      {
+        "title": "Cyberverksamheten samlas hos FRA – övergång till Nationellt cybersäkerhetscenter den 1 juli 2026",
+        "date": "2026-07-08",
+        "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/juni/cyberverksamheten-samlas-hos-fra--overgang-till-nationellt-cybersakerhetscenter-den-1-juli-2026/",
+        "source": "MSB",
+        "tech_vinkel": "Försvarets radioanstalt (FRA) kommer att ansvara för det Nationella cybersäkerhetscentret, som ska stärka Sveriges förmåga att hantera och förebygga cyberhot."
       },
       {
         "title": "What are the specific conditions for contractors to join the Reserve?",
@@ -537,7 +544,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -600,6 +607,20 @@
         "tech_vinkel": "Cybersäkerhetslagen kräver att företag och myndigheter inom samhällsviktig verksamhet implementerar specifika säkerhetsåtgärder, såsom kryptering, brandväggar och incidenthantering, för att skydda mot cyberhot."
       },
       {
+        "title": "Remissperioder för föreskrifter enligt ny cybersäkerhetslag",
+        "date": "2026-07-08",
+        "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/mars/remissperioder-for-foreskrifter-enligt-ny-cybersakerhetslag/",
+        "source": "MSB",
+        "tech_vinkel": "Föreskrifterna kommer att reglera cybersäkerhetskraven för kritiska verksamheter, vilket inkluderar skyldigheter att rapportera cyberincidenter och att genomföra regelbundna säkerhetsrevisioner."
+      },
+      {
+        "title": "Många cyberangrepp kan kopplas till geopolitiska händelser",
+        "date": "2026-07-08",
+        "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/mars/manga-cyberangrepp-kan-kopplas-till-geopolitiska-handelser/",
+        "source": "MSB",
+        "tech_vinkel": "Rapporten nämner specifikt cyberangrepp som en viktig teknikfråga som påverkar samhällsskydd och beredskap."
+      },
+      {
         "title": "International Cooperation",
         "date": "Mon, 09 Fe",
         "url": "https://www.enisa.europa.eu/about-enisa/international-cooperation",
@@ -632,7 +653,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -874,7 +895,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -913,7 +934,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1005,7 +1026,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1128,7 +1149,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1273,7 +1294,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1348,7 +1369,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1415,7 +1436,7 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1891,6 +1912,20 @@
         "tech_vinkel": "Det specifika tekniska problemet i detta fall är användningen av okrypterade usb-minnen för att lagra känsliga personuppgifter, vilket strider mot GDPR (EU:s dataskyddsförordning):s krav på lämpliga tekniska och organisatoriska åtgärder för att skydda personuppgifter."
       },
       {
+        "title": "Sanktionsavgift mot kommun som inte bedömt konsekvenser innan Google Workspace infördes",
+        "date": "2026-07-08",
+        "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-kommun-som-inte-bedomt-konsekvenser-innan-google-workspace-infordes/",
+        "source": "IMY",
+        "tech_vinkel": "IMY har fastställt att kommunen inte följde GDPR (EU:s dataskyddsförordning)-lagstiftningen när de införde Google Workspace, som är en molnbaserad plattform för skolor."
+      },
+      {
+        "title": "Sanktionsavgift mot Spotify",
+        "date": "2026-07-08",
+        "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-spotify/",
+        "source": "IMY",
+        "tech_vinkel": "IMY har funnit att Spotify inte har tillgodosett kundernas rätt att få tillgång till sina personuppgifter i enlighet med dataskyddsförordningen (GDPR), vilket är en specifik teknikfråga som rör hantering av personuppgifter."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1927,7 +1962,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1945,7 +1980,7 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1970,7 +2005,7 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1988,7 +2023,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2013,7 +2048,7 @@
   "Biometriutredning": {
     "name": "Biometriutredning",
     "first_seen": "2026-07-06",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
