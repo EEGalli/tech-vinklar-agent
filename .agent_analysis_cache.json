@@ -9987,5 +9987,67 @@
     "committee": "Europeiska rymdbyrån",
     "summary": "",
     "cached_at": "2026-07-08"
+  },
+  "https://www.imy.se/nyheter/imy-soker-innovationsprojekt-med-rattsliga-dataskyddsutmaningar/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Innovationsprojekt med dataskyddsutmaningar",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) söker innovationsprojekt som hanterar rättsliga dataskyddsutmaningar. Detta ingår i myndighetens regulatoriska sandlåda, där innovationsprojekt kan få vägledning i gråzonsfrågor om dataskydd. Sista dag för intresseanmälan är den 1 december. Detta initiativ syftar till att stödja företag och organisationer i att utveckla nya lösningar som är förenliga med dataskyddslagstiftningen.",
+      "tech_vinkel": "Innovationsprojekten kommer att få vägledning i gråzonsfrågor om dataskydd, vilket innebär att de kommer att arbeta med specifika tekniska lösningar för att hantera dataskyddsutmaningar.",
+      "varfor_viktigt": "Detta initiativ är viktigt eftersom det kan bidra till att öka företagens och organisationernas förmåga att hantera dataskyddsutmaningar. Det kan också leda till utvecklingen av nya lösningar som är förenliga med dataskyddslagstiftningen, vilket kan stärka skyddet av personuppgifter. Dessutom kan detta initiativ bidra till att främja innovation och tillväxt inom områden som är beroende av dataskydd.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "innovationsprojekt"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Innovationsprojekten kommer att genomgå en utvärderingsprocess, och de som väljs ut kommer att få vägledning och stöd från IMY.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-12-01",
+          "beskrivning": "IMY: Sista dag för intresseanmälan till innovationsprojekt med dataskyddsutmaningar"
+        }
+      ]
+    },
+    "title": "IMY söker innovationsprojekt med rättsliga dataskydds­utmaningar",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 23 Oct 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Idag öppnar Integritetsskyddsmyndigheten, IMY, intresseanmälan till myndighetens regulatoriska sandlåda. Innovationsprojekt får fördjupad vägledning i gråzonsfrågor om dataskydd. Sista dag för intresseanmälan är den 1 december.",
+    "cached_at": "2026-07-08"
+  },
+  "https://www.imy.se/nyheter/imy-faststaller-krav-for-overvakningsorgan-av-uppforandekoder/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Krav för övervakningsorgan av uppförandekoder",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har fastställt krav för ackreditering av övervakningsorgan som ska granska uppförandekoder. Dessa uppförandekoder är ett sätt för företag att visa att de följer dataskyddsreglerna. Beslutet gör det möjligt för branschorgan och andra intresseorganisationer att utarbeta sådana koder. Detta är ett steg i rätt riktning för att stärka dataskyddet i Sverige.",
+      "tech_vinkel": "Kraven för ackreditering av övervakningsorgan avser specifikt uppförandekoder som ska säkerställa att företag följer dataskyddsreglerna enligt GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan bidra till att öka förtroendet för hur företag hanterar personuppgifter. Uppförandekoderna kan också ge företag en möjlighet att visa att de tar dataskyddet på allvar. Dessutom kan detta leda till en mer enhetlig tillämpning av dataskyddsreglerna i Sverige.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "uppförandekoder"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Företag och organisationer kommer nu att kunna ansöka om ackreditering för att granska uppförandekoder, vilket förväntas leda till en ökad användning av sådana koder i dataskyddsarbetet.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-09-07",
+          "beskrivning": "IMY: Krav för övervakningsorgan av uppförandekoder publiceras"
+        }
+      ]
+    },
+    "title": "IMY fastställer krav för övervakningsorgan av uppförandekoder",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 07 Sep 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har fastställt krav för ackreditering av övervakningsorgan. Beslutet gör det möjligt för branschorgan och andra intresseorganisationer att utarbeta uppförandekoder, ett självregleringsverktyg som bland annat företag kan använda för det interna dataskyddsarbetet.",
+    "cached_at": "2026-07-08"
   }
 }
