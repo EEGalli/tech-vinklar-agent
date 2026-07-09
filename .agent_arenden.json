@@ -1461,7 +1461,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Resultatet från undersökningen kommer att presenteras och kan leda till rekommendationer för förbättringar i dataskyddet.",
+    "next_step": "EDPB:s vägledning kommer att användas som en referenspunkt för företag och organisationer som arbetar med personuppgifter i Europa.",
     "documents": [
       {
         "title": "Gemensam mall på gång för anmälan av personuppgiftsincidenter",
@@ -1973,6 +1973,20 @@
         "url": "https://www.imy.se/nyheter/samordnad-undersokning-av-dataskyddsombudens-roll/",
         "source": "IMY",
         "tech_vinkel": "Undersökningen fokuserar på dataskyddsombudens roll i att implementera och upprätthålla dataskyddsförordningen, inklusive deras ansvar för att övervaka och rapportera dataskyddsincidenter."
+      },
+      {
+        "title": "Fel använda kunders personuppgifter för profilering utan samtycke",
+        "date": "2026-07-09",
+        "url": "https://www.imy.se/nyheter/fel-anvanda-kunders-personuppgifter-for-profilering-utan-samtycke/",
+        "source": "IMY",
+        "tech_vinkel": "IMY har fastställt att Bonniers hantering av personuppgifter för profilering utan samtycke bryter mot artikel 6 i GDPR (EU:s dataskyddsförordning), som reglerar den lagliga grunden för behandling av personuppgifter."
+      },
+      {
+        "title": "EDPB sheds light on anonymisation and web scraping for generative AI and adopts final version of guidelines on blockchain",
+        "date": "2026-07-09",
+        "url": "https://www.edpb.europa.eu/news/edpb-sheds-light-on-anonymisation-and-web-scraping-for-generative-ai-and-adopts-final-version_en",
+        "source": "EDPB",
+        "tech_vinkel": "EDPB:s vägledning innehåller specifika riktlinjer för hur man kan anonymisera data för att använda dem i generativ AI, samt hur webbskrapning kan användas på ett sätt som respekterar personuppgiftslagen."
       },
       {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",

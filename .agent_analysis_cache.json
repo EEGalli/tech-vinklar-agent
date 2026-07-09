@@ -10422,5 +10422,131 @@
     "committee": "Klimat- och näringslivsdepartementet",
     "summary": "Här kan du ta del av till vilka instanser som regeringen har remitterat Kärnkraftsprövningsutredningens slutbetänkande Ny kärnkraft i Sverige -",
     "cached_at": "2026-07-09"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260707CAN79232": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Ekonomisk dialog med Simon Harris",
+      "sammanfattning": "EU-parlamentets utskott för ekonomi och valuta, EU-parlamentet:s ekonomiutskott (ECON), kommer att ha en ekonomisk dialog med Simon Harris, som är ordförande för ECOFIN och Irlands vice premiärminister och finansminister. Syftet är att presentera de prioriteringar som den irländska ordförandeskapet i Europeiska unionens råd har inom området ekonomi och finansiella frågor. Det handlar om att främja unionens konkurrenskraft, motståndskraft och finansiell hållbarhet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det kan ge insikt i den ekonomiska politiken och de prioriteringar som den irländska ordförandeskapet har. Det kan också påverka den ekonomiska utvecklingen i Europa och hur unionen hanterar ekonomiska utmaningar. Det är dock inte direkt relaterat till specifika tech-frågor.",
+      "eu_koppling": "null",
+      "keywords": [
+        "ekonomi",
+        "EU",
+        "Irland"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-15",
+          "beskrivning": "Ekonomisk dialog med Simon Harris, ECOFIN-president"
+        }
+      ]
+    },
+    "title": "Highlights - Economic Dialogue with Simon Harris, ECOFIN President - Committee on Economic and Monetary Affairs",
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "ECON",
+    "summary": "On Wednesday 15 July 2026, Mr Simon Harris, ECOFIN President,  Tánaiste and Minister of Finance of Ireland will appear before ECON to present the priorities of the Irish Presidency of the Council of the European Union in the area of economic and financial affairs.   As outlined in the Presidency's six-month work programme, advancing work on the Union's competitiveness, resilience and fiscal sustai",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260708CAN79265": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "TRAN-kommittén: Bränslepriser efter Mellanöstern-krisen",
+      "sammanfattning": "EU-parlamentets transport- och turismkommitté, EP-utskottet för transport (TRAN), kommer att hålla ett möte den 15 juli där de kommer att diskutera effekterna av Mellanöstern-krisen på bränslepriser och luftfart. Kommittén kommer att lyssna på två experter som kommer att ge en muntlig redogörelse för de senaste utvecklingarna och effekterna av krisen. Mötet kommer att webbsändas.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det kommer att diskutera effekterna av Mellanöstern-krisen på luftfart och bränslepriser, vilket kan ha en stor inverkan på resenärer och transportföretag. Kommitténs diskussioner kan också ge insikt i hur EU kan hantera liknande kriser i framtiden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Mellanöstern-krisen",
+        "bränslepriser",
+        "luftfart"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-15",
+          "beskrivning": "TRAN-kommittén: Möte om bränslepriser efter Mellanöstern-krisen"
+        }
+      ]
+    },
+    "title": "Highlights - Oral Briefing: The Impact of Fuels Prices in the Aftermath of the Middle East Crisis - Committee on Transport and Tourism",
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "TRAN",
+    "summary": "The TRAN Committee will host two experts for an oral briefing to discuss the most recent developments and impacts of the Middle East Crisis on air fuels supply and prices and on air network and fares for travellers.    The briefing will take place during the TRAN Committee meeting on 15 July and will be webstreamed.    Agenda 15/07/2026 - Committee on Transport and Tourism Ordinary Meeting   Webst",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.imy.se/nyheter/fel-anvanda-kunders-personuppgifter-for-profilering-utan-samtycke/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Bonnier får sanktionsavgift för otillåten profilering",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har utfärdat en administrativ sanktionsavgift på 13 miljoner kronor mot Bonnier. Detta är en följd av att koncernen har profilerat sina kunder och webbesökare utan deras samtycke. Detta strider mot reglerna i GDPR (EU:s dataskyddsförordning), som kräver att personuppgifter hanteras på ett lagligt och transparent sätt. IMY:s beslut visar att myndigheten är aktiv i att skydda människors integritet och se till att företag följer dataskyddslagstiftningen.",
+      "tech_vinkel": "IMY har fastställt att Bonniers hantering av personuppgifter för profilering utan samtycke bryter mot artikel 6 i GDPR (EU:s dataskyddsförordning), som reglerar den lagliga grunden för behandling av personuppgifter.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att IMY är beredd att vidta kraftfulla åtgärder mot företag som bryter mot dataskyddslagstiftningen. Det sänder också en tydlig signal till andra företag om vikten av att respektera människors integritet och följa reglerna för hantering av personuppgifter. Dessutom kan detta beslut ha en avskräckande effekt på andra företag som överväger att bryta mot dataskyddslagstiftningen.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen), som är en EU-lagstiftning som reglerar hantering av personuppgifter inom EU.",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Profilering",
+        "Integritetsskyddsmyndigheten"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Bonnier kan överklaga beslutet till förvaltningsrätten, men om beslutet står fast kan det leda till en ökad medvetenhet och regelefterlevnad bland företag i Sverige.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-06-27",
+          "beskrivning": "IMY: Bonnier får sanktionsavgift för otillåten profilering"
+        }
+      ]
+    },
+    "title": "Fel använda kunders personuppgifter för profilering utan samtycke",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 27 Jun 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) utfärdar nu en administrativ sanktionsavgift mot Bonnier på 13 miljoner kronor. Detta för att koncernen profilerat sina kunder och webbesökare utan deras samtycke.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.edpb.europa.eu/news/edpb-sheds-light-on-anonymisation-and-web-scraping-for-generative-ai-and-adopts-final-version_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Vägledning om anonymisering och webbskrapning för generativ AI",
+      "sammanfattning": "Europaparlamentets dataskyddsstyrelse (EDPB) har publicerat en vägledning om hur man kan anonymisera data och använda webbskrapning för generativ AI. Detta är en viktig fråga eftersom det kan påverka hur företag och organisationer hanterar personuppgifter. EDPB har också antagit en slutgiltig version av riktlinjerna för blockchain. Detta är en viktig utveckling eftersom det kan påverka hur blockchain-teknik används i Europa.",
+      "tech_vinkel": "EDPB:s vägledning innehåller specifika riktlinjer för hur man kan anonymisera data för att använda dem i generativ AI, samt hur webbskrapning kan användas på ett sätt som respekterar personuppgiftslagen.",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan påverka hur företag och organisationer hanterar personuppgifter i Europa. Det kan också påverka utvecklingen av generativ AI och blockchain-teknik i Europa. EDPB:s vägledning kan också bidra till att öka transparensen och förutsägbarheten för företag och organisationer som arbetar med personuppgifter.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "anonymisering",
+        "webbskrapning",
+        "generativ AI",
+        "blockchain"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "EDPB:s vägledning kommer att användas som en referenspunkt för företag och organisationer som arbetar med personuppgifter i Europa.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-08",
+          "beskrivning": "EDPB publicerar vägledning om anonymisering och webbskrapning för generativ AI"
+        }
+      ]
+    },
+    "title": "EDPB sheds light on anonymisation and web scraping for generative AI and adopts final version of guidelines on blockchain",
+    "source": "EDPB",
+    "type": "EU-byrå",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "European Data Protection Board",
+    "summary": "EDPB sheds light on anonymisation and web scraping for generative AI and adopts final version of guidelines on blockchain ipetstef Wed, 07/08/2026 - 13:34",
+    "cached_at": "2026-07-09"
   }
 }
