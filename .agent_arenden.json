@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -544,7 +544,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -621,6 +621,20 @@
         "tech_vinkel": "Rapporten nämner specifikt cyberangrepp som en viktig teknikfråga som påverkar samhällsskydd och beredskap."
       },
       {
+        "title": "Norden och Ukraina delar erfarenheter för stärkt motståndskraft av samhällsviktig verksamhet",
+        "date": "2026-07-09",
+        "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/maj/norden-och-ukraina-delar-erfarenheter-for-starkt-motstandskraft-av-samhallsviktig-verksamhet/",
+        "source": "MSB",
+        "tech_vinkel": "Seminariet fokuserade på införandet av CER- och NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter)-direktiven, som är EU-direktiv som syftar till att stärka cybersäkerheten och skydda kritisk infrastruktur."
+      },
+      {
+        "title": "Fjärde Cybersäkerhetskollen visar på brister i cybersäkerhetsarbetet",
+        "date": "2026-07-09",
+        "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/mars/fjarde-cybersakerhetskollen-visar-pa-brister-i-cybersakerhetsarbetet/",
+        "source": "MSB",
+        "tech_vinkel": "Dokumentet pekar på brister i cybersäkerhetsarbetet hos organisationer inom offentlig förvaltning, vilket inkluderar otillräckliga skydd mot cyberattacker och dataintrång."
+      },
+      {
         "title": "International Cooperation",
         "date": "Mon, 09 Fe",
         "url": "https://www.enisa.europa.eu/about-enisa/international-cooperation",
@@ -653,7 +667,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -807,6 +821,13 @@
         "tech_vinkel": "Pilotprojektet fokuserade specifikt på decentraliserad AI mellan två vårdgivare, vilket är en viktig teknisk aspekt inom AI-utveckling."
       },
       {
+        "title": "EDPB antar riktlinjer om webbskrapning för träning av AI",
+        "date": "2026-07-09",
+        "url": "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-webbskrapning-for-traning-av-ai/",
+        "source": "IMY",
+        "tech_vinkel": "Riktlinjerna specificerar hur webbskrapning för träning av generativ AI ska genomföras med respekt för dataskyddslagstiftningen, vilket är en specifik teknikfråga."
+      },
+      {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
@@ -895,7 +916,7 @@
   "Cybersolidaritetsakten": {
     "name": "Cybersolidaritetsakten",
     "first_seen": "2026-04-23",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -934,7 +955,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1026,7 +1047,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1149,7 +1170,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1294,7 +1315,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1369,7 +1390,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1436,11 +1457,11 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Region Skåne måste nu betala sanktionsavgiften och vidta åtgärder för att förbättra sin dataskyddshantering, under övervakning av IMY.",
+    "next_step": "Resultatet från undersökningen kommer att presenteras och kan leda till rekommendationer för förbättringar i dataskyddet.",
     "documents": [
       {
         "title": "Gemensam mall på gång för anmälan av personuppgiftsincidenter",
@@ -1940,6 +1961,20 @@
         "tech_vinkel": "Kraven för ackreditering av övervakningsorgan avser specifikt uppförandekoder som ska säkerställa att företag följer dataskyddsreglerna enligt GDPR (EU:s dataskyddsförordning)."
       },
       {
+        "title": "6 av 10 incidenter orsakas av mänskliga faktorn",
+        "date": "2026-07-09",
+        "url": "https://www.imy.se/nyheter/6-av-10-incidenter-orsakas-av-manskliga-faktorn/",
+        "source": "IMY",
+        "tech_vinkel": "Rapporten från IMY visar att den mänskliga faktorn är den vanligaste orsaken till personuppgiftsincidenter, vilket tyder på att tekniska lösningar för dataskydd måste kombineras med utbildning och medvetenhet om dataskydd bland personal."
+      },
+      {
+        "title": "Samordnad undersökning av dataskyddsombudens roll",
+        "date": "2026-07-09",
+        "url": "https://www.imy.se/nyheter/samordnad-undersokning-av-dataskyddsombudens-roll/",
+        "source": "IMY",
+        "tech_vinkel": "Undersökningen fokuserar på dataskyddsombudens roll i att implementera och upprätthålla dataskyddsförordningen, inklusive deras ansvar för att övervaka och rapportera dataskyddsincidenter."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -1976,7 +2011,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1994,7 +2029,7 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2019,7 +2054,7 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2037,7 +2072,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2062,7 +2097,7 @@
   "Biometriutredning": {
     "name": "Biometriutredning",
     "first_seen": "2026-07-06",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,

@@ -24,107 +24,6 @@
     "title": "Remiss av Ädelmetallutredningen – en moderniserad reglering av handel med ädelmetallarbeten (SOU 2026:14), KN2026/00741",
     "cached_at": "2026-06-24"
   },
-  "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska dataskyddsstyrelsen (EDPB) firar Europeiska unionens (EU) dag den 9 maj 2026. EU-institutionerna kommer att öppna sina dörrar för allmänheten den dagen. Detta är en informationshändelse och inte en specifik politisk åtgärd eller lagstiftningsförslag. EDPB uppmuntrar allmänheten att delta i firandet.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna händelse är viktig för att främja medvetenhet om EU:s historia och syfte. Den kan också bidra till att öka allmänhetens engagemang i EU-frågor. Dock saknas en direkt koppling till specifika tekniska eller lagstiftningsrelaterade frågor.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Europeiska unionen",
-        "EU-dag",
-        "EDPB"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-09",
-          "beskrivning": "EU-institutionerna öppnar sina dörrar för allmänheten"
-        }
-      ]
-    },
-    "title": "Europe Day 2026: let’s celebrate together",
-    "cached_at": "2026-06-08"
-  },
-  "https://www.edpb.europa.eu/our-work-tools/our-documents/csc-documents/coordinated-supervisory-action-minors-under-15-years-old_en": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "Europaparlamentets dataskyddsstyrelse, EDPB, har genomfört en samordnad tillsynsåtgärd gällande hur Europol hanterar personuppgifter för minderåriga under 15 år som misstänks för brott eller är potentiella brottslingar. Denna åtgärd syftar till att säkerställa att Europol följer EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning), när de behandlar känsliga personuppgifter. EDPB har publicerat en rapport om resultaten från denna tillsynsåtgärd. Rapporten innehåller rekommendationer för hur Europol kan förbättra sin hantering av personuppgifter för minderåriga.",
-      "tech_vinkel": "Rapporten innehåller en specifik skrivning om hur Europol ska förbättra sin dataskyddsdokumentation och säkerställa att de följer principen om dataminimering när de behandlar personuppgifter för minderåriga.",
-      "varfor_viktigt": "Denna tillsynsåtgärd är viktig eftersom den syftar till att skydda minderårigas personuppgifter och säkerställa att Europol följer EU:s dataskyddslagstiftning. Detta är särskilt viktigt eftersom minderåriga är en sårbar grupp som behöver extra skydd för sina personuppgifter. Om Europol inte följer dataskyddslagstiftningen kan det leda till allvarliga konsekvenser för de minderåriga som är involverade.",
-      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
-      "keywords": [
-        "Europol",
-        "dataskydd",
-        "minderåriga",
-        "GDPR"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Europol kommer att behöva implementera rekommendationerna från EDPB:s rapport för att förbättra sin hantering av personuppgifter för minderåriga.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-30",
-          "beskrivning": "EDPB publicerar rapport om samordnad tillsynsåtgärd gällande Europols hantering av personuppgifter för minderåriga"
-        }
-      ]
-    },
-    "title": "Coordinated supervisory action on minors under 15 years old processed by Europol as suspects or potential criminals",
-    "cached_at": "2026-06-08"
-  },
-  "https://www.edpb.europa.eu/our-work-tools/consistency-findings/register-decisions/2026/approval-decision-administrative_en": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "EU-byrån European Data Protection Board har godkänt ett administrativt avtal mellan den tyska myndigheten Abschlussprüferaufsichtsstelle och den amerikanska myndigheten US Public Company Accounting Oversight Board (PCAOB) gällande överföring av personuppgifter. Detta avtal syftar till att säkerställa att personuppgifter som överförs mellan EU och USA hanteras på ett sätt som är förenligt med EU:s dataskyddslagstiftning. Avtalet är en del av EU:s ansträngningar att skydda personuppgifter vid internationella överföringar. Detta beslut kan påverka hur företag och organisationer i EU och USA hanterar personuppgifter i framtiden.",
-      "tech_vinkel": "Det specifika avtalet mellan Abschlussprüferaufsichtsstelle och PCAOB innehåller bestämmelser om hur personuppgifter ska skyddas vid överföring, vilket är en viktig tech-aspekt i detta dokument.",
-      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan påverka hur företag och organisationer i EU och USA hanterar personuppgifter i framtiden. Det kan också ha konsekvenser för hur dataskyddslagstiftningen tillämpas i praktiken. Dessutom kan detta beslut bidra till att stärka förtroendet för internationella överföringar av personuppgifter. Det är också en del av EU:s bredare ansträngningar att skydda personuppgifter och främja dataskydd.",
-      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
-      "keywords": [
-        "Dataskydd",
-        "Personuppgifter",
-        "Internationella överföringar"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Detta beslut kommer att följas upp av ytterligare åtgärder för att säkerställa att avtalet tillämpas korrekt och att dataskyddslagstiftningen följs.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-04-27",
-          "beskrivning": "EU-byrån European Data Protection Board godkände det administrativa avtalet"
-        }
-      ]
-    },
-    "title": "Approval decision of the Administrative Agreement between Abschlussprüferaufsichtsstelle and the US Public Company Accounting Oversight Board (PCAOB) concerning the transfer of personal data",
-    "cached_at": "2026-06-08"
-  },
-  "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/05/horande-och-tillfalligt-overforande-vid-handlaggning-av-en-arresteringsorder/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen har lämnat en lagrådsremiss om handläggning av arresteringsorder. Detta dokument handlar om hur myndigheter ska hantera och överföra information vid arresteringar. Regeringen föreslår ändringar i lagstiftningen för att förbättra processen. Detta påverkar främst myndigheter och rättsväsendet.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta dokument är viktigt eftersom det kan påverka hur myndigheter hanterar känslig information och samarbetar med varandra. Ändringar i lagstiftningen kan också ha konsekvenser för rättssäkerheten och skyddet av enskilda personers rättigheter. Det är dock oklart vilka specifika konsekvenser detta dokument kommer att ha.",
-      "eu_koppling": "null",
-      "keywords": [
-        "arresteringsorder",
-        "handläggning",
-        "myndigheter"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-04",
-          "beskrivning": "Lagrådsremissen publicerades"
-        }
-      ]
-    },
-    "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
-    "cached_at": "2026-06-08"
-  },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20240703CAL19309": {
     "analysis": {
       "relevans": "låg",
@@ -255,108 +154,6 @@
     },
     "title": "Sveriges strategiska position inom halvledare och avancerad elektronik",
     "cached_at": "2026-06-30"
-  },
-  "https://www.edpb.europa.eu/our-work-tools/consistency-findings/register-decisions/2026/approval-controller-binding-corporate-0_en": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "EU-byrån EDPB har godkänt Kuwait Petroleums Binding Corporate Rules, som reglerar hur företaget hanterar personuppgifter vid internationella överföringar. Detta beslut påverkar hur företaget ska skydda personuppgifter när de överförs mellan olika länder. Beslutet är en del av EU:s arbete för att säkerställa att personuppgifter skyddas på ett likvärdigt sätt inom hela unionen.",
-      "tech_vinkel": "Beslutet omfattar specifika krav på hur Kuwait Petroleum ska implementera tekniska och organisatoriska åtgärder för att säkerställa skyddet av personuppgifter vid internationella överföringar.",
-      "varfor_viktigt": "Detta beslut är viktigt eftersom det säkerställer att personuppgifter skyddas på ett likvärdigt sätt inom hela EU, även när de överförs till länder utanför unionen. Det påverkar företag som hanterar personuppgifter och måste följa EU:s dataskyddslagstiftning. Beslutet visar också på EU:s fortsatta arbete för att stärka dataskyddet och säkerställa att företag tar ansvar för hanteringen av personuppgifter.",
-      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
-      "keywords": [
-        "Dataskydd",
-        "Binding Corporate Rules",
-        "Internationella överföringar"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Kuwait Petroleum måste nu implementera de godkända Binding Corporate Rules och säkerställa att de följer EU:s dataskyddslagstiftning vid internationella överföringar av personuppgifter.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-13",
-          "beskrivning": "Belgiska tillsynsmyndigheten fattade beslut om godkännande av Kuwait Petroleums Binding Corporate Rules"
-        }
-      ]
-    },
-    "title": "Approval of the Controller Binding Corporate Rules of Kuwait Petroleum",
-    "cached_at": "2026-06-08"
-  },
-  "https://www.edpb.europa.eu/our-work-tools/accountability-tools/bcr/kuwait-petroleum_en": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "EU-byrån EDPB har utfärdat ett utlåtande om Kuwait Petroleums ansökan om att få använda bindande företagsregler (BCR) för att överföra personuppgifter. Detta gäller för anställda, entreprenörer, kunder, leverantörer och andra parter som är involverade i företagets verksamhet. Utlåtandet är en del av EDPB:s arbete med att säkerställa att personuppgifter skyddas när de överförs mellan länder.",
-      "tech_vinkel": "Utlåtandet innehåller specifika krav på hur Kuwait Petroleum ska skydda personuppgifter när de överförs, vilket inkluderar tekniska och organisatoriska åtgärder för att säkerställa dataskyddet.",
-      "varfor_viktigt": "Detta utlåtande är viktigt eftersom det visar hur EDPB arbetar för att säkerställa att företag som överför personuppgifter mellan länder följer EU:s dataskyddsförordning (GDPR). Det påverkar företag som verkar i flera länder och som måste följa samma dataskyddskrav. Tajmingen är viktig eftersom det visar hur EDPB fortsätter att arbeta för att stärka dataskyddet i EU.",
-      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
-      "keywords": [
-        "Dataskydd",
-        "GDPR",
-        "EDPB",
-        "Kuwait Petroleum"
-      ],
-      "arende": null,
-      "nasta_steg": "Kuwait Petroleum kommer att behöva implementera de krav som EDPB har fastställt i utlåtandet för att få använda bindande företagsregler för att överföra personuppgifter.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-08",
-          "beskrivning": "Utlåtandet publicerades"
-        }
-      ]
-    },
-    "title": "Kuwait Petroleum",
-    "cached_at": "2026-06-08"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/news/cassini-entrepreneurship-days-2026-built-europe-built-last": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån arrangerar en årlig konferens som samlar startups, investerare och ledare inom rymdteknik för att diskutera hur europeiska rymdteknikföretag anpassar sig till förändrade geopolitiska och marknadsförhållanden. Konferensen fokuserar på att stödja entreprenörer och innovation inom rymdteknik. Målet är att främja utvecklingen av europeiska rymdteknikföretag. Konferensen är en del av EU:s insatser för att stärka den europeiska rymdindustrin.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Konferensen är viktig för att främja innovation och entreprenörskap inom rymdteknik i Europa. Den ger möjlighet för startups och etablerade företag att nätverka och diskutera utmaningar och möjligheter inom branschen. Konferensen kan bidra till att stärka den europeiska rymdindustrin och öka dess konkurrenskraft på den globala marknaden.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdteknik",
-        "entreprenörskap",
-        "innovation"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-08",
-          "beskrivning": "Konferensen äger rum"
-        }
-      ]
-    },
-    "title": "CASSINI Entrepreneurship Days 2026: Built in Europe. Built to Last!",
-    "cached_at": "2026-06-08"
-  },
-  "https://data.riksdagen.se/dokument/HD01NU25.html": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "Näringsutskottet föreslår att riksdagen ska anta regeringens förslag om nya lagar för elsystemet. De två nya lagarna, elmarknadslagen och lagen om elektriska ledningar, ska ersätta den nuvarande lagstiftningen. Elmarknadslagen kommer att reglera elmarknadens funktion, medan lagen om elektriska ledningar kommer att innehålla bestämmelser om nätkoncession och elektriska ledningar som dras fram inom området för trafikleder.",
-      "tech_vinkel": "De nya lagarna kommer att reglera elsystemets digitala infrastruktur, inklusive elmarknadens funktion och elektriska ledningar.",
-      "varfor_viktigt": "De nya lagarna kan ha en stor påverkan på Sveriges elsystem och energiförsörjning. De kan också påverka hur elbolag och andra aktörer inom energisektorn bedriver sin verksamhet. Dessutom kan de nya lagarna bidra till en mer effektiv och hållbar elmarknad.",
-      "eu_koppling": "null",
-      "keywords": [
-        "elmarknadslag",
-        "lagen om elektriska ledningar",
-        "elmarknad",
-        "energisektorn"
-      ],
-      "arende": "null",
-      "nasta_steg": "Riksdagen kommer att rösta om förslaget om de nya lagarna.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-08",
-          "beskrivning": "Riksdagen kommer att rösta om förslaget om de nya lagarna"
-        }
-      ]
-    },
-    "title": "Nya lagar om elsystemet",
-    "cached_at": "2026-06-08"
   },
   "https://www.regeringen.se/pressmeddelanden/2026/06/civilminister-erik-slottner-reser-till-luxemburg-for-hognivamoten-om-digitalisering/": {
     "analysis": {
@@ -10049,5 +9846,581 @@
     "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
     "summary": "Integritetsskyddsmyndigheten (IMY) har fastställt krav för ackreditering av övervakningsorgan. Beslutet gör det möjligt för branschorgan och andra intresseorganisationer att utarbeta uppförandekoder, ett självregleringsverktyg som bland annat företag kan använda för det interna dataskyddsarbetet.",
     "cached_at": "2026-07-08"
+  },
+  "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-webbskrapning-for-traning-av-ai/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Riktlinjer för webbskrapning vid AI-träning",
+      "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om webbskrapning för träning av generativ AI. Detta innebär att det nu finns tydliga regler för hur personuppgifter får samlas in och användas vid utveckling av AI-system. Riktlinjerna syftar till att säkerställa att dataskyddet för enskilda personer respekteras även när AI-system utvecklas. Integritetsskyddsmyndigheten, IMY, har varit huvudrapportör för arbetet med riktlinjerna.",
+      "tech_vinkel": "Riktlinjerna specificerar hur webbskrapning för träning av generativ AI ska genomföras med respekt för dataskyddslagstiftningen, vilket är en specifik teknikfråga.",
+      "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de ger tydliga regler för hur AI-utvecklare ska hantera personuppgifter vid webbskrapning. Detta kan påverka utvecklingen av AI-system och säkerställa att dataskyddet för enskilda personer respekteras. Riktlinjerna kan också bidra till att öka förtroendet för AI-system och minska risken för dataskyddsincidenter.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "webbskrapning",
+        "AI-träning",
+        "dataskydd",
+        "GDPR"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Riktlinjerna kommer att implementeras och följas upp av dataskyddsmyndigheterna i EU, vilket kan leda till ytterligare riktlinjer och rekommendationer för AI-utvecklare.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-08",
+          "beskrivning": "EDPB: Riktlinjer för webbskrapning vid AI-träning antas"
+        }
+      ]
+    },
+    "title": "EDPB antar riktlinjer om webbskrapning för träning av AI",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "På sitt senaste plenarmöte antog den Europeiska dataskyddsstyrelsen, EDPB, nya riktlinjer om webbskrapning för träning av generativ AI. IMY har varit huvudrapportör, det vill säga projektlett, arbetet med riktlinjerna.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.imy.se/nyheter/imys-generaldirektor-gar-till-kustbevakningen/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Generaldirektör byter till Kustbevakningen",
+      "sammanfattning": "Regeringen har beslutat att Integritetsskyddsmyndighetens generaldirektör, Lena Lindgren Schelin, ska bli ny generaldirektör för Kustbevakningen. Detta beslut kan påverka ledningen och inriktningen för Integritetsskyddsmyndigheten, som ansvarar för att övervaka och säkerställa att svenska företag och myndigheter följer dataskyddslagstiftningen. Det är oklart vem som kommer att ta över rollen som generaldirektör för Integritetsskyddsmyndigheten. Detta beslut kan ha betydelse för hur myndigheten kommer att hantera frågor om dataskydd och integritet i framtiden.",
+      "tech_vinkel": "Beslutet rör ledningen för Integritetsskyddsmyndigheten, som har en central roll i att övervaka och tillämpa EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning).",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan påverka hur Integritetsskyddsmyndigheten hanterar frågor om dataskydd och integritet i framtiden. Myndigheten spelar en central roll i att säkerställa att svenska företag och myndigheter följer dataskyddslagstiftningen, och en förändring i ledningen kan ha betydelse för hur myndigheten prioriterar och hanterar dessa frågor. Dessutom kan detta beslut ha konsekvenser för hur Sverige implementerar och tillämpar EU:s dataskyddsförordning, GDPR (EU:s dataskyddsförordning), i praktiken.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Integritetsskyddsmyndigheten"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "IMY:s generaldirektör går till Kustbevakningen",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 27 Jul 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Regeringen har idag fattat beslut om att Integritetsskyddsmyndighetens generaldirektör, Lena Lindgren Schelin, har fått ett nytt uppdrag som generaldirektör för Kustbevakningen.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.imy.se/nyheter/6-av-10-incidenter-orsakas-av-manskliga-faktorn/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: 6 av 10 incidenter orsakas av mänskliga faktorn",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, har publicerat en rapport om anmälningar om personuppgiftsincidenter under 2022. Rapporten visar att 6 av 10 incidenter orsakades av den mänskliga faktorn, och att det faktiska antalet incidenter kan vara tre gånger så stort som det rapporterade. Detta tyder på att det finns ett stort behov av förbättrad hantering av personuppgifter och utbildning av personal som hanterar känsliga uppgifter. IMY:s rapport är en viktig indikator på hur väl företag och organisationer följer dataskyddslagstiftningen.",
+      "tech_vinkel": "Rapporten från IMY visar att den mänskliga faktorn är den vanligaste orsaken till personuppgiftsincidenter, vilket tyder på att tekniska lösningar för dataskydd måste kombineras med utbildning och medvetenhet om dataskydd bland personal.",
+      "varfor_viktigt": "Denna rapport är viktig eftersom den visar på behovet av förbättrad hantering av personuppgifter och utbildning av personal. Det kan också ha konsekvenser för företag och organisationer som inte följer dataskyddslagstiftningen, eftersom de kan bli föremål för sanktioner och böter. Dessutom kan rapporten bidra till att öka medvetenheten om dataskydd bland allmänheten och företag.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "personuppgiftsincidenter",
+        "IMY"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "IMY kommer att fortsätta att övervaka och utvärdera hanteringen av personuppgifter i Sverige, och kan vidta ytterligare åtgärder för att förbättra dataskyddet.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-06-07",
+          "beskrivning": "IMY publicerar rapport om personuppgiftsincidenter under 2022"
+        }
+      ]
+    },
+    "title": "6 av 10 incidenter orsakas av mänskliga faktorn",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 07 Jun 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten, IMY, publicerar nu en rapport över de anmälningar om personuppgiftsincidenter som myndigheten tagit emot under 2022. Rapporten visar att 6 av 10 incidenter uppges vara orsakade av den mänskliga faktorn och att det faktiska antalet incidenter kan vara tre gånger så stort jämfört med det antal som rapporterats in.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.imy.se/nyheter/samordnad-undersokning-av-dataskyddsombudens-roll/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Dataskydd: Samordnad undersökning av dataskyddsombudens roll",
+      "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har inlett en samordnad undersökning för att granska dataskyddsombudens roll och ställning. 26 dataskyddsmyndigheter i Europa deltar i åtgärden. Syftet är att undersöka hur dataskyddsombuden fungerar och om de uppfyller sina skyldigheter enligt dataskyddsförordningen. Detta kan leda till förbättringar i dataskyddet för européer.",
+      "tech_vinkel": "Undersökningen fokuserar på dataskyddsombudens roll i att implementera och upprätthålla dataskyddsförordningen, inklusive deras ansvar för att övervaka och rapportera dataskyddsincidenter.",
+      "varfor_viktigt": "Denna undersökning är viktig eftersom den kan leda till förbättringar i dataskyddet för européer. Dataskyddsombuden spelar en nyckelroll i att säkerställa att företag och organisationer följer dataskyddsförordningen. Om dataskyddsombuden inte fungerar korrekt, kan det leda till dataskyddsincidenter och skada för enskilda personer. Undersökningen kan också bidra till att stärka dataskyddet i Europa och öka förtroendet för digitala tjänster.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "dataskyddsombud"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Resultatet från undersökningen kommer att presenteras och kan leda till rekommendationer för förbättringar i dataskyddet.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-03-15",
+          "beskrivning": "Dataskydd: Samordnad undersökning av dataskyddsombudens roll inleds"
+        }
+      ]
+    },
+    "title": "Samordnad undersökning av dataskyddsombudens roll",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 15 Mar 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Den Europeiska dataskyddsstyrelsen, EDPB, har nu inlett en samordnad åtgärd för att undersöka dataskyddsombudens roll och ställning. 26 dataskyddsmyndigheter i Europa kommer att delta i åtgärden.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.mcf.se/sv/aktuellt/nyheter/2026/maj/norden-och-ukraina-delar-erfarenheter-for-starkt-motstandskraft-av-samhallsviktig-verksamhet/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Cybersäkerhet",
+      "svensk_rubrik": "Norden och Ukraina samarbetar om cybersäkerhet",
+      "sammanfattning": "Myndigheten för samhällsskydd och beredskap (MSB) har arrangerat ett seminarium där tjänstemän från Norden och Ukraina delade erfarenheter om införandet av CER- och NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter)-direktiven. Syftet är att öka motståndskraften i samhällsviktig verksamhet inom hela EU. Direktiven syftar till att stärka cybersäkerheten och skydda kritisk infrastruktur. Genom att utbyta erfarenheter och bästa praxis kan länderna förbättra sin förmåga att hantera cyberhot.",
+      "tech_vinkel": "Seminariet fokuserade på införandet av CER- och NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter)-direktiven, som är EU-direktiv som syftar till att stärka cybersäkerheten och skydda kritisk infrastruktur.",
+      "varfor_viktigt": "Samarbetet mellan Norden och Ukraina är viktigt för att öka motståndskraften mot cyberhot. Genom att dela erfarenheter och bästa praxis kan länderna förbättra sin förmåga att hantera cyberattacker och skydda sin kritiska infrastruktur. Detta är särskilt viktigt i dagens digitala samhälle, där cyberhoten är alltmer komplexa och frekventa.",
+      "eu_koppling": "NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter)-direktivet (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+      "keywords": [
+        "cybersäkerhet",
+        "NIS2",
+        "CER"
+      ],
+      "arende": "NIS2-implementering",
+      "nasta_steg": "Länderna kommer att fortsätta att implementera NIS2-direktivet och dela erfarenheter för att förbättra sin cybersäkerhet.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-13",
+          "beskrivning": "Norden och Ukraina delar erfarenheter för stärkt motståndskraft av samhällsviktig verksamhet"
+        }
+      ]
+    },
+    "title": "Norden och Ukraina delar erfarenheter för stärkt motståndskraft av samhällsviktig verksamhet",
+    "source": "MSB",
+    "type": "Svensk myndighet",
+    "date": "Wed, 13 May 2026",
+    "committee": "Myndigheten för samhällsskydd och beredskap / Civilt försvar (cyber, NIS2)",
+    "summary": "För att öka motståndskraften i samhällsviktig verksamhet inom hela EU genomförs CER- och NIS2-direktiven. Under ett heldagsseminarium samlades tjänstemän från Norden och Ukraina för att utbyta erfarenheter om införandet av direktiven.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.mcf.se/sv/aktuellt/nyheter/2026/mars/fjarde-cybersakerhetskollen-visar-pa-brister-i-cybersakerhetsarbetet/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Cybersäkerhet",
+      "svensk_rubrik": "Cybersäkerhetskollen: Bristande cybersäkerhet i offentlig förvaltning",
+      "sammanfattning": "Myndigheten för samhällsskydd och beredskap har genomfört den fjärde mätningen av Cybersäkerhetskollen. Resultatet visar att många organisationer inom offentlig förvaltning saknar grundläggande delar i ett systematiskt cybersäkerhetsarbete. Detta innebär att dessa organisationer är mer sårbara för cyberattacker och dataintrång. Cybersäkerhetskollen är ett verktyg som syftar till att förbättra cybersäkerheten inom offentlig förvaltning.",
+      "tech_vinkel": "Dokumentet pekar på brister i cybersäkerhetsarbetet hos organisationer inom offentlig förvaltning, vilket inkluderar otillräckliga skydd mot cyberattacker och dataintrång.",
+      "varfor_viktigt": "Cybersäkerheten inom offentlig förvaltning är av stor vikt eftersom det handlar om skydd av känslig information och kritisk infrastruktur. Bristande cybersäkerhet kan leda till allvarliga konsekvenser, såsom dataintrång, ekonomiska förluster och skada på allmänhetens förtroende. Det är därför viktigt att organisationer inom offentlig förvaltning prioriterar cybersäkerhetsarbetet och vidtar nödvändiga åtgärder för att förbättra sin cybersäkerhet.",
+      "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+      "keywords": [
+        "cybersäkerhet",
+        "offentlig förvaltning",
+        "NIS2"
+      ],
+      "arende": "NIS2-implementering",
+      "nasta_steg": "Myndigheten för samhällsskydd och beredskap kommer att fortsätta att arbeta med att förbättra cybersäkerheten inom offentlig förvaltning, bland annat genom att tillhandahålla stöd och vägledning till organisationer som deltar i Cybersäkerhetskollen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-03-02",
+          "beskrivning": "Cybersäkerhetskollen: Resultatet från den fjärde mätningen presenteras"
+        }
+      ]
+    },
+    "title": "Fjärde Cybersäkerhetskollen visar på brister i cybersäkerhetsarbetet",
+    "source": "MSB",
+    "type": "Svensk myndighet",
+    "date": "Mon, 02 Mar 2026",
+    "committee": "Myndigheten för samhällsskydd och beredskap / Civilt försvar (cyber, NIS2)",
+    "summary": "Den fjärde mätningen av Cybersäkerhetskollen som Myndigheten för civilt försvar har genomfört visar på att flera av de 300 organisationerna i offentlig förvaltning som deltagit i Cybersäkerhetskollen 2025 saknar grundläggande delar i ett systematiskt cybersäkerhetsarbete.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260707CAN79257": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "LIBE-utskottet diskuterar rättsstatsfrågor med Irland",
+      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att diskutera rättsstatsfrågor med den irländske ministern Thomas Byrne. Detta är en del av den irländska ordförandeskapets prioriteringar under deras sex månader långa ordförandeskap i EU-rådet. EP-utskottet för medborgerliga fri- och rättigheter kommer att granska och diskutera olika aspekter av rättsstatsprincipen i EU. Detta inkluderar bland annat frågor om rättsstatlighet, mänskliga rättigheter och grundläggande friheter.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna diskussion är viktig eftersom den kan påverka EU:s övergripande strategi för att främja rättsstatlighet och mänskliga rättigheter inom unionen. Det kan också ha konsekvenser för hur EU hanterar frågor om dataskydd, integritet och digitala rättigheter. Dessutom kan diskussionen ge insikt i hur den irländska ordförandeskapets prioriteringar kan påverka EU:s politiska agenda under de kommande månaderna.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rättsstatlighet",
+        "mänskliga rättigheter",
+        "LIBE-utskottet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-13",
+          "beskrivning": "LIBE-utskottet diskuterar rättsstatsfrågor med den irländske ministern Thomas Byrne"
+        }
+      ]
+    },
+    "title": "Highlights - Irish Council Presidency to discuss ‘rule of law’ priorities with LIBE Members - Committee on Civil Liberties, Justice and Home Affairs",
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "LIBE",
+    "summary": "On 13 July, the Committee on Civil Liberties, Justice and Home Affairs will welcome the Irish Minister of State for European Affairs, Thomas Byrne, to discuss the Irish Presidency’s priorities on rule of law issues.     'Values' is one of the three central themes of the programme of the Irish Presidency, which took over the six-month rotating Presidency of the Council on July 2026.        Follow t",
+    "cached_at": "2026-07-09"
+  },
+  "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-safeguarding-eus-data-sovereignty": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EU-kommissionen: Konsultation om dataskydd",
+      "sammanfattning": "EU-kommissionen har startat en konsultation om hur man kan säkerställa EU:s dataskyddssuveränitet. Konsultationen syftar till att samla in synpunkter på utmaningar för dataskydd och dataflöden för EU-organisationer i en internationell kontext. Målet är att identifiera möjliga lösningar för att stärka dataskyddet inom EU. Konsultationen är öppen till den 8 september 2026.",
+      "tech_vinkel": "Konsultationen fokuserar på dataskydd och dataflöden för EU-organisationer, vilket är en viktig tech-fråga.",
+      "varfor_viktigt": "Dataskyddssuveränitet är en kritisk fråga för EU, eftersom det handlar om att skydda EU-medborgarnas personuppgifter och säkerställa att de inte utnyttjas av externa aktörer. Konsultationen kan leda till nya initiativ och lagstiftningsförslag som påverkar dataskyddet inom EU. Detta kan i sin tur påverka företag och organisationer som hanterar personuppgifter inom EU.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "EU-kommissionen"
+      ],
+      "arende": "null",
+      "nasta_steg": "Konsultationen kommer att pågå till den 8 september 2026, varefter EU-kommissionen kommer att analysera inkomna synpunkter och överväga eventuella nästa steg.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-09-08",
+          "beskrivning": "Dataskyddskonsultationen: Sista dag för att lämna synpunkter"
+        }
+      ]
+    },
+    "title": "Targeted consultation on safeguarding the EU’s data sovereignty",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Konsultation",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Targeted consultation on safeguarding the EU’s data sovereignty \n  lobacni  \n  Wed, 07/08/2026 - 09:10 \n \n\n \n   \n        \n               \n                               \n       \n        &nbsp;\n      Opening: 08 July 2026\n     \n     \n        &nbsp;\n      Closing: 08 September 2026\n     \n  \n   \n\n                 This targeted consultation aims to gather views on challenges to data sovereignty and data flows for EU organisations in an international context. \n\n  \n               \n       \n            ",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.edpb.europa.eu/news/edpb-and-amla-to-develop-joint-guidelines-on-partnerships-for-information-sharing_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Gemensamma riktlinjer för informationsdelning",
+      "sammanfattning": "Europaparlamentets dataskyddsstyrelse (EDPB) och Anti Money Laundering Authority (AMLA) ska utveckla gemensamma riktlinjer för samarbeten kring informationsdelning. Detta syftar till att förbättra samarbetet mellan myndigheter och organisationer för att bekämpa penningtvätt och finansiering av terrorism. Riktlinjerna ska ge vägledning om hur man kan dela information på ett säkert och effektivt sätt. Detta arbete är en del av EU:s strävan att stärka dataskyddet och bekämpa ekonomisk brottslighet.",
+      "tech_vinkel": "De gemensamma riktlinjerna kommer att behandla tekniska aspekter av informationsdelning, såsom säkerhetsåtgärder för att skydda känsliga uppgifter och metoder för att säkerställa att informationsdelningen sker i enlighet med EU:s dataskyddsförordning (GDPR).",
+      "varfor_viktigt": "Detta arbete är viktigt eftersom det kan bidra till att förbättra samarbetet mellan myndigheter och organisationer i kampen mot penningtvätt och finansiering av terrorism. Genom att utveckla gemensamma riktlinjer för informationsdelning kan man minska risken för dataläckor och säkerställa att känsliga uppgifter hanteras på ett säkert sätt. Detta kan också bidra till att stärka EU:s dataskydd och bekämpa ekonomisk brottslighet.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "informationsdelning",
+        "penningtvätt",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EDPB och AMLA kommer att samarbeta med relevanta myndigheter och organisationer för att utveckla och implementera de gemensamma riktlinjerna.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-24",
+          "beskrivning": "EDPB och AMLA meddelar att de ska utveckla gemensamma riktlinjer för informationsdelning"
+        }
+      ]
+    },
+    "title": "EDPB and AMLA to develop Joint Guidelines on partnerships for information sharing",
+    "source": "EDPB",
+    "type": "EU-byrå",
+    "date": "Wed, 24 Jun 2026",
+    "committee": "European Data Protection Board",
+    "summary": "EDPB and AMLA to develop Joint Guidelines on partnerships for information sharing ipayotfr Wed, 06/24/2026 - 12:27",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/euspa-welcomes-irish-presidency-council-european-union": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "EUSPA: Irländsk ordförandeskap i EU-rådet",
+      "sammanfattning": "EUSPA, den europeiska rymdbyrån, välkomnar det irländska ordförandeskapet i EU-rådet. Det irländska ordförandeskapet har en ambitiös agenda som fokuserar på konkurrenskraft, värderingar och säkerhet. EU:s rymdprogram är en nyckelkomponent i denna agenda, med målet att stärka Europas strategiska motståndskraft och innovation. Det irländska ordförandeskapet kommer att spela en viktig roll i att forma EU:s rymdpolitik och säkerställa att den är anpassad till unionens övergripande mål.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det irländska ordförandeskapet i EU-rådet kan ha en betydande inverkan på EU:s rymdpolitik och den övergripande tekniska utvecklingen inom unionen. Det irländska ordförandeskapets fokus på konkurrenskraft, värderingar och säkerhet kan leda till nya initiativ och beslut som påverkar den europeiska rymdindustrin och relaterade tekniska områden. Det är viktigt att följa utvecklingen under det irländska ordförandeskapet för att förstå de potentiella konsekvenserna för EU:s tekniska landskap.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "Irland",
+        "EU-rådet",
+        "rymdpolitik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA welcomes the Irish Presidency of the Council of the European Union",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Mon, 06 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "An ambitious agenda anchored in competitiveness, values and security is being pursued by the Irish Presidency with EU Space positioned as a key instrument in delivering Europe’s strategic resilience and innovation.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/success-stories/space4cities-winners-chosen-pilot-15-european-cities-funding-eu125": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "SPACE4Cities: Fem satellitdata-lösningar får 1,25 miljoner euro",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har valt ut fem satellitdata-lösningar som ska testas i 15 europeiska städer. Projektet, som heter SPACE4Cities, kommer att pågå från juli 2026 till april 2027. De utvalda lösningarna kommer att få en totalfinansiering på 1,25 miljoner euro. Målet med projektet är att använda satellitdata för att förbättra stadsplaneringen och livskvaliteten i städerna.",
+      "tech_vinkel": "De fem utvalda satellitdata-lösningarna kommer att användas för att samla in och analysera data om städernas utveckling och miljö.",
+      "varfor_viktigt": "Detta projekt är viktigt eftersom det kan bidra till att förbättra stadsplaneringen och livskvaliteten i städerna. Genom att använda satellitdata kan städerna få tillgång till mer precisa och uppdaterade data om sin utveckling och miljö, vilket kan hjälpa dem att fatta bättre beslut. Projektet kan också bidra till att främja innovation och entreprenörskap inom satellit- och rymdteknik.",
+      "eu_koppling": "null",
+      "keywords": [
+        "satellitdata",
+        "rymdteknik",
+        "stadsplanering"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07",
+          "beskrivning": "SPACE4Cities-projektet börjar"
+        },
+        {
+          "datum": "2027-04",
+          "beskrivning": "SPACE4Cities-projektet avslutas"
+        }
+      ]
+    },
+    "title": "SPACE4Cities winners chosen to pilot in 15 European cities with a funding of €1,25 million",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Thu, 02 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "The SPACE4Cities innovation project, funded EUSPA , has selected five satellite data solutions to be piloted in 15 cities across Europe during July 2026 – April 2027. The winners will receive a total of €1,25 million in funding.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/eu-space-isac-meeting-strengthens-shared-cyber-resilience": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "EU Space ISAC: Stärker gemensam cybersäkerhet",
+      "sammanfattning": "EU-byrån EUSPA har arrangerat ett möte för att stärka samarbetet inom den europeiska rymdsektorn och förbättra cybersäkerheten. Cirka 50 medlemmar deltog i mötet i Prag i juni för att diskutera strategiska prioriteringar och öka samarbetet. Mötet syftar till att öka den gemensamma cybersäkerhetsresiliensen inom rymdsektorn. Detta arbete är en del av EU:s övergripande strävan att stärka cybersäkerheten inom alla sektorer.",
+      "tech_vinkel": "Mötet fokuserar på att förbättra cybersäkerhetsresiliensen inom den europeiska rymdsektorn genom att dela information och bästa praxis.",
+      "varfor_viktigt": "Detta arbete är viktigt eftersom det kan bidra till att skydda kritisk infrastruktur och data inom rymdsektorn från cyberhot. En förbättrad cybersäkerhet kan också bidra till att öka förtroendet för europeiska rymdrelaterade tjänster och produkter. Dessutom kan detta initiativ bidra till att stärka EU:s övergripande cybersäkerhetskapacitet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "cybersäkerhet",
+        "rymdsektor",
+        "EU Space ISAC"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-15",
+          "beskrivning": "EU Space ISAC-mötet: Stärker gemensam cybersäkerhet"
+        }
+      ]
+    },
+    "title": "EU Space ISAC meeting strengthens shared cyber resilience",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Thu, 02 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "Around 50 members gathered in mid-June in Prague to reinforce cooperation across the European space sector, enhance cybersecurity resilience and advance strategic priorities.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/success-stories/european-space-backed-hybrid-aircraft-rewrites-rules-regional": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "EUSPA: Hybrid-elektriskt flygplan",
+      "sammanfattning": "EUSPA, den europeiska rymdbyrån, stöder utvecklingen av ett hybrid-elektriskt flygplan som kan flyga längre sträckor och landa utanför traditionella flygplatser. Detta kan innebära en ny era för regionala flygningar. Flygplanet, som utvecklas av det Prag-baserade företaget Zuri, syftar till att överbrygga gapet mellan traditionella flygplan och eldrivna flygplan.",
+      "tech_vinkel": "Hybrid-elektriskt flygplansteknik är den specifika tech-vinkel som nämns i dokumentet.",
+      "varfor_viktigt": "Detta kan innebära en ny era för regionala flygningar, med möjlighet till längre sträckor och mer flexibla landningsmöjligheter. Det kan också bidra till minskad miljöpåverkan från flygtrafiken. Utvecklingen av hybrid-elektriska flygplan kan också skapa nya möjligheter för regionala transporter och ekonomisk tillväxt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "hybrid-elektriskt flygplan",
+        "regionala flygningar"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "European space-backed hybrid aircraft rewrites the rules of regional flight",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Thu, 02 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "Battery limits keep most electric aircraft on short routes, for now. Prague-based Zuri’s hybrid-electric aircraft, supported by EUSPA , aims to enable longer, airport-free regional travel.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/euspa-evolves-meet-growing-operational-demands-across-eu-space-programme": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "EUSPA: Ny organisation för EU:s rymdprogram",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har inrättat en ny organisation för att förbättra den operativa effektiviteten och leveransen av statliga tjänster inom EU:s rymdprogram. Detta syftar till att möta de växande operativa kraven inom programmet. Den nya organisationen ska bidra till att förstärka EU:s rymdkapacitet och stödja medlemsstaternas behov. Detta initiativ är en del av EU:s strävan att stärka sin position inom rymdteknik och satellitkommunikation.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta beslut kan ha betydande konsekvenser för EU:s rymdprogram och dess förmåga att möta de växande operativa kraven. En effektiv organisation kommer att vara avgörande för att säkerställa att EU kan utnyttja sina rymdtillgångar på bästa sätt och stödja medlemsstaternas behov. Detta kan också ha en positiv inverkan på den europeiska rymdindustrin och bidra till att främja innovation och ekonomisk tillväxt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "EU:s rymdprogram",
+        "satellit och rymdteknik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA evolves to meet growing operational demands across the EU Space Programme",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Wed, 01 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "A new organisation has been put in place to enhance operational efficiency and governmental service delivery.",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/meet-2026-cassini-challenges-winners": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "CASSINI Challenges: 12 startup-företag vinner 100 000 euro",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har utsett 12 europeiska startup-företag som vinnare av CASSINI Challenges 2026. Varje vinnare får 100 000 euro för att utveckla sina rymdbaserade lösningar för att tackla klimat-, säkerhets- och infrastrukturutmaningar. Dessa lösningar syftar till att förbättra vår förmåga att övervaka och hantera jordens resurser på ett hållbart sätt. Vinsten ska användas för att accelerera utvecklingen av dessa innovativa lösningar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Dessa startup-företag kan bidra till att utveckla nya tekniker och lösningar för att hantera klimatförändringar och andra globala utmaningar. Genom att stödja dessa företag kan EU bidra till att skapa en mer hållbar framtid. Vinsten kan också leda till skapandet av nya arbetstillfällen och ekonomisk tillväxt inom EU.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "klimat",
+        "säkerhet",
+        "infrastruktur"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "CASSINI Challenges 2026: Vinnarna offentliggörs"
+        }
+      ]
+    },
+    "title": "Meet the 2026 CASSINI Challenges winners",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Tue, 30 Jun 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "Twelve visionary European start-ups have been named the winners of the CASSINI Challenges 2026, each securing EUR 100 000 to accelerate their space-based solutions tackling climate, security and infrastructure challenges.",
+    "cached_at": "2026-07-09"
+  },
+  "https://data.riksdagen.se/dokument/HD03299.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Redovisning av Allmänna arvsfonden",
+      "sammanfattning": "Regeringen har lämnat en skrivelse till riksdagen om redovisning av fördelning av medel från Allmänna arvsfonden under budgetåret 2025. Skrivelsen innehåller en redogörelse för hur medlen har fördelats och används. Det handlar om en redovisning av hur regeringen har hanterat medlen från Allmänna arvsfonden. Regeringen överlämnar denna skrivelse till riksdagen för granskning och eventuella beslut.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna redovisning är viktig för att säkerställa att medlen från Allmänna arfsfonden används på ett ansvarsfullt sätt. Riksdagen kommer att granska skrivelsen och kan eventuellt fatta beslut om hur medlen ska användas i framtiden. Detta kan påverka olika organisationer och verksamheter som får medel från Allmänna arfsfonden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Allmänna arvsfonden",
+        "redovisning"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "Redovisning av Allmänna arfsfonden: Skrivelse överlämnad till riksdagen"
+        }
+      ]
+    },
+    "title": "Redovisning av fördelning av medel från Allmänna arvsfonden under budgetåret 2025",
+    "source": "Riksdagen",
+    "type": "Riksdagen/PROP",
+    "date": "2026-06-30",
+    "committee": "Socialdepartementet",
+    "summary": "Regeringens skrivelse  2025/26:299  Redovisning av fördelning av medel från  Skr.  Allmänna arvsfonden under budgetåret 2025  2025/26:299  Regeringen överlämnar denna skrivelse till riksdagen.\n Visby den 25 juni 2026\n Ulf Kristersson\n Jakob Forssmed (Socialdepartementet)\n Skrivelsens huvudsakliga innehåll\n I denna skrivelse",
+    "cached_at": "2026-07-09"
+  },
+  "https://data.riksdagen.se/dokument/HD03297.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Ett nytt straffrättsligt påföljdssystem",
+      "sammanfattning": "Regeringen har lämnat en proposition till riksdagen om att införa ett nytt straffrättsligt påföljdssystem. Propositionen syftar till att modernisera och förbättra det straffrättsliga systemet i Sverige. Det nya systemet ska vara mer effektivt och rättvist. Propositionen innehåller förslag om hur det nya systemet ska utformas och implementeras.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det nya straffrättsliga påföljdssystemet kan ha betydande konsekvenser för rättssystemet i Sverige. Det kan påverka hur brott och straff hanteras, och hur rättssäkerheten säkerställs. Propositionen är viktig eftersom den syftar till att förbättra och modernisera det straffrättsliga systemet, vilket kan leda till en mer rättvis och effektiv hantering av brott och straff.",
+      "eu_koppling": "null",
+      "keywords": [
+        "straffrättsligt påföljdssystem",
+        "rättssystem",
+        "Sverige"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "Ett nytt straffrättsligt påföljdssystem: Propositionen överlämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "Ett nytt straffrättsligt påföljdssystem",
+    "source": "Riksdagen",
+    "type": "Riksdagen/PROP",
+    "date": "2026-06-30",
+    "committee": "Justitiedepartementet",
+    "summary": "Ett nytt straffrättsligt påföljdssystem\n Regeringens proposition 2025/26:297\n Ett nytt straffrättsligt påföljdssystem\n Prop.\n 2025/26:297\n Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 30 juni 2026\n Camilla Waltersson Grönvall\n Gunnar Strömmer (Justitiedepartementet)\n Propositionens huvudsakliga",
+    "cached_at": "2026-07-09"
+  },
+  "https://data.riksdagen.se/dokument/HD03140.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "2026 års redogörelse för företag med statligt ägande",
+      "sammanfattning": "Regeringen har lämnat en skrivelse till riksdagen med en redogörelse för företag med statligt ägande. Skrivelsen är en årlig redovisning av hur dessa företag har utvecklats och hur de har bidragit till det allmänna goda. Regeringen presenterar också sina mål och strategier för att stödja och utveckla dessa företag. Detta är en del av regeringens ansvar för att säkerställa att statligt ägda företag är effektiva och bidrar till samhället.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna redogörelse är viktig eftersom den ger en överblick över hur statligt ägda företag fungerar och hur de kan bidra till samhället. Det är också en möjlighet för regeringen att presentera sina mål och strategier för att stödja och utveckla dessa företag. Detta kan ha konsekvenser för företagens utveckling och för samhället i stort.",
+      "eu_koppling": "null",
+      "keywords": [
+        "statligt ägande",
+        "företag",
+        "regering"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "2026 års redogörelse för företag med statligt ägande: Regeringens skrivelse överlämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "2026 års redogörelse för företag med statligt ägande",
+    "source": "Riksdagen",
+    "type": "Riksdagen/PROP",
+    "date": "2026-06-30",
+    "committee": "Finansdepartementet",
+    "summary": "Regeringens skrivelse 2025/26:140\n 2026 års redogörelse för företag med statligt  Skr.  ägande  2025/26:140  Regeringen överlämnar denna skrivelse till riksdagen.\n Visby den 25 juni 2026\n Ulf Kristersson\n Niklas Wykman (Finansdepartementet)\n Skrivelsens huvudsakliga innehåll\n I skrivelsen lämnar regeringen en redogörelse",
+    "cached_at": "2026-07-09"
+  },
+  "https://www.regeringen.se/remisser/2026/07/karnkraftsprovningsutredningens-slutbetankande-ny-karnkraft---moderna-regler-for-beredskap-och-skadestandsansvar/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Kärnkraft i Sverige: Remiss om ny lagstiftning",
+      "sammanfattning": "Regeringen har remitterat Kärnkraftsprövningsutredningens slutbetänkande om ny kärnkraft i Sverige. Utredningen föreslår moderna regler för beredskap och skadeståndsansvar. Detta är en del av regeringens arbete med att utveckla den svenska energipolitiken. Utredningen har skickats till olika instanser för att samla in synpunkter.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende är viktigt eftersom det handlar om den framtida utvecklingen av kärnkraften i Sverige. Det kan ha betydande konsekvenser för energipolitiken och miljön. Regeringens beslut om kärnkraften kan också påverka andra länder och den globala energipolitiken.",
+      "eu_koppling": "null",
+      "keywords": [
+        "kärnkraft",
+        "energipolitik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-08",
+          "beskrivning": "Kärnkraft i Sverige: Remiss av betänkandet Ny kärnkraft i Sverige - moderna regler för beredskap och skadeståndsansvar"
+        }
+      ]
+    },
+    "title": "Remiss av betänkandet Ny kärnkraft i Sverige - moderna regler för beredskap och skadeståndsansvar (SOU 2026:40), KN2026/01512",
+    "source": "Regeringen",
+    "type": "Remiss",
+    "date": "2026-07-08",
+    "committee": "Klimat- och näringslivsdepartementet",
+    "summary": "Här kan du ta del av till vilka instanser som regeringen har remitterat Kärnkraftsprövningsutredningens slutbetänkande Ny kärnkraft i Sverige -",
+    "cached_at": "2026-07-09"
   }
 }

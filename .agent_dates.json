@@ -1056,5 +1056,13 @@
       "url": "https://www.mcf.se/sv/aktuellt/nyheter/2026/juni/cyberverksamheten-samlas-hos-fra--overgang-till-nationellt-cybersakerhetscenter-den-1-juli-2026/",
       "arende": "Cybersäkerhetscenter"
     }
+  ],
+  "2026-07-08": [
+    {
+      "beskrivning": "EDPB: Riktlinjer för webbskrapning vid AI-träning antas",
+      "title": "EDPB antar riktlinjer om webbskrapning för träning av AI",
+      "url": "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-webbskrapning-for-traning-av-ai/",
+      "arende": "AI Act"
+    }
   ]
 }
