@@ -893,6 +893,12 @@
       "title": "Google says it’s protecting our privacy. The EU thinks it’s guarding a monopoly.",
       "url": "https://www.politico.eu/article/google-says-its-protecting-our-privacy-the-eu-thinks-its-guarding-its-monopoly/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "arende": "Google Android-böter"
+    },
+    {
+      "beskrivning": "Barnskydd online: EU-kommissionen presenterar detaljer om förslaget",
+      "title": "Europe’s conservatives revive zombie bill on child abuse scanning",
+      "url": "https://www.politico.eu/article/europes-conservatives-revive-zombie-bill-child-abuse-scanning/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "arende": "Barnskydd online"
     }
   ],
   "2026-07-18": [
@@ -1063,6 +1069,20 @@
       "title": "EDPB antar riktlinjer om webbskrapning för träning av AI",
       "url": "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-webbskrapning-for-traning-av-ai/",
       "arende": "AI Act"
+    }
+  ],
+  "2026-07-09": [
+    {
+      "beskrivning": "EU-domstolens dom: Söktjänst med utgivningsbevis",
+      "title": "Dom från EU-domstolen om söktjänst med utgivningsbevis",
+      "url": "https://www.imy.se/nyheter/dom-fran-eu-domstolen-om-soktjanst-med-utgivningsbevis/",
+      "arende": "GDPR-implementering"
+    },
+    {
+      "beskrivning": "Regeringen ger Folkhälsomyndigheten i uppdrag att utreda riskerna med generativ AI för barn och unga.",
+      "title": "Folkhälsomyndigheten ska utreda risker med generativ AI för barn och unga",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/07/folkhalsomyndigheten-ska-utreda-risker-med-generativ-ai-for-barn-och-unga/",
+      "arende": "Utredning om AI-risken för barn"
     }
   ]
 }

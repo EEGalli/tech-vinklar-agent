@@ -155,56 +155,6 @@
     "title": "Sveriges strategiska position inom halvledare och avancerad elektronik",
     "cached_at": "2026-06-30"
   },
-  "https://www.regeringen.se/pressmeddelanden/2026/06/civilminister-erik-slottner-reser-till-luxemburg-for-hognivamoten-om-digitalisering/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Civilminister Erik Slottner deltar i möten i Luxemburg för att diskutera digitalisering. Mötena handlar om EU:s ministerråd för transport, telekommunikation och energi. Det är oklart vad som specifikt kommer att diskuteras under mötena. Detta är en del av EU:s arbete med digitalisering och teknikutveckling.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Det är viktigt att Sverige deltar i dessa möten för att påverka EU:s beslut om digitalisering och teknikutveckling. Detta kan ha konsekvenser för Sveriges digitala infrastruktur och tekniska utveckling. Det är också viktigt att Sverige har en tydlig röst i EU:s beslut om digitalisering.",
-      "eu_koppling": "null",
-      "keywords": [
-        "digitalisering",
-        "EU",
-        "Luxemburg"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-08",
-          "beskrivning": "Civilminister Erik Slottner deltar i möten i Luxemburg"
-        }
-      ]
-    },
-    "title": "Civilminister Erik Slottner reser till Luxemburg för högnivåmöten om digitalisering",
-    "cached_at": "2026-06-09"
-  },
-  "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/05/lag-om-kollektivtrafikskydd/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen föreslår en ny lag om kollektivtrafikskydd som syftar till att förbättra skyddet för passagerare och personal inom kollektivtrafiken. Lagen är inriktad på ett systematiskt och proaktivt skyddsarbete. Detta innebär att kollektivtrafikföretagen kommer att behöva vidta åtgärder för att förhindra och hantera hot och incidenter. Det kan också påverka hur kollektivtrafiken organiseras och utformas för att öka säkerheten.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Den föreslagna lagen om kollektivtrafikskydd är viktig eftersom den syftar till att öka säkerheten för passagerare och personal inom kollektivtrafiken. Detta kan leda till en tryggare och mer tillförlitlig kollektivtrafik, vilket är viktigt för många människor som använder kollektivtrafiken dagligen. Det kan också ha en positiv inverkan på samhället i stort genom att minska rädsla och oro för säkerheten i kollektivtrafiken.",
-      "eu_koppling": "null",
-      "keywords": [
-        "kollektivtrafik",
-        "säkerhet",
-        "skydd"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-05-08",
-          "beskrivning": "Lagrådsremiss publicerad"
-        }
-      ]
-    },
-    "title": "Lag om kollektivtrafikskydd",
-    "cached_at": "2026-06-09"
-  },
   "https://www.regeringen.se/remisser/2026/03/remiss-av-statskontorets-rapport-en-oversyn-av-overvakningsnamndernas-organisation-stk-20261/": {
     "analysis": {
       "relevans": "medel",
@@ -280,25 +230,6 @@
     },
     "title": "Personalförsörjning av det militära försvaret",
     "cached_at": "2026-06-30"
-  },
-  "https://www.regeringen.se/remisser/2026/03/remiss-av-kemikalieinspektionens-framstallan-om-andring-av-regleringen-avseende-sarskilt-farliga-kemiska-produkter/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen har fått en remiss från Kemikalieinspektionen om att ändra reglerna för särskilt farliga kemiska produkter. Detta innebär att reglerna för hantering och användning av dessa produkter kan komma att förändras. Remissen är en del av en större process för att säkerställa en trygg och hållbar hantering av kemikalier i Sverige. Det är dock oklart vilka specifika förändringar som föreslås.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Ärendet är viktigt eftersom det handlar om att skydda människors hälsa och miljön från farliga kemikalier. En förändring av reglerna kan ha betydande konsekvenser för industrin och för samhället i stort. Det är dock oklart vilka specifika konsekvenser som kan förväntas. Tajmingen spelar roll eftersom det är viktigt att reglerna är anpassade till den senaste forskningen och utvecklingen inom området.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Kemikalieinspektionen",
-        "farliga kemiska produkter"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Remiss av Kemikalieinspektionens framställan om ändring av regleringen avseende särskilt farliga kemiska produkter, KN2026/00510",
-    "cached_at": "2026-06-09"
   },
   "https://data.riksdagen.se/dokument/HD03281.html": {
     "analysis": {
@@ -10548,5 +10479,433 @@
     "committee": "European Data Protection Board",
     "summary": "EDPB sheds light on anonymisation and web scraping for generative AI and adopts final version of guidelines on blockchain ipetstef Wed, 07/08/2026 - 13:34",
     "cached_at": "2026-07-09"
+  },
+  "https://www.politico.eu/article/europes-conservatives-revive-zombie-bill-child-abuse-scanning/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Barnskydd online (CSAM/Chat Control)",
+      "svensk_rubrik": "Barnskydd online: EU-förslag om scanning av barnsexbrott",
+      "sammanfattning": "EU-kommissionen har återupplivat ett förslag om att tillåta scanning av online-innehåll för att upptäcka barnsexbrott. Förslaget har mött motstånd tidigare, men nu finns det en ny möjlighet att det kan bli verklighet. Det handlar om att ge polisen och andra myndigheter möjlighet att söka efter och identifiera barnsexbrott på internet. Detta kan påverka hur internetleverantörer och sociala medier hanterar användardata och innehåll.",
+      "tech_vinkel": "Förslaget handlar specifikt om att införa tekniska lösningar för att automatiskt söka efter och identifiera barnsexbrott på internet, vilket kräver avancerad algoritmbaserad teknik.",
+      "varfor_viktigt": "Om förslaget blir verklighet kan det leda till en ökad säkerhet för barn på internet och en minskning av barnsexbrott. Det kan också ha konsekvenser för hur internetleverantörer och sociala medier hanterar användardata och innehåll, vilket kan påverka användarnas integritet och frihet på internet. Dessutom kan det leda till en ökad samverkan mellan myndigheter och tech-företag för att bekämpa barnsexbrott.",
+      "eu_koppling": "Förslaget är en del av EU:s arbete mot barnsexbrott och kopplar till EU:s lagstiftning om barnskydd och integritet på internet, exempelvis GDPR (EU:s dataskyddsförordning) och den föreslagna EU-lagstiftningen om digitala tjänster (DSA).",
+      "keywords": [
+        "barnsexbrott",
+        "internet",
+        "algoritmer",
+        "integritet"
+      ],
+      "arende": "Barnskydd online",
+      "nasta_steg": "Förslaget kommer att diskuteras och utvärderas av EU-kommissionen och EU-parlamentet innan det kan bli verklighet.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-15",
+          "beskrivning": "Barnskydd online: EU-kommissionen presenterar detaljer om förslaget"
+        }
+      ]
+    },
+    "title": "Europe’s conservatives revive zombie bill on child abuse scanning",
+    "source": "Politico EU Tech",
+    "type": "Tech-policy-nyhet",
+    "date": "Thu, 09 Jul 2026",
+    "committee": "Politico Europe — tech-policy",
+    "summary": "Top-level pressure and obscure procedures breathe new life into a controversial proposal to allow scanning for online child sexual abuse material.",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260709CAN79302": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "JURI-utskottet: Omröstning om geografiska beteckningar",
+      "sammanfattning": "EU-parlamentets utskott för rättsliga frågor, EU-parlamentet:s rättsliga utskott (JURI), ska rösta om en lagstiftningsrapport som gäller ändringar i EU-förordningen om geografiska beteckningar. Rapporten handlar om att ändra förordningen för att anpassa den till beslut som fattats av Lissabonunionen. Utskottet kommer också att anta två yttranden om lagstiftningsförslag. Detta är en del av EU-parlamentets lagstiftningsprocess.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende är viktigt eftersom det handlar om att ändra EU-lagstiftning som påverkar producenter och konsumenter inom EU. Ändringarna kan ha konsekvenser för hur geografiska beteckningar används och skyddas inom EU. Det kan också påverka handeln och konkurrensen mellan EU-länder.",
+      "eu_koppling": "null",
+      "keywords": [
+        "geografiska beteckningar",
+        "Lissabonunionen",
+        "EU-förordning"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-15",
+          "beskrivning": "JURI-utskottet röstar om lagstiftningsrapporten om geografiska beteckningar"
+        }
+      ]
+    },
+    "title": "Highlights - Vote on GIs and EoV with Commissioner Maria Luís Albuquerque - Committee on Legal Affairs",
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Thu, 09 Jul 2026",
+    "committee": "JURI",
+    "summary": "On15 July 2026, the Members of the Legal Affairs Committee will vote on the legislative report Amending Regulation (EU) 2019/1753 as regards amendments adopted by the Assembly of the Lisbon Union on 14 July 2025 to the Common Regulations under the Lisbon Agreement on Appellations of Origin and Geographical Indications (2026/0044(COD)). Additionally, JURI Members will adopt two opinions on the lega",
+    "cached_at": "2026-07-10"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Sociala medier och plattformar",
+      "svensk_rubrik": "Digital Services Act: EU-kommissionen anklagar Meta för beroendeframkallande design",
+      "sammanfattning": "EU-kommissionen har funnit att Meta, ägare till Instagram och Facebook, har brutit mot Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) genom att använda en design som kan skapa beroende hos användarna. Detta är ett resultat av en undersökning som kommissionen har genomfört för att se om plattformarna följer de nya reglerna för digitala tjänster. Kommissionen menar att Metas design kan vara skadlig för användarna, särskilt barn och unga. Detta kan leda till att Meta tvingas ändra sin design för att följa de nya reglerna.",
+      "tech_vinkel": "EU-kommissionen har funnit att Metas användning av algoritmer för att skapa en beroendeframkallande design på Instagram och Facebook är i strid med Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll).",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan leda till att sociala medie-plattformar tvingas ändra sin design för att skydda användarna, särskilt barn och unga. Det kan också leda till att EU-kommissionen tar hårdare tag mot plattformar som inte följer de nya reglerna. Detta kan ha en stor inverkan på hur sociala medie-plattformar fungerar i framtiden och hur de skyddar sina användare.",
+      "eu_koppling": "Digital Services Act (EU:s lagstiftning om digitala tjänster)",
+      "keywords": [
+        "Digital Services Act",
+        "Meta",
+        "Instagram",
+        "Facebook",
+        "beroendeframkallande design"
+      ],
+      "arende": "Digital Services Act",
+      "nasta_steg": "EU-kommissionen kommer att fortsätta att undersöka Metas design och kan vidta ytterligare åtgärder om de inte följer de nya reglerna.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-10",
+          "beskrivning": "Digital Services Act: EU-kommissionen anklagar Meta för beroendeframkallande design"
+        }
+      ],
+      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
+    },
+    "title": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Fri, 10 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act \n  Anonymous (not verified)  \n  Fri, 07/10/2026 - 10:57 \n \n\n \n   \n        \n               \n                                     Today, the European Commission preliminarily found Meta in breach of the Digital Services Act for the addictive design of Instagram and Facebook. \n\n  \n               \n       \n                     \n             \n\n\n\n\n\n          \n    \n    \n                 \n ",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.imy.se/nyheter/dom-fran-eu-domstolen-om-soktjanst-med-utgivningsbevis/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EU-domstolens dom: Söktjänst med utgivningsbevis",
+      "sammanfattning": "EU-domstolen har meddelat en dom om en svensk söktjänst med frivilligt utgivningsbevis som publicerar brottmålsdomar. Domen rör förhållandet mellan dataskyddsförordningen (GDPR) och det svenska systemet med frivilliga utgivningsbevis. Integritetsskyddsmyndigheten (IMY) kommer nu att analysera vad domen innebär för myndighetens pågående tillsyner av söktjänster med sådana utgivningsbevis. Detta kan påverka hur söktjänster hanterar personuppgifter i framtiden.",
+      "tech_vinkel": "Domen handlar specifikt om tillämpningen av dataskyddsförordningen (GDPR) på söktjänster med utgivningsbevis, vilket berör hur personuppgifter hanteras och skyddas online.",
+      "varfor_viktigt": "Domen kan ha betydande konsekvenser för söktjänster och deras hantering av personuppgifter. Det kan också påverka hur Integritetsskyddsmyndigheten (IMY) utför sina tillsyner och hur de säkerställer att söktjänster följer dataskyddsförordningen. Dessutom kan domen bidra till att förtydliga gränserna för dataskydd i Sverige och EU.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "GDPR",
+        "dataskydd",
+        "söktjänster",
+        "utgivningsbevis"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Integritetsskyddsmyndigheten (IMY) kommer att analysera domen och dess konsekvenser för pågående tillsyner av söktjänster.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-09",
+          "beskrivning": "EU-domstolens dom: Söktjänst med utgivningsbevis"
+        }
+      ]
+    },
+    "title": "Dom från EU-domstolen om söktjänst med utgivningsbevis",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 09 Jul 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Idag kom dom från EU-domstolen i ett mål om en svensk söktjänst med frivilligt utgivningsbevis som publicerar brottmålsdomar. Domen rör förhållandet mellan dataskyddsförordningen (GDPR) och det svenska systemet med frivilliga utgivningsbevis. Integritetsskyddsmyndigheten (IMY) kommer nu att analysera vad domen innebär för myndighetens pågående tillsyner av söktjänster med sådana utgivningsbevis.",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-anonymisering-och-en-slutlig-version-av-riktlinjer-om-blockkedjor/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB antar riktlinjer om anonymisering",
+      "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om anonymisering och en slutlig version av riktlinjer om behandling av personuppgifter genom blockkedjeteknik. Detta innebär att det nu finns tydliga riktlinjer för hur personuppgifter ska hanteras i samband med anonymisering och blockkedjeteknik. Riktlinjerna syftar till att skydda människors personuppgifter och säkerställa att de hanteras på ett säkert och ansvarsfullt sätt.",
+      "tech_vinkel": "Riktlinjerna omfattar specifika tekniska krav för anonymisering av personuppgifter, inklusive krav på att uppgifterna ska vara irreversibla och inte kunna kopplas till en specifik individ.",
+      "varfor_viktigt": "De nya riktlinjerna är viktiga eftersom de syftar till att skydda människors personuppgifter i en tid då tekniken utvecklas snabbt och allt fler uppgifter samlas in och hanteras. Riktlinjerna kommer att påverka företag och organisationer som hanterar personuppgifter, och de måste säkerställa att de följer de nya riktlinjerna för att undvika sanktioner och böter.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "anonymisering",
+        "blockkedjeteknik",
+        "dataskydd",
+        "GDPR"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Företag och organisationer måste nu säkerställa att de följer de nya riktlinjerna för anonymisering och blockkedjeteknik.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-09",
+          "beskrivning": "EDPB antar riktlinjer om anonymisering och blockkedjeteknik"
+        }
+      ]
+    },
+    "title": "EDPB antar riktlinjer om anonymisering och en slutlig version av riktlinjer om blockkedjor",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 09 Jul 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Under sitt senaste plenarmöte har den Europeiska dataskyddsstyrelsen, EDPB, antagit riktlinjer om anonymisering. Dessutom har EDPB antagit en slutlig version av riktlinjer om behandling av personuppgifter genom blockkedjeteknik.",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.euspa.europa.eu/node/9804": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "EUSPA Career Day",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar en karriärdag. Detta evenemang syftar till att informera om möjligheter och karriärvägar inom rymdindustrin. EUSPA är en EU-byrå som fokuserar på rymdteknik och dess tillämpningar. Evenemanget kan vara av intresse för studenter, yrkesverksamma och alla som är intresserade av rymdindustrin.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Evenemanget kan vara viktigt för individer som söker en karriär inom rymdindustrin. Det kan också vara relevant för företag och organisationer som är involverade i rymdteknik och relaterade områden. Evenemanget kan bidra till att öka medvetenheten om rymdindustrins möjligheter och utmaningar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "rymdindustri",
+        "karriärdag"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-10",
+          "beskrivning": "EUSPA Career Day: Evenemanget äger rum"
+        }
+      ]
+    },
+    "title": "EUSPA Career Day",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Fri, 10 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.euspa.europa.eu/opportunities/procurement-grants/procurements/euspaop1826-provision-interim-workers-euspa": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "EUSPA: Provision av interimspersonal",
+      "sammanfattning": "EUSPA, den europeiska rymdbyrån, har publicerat en upphandling för att anställa interimspersonal. Detta innebär att byrån söker efter personal som kan fylla vissa roller under en begränsad tid. Upphandlingen är en del av byråns arbete med att säkerställa att de har tillräckligt med personal för att utföra sina uppgifter. Detta är en vanlig process inom offentlig förvaltning och inte specifikt relaterad till någon ny teknisk utveckling eller lagstiftningsändring.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna upphandling är viktig för EUSPA eftersom den möjliggör för byrån att fylla personalbehov och säkerställa en smidig verksamhet. Det kan dock inte anses vara av stor betydelse för den breda allmänheten eller för teknikutvecklingen i stort. Upphandlingen är en intern process som inte direkt påverkar teknisk utveckling eller lagstiftning.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "interimspersonal",
+        "upphandling"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EUSPA/OP/18/26 - Provision of Interim Workers to EUSPA",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Thu, 09 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-07-10"
+  },
+  "https://data.riksdagen.se/dokument/HD03291.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Uppföljning av strategi mot extremism",
+      "sammanfattning": "Regeringen har lämnat en skrivelse till riksdagen om uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism. Skrivelsen presenterar en översikt av de insatser som har genomförts för att bekämpa extremism och terrorism. Regeringen redovisar också de utmaningar som finns och de åtgärder som planeras för att förbättra arbetet mot extremism och terrorism. Strategin omfattar flera områden, inklusive förebyggande arbete, polisens och säkerhetspolisens arbete samt internationellt samarbete.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Uppföljningen av den nationella strategin mot våldsbejakande extremism och terrorism är viktig eftersom den visar hur regeringen arbetar för att bekämpa extremism och terrorism i Sverige. Strategin är en del av regeringens arbete för att främja säkerhet och trygghet i samhället. Uppföljningen kan också ge insikt i vilka utmaningar som finns och hur de kan hanteras. Det är också viktigt att regeringen redovisar de åtgärder som planeras för att förbättra arbetet mot extremism och terrorism.",
+      "eu_koppling": "null",
+      "keywords": [
+        "extremism",
+        "terrorism",
+        "nationell strategi"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "Uppföljning av den nationella strategin mot extremism: Skrivelse lämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "Uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism",
+    "source": "Riksdagen",
+    "type": "Riksdagen/PROP",
+    "date": "2026-07-03",
+    "committee": "Justitiedepartementet",
+    "summary": "Regeringens skrivelse 2025/26:291\n Uppföljning av den nationella strategin mot  Skr.  våldsbejakande extremism och terrorism  2025/26:291  Regeringen överlämnar denna skrivelse till riksdagen.\n Stockholm den 30 juni 2026\n Camilla Waltersson Grönvall\n Gunnar Strömmer (Justitiedepartementet)\n Skrivelsens huvudsakliga innehåll\n",
+    "cached_at": "2026-07-10"
+  },
+  "https://data.riksdagen.se/dokument/HD03296.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Skattetransparenta värdepappersfonder",
+      "sammanfattning": "Regeringen har lämnat en proposition om skattetransparenta värdepappersfonder för institutionella investerare. Propositionen syftar till att förbättra skatteförhållandena för dessa fonder. Detta kan påverka hur institutionella investerare väljer att placera sina pengar. Propositionen är en del av regeringens arbete med att förbättra de finansiella villkoren för företag och investerare.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna proposition är viktig eftersom den kan påverka hur institutionella investerare väljer att placera sina pengar. Detta kan i sin tur påverka den svenska ekonomin och företagsklimatet. Propositionen är också en del av regeringens arbete med att förbättra de finansiella villkoren för företag och investerare, vilket kan ha långsiktiga effekter på den svenska ekonomin.",
+      "eu_koppling": "null",
+      "keywords": [
+        "skattetransparenta värdepappersfonder",
+        "institutionella investerare"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "Skattetransparenta värdepappersfonder-proposition: Överlämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "Skattetransparenta värdepappersfonder för institutionella investerare",
+    "source": "Riksdagen",
+    "type": "Riksdagen/PROP",
+    "date": "2026-06-30",
+    "committee": "Finansdepartementet",
+    "summary": "Regeringens proposition 2025/26:296\n Skattetransparenta värdepappersfonder för  Prop.  institutionella investerare  2025/26:296  Regeringen överlämnar denna proposition till riksdagen.\n Visby den 25 juni 2026\n Ulf Kristersson\n Niklas Wykman (Finansdepartementet)\n Propositionens huvudsakliga innehåll\n Propositionen innehåller",
+    "cached_at": "2026-07-10"
+  },
+  "https://data.riksdagen.se/dokument/HD03293.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Skärpta regler för unga lagöverträdare",
+      "sammanfattning": "Regeringen har lämnat en proposition till riksdagen om skärpta regler för unga lagöverträdare. Propositionen syftar till att stärka rättssäkerheten och skyddet för unga som begår brott. Förslaget innebär att unga lagöverträdare ska få ett mer individualiserat straff och att samhällets insatser för att förebygga och motverka brott ska förbättras. Propositionen är en del av regeringens arbete för att förbättra rättssystemet och öka tryggheten i samhället.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan påverka hur unga lagöverträdare behandlas i rättssystemet och hur samhället förebygger och motverkar brott. Förslaget kan också ha konsekvenser för hur rättssystemet fungerar och hur tryggheten i samhället kan öka. Det är viktigt att förslaget genomförs på ett sätt som är rättvist och effektivt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "unga lagöverträdare",
+        "rättssäkerhet",
+        "straff"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "Skärpta regler för unga lagöverträdare: Propositionen överlämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "Skärpta regler för unga lagöverträdare",
+    "source": "Riksdagen",
+    "type": "Riksdagen/PROP",
+    "date": "2026-06-30",
+    "committee": "Justitiedepartementet",
+    "summary": "Skärpta regler för unga lagöverträdare\n Regeringens proposition 2025/26:293\n Skärpta regler för unga lagöverträdare\n Prop.\n 2025/26:293\n Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 30 juni 2026\n Camilla Waltersson Grönvall\n Gunnar Strömmer (Justitiedepartementet)\n Propositionens huvudsakliga innehåll\n",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/07/regeringen-agerar-for-att-starka-samhallets-arbete-med-cybersakerhet-kopplat-till-utvecklingen-av-nya-ai-modeller/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Cybersäkerhet",
+      "svensk_rubrik": "Regeringen stärker cybersäkerhet för AI",
+      "sammanfattning": "Regeringen ger Nationellt cybersäkerhetscenter i uppdrag att samordna och stärka arbetet med cybersäkerhet kopplat till utvecklingen av nya AI-modeller. Detta innebär att Sverige ska bli bättre på att skydda sig mot cyberhot som kan uppstå i samband med AI-teknik. Regeringen vill säkerställa att samhället är väl rustat för att hantera de säkerhetsrisker som följer med den snabba utvecklingen av AI. Det handlar om att skydda allt från kritisk infrastruktur till enskilda personers integritet.",
+      "tech_vinkel": "Nationellt cybersäkerhetscenter ska fokusera på cybersäkerhetsrisker som är direkt kopplade till utvecklingen och användningen av artificiell intelligens (AI).",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom AI-teknik blir allt mer vanligt i samhället och medför nya typer av säkerhetsrisker. Om Sverige inte har tillräckliga skydd kan landet bli sårbart för cyberattacker som kan störa kritisk infrastruktur, stjäla känslig information eller påverka enskilda personers integritet. Genom att stärka cybersäkerheten kan Sverige minska dessa risker och skapa en tryggare miljö för AI-användning.",
+      "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+      "keywords": [
+        "cybersäkerhet",
+        "AI",
+        "Nationellt cybersäkerhetscenter"
+      ],
+      "arende": "Cybersäkerhetscenter",
+      "nasta_steg": "Nationellt cybersäkerhetscenter kommer att påbörja arbetet med att samordna och stärka cybersäkerhetsarbetet i Sverige, med fokus på AI-relaterade risker.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-09",
+          "beskrivning": "Regeringen meddelar beslut om att stärka cybersäkerheten för AI"
+        }
+      ]
+    },
+    "title": "Regeringen agerar för att stärka samhällets arbete med cybersäkerhet kopplat till utvecklingen av nya AI-modeller",
+    "source": "Regeringen",
+    "type": "Pressmeddelande",
+    "date": "2026-07-09",
+    "committee": "Carl-Oskar Bohlin, Försvarsdepartementet",
+    "summary": "Regeringen ger Nationellt cybersäkerhetscenter vid Försvarets radioanstalt i uppdrag att samordna och stärka arbetet med cybersäkerhet kopplat till",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/07/folkhalsomyndigheten-ska-utreda-risker-med-generativ-ai-for-barn-och-unga/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "Folkhälsomyndigheten utreder AI-risken för barn",
+      "sammanfattning": "Regeringen ger Folkhälsomyndigheten i uppdrag att utreda riskerna med generativ AI för barn och unga. Detta beror på att generativ AI, som skapar innehåll utifrån användarens instruktioner, blir allt vanligare i barns och ungas vardag. Utredningen ska fokusera på hur AI kan påverka barns och ungas hälsa och välbefinnande. Målet är att identifiera eventuella risker och föreslå åtgärder för att skydda barnen.",
+      "tech_vinkel": "Utredningen ska undersöka hur generativ AI, som använder maskinläringsalgoritmer för att skapa innehåll, kan påverka barns och ungas exponering för skadligt innehåll eller beteende.",
+      "varfor_viktigt": "Detta är viktigt eftersom barn och unga är en utsatt grupp som kan påverkas negativt av skadligt innehåll eller beteende som sprids via AI. Utredningen kan leda till att regeringen inför nya regleringar eller riktlinjer för att skydda barnen. Dessutom kan utredningen bidra till att öka medvetenheten om riskerna med AI och hur man kan använda den på ett säkert sätt.",
+      "eu_koppling": "null",
+      "keywords": [
+        "generativ AI",
+        "barns hälsa",
+        "AI-reglering"
+      ],
+      "arende": "Utredning om AI-risken för barn",
+      "nasta_steg": "Folkhälsomyndigheten kommer att genomföra utredningen och lämna förslag till regeringen om hur man kan skydda barnen från riskerna med generativ AI.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-09",
+          "beskrivning": "Regeringen ger Folkhälsomyndigheten i uppdrag att utreda riskerna med generativ AI för barn och unga."
+        }
+      ]
+    },
+    "title": "Folkhälsomyndigheten ska utreda risker med generativ AI för barn och unga",
+    "source": "Regeringen",
+    "type": "Pressmeddelande",
+    "date": "2026-07-09",
+    "committee": "Jakob Forssmed, Nina Larsson, Socialdepartementet",
+    "summary": "Generativ AI, som skapar innehåll utifrån användarens instruktioner, blir allt vanligare i barns och ungas vardag. Regeringen ger nu",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-kammarkollegiet-att-lamna-forslag-till-en-langsiktig-hantering-av-viss-skadereglering-for-tjanstereseskador-for-regionanstalld-halso--och-sjukvardspersonal/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Uppdrag till Kammarkollegiet: Hantering av tjänstereseskador",
+      "sammanfattning": "Regeringen ger Kammarkollegiet i uppdrag att lämna förslag till en långsiktig hantering av skadereglering för tjänstereseskador för regionanställd hälso- och sjukvårdspersonal. Detta innebär att Kammarkollegiet ska utreda och föreslå hur man kan hantera skadereglering på lång sikt för de som arbetar inom hälso- och sjukvården i regionerna. Uppdraget syftar till att säkerställa en rättvis och effektiv hantering av skadereglering för dessa personer.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan påverka hur skadereglering hanteras för hälso- och sjukvårdspersonal i regionerna. En långsiktig och effektiv hantering av skadereglering kan bidra till att förbättra arbetsvillkoren och patientsäkerheten inom hälso- och sjukvården. Uppdraget kan också ha konsekvenser för regionernas ekonomi och resurshantering.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Kammarkollegiet",
+        "tjänstereseskador",
+        "hälso- och sjukvårdspersonal"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-08",
+          "beskrivning": "Uppdrag till Kammarkollegiet: Hantering av tjänstereseskador - Uppdragsbeslut"
+        }
+      ]
+    },
+    "title": "Uppdrag till Kammarkollegiet att lämna förslag till en långsiktig hantering av viss skadereglering för tjänstereseskador för regionanställd hälso- och sjukvårdspersonal",
+    "source": "Regeringen",
+    "type": "Regeringsuppdrag",
+    "date": "2026-07-08",
+    "committee": "Regeringen, Socialdepartementet",
+    "summary": "Regeringen ger Kammarkollegiet i uppdrag att lämna förslag till en långsiktig hantering av skadereglering för tjänstereseskador för regionanställd",
+    "cached_at": "2026-07-10"
+  },
+  "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/07/sou-202643/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Åtgärder mot överskuldsättning",
+      "sammanfattning": "Regeringen har gett ut en utredning om åtgärder för att minska problemet med överskuldsättning. Utredningen föreslår åtgärder som kan minska överskuldsättningen, men det är inte tydligt vilka specifika åtgärder som föreslås. Utredningen har fokuserat på att hitta lösningar för att minska överskuldsättningen, men det är inte klart vilka konsekvenser detta kommer att ha för olika grupper i samhället. Utredningen är en del av regeringens arbete för att förbättra den ekonomiska situationen i landet.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta ärende är viktigt eftersom det handlar om att minska problemet med överskuldsättning, som kan ha allvarliga konsekvenser för individer och samhället i stort. Överskuldsättning kan leda till ekonomisk instabilitet och kan även ha negativa effekter på människors hälsa och välbefinnande. Det är därför viktigt att regeringen tar initiativ för att minska överskuldsättningen och förbättra den ekonomiska situationen i landet. Detta ärende kan ha konsekvenser för olika grupper i samhället, inklusive låginkomsttagare och småföretagare.",
+      "eu_koppling": "null",
+      "keywords": [
+        "överskuldsättning",
+        "ekonomi"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Åtgärder mot överskuldsättning, SOU 2026:43",
+    "source": "Regeringen",
+    "type": "SOU",
+    "date": "2026-07-09",
+    "committee": "Finansdepartementet",
+    "summary": "Utredningens uppdrag har varit att föreslå åtgärder för att minska problemet med överskuldsättning, huvudsakligen genom åtgärder som kan minska",
+    "cached_at": "2026-07-10"
   }
 }
