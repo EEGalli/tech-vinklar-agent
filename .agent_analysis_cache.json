@@ -313,89 +313,6 @@
     "title": "Teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel",
     "cached_at": "2026-06-30"
   },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/when-beacon-talks-back-imo-moves-toward-two-way-distress-communication": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån meddelar att Internationella sjöfartsorganisationen (IMO) tar steg mot att införa tvåvägskommunikation för nödsignalsändare i sjöfarten. Detta innebär att nödsignalsändare i framtiden kan skicka och ta emot information, vilket kan förbättra sjösäkerheten. Förslaget syftar till att förbättra kommunikationen i nödsituationer och göra det lättare att lokalisera och rädda människor i fara. Detta kan leda till förbättrad sjösäkerhet och minskad risk för olyckor.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Förbättrad sjösäkerhet och minskad risk för olyckor är viktiga konsekvenser av detta förslag. Det kan också leda till förbättrad kommunikation och samarbete mellan sjöfartsaktörer och myndigheter. Detta kan vara särskilt viktigt i situationer där snabb och effektiv kommunikation är avgörande för att rädda liv.",
-      "eu_koppling": "null",
-      "keywords": [
-        "sjösäkerhet",
-        "nödsignalsändare",
-        "tvåvägskommunikation"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "When the Beacon Talks Back! IMO moves toward two-way distress communication for maritime EPIRBs",
-    "cached_at": "2026-06-10"
-  },
-  "https://data.riksdagen.se/dokument/HD01FöU14.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Riksdagen behandlar ett ärende om förbättrade förutsättningar för operativt militärt samarbete. Det handlar om att förbättra samarbetet mellan olika militära enheter och att öka effektiviteten i deras verksamhet. Det är dock oklart vad som specifikt föreslås och vem som påverkas. Ärendet verkar inte ha en tydlig koppling till teknikutveckling eller specifika tekniska lösningar.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta ärende kan ha betydelse för Sveriges militära förmåga och samarbete med andra länder. Det kan också påverka den övergripande säkerhetspolitiska situationen i regionen. Tajmingen för detta ärende kan vara viktig med tanke på den aktuella säkerhetspolitiska situationen i världen. Det är dock svårt att bedöma exakt vilka konsekvenser detta ärende kan få utan mer information.",
-      "eu_koppling": "null",
-      "keywords": [
-        "militärt samarbete",
-        "försvarspolitik"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-10",
-          "beskrivning": "Riksdagen behandlar ärendet"
-        }
-      ]
-    },
-    "title": "Förbättrade förutsättningar för operativt militärt samarbete",
-    "cached_at": "2026-06-10"
-  },
-  "https://data.riksdagen.se/dokument/HD01KU20.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Riksdagens konstitutionsutskott (KU) har tagit fram ett granskningsbetänkande. Detta dokument handlar om granskning av regeringens och myndigheters verksamhet, men det saknas information om vad det specifikt gäller. Det är oklart vad som föreslås, vem som påverkas och vad som ändras.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Det är svårt att bedöma varför detta dokument är viktigt utan mer information. Granskningsbetänkanden kan vara viktiga för att säkerställa att regeringen och myndigheterna följer lagar och regler, men utan mer kontext är det svårt att säga exakt varför detta dokument är viktigt.",
-      "eu_koppling": null,
-      "keywords": [
-        "granskningsbetänkande",
-        "konstitutionsutskott"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": []
-    },
-    "title": "Granskningsbetänkande",
-    "cached_at": "2026-06-10"
-  },
-  "https://data.riksdagen.se/dokument/HD01KU21.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Riksdagen behandlar skrivelser som rör olika ärenden. Detta dokument handlar om hur riksdagen hanterar och besvarar dessa skrivelser. Inga specifika tekniska frågor nämns. Dokumentet fokuserar på den allmänna processen för att hantera skrivelser.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna process är viktig för att säkerställa att riksdagen kan hantera och besvara skrivelser på ett effektivt sätt. Det kan påverka hur riksdagen fungerar och hur medborgare kan komma i kontakt med riksdagen. Det är dock inte ett tekniskt ärende i sig.",
-      "eu_koppling": null,
-      "keywords": [
-        "Riksdagen",
-        "Skrivelser",
-        "Hantering"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": []
-    },
-    "title": "Behandlingen av riksdagens skrivelser",
-    "cached_at": "2026-06-10"
-  },
   "https://www.edpb.europa.eu/our-work-tools/our-documents/other/template-personal-data-breach-notification_en": {
     "analysis": {
       "relevans": "medel",
@@ -10907,5 +10824,203 @@
     "committee": "Finansdepartementet",
     "summary": "Utredningens uppdrag har varit att föreslå åtgärder för att minska problemet med överskuldsättning, huvudsakligen genom åtgärder som kan minska",
     "cached_at": "2026-07-10"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260708CAN79262": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "AI-säkerhet: Anthropic inbjuden till IMCO",
+      "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) kommer att ha en utfrågning med Anthropic om deras nya AI-modell, Claude Mythos. Denna modell kan utföra komplexa cybersäkerhetsuppgifter med liten mänsklig inblandning, såsom att hitta programvarusvagheter och utföra multi-stegsåtgärder. Detta har väckt frågor om hur AI kan förändra cybersäkerheten och om det finns behov av reglering. Utfrågningen är planerad till den 14 juli.",
+      "tech_vinkel": "Claude Mythos, Anthropics nya AI-modell, kan utföra komplexa cybersäkerhetsuppgifter med liten mänsklig inblandning.",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan ha stor inverkan på cybersäkerhetsbranschen och hur företag och organisationer skyddar sig mot cyberhot. Utfrågningen kan leda till en ökad förståelse för AI:s potential och begränsningar inom cybersäkerhet och bidra till att forma framtida regleringar och riktlinjer för AI-användning inom området.",
+      "eu_koppling": "null",
+      "keywords": [
+        "AI",
+        "cybersäkerhet",
+        "Anthropic",
+        "Claude Mythos"
+      ],
+      "arende": "null",
+      "nasta_steg": "Utfrågningen med Anthropic är planerad till den 14 juli, men det är oklart vad som händer härnäst i ärendet.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-14",
+          "beskrivning": "AI-säkerhet: Utfrågning med Anthropic i EU-parlamentets utskott för den inre marknaden och konsumentskydd"
+        }
+      ]
+    },
+    "title": "Highlights - Anthropic invited to discuss AI Safety - Committee on the Internal Market and Consumer Protection",
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Fri, 10 Jul 2026",
+    "committee": "IMCO",
+    "summary": "On 14 July, IMCO will hold an exchange of views with Anthropic on its new artificial intelligence (AI) model, Claude Mythos. Unlike a standard chatbot, Claude Mythos can carry out complex cybersecurity tasks with little human input, such as finding software weaknesses and completing multi-step actions. These capabilities have raised questions about how AI could change cybersecurity and whether cur",
+    "cached_at": "2026-07-11"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20240930CNW19304": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "IMCO-nyhetsbrev",
+      "sammanfattning": "EU-parlamentets utskott för den inre marknaden och konsumentskydd (IMCO) har publicerat en samling nyhetsbrev från 2026. Dessa nyhetsbrev innehåller information om utskottets aktiviteter och beslut under året. Innehållet verkar vara en samling av olika ämnen som berör utskottets ansvarsområden, men det finns ingen tydlig och specifik tech-vinkel i sammanfattningen. Nyhetsbreven täcker olika datum och verkar vara en del av utskottets regelbundna kommunikation.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna samling av nyhetsbrev från EP-utskottet för inre marknaden (IMCO) kan vara viktig för att förstå utskottets fokus och prioriteringar under 2026, men det saknas en tydlig tech-vinkel som gör det direkt relevant för tech-nyheter. Det kan vara av intresse för dem som följer EU-parlamentets arbete och specifikt utskottet för den inre marknaden och konsumentskydd, men för tech-journalister saknas en direkt koppling till specifika tech-ärenden.",
+      "eu_koppling": "null",
+      "keywords": [
+        "IMCO",
+        "EU-parlamentet",
+        "nyhetsbrev"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Newsletters - by the IMCO secretariat - Committee on the Internal Market and Consumer Protection",
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Fri, 10 Jul 2026",
+    "committee": "IMCO",
+    "summary": "2026  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; July 2026 - issue 173  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June II 2026 - issue 172  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June I 2026 - issue 171  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2026 - issue 170  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; April 2026 - issue 169  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; March 2026 - issue 168  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; February 2026 - issue 167  &nbsp;",
+    "cached_at": "2026-07-11"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "AI Act: Kommissionen utvärderar kod för transparens i AI-genererat innehåll",
+      "sammanfattning": "EU-kommissionen har utvärderat en frivillig kod för transparens i AI-genererat innehåll. Denna kod syftar till att underlätta efterlevnaden av transparenskraven i AI Act (EU:s AI-förordning). Kommissionen anser att koden är ett effektivt medel för att säkerställa transparens i AI-genererat innehåll. Utvärderingen är ett steg i processen för att implementera AI Act.",
+      "tech_vinkel": "Kommissionen utvärderar specifikt koden för transparens i AI-genererat innehåll, vilket är en viktig aspekt av AI Act (EU:s AI-förordning).",
+      "varfor_viktigt": "Utvärderingen av koden för transparens i AI-genererat innehåll är viktig eftersom den kan påverka hur företag och organisationer använder AI i sin verksamhet. Det kan också ha konsekvenser för skyddet av personuppgifter och integriteten. Kommissionens utvärdering kan leda till ändringar i koden eller till att den antas som en standard för branschen.",
+      "eu_koppling": "AI Act (EU:s lagstiftning om artificiell intelligens)",
+      "keywords": [
+        "AI Act",
+        "transparens",
+        "AI-genererat innehåll"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Kommissionen kommer att fortsätta att arbeta med implementeringen av AI Act, inklusive att utvärdera och uppdatera koden för transparens i AI-genererat innehåll.",
+      "viktiga_datum": [],
+      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
+    },
+    "title": "Commission Opinion on the assessment of the Code of Practice on Transparency of AI-generated content",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Thu, 09 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Commission Opinion on the assessment of the Code of Practice on Transparency of AI-generated content \n  Anonymous (not verified)  \n  Thu, 07/09/2026 - 09:03 \n \n\n \n   \n        \n               \n                                     Commission and AI Board consider this voluntary code as an effective mean to facilitate compliance with the AI Act transparency obligations. \n\n  \n               \n       \n                     \n             \n\n\n\n\n\n          \n    \n    \n                 \n      \n  \n       \n   ",
+    "cached_at": "2026-07-11"
+  },
+  "https://www.mcf.se/sv/aktuellt/nyheter/2026/juni/nya-foreskrifter-om-utlandska-investeringar-i-samhallsviktig-verksamhet/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Nya föreskrifter om utländska investeringar",
+      "sammanfattning": "Myndigheten för samhällsskydd och beredskap (MSB) har publicerat nya föreskrifter om utländska investeringar i samhällsviktig verksamhet. Dessa föreskrifter syftar till att ge investerare och deras ombud tydliga riktlinjer för att avgöra om en investering omfattas av granskning av utländska direktinvesteringar. Regleringen är tänkt att vara tillräckligt tydlig för att kunna användas av investerare och deras ombud. Detta kan påverka företag som bedriver samhällsviktig verksamhet och som överväger att ta emot utländska investeringar.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Dessa föreskrifter är viktiga eftersom de syftar till att skydda samhällsviktig verksamhet från utländska investeringar som kan utgöra en risk för Sveriges säkerhet. Detta kan påverka företag som bedriver samhällsviktig verksamhet och som överväger att ta emot utländska investeringar. Tajmingen spelar roll eftersom det är viktigt att ha tydliga riktlinjer för investerare och deras ombud för att undvika eventuella risker.",
+      "eu_koppling": "null",
+      "keywords": [
+        "utländska investeringar",
+        "samhällsviktig verksamhet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Nya föreskrifter om utländska investeringar i samhällsviktig verksamhet",
+    "source": "MSB",
+    "type": "Svensk myndighet",
+    "date": "Mon, 22 Jun 2026",
+    "committee": "Myndigheten för samhällsskydd och beredskap / Civilt försvar (cyber, NIS2)",
+    "summary": "Den som överväger en investering i ett svenskt företag som bedriver samhällsviktig verksamhet måste kunna ta ställning till om verksamheten omfattas av föreskrifterna om granskning av utländska direktinvesteringar. Regleringen behöver vara tillräckligt tydlig för att kunna användas av investerare och deras ombud.",
+    "cached_at": "2026-07-11"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/events/euspa-career-day": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "EUSPA Career Day",
+      "sammanfattning": "EUSPA, den europeiska rymdbyrån, anordnar en karriärdag. Detta evenemang syftar till att informera och inspirera studenter och unga professionella om karriärmöjligheterna inom rymdindustrin. EUSPA är en viktig aktör inom EU:s rymdprogram och arbetar med att främja utvecklingen av rymdteknik och -tjänster. Karriärdagen är en möjlighet för deltagarna att lära sig mer om byråns verksamhet och nätverka med experter inom området.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "EUSPA:s karriärdag är viktig för att främja intresset för rymdteknik och -vetenskap bland unga människor. Det kan bidra till att öka antalet studenter och professionella som väljer att arbeta inom rymdindustrin, vilket är viktigt för EU:s rymdprogram och den europeiska rymdindustrins konkurrenskraft. Evenemanget kan också bidra till att öka medvetenheten om de möjligheter och utmaningar som finns inom rymdindustrin.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EUSPA",
+        "rymdindustri",
+        "karriärdag"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-10",
+          "beskrivning": "EUSPA Career Day: Evenemanget äger rum"
+        }
+      ]
+    },
+    "title": "EUSPA Career Day",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Fri, 10 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-07-11"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/eu-sst-10-keeping-watch-over-crowded-sky": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "EU SST: Övervakning av rymden",
+      "sammanfattning": "EU SST (Space Surveillance and Tracking) är ett system som övervakar rymden för att skydda europeiska rymdfarkoster och satelliter från kollisioner och andra hot. Systemet har varit i drift i tio år och har nu nått en milstolpe med tre års verksamhet vid EUSPA:s Front Desk. EU SST är en viktig del av EU:s rymdmedvetenhet och bidrar till att öka säkerheten i rymden.",
+      "tech_vinkel": "EU SST-systemet använder avancerad teknik för att spåra och övervaka rymdobjekt, vilket inkluderar satelliter och rymdskrot.",
+      "varfor_viktigt": "EU SST är viktigt för att skydda europeiska rymdfarkoster och satelliter från kollisioner och andra hot, vilket kan ha allvarliga konsekvenser för rymdindustrin och samhället i stort. Systemet bidrar också till att öka medvetenheten om rymden och dess utmaningar, vilket kan leda till nya innovationer och samarbeten inom rymdindustrin.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdövervakning",
+        "satelliter",
+        "rymdsäkerhet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "EU SST at 10: Keeping watch over a crowded sky",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "Marking a decade of service and three years of EUSPA ’s Front Desk operations, EU SST is a cornerstone of the European Union (EU)’s space situational awareness, enhancing space assets protection.",
+    "cached_at": "2026-07-11"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-folkhalsomyndigheten-om-risker-med-generativ-ai-for-barns-och-ungas-psykiska-halsa-och-valmaende/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "Generativ AI: Regeringen utreder risker för barn",
+      "sammanfattning": "Regeringen ger Folkhälsomyndigheten i uppdrag att sammanställa kunskap om risker med barns och ungas användning av generativ artificiell intelligens. Detta innebär att myndigheten ska undersöka hur generativ AI kan påverka barns och ungas psykiska hälsa och välmående. Uppdraget är en del av regeringens arbete för att skydda barn och unga från skadliga effekter av ny teknik. Folkhälsomyndigheten ska lämna en rapport till regeringen med sina slutsatser och rekommendationer.",
+      "tech_vinkel": "Regeringen ska undersöka riskerna med generativ AI, som är en typ av artificiell intelligens som kan skapa nytt innehåll, till exempel bilder och texter.",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom generativ AI kan ha en stor påverkan på barns och ungas liv, och det är viktigt att regeringen tar reda på hur man kan skydda dem från eventuella skadliga effekter. Uppdraget kan också leda till att regeringen utvecklar nya strategier och riktlinjer för att hantera riskerna med generativ AI. Dessutom kan detta arbete bidra till att öka medvetenheten om vikten av att skydda barn och unga i den digitala världen.",
+      "eu_koppling": "null",
+      "keywords": [
+        "generativ AI",
+        "barns och ungas hälsa",
+        "regeringsuppdrag"
+      ],
+      "arende": "null",
+      "nasta_steg": "Folkhälsomyndigheten kommer att påbörja arbetet med att sammanställa kunskap om risker med generativ AI och lämna en rapport till regeringen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-10",
+          "beskrivning": "Regeringen ger Folkhälsomyndigheten i uppdrag att sammanställa kunskap om risker med generativ AI"
+        }
+      ]
+    },
+    "title": "Uppdrag till Folkhälsomyndigheten om risker med generativ AI för barns och ungas psykiska hälsa och välmående",
+    "source": "Regeringen",
+    "type": "Regeringsuppdrag",
+    "date": "2026-07-10",
+    "committee": "Regeringen, Socialdepartementet",
+    "summary": "Regeringen ger Folkhälsomyndigheten i uppdrag att sammanställa kunskap om risker med barns och ungas användning av generativ artificiell intelligens",
+    "cached_at": "2026-07-11"
   }
 }

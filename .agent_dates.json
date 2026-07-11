@@ -1084,5 +1084,21 @@
       "url": "https://www.regeringen.se/pressmeddelanden/2026/07/folkhalsomyndigheten-ska-utreda-risker-med-generativ-ai-for-barn-och-unga/",
       "arende": "Utredning om AI-risken för barn"
     }
+  ],
+  "2026-07-14": [
+    {
+      "beskrivning": "AI-säkerhet: Utfrågning med Anthropic i EU-parlamentets utskott för den inre marknaden och konsumentskydd",
+      "title": "Highlights - Anthropic invited to discuss AI Safety - Committee on the Internal Market and Consumer Protection",
+      "url": "https://www.europarl.europa.eu/committees/en/product/product-details/20260708CAN79262",
+      "arende": "null"
+    }
+  ],
+  "2026-07-10": [
+    {
+      "beskrivning": "Regeringen ger Folkhälsomyndigheten i uppdrag att sammanställa kunskap om risker med generativ AI",
+      "title": "Uppdrag till Folkhälsomyndigheten om risker med generativ AI för barns och ungas psykiska hälsa och välmående",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-folkhalsomyndigheten-om-risker-med-generativ-ai-for-barns-och-ungas-psykiska-halsa-och-valmaende/",
+      "arende": "null"
+    }
   ]
 }
