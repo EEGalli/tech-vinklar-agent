@@ -313,172 +313,6 @@
     "title": "Teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel",
     "cached_at": "2026-06-30"
   },
-  "https://www.edpb.europa.eu/our-work-tools/our-documents/other/template-personal-data-breach-notification_en": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "EU-byrån EDPB har publicerat en mall för att rapportera personuppgiftsbrott. Syftet är att underlätta för organisationer att rapportera dataintrång och andra typer av personuppgiftsbrott på ett standardiserat sätt. Detta kan hjälpa till att skydda människors personliga uppgifter och förbättra cybersäkerheten. Organisationer som hanterar personuppgifter kommer att påverkas av denna mall.",
-      "tech_vinkel": "Mallen innehåller specifika krav för hur personuppgiftsbrott ska rapporteras, inklusive vilka typer av uppgifter som ska lämnas och hur de ska skyddas.",
-      "varfor_viktigt": "Detta är viktigt eftersom personuppgiftsbrott kan ha allvarliga konsekvenser för individer och organisationer. Genom att rapportera dessa brott på ett standardiserat sätt kan myndigheterna bättre förstå omfattningen av problemet och vidta åtgärder för att förhindra framtida brott. Detta kan också bidra till att öka förtroendet för organisationer som hanterar personuppgifter.",
-      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
-      "keywords": [
-        "personuppgiftsbrott",
-        "dataskydd",
-        "cybersäkerhet"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Organisationer som hanterar personuppgifter kommer att behöva anpassa sig till den nya mallen för att rapportera personuppgiftsbrott.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-10",
-          "beskrivning": "Publicering av mallen för personuppgiftsbrott"
-        }
-      ]
-    },
-    "title": "Template for personal data breach notification",
-    "cached_at": "2026-06-11"
-  },
-  "https://www.edpb.europa.eu/our-work-tools/our-documents/other/report-stakeholder-event-processing-personal-data-target-or_en": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "Rapporten handlar om en konferens där intressenter diskuterade hur personuppgifter används för att rikta eller leverera politiska annonser. Detta är en del av EU:s arbete för att skydda personuppgifter och säkerställa att de används på ett ansvarsfullt sätt. Rapporten presenterar resultaten från konferensen och ger en översikt av de diskussioner som fördes. Detta är en viktig fråga eftersom det handlar om hur personuppgifter används i politiska sammanhang.",
-      "tech_vinkel": "Rapporten diskuterar specifikt hur personuppgifter används för att rikta politiska annonser på sociala medier och andra online-plattformar, vilket är en teknisk fråga som kräver en tydlig förståelse av hur datainsamling och annonsering fungerar online.",
-      "varfor_viktigt": "Detta är viktigt eftersom det handlar om skyddet av personuppgifter och hur de används i politiska sammanhang. Det finns en risk att personuppgifter missbrukas eller används på ett sätt som inte är transparent, vilket kan ha negativa konsekvenser för individer och samhället i stort. Genom att diskutera och reglera hur personuppgifter används i politiska annonser kan EU bidra till att skydda medborgarnas rättigheter och säkerställa att politiska processer är transparenta och ansvarsfulla.",
-      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen), som reglerar hur personuppgifter ska hanteras inom EU",
-      "keywords": [
-        "personuppgifter",
-        "politiska annonser",
-        "dataskydd",
-        "GDPR"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Rapporten kommer att användas som underlag för vidare diskussioner och beslut om hur personuppgifter ska skyddas i politiska sammanhang.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-03-27",
-          "beskrivning": "Rapporten publicerades"
-        }
-      ]
-    },
-    "title": "Report on stakeholder event on processing of personal data to target or deliver political advertisements",
-    "cached_at": "2026-06-11"
-  },
-  "https://data.riksdagen.se/dokument/HD01TU20.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Riksdagens trafikutskott (TU) ska behandla infrastrukturfrågor. Detta dokument handlar om övergripande frågor som rör Sveriges infrastruktur, men det är oklart vad som specifikt föreslås eller vem som påverkas. Inga detaljer ges om vad som ska ändras eller hur det ska genomföras. Dokumentet verkar vara en allmän sammanfattning av kommande omröstningar.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta dokument kan ha betydelse för Sveriges infrastrukturutveckling, men utan specifika detaljer är det svårt att avgöra vilka konsekvenser det kan få. Det kan påverka olika aktörer inom transportsektorn och samhället i stort, men exakt hur är oklart. Tajmingen för detta dokument är inte tydlig, men det kan vara en del av en större plan för att utveckla Sveriges infrastruktur.",
-      "eu_koppling": "null",
-      "keywords": [
-        "infrastruktur",
-        "trafik",
-        "transport"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-11",
-          "beskrivning": "Kommande omröstning i Riksdagen"
-        }
-      ]
-    },
-    "title": "Infrastrukturfrågor",
-    "cached_at": "2026-06-11"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260206CNW20535": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för transport och turism, EP-utskottet för transport (TRAN), har publicerat en nyhetsbrevssamling för 2026. Samlingen innehåller nyhetsbrev från januari till juni 2026. Det finns ingen tydlig information om vad nyhetsbrevsen innehåller eller vilka specifika ärenden de behandlar.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta dokument verkar vara en samling av nyhetsbrev och saknar tydlig tech-vinkel eller specifika ärenden. Det är därför svårt att bedöma dess betydelse eller konsekvenser.",
-      "eu_koppling": null,
-      "keywords": [
-        "EU-parlamentet",
-        "TRAN",
-        "nyhetsbrev"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": []
-    },
-    "title": "Newsletters - 2026 - Committee on Transport and Tourism",
-    "cached_at": "2026-06-11"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260610CAN78761": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för ekonomi och valutafrågor, EU-parlamentet:s ekonomiutskott (ECON), kommer att ha ett möte med kommissionärerna Raffaele Fitto och Valdis Dombrovskis för att diskutera återhämtning och motståndskraft. Mötet är en del av en större dialog om återhämtning och motståndskraft. Det handlar om den ekonomiska situationen i Europa och hur man kan stärka den. Inga specifika tekniska frågor nämns.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta möte är viktigt eftersom det handlar om den ekonomiska situationen i Europa och hur man kan stärka den. Det kan ha konsekvenser för många människor och företag i Europa. Det är också viktigt att diskutera återhämtning och motståndskraft för att säkerställa att Europa kan hantera framtida ekonomiska utmaningar.",
-      "eu_koppling": "null",
-      "keywords": [
-        "återhämtning",
-        "motståndskraft",
-        "ekonomi"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-15",
-          "beskrivning": "Mötet mellan EU-parlamentets utskott för ekonomi och valutafrågor och kommissionärerna Raffaele Fitto och Valdis Dombrovskis"
-        }
-      ]
-    },
-    "title": "Highlights - Recovery and Resilience Dialogue with Commissioners R. Fitto and V. Dombrovskis - Committee on Economic and Monetary Affairs",
-    "cached_at": "2026-06-11"
-  },
-  "https://data.riksdagen.se/dokument/HD01FiU27.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Utskottet för finansfrågor (FiU) ska utvärdera den svenska penningpolitiken mellan 2015 och 2024. Detta innebär att de kommer att granska hur Riksbanken har hanterat penningpolitiken under denna period. Utvärderingen kommer att fokusera på hur väl Riksbanken har uppnått sina mål, såsom att hålla inflationen låg och stabil. Utvärderingen kan också ge insikt i hur penningpolitiken påverkar den svenska ekonomin.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Utvärderingen av den svenska penningpolitiken är viktig eftersom den kan ge insikt i hur Riksbanken kan förbättra sin hantering av penningpolitiken. Detta kan i sin tur påverka den svenska ekonomin och därmed också påverka medborgarnas ekonomi. Utvärderingen kan också ge underlag för framtida beslut om penningpolitiken. Det är dock oklart hur utvärderingen kommer att påverka tech-sektorn eller digitaliseringen i Sverige.",
-      "eu_koppling": "null",
-      "keywords": [
-        "penningpolitik",
-        "Riksbanken",
-        "ekonomi"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Utvärdering av svensk penningpolitik 2015–2024",
-    "cached_at": "2026-06-11"
-  },
-  "https://data.riksdagen.se/dokument/HD01FiU45.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Riksdagen ska omrösta om en proposition som handlar om stickprovsinsamling av uppgifter om hushållens skulder. Detta förslag syftar till att samla in data för att förstå hushållens skuldsituation bättre. Vem som påverkas är hushållen som kommer att ingå i stickprovet, och vad som ändras är att det kommer att finnas mer data tillgänglig för att analysera hushållens skulder.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta förslag kan ha konsekvenser för hushållens ekonomi och skuldsituation. Det kan också påverka hur myndigheter och organisationer hanterar skulder och ekonomisk rådgivning. Tajmingen spelar roll eftersom det kan påverka den ekonomiska politiken och besluten om skuldshantering.",
-      "eu_koppling": "null",
-      "keywords": [
-        "skulder",
-        "hushåll",
-        "stickprovsinsamling"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-11",
-          "beskrivning": "Omröstning i Riksdagen"
-        }
-      ]
-    },
-    "title": "Stickprovsinsamling av uppgifter om hushållens skulder",
-    "cached_at": "2026-06-11"
-  },
   "https://www.europol.europa.eu/media-press/newsroom/news/ransomware-gangs-cut-eur-336-million-audia6-crypto-laundering-pipeline": {
     "analysis": {
       "relevans": "hög",
@@ -11022,5 +10856,88 @@
     "committee": "Regeringen, Socialdepartementet",
     "summary": "Regeringen ger Folkhälsomyndigheten i uppdrag att sammanställa kunskap om risker med barns och ungas användning av generativ artificiell intelligens",
     "cached_at": "2026-07-11"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/investing-europes-digital-future-study-projects-long-term-economic-impact-european-competitiveness": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "EU-kommissionen: Investeringar i digital framtid",
+      "sammanfattning": "EU-kommissionen har publicerat en studie som undersöker den långsiktiga ekonomiska påverkan av det föreslagna Europeiska konkurrenskraftsfonden. Studien har genomförts av Joint Research Centre och Directorate-General for Communications Networks, Content and Technology. Den undersöker hur investeringar i digitala områden kan påverka Europas ekonomi. Studien är en del av EU-kommissionens arbete med att främja digitalisering och konkurrenskraft i Europa.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Studien är viktig eftersom den kan bidra till att förbättra förståelsen av hur investeringar i digitala områden kan påverka Europas ekonomi. Den kan också bidra till att informera beslut om hur EU-kommissionen ska prioritera sina investeringar i digitala områden. Studien kan också ha implikationer för företag och organisationer som verkar inom digitala sektorn i Europa.",
+      "eu_koppling": "null",
+      "keywords": [
+        "EU-kommissionen",
+        "digitalisering",
+        "konkurrenskraft"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Investing in Europe’s digital future: Study projects long-term economic impact of the European Competitiveness Fund",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Thu, 09 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Investing in Europe’s digital future: Study projects long-term economic impact of the European Competitiveness Fund \n  Anonymous (not verified)  \n  Thu, 07/09/2026 - 17:11 \n \n\n \n   \n        \n               \n                                     A new study by the Joint Research Centre (JRC) and Directorate-General for Communications Networks, Content and Technology (DG Connect) estimates that every euro invested through the Digital Leadership window of the proposed European Competitiveness Fund (",
+    "cached_at": "2026-07-12"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Cybersäkerhet",
+      "svensk_rubrik": "EU Action Plan: Säkrare AI och cybersäkerhet",
+      "sammanfattning": "EU-kommissionen har presenterat en handlingsplan för cybersäkerhet och artificiell intelligens. Syftet är att stödja ett säkert och ansvarsfullt användande av AI samtidigt som Europas cybersäkerhet stärks. Planen innehåller åtgärder för att förbättra cybersäkerheten och skydda mot cyberhot. Detta omfattar också att stärka samarbetet mellan medlemsstaterna och att öka medvetenheten om cybersäkerhetsfrågor.",
+      "tech_vinkel": "Handlingsplanen fokuserar på att stärka cybersäkerheten genom att implementera åtgärder som förbättrar skyddet mot cyberattacker och främjar utvecklingen av säker AI-teknologi.",
+      "varfor_viktigt": "Denna handlingsplan är viktig eftersom den syftar till att skydda Europas medborgare och företag mot alltmer sofistikerade cyberhot. Genom att stärka cybersäkerheten och främja ansvarsfull användning av AI kan EU bidra till att skapa en säkrare digital miljö. Detta är särskilt viktigt i dagens digitala samhälle där cyberattacker kan ha allvarliga konsekvenser för både individer och samhället i stort.",
+      "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+      "keywords": [
+        "cybersäkerhet",
+        "artificiell intelligens",
+        "EU Action Plan"
+      ],
+      "arende": "EU Action Plan on Cybersecurity and Artificial Intelligence",
+      "nasta_steg": "EU-kommissionen kommer att arbeta med medlemsstaterna och relevanta aktörer för att implementera handlingsplanen och säkerställa att målen uppnås.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-07",
+          "beskrivning": "EU Action Plan on Cybersecurity and Artificial Intelligence: Presentation av handlingsplanen"
+        }
+      ],
+      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
+    },
+    "title": "EU Action Plan on Cybersecurity and Artificial Intelligence",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Tue, 07 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "EU Action Plan on Cybersecurity and Artificial Intelligence \n  dumimar  \n  Tue, 07/07/2026 - 09:56 \n \n\n \n   \n        \n               \n                                     The European Commission has presented an Action Plan on Cybersecurity and Artificial Intelligence to support the safe and responsible use of AI while strengthening Europe's cybersecurity. \n\n  \n               \n       \n                     \n             \n\n    \n\n  \n\n          \n    \n    \n                       GettyImages © avgust0",
+    "cached_at": "2026-07-12"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/07/utredning-ska-se-over-okat-statligt-ansvarstagande-for-den-rattspsykiatriska-varden/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Rättspsykiatrisk vård: Utredning om statligt ansvarstagande",
+      "sammanfattning": "Regeringen startar en utredning om hur ett statligt eller delvis statligt huvudmannaskap för den rättspsykiatriska vården kan införas. Utredningen ska analysera och föreslå hur detta kan möjliggöras. Detta är ett steg mot att förbättra vården för personer med psykiska problem som har begått brott. Utredningen kommer att se över hur den rättspsykiatriska vården kan organiseras och finansieras.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna utredning är viktig eftersom den kan leda till en förbättring av vården för personer med psykiska problem som har begått brott. Det kan också påverka hur den rättspsykiatriska vården organiseras och finansieras i framtiden. Utredningen kan också ha konsekvenser för samhället i stort, eftersom den kan bidra till att minska brottsligheten och förbättra säkerheten.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rättspsykiatrisk vård",
+        "statligt ansvarstagande"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Utredning ska se över ökat statligt ansvarstagande för den rättspsykiatriska vården",
+    "source": "Regeringen",
+    "type": "Pressmeddelande",
+    "date": "2026-07-09",
+    "committee": "Camilla Waltersson Grönvall, Jakob Forssmed, Socialdepartementet",
+    "summary": "En särskild utredare ska analysera och föreslå hur ett statligt eller delvis statligt huvudmannaskap för den rättspsykiatriska vården kan möjliggöras.",
+    "cached_at": "2026-07-12"
   }
 }
