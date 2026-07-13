@@ -10919,5 +10919,37 @@
     "committee": "Europeiska rymdbyrån",
     "summary": "",
     "cached_at": "2026-07-13"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/special-panel-report-child-safety-online-protecting-and-empowering-minors-digital-world": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Barnskydd online (CSAM/Chat Control)",
+      "svensk_rubrik": "Barnskydd online: EU-kommissionen presenterar rapport",
+      "sammanfattning": "EU-kommissionen har presenterat en rapport om barnskydd online, som syftar till att skydda och stärka barns rättigheter på internet. Rapporten är resultatet av ett arbete som inletts av EU-kommissionens ordförande Ursula von der Leyen i samband med 2025 års tal om tillståndet i unionen. Panelen som tagit fram rapporten har undersökt hur man kan förbättra skyddet för barn på internet och föreslår en rad åtgärder för att öka säkerheten för barn online.",
+      "tech_vinkel": "Rapporten innehåller förslag om hur tekniska lösningar kan användas för att skydda barn mot skadligt innehåll och kontakter på internet, inklusive användning av AI för att identifiera och blockera olämpligt innehåll.",
+      "varfor_viktigt": "Rapporten är viktig eftersom den tar upp ett mycket aktuellt och viktigt ämne, nämligen skyddet för barn på internet. Det är en fråga som engagerar många föräldrar och som också är en prioritet för EU-kommissionen. Rapporten kan leda till förbättringar i lagstiftningen och i hur företag hanterar barns säkerhet online, vilket i sin tur kan bidra till att minska risken för att barn utsätts för skadligt innehåll eller kontakter på internet.",
+      "eu_koppling": "Digital Services Act (DSA) som reglerar plattformars ansvar för innehåll på internet",
+      "keywords": [
+        "barnskydd online",
+        "EU-kommissionen",
+        "internet säkerhet"
+      ],
+      "arende": "Barnskydd online",
+      "nasta_steg": "Rapporten kommer att diskuteras och analyseras av EU-kommissionen och andra berörda parter, vilket kan leda till förslag på nya lagstiftningsåtgärder eller ändringar i befintlig lagstiftning.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-13",
+          "beskrivning": "Barnskydd online-rapport: Presentation av EU-kommissionens rapport om barnskydd online"
+        }
+      ],
+      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
+    },
+    "title": "Special panel report: Child safety online protecting and empowering minors in a digital world",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Mon, 13 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Special panel report: Child safety online protecting and empowering minors in a digital world \n  Anonymous (not verified)  \n  Mon, 07/13/2026 - 11:15 \n \n\n \n   \n        \n               \n                                     As announced in the 2025 State of the Union address, President von der Leyen set up a special panel of experts to develop a strong and practical European approach to keep children safe online.  \n \nThe panel's co-chairs presented their final report in July 2026. The report highl",
+    "cached_at": "2026-07-13"
   }
 }
