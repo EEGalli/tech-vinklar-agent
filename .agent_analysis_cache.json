@@ -363,26 +363,6 @@
     "title": "BEREC position papers on the Digital Networks Act proposal",
     "cached_at": "2026-06-30"
   },
-  "https://www.euspa.europa.eu/opportunities/procurement-grants/grants/receiver-box-prs-civilian-applications": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån presenterar en receiver box för civilt bruk av Public Regulated Service (PRS). Detta är en teknik som används för att ge säker och skyddad kommunikation. Receiver boxen är tänkt att användas i olika civila applikationer. Det är dock oklart vilka specifika ändamål eller användningsområden som avses.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta dokument kan ha betydelse för utvecklingen av säker kommunikation i civila sammanhang. Det kan också påverka hur PRS-tekniken används i framtiden. Men utan mer information är det svårt att bedöma de exakta konsekvenserna.",
-      "eu_koppling": "null",
-      "keywords": [
-        "PRS",
-        "receiver box",
-        "civila applikationer"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Receiver box for PRS civilian applications",
-    "cached_at": "2026-06-13"
-  },
   "https://data.riksdagen.se/dokument/HD024201.html": {
     "analysis": {
       "relevans": "låg",
@@ -10951,5 +10931,68 @@
     "committee": "EU-kommissionen (digital-strategy)",
     "summary": "Special panel report: Child safety online protecting and empowering minors in a digital world \n  Anonymous (not verified)  \n  Mon, 07/13/2026 - 11:15 \n \n\n \n   \n        \n               \n                                     As announced in the 2025 State of the Union address, President von der Leyen set up a special panel of experts to develop a strong and practical European approach to keep children safe online.  \n \nThe panel's co-chairs presented their final report in July 2026. The report highl",
     "cached_at": "2026-07-13"
+  },
+  "https://www.politico.eu/article/eu-new-take-on-social-media-is-tougher-than-it-looks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Sociala medier och plattformar",
+      "svensk_rubrik": "EU:s sociala medier-riktlinjer",
+      "sammanfattning": "EU-kommissionen har presenterat en ny roadmap för sociala medier som syftar till att hålla stora tech-plattformar ansvariga. Roadmapen innehåller riktlinjer för hur plattformarna ska hantera innehåll, annonser och användardata. Målet är att skapa en mer transparent och säker online-miljö för användarna. Detta är en del av EU:s bredare strategi för att reglera tech-industrin och skydda medborgarnas rättigheter.",
+      "tech_vinkel": "Roadmapen innehåller specifika krav på plattformarna att implementera algoritmer för att upptäcka och ta bort skadligt innehåll, samt att ge användarna mer kontroll över sin personliga data.",
+      "varfor_viktigt": "Denna roadmap är viktig eftersom den kan ha en stor inverkan på hur sociala medier-plattformar fungerar i EU. Det kan leda till att plattformarna blir mer transparenta och ansvariga för sitt innehåll, vilket kan skydda användarna från skadligt innehåll och desinformation. Det kan också påverka den bredare tech-industrin, eftersom det kan sätta ett prejudikat för hur tech-företag ska hantera användardata och innehåll.",
+      "eu_koppling": "Digital Services Act (DSA), som är en EU-lag som reglerar sociala medier-plattformar och andra online-tjänster",
+      "keywords": [
+        "sociala medier",
+        "EU",
+        "tech-reglering"
+      ],
+      "arende": "Digital Services Act",
+      "nasta_steg": "EU-kommissionen kommer att övervaka implementeringen av roadmapen och utvärdera dess effektivitet",
+      "viktiga_datum": [
+        {
+          "datum": "2026-12-31",
+          "beskrivning": "Digital Services Act: Implementeringen av roadmapen för sociala medier-plattformar ska vara klar"
+        }
+      ],
+      "_learned_from": "Användaren har satt nyckelord 'EU' till låg 3 gånger tidigare"
+    },
+    "title": "Why the EU’s new social media roadmap is tougher than it looks",
+    "source": "Politico EU Tech",
+    "type": "Tech-policy-nyhet",
+    "date": "Mon, 13 Jul 2026",
+    "committee": "Politico Europe — tech-policy",
+    "summary": "Europe is playing the long game on holding Big Tech platforms to account.",
+    "cached_at": "2026-07-14"
+  },
+  "https://www.europarl.europa.eu/committees/en/product/product-details/20260713CAN79340": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Irlands ordförandeskap i EU: Fiskeri och vattenbruk",
+      "sammanfattning": "Irlands ordförandeskap i EU presenterar sina prioriteringar för fiskeri och vattenbruk under andra halvåret 2026. Minister Martin Heydon kommer att tala inför EU-parlamentets fiskeriutskott och presentera Irlands plan för fiskeri och vattenbruk. Detta är en del av det iriska ordförandeskapets övergripande agenda för EU.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det kan påverka EU:s fiskeripolitik och hur medlemsstaterna hanterar sina fiskebestånd. Irlands prioriteringar kan också ge insikt i hur EU:s fiskeripolitik kan utvecklas under de kommande månaderna. Det kan dock inte anses direkt relevant för tech-området.",
+      "eu_koppling": "null",
+      "keywords": [
+        "fiskeri",
+        "vattenbruk",
+        "EU"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-15",
+          "beskrivning": "Irlands ordförandeskap i EU: Minister Martin Heydon presenterar prioriteringar för fiskeri och vattenbruk"
+        }
+      ]
+    },
+    "title": "Highlights - Irish Presidency of the Council of the European Union - Committee on Fisheries",
+    "source": "EU-parlamentet",
+    "type": "EP/Utskott",
+    "date": "Mon, 13 Jul 2026",
+    "committee": "PECH",
+    "summary": "On 15 July, Minister Martin Heydon, the Irish Minister for Agriculture, Food and the Marine, will officially present the priorities of the rotating Irish Presidency of the Council of the EU for the second semester of 2026. Speaking directly to the European Parliament's Committee on Fisheries (PECH), Minister Heydon will outline Ireland's roadmap for fisheries and aquaculture.    Following the pres",
+    "cached_at": "2026-07-14"
   }
 }
