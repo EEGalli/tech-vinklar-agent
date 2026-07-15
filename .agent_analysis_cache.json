@@ -384,26 +384,6 @@
     "title": "med anledning av prop. 2025/26:275 Extra ändringsbudget för 2026 – Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern",
     "cached_at": "2026-06-30"
   },
-  "https://www.regeringen.se/pressmeddelanden/2026/06/sis-far-medel-for-arbetet-med-elektronisk-overvakning/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen har beslutat att ge Statens institutionsstyrelse, SiS, medel för att arbeta med elektronisk övervakning. Detta är en del av vårändringsbudgeten och syftar till att förbättra SiS:s arbete med övervakning. Beslutet påverkar SiS och de klienter som är föremål för elektronisk övervakning. Det är dock oklart exakt hur medlen kommer att användas.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta beslut kan ha konsekvenser för SiS:s arbete och för de klienter som är föremål för elektronisk övervakning. Det kan också påverka den övergripande säkerheten och tryggheten inom institutionerna. Tajmingen för beslutet kan vara viktig eftersom det kan påverka SiS:s budget och planering för kommande år.",
-      "eu_koppling": "null",
-      "keywords": [
-        "elektronisk övervakning",
-        "SiS",
-        "vårändringsbudgeten"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "SiS får medel för arbetet med elektronisk övervakning",
-    "cached_at": "2026-06-14"
-  },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260615CAN78884": {
     "analysis": {
       "relevans": "låg",
@@ -10994,5 +10974,94 @@
     "committee": "PECH",
     "summary": "On 15 July, Minister Martin Heydon, the Irish Minister for Agriculture, Food and the Marine, will officially present the priorities of the rotating Irish Presidency of the Council of the EU for the second semester of 2026. Speaking directly to the European Parliament's Committee on Fisheries (PECH), Minister Heydon will outline Ireland's roadmap for fisheries and aquaculture.    Following the pres",
     "cached_at": "2026-07-14"
+  },
+  "https://www.edpb.europa.eu/news/edpb-requires-belgian-dpa-to-handle-the-merits-of-noyb-cookie-banner-complaint_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Belgisk DPA måste hantera NOYB-klagomål om cookie-banners",
+      "sammanfattning": "European Data Protection Board (EDPB) har krävt att den belgiska dataskyddsmyndigheten (DPA) ska hantera klagomålet från organisationen NOYB om cookie-banners. NOYB har lämnat in ett klagomål om att vissa webbplatser inte följer EU:s dataskyddsförordning (GDPR) när det gäller cookie-banners. EDPB har nu beslutat att den belgiska DPA ska utreda ärendet och ta ställning till om webbplatserna har brutit mot GDPR. Detta beslut kan ha betydelse för hur företag och organisationer hanterar cookie-banners i framtiden.",
+      "tech_vinkel": "EDPB:s beslut handlar specifikt om hur webbplatser använder cookie-banners och om de följer EU:s dataskyddsförordning (GDPR) när det gäller insamling och användning av personuppgifter.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan påverka hur företag och organisationer hanterar personuppgifter och cookie-banners i framtiden. Om den belgiska DPA beslutar att webbplatserna har brutit mot GDPR (EU:s dataskyddsförordning), kan det leda till böter och andra sanktioner. Dessutom kan beslutet skapa prejudikat för hur andra EU-länder hanterar liknande ärenden.",
+      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
+      "keywords": [
+        "cookie-banners",
+        "GDPR",
+        "EDPB",
+        "NOYB"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Den belgiska DPA kommer att utreda ärendet och ta ställning till om webbplatserna har brutit mot GDPR.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-14",
+          "beskrivning": "EDPB-beslut: Belgisk DPA måste hantera NOYB-klagomål om cookie-banners"
+        }
+      ]
+    },
+    "title": "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint",
+    "source": "EDPB",
+    "type": "EU-byrå",
+    "date": "Tue, 14 Jul 2026",
+    "committee": "European Data Protection Board",
+    "summary": "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint ipetstef Tue, 07/14/2026 - 15:39",
+    "cached_at": "2026-07-15"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/summer-here-how-eu-space-enhances-travel-and-tourism": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "EU Space: Rymdbaserade tjänster för säkrare resor",
+      "sammanfattning": "EU-byrån EUSPA stöder företag i Europa med innovativa rymdbaserade tjänster för att göra resor och turism säkrare, mer hållbara och roligare. Dessa tjänster kan bidra till att förbättra säkerheten och effektiviteten inom rese- och turistnäringen. Det handlar om att använda satellitbaserad teknik för att ge bättre information och tjänster till resenärer och turister.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Denna utveckling kan ha betydande konsekvenser för rese- och turistnäringen i Europa, eftersom den kan bidra till att förbättra säkerheten och effektiviteten. Det kan också leda till nya affärsmöjligheter för företag som utvecklar och tillhandahåller rymdbaserade tjänster. Dessutom kan det bidra till att stärka EU:s position inom rymdteknik och satellitbaserade tjänster.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "satelliter",
+        "turism"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Summer Is Here: How EU Space enhances travel and tourism",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Mon, 13 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "Innovative space-based services, supported by EUSPA , are helping companies across Europe make travel and tourism safer, more sustainable and more enjoyable.",
+    "cached_at": "2026-07-15"
+  },
+  "https://www.regeringen.se/remisser/2026/07/remiss-av-rapporten-behandling-av-personuppgifter-hos-statens-tjanstepensionsverk/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Dataskydd: Regeringen remitterar rapport om Statens tjänstepensionsverk",
+      "sammanfattning": "Regeringen har remitterat en rapport om hur Statens tjänstepensionsverk hanterar personuppgifter. Rapporten är en del av regeringens arbete med att säkerställa att myndigheter följer dataskyddslagstiftningen. Detta är ett viktigt steg för att skydda människors personuppgifter och säkerställa att de hanteras på ett korrekt sätt. Remissen syftar till att samla in synpunkter från olika instanser för att förbättra hanteringen av personuppgifter.",
+      "tech_vinkel": "Rapporten fokuserar på hur Statens tjänstepensionsverk hanterar personuppgifter i enlighet med dataskyddsförordningen (GDPR), som är en EU-lag som reglerar hur personuppgifter ska hanteras.",
+      "varfor_viktigt": "Detta är viktigt eftersom det handlar om att skydda människors personuppgifter och säkerställa att de hanteras på ett korrekt sätt. Felhantering av personuppgifter kan leda till allvarliga konsekvenser, som identitetsstöld och integritetskränkningar. Genom att säkerställa att myndigheter följer dataskyddslagstiftningen kan regeringen bidra till att skydda människors rättigheter och intressen.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR), som är en EU-lag som reglerar hur personuppgifter ska hanteras",
+      "keywords": [
+        "Dataskydd",
+        "GDPR",
+        "Personuppgifter"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Regeringen kommer att samla in synpunkter från remissinstanserna och därefter ta ställning till eventuella förslag till förändringar i hanteringen av personuppgifter.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-14",
+          "beskrivning": "Dataskydd: Regeringen remitterar rapport om Statens tjänstepensionsverk"
+        }
+      ]
+    },
+    "title": "Remiss av rapporten Behandling av personuppgifter hos Statens tjänstepensionsverk, Fi2026/01680",
+    "source": "Regeringen",
+    "type": "Remiss",
+    "date": "2026-07-14",
+    "committee": "Finansdepartementet",
+    "summary": "Här kan du ta del av till vilka instanser som regeringen har remitterat rapporten Behandling av personuppgifter hos Statens tjänstepensionsverk.",
+    "cached_at": "2026-07-15"
   }
 }
