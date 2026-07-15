@@ -11063,5 +11063,62 @@
     "committee": "Finansdepartementet",
     "summary": "Här kan du ta del av till vilka instanser som regeringen har remitterat rapporten Behandling av personuppgifter hos Statens tjänstepensionsverk.",
     "cached_at": "2026-07-15"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/success-stories/advancing-use-space-data-and-digital-twins-cities": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "EUSPA: Utveckling av rymddata och digitala tvillingar i städer",
+      "sammanfattning": "EUSPA har startat ett projekt inom ramen för Horizon Europe som heter BUILDSPACE. Projektet syftar till att använda rymddata och digitala tvillingar för att göra byggnader mer energieffektiva och städer mer klimattåliga. Detta ska uppnås genom att utnyttja satellitdata och digitala modeller för att förbättra stadsplaneringen och minska energiförbrukningen. Projektet är en del av EU:s insatser för att främja hållbar utveckling och minska klimatpåverkan.",
+      "tech_vinkel": "Projektet använder sig av rymddata och digitala tvillingar, som är en form av avancerad datamodellering som kan simulera och analysera komplexa system.",
+      "varfor_viktigt": "Detta projekt är viktigt eftersom det kan bidra till att minska energiförbrukningen och klimatpåverkan i städer. Genom att använda rymddata och digitala tvillingar kan städer planeras och utvecklas på ett mer hållbart sätt, vilket kan leda till förbättrade levnadsvillkor för invånarna. Projektet är också en del av EU:s bredare insatser för att främja innovation och hållbar utveckling.",
+      "eu_koppling": "Horizon Europe",
+      "keywords": [
+        "rymddata",
+        "digitala tvillingar",
+        "energieffektivitet",
+        "klimattålig"
+      ],
+      "arende": null,
+      "nasta_steg": null,
+      "viktiga_datum": []
+    },
+    "title": "Advancing the use of space data and digital twins in cities",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Tue, 14 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "EUSPA ’s Horizon Europe project BUILDSPACE uses space data and digital twins to make buildings more energy-efficient and cities more climate-resilient.",
+    "cached_at": "2026-07-15"
+  },
+  "https://data.riksdagen.se/dokument/HD03304.html": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Stärkt trygghet i bostadsrätter",
+      "sammanfattning": "Regeringen föreslår åtgärder för att öka tryggheten i bostadsrätter. Propositionen syftar till att stärka tryggheten för boende i bostadsrätter. Det föreslagna förslaget ska bidra till en tryggare boendemiljö. Propositionen har överlämnats till riksdagen för behandling.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Förslaget kan ha betydelse för boende i bostadsrätter, men det saknas en tydlig tech-vinkel. Det är viktigt att se till att boendemiljön är trygg och säker, men detta förslag verkar inte ha någon direkt koppling till teknologi. Riksdagens behandling av förslaget kommer att avgöra dess framtid.",
+      "eu_koppling": "null",
+      "keywords": [
+        "bostadsrätter",
+        "trygghet"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-14",
+          "beskrivning": "Stärkt trygghet i bostadsrätter: Propositionen överlämnas till riksdagen"
+        }
+      ]
+    },
+    "title": "Stärkt trygghet i bostadsrätter",
+    "source": "Riksdagen",
+    "type": "Riksdagen/PROP",
+    "date": "2026-07-14",
+    "committee": "Justitiedepartementet",
+    "summary": "Regeringens proposition 2025/26:304\n Stärkt trygghet i bostadsrätter  Prop.  2025/26:304  Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 14 juli 2026\n Lotta Edholm\n Johan Forssell (Justitiedepartementet)\n Propositionens huvudsakliga innehåll\n Regeringen föreslår åtgärder som syftar till att öka tryggheten",
+    "cached_at": "2026-07-15"
   }
 }
