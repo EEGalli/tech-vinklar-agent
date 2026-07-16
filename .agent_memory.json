@@ -20902,33 +20902,33 @@
   ],
   "2026-07-16": [
     {
-      "title": "EDPB antar riktlinjer om webbskrapning för träning av AI",
-      "source": "IMY",
-      "type": "Svensk myndighet",
-      "url": "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-webbskrapning-for-traning-av-ai/",
-      "date": "Wed, 08 Jul 2026",
-      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
-      "summary": "På sitt senaste plenarmöte antog den Europeiska dataskyddsstyrelsen, EDPB, nya riktlinjer om webbskrapning för träning av generativ AI. IMY har varit huvudrapportör, det vill säga projektlett, arbetet med riktlinjerna.",
+      "title": "The Digital Omnibus is going on summer break. Your rights are not.",
+      "source": "EDRi",
+      "type": "Tech-policy-nyhet",
+      "url": "https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/",
+      "date": "Thu, 16 Jul 2026",
+      "committee": "European Digital Rights (NGO)",
+      "summary": "In November 2025, the European Commission presented the Digital Omnibus as a simplification package for EU digital rules. Since then, the AI Omnibus has been adopted, weakening the AI Act before key safeguards fully apply. The Data Omnibus is still moving through the Council and European Parliament, covering the Data Acquis, GDPR and ePrivacy rules. Decisions on it will be waiting after summer, wi",
       "analysis": {
-        "relevans": "hög",
+        "relevans": "medel",
         "tema": "Dataskydd och GDPR",
-        "svensk_rubrik": "EDPB: Riktlinjer för webbskrapning vid AI-träning",
-        "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om webbskrapning för träning av generativ AI. Detta innebär att det nu finns tydliga regler för hur personuppgifter får samlas in och användas vid utveckling av AI-system. Riktlinjerna syftar till att säkerställa att dataskyddet för enskilda personer respekteras även när AI-system utvecklas. Integritetsskyddsmyndigheten, IMY, har varit huvudrapportör för arbetet med riktlinjerna.",
-        "tech_vinkel": "Riktlinjerna specificerar hur webbskrapning för träning av generativ AI ska genomföras med respekt för dataskyddslagstiftningen, vilket är en specifik teknikfråga.",
-        "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de ger tydliga regler för hur AI-utvecklare ska hantera personuppgifter vid webbskrapning. Detta kan påverka utvecklingen av AI-system och säkerställa att dataskyddet för enskilda personer respekteras. Riktlinjerna kan också bidra till att öka förtroendet för AI-system och minska risken för dataskyddsincidenter.",
-        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+        "svensk_rubrik": "Digital Omnibus: Väntar på beslut efter sommaren",
+        "sammanfattning": "I november 2025 presenterade EU-kommissionen Digital Omnibus, ett paket för att förenkla EU:s digitala regler. Sedan dess har AI Omnibus antagits, vilket försvagar AI Act (EU:s AI-förordning) innan viktiga skyddsåtgärder träder i kraft. Data Omnibus är fortfarande under behandling i rådet och parlamentet och omfattar Data Acquis, GDPR (EU:s dataskyddsförordning) och ePrivacy-regler. Beslut om detta väntar efter sommaren.",
+        "tech_vinkel": "Data Omnibus-paketet innehåller specifika förslag om ändringar i GDPR (EU:s dataskyddsförordning) och ePrivacy-regler, som kan påverka hur personuppgifter hanteras online.",
+        "varfor_viktigt": "Beslutet om Data Omnibus kan ha stor inverkan på hur företag och organisationer hanterar personuppgifter i EU. Det kan också påverka skyddet för enskilda personers integritet och rättigheter. Tajmingen är viktig eftersom det kan påverka implementeringen av AI Act (EU:s AI-förordning) och andra digitala regler.",
+        "eu_koppling": "GDPR (Allmänna dataskyddsförordningen) och ePrivacy-regler",
         "keywords": [
-          "webbskrapning",
-          "AI-träning",
-          "dataskydd",
-          "GDPR"
+          "Digital Omnibus",
+          "GDPR",
+          "ePrivacy",
+          "AI Act"
         ],
-        "arende": "AI Act",
-        "nasta_steg": "Riktlinjerna kommer att implementeras och följas upp av dataskyddsmyndigheterna i EU, vilket kan leda till ytterligare riktlinjer och rekommendationer för AI-utvecklare.",
+        "arende": "Digital Omnibus",
+        "nasta_steg": "Beslut om Data Omnibus väntar efter sommaren, då rådet och parlamentet kommer att fortsätta behandla förslaget.",
         "viktiga_datum": [
           {
-            "datum": "2026-07-08",
-            "beskrivning": "EDPB: Riktlinjer för webbskrapning vid AI-träning antas"
+            "datum": "2025-11",
+            "beskrivning": "Digital Omnibus-paketet presenterades av EU-kommissionen"
           }
         ]
       }
@@ -20998,6 +20998,38 @@
       }
     },
     {
+      "title": "IMY:s rättschef får utredningsuppdrag av regeringen",
+      "source": "IMY",
+      "type": "Svensk myndighet",
+      "url": "https://www.imy.se/nyheter/imys-rattschef-far-utredningsuppdrag-av-regeringen/",
+      "date": "Thu, 16 Jul 2026",
+      "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+      "summary": "Regeringen har tillsatt en utredning om förbättrade möjligheter att behandla personuppgifter för att motverka felaktiga utbetalningar och missbruk av myndigheters processer. David Törngren, rättschef på Integritetsskyddsmyndigheten (IMY), ska leda utredningen.",
+      "analysis": {
+        "relevans": "hög",
+        "tema": "Dataskydd och GDPR",
+        "svensk_rubrik": "IMY: Utredning om personuppgiftsbehandling",
+        "sammanfattning": "Regeringen har tillsatt en utredning om hur man kan förbättra möjligheterna att behandla personuppgifter för att motverka felaktiga utbetalningar och missbruk av myndigheters processer. Utredningen ska ledas av David Törngren, rättschef på Integritetsskyddsmyndigheten (IMY). Syftet är att hitta sätt att förbättra hanteringen av personuppgifter inom myndigheter för att minska risken för fel och missbruk. Detta kan påverka hur myndigheter hanterar personuppgifter i framtiden.",
+        "tech_vinkel": "Utredningen kommer att fokusera på hur man kan använda tekniska lösningar för att förbättra behandlingen av personuppgifter och skydda mot felaktiga utbetalningar och missbruk.",
+        "varfor_viktigt": "Denna utredning är viktig eftersom den kan leda till förbättringar i hanteringen av personuppgifter inom myndigheter, vilket kan skydda individers integritet och förhindra missbruk. Utredningen kan också bidra till att stärka förtroendet för myndigheternas hantering av personuppgifter. Dessutom kan resultaten från utredningen användas för att informera och utveckla framtida lagstiftning och riktlinjer för personuppgiftsbehandling.",
+        "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning, som reglerar hur personuppgifter ska hanteras inom EU)",
+        "keywords": [
+          "dataskydd",
+          "personuppgifter",
+          "myndigheter",
+          "integritet"
+        ],
+        "arende": "Dataskydd och integritet",
+        "nasta_steg": "Utredningen kommer att pågå under en viss tid och sedan lämna sina förslag till regeringen för vidare hantering.",
+        "viktiga_datum": [
+          {
+            "datum": "2026-12-31",
+            "beskrivning": "Utredningen om personuppgiftsbehandling: Sista datum för utredningens förslag"
+          }
+        ]
+      }
+    },
+    {
       "title": "Dom från EU-domstolen om söktjänst med utgivningsbevis",
       "source": "IMY",
       "type": "Svensk myndighet",
@@ -21030,33 +21062,33 @@
       }
     },
     {
-      "title": "Amerikansk dom kan påverka överföringar till USA",
+      "title": "EDPB antar riktlinjer om webbskrapning för träning av AI",
       "source": "IMY",
       "type": "Svensk myndighet",
-      "url": "https://www.imy.se/nyheter/amerikansk-dom-kan-paverka-overforingar-till-usa/",
-      "date": "Fri, 03 Jul 2026",
+      "url": "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-webbskrapning-for-traning-av-ai/",
+      "date": "Wed, 08 Jul 2026",
       "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
-      "summary": "Tidigare i veckan fattade USA:s högsta domstol beslut i det s.k. Trump v. Slaughter-fallet. I korthet kommer domstolen fram till att en president har rätt att skilja en ledamot i tillsynsorganet Federal Trade Commission (FTC) från sitt uppdrag utan särskild grund. Beslutet kan påverka överföringar till USA, och kommer nu att analyseras av den Europeiska dataskyddsstyrelsen (EDPB) där Integritetssk",
+      "summary": "På sitt senaste plenarmöte antog den Europeiska dataskyddsstyrelsen, EDPB, nya riktlinjer om webbskrapning för träning av generativ AI. IMY har varit huvudrapportör, det vill säga projektlett, arbetet med riktlinjerna.",
       "analysis": {
         "relevans": "hög",
         "tema": "Dataskydd och GDPR",
-        "svensk_rubrik": "Amerikansk dom påverkar överföringar till USA",
-        "sammanfattning": "En amerikansk dom har gett presidenten rätt att skilja en ledamot i Federal Trade Commission (FTC) från sitt uppdrag utan särskild grund. Detta beslut kan påverka överföringar av personuppgifter till USA. Den Europeiska dataskyddsstyrelsen (EDPB) kommer att analysera beslutet och dess konsekvenser för dataskyddet. Detta kan leda till förändringar i hur personuppgifter överförs mellan EU och USA.",
-        "tech_vinkel": "Beslutet kan påverka giltigheten av Privacy Shield-avtalet, som reglerar överföringar av personuppgifter mellan EU och USA.",
-        "varfor_viktigt": "Detta beslut kan ha stor påverkan på företag som överför personuppgifter mellan EU och USA. Det kan leda till förändringar i hur dessa företag hanterar personuppgifter och kan även påverka deras verksamhet. Dessutom kan det leda till en översyn av dataskyddslagstiftningen i EU och USA.",
+        "svensk_rubrik": "EDPB: Riktlinjer för webbskrapning vid AI-träning",
+        "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om webbskrapning för träning av generativ AI. Detta innebär att det nu finns tydliga regler för hur personuppgifter får samlas in och användas vid utveckling av AI-system. Riktlinjerna syftar till att säkerställa att dataskyddet för enskilda personer respekteras även när AI-system utvecklas. Integritetsskyddsmyndigheten, IMY, har varit huvudrapportör för arbetet med riktlinjerna.",
+        "tech_vinkel": "Riktlinjerna specificerar hur webbskrapning för träning av generativ AI ska genomföras med respekt för dataskyddslagstiftningen, vilket är en specifik teknikfråga.",
+        "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de ger tydliga regler för hur AI-utvecklare ska hantera personuppgifter vid webbskrapning. Detta kan påverka utvecklingen av AI-system och säkerställa att dataskyddet för enskilda personer respekteras. Riktlinjerna kan också bidra till att öka förtroendet för AI-system och minska risken för dataskyddsincidenter.",
         "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
         "keywords": [
+          "webbskrapning",
+          "AI-träning",
           "dataskydd",
-          "GDPR",
-          "USA",
-          "överföringar"
+          "GDPR"
         ],
-        "arende": "Dataskydd och integritet",
-        "nasta_steg": "Den Europeiska dataskyddsstyrelsen (EDPB) kommer att analysera beslutet och dess konsekvenser för dataskyddet.",
+        "arende": "AI Act",
+        "nasta_steg": "Riktlinjerna kommer att implementeras och följas upp av dataskyddsmyndigheterna i EU, vilket kan leda till ytterligare riktlinjer och rekommendationer för AI-utvecklare.",
         "viktiga_datum": [
           {
-            "datum": "2026-07-03",
-            "beskrivning": "Amerikansk dom påverkar överföringar till USA: EDPB-analys påbörjas"
+            "datum": "2026-07-08",
+            "beskrivning": "EDPB: Riktlinjer för webbskrapning vid AI-träning antas"
           }
         ]
       }

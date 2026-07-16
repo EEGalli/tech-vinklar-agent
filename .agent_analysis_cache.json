@@ -384,77 +384,6 @@
     "title": "med anledning av prop. 2025/26:275 Extra ändringsbudget för 2026 – Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern",
     "cached_at": "2026-06-30"
   },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260615CAN78884": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för medborgerliga fri- och rättigheter samt rättsliga och inrikes frågor (LIBE) kommer att ha en strukturerad dialog med Henna Virkkunen, vice ordförande för Europeiska kommissionen med ansvar för teknologisk suveränitet, säkerhet och demokrati. Dialogen kommer att innehålla en frågestund med LIBE-ledamöter och kommer att behandla olika ämnen. Detta är en del av en större process för att diskutera och utveckla EU:s politik inom dessa områden.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna dialog är viktig eftersom den kan påverka EU:s framtida politik inom områden som teknologisk suveränitet, säkerhet och demokrati. Det kan också ge insikt i hur EU:s ledare ser på dessa frågor och hur de planerar att hantera dem i framtiden. Detta kan ha konsekvenser för hur EU hanterar teknologiska frågor och hur de påverkar medborgarna.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EU-parlamentet",
-        "LIBE",
-        "Henna Virkkunen",
-        "teknologisk suveränitet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-24",
-          "beskrivning": "Strukturerad dialog mellan LIBE och Henna Virkkunen"
-        }
-      ]
-    },
-    "title": "Highlights - Structural Dialogue with Executive Vice-President Henna Virkkunen - Committee on Civil Liberties, Justice and Home Affairs",
-    "cached_at": "2026-06-15"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260615CAN78880": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Uppkopplade fordon",
-      "sammanfattning": "EU-parlamentets transportutskott (TRAN) kommer att presentera en studie om vägvärdighetspaketet. Studien utvärderar tekniska aspekter av direktiven om periodisk vägvärdighetskontroll och vägkantinspektion av kommersiella fordon. Huvudfynden fokuserar på att harmonisera minimikraven för periodisk teknisk inspektion och vägkantinspektion i hela EU.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta ärende är viktigt eftersom det kan påverka trafiksäkerheten i EU. Om minimikraven för vägvärdighetskontroll och vägkantinspektion harmoniseras, kan det leda till färre olyckor och förbättrad trafiksäkerhet. Det kan också påverka den kommersiella transportsektorn, som måste anpassa sig till de nya kraven.",
-      "eu_koppling": "2014/45/EU och 2014/47/EU",
-      "keywords": [
-        "vägvärdighetspaketet",
-        "periodisk vägvärdighetskontroll",
-        "vägkantinspektion"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-23",
-          "beskrivning": "TRAN-kommittén presenterar studien om vägvärdighetspaketet"
-        }
-      ]
-    },
-    "title": "Highlights - Accompanying Expertise on the Roadworthiness Package - Committee on Transport and Tourism",
-    "cached_at": "2026-06-15"
-  },
-  "https://www.euspa.europa.eu/node/9753": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har publicerat en annons för en tjänst som Space Segment Engineer. Detta innebär att de söker en person med expertis inom rymdteknik för att arbeta med utvecklingen och driften av rymdsystem. Tjänsten är en del av byråns arbete med att stödja EU:s rymdprogram och -politik. Detta kan ha betydelse för utvecklingen av rymdteknik och EU:s rymdprogram.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta kan ha betydelse för utvecklingen av rymdteknik och EU:s rymdprogram, men det är inte ett direkt tekniskt ärende. Det kan påverka EU:s förmåga att utveckla och använda rymdteknik för olika ändamål, men det är inte ett specifikt tekniskt ärende. Det är viktigt att ha kompetens inom rymdteknik för att utveckla och använda rymdsystem effektivt.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdteknik",
-        "EUSPA",
-        "EU:s rymdprogram"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Space Segment Engineer",
-    "cached_at": "2026-06-15"
-  },
   "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/06/sou-202636/": {
     "analysis": {
       "relevans": "medel",
@@ -11120,5 +11049,95 @@
     "committee": "Justitiedepartementet",
     "summary": "Regeringens proposition 2025/26:304\n Stärkt trygghet i bostadsrätter  Prop.  2025/26:304  Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 14 juli 2026\n Lotta Edholm\n Johan Forssell (Justitiedepartementet)\n Propositionens huvudsakliga innehåll\n Regeringen föreslår åtgärder som syftar till att öka tryggheten",
     "cached_at": "2026-07-15"
+  },
+  "https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Digital Omnibus: Väntar på beslut efter sommaren",
+      "sammanfattning": "I november 2025 presenterade EU-kommissionen Digital Omnibus, ett paket för att förenkla EU:s digitala regler. Sedan dess har AI Omnibus antagits, vilket försvagar AI Act (EU:s AI-förordning) innan viktiga skyddsåtgärder träder i kraft. Data Omnibus är fortfarande under behandling i rådet och parlamentet och omfattar Data Acquis, GDPR (EU:s dataskyddsförordning) och ePrivacy-regler. Beslut om detta väntar efter sommaren.",
+      "tech_vinkel": "Data Omnibus-paketet innehåller specifika förslag om ändringar i GDPR (EU:s dataskyddsförordning) och ePrivacy-regler, som kan påverka hur personuppgifter hanteras online.",
+      "varfor_viktigt": "Beslutet om Data Omnibus kan ha stor inverkan på hur företag och organisationer hanterar personuppgifter i EU. Det kan också påverka skyddet för enskilda personers integritet och rättigheter. Tajmingen är viktig eftersom det kan påverka implementeringen av AI Act (EU:s AI-förordning) och andra digitala regler.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen) och ePrivacy-regler",
+      "keywords": [
+        "Digital Omnibus",
+        "GDPR",
+        "ePrivacy",
+        "AI Act"
+      ],
+      "arende": "Digital Omnibus",
+      "nasta_steg": "Beslut om Data Omnibus väntar efter sommaren, då rådet och parlamentet kommer att fortsätta behandla förslaget.",
+      "viktiga_datum": [
+        {
+          "datum": "2025-11",
+          "beskrivning": "Digital Omnibus-paketet presenterades av EU-kommissionen"
+        }
+      ]
+    },
+    "title": "The Digital Omnibus is going on summer break. Your rights are not.",
+    "source": "EDRi",
+    "type": "Tech-policy-nyhet",
+    "date": "Thu, 16 Jul 2026",
+    "committee": "European Digital Rights (NGO)",
+    "summary": "In November 2025, the European Commission presented the Digital Omnibus as a simplification package for EU digital rules. Since then, the AI Omnibus has been adopted, weakening the AI Act before key safeguards fully apply. The Data Omnibus is still moving through the Council and European Parliament, covering the Data Acquis, GDPR and ePrivacy rules. Decisions on it will be waiting after summer, wi",
+    "cached_at": "2026-07-16"
+  },
+  "https://www.imy.se/nyheter/imys-rattschef-far-utredningsuppdrag-av-regeringen/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Utredning om personuppgiftsbehandling",
+      "sammanfattning": "Regeringen har tillsatt en utredning om hur man kan förbättra möjligheterna att behandla personuppgifter för att motverka felaktiga utbetalningar och missbruk av myndigheters processer. Utredningen ska ledas av David Törngren, rättschef på Integritetsskyddsmyndigheten (IMY). Syftet är att hitta sätt att förbättra hanteringen av personuppgifter inom myndigheter för att minska risken för fel och missbruk. Detta kan påverka hur myndigheter hanterar personuppgifter i framtiden.",
+      "tech_vinkel": "Utredningen kommer att fokusera på hur man kan använda tekniska lösningar för att förbättra behandlingen av personuppgifter och skydda mot felaktiga utbetalningar och missbruk.",
+      "varfor_viktigt": "Denna utredning är viktig eftersom den kan leda till förbättringar i hanteringen av personuppgifter inom myndigheter, vilket kan skydda individers integritet och förhindra missbruk. Utredningen kan också bidra till att stärka förtroendet för myndigheternas hantering av personuppgifter. Dessutom kan resultaten från utredningen användas för att informera och utveckla framtida lagstiftning och riktlinjer för personuppgiftsbehandling.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning, som reglerar hur personuppgifter ska hanteras inom EU)",
+      "keywords": [
+        "dataskydd",
+        "personuppgifter",
+        "myndigheter",
+        "integritet"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Utredningen kommer att pågå under en viss tid och sedan lämna sina förslag till regeringen för vidare hantering.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-12-31",
+          "beskrivning": "Utredningen om personuppgiftsbehandling: Sista datum för utredningens förslag"
+        }
+      ]
+    },
+    "title": "IMY:s rättschef får utredningsuppdrag av regeringen",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 16 Jul 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Regeringen har tillsatt en utredning om förbättrade möjligheter att behandla personuppgifter för att motverka felaktiga utbetalningar och missbruk av myndigheters processer. David Törngren, rättschef på Integritetsskyddsmyndigheten (IMY), ska leda utredningen.",
+    "cached_at": "2026-07-16"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/07/nya-beslut-om-havsbaserad-vindkraft/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Havsbaserad vindkraft: Regeringen fattar beslut",
+      "sammanfattning": "Regeringen har tagit beslut om tillståndsansökningar för havsbaserad vindkraft inom Sveriges ekonomiska zon. Två nya havsbaserade vindkraftsparker kommer att etableras. Beslutet är en del av regeringens arbete för att öka användningen av förnybara energikällor och minska Sveriges beroende av fossila bränslen. Detta beslut kan ha en positiv inverkan på miljön och bidra till att Sverige uppnår sina klimatmål.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan bidra till att Sverige uppnår sina klimatmål och minskar sitt beroende av fossila bränslen. Det kan också skapa nya möjligheter för företag och investerare inom den förnybara energisektorn. Dessutom kan det ha en positiv inverkan på miljön och bidra till att minska utsläppen av växthusgaser.",
+      "eu_koppling": "null",
+      "keywords": [
+        "havsbaserad vindkraft",
+        "regeringens beslut",
+        "förnybara energikällor"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Nya beslut om havsbaserad vindkraft",
+    "source": "Regeringen",
+    "type": "Pressmeddelande",
+    "date": "2026-07-16",
+    "committee": "Romina Pourmokhtari, Klimat- och näringslivsdepartementet",
+    "summary": "Regeringen har nu tagit beslut om samtliga tillståndsansökningar som varit under beredning inom Sveriges ekonomiska zon. Två nya havsbaserade",
+    "cached_at": "2026-07-16"
   }
 }
