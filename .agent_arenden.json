@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "next_step": "Nationellt cybersäkerhetscenter kommer att påbörja arbetet med att samordna och stärka cybersäkerhetsarbetet i Sverige, med fokus på AI-relaterade risker.",
     "documents": [
@@ -551,7 +551,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -674,7 +674,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -962,7 +962,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1054,7 +1054,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1177,7 +1177,7 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1322,7 +1322,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1397,7 +1397,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1464,7 +1464,7 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2053,7 +2053,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2071,7 +2071,7 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2096,7 +2096,7 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2114,7 +2114,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2139,7 +2139,7 @@
   "Biometriutredning": {
     "name": "Biometriutredning",
     "first_seen": "2026-07-06",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
