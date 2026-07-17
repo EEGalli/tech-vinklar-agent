@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "next_step": "Riksdagen kommer nu att granska propositionen och eventuellt lägga fram ändringsförslag innan den slutgiltigt beslutas.",
     "documents": [
@@ -551,11 +551,11 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Riksdagen kommer nu att granska skrivelsen och eventuellt ta ställning till de åtgärder regeringen föreslår.",
+    "next_step": "Myndigheten för samhällsskydd och beredskap kommer att fortsätta att arbeta med att förbättra cybersäkerheten inom offentlig förvaltning, bland annat genom att tillhandahålla stöd och vägledning till organisationer som deltar i Cybersäkerhetskollen.",
     "documents": [
       {
         "title": "Joint Committee annual report highlights digitalisation, cyber resilience and sustainable finance as key priorities of 2025",
@@ -674,7 +674,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -962,7 +962,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1054,7 +1054,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1177,11 +1177,11 @@
   "Kartläggning av sociala mediers algoritmer": {
     "name": "Kartläggning av sociala mediers algoritmer",
     "first_seen": "2026-05-22",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Riksdagen kommer att granska skrivelsen och eventuellt initiera debatt eller ytterligare utredningar baserat på dess innehåll.",
+    "next_step": "Regeringen kommer att tillsätta en utredning som ska undersöka sociala mediers påverkan på pojkar och unga män.",
     "documents": [
       {
         "title": "Uppdrag att kartlägga hur algoritmer i sociala medier styr innehåll till barn och unga",
@@ -1217,6 +1217,13 @@
         "url": "https://data.riksdagen.se/dokument/HD03272.html",
         "source": "Riksdagen",
         "tech_vinkel": "Skrivelsen nämner sannolikt behovet av åtgärder mot online-brottslighet, vilket kan inkludera diskussioner om plattformars ansvar för innehåll och algoritmers påverkan på ungas exponering för skadligt material – en direkt koppling till sociala medier."
+      },
+      {
+        "title": "Sociala mediers påverkan på pojkar och män ska undersökas",
+        "date": "2026-07-16",
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/07/sociala-mediers-paverkan-pa-pojkar-och-man-ska-undersokas/",
+        "source": "Regeringen",
+        "tech_vinkel": "Utredningen kommer att undersöka hur sociala mediers algoritmer och innehållsmoderering påverkar exponeringen för skadligt innehåll."
       }
     ]
   },
@@ -1322,7 +1329,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1397,7 +1404,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1464,7 +1471,7 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2053,7 +2060,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2071,7 +2078,7 @@
   "Google Android-böter": {
     "name": "Google Android-böter",
     "first_seen": "2026-07-02",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2096,7 +2103,7 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2114,7 +2121,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2139,7 +2146,7 @@
   "Biometriutredning": {
     "name": "Biometriutredning",
     "first_seen": "2026-07-06",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,

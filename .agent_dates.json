@@ -1106,5 +1106,19 @@
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-folkhalsomyndigheten-om-risker-med-generativ-ai-for-barns-och-ungas-psykiska-halsa-och-valmaende/",
       "arende": "null"
     }
+  ],
+  "2026-07-16": [
+    {
+      "beskrivning": "Regeringen meddelar att de startar en utredning om sociala mediers påverkan på pojkar och unga män",
+      "title": "Sociala mediers påverkan på pojkar och män ska undersökas",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/07/sociala-mediers-paverkan-pa-pojkar-och-man-ska-undersokas/",
+      "arende": "Kartläggning av sociala mediers algoritmer"
+    },
+    {
+      "beskrivning": "Jämställdhetsmyndigheten får uppdrag att undersöka sociala mediers påverkan på pojkar",
+      "title": "Uppdrag till Jämställdhetsmyndigheten att genomföra kunskapshöjande insatser om hur pojkar och unga män påverkas av användning av sociala medier ur ett jämställdhetsperspektiv",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-jamstalldhetsmyndigheten-att-genomfora-kunskapshojande-insatser-om-hur-pojkar-och-unga-man-paverkas-av-anvandning-av-sociala-medier-ur-ett-jamstalldhetsperspektiv/",
+      "arende": "null"
+    }
   ]
 }
