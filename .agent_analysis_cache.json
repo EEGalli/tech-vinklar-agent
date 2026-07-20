@@ -652,35 +652,6 @@
     "title": "Digital Decade 2026: eGovernment Benchmark 2026",
     "cached_at": "2026-06-30"
   },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260617CAN78947": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU-parlamentets utskott för rättsliga frågor, EU-parlamentet:s rättsliga utskott (JURI), kommer att diskutera en studie om hur man kan stoppa olaglig nedladdning av sport- och TV-sändningar på internet. De kommer också att se över ett utkast till rapport om ändringar i de gemensamma reglerna enligt Lissabonavtalet om varumärken. Detta är en del av EU:s arbete för att skydda immateriella rättigheter och bekämpa olaglig verksamhet på internet.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta är viktigt eftersom det handlar om att skydda rättigheterna för dem som skapar och sänder sport- och TV-innehåll. Olaglig nedladdning kan leda till stora ekonomiska förluster för dessa aktörer. EU:s arbete för att stoppa denna olagliga verksamhet är därför viktigt för att säkerställa att skaparna av innehåll får den ersättning de förtjänar.",
-      "eu_koppling": "null",
-      "keywords": [
-        "olaglig nedladdning",
-        "immateriella rättigheter",
-        "EU-parlamentet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-22",
-          "beskrivning": "Medlemmarna i utskottet för rättsliga frågor kommer att diskutera studien och utkastet till rapport"
-        },
-        {
-          "datum": "2026-06-23",
-          "beskrivning": "Fortsettning av diskussionen och eventuella beslut"
-        }
-      ]
-    },
-    "title": "Highlights - Communication on the EU Rulebook and online piracy of sports and broadcast in the EU - Committee on Legal Affairs",
-    "cached_at": "2026-06-18"
-  },
   "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-factsheet": {
     "analysis": {
       "relevans": "medel",
@@ -756,27 +727,6 @@
     "title": "Digital Decade 2026 - DESI methodological note",
     "cached_at": "2026-06-30"
   },
-  "https://www.euspa.europa.eu/node/9755": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har utnämnt en ny chef för Executive Director Services Department. Detta är en personalfråga inom byrån och handlar om ledning och administration. Det finns ingen tydlig koppling till specifik teknisk lagstiftning eller innovation. Utnämningen är en intern angelägenhet för byrån.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Utnämningen av en ny chef för Executive Director Services Department kan ha betydelse för den interna ledningen och administrationen av Europeiska rymdbyrån. Det kan påverka byråns förmåga att hantera sina uppgifter och projekt, men det finns ingen direkt koppling till specifik teknisk lagstiftning eller innovation. Byråns verksamhet är viktig för EU:s rymdprogram och samarbeten, men denna utnämning är en intern fråga.",
-      "eu_koppling": null,
-      "keywords": [
-        "Europeiska rymdbyrån",
-        "EUSPA",
-        "ledning",
-        "administration"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": []
-    },
-    "title": "Head of Executive Director Services Department",
-    "cached_at": "2026-06-18"
-  },
   "https://data.riksdagen.se/dokument/HD03283.html": {
     "analysis": {
       "relevans": "medel",
@@ -802,32 +752,6 @@
     },
     "title": "Ungdomspolitisk skrivelse",
     "cached_at": "2026-06-30"
-  },
-  "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-att-kartlagga-och-foresla-atgarder-for-att-bemota-desinformation-som-riktar-sig-mot-personer-pa-grund-av-kon/": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Sociala medier",
-      "sammanfattning": "Regeringen ger Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten i uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön. Detta uppdrag syftar till att förbättra skyddet för personer som utsätts för desinformation och hat på internet. Uppdraget omfattar en kartläggning av desinformationen och en analys av vilka åtgärder som kan vidtas för att motverka den. Målet är att skapa en säkrare och mer inkluderande digital miljö.",
-      "tech_vinkel": "Uppdraget inkluderar en kartläggning av desinformation på sociala medier och en analys av hur algoritmer och andra digitala verktyg kan användas för att sprida eller motverka desinformation.",
-      "varfor_viktigt": "Detta uppdrag är viktigt eftersom desinformation och hat på internet kan ha allvarliga konsekvenser för personer som utsätts för det. Genom att kartlägga och motverka desinformation kan regeringen bidra till att skapa en säkrare och mer inkluderande digital miljö. Uppdraget kan också bidra till att stärka skyddet för personer som utsätts för diskriminering och hat på internet. Dessutom kan det bidra till att främja en mer informerad och ansvarsfull användning av sociala medier.",
-      "eu_koppling": "Digital Services Act (DSA), som syftar till att reglera sociala medier och andra digitala plattformar i EU",
-      "keywords": [
-        "desinformation",
-        "sociala medier",
-        "algoritmer",
-        "hat på internet"
-      ],
-      "arende": "Kartläggning av sociala mediers algoritmer",
-      "nasta_steg": "Jämställdhetsmyndigheten, Totalförsvarets forskningsinstitut och Mediemyndigheten kommer att genomföra kartläggningen och lämna förslag på åtgärder till regeringen.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-12-31",
-          "beskrivning": "Uppdraget ska vara slutfört och förslag på åtgärder ska ha lämnats till regeringen"
-        }
-      ]
-    },
-    "title": "Uppdrag att kartlägga och föreslå åtgärder för att bemöta desinformation som riktar sig mot personer på grund av kön",
-    "cached_at": "2026-06-18"
   },
   "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-monitoring-2025-eu-level-recommendations": {
     "analysis": {
@@ -884,25 +808,6 @@
     "title": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report",
     "cached_at": "2026-06-30"
   },
-  "https://www.berec.europa.eu/en/news/latest-news/berec-chair-highlights-importance-of-regional-cooperation-on-digital-regulation-at-global-symposium-for-regulators": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "BEREC, en EU-byrå som reglerar telekommunikation, har haft sitt ordförande Marko Mismas som talare på Global Symposium for Regulators i Ankara, Turkiet. Där har han betonat vikten av regional samarbete när det gäller digital reglering. Det handlar om att utveckla effektiv och framtidsorienterad digital reglering. BEREC vill alltså att länder samarbetar mer för att skapa bra regler för den digitala världen.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta är viktigt eftersom digital reglering påverkar hur företag och myndigheter kan använda digitala verktyg och tjänster. Om regleringen är bra kan det leda till att fler människor får tillgång till digitala tjänster och att företag kan växa. Men om regleringen är dålig kan det leda till problem med säkerhet och integritet. Det är därför viktigt att länder samarbetar för att skapa bra regler.",
-      "eu_koppling": "null",
-      "keywords": [
-        "digital reglering",
-        "regional samarbete"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "BEREC Chair highlights importance of regional cooperation on digital regulation at Global Symposium for Regulators",
-    "cached_at": "2026-06-19"
-  },
   "https://data.riksdagen.se/dokument/HEB336.html": {
     "analysis": {
       "relevans": "medel",
@@ -929,26 +834,6 @@
     },
     "title": "Bättre förutsättningar att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning",
     "cached_at": "2026-06-30"
-  },
-  "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-socialstyrelsen-att-komplettera-foreskrifter-om-tillstandsplikt-inom-tandvarden/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen ger Socialstyrelsen i uppdrag att komplettera föreskrifter om tillståndsplikt inom tandvården. Detta handlar om att säkerställa att tandvården bedrivs på ett säkert och kvalitetsmässigt sätt. Socialstyrelsen ska skyndsamt komplettera sina föreskrifter och allmänna råd om krav för tillstånd för att bedriva tandvård. Detta påverkar tandvårdsverksamheter som måste följa dessa föreskrifter.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta beslut är viktigt för att säkerställa att tandvården i Sverige bedrivs på ett säkert och kvalitetsmässigt sätt. Det påverkar tandvårdsverksamheter som måste följa dessa föreskrifter, och därmed också patienterna som får vården. Det är en del av regeringens arbete med att säkerställa en god och säker hälso- och sjukvård.",
-      "eu_koppling": null,
-      "keywords": [
-        "tandvård",
-        "Socialstyrelsen",
-        "föreskrifter"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": []
-    },
-    "title": "Uppdrag till Socialstyrelsen att komplettera föreskrifter om tillståndsplikt inom tandvården",
-    "cached_at": "2026-06-19"
   },
   "https://www.euspa.europa.eu/newsroom-events/events/user-consultation-platform-2026": {
     "analysis": {
@@ -11066,5 +10951,37 @@
     "committee": "Europeiska rymdbyrån",
     "summary": "",
     "cached_at": "2026-07-18"
+  },
+  "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "AI Act: Riktlinjer för transparenskrav",
+      "sammanfattning": "EU-kommissionen har publicerat riktlinjer för transparenskrav för leverantörer och användare av AI-system. Dessa riktlinjer definierar omfattningen av transparenskraven enligt artikel 50 i AI Act (EU:s AI-förordning). Syftet är att säkerställa att AI-system är transparenta och förutsägbara. Riktlinjerna kommer att påverka företag och organisationer som utvecklar och använder AI-system.",
+      "tech_vinkel": "Riktlinjerna specificerar transparenskrav för AI-system, inklusive krav på att tillhandahålla information om AI-systemens utveckling, testning och drift.",
+      "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de syftar till att öka transparensen och förutsägbarheten hos AI-system, vilket kan bidra till att bygga förtroende för AI-teknologi. De kommer att påverka företag och organisationer som utvecklar och använder AI-system, och kan leda till en mer ansvarsfull och etisk utveckling av AI.",
+      "eu_koppling": "AI Act (EU:s förordning om artificiell intelligens)",
+      "keywords": [
+        "AI",
+        "transparens",
+        "EU-kommissionen"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Riktlinjerna kommer att granskas och diskuteras av berörda parter, innan de slutligen antas och börjar tillämpas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-20",
+          "beskrivning": "AI Act-riktlinjer: Publiceras av EU-kommissionen"
+        }
+      ],
+      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
+    },
+    "title": "Guidelines on transparency obligations for providers and deployers of AI systems",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Mon, 20 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Guidelines on transparency obligations for providers and deployers of AI systems \n  Anonymous (not verified)  \n  Mon, 07/20/2026 - 08:58 \n \n\n \n   \n        \n               \n                                     These guidelines define the scope of transparency obligations for providers and deployers of AI systems under article 50 of the AI Act. \n\n  \n               \n       \n                     \n             \n\n\n\n\n\n          \n    \n    \n                 \n      \n  \n       \n    \n     \n                 ",
+    "cached_at": "2026-07-20"
   }
 }
