@@ -835,46 +835,6 @@
     "title": "Bättre förutsättningar att inkludera personer med nedsatt beslutsförmåga i medicinsk forskning",
     "cached_at": "2026-06-30"
   },
-  "https://www.euspa.europa.eu/newsroom-events/events/user-consultation-platform-2026": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) har lanserat en användarundersökning för 2026. Syftet med denna undersökning är att samla in synpunkter och åsikter från användare om byråns tjänster och produkter. Detta kan bidra till att förbättra kvaliteten och effektiviteten hos EUSPA:s verksamhet. Undersökningen är en del av byråns strävan att öka transparensen och delaktigheten i dess beslutsprocesser.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna undersökning kan ha betydelse för hur EUSPA utvecklar och tillhandahåller sina tjänster i framtiden. Genom att lyssna på användarnas behov och åsikter kan byrån förbättra sin verksamhet och bidra till att främja europeiskt samarbete inom rymdsektorn. Detta kan i sin tur ha positiva effekter på den europeiska rymdindustrin och samhället i stort.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EUSPA",
-        "användarundersökning",
-        "rymdsektor"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "User Consultation Platform 2026",
-    "cached_at": "2026-06-20"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/news/cassini-action-some-space-start-ups-spotlight": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån presenterar två tjeckiska rymdstartups, 3L Robotics och Zaitra, som visar hur EU:s rymdprogram kan omvandlas till verkliga affärer. Dessa startups är exempel på hur CASSINI-initiativet kan stödja utvecklingen av rymdteknologi. Det handlar om att skapa möjligheter för nya företag att växa och bidra till EU:s rymdindustri. Detta är en del av EU:s strävan att främja innovation och entreprenörskap inom rymdsektorn.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta är viktigt eftersom det visar på EU:s engagemang för att stödja utvecklingen av rymdteknologi och främja innovation inom sektorn. Det kan också bidra till att skapa nya jobb och möjligheter för företag inom EU. Dessutom kan det bidra till att stärka EU:s position inom den globala rymdindustrin. Tajmingen spelar roll eftersom det är viktigt att EU kan konkurrera med andra länder inom rymdteknologi.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdteknologi",
-        "innovation",
-        "entreprenörskap"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "CASSINI in action: some space start-ups in the spotlight",
-    "cached_at": "2026-06-20"
-  },
   "https://data.riksdagen.se/dokument/HD03290.html": {
     "analysis": {
       "relevans": "hög",
@@ -900,53 +860,6 @@
     },
     "title": "Sveriges utrikes underrättelsetjänst",
     "cached_at": "2026-06-30"
-  },
-  "https://www.regeringen.se/remisser/2026/06/remiss-sou-202635-en-aldersgrans-for-barns-tillgang-till-sociala-medier/": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Sociala medier",
-      "sammanfattning": "Regeringen har remitterat betänkandet SOU 2026:35, som handlar om att införa en åldersgräns för barns tillgång till sociala medier. Det föreslås att barn under en viss ålder inte ska få använda sociala medier utan föräldrarnas samtycke. Detta förslag syftar till att skydda barn från skadligt innehåll och att främja en tryggare online-miljö för unga. Regeringen vill ha synpunkter på förslaget från olika instanser.",
-      "tech_vinkel": "Det specifika förslaget om åldersgräns för sociala medier är en tydlig tech-vinkel, eftersom det rör regleringen av online-plattformar och deras ansvar för att skydda barn.",
-      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan ha en stor inverkan på hur sociala medier fungerar i Sverige och hur barn skyddas online. Det kan också påverka hur företag som driver sociala medier-plattformar utformar sina tjänster och vilka åtgärder de vidtar för att skydda unga användare. Regeringens beslut kan också skapa ett prejudikat för andra länder att följa.",
-      "eu_koppling": "Digital Services Act (DSA), som är en EU-lagstiftning som reglerar online-plattformars ansvar för att skydda användare, inklusive barn.",
-      "keywords": [
-        "åldersgräns",
-        "sociala medier",
-        "barnskydd",
-        "online-säkerhet"
-      ],
-      "arende": "Åldersgräns för sociala medier",
-      "nasta_steg": "Regeringen kommer att sammanställa synpunkterna från remissinstanserna och därefter lämna ett förslag till riksdagen om införande av åldersgräns för sociala medier.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-18",
-          "beskrivning": "Regeringen remitterar betänkandet SOU 2026:35"
-        }
-      ]
-    },
-    "title": "Remiss SOU 2026:35, En åldersgräns för barns tillgång till sociala medier, S2026/01273",
-    "cached_at": "2026-06-20"
-  },
-  "https://www.regeringen.se/pressmeddelanden/2026/06/satsning-pa-kompetensutveckling-for-larare-i-naturvetenskap-och-teknik/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Regeringen meddelar att de satsar på kompetensutveckling för lärare i naturvetenskap och teknik. Målet är att öka antalet personer med kunskaper i STEM-ämnena. Detta ska ske genom att ge lärare möjlighet till vidareutbildning och kompetensutveckling. Detta initiativ syftar till att stärka utbildningen i Sverige.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna satsning är viktig eftersom den syftar till att öka antalet personer med kunskaper i naturvetenskap, teknik, ingenjörsvetenskap och matematik. Detta kan leda till att Sverige blir mer konkurrenskraftigt inom dessa områden. Dessutom kan det bidra till att lösa samhällsproblem och utveckla nya teknologier. Regeringens initiativ kan också påverka utbildningssektorn och arbetsmarknaden.",
-      "eu_koppling": "null",
-      "keywords": [
-        "kompetensutveckling",
-        "lärare",
-        "naturvetenskap",
-        "teknik"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Satsning på kompetensutveckling för lärare i naturvetenskap och teknik",
-    "cached_at": "2026-06-21"
   },
   "https://data.riksdagen.se/dokument/HD10572.html": {
     "analysis": {
@@ -10983,5 +10896,186 @@
     "committee": "EU-kommissionen (digital-strategy)",
     "summary": "Guidelines on transparency obligations for providers and deployers of AI systems \n  Anonymous (not verified)  \n  Mon, 07/20/2026 - 08:58 \n \n\n \n   \n        \n               \n                                     These guidelines define the scope of transparency obligations for providers and deployers of AI systems under article 50 of the AI Act. \n\n  \n               \n       \n                     \n             \n\n\n\n\n\n          \n    \n    \n                 \n      \n  \n       \n    \n     \n                 ",
     "cached_at": "2026-07-20"
+  },
+  "https://www.imy.se/nyheter/edpb-diskuterade-okad-effektivisering-och-mer-enhetlig-praxis-vid-toppmotet-i-dublin/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "Dataskydd: EDPB diskuterar ökad effektivisering",
+      "sammanfattning": "Den europeiska dataskyddsstyrelsen (EDPB) har haft ett toppmöte i Dublin för att diskutera hur man kan öka effektiviteten och enhetligheten i dataskyddstillsynen i EU. Mötet var en uppföljning av förra årets möte och syftade till att hitta sätt att förbättra samarbetet mellan dataskyddsmyndigheterna i EU. Dataskyddschefer från EU/EES-länderna, den europeiska datatillsynsmannen (EDPS) och företrädare för EU-kommissionen deltog i mötet. Diskussionen handlade om hur man kan arbeta mer effektivt och enhetligt i gränsöverskridande ärenden.",
+      "tech_vinkel": "EDPB diskuterar hur man kan öka effektiviteten och enhetligheten i dataskyddstillsynen, vilket berör den tekniska tillämpningen av dataskyddsförordningen (GDPR) i EU.",
+      "varfor_viktigt": "Detta möte är viktigt eftersom det kan leda till förbättringar i dataskyddstillsynen i EU, vilket i sin tur kan öka skyddet för personuppgifter och förtroendet för digitala tjänster. En mer effektiv och enhetlig dataskyddstillsyn kan också bidra till att minska risken för dataskyddsincidenter och förbättra den övergripande dataskyddsnivån i EU. Detta kan ha positiva konsekvenser för såväl privatpersoner som företag som verkar i EU.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "EDPB"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "EDPB kommer att fortsätta arbeta med att implementera och utveckla dataskyddstillsynen i EU, med fokus på att öka effektiviteten och enhetligheten.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-16",
+          "beskrivning": "Dataskydd: EDPB-toppmöte i Dublin inleds"
+        },
+        {
+          "datum": "2026-07-17",
+          "beskrivning": "Dataskydd: EDPB-toppmöte i Dublin avslutas"
+        }
+      ]
+    },
+    "title": "EDPB diskuterade ökad effektivisering och mer enhetlig praxis vid toppmötet i Dublin",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 20 Jul 2026",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Den 16–17 juli träffades dataskyddschefer från EU/EES-länderna, den Europeiska datatillsynsmannen (EDPS) och företrädare för EU-kommissionen på ett toppmöte i Dublin. Syftet var bland annat att följa upp slutsatserna från förra årets möte och diskutera hur man ska arbeta vidare för att uppnå ökad effektivitet och större enhetlighet vid tillsyn i gränsöverskridande ärenden.",
+    "cached_at": "2026-07-22"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Sociala medier och plattformar",
+      "svensk_rubrik": "Digital Services Act: EU-kommissionen bötfäller AliExpress",
+      "sammanfattning": "EU-kommissionen har bötfällt e-handelsplattformen AliExpress med 550 miljoner euro för brott mot Digital Services Act (DSA). DSA är en EU-lag som kräver att stora onlineplattformar tar ansvar för att skydda sina användare från olagliga, osäkra eller förfalskade produkter. AliExpress har inte uppfyllt sina skyldigheter enligt DSA att noggrant bedöma och mildra risker relaterade till försäljning av olagliga, osäkra eller förfalskade produkter på sin plattform. Detta är en av de första stora böterna som EU-kommissionen har utfärdat enligt DSA.",
+      "tech_vinkel": "EU-kommissionen har använt Digital Services Act (DSA) för att bötfälla AliExpress för bristande efterlevnad av kraven på att bedöma och mildra risker relaterade till olagliga, osäkra eller förfalskade produkter på deras e-handelsplattform.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att EU-kommissionen är beredd att använda DSA (EU-lagen som tvingar plattformar att hantera olagligt innehåll) för att hålla stora onlineplattformar ansvariga för att skydda sina användare. Detta kan ha en stor inverkan på hur onlineplattformar opererar i EU och kan leda till en ökad säkerhet för konsumenter. Dessutom kan detta beslut ha en avskräckande effekt på andra onlineplattformar som inte uppfyller sina skyldigheter enligt DSA.",
+      "eu_koppling": "Digital Services Act (DSA) - en EU-lag som kräver att stora onlineplattformar tar ansvar för att skydda sina användare från olagliga, osäkra eller förfalskade produkter.",
+      "keywords": [
+        "Digital Services Act",
+        "AliExpress",
+        "EU-kommissionen"
+      ],
+      "arende": "Digital Services Act",
+      "nasta_steg": "EU-kommissionen kommer att fortsätta att övervaka AliExpress för att säkerställa att de uppfyller sina skyldigheter enligt DSA.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-20",
+          "beskrivning": "Digital Services Act: EU-kommissionen bötfäller AliExpress med 550 miljoner euro"
+        }
+      ],
+      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
+    },
+    "title": "Commission fines AliExpress €550 million for breaching the Digital Services Act",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Mon, 20 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Commission fines AliExpress €550 million for breaching the Digital Services Act \n  Anonymous (not verified)  \n  Mon, 07/20/2026 - 10:22 \n \n\n \n   \n        \n               \n                                     Today, the European Commission fined AliExpress €550 million for breaching its obligations under the Digital Services Act (DSA) to diligently assess and mitigate risks relating to the sale of illegal, unsafe or counterfeit products on its e-commerce platform. \n\n  \n               \n       \n   ",
+    "cached_at": "2026-07-22"
+  },
+  "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "AI och algoritmer",
+      "svensk_rubrik": "AI Act: Kommissionen publicerar riktlinjer för transparens",
+      "sammanfattning": "EU-kommissionen har publicerat riktlinjer för att hjälpa leverantörer och användare av artificiell intelligens (AI) att uppfylla transparenskraven enligt AI Act (EU:s AI-förordning). Dessa krav börjar gälla den 2 augusti 2026. Riktlinjerna syftar till att ge tydliga anvisningar om hur AI-system ska utformas och användas på ett transparent sätt. Detta är en viktig del av EU:s arbete för att säkerställa att AI utvecklas och används på ett ansvarsfullt sätt.",
+      "tech_vinkel": "Riktlinjerna fokuserar specifikt på transparenskraven för AI-system, vilket inkluderar krav på att tillhandahålla information om AI-systemens utveckling, testning och drift.",
+      "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de kommer att påverka hur AI-system utvecklas och används inom EU. De kommer att säkerställa att AI-system är transparenta och ansvarsfulla, vilket är avgörande för att bygga förtroende för AI-teknologi. Dessutom kommer riktlinjerna att bidra till att minska riskerna med AI, såsom diskriminering och bias.",
+      "eu_koppling": "AI Act (EU:s AI-förordning)",
+      "keywords": [
+        "AI",
+        "transparens",
+        "EU-kommissionen"
+      ],
+      "arende": "AI Act",
+      "nasta_steg": "Leverantörer och användare av AI-system kommer att behöva anpassa sig till de nya transparenskraven, vilket kan kräva betydande förändringar i deras utvecklings- och driftsprocesser.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-08-02",
+          "beskrivning": "AI Act: Transparenskraven börjar gälla"
+        }
+      ],
+      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
+    },
+    "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+    "source": "EU-kommissionen",
+    "type": "Digital Strategy — Nyhet",
+    "date": "Mon, 20 Jul 2026",
+    "committee": "EU-kommissionen (digital-strategy)",
+    "summary": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems \n  Anonymous (not verified)  \n  Mon, 07/20/2026 - 09:08 \n \n\n \n   \n        \n               \n                                     Today, the European Commission published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026. \n\n  \n               \n       \n                  ",
+    "cached_at": "2026-07-22"
+  },
+  "https://www.euspa.europa.eu/opportunities/for-startups/funding-and-investment/investor-network/wonderstone-ventures": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Wonderstone Ventures: Rymdteknik",
+      "sammanfattning": "Europeiska rymdbyrån (EUSPA) presenterar Wonderstone Ventures, ett initiativ relaterat till rymdteknik. Detaljerna kring detta initiativ är dock inte tydliga i den tillgängliga informationen. Rymdteknik är ett område som omfattar en mängd olika tekniker och tillämpningar, från satellitkommunikation till rymdforskning. Det är möjligt att Wonderstone Ventures fokuserar på en specifik aspekt av rymdteknik, men utan mer information är det svårt att ge en mer detaljerad beskrivning.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Rymdteknik är ett viktigt område för många länder och organisationer, eftersom det kan bidra till att lösa en mängd olika problem, från kommunikation och navigation till miljöövervakning och forskning. Initiativ som Wonderstone Ventures kan potentiellt bidra till att främja utvecklingen av rymdteknik och dess tillämpningar. Det är dock viktigt att ha mer information om initiativet för att förstå dess specifika mål och syften.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "EUSPA"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Wonderstone Ventures",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Tue, 21 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-07-22"
+  },
+  "https://www.euspa.europa.eu/opportunities/for-startups/funding-and-investment/investor-network/pariter-partners": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Pariter Partners: Rymdsamarbete",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, presenterar ett samarbete med Pariter Partners. Detta samarbete handlar om att främja utvecklingen av rymdteknik och rymdrelaterade tjänster. Detaljerna kring samarbetet är dock inte tydliga. Samarbetet kan leda till nya möjligheter för företag och organisationer inom rymdsektorn. Det kan också bidra till att öka medvetenheten om rymdteknikens potential.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta samarbete kan vara viktigt för utvecklingen av rymdteknik och rymdrelaterade tjänster i Europa. Det kan också bidra till att stärka den europeiska rymdindustrin och skapa nya jobbmöjligheter. Samarbetet kan dock också ha begränsad påverkan om det inte leder till konkreta resultat och investeringar.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "EUSPA",
+        "Pariter Partners"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Pariter Partners",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Tue, 21 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-07-22"
+  },
+  "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-forsvarets-radioanstalt-att-samordna-och-starka-samhallets-arbete-med-cybersakerhet-kopplat-till-artificiell-intelligens/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Cybersäkerhet",
+      "svensk_rubrik": "Cybersäkerhet: Regeringen ger FRA i uppdrag att stärka samhällets arbete med cybersäkerhet",
+      "sammanfattning": "Regeringen ger Försvarets radioanstalt (FRA) i uppdrag att samordna och stärka samhällets arbete med cybersäkerhet kopplat till artificiell intelligens. Detta innebär att FRA kommer att arbeta för att öka samhällets förmåga att hantera cyberhot och skydda sig mot cyberattacker. Uppdraget är en del av regeringens arbete för att stärka Sveriges cybersäkerhet och skydda landets digitala infrastruktur. Det förväntas att uppdraget kommer att leda till en ökad samverkan mellan myndigheter och aktörer inom cybersäkerhetsområdet.",
+      "tech_vinkel": "Uppdraget handlar specifikt om att stärka cybersäkerheten kopplat till artificiell intelligens, vilket innebär att Försvarets radioanstalt (FRA) kommer att fokusera på att skydda mot hot som är relaterade till AI-baserade system och teknologier.",
+      "varfor_viktigt": "Detta uppdrag är viktigt eftersom cybersäkerheten är en alltmer kritisk fråga i dagens digitala samhälle. Cyberhoten blir alltmer sofistikerade och kan ha allvarliga konsekvenser för samhället och enskilda individer. Genom att stärka cybersäkerheten kan Sverige minska risken för cyberattacker och skydda sin digitala infrastruktur. Dessutom kan ett starkt cybersäkerhetsarbete bidra till att öka förtroendet för digitala tjänster och system, vilket är viktigt för landets ekonomiska och sociala utveckling.",
+      "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+      "keywords": [
+        "cybersäkerhet",
+        "artificiell intelligens",
+        "FRA"
+      ],
+      "arende": "Cybersäkerhetscenter",
+      "nasta_steg": "FRA kommer att påbörja arbetet med att samordna och stärka samhällets arbete med cybersäkerhet kopplat till artificiell intelligens, och kommer att rapportera till regeringen om framstegen.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-20",
+          "beskrivning": "Cybersäkerhetscenter: Regeringen ger FRA i uppdrag att stärka samhällets arbete med cybersäkerhet"
+        }
+      ]
+    },
+    "title": "Uppdrag till Försvarets radioanstalt att samordna och stärka samhällets arbete med cybersäkerhet kopplat till artificiell intelligens",
+    "source": "Regeringen",
+    "type": "Regeringsuppdrag",
+    "date": "2026-07-20",
+    "committee": "Försvarsdepartementet, Regeringen",
+    "summary": "Regeringen ger Försvarets radioanstalt (FRA) genom Nationellt cybersäkerhetscenter (NCSC) i uppdrag att på nationell nivå samordna arbetet med att",
+    "cached_at": "2026-07-22"
   }
 }
