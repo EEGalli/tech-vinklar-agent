@@ -1019,32 +1019,6 @@
     "title": "Imposition of fine on a telecommunications company for violations of data subject’s rights",
     "cached_at": "2026-06-30"
   },
-  "https://www.edpb.europa.eu/news/the-italian-supervisory-authority-fined-a-company-120-000-eur-for-tracking-five-employees-who_en": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Dataskydd och integritet",
-      "sammanfattning": "Italienska dataskyddsmyndigheten har utfärdat en bot på 120 000 euro till ett företag som spårade fem anställda som körde företagets bilar. Detta beslut är ett exempel på hur EU:s dataskyddsförordning (GDPR) tillämpas i praktiken. Företaget har alltså brutit mot reglerna om hur personuppgifter får behandlas. Detta visar att myndigheterna är aktiva i att skydda människors integritet.",
-      "tech_vinkel": "Det specifika tekniska aspekten i detta fall är användningen av spårningsteknik för att övervaka anställdas rörelser med företagets bilar, vilket anses vara en otillåten behandling av personuppgifter enligt GDPR (EU:s dataskyddsförordning).",
-      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att dataskyddsmyndigheterna i EU är beredda att vidta kraftfulla åtgärder mot företag som bryter mot dataskyddsförordningen. Det påverkar inte bara det specifika företaget utan också andra företag som kan tänkas använda liknande metoder för att spåra anställda eller kunder. Det sänder en tydlig signal om vikten av att respektera människors integritet och personuppgifter.",
-      "eu_koppling": "GDPR (EU:s dataskyddsförordning)",
-      "keywords": [
-        "dataskydd",
-        "GDPR",
-        "personuppgifter",
-        "spårningsteknik"
-      ],
-      "arende": "Dataskydd och integritet",
-      "nasta_steg": "Företaget kan överklaga beslutet, men det är också möjligt att detta beslut kommer att tjäna som en varning till andra företag att se över sina egna dataskyddspolicyer.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-04",
-          "beskrivning": "Italienska dataskyddsmyndigheten meddelar beslutet om boten"
-        }
-      ]
-    },
-    "title": "The Italian Supervisory Authority fined a company 120 000 EUR for tracking five employees who drove company cars",
-    "cached_at": "2026-06-22"
-  },
   "https://data.riksdagen.se/dokument/HD03287.html": {
     "analysis": {
       "relevans": "låg",
@@ -11077,5 +11051,109 @@
     "committee": "Försvarsdepartementet, Regeringen",
     "summary": "Regeringen ger Försvarets radioanstalt (FRA) genom Nationellt cybersäkerhetscenter (NCSC) i uppdrag att på nationell nivå samordna arbetet med att",
     "cached_at": "2026-07-22"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/when-europe-heats-copernicus-keeps-watch-space": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "Copernicus: Rymdövervakning av värmeböljor",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har släppt information om hur deras satellitsystem Copernicus övervakar och rapporterar om värmeböljor i Europa. Detta sker genom att samla in data från satelliter som kretsar runt jorden och övervakar förändringar i miljön. Informationen används för att stödja beslut om hantering av extrema väderförhållanden och klimatrelaterade frågor. Detta arbete är en del av EU:s insatser för att hantera klimatförändringar och skydda medborgarnas hälsa och säkerhet.",
+      "tech_vinkel": "Copernicus-satelliterna använder sig av avancerad teknik för att samla in data om jordens yta, inklusive temperatur och vädermönster, vilket möjliggör detaljerad övervakning av värmeböljor.",
+      "varfor_viktigt": "Övervakningen av värmeböljor är viktig för att skydda människors hälsa och säkerhet, särskilt under perioder med extrem värme. Informationen från Copernicus kan hjälpa myndigheter att vidta proaktiva åtgärder för att minimera effekterna av värmeböljor, såsom att utfärda varningar och vidta åtgärder för att skydda sårbara befolkningar. Dessutom bidrar denna övervakning till att förbättra förståelsen av klimatförändringar och deras effekter på lokala ekosystem.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Copernicus",
+        "rymdövervakning",
+        "värmeböljor",
+        "klimatförändringar"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "When Europe heats up, Copernicus keeps watch from space",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Wed, 22 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "As July brings renewed heatwaves and temperatures above 40 °C in southern Europe, Copernicus Sentinel-3 data show how space-based observations support decisions on extreme heat and climate resilience.",
+    "cached_at": "2026-07-23"
+  },
+  "https://www.euspa.europa.eu/opportunities/for-startups/funding-and-investment/investor-network/deep-ocean-capital": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Deep Ocean Capital",
+      "sammanfattning": "Dokumentet handlar om Deep Ocean Capital, men det finns ingen tydlig information om vad detta innebär eller vad det specifikt handlar om. Det verkar vara relaterat till Europeiska rymdbyrån, men det är oklart vad detta har för betydelse. Dokumentet saknar tydlig information om vad som föreslås, vem som påverkas eller vad som ändras. Det är svårt att ge en tydlig sammanfattning på grund av bristen på information.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Det är svårt att bedöma varför detta dokument är viktigt eftersom det saknar tydlig information. Om det finns en koppling till rymdteknik eller satellitteknik kan det vara viktigt för utvecklingen av dessa områden, men utan mer information är det svårt att säga. Det kan också vara viktigt för företag eller organisationer som arbetar med rymdteknik eller relaterade områden, men det behövs mer information för att kunna bedöma detta.",
+      "eu_koppling": "null",
+      "keywords": [
+        "rymdteknik",
+        "satellitteknik"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Deep Ocean Capital",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Tue, 21 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-07-23"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/07/ny-utredning-ska-sakerstalla-skaliga-elnatsavgifter/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Ny utredning om elnätsavgifter",
+      "sammanfattning": "Regeringen har beslutat att starta en utredning om elnätsavgifter. Utredningen ska se över hur avgifterna kan regleras på ett bättre sätt. Målet är att säkerställa att avgifterna är skäliga och rättvisa. Utredningen kommer att lämna förslag på hur regleringen kan förbättras.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Utredningen är viktig eftersom den kan påverka hur elnätsavgifterna tas ut i framtiden. Det kan i sin tur påverka hushållens och företagens ekonomi. Utredningen kan också bidra till att förbättra energimarknaden och öka effektiviteten i elnätet.",
+      "eu_koppling": "null",
+      "keywords": [
+        "el",
+        "energi",
+        "nät",
+        "avgifter"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Ny utredning ska säkerställa skäliga elnätsavgifter",
+    "source": "Regeringen",
+    "type": "Pressmeddelande",
+    "date": "2026-07-23",
+    "committee": "Elisabeth Svantesson, Romina Pourmokhtari, Klimat- och näringslivsdepartementet",
+    "summary": "Regeringen har beslutat att ge en särskild utredare i uppdrag att utreda och ta fram förslag för en ändamålsenlig reglering av elnätsavgifterna.",
+    "cached_at": "2026-07-23"
+  },
+  "https://www.regeringen.se/pressmeddelanden/2026/07/utredning-foreslar-andrade-regler-for-att-svart-skuldsatta-lattare-ska-bli-skuldfria/": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Övrigt tech",
+      "svensk_rubrik": "Skuldsättningsregler: Utredning föreslår ändrade regler",
+      "sammanfattning": "Regeringen har gett ut en utredning som föreslår ändrade regler för att människor som är skuldsatta en längre tid ska ha större möjligheter att ta sig ur sin situation och betala av sina skulder. Utredningen syftar till att underlätta för skuldsatta att bli skuldfria. Detta kan påverka många människor som har svårt att betala av sina skulder.",
+      "tech_vinkel": "Ingen tydlig tech-vinkel",
+      "varfor_viktigt": "Detta förslag kan ha stor betydelse för människor som är skuldsatta och har svårt att betala av sina skulder. Det kan också påverka den svenska ekonomin och hur skulder hanteras. Utredningen är ett steg mot att underlätta för skuldsatta att bli skuldfria.",
+      "eu_koppling": "null",
+      "keywords": [
+        "skuldsättning",
+        "regler"
+      ],
+      "arende": "null",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Utredning föreslår ändrade regler för att svårt skuldsatta lättare ska bli skuldfria",
+    "source": "Regeringen",
+    "type": "Pressmeddelande",
+    "date": "2026-07-23",
+    "committee": "Niklas Wykman, Finansdepartementet",
+    "summary": "Människor som har varit skuldsatta en längre tid ska ha större möjligheter att ta sig ur sin situation och betala av sina skulder. I april 2025 gav",
+    "cached_at": "2026-07-23"
   }
 }
