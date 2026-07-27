@@ -1173,46 +1173,6 @@
     "title": "Digital Decade 2026 - 5G Observatory Report",
     "cached_at": "2026-06-30"
   },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/euspa-support-qualinx-integrates-galileo-osnma-receiver": {
-    "analysis": {
-      "relevans": "medel",
-      "tema": "Digital infrastruktur",
-      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har stöttat Qualinx i att integrera Galileo OSNMA i deras mottagare. Detta är en del av Galileo-programmet, som är EU:s globala navigeringssystem. Integrationen av Galileo OSNMA förbättrar säkerheten och tillförlitligheten i navigationssystemen. Detta kan ha en positiv inverkan på olika sektorer som transport, jordbruk och konstruktion.",
-      "tech_vinkel": "Integrationen av Galileo OSNMA i Qualinx mottagare är den specifika tekniska aspekten som förbättrar navigationssystemens säkerhet och tillförlitlighet.",
-      "varfor_viktigt": "Denna integration är viktig eftersom den förbättrar säkerheten och tillförlitligheten i navigationssystemen, vilket kan ha en positiv inverkan på olika sektorer som transport, jordbruk och konstruktion. Detta kan också bidra till att öka förtroendet för EU:s Galileo-program och dess förmåga att tillhandahålla precisa och säkra navigationstjänster.",
-      "eu_koppling": "Galileo-programmet",
-      "keywords": [
-        "Galileo",
-        "OSNMA",
-        "Navigationssystem",
-        "EUSPA"
-      ],
-      "arende": "Galileo-programmet",
-      "nasta_steg": "Nästa steg i detta ärende är att fortsätta utveckla och förbättra Galileo-systemet för att möta de växande behoven av precisa och säkra navigationstjänster.",
-      "viktiga_datum": []
-    },
-    "title": "With EUSPA support, Qualinx integrates Galileo OSNMA to receiver",
-    "cached_at": "2026-06-25"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/news/eu-sst-front-desk-welcomes-new-members-eu-sst-partnership": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EU:s rymdbyrå, EUSPA, har välkomnat nya medlemmar till EU SST-partnerskapet, som nu består av 19 medlemmar. Detta partnerskap syftar till att förbättra EU:s förmåga att skydda satelliter och tillhandahålla tjänster för rymdsäkerhet till en växande användargrupp. Partnerskapet är en del av EU:s insatser för att stärka sin rymdkapacitet och säkerställa en trygg och säker rymdmiljö. Detta samarbete kan bidra till att öka medvetenheten om rymdsäkerhetsfrågor och främja internationellt samarbete inom området.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta partnerskap är viktigt eftersom det kan bidra till att förbättra EU:s förmåga att skydda sin rymdkapacitet och säkerställa en trygg och säker rymdmiljö. En ökad medvetenhet om rymdsäkerhetsfrågor kan också leda till ett ökat internationellt samarbete inom området. Detta kan i sin tur bidra till att minska risken för olyckor och incidenter i rymden och säkerställa en hållbar utveckling av rymdverksamheten.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdsäkerhet",
-        "EU SST-partnerskap"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EU SST Front Desk welcomes new members to EU SST Partnership",
-    "cached_at": "2026-06-25"
-  },
   "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en": {
     "analysis": {
       "relevans": "medel",
@@ -1288,30 +1248,6 @@
     "title": "Global cyber strike disrupts SocGholish, Amadey, and StealC malware networks",
     "cached_at": "2026-06-30"
   },
-  "https://www.euspa.europa.eu/newsroom-events/events/space-economy-congress-2026": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån arrangerar Space Economy Congress 2026. Detta evenemang syftar till att samla experter och beslutsfattare inom rymdindustrin för att diskutera utvecklingen och potentialen inom rymdsektorn. Kongressen kommer att behandla olika aspekter av rymdekonomin, inklusive tekniska framsteg, marknadsutveckling och politiska initiativ. Målet är att främja samarbeten och innovationer inom rymdindustrin.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Space Economy Congress 2026 är viktigt eftersom det ger en plattform för att diskutera och främja utvecklingen av rymdindustrin. Detta kan leda till nya samarbeten, innovationer och investeringar inom sektorn. Kongressen kan också bidra till att identifiera och lösa utmaningar som rymdindustrin står inför, vilket kan ha positiva effekter på den övergripande ekonomiska utvecklingen.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdindustri",
-        "Space Economy Congress"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-23",
-          "beskrivning": "Space Economy Congress 2026 äger rum"
-        }
-      ]
-    },
-    "title": "Space Economy Congress 2026",
-    "cached_at": "2026-06-25"
-  },
   "https://data.riksdagen.se/dokument/HD03274.html": {
     "analysis": {
       "relevans": "medel",
@@ -1365,67 +1301,6 @@
     },
     "title": "APOGEE - quAsi PilOt siGnal tEst bEd",
     "cached_at": "2026-06-30"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/rosius-il-programma-spaziale-ue-e-uno-dei-piu-grandi-successi-collettivi": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har publicerat en sammanfattning av ett tal av Rosius, där han beskriver EU:s rymdprogram som en av de största kollektiva framgångarna för Europa. Talet fokuserar på rymdprogrammets framgångar och dess betydelse för Europa. Det finns inga specifika förslag eller ändringar som föreslås i talet. Det handlar mer om att hylla och reflektera över rymdprogrammets prestationer.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta tal är viktigt eftersom det visar på den europeiska rymdbyråns engagemang och framgångar inom rymdteknik och exploration. Det kan ha konsekvenser för framtida rymdprojekt och samarbeten inom Europa. Det visar också på den politiska viljan att stödja och utveckla rymdtekniken i Europa.",
-      "eu_koppling": "null",
-      "keywords": [
-        "rymdprogram",
-        "EUSPA",
-        "Rosius"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Rosius: “Il programma spaziale Ue è uno dei più grandi successi collettivi dell’Europa”",
-    "cached_at": "2026-06-26"
-  },
-  "https://www.euspa.europa.eu/opportunities/procurement-grants/procurements/euspaop1926-administrative-support-services-euspa": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån (EUSPA) söker administrativa stödtjänster. Detta handlar om en upphandling för att få hjälp med administrativa uppgifter. Byrån vill ha stöd för att kunna fokusera på sina huvudsakliga uppgifter. Detta är en intern process för byrån och berör inte direkt tech-utveckling eller lagstiftning.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna upphandling är viktig för EUSPA eftersom den möjliggör en effektivare administration, vilket kan påverka byråns förmåga att genomföra sina projekt och program. Det kan också ha en indirekt påverkan på de projekt som byrån stödjer, men det är inte en direkt tech-relaterad fråga. Byrån behöver denna typ av stöd för att kunna fokusera på sina kärnuppgifter.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EUSPA",
-        "administrativa stödtjänster",
-        "upphandling"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA/OP/19/26 - Administrative support services to EUSPA",
-    "cached_at": "2026-06-26"
-  },
-  "https://www.euspa.europa.eu/newsroom-events/news/euspa-projects-results-showcased-research-and-innovation-community-platform": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "EUSPA, den europeiska rymdbyrån, visar upp resultaten från sina projekt på den europeiska kommissionens plattform för forskning och innovation. Projekten fokuserar på att skapa resilient, hållbar och smartare mobilitet genom innovativa tillämpningar av EU:s rymddata och tjänster. Detta är en del av Horizon Europe-initiativet, som syftar till att främja innovation och forskning inom EU. Resultaten från projekten kan bidra till att förbättra mobiliteten och skapa nya möjligheter för företag och samhället.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta är viktigt eftersom det kan bidra till att förbättra mobiliteten och skapa nya möjligheter för företag och samhället. Det kan också bidra till att främja innovation och forskning inom EU. Dessutom kan det bidra till att skapa nya jobb och stimulera den ekonomiska tillväxten. Det är dock svårt att se en direkt tech-vinkel i detta dokument, vilket gör det svårt att bedöma dess relevans.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EUSPA",
-        "Horizon Europe",
-        "rymddata",
-        "mobilitet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA projects results showcased on the Research and Innovation community platform of the European Commission",
-    "cached_at": "2026-06-26"
   },
   "https://data.riksdagen.se/dokument/HD03288.html": {
     "analysis": {
@@ -1504,26 +1379,6 @@
     },
     "title": "Latest news - Meetings schedule - Committee on Legal Affairs",
     "cached_at": "2026-06-30"
-  },
-  "https://www.euspa.europa.eu/pressroom/in-the-news/why-eu-space-investment-europes-future": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån presenterar en sammanfattning av varför EU:s rymdprogram är en investering i Europas framtid. Dokumentet lyfter fram de olika aspekterna av EU:s rymdverksamhet och hur de bidrar till att stärka Europas position i världen. Det handlar om hur rymdteknologi kan användas för att förbättra livet på jorden och skapa nya möjligheter för européer. Dokumentet är mer av en allmän presentation av EU:s rymdverksamhet än en specifik politisk proposition eller lagförslag.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "EU:s rymdprogram kan ha en stor inverkan på Europas ekonomi och samhälle. Genom att investera i rymdteknologi kan EU skapa nya jobb och möjligheter för européer. Rymdteknologi kan också användas för att förbättra miljön, förbättra sjukvården och öka säkerheten i Europa. Det är viktigt att EU fortsätter att investera i rymdteknologi för att hålla jämna steg med andra länder och för att säkerställa en stark och hållbar framtid för Europa.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EU:s rymdprogram",
-        "rymdteknologi",
-        "Europas framtid"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Why EU Space is an investment in Europe’s future",
-    "cached_at": "2026-06-26"
   },
   "https://data.riksdagen.se/dokument/HD03301.html": {
     "analysis": {
@@ -11052,5 +10907,37 @@
     "committee": "Ebba Busch, Klimat- och näringslivsdepartementet",
     "summary": "Regeringen har 2024–2026 gett drygt 30 myndigheter i uppdrag att förenkla för företag – dels genom regleringsbrevsuppdrag till ett tjugotal",
     "cached_at": "2026-07-25"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/news/celebrating-one-year-galileo-osnma-milestone-trusted-positioning": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "Galileo OSNMA: ett år med autentiserings­tjänst",
+      "sammanfattning": "Det har gått ett år sedan Galileo OSNMA-autentiseringstjänsten blev operativ. Nu börjar tillverkare av mottagare runt om i världen att integrera den i kommersiella produkter, vilket utökar skyddet mot GNSS-spoofing till många olika tillämpningar. Detta är en viktig milstolpe för att öka säkerheten i satellitnavigering. Galileo OSNMA är en tjänst som autentiserar signaler från satelliter för att förhindra spoofing-attacker.",
+      "tech_vinkel": "Galileo OSNMA-autentiseringstjänsten använder sig av avancerad kryptografi för att autentisera signaler från satelliter och förhindra spoofing-attacker.",
+      "varfor_viktigt": "Detta är viktigt eftersom spoofing-attacker kan ha allvarliga konsekvenser i tillämpningar som flyg, sjöfart och landtransport. Genom att använda Galileo OSNMA kan man öka säkerheten och tillförlitligheten i satellitnavigering. Detta kan också ha en positiv inverkan på många olika branscher som är beroende av precisa och säkra positioneringstjänster.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Galileo",
+        "OSNMA",
+        "satellitnavigering",
+        "spoofing"
+      ],
+      "arende": "Galileo-programmet",
+      "nasta_steg": "Tillverkare av mottagare kommer att fortsätta att integrera Galileo OSNMA i sina produkter, och tjänsten kommer att bli alltmer utbredd i olika tillämpningar.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-22",
+          "beskrivning": "Galileo OSNMA: ett år med autentiseringstjänst"
+        }
+      ]
+    },
+    "title": "Celebrating one year of Galileo OSNMA: a milestone for trusted positioning",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Wed, 22 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "A year after the Galileo OSNMA authentication service was declared operational, receiver manufacturers worldwide are embedding it into commercial products, extending real-world protection against GNSS spoofing to a wide range of applications.",
+    "cached_at": "2026-07-27"
   }
 }
