@@ -1527,26 +1527,6 @@
     "title": "Ny kärnkraft i Sverige– moderna regler för beredskap och skadeståndsansvar",
     "cached_at": "2026-06-30"
   },
-  "https://www.euspa.europa.eu/newsroom-events/success-stories/enhancing-cultural-heritage-preservation-copernicus-world-heritage": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "sammanfattning": "Europeiska rymdbyrån presenterar ett projekt som syftar till att använda satellitdata från Copernicus för att övervaka och skydda kulturarvssidor runt om i världen. Projektet heter Copernicus World Heritage Hub och ska hjälpa till att identifiera och förstå hur klimatförändringar och miljöförhållanden påverkar dessa platser. Detta kan bidra till att utveckla strategier för att bevara och skydda kulturarvet. Projektet är ett samarbete mellan flera organisationer, däribland International Council on Monuments and Sites.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta projekt kan ha betydelse för att skydda och bevara kulturarvet runt om i världen. Klimatförändringar och miljöförhållanden kan ha en negativ inverkan på dessa platser, och det är viktigt att identifiera och förstå dessa effekter för att utveckla effektiva strategier för att skydda dem. Projektet kan också bidra till att öka medvetenheten om vikten av att skydda kulturarvet och främja internationellt samarbete för att uppnå detta mål.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Copernicus",
-        "kulturarv",
-        "satellitdata"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Enhancing Cultural Heritage Preservation with Copernicus World Heritage Hub",
-    "cached_at": "2026-06-28"
-  },
   "https://www.regeringen.se/pressmeddelanden/2026/06/regeringen-overlamnar-proposition-om-nya-regler-i-tandvarden/": {
     "analysis": {
       "relevans": "låg",
@@ -10939,5 +10919,37 @@
     "committee": "Europeiska rymdbyrån",
     "summary": "A year after the Galileo OSNMA authentication service was declared operational, receiver manufacturers worldwide are embedding it into commercial products, extending real-world protection against GNSS spoofing to a wide range of applications.",
     "cached_at": "2026-07-27"
+  },
+  "https://www.berec.europa.eu/en/tasks/berec-position-papers-on-the-digital-networks-act-proposal": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Telekom och nätverk",
+      "svensk_rubrik": "Digitala Nätverkslagen: BEREC presenterar positionspapper",
+      "sammanfattning": "BEREC, den europeiska byrån för telekomreglering, har publicerat 19 tematiska papper som granskar nyckelelement i det föreslagna Digitala Nätverkslagen (DNA). DNA syftar till att uppdatera den regulatoriska ramen för anslutning i hela EU. Pappren täcker olika aspekter av lagförslaget, som syftar till att förbättra och modernisera telekommunikationsregleringen i Europa.",
+      "tech_vinkel": "Digitala Nätverkslagen innehåller specifika bestämmelser om hur telekommunikationsnät och -tjänster ska regleras och övervakas för att säkerställa en hög nivå av anslutning och säkerhet i EU.",
+      "varfor_viktigt": "Det föreslagna Digitala Nätverkslagen kan ha betydande konsekvenser för telekommunikationssektorn i EU, inklusive hur nät och tjänster regleras, övervakas och utvecklas. Det kan påverka hur företag och konsumenter använder och har tillgång till telekommunikationstjänster. BEREC:s positionspapper ger viktiga insikter i de tekniska och regulatoriska aspekterna av lagförslaget.",
+      "eu_koppling": "Digitala Nätverkslagen (DNA) är en del av EU:s strävan att uppdatera och harmonisera telekommunikationsregleringen inom unionen.",
+      "keywords": [
+        "Digitala Nätverkslagen",
+        "BEREC",
+        "telekommunikation",
+        "EU-reglering"
+      ],
+      "arende": "Digitala Nätverkslagen",
+      "nasta_steg": "EU-kommissionen och EU-parlamentet kommer att granska och diskutera det föreslagna Digitala Nätverkslagen, med möjliga ändringar och justeringar innan det antas.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-12",
+          "beskrivning": "Digitala Nätverkslagen: BEREC publicerar positionspapper"
+        }
+      ]
+    },
+    "title": "BEREC position papers on the Digital Networks Act proposal",
+    "source": "BEREC",
+    "type": "EU-byrå",
+    "date": "Fri, 12 Jun 2026",
+    "committee": "Telekom-reglerare",
+    "summary": "BEREC position papers on the Digital Networks Act proposal yannick.stephan Fri, 12/06/2026 - 15:59 Breadcrumbs Tasks Europe’s electronic communications framework is entering a pivotal phase of reform, with the proposed Digital Networks Act (DNA) set to update the regulatory framework for connectivity across the European Union (EU). BEREC has developed 19 thematic papers examining key elements of t",
+    "cached_at": "2026-07-29"
   }
 }
