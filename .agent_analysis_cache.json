@@ -10951,5 +10951,65 @@
     "committee": "Telekom-reglerare",
     "summary": "BEREC position papers on the Digital Networks Act proposal yannick.stephan Fri, 12/06/2026 - 15:59 Breadcrumbs Tasks Europe’s electronic communications framework is entering a pivotal phase of reform, with the proposed Digital Networks Act (DNA) set to update the regulatory framework for connectivity across the European Union (EU). BEREC has developed 19 thematic papers examining key elements of t",
     "cached_at": "2026-07-29"
+  },
+  "https://www.edpb.europa.eu/news/stakeholder-event-on-guidelines-on-the-interplay-between-data-protection-and-competition-law-0_en": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Vägledning om dataskydd och konkurrensrätt",
+      "sammanfattning": "EU-byrån för dataskydd, EDPB, anordnar ett möte för intressenter om riktlinjer för hur dataskydd och konkurrensrätt samverkar. Mötet syftar till att diskutera och samla synpunkter på hur dessa två områden kan hanteras på ett sätt som främjar både dataskydd och konkurrens. Detta är en del av EDPB:s arbete med att ge vägledning till organisationer och myndigheter om hur de ska hantera dataskydd i relation till konkurrensrätt. EDPB vill samla in synpunkter från intressenter för att säkerställa att riktlinjerna är effektiva och relevanta.",
+      "tech_vinkel": "Riktlinjerna kommer att behandla specifika tekniska aspekter av dataskydd och konkurrensrätt, som hur personuppgifter samlas in och används i konkurrensrelaterade sammanhang.",
+      "varfor_viktigt": "Detta möte och de kommande riktlinjerna är viktiga eftersom de kan påverka hur företag och organisationer hanterar dataskydd i relation till konkurrensrätt. Det kan också ha konsekvenser för hur personuppgifter skyddas och används i olika sammanhang. Tajmingen är viktig eftersom det pågår en ökande diskussion om dataskydd och konkurrensrätt inom EU, och riktlinjerna kan bidra till att skapa tydliga ramar för hantering av dessa frågor.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning), som reglerar hur personuppgifter ska skyddas inom EU.",
+      "keywords": [
+        "dataskydd",
+        "konkurrensrätt",
+        "EDPB",
+        "GDPR"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "EDPB kommer att publicera riktlinjerna efter att ha samlat in synpunkter från intressenter, och dessa riktlinjer kommer sedan att användas som vägledning för organisationer och myndigheter.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-29",
+          "beskrivning": "EDPB: Anmälan till mötet om dataskydd och konkurrensrätt öppnar"
+        }
+      ]
+    },
+    "title": "Stakeholder event on guidelines on the interplay between data protection and competition law: express your interest",
+    "source": "EDPB",
+    "type": "EU-byrå",
+    "date": "Wed, 29 Jul 2026",
+    "committee": "European Data Protection Board",
+    "summary": "Stakeholder event on guidelines on the interplay between data protection and competition law: express your interest ipayotfr Wed, 29/07/2026 - 13:48",
+    "cached_at": "2026-07-30"
+  },
+  "https://www.euspa.europa.eu/newsroom-events/success-stories/galileo-osnma-enhances-secure-gnss-timing-critical-infrastructure": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "Galileo: Ökad säkerhet för kritisk infrastruktur",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, har meddelat att Oscilloquartz har integrerat Galileos OSNMA-autentisering i sina tid- och synkroniseringsplattformar. Detta använder u-blox GNSS-teknik och ger en ny nivå av tillförlitlighet och motståndskraft för GNSS-baserad synkronisering i kritisk infrastruktur. Detta kan bidra till att förbättra säkerheten och tillförlitligheten i viktiga system som elnät och kommunikationsnät. Genom att använda Galileos OSNMA kan Oscilloquartz erbjuda en hög grad av autentisering och skydd mot spoofing-attacker.",
+      "tech_vinkel": "Oscilloquartz har integrerat Galileos OSNMA-autentisering i sina tid- och synkroniseringsplattformar med hjälp av u-blox GNSS-teknik.",
+      "varfor_viktigt": "Detta är viktigt eftersom det kan bidra till att förbättra säkerheten och tillförlitligheten i kritisk infrastruktur. Genom att använda Galileos OSNMA kan Oscilloquartz erbjuda en hög grad av autentisering och skydd mot spoofing-attacker, vilket kan minska risken för attacker och störningar i viktiga system. Detta kan också bidra till att öka förtroendet för GNSS-baserad synkronisering och tidshantering i kritisk infrastruktur.",
+      "eu_koppling": "Galileo-programmet",
+      "keywords": [
+        "Galileo",
+        "OSNMA",
+        "GNSS",
+        "kritisk infrastruktur",
+        "säkerhet"
+      ],
+      "arende": "Galileo-programmet",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Galileo OSNMA enhances secure GNSS timing for critical infrastructure",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Fri, 24 Jul 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "Oscilloquartz has integrated Galileo’s OSNMA authentication into its timing and synchronisation platforms, using u-blox GNSS technology, bringing a new level of trust and resilience to GNSS-based synchronisation for critical infrastructure.",
+    "cached_at": "2026-07-30"
   }
 }
