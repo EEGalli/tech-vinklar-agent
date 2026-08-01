@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "next_step": "FRA kommer att påbörja arbetet med att samordna och stärka samhällets arbete med cybersäkerhet kopplat till artificiell intelligens, och kommer att rapportera till regeringen om framstegen.",
     "documents": [
@@ -558,7 +558,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -681,7 +681,7 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -849,6 +849,13 @@
         "tech_vinkel": "Eric Leijonram diskuterade den svenska förvaltningslagens syn på automatiserade beslut och hur AI påverkar denna process."
       },
       {
+        "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+        "date": "2026-08-01",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+        "source": "EU-kommissionen",
+        "tech_vinkel": "EU-kommissionen kommer att tillämpa reglerna i AI Act (EU:s AI-förordning), som är en specifik lagstiftning som reglerar utveckling och användning av artificiell intelligens."
+      },
+      {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
@@ -976,7 +983,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1068,7 +1075,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1343,7 +1350,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1418,7 +1425,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1485,7 +1492,7 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2052,6 +2059,13 @@
         "tech_vinkel": "Mötet behandlade specifikt EU-kommissionens förslag om förändringar i GDPR (EU:s dataskyddsförordning), som inkluderar regler för gränsöverskridande ärenden och hantering av personuppgifter i AI-sammanhang."
       },
       {
+        "title": "EDPB antar yttrande om adekvansbeslut för Brasilien",
+        "date": "2026-08-01",
+        "url": "https://www.imy.se/nyheter/edpb-antar-yttrande-om-adekvansbeslut-for-brasilien/",
+        "source": "IMY",
+        "tech_vinkel": "EDPB:s yttrande handlar specifikt om bedömningen av Brasiliens dataskyddslagstiftning i förhållande till EU:s dataskyddsförordning (GDPR), vilket är en central tech-fråga."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -2088,7 +2102,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2131,7 +2145,7 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2149,7 +2163,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2174,7 +2188,7 @@
   "Biometriutredning": {
     "name": "Biometriutredning",
     "first_seen": "2026-07-06",
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-01",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
