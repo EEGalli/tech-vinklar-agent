@@ -59,7 +59,7 @@
   "Cybersäkerhetscenter": {
     "name": "Cybersäkerhetscenter",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "next_step": "FRA kommer att påbörja arbetet med att samordna och stärka samhällets arbete med cybersäkerhet kopplat till artificiell intelligens, och kommer att rapportera till regeringen om framstegen.",
     "documents": [
@@ -558,7 +558,7 @@
   "NIS2-implementering": {
     "name": "NIS2-implementering",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -681,11 +681,11 @@
   "AI Act": {
     "name": "AI Act",
     "first_seen": "2026-04-21",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "IMY kommer att utvärdera resultaten från pilotprojektet och överväga hur de kan implementeras i framtida arbeten med AI-relaterade frågor.",
+    "next_step": "EU-kommissionen kommer att utvärdera de åtgärder som vidtas av den finansiella sektorn för att mildra ICT-riskerna och kan komma att föreslå ytterligare lagstiftningsåtgärder om det behövs.",
     "documents": [
       {
         "title": "Regeringen utser nationell samordnare för svenska språkmodeller",
@@ -856,6 +856,13 @@
         "tech_vinkel": "EU-kommissionen kommer att tillämpa reglerna i AI Act (EU:s AI-förordning), som är en specifik lagstiftning som reglerar utveckling och användning av artificiell intelligens."
       },
       {
+        "title": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector",
+        "date": "2026-08-02",
+        "url": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-call-enhanced-governance-and-consistent-supervision",
+        "source": "ESMA",
+        "tech_vinkel": "EBA, EIOPA och ESMA pekar specifikt på de ICT-risker som kan uppstå från användningen av frontier AI-modeller i den finansiella sektorn."
+      },
+      {
         "title": "Three studies on technical solutions to mark and detect AI-generated content",
         "date": "Fri, 08 Ma",
         "url": "https://digital-strategy.ec.europa.eu/en/library/three-studies-technical-solutions-mark-and-detect-ai-generated-content",
@@ -983,7 +990,7 @@
   "Digital Services Act": {
     "name": "Digital Services Act",
     "first_seen": "2026-05-08",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1075,7 +1082,7 @@
   "Digital Markets Act": {
     "name": "Digital Markets Act",
     "first_seen": "2026-04-13",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "next_step": "Företag och organisationer som omfattas av DMA och GDPR kommer att behöva granska och anpassa sina processer och policys enligt de nya riktlinjerna.",
     "documents": [
@@ -1350,7 +1357,7 @@
   "Åldersgräns för sociala medier": {
     "name": "Åldersgräns för sociala medier",
     "first_seen": "2026-06-03",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1425,7 +1432,7 @@
   "Digitala decenniet-initiativet": {
     "name": "Digitala decenniet-initiativet",
     "first_seen": "2026-06-17",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -1492,7 +1499,7 @@
   "GDPR-implementering": {
     "name": "GDPR-implementering",
     "first_seen": "2026-06-25",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2066,6 +2073,20 @@
         "tech_vinkel": "EDPB:s yttrande handlar specifikt om bedömningen av Brasiliens dataskyddslagstiftning i förhållande till EU:s dataskyddsförordning (GDPR), vilket är en central tech-fråga."
       },
       {
+        "title": "Nya webbsidor om hantering av personuppgifter i hälso- och sjukvården",
+        "date": "2026-08-02",
+        "url": "https://www.imy.se/nyheter/nya-webbsidor-om-hantering-av-personuppgifter-i-halso--och-sjukvarden/",
+        "source": "IMY",
+        "tech_vinkel": "De nya webbsidorna från IMY innehåller specifik vägledning om hur hälso- och sjukvården ska hantera personuppgifter i enlighet med GDPR (EU:s dataskyddsförordning)."
+      },
+      {
+        "title": "IMY publicerar tre nya kunskapsfilmer om GDPR",
+        "date": "2026-08-02",
+        "url": "https://www.imy.se/nyheter/imy-publicerar-tre-nya-kunskapsfilmer-om-gdpr/",
+        "source": "IMY",
+        "tech_vinkel": "De nya kunskapsfilmerna från IMY handlar specifikt om dataskyddsförordningen, GDPR (EU:s dataskyddsförordning), och syftar till att förklara hur den ska tillämpas i praktiken."
+      },
+      {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",
         "date": "Wed, 24 Ju",
         "url": "https://www.edpb.europa.eu/news/supporting-gdpr-consistency-edpb-launches-dedicated-form_en",
@@ -2102,7 +2123,7 @@
   "EU-förordningen om transparens och inriktning av politisk reklam": {
     "name": "EU-förordningen om transparens och inriktning av politisk reklam",
     "first_seen": "2026-06-30",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2145,7 +2166,7 @@
   "PNR-direktivet": {
     "name": "PNR-direktivet",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2163,7 +2184,7 @@
   "Kamerabevakningsregler": {
     "name": "Kamerabevakningsregler",
     "first_seen": "2026-07-04",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
@@ -2188,7 +2209,7 @@
   "Biometriutredning": {
     "name": "Biometriutredning",
     "first_seen": "2026-07-06",
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-02",
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
