@@ -1174,5 +1174,13 @@
       "url": "https://www.imy.se/nyheter/nordiskt-samarbete-kring-ai-och-barns-rattigheter/",
       "arende": "Nordiskt samarbete kring AI och barns rättigheter"
     }
+  ],
+  "2026-08-26": [
+    {
+      "beskrivning": "Telekom-reglerare: Sista datum för att lämna synpunkter på gränssnitt för mobilnät",
+      "title": "Call for Inputs on interfaces for mobile networks for developers and third-party services",
+      "url": "https://www.berec.europa.eu/en/public-consultations-calls-for-inputs/call-for-inputs-on-interfaces-for-mobile-networks-for-developers-and-third-party-services",
+      "arende": "Telekom-reglering"
+    }
   ]
 }
