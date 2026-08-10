@@ -1503,7 +1503,7 @@
     "status": "aktiv",
     "is_new_today": false,
     "is_updated_today": true,
-    "next_step": "Den belgiska DPA kommer att utreda ärendet och ta ställning till om webbplatserna har brutit mot GDPR.",
+    "next_step": "EDPB kommer att analysera svaren och använda dem som underlag för att ge rekommendationer till EU-kommissionen om hur dataskyddet kan förbättras.",
     "documents": [
       {
         "title": "Gemensam mall på gång för anmälan av personuppgiftsincidenter",
@@ -2092,6 +2092,13 @@
         "url": "https://www.imy.se/nyheter/delta-pa-imys-webbinarier-om-generativ-ai-och-ai-forordningen/",
         "source": "IMY",
         "tech_vinkel": "Webbinarierna kommer att behandla hur generativ AI kan användas enligt GDPR (EU:s dataskyddsförordning), vilket är en specifik och aktuell teknikfråga."
+      },
+      {
+        "title": "Individual replies from data protection supervisory authorities to the European Commission's evaluation of the LED (2025)",
+        "date": "2026-08-10",
+        "url": "https://www.edpb.europa.eu/individual-replies-from-data-protection-supervisory-authorities-to-the-european-commissions-evaluation-led-2025_en",
+        "source": "EDPB",
+        "tech_vinkel": "Dokumentet innehåller specifika tekniska aspekter av dataskydd, som hur dataskyddsmyndigheter ser på utmaningar och möjligheter med elektronisk identifiering och autentisering."
       },
       {
         "title": "Supporting GDPR consistency: EDPB launches dedicated form",

@@ -7828,5 +7828,120 @@
     "committee": "European Data Protection Board",
     "summary": "EDPB sheds light on anonymisation and web scraping for generative AI and adopts final version of guidelines on blockchain ipetstef Wed, 08/07/2026 - 13:34",
     "cached_at": "2026-08-10"
+  },
+  "https://www.imy.se/nyheter/6-av-10-incidenter-orsakas-av-manskliga-faktorn/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: 6 av 10 incidenter orsakas av mänskliga faktorn",
+      "sammanfattning": "Integritetsskyddsmyndigheten, IMY, har publicerat en rapport om anmälningar om personuppgiftsincidenter under 2022. Rapporten visar att 6 av 10 incidenter orsakades av den mänskliga faktorn. Det faktiska antalet incidenter kan vara tre gånger så stort jämfört med det antal som rapporterats in. Detta tyder på att det finns en stor outnyttjad potential för förbättring av dataskyddet i Sverige.",
+      "tech_vinkel": "Rapporten från IMY visar att den mänskliga faktorn är den vanligaste orsaken till personuppgiftsincidenter, vilket betonar vikten av utbildning och medvetenhet om dataskydd.",
+      "varfor_viktigt": "Denna rapport är viktig eftersom den visar att det finns en stor potential för förbättring av dataskyddet i Sverige. Det faktum att den mänskliga faktorn är den vanligaste orsaken till incidenter betonar vikten av att utbilda och medvetandegöra organisationer och individer om dataskydd. Dessutom kan rapporten bidra till att förbättra den allmänna säkerheten och skyddet av personuppgifter i Sverige.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "GDPR",
+        "personuppgiftsincidenter"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "IMY kommer att fortsätta att övervaka och utvärdera dataskyddet i Sverige och vidta åtgärder för att förbättra det.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-06-07",
+          "beskrivning": "IMY publicerar rapport om personuppgiftsincidenter under 2022"
+        }
+      ]
+    },
+    "title": "6 av 10 incidenter orsakas av mänskliga faktorn",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Wed, 07 Jun 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten, IMY, publicerar nu en rapport över de anmälningar om personuppgiftsincidenter som myndigheten tagit emot under 2022. Rapporten visar att 6 av 10 incidenter uppges vara orsakade av den mänskliga faktorn och att det faktiska antalet incidenter kan vara tre gånger så stort jämfört med det antal som rapporterats in.",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.edpb.europa.eu/individual-replies-from-data-protection-supervisory-authorities-to-the-european-commissions-evaluation-led-2025_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Svar från dataskyddsmyndigheter på EU-kommissionens utvärdering av LED",
+      "sammanfattning": "Europeiska dataskyddsstyrelsen (EDPB) har samlat in svar från dataskyddsmyndigheter i EU-länderna om deras syn på EU-kommissionens utvärdering av Lagstiftningen om elektronisk identifiering (LED). Detta är en del av processen att utvärdera och förbättra dataskyddet i EU. Svar från myndigheterna i olika länder ger en bred bild av hur LED har implementerats och fungerar i praktiken. Detta arbete är viktigt för att säkerställa att dataskyddet för EU-medborgare upprätthålls på en hög nivå.",
+      "tech_vinkel": "Dokumentet innehåller specifika tekniska aspekter av dataskydd, som hur dataskyddsmyndigheter ser på utmaningar och möjligheter med elektronisk identifiering och autentisering.",
+      "varfor_viktigt": "Detta arbete är viktigt eftersom det kan leda till förbättringar i dataskyddslagstiftningen och dess tillämpning i EU. Det kan också påverka hur företag och organisationer hanterar personuppgifter och implementerar dataskyddsåtgärder. Dessutom kan det bidra till att stärka förtroendet för digitala tjänster och skydda medborgarnas rättigheter.",
+      "eu_koppling": "General Data Protection Regulation (GDPR) och eIDAS (elektronisk identifiering, autentisering och förtroendestjänster)",
+      "keywords": [
+        "dataskydd",
+        "LED",
+        "eIDAS",
+        "GDPR"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "EDPB kommer att analysera svaren och använda dem som underlag för att ge rekommendationer till EU-kommissionen om hur dataskyddet kan förbättras.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-06-30",
+          "beskrivning": "EDPB: Svar från dataskyddsmyndigheter på EU-kommissionens utvärdering av LED publiceras"
+        }
+      ]
+    },
+    "title": "Individual replies from data protection supervisory authorities to the European Commission's evaluation of the LED (2025)",
+    "source": "EDPB",
+    "type": "EU-byrå",
+    "date": "Tue, 30 Jun 2026",
+    "committee": "European Data Protection Board",
+    "summary": "Individual replies from data protection supervisory authorities to the European Commission's evaluation of the LED (2025) AT SA Article 62 LED questionnaire BE SA Article 62 LED questionnaire BG SA Article 62 LED questionnaire CY SA Article 62 LED questionnaire CZ SA Article 62 LED questionnaire DE SA Article 62 LED questionnaire DK SA Article 62 LED questionnaire EE SA Article 62 LED questionnair",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/two-more-satellites-strengthen-europes-galileo-network": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "Galileo-programmet: Två nya satelliter",
+      "sammanfattning": "Europeiska rymdbyrån, EUSPA, meddelar att två nya satelliter har lagts till Galileo-nätverket. Detta stärker Europas satellitnavigeringssystem och förbättrar dess precision och tillförlitlighet. De nya satelliterna är en del av en större uppdatering av Galileo-systemet för att möta framtida behov och utmaningar. Detta är ett viktigt steg för att säkerställa att Europa har en robust och självständig satellitnavigeringskapacitet.",
+      "tech_vinkel": "De två nya satelliterna som lagts till Galileo-nätverket är utrustade med avancerad navigeringsteknik för att förbättra precisionen och tillförlitligheten i satellitnavigeringssystemet.",
+      "varfor_viktigt": "Detta är viktigt eftersom Galileo-systemet används för en mängd olika ändamål, inklusive flyg, sjöfart, jordbruk och nödsituationer. En förbättrad satellitnavigeringskapacitet kan bidra till att öka säkerheten, effektiviteten och precisionen i dessa områden. Dessutom stärker detta Europa som en ledande aktör inom satellitnavigering och rymdteknik.",
+      "eu_koppling": "Galileo-programmet är ett EU-initiativ som syftar till att skapa ett oberoende satellitnavigeringssystem för Europa.",
+      "keywords": [
+        "Galileo",
+        "satellitnavigering",
+        "rymdteknik"
+      ],
+      "arende": "Galileo-programmet",
+      "nasta_steg": "Nästa steg i Galileo-programmet kommer att fokusera på att integrera de nya satelliterna i det existerande nätverket och att fortsätta utveckla och förbättra systemets funktioner.",
+      "viktiga_datum": []
+    },
+    "title": "Two more satellites strengthen Europe's Galileo network",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Mon, 10 Aug 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.euspa.europa.eu/pressroom/in-the-news/galileo-le-programme-europeen-de-geolocalisation": {
+    "analysis": {
+      "relevans": "låg",
+      "tema": "Satellit och rymdteknik",
+      "svensk_rubrik": "Galileo-programmet: EU:s satellitnavigering",
+      "sammanfattning": "Galileo är EU:s eget satellitnavigeringssystem, som syftar till att ge europeiska medborgare och företag en oberoende och tillförlitlig positioneringstjänst. Systemet består av en konstellation av satelliter i omlopp runt jorden och en nätverk av markbaserade stationer som övervakar och kontrollerar satelliterna. Galileo är tänkt att vara kompatibelt med andra satellitnavigeringssystem, som GPS och GLONASS, men också att erbjuda högre precision och tillförlitlighet. Detta system kan ha en betydande inverkan på olika områden, som transport, jordbruk och nödsituationer.",
+      "tech_vinkel": "Galileo-programmet använder sig av avancerad satellit-teknik och signalbehandling för att ge precisa positions- och tidssignaler.",
+      "varfor_viktigt": "Galileo-programmet är viktigt för att ge Europa en oberoende och tillförlitlig satellitnavigeringstjänst, som kan stödja olika sektorer som transport, jordbruk och nödsituationer. Det kan också bidra till att öka EU:s självständighet i fråga om satellitnavigering och minska beroendet av andra länders system. Dessutom kan Galileo-programmet skapa nya möjligheter för europeiska företag och forskare inom områden som satellit-teknik och positioneringstjänster.",
+      "eu_koppling": "null",
+      "keywords": [
+        "Galileo",
+        "satellitnavigering",
+        "EU"
+      ],
+      "arende": "Galileo-programmet",
+      "nasta_steg": "null",
+      "viktiga_datum": []
+    },
+    "title": "Galileo, le programme européen de géolocalisation",
+    "source": "EUSPA",
+    "type": "EU-byrå",
+    "date": "Mon, 10 Aug 2026",
+    "committee": "Europeiska rymdbyrån",
+    "summary": "",
+    "cached_at": "2026-08-10"
   }
 }
