@@ -3485,156 +3485,27 @@
     "summary": "EDPB and AMLA to develop Joint Guidelines on partnerships for information sharing ipayotfr Wed, 24/06/2026 - 12:27",
     "cached_at": "2026-08-09"
   },
-  "https://www.politico.eu/article/europes-conservatives-revive-zombie-bill-child-abuse-scanning/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Barnskydd online (CSAM/Chat Control)",
-      "svensk_rubrik": "Barnskydd online: EU-förslag om scanning av barnsexbrott",
-      "sammanfattning": "EU-kommissionen har återupplivat ett förslag om att tillåta scanning av online-innehåll för att upptäcka barnsexbrott. Förslaget har mött motstånd tidigare, men nu finns det en ny möjlighet att det kan bli verklighet. Det handlar om att ge polisen och andra myndigheter möjlighet att söka efter och identifiera barnsexbrott på internet. Detta kan påverka hur internetleverantörer och sociala medier hanterar användardata och innehåll.",
-      "tech_vinkel": "Förslaget handlar specifikt om att införa tekniska lösningar för att automatiskt söka efter och identifiera barnsexbrott på internet, vilket kräver avancerad algoritmbaserad teknik.",
-      "varfor_viktigt": "Om förslaget blir verklighet kan det leda till en ökad säkerhet för barn på internet och en minskning av barnsexbrott. Det kan också ha konsekvenser för hur internetleverantörer och sociala medier hanterar användardata och innehåll, vilket kan påverka användarnas integritet och frihet på internet. Dessutom kan det leda till en ökad samverkan mellan myndigheter och tech-företag för att bekämpa barnsexbrott.",
-      "eu_koppling": "Förslaget är en del av EU:s arbete mot barnsexbrott och kopplar till EU:s lagstiftning om barnskydd och integritet på internet, exempelvis GDPR (EU:s dataskyddsförordning) och den föreslagna EU-lagstiftningen om digitala tjänster (DSA).",
-      "keywords": [
-        "barnsexbrott",
-        "internet",
-        "algoritmer",
-        "integritet"
-      ],
-      "arende": "Barnskydd online",
-      "nasta_steg": "Förslaget kommer att diskuteras och utvärderas av EU-kommissionen och EU-parlamentet innan det kan bli verklighet.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-15",
-          "beskrivning": "Barnskydd online: EU-kommissionen presenterar detaljer om förslaget"
-        }
-      ]
-    },
-    "title": "Europe’s conservatives revive zombie bill on child abuse scanning",
-    "source": "Politico EU Tech",
-    "type": "Tech-policy-nyhet",
-    "date": "Thu, 09 Jul 2026",
-    "committee": "Politico Europe — tech-policy",
-    "summary": "Top-level pressure and obscure procedures breathe new life into a controversial proposal to allow scanning for online child sexual abuse material.",
-    "cached_at": "2026-07-10"
-  },
-  "https://www.europarl.europa.eu/committees/en/product/product-details/20260709CAN79302": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "JURI-utskottet: Omröstning om geografiska beteckningar",
-      "sammanfattning": "EU-parlamentets utskott för rättsliga frågor, EU-parlamentet:s rättsliga utskott (JURI), ska rösta om en lagstiftningsrapport som gäller ändringar i EU-förordningen om geografiska beteckningar. Rapporten handlar om att ändra förordningen för att anpassa den till beslut som fattats av Lissabonunionen. Utskottet kommer också att anta två yttranden om lagstiftningsförslag. Detta är en del av EU-parlamentets lagstiftningsprocess.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta ärende är viktigt eftersom det handlar om att ändra EU-lagstiftning som påverkar producenter och konsumenter inom EU. Ändringarna kan ha konsekvenser för hur geografiska beteckningar används och skyddas inom EU. Det kan också påverka handeln och konkurrensen mellan EU-länder.",
-      "eu_koppling": "null",
-      "keywords": [
-        "geografiska beteckningar",
-        "Lissabonunionen",
-        "EU-förordning"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-15",
-          "beskrivning": "JURI-utskottet röstar om lagstiftningsrapporten om geografiska beteckningar"
-        }
-      ]
-    },
-    "title": "Highlights - Vote on GIs and EoV with Commissioner Maria Luís Albuquerque - Committee on Legal Affairs",
-    "source": "EU-parlamentet",
-    "type": "EP/Utskott",
-    "date": "Thu, 09 Jul 2026",
-    "committee": "JURI",
-    "summary": "On15 July 2026, the Members of the Legal Affairs Committee will vote on the legislative report Amending Regulation (EU) 2019/1753 as regards amendments adopted by the Assembly of the Lisbon Union on 14 July 2025 to the Common Regulations under the Lisbon Agreement on Appellations of Origin and Geographical Indications (2026/0044(COD)). Additionally, JURI Members will adopt two opinions on the lega",
-    "cached_at": "2026-07-10"
-  },
-  "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Sociala medier och plattformar",
-      "svensk_rubrik": "Digital Services Act: EU-kommissionen anklagar Meta för beroendeframkallande design",
-      "sammanfattning": "EU-kommissionen har funnit att Meta, ägare till Instagram och Facebook, har brutit mot Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll) genom att använda en design som kan skapa beroende hos användarna. Detta är ett resultat av en undersökning som kommissionen har genomfört för att se om plattformarna följer de nya reglerna för digitala tjänster. Kommissionen menar att Metas design kan vara skadlig för användarna, särskilt barn och unga. Detta kan leda till att Meta tvingas ändra sin design för att följa de nya reglerna.",
-      "tech_vinkel": "EU-kommissionen har funnit att Metas användning av algoritmer för att skapa en beroendeframkallande design på Instagram och Facebook är i strid med Digital Services Act (EU-lagen som tvingar plattformar att hantera olagligt innehåll).",
-      "varfor_viktigt": "Detta är viktigt eftersom det kan leda till att sociala medie-plattformar tvingas ändra sin design för att skydda användarna, särskilt barn och unga. Det kan också leda till att EU-kommissionen tar hårdare tag mot plattformar som inte följer de nya reglerna. Detta kan ha en stor inverkan på hur sociala medie-plattformar fungerar i framtiden och hur de skyddar sina användare.",
-      "eu_koppling": "Digital Services Act (EU:s lagstiftning om digitala tjänster)",
-      "keywords": [
-        "Digital Services Act",
-        "Meta",
-        "Instagram",
-        "Facebook",
-        "beroendeframkallande design"
-      ],
-      "arende": "Digital Services Act",
-      "nasta_steg": "EU-kommissionen kommer att fortsätta att undersöka Metas design och kan vidta ytterligare åtgärder om de inte följer de nya reglerna.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-10",
-          "beskrivning": "Digital Services Act: EU-kommissionen anklagar Meta för beroendeframkallande design"
-        }
-      ],
-      "_learned_from": "Användaren har satt källa 'EU-kommissionen' till låg 3 gånger tidigare"
-    },
-    "title": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act",
-    "source": "EU-kommissionen",
-    "type": "Digital Strategy — Nyhet",
-    "date": "Fri, 10 Jul 2026",
-    "committee": "EU-kommissionen (digital-strategy)",
-    "summary": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act \n  Anonymous (not verified)  \n  Fri, 07/10/2026 - 10:57 \n \n\n \n   \n        \n               \n                                     Today, the European Commission preliminarily found Meta in breach of the Digital Services Act for the addictive design of Instagram and Facebook. \n\n  \n               \n       \n                     \n             \n\n\n\n\n\n          \n    \n    \n                 \n ",
-    "cached_at": "2026-07-10"
-  },
-  "https://www.imy.se/nyheter/dom-fran-eu-domstolen-om-soktjanst-med-utgivningsbevis/": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Dataskydd och GDPR",
-      "svensk_rubrik": "EU-domstolens dom: Söktjänst med utgivningsbevis",
-      "sammanfattning": "EU-domstolen har meddelat en dom om en svensk söktjänst med frivilligt utgivningsbevis som publicerar brottmålsdomar. Domen rör förhållandet mellan dataskyddsförordningen (GDPR) och det svenska systemet med frivilliga utgivningsbevis. Integritetsskyddsmyndigheten (IMY) kommer nu att analysera vad domen innebär för myndighetens pågående tillsyner av söktjänster med sådana utgivningsbevis. Detta kan påverka hur söktjänster hanterar personuppgifter i framtiden.",
-      "tech_vinkel": "Domen handlar specifikt om tillämpningen av dataskyddsförordningen (GDPR) på söktjänster med utgivningsbevis, vilket berör hur personuppgifter hanteras och skyddas online.",
-      "varfor_viktigt": "Domen kan ha betydande konsekvenser för söktjänster och deras hantering av personuppgifter. Det kan också påverka hur Integritetsskyddsmyndigheten (IMY) utför sina tillsyner och hur de säkerställer att söktjänster följer dataskyddsförordningen. Dessutom kan domen bidra till att förtydliga gränserna för dataskydd i Sverige och EU.",
-      "eu_koppling": "Dataskyddsförordningen (GDPR)",
-      "keywords": [
-        "GDPR",
-        "dataskydd",
-        "söktjänster",
-        "utgivningsbevis"
-      ],
-      "arende": "GDPR-implementering",
-      "nasta_steg": "Integritetsskyddsmyndigheten (IMY) kommer att analysera domen och dess konsekvenser för pågående tillsyner av söktjänster.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-09",
-          "beskrivning": "EU-domstolens dom: Söktjänst med utgivningsbevis"
-        }
-      ]
-    },
-    "title": "Dom från EU-domstolen om söktjänst med utgivningsbevis",
-    "source": "IMY",
-    "type": "Svensk myndighet",
-    "date": "Thu, 09 Jul 2026",
-    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
-    "summary": "Idag kom dom från EU-domstolen i ett mål om en svensk söktjänst med frivilligt utgivningsbevis som publicerar brottmålsdomar. Domen rör förhållandet mellan dataskyddsförordningen (GDPR) och det svenska systemet med frivilliga utgivningsbevis. Integritetsskyddsmyndigheten (IMY) kommer nu att analysera vad domen innebär för myndighetens pågående tillsyner av söktjänster med sådana utgivningsbevis.",
-    "cached_at": "2026-07-10"
-  },
   "https://www.imy.se/nyheter/edpb-antar-riktlinjer-om-anonymisering-och-en-slutlig-version-av-riktlinjer-om-blockkedjor/": {
     "analysis": {
       "relevans": "hög",
       "tema": "Dataskydd och GDPR",
-      "svensk_rubrik": "EDPB antar riktlinjer om anonymisering",
-      "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om anonymisering och en slutlig version av riktlinjer om behandling av personuppgifter genom blockkedjeteknik. Detta innebär att det nu finns tydliga riktlinjer för hur personuppgifter ska hanteras i samband med anonymisering och blockkedjeteknik. Riktlinjerna syftar till att skydda människors personuppgifter och säkerställa att de hanteras på ett säkert och ansvarsfullt sätt.",
-      "tech_vinkel": "Riktlinjerna omfattar specifika tekniska krav för anonymisering av personuppgifter, inklusive krav på att uppgifterna ska vara irreversibla och inte kunna kopplas till en specifik individ.",
-      "varfor_viktigt": "De nya riktlinjerna är viktiga eftersom de syftar till att skydda människors personuppgifter i en tid då tekniken utvecklas snabbt och allt fler uppgifter samlas in och hanteras. Riktlinjerna kommer att påverka företag och organisationer som hanterar personuppgifter, och de måste säkerställa att de följer de nya riktlinjerna för att undvika sanktioner och böter.",
+      "svensk_rubrik": "EDPB: Riktlinjer för anonymisering och blockkedjor",
+      "sammanfattning": "Den Europeiska dataskyddsstyrelsen, EDPB, har antagit riktlinjer om anonymisering och en slutlig version av riktlinjer om behandling av personuppgifter genom blockkedjeteknik. Detta syftar till att ge tydliga riktlinjer för hur personuppgifter ska hanteras inom dessa områden för att säkerställa dataskydd och integritet. Riktlinjerna kommer att påverka företag och organisationer som använder blockkedjeteknik och som behöver anonymisera personuppgifter. Detta kan leda till förändringar i hur dessa organisationer hanterar personuppgifter och implementerar dataskyddsåtgärder.",
+      "tech_vinkel": "Riktlinjerna omfattar specifika tekniska krav för anonymisering av personuppgifter och behandling av personuppgifter genom blockkedjeteknik.",
+      "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de syftar till att skydda personuppgifter och säkerställa att företag och organisationer hanterar dessa uppgifter på ett säkert och ansvarsfullt sätt. Detta kan också leda till ökad transparens och förtroende för företag som använder blockkedjeteknik och anonymiserar personuppgifter. Dessutom kan riktlinjerna bidra till att minska risken för dataskyddsincidenter och skydda enskilda personers integritet.",
       "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
       "keywords": [
-        "anonymisering",
-        "blockkedjeteknik",
         "dataskydd",
-        "GDPR"
+        "integritet",
+        "anonymisering",
+        "blockkedjor"
       ],
       "arende": "GDPR-implementering",
-      "nasta_steg": "Företag och organisationer måste nu säkerställa att de följer de nya riktlinjerna för anonymisering och blockkedjeteknik.",
+      "nasta_steg": "Företag och organisationer som omfattas av riktlinjerna kommer att behöva granska och anpassa sina dataskyddsprocesser för att säkerställa att de följer de nya riktlinjerna.",
       "viktiga_datum": [
         {
           "datum": "2026-07-09",
-          "beskrivning": "EDPB antar riktlinjer om anonymisering och blockkedjeteknik"
+          "beskrivning": "EDPB: Riktlinjer för anonymisering och blockkedjor antagna"
         }
       ]
     },
@@ -3644,265 +3515,23 @@
     "date": "Thu, 09 Jul 2026",
     "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
     "summary": "Under sitt senaste plenarmöte har den Europeiska dataskyddsstyrelsen, EDPB, antagit riktlinjer om anonymisering. Dessutom har EDPB antagit en slutlig version av riktlinjer om behandling av personuppgifter genom blockkedjeteknik.",
-    "cached_at": "2026-07-10"
-  },
-  "https://www.euspa.europa.eu/node/9804": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "EUSPA Career Day",
-      "sammanfattning": "Europeiska rymdbyrån, EUSPA, anordnar en karriärdag. Detta evenemang syftar till att informera om möjligheter och karriärvägar inom rymdindustrin. EUSPA är en EU-byrå som fokuserar på rymdteknik och dess tillämpningar. Evenemanget kan vara av intresse för studenter, yrkesverksamma och alla som är intresserade av rymdindustrin.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Evenemanget kan vara viktigt för individer som söker en karriär inom rymdindustrin. Det kan också vara relevant för företag och organisationer som är involverade i rymdteknik och relaterade områden. Evenemanget kan bidra till att öka medvetenheten om rymdindustrins möjligheter och utmaningar.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EUSPA",
-        "rymdindustri",
-        "karriärdag"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-10",
-          "beskrivning": "EUSPA Career Day: Evenemanget äger rum"
-        }
-      ]
-    },
-    "title": "EUSPA Career Day",
-    "source": "EUSPA",
-    "type": "EU-byrå",
-    "date": "Fri, 10 Jul 2026",
-    "committee": "Europeiska rymdbyrån",
-    "summary": "",
-    "cached_at": "2026-07-10"
-  },
-  "https://www.euspa.europa.eu/opportunities/procurement-grants/procurements/euspaop1826-provision-interim-workers-euspa": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "EUSPA: Provision av interimspersonal",
-      "sammanfattning": "EUSPA, den europeiska rymdbyrån, har publicerat en upphandling för att anställa interimspersonal. Detta innebär att byrån söker efter personal som kan fylla vissa roller under en begränsad tid. Upphandlingen är en del av byråns arbete med att säkerställa att de har tillräckligt med personal för att utföra sina uppgifter. Detta är en vanlig process inom offentlig förvaltning och inte specifikt relaterad till någon ny teknisk utveckling eller lagstiftningsändring.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna upphandling är viktig för EUSPA eftersom den möjliggör för byrån att fylla personalbehov och säkerställa en smidig verksamhet. Det kan dock inte anses vara av stor betydelse för den breda allmänheten eller för teknikutvecklingen i stort. Upphandlingen är en intern process som inte direkt påverkar teknisk utveckling eller lagstiftning.",
-      "eu_koppling": "null",
-      "keywords": [
-        "EUSPA",
-        "interimspersonal",
-        "upphandling"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "EUSPA/OP/18/26 - Provision of Interim Workers to EUSPA",
-    "source": "EUSPA",
-    "type": "EU-byrå",
-    "date": "Thu, 09 Jul 2026",
-    "committee": "Europeiska rymdbyrån",
-    "summary": "",
-    "cached_at": "2026-07-10"
-  },
-  "https://data.riksdagen.se/dokument/HD03291.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "Uppföljning av strategi mot extremism",
-      "sammanfattning": "Regeringen har lämnat en skrivelse till riksdagen om uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism. Skrivelsen presenterar en översikt av de insatser som har genomförts för att bekämpa extremism och terrorism. Regeringen redovisar också de utmaningar som finns och de åtgärder som planeras för att förbättra arbetet mot extremism och terrorism. Strategin omfattar flera områden, inklusive förebyggande arbete, polisens och säkerhetspolisens arbete samt internationellt samarbete.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Uppföljningen av den nationella strategin mot våldsbejakande extremism och terrorism är viktig eftersom den visar hur regeringen arbetar för att bekämpa extremism och terrorism i Sverige. Strategin är en del av regeringens arbete för att främja säkerhet och trygghet i samhället. Uppföljningen kan också ge insikt i vilka utmaningar som finns och hur de kan hanteras. Det är också viktigt att regeringen redovisar de åtgärder som planeras för att förbättra arbetet mot extremism och terrorism.",
-      "eu_koppling": "null",
-      "keywords": [
-        "extremism",
-        "terrorism",
-        "nationell strategi"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-30",
-          "beskrivning": "Uppföljning av den nationella strategin mot extremism: Skrivelse lämnas till riksdagen"
-        }
-      ]
-    },
-    "title": "Uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism",
-    "source": "Riksdagen",
-    "type": "Riksdagen/PROP",
-    "date": "2026-07-03",
-    "committee": "Justitiedepartementet",
-    "summary": "Regeringens skrivelse 2025/26:291\n Uppföljning av den nationella strategin mot  Skr.  våldsbejakande extremism och terrorism  2025/26:291  Regeringen överlämnar denna skrivelse till riksdagen.\n Stockholm den 30 juni 2026\n Camilla Waltersson Grönvall\n Gunnar Strömmer (Justitiedepartementet)\n Skrivelsens huvudsakliga innehåll\n",
-    "cached_at": "2026-07-10"
-  },
-  "https://data.riksdagen.se/dokument/HD03296.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "Skattetransparenta värdepappersfonder",
-      "sammanfattning": "Regeringen har lämnat en proposition om skattetransparenta värdepappersfonder för institutionella investerare. Propositionen syftar till att förbättra skatteförhållandena för dessa fonder. Detta kan påverka hur institutionella investerare väljer att placera sina pengar. Propositionen är en del av regeringens arbete med att förbättra de finansiella villkoren för företag och investerare.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna proposition är viktig eftersom den kan påverka hur institutionella investerare väljer att placera sina pengar. Detta kan i sin tur påverka den svenska ekonomin och företagsklimatet. Propositionen är också en del av regeringens arbete med att förbättra de finansiella villkoren för företag och investerare, vilket kan ha långsiktiga effekter på den svenska ekonomin.",
-      "eu_koppling": "null",
-      "keywords": [
-        "skattetransparenta värdepappersfonder",
-        "institutionella investerare"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-30",
-          "beskrivning": "Skattetransparenta värdepappersfonder-proposition: Överlämnas till riksdagen"
-        }
-      ]
-    },
-    "title": "Skattetransparenta värdepappersfonder för institutionella investerare",
-    "source": "Riksdagen",
-    "type": "Riksdagen/PROP",
-    "date": "2026-06-30",
-    "committee": "Finansdepartementet",
-    "summary": "Regeringens proposition 2025/26:296\n Skattetransparenta värdepappersfonder för  Prop.  institutionella investerare  2025/26:296  Regeringen överlämnar denna proposition till riksdagen.\n Visby den 25 juni 2026\n Ulf Kristersson\n Niklas Wykman (Finansdepartementet)\n Propositionens huvudsakliga innehåll\n Propositionen innehåller",
-    "cached_at": "2026-07-10"
-  },
-  "https://data.riksdagen.se/dokument/HD03293.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "Skärpta regler för unga lagöverträdare",
-      "sammanfattning": "Regeringen har lämnat en proposition till riksdagen om skärpta regler för unga lagöverträdare. Propositionen syftar till att stärka rättssäkerheten och skyddet för unga som begår brott. Förslaget innebär att unga lagöverträdare ska få ett mer individualiserat straff och att samhällets insatser för att förebygga och motverka brott ska förbättras. Propositionen är en del av regeringens arbete för att förbättra rättssystemet och öka tryggheten i samhället.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan påverka hur unga lagöverträdare behandlas i rättssystemet och hur samhället förebygger och motverkar brott. Förslaget kan också ha konsekvenser för hur rättssystemet fungerar och hur tryggheten i samhället kan öka. Det är viktigt att förslaget genomförs på ett sätt som är rättvist och effektivt.",
-      "eu_koppling": "null",
-      "keywords": [
-        "unga lagöverträdare",
-        "rättssäkerhet",
-        "straff"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-30",
-          "beskrivning": "Skärpta regler för unga lagöverträdare: Propositionen överlämnas till riksdagen"
-        }
-      ]
-    },
-    "title": "Skärpta regler för unga lagöverträdare",
-    "source": "Riksdagen",
-    "type": "Riksdagen/PROP",
-    "date": "2026-06-30",
-    "committee": "Justitiedepartementet",
-    "summary": "Skärpta regler för unga lagöverträdare\n Regeringens proposition 2025/26:293\n Skärpta regler för unga lagöverträdare\n Prop.\n 2025/26:293\n Regeringen överlämnar denna proposition till riksdagen.\n Stockholm den 30 juni 2026\n Camilla Waltersson Grönvall\n Gunnar Strömmer (Justitiedepartementet)\n Propositionens huvudsakliga innehåll\n",
-    "cached_at": "2026-07-10"
-  },
-  "https://www.regeringen.se/pressmeddelanden/2026/07/regeringen-agerar-for-att-starka-samhallets-arbete-med-cybersakerhet-kopplat-till-utvecklingen-av-nya-ai-modeller/": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Cybersäkerhet",
-      "svensk_rubrik": "Regeringen stärker cybersäkerhet för AI",
-      "sammanfattning": "Regeringen ger Nationellt cybersäkerhetscenter i uppdrag att samordna och stärka arbetet med cybersäkerhet kopplat till utvecklingen av nya AI-modeller. Detta innebär att Sverige ska bli bättre på att skydda sig mot cyberhot som kan uppstå i samband med AI-teknik. Regeringen vill säkerställa att samhället är väl rustat för att hantera de säkerhetsrisker som följer med den snabba utvecklingen av AI. Det handlar om att skydda allt från kritisk infrastruktur till enskilda personers integritet.",
-      "tech_vinkel": "Nationellt cybersäkerhetscenter ska fokusera på cybersäkerhetsrisker som är direkt kopplade till utvecklingen och användningen av artificiell intelligens (AI).",
-      "varfor_viktigt": "Detta beslut är viktigt eftersom AI-teknik blir allt mer vanligt i samhället och medför nya typer av säkerhetsrisker. Om Sverige inte har tillräckliga skydd kan landet bli sårbart för cyberattacker som kan störa kritisk infrastruktur, stjäla känslig information eller påverka enskilda personers integritet. Genom att stärka cybersäkerheten kan Sverige minska dessa risker och skapa en tryggare miljö för AI-användning.",
-      "eu_koppling": "NIS2 (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
-      "keywords": [
-        "cybersäkerhet",
-        "AI",
-        "Nationellt cybersäkerhetscenter"
-      ],
-      "arende": "Cybersäkerhetscenter",
-      "nasta_steg": "Nationellt cybersäkerhetscenter kommer att påbörja arbetet med att samordna och stärka cybersäkerhetsarbetet i Sverige, med fokus på AI-relaterade risker.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-09",
-          "beskrivning": "Regeringen meddelar beslut om att stärka cybersäkerheten för AI"
-        }
-      ]
-    },
-    "title": "Regeringen agerar för att stärka samhällets arbete med cybersäkerhet kopplat till utvecklingen av nya AI-modeller",
-    "source": "Regeringen",
-    "type": "Pressmeddelande",
-    "date": "2026-07-09",
-    "committee": "Carl-Oskar Bohlin, Försvarsdepartementet",
-    "summary": "Regeringen ger Nationellt cybersäkerhetscenter vid Försvarets radioanstalt i uppdrag att samordna och stärka arbetet med cybersäkerhet kopplat till",
-    "cached_at": "2026-07-10"
-  },
-  "https://www.regeringen.se/pressmeddelanden/2026/07/folkhalsomyndigheten-ska-utreda-risker-med-generativ-ai-for-barn-och-unga/": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "AI och algoritmer",
-      "svensk_rubrik": "Folkhälsomyndigheten utreder AI-risken för barn",
-      "sammanfattning": "Regeringen ger Folkhälsomyndigheten i uppdrag att utreda riskerna med generativ AI för barn och unga. Detta beror på att generativ AI, som skapar innehåll utifrån användarens instruktioner, blir allt vanligare i barns och ungas vardag. Utredningen ska fokusera på hur AI kan påverka barns och ungas hälsa och välbefinnande. Målet är att identifiera eventuella risker och föreslå åtgärder för att skydda barnen.",
-      "tech_vinkel": "Utredningen ska undersöka hur generativ AI, som använder maskinläringsalgoritmer för att skapa innehåll, kan påverka barns och ungas exponering för skadligt innehåll eller beteende.",
-      "varfor_viktigt": "Detta är viktigt eftersom barn och unga är en utsatt grupp som kan påverkas negativt av skadligt innehåll eller beteende som sprids via AI. Utredningen kan leda till att regeringen inför nya regleringar eller riktlinjer för att skydda barnen. Dessutom kan utredningen bidra till att öka medvetenheten om riskerna med AI och hur man kan använda den på ett säkert sätt.",
-      "eu_koppling": "null",
-      "keywords": [
-        "generativ AI",
-        "barns hälsa",
-        "AI-reglering"
-      ],
-      "arende": "Utredning om AI-risken för barn",
-      "nasta_steg": "Folkhälsomyndigheten kommer att genomföra utredningen och lämna förslag till regeringen om hur man kan skydda barnen från riskerna med generativ AI.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-09",
-          "beskrivning": "Regeringen ger Folkhälsomyndigheten i uppdrag att utreda riskerna med generativ AI för barn och unga."
-        }
-      ]
-    },
-    "title": "Folkhälsomyndigheten ska utreda risker med generativ AI för barn och unga",
-    "source": "Regeringen",
-    "type": "Pressmeddelande",
-    "date": "2026-07-09",
-    "committee": "Jakob Forssmed, Nina Larsson, Socialdepartementet",
-    "summary": "Generativ AI, som skapar innehåll utifrån användarens instruktioner, blir allt vanligare i barns och ungas vardag. Regeringen ger nu",
-    "cached_at": "2026-07-10"
-  },
-  "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-kammarkollegiet-att-lamna-forslag-till-en-langsiktig-hantering-av-viss-skadereglering-for-tjanstereseskador-for-regionanstalld-halso--och-sjukvardspersonal/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "Uppdrag till Kammarkollegiet: Hantering av tjänstereseskador",
-      "sammanfattning": "Regeringen ger Kammarkollegiet i uppdrag att lämna förslag till en långsiktig hantering av skadereglering för tjänstereseskador för regionanställd hälso- och sjukvårdspersonal. Detta innebär att Kammarkollegiet ska utreda och föreslå hur man kan hantera skadereglering på lång sikt för de som arbetar inom hälso- och sjukvården i regionerna. Uppdraget syftar till att säkerställa en rättvis och effektiv hantering av skadereglering för dessa personer.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta uppdrag är viktigt eftersom det kan påverka hur skadereglering hanteras för hälso- och sjukvårdspersonal i regionerna. En långsiktig och effektiv hantering av skadereglering kan bidra till att förbättra arbetsvillkoren och patientsäkerheten inom hälso- och sjukvården. Uppdraget kan också ha konsekvenser för regionernas ekonomi och resurshantering.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Kammarkollegiet",
-        "tjänstereseskador",
-        "hälso- och sjukvårdspersonal"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-08",
-          "beskrivning": "Uppdrag till Kammarkollegiet: Hantering av tjänstereseskador - Uppdragsbeslut"
-        }
-      ]
-    },
-    "title": "Uppdrag till Kammarkollegiet att lämna förslag till en långsiktig hantering av viss skadereglering för tjänstereseskador för regionanställd hälso- och sjukvårdspersonal",
-    "source": "Regeringen",
-    "type": "Regeringsuppdrag",
-    "date": "2026-07-08",
-    "committee": "Regeringen, Socialdepartementet",
-    "summary": "Regeringen ger Kammarkollegiet i uppdrag att lämna förslag till en långsiktig hantering av skadereglering för tjänstereseskador för regionanställd",
-    "cached_at": "2026-07-10"
+    "cached_at": "2026-08-10"
   },
   "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/07/sou-202643/": {
     "analysis": {
       "relevans": "låg",
       "tema": "Övrigt tech",
       "svensk_rubrik": "Åtgärder mot överskuldsättning",
-      "sammanfattning": "Regeringen har gett ut en utredning om åtgärder för att minska problemet med överskuldsättning. Utredningen föreslår åtgärder som kan minska överskuldsättningen, men det är inte tydligt vilka specifika åtgärder som föreslås. Utredningen har fokuserat på att hitta lösningar för att minska överskuldsättningen, men det är inte klart vilka konsekvenser detta kommer att ha för olika grupper i samhället. Utredningen är en del av regeringens arbete för att förbättra den ekonomiska situationen i landet.",
+      "sammanfattning": "Regeringen har publicerat en utredning om åtgärder mot överskuldsättning. Utredningen syftar till att identifiera och föreslå lösningar för att minska överskuldsättningen i Sverige. Utredningen omfattar en bred analys av orsakerna till överskuldsättning och möjliga åtgärder för att motverka detta problem. Utredningen kan påverka konsumenters ekonomi och välbefinnande.",
       "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Detta ärende är viktigt eftersom det handlar om att minska problemet med överskuldsättning, som kan ha allvarliga konsekvenser för individer och samhället i stort. Överskuldsättning kan leda till ekonomisk instabilitet och kan även ha negativa effekter på människors hälsa och välbefinnande. Det är därför viktigt att regeringen tar initiativ för att minska överskuldsättningen och förbättra den ekonomiska situationen i landet. Detta ärende kan ha konsekvenser för olika grupper i samhället, inklusive låginkomsttagare och småföretagare.",
-      "eu_koppling": "null",
+      "varfor_viktigt": "Utredningen om åtgärder mot överskuldsättning är viktig eftersom den kan leda till förbättrade ekonomiska förhållanden för konsumenter. Överskuldsättning kan ha negativa konsekvenser för individens och samhällets ekonomi. Utredningen kan bidra till att identifiera och åtgärda de underliggande orsakerna till överskuldsättning, vilket kan leda till en mer stabil och hållbar ekonomi.",
+      "eu_koppling": null,
       "keywords": [
         "överskuldsättning",
-        "ekonomi"
+        "konsumentekonomi"
       ],
-      "arende": "null",
-      "nasta_steg": "null",
+      "arende": null,
+      "nasta_steg": null,
       "viktiga_datum": []
     },
     "title": "Åtgärder mot överskuldsättning, SOU 2026:43",
@@ -3910,8 +3539,8 @@
     "type": "SOU",
     "date": "2026-07-09",
     "committee": "Finansdepartementet",
-    "summary": "Utredningens uppdrag har varit att föreslå åtgärder för att minska problemet med överskuldsättning, huvudsakligen genom åtgärder som kan minska",
-    "cached_at": "2026-07-10"
+    "summary": "",
+    "cached_at": "2026-08-10"
   },
   "https://www.europarl.europa.eu/committees/en/product/product-details/20260708CAN79262": {
     "analysis": {
@@ -8009,5 +7638,195 @@
     "committee": "Europeiska rymdbyrån",
     "summary": "Galileo SAS will complement OSNMA providing civilian users with authentication at ranging level for the Galileo E6-C signal component.",
     "cached_at": "2026-08-09"
+  },
+  "https://www.imy.se/nyheter/imy-faststaller-krav-for-overvakningsorgan-av-uppforandekoder/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Krav för övervakningsorgan av uppförandekoder",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har fastställt krav för ackreditering av övervakningsorgan. Detta beslut gör det möjligt för branschorgan och andra intresseorganisationer att utarbeta uppförandekoder, som kan användas av företag för det interna dataskyddsarbetet. Uppförandekoderna är ett självregleringsverktyg som kan hjälpa företag att följa dataskyddsförordningen (GDPR). IMY:s beslut är en del av arbetet med att säkerställa att företag hanterar personuppgifter på ett säkert och lagligt sätt.",
+      "tech_vinkel": "IMY:s krav för ackreditering av övervakningsorgan innehåller specifika tekniska krav för hur uppförandekoderna ska utarbetas och implementeras, inklusive krav på dataskydd och säkerhet.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det kan bidra till att förbättra dataskyddet i Sverige och säkerställa att företag hanterar personuppgifter på ett säkert och lagligt sätt. Det kan också bidra till att öka förtroendet för företag som hanterar personuppgifter. Dessutom kan det bidra till att Sverige uppfyller kraven i dataskyddsförordningen (GDPR) och andra relevanta EU-lagar.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "integritet",
+        "GDPR"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "IMY kommer att fortsätta att övervaka och utvärdera ackrediteringen av övervakningsorgan och utarbetandet av uppförandekoder.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-09-07",
+          "beskrivning": "IMY: Krav för övervakningsorgan av uppförandekoder offentliggörs"
+        }
+      ]
+    },
+    "title": "IMY fastställer krav för övervakningsorgan av uppförandekoder",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Thu, 07 Sep 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har fastställt krav för ackreditering av övervakningsorgan. Beslutet gör det möjligt för branschorgan och andra intresseorganisationer att utarbeta uppförandekoder, ett självregleringsverktyg som bland annat företag kan använda för det interna dataskyddsarbetet.",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.imy.se/nyheter/fyra-bolag-maste-sluta-anvanda-google-analytics/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Fyra bolag måste sluta använda Google Analytics",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har granskat hur fyra bolag använder Google Analytics för besöksstatistik och funnit att det strider mot dataskyddsförordningen. IMY har utfärdat sanktionsavgift mot två av bolagen och förelägger de övriga tre att sluta använda verktyget. Detta är ett led i IMY:s arbete för att säkerställa att företag respekterar individers integritet på internet. Bolagen måste nu vidta åtgärder för att komma i överensstämmelse med dataskyddslagstiftningen.",
+      "tech_vinkel": "IMY har funnit att Google Analytics inte uppfyller kraven i dataskyddsförordningen, särskilt när det gäller överföring av personuppgifter till USA.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att IMY är aktivt i att säkerställa att företag följer dataskyddslagstiftningen. Det påverkar inte bara de fyra bolagen i fråga, utan också andra företag som använder Google Analytics eller liknande verktyg. Det är en tydlig signal om att dataskydd är en prioritet och att företag måste ta ansvar för hur de hanterar personuppgifter. Dessutom kan detta beslut ha implikationer för hur företag väljer att hantera sin digitala marknadsföring och datainsamling i framtiden.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "Google Analytics",
+        "Dataskydd",
+        "IMY"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "De berörda bolagen måste nu vidta åtgärder för att komma i överensstämmelse med dataskyddslagstiftningen, vilket kan inkludera att hitta alternativa lösningar för besöksstatistik som uppfyller GDPR-kraven.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-07-03",
+          "beskrivning": "IMY: Fyra bolag måste sluta använda Google Analytics på grund av bristande dataskydd"
+        }
+      ]
+    },
+    "title": "Fyra bolag måste sluta använda Google Analytics",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Mon, 03 Jul 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) har granskat hur fyra bolag använder Google Analytics för besöksstatistik. IMY utfärdar sanktionsavgift mot två av bolagen. Ett av bolagen har på eget initiativ nyligen slutat använda statistikverktyget medan IMY förelägger övriga tre att också sluta använda det.",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.imy.se/nyheter/fel-anvanda-kunders-personuppgifter-for-profilering-utan-samtycke/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Bonnier får sanktionsavgift för otillåten profilering",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har utfärdat en administrativ sanktionsavgift på 13 miljoner kronor mot Bonnier. Detta är en följd av att koncernen har profilerat sina kunder och webbesökare utan deras samtycke. IMY har funnit att Bonniers agerande strider mot dataskyddsförordningen (GDPR). Detta beslut är ett tydligt exempel på hur IMY arbetar för att skydda människors personuppgifter och integritet i Sverige.",
+      "tech_vinkel": "IMY har funnit att Bonnier har använt sig av personuppgifter för att skapa profiler av sina kunder och webbesökare utan att inhämta deras samtycke, vilket strider mot bestämmelserna i dataskyddsförordningen (GDPR) om behandling av personuppgifter för direktmarknadsföring och profilering.",
+      "varfor_viktigt": "Detta beslut är viktigt eftersom det visar att IMY är aktiv i att skydda människors personuppgifter och integritet. Det sänder också en tydlig signal till företag om vikten av att följa dataskyddsförordningen och respektera människors rättigheter när det gäller deras personuppgifter. För Bonnier innebär detta beslut en betydande ekonomisk sanktion, men det kan också leda till en förbättring av företagets hantering av personuppgifter och integritet.",
+      "eu_koppling": "Dataskyddsförordningen (GDPR)",
+      "keywords": [
+        "dataskydd",
+        "integritet",
+        "GDPR",
+        "profilering"
+      ],
+      "arende": "GDPR-implementering",
+      "nasta_steg": "Bonnier kan överklaga beslutet till förvaltningsrätten, men IMY:s beslut markerar en tydlig linje i fråga om skyddet av personuppgifter i Sverige.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-06-27",
+          "beskrivning": "IMY:s beslut om sanktionsavgift mot Bonnier offentliggörs"
+        }
+      ]
+    },
+    "title": "Fel använda kunders personuppgifter för profilering utan samtycke",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 27 Jun 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Integritetsskyddsmyndigheten (IMY) utfärdar nu en administrativ sanktionsavgift mot Bonnier på 13 miljoner kronor. Detta för att koncernen profilerat sina kunder och webbesökare utan deras samtycke.",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.imy.se/nyheter/imy-startar-innovationshubb/": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "IMY: Innovationshubb för dataskydd",
+      "sammanfattning": "Integritetsskyddsmyndigheten (IMY) har startat en innovationshubb för att ge vägledning om dataskydd och integritet till innovationsaktörer. Detta sker efter att IMY har slutredovisat ett regeringsuppdrag om att höja kunskapen om integritets- och dataskyddsfrågor hos innovationsaktörer. Innovationshubbens syfte är att fortsätta arbetet med att stödja innovationsaktörer i deras arbete med dataskydd och integritet. Detta arbete är viktigt för att säkerställa att nya innovationer och tekniker utvecklas på ett sätt som respekterar människors integritet och dataskydd.",
+      "tech_vinkel": "Innovationshubbens fokus på dataskydd och integritet kommer att omfatta tekniska aspekter som hur man hanterar personuppgifter och säkerställer dataskydd i nya innovationer och tekniker.",
+      "varfor_viktigt": "Detta arbete är viktigt för att säkerställa att nya innovationer och tekniker utvecklas på ett sätt som respekterar människors integritet och dataskydd. Det är också viktigt för att stödja innovationsaktörer i deras arbete med dataskydd och integritet, och för att bidra till att Sverige blir en ledande nation inom området dataskydd och integritet. Innovationshubbens arbete kommer att ha en positiv inverkan på både innovationsaktörer och allmänheten, genom att säkerställa att dataskydd och integritet hanteras på ett ansvarsfullt sätt.",
+      "eu_koppling": "GDPR (EU:s allmänna dataskyddsförordning)",
+      "keywords": [
+        "dataskydd",
+        "integritet",
+        "innovationshubb",
+        "IMY"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Innovationshubbens arbete kommer att fortsätta med att ge vägledning och stöd till innovationsaktörer inom området dataskydd och integritet.",
+      "viktiga_datum": [
+        {
+          "datum": "2023-03-28",
+          "beskrivning": "IMY: Innovationshubb för dataskydd startar"
+        }
+      ]
+    },
+    "title": "IMY startar innovationshubb",
+    "source": "IMY",
+    "type": "Svensk myndighet",
+    "date": "Tue, 28 Mar 2023",
+    "committee": "Integritetsskyddsmyndigheten (datatillsyn, GDPR, AI Act-marknadskontroll)",
+    "summary": "Innovationsaktörer efterfrågar mer och djupare vägledning om dataskydd och integritet. Det konstaterar Integritetsskyddsmyndigheten (IMY) när myndigheten slutredovisar ett regeringsuppdrag om att höja kunskapen om integritets- och dataskyddsfrågor hos innovationsaktörer. IMY startar nu en innovationshubb för att fortsätta arbetet.",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.mcf.se/sv/aktuellt/nyheter/2026/maj/norden-och-ukraina-delar-erfarenheter-for-starkt-motstandskraft-av-samhallsviktig-verksamhet/": {
+    "analysis": {
+      "relevans": "medel",
+      "tema": "Cybersäkerhet",
+      "svensk_rubrik": "Norden och Ukraina samarbetar om cybersäkerhet",
+      "sammanfattning": "Myndigheten för samhällsskydd och beredskap har arrangerat ett seminarium där Norden och Ukraina delar erfarenheter om införandet av CER- och NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter)-direktiven. Syftet är att öka motståndskraften i samhällsviktig verksamhet inom hela EU. Under seminariet diskuterades hur direktiven kan implementeras för att förbättra cybersäkerheten. Detta samarbete är en del av EU:s strävan att stärka cybersäkerheten i medlemsstaterna.",
+      "tech_vinkel": "CER- och NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter)-direktiven är specifika EU-direktiv som syftar till att förbättra cybersäkerheten i samhällsviktig verksamhet.",
+      "varfor_viktigt": "Detta samarbete är viktigt eftersom det kan bidra till att förbättra cybersäkerheten i hela EU. Genom att dela erfarenheter och kunskap kan medlemsstaterna lära av varandra och implementera effektiva åtgärder för att skydda sig mot cyberhot. Detta är särskilt viktigt i dagens digitala samhälle, där cyberattacker kan ha allvarliga konsekvenser för samhällsviktig verksamhet.",
+      "eu_koppling": "NIS2 (EU:s cybersäkerhetsdirektiv för kritiska verksamheter)-direktivet (EU:s direktiv som tvingar kritiska verksamheter att höja sin cybersäkerhet)",
+      "keywords": [
+        "cybersäkerhet",
+        "NIS2-direktivet",
+        "CER-direktivet"
+      ],
+      "arende": "NIS2-implementering",
+      "nasta_steg": "Nästa steg i detta ärende är att medlemsstaterna ska implementera direktiven i sin nationella lagstiftning och börja arbeta med att förbättra cybersäkerheten i samhällsviktig verksamhet.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-05-13",
+          "beskrivning": "Norden och Ukraina delar erfarenheter om införandet av CER- och NIS2-direktiven"
+        }
+      ]
+    },
+    "title": "Norden och Ukraina delar erfarenheter för stärkt motståndskraft av samhällsviktig verksamhet",
+    "source": "MSB",
+    "type": "Svensk myndighet",
+    "date": "Wed, 13 May 2026",
+    "committee": "Myndigheten för samhällsskydd och beredskap / Civilt försvar (cyber, NIS2)",
+    "summary": "För att öka motståndskraften i samhällsviktig verksamhet inom hela EU genomförs CER- och NIS2-direktiven. Under ett heldagsseminarium samlades tjänstemän från Norden och Ukraina för att utbyta erfarenheter om införandet av direktiven.",
+    "cached_at": "2026-08-10"
+  },
+  "https://www.edpb.europa.eu/news/edpb-sheds-light-on-anonymisation-and-web-scraping-for-generative-ai-and-adopts-final-version_en": {
+    "analysis": {
+      "relevans": "hög",
+      "tema": "Dataskydd och GDPR",
+      "svensk_rubrik": "EDPB: Riktlinjer för anonymisering och webbskrapning",
+      "sammanfattning": "European Data Protection Board (EDPB) har publicerat riktlinjer för anonymisering och webbskrapning i samband med generativ AI. Detta syftar till att ge tydliga riktlinjer för hur personuppgifter ska hanteras i dessa sammanhang. EDPB har också antagit en slutgiltig version av riktlinjerna för blockchain. Detta är en del av EU:s arbete för att stärka dataskyddet och säkerställa att teknikutvecklingen sker på ett ansvarsfullt sätt.",
+      "tech_vinkel": "Riktlinjerna för anonymisering och webbskrapning tar specifikt upp frågor kring hur generativ AI ska hanteras i förhållande till dataskydd, vilket innefattar tekniska aspekter som dataanonymisering och dataminimering.",
+      "varfor_viktigt": "Dessa riktlinjer är viktiga eftersom de syftar till att skydda personuppgifter i en tid då teknikutvecklingen går snabbt och nya metoder för datainsamling och -användning utvecklas. Det är också en del av EU:s bredare arbete för att stärka dataskyddet och säkerställa att teknikutvecklingen sker på ett ansvarsfullt sätt. Detta kan ha betydande konsekvenser för företag och organisationer som hanterar personuppgifter, eftersom de måste säkerställa att de följer dessa riktlinjer för att undvika sanktioner.",
+      "eu_koppling": "GDPR (Allmänna dataskyddsförordningen)",
+      "keywords": [
+        "dataskydd",
+        "anonymisering",
+        "webbskrapning",
+        "generativ AI",
+        "blockchain"
+      ],
+      "arende": "Dataskydd och integritet",
+      "nasta_steg": "Företag och organisationer som hanterar personuppgifter måste nu granska och anpassa sina processer för att säkerställa att de följer EDPB:s riktlinjer.",
+      "viktiga_datum": [
+        {
+          "datum": "2026-07-08",
+          "beskrivning": "EDPB publicerar riktlinjer för anonymisering och webbskrapning i samband med generativ AI"
+        }
+      ]
+    },
+    "title": "EDPB sheds light on anonymisation and web scraping for generative AI and adopts final version of guidelines on blockchain",
+    "source": "EDPB",
+    "type": "EU-byrå",
+    "date": "Wed, 08 Jul 2026",
+    "committee": "European Data Protection Board",
+    "summary": "EDPB sheds light on anonymisation and web scraping for generative AI and adopts final version of guidelines on blockchain ipetstef Wed, 08/07/2026 - 13:34",
+    "cached_at": "2026-08-10"
   }
 }
