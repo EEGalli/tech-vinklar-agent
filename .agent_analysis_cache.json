@@ -3598,38 +3598,6 @@
     "summary": "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint ipetstef Tue, 14/07/2026 - 15:39",
     "cached_at": "2026-08-15"
   },
-  "https://www.euspa.europa.eu/newsroom-events/news/celebrating-one-year-galileo-osnma-milestone-trusted-positioning": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Satellit och rymdteknik",
-      "svensk_rubrik": "Galileo OSNMA: ett år med autentiserings­tjänst",
-      "sammanfattning": "Det har gått ett år sedan Galileo OSNMA-autentiseringstjänsten blev operativ. Nu börjar tillverkare av mottagare runt om i världen att integrera den i kommersiella produkter, vilket utökar skyddet mot GNSS-spoofing till många olika tillämpningar. Detta är en viktig milstolpe för att öka säkerheten i satellitnavigering. Galileo OSNMA är en tjänst som autentiserar signaler från satelliter för att förhindra spoofing-attacker.",
-      "tech_vinkel": "Galileo OSNMA-autentiseringstjänsten använder sig av avancerad kryptografi för att autentisera signaler från satelliter och förhindra spoofing-attacker.",
-      "varfor_viktigt": "Detta är viktigt eftersom spoofing-attacker kan ha allvarliga konsekvenser i tillämpningar som flyg, sjöfart och landtransport. Genom att använda Galileo OSNMA kan man öka säkerheten och tillförlitligheten i satellitnavigering. Detta kan också ha en positiv inverkan på många olika branscher som är beroende av precisa och säkra positioneringstjänster.",
-      "eu_koppling": "null",
-      "keywords": [
-        "Galileo",
-        "OSNMA",
-        "satellitnavigering",
-        "spoofing"
-      ],
-      "arende": "Galileo-programmet",
-      "nasta_steg": "Tillverkare av mottagare kommer att fortsätta att integrera Galileo OSNMA i sina produkter, och tjänsten kommer att bli alltmer utbredd i olika tillämpningar.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-07-22",
-          "beskrivning": "Galileo OSNMA: ett år med autentiseringstjänst"
-        }
-      ]
-    },
-    "title": "Celebrating one year of Galileo OSNMA: a milestone for trusted positioning",
-    "source": "EUSPA",
-    "type": "EU-byrå",
-    "date": "Wed, 22 Jul 2026",
-    "committee": "Europeiska rymdbyrån",
-    "summary": "A year after the Galileo OSNMA authentication service was declared operational, receiver manufacturers worldwide are embedding it into commercial products, extending real-world protection against GNSS spoofing to a wide range of applications.",
-    "cached_at": "2026-07-27"
-  },
   "https://www.berec.europa.eu/en/tasks/berec-position-papers-on-the-digital-networks-act-proposal": {
     "analysis": {
       "relevans": "låg",
