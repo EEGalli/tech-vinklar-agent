@@ -3598,38 +3598,6 @@
     "summary": "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint ipetstef Tue, 14/07/2026 - 15:39",
     "cached_at": "2026-08-15"
   },
-  "https://www.berec.europa.eu/en/tasks/berec-position-papers-on-the-digital-networks-act-proposal": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Telekom och nätverk",
-      "svensk_rubrik": "Digitala Nätverkslagen: BEREC presenterar positionspapper",
-      "sammanfattning": "BEREC, den europeiska byrån för telekomreglering, har publicerat 19 tematiska papper som granskar nyckelelement i det föreslagna Digitala Nätverkslagen (DNA). DNA syftar till att uppdatera den regulatoriska ramen för anslutning i hela EU. Pappren täcker olika aspekter av lagförslaget, som syftar till att förbättra och modernisera telekommunikationsregleringen i Europa.",
-      "tech_vinkel": "Digitala Nätverkslagen innehåller specifika bestämmelser om hur telekommunikationsnät och -tjänster ska regleras och övervakas för att säkerställa en hög nivå av anslutning och säkerhet i EU.",
-      "varfor_viktigt": "Det föreslagna Digitala Nätverkslagen kan ha betydande konsekvenser för telekommunikationssektorn i EU, inklusive hur nät och tjänster regleras, övervakas och utvecklas. Det kan påverka hur företag och konsumenter använder och har tillgång till telekommunikationstjänster. BEREC:s positionspapper ger viktiga insikter i de tekniska och regulatoriska aspekterna av lagförslaget.",
-      "eu_koppling": "Digitala Nätverkslagen (DNA) är en del av EU:s strävan att uppdatera och harmonisera telekommunikationsregleringen inom unionen.",
-      "keywords": [
-        "Digitala Nätverkslagen",
-        "BEREC",
-        "telekommunikation",
-        "EU-reglering"
-      ],
-      "arende": "Digitala Nätverkslagen",
-      "nasta_steg": "EU-kommissionen och EU-parlamentet kommer att granska och diskutera det föreslagna Digitala Nätverkslagen, med möjliga ändringar och justeringar innan det antas.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-06-12",
-          "beskrivning": "Digitala Nätverkslagen: BEREC publicerar positionspapper"
-        }
-      ]
-    },
-    "title": "BEREC position papers on the Digital Networks Act proposal",
-    "source": "BEREC",
-    "type": "EU-byrå",
-    "date": "Fri, 12 Jun 2026",
-    "committee": "Telekom-reglerare",
-    "summary": "BEREC position papers on the Digital Networks Act proposal yannick.stephan Fri, 12/06/2026 - 15:59 Breadcrumbs Tasks Europe’s electronic communications framework is entering a pivotal phase of reform, with the proposed Digital Networks Act (DNA) set to update the regulatory framework for connectivity across the European Union (EU). BEREC has developed 19 thematic papers examining key elements of t",
-    "cached_at": "2026-07-29"
-  },
   "https://www.edpb.europa.eu/news/stakeholder-event-on-guidelines-on-the-interplay-between-data-protection-and-competition-law-0_en": {
     "analysis": {
       "relevans": "medel",
