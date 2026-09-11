@@ -1,29 +1,4 @@
 {
-  "https://www.mcf.se/sv/aktuellt/nyheter/2026/juni/nya-foreskrifter-om-utlandska-investeringar-i-samhallsviktig-verksamhet/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "Nya föreskrifter om utländska investeringar",
-      "sammanfattning": "Myndigheten för samhällsskydd och beredskap har publicerat nya föreskrifter om utländska investeringar i samhällsviktig verksamhet. Detta innebär att den som överväger en investering i ett svenskt företag som bedriver samhällsviktig verksamhet måste kunna ta ställning till om verksamheten omfattas av föreskrifterna om granskning av utländska direktinvesteringar. Regleringen syftar till att vara tillräckligt tydlig för att kunna användas av investerare och deras ombud. Detta kan påverka företag som är involverade i samhällsviktig verksamhet.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Dessa föreskrifter kan ha en betydande inverkan på företag som är involverade i samhällsviktig verksamhet, eftersom de måste kunna visa att de uppfyller kraven för utländska investeringar. Detta kan leda till ökade kostnader och administrativa bördor för dessa företag. Dessutom kan föreskrifterna också påverka utländska investerare som vill investera i svenska företag.",
-      "eu_koppling": "null",
-      "keywords": [
-        "utländska investeringar",
-        "samhällsviktig verksamhet"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Nya föreskrifter om utländska investeringar i samhällsviktig verksamhet",
-    "source": "MSB",
-    "type": "Svensk myndighet",
-    "date": "Mon, 22 Jun 2026",
-    "committee": "Myndigheten för samhällsskydd och beredskap / Civilt försvar (cyber, NIS2)",
-    "summary": "Den som överväger en investering i ett svenskt företag som bedriver samhällsviktig verksamhet måste kunna ta ställning till om verksamheten omfattas av föreskrifterna om granskning av utländska direktinvesteringar. Regleringen behöver vara tillräckligt tydlig för att kunna användas av investerare och deras ombud.",
-    "cached_at": "2026-08-11"
-  },
   "https://www.edpb.europa.eu/news/edpb-requires-belgian-dpa-to-handle-the-merits-of-noyb-cookie-banner-complaint_en": {
     "analysis": {
       "relevans": "hög",
@@ -54,32 +29,6 @@
     "committee": "European Data Protection Board",
     "summary": "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint ipetstef Tue, 14/07/2026 - 15:39",
     "cached_at": "2026-08-15"
-  },
-  "https://www.regeringen.se/pressmeddelanden/2026/08/atgarder-mot-langtidsarbetsloshet-ska-utredas/": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "Åtgärder mot långtidsarbetslöshet: Utredning ska genomföras",
-      "sammanfattning": "Regeringen har beslutat att en särskild utredare ska analysera orsakerna till den höga långtidsarbetslösheten i Sverige. Utredaren ska föreslå åtgärder för att fler människor ska kunna komma i arbete eller utbildning. Utredningen är en del av regeringens arbete för att minska arbetslösheten och förbättra arbetsmarknaden. Målet är att hitta lösningar som kan hjälpa människor att komma tillbaka till arbetsmarknaden och bidra till samhället.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Denna utredning är viktig eftersom den kan leda till förbättringar av arbetsmarknaden och minska arbetslösheten. Utredningen kan också bidra till att identifiera och åtgärda de underliggande orsakerna till långtidsarbetslöshet, vilket kan ha en positiv inverkan på samhället och ekonomin. Regeringens beslut att genomföra en utredning visar att de tar frågan på allvar och är villiga att investera tid och resurser för att hitta lösningar.",
-      "eu_koppling": null,
-      "keywords": [
-        "långtidsarbetslöshet",
-        "utredning",
-        "arbetsmarknad"
-      ],
-      "arende": null,
-      "nasta_steg": null,
-      "viktiga_datum": []
-    },
-    "title": "Åtgärder mot långtidsarbetslöshet ska utredas",
-    "source": "Regeringen",
-    "type": "Pressmeddelande",
-    "date": "2026-08-10",
-    "committee": "Johan Britz, Arbetsmarknadsdepartementet",
-    "summary": "En särskild utredare ska analysera orsakerna till den höga långtidsarbetslösheten och föreslå åtgärder för att fler ska komma i arbete eller",
-    "cached_at": "2026-08-11"
   },
   "https://data.riksdagen.se/dokument/HD01UbU30.html": {
     "analysis": {
