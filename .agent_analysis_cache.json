@@ -30,63 +30,6 @@
     "summary": "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint ipetstef Tue, 14/07/2026 - 15:39",
     "cached_at": "2026-08-15"
   },
-  "https://data.riksdagen.se/dokument/HD01UbU30.html": {
-    "analysis": {
-      "relevans": "låg",
-      "tema": "Övrigt tech",
-      "svensk_rubrik": "Skärpta villkor för friskolesektorn",
-      "sammanfattning": "Regeringen föreslår skärpta villkor för friskolesektorn. Detta innebär att friskolor kommer att behöva följa strängare regler för att säkerställa en god utbildning för eleverna. Förslaget syftar till att förbättra kvaliteten på utbildningen och öka insynen i friskolornas verksamhet. Det är dock oklart om förslaget kommer att ha någon direkt inverkan på teknologi eller digitalisering.",
-      "tech_vinkel": "Ingen tydlig tech-vinkel",
-      "varfor_viktigt": "Förslaget om skärpta villkor för friskolesektorn är viktigt eftersom det kan påverka utbildningskvaliteten för tusentals elever i Sverige. Det kan också ha en inverkan på den svenska utbildningspolitiken och hur friskolor regleras i framtiden. Det är dock viktigt att notera att förslaget inte har någon direkt koppling till teknologi eller digitalisering.",
-      "eu_koppling": "null",
-      "keywords": [
-        "friskolesektorn",
-        "utbildning",
-        "reglering"
-      ],
-      "arende": "null",
-      "nasta_steg": "null",
-      "viktiga_datum": []
-    },
-    "title": "Skärpta villkor för friskolesektorn",
-    "source": "Riksdagen",
-    "type": "Riksdagen/BET (kommande omröstning)",
-    "date": "2026-08-12",
-    "committee": "UbU",
-    "summary": "",
-    "cached_at": "2026-08-12"
-  },
-  "https://www.regeringen.se/remisser/2026/02/remiss-utkast-till-lagardsremiss--elektronisk-overvakning--ett-verktyg-for-socialtjansten-till-skydd-for-barn-och-unga/": {
-    "analysis": {
-      "relevans": "hög",
-      "tema": "Övervakning och biometri",
-      "svensk_rubrik": "Elektronisk övervakning: Ny lagrådsremiss",
-      "sammanfattning": "Regeringen har publicerat en remiss om utkast till lagrådsremiss gällande elektronisk övervakning som ett verktyg för socialtjänsten till skydd för barn och unga. Syftet är att ge socialtjänsten möjlighet att använda elektronisk övervakning för att skydda barn och unga från skada. Remissen innehåller förslag på hur denna övervakning ska genomföras och vilka krav som ska ställas på den. Målet är att förbättra skyddet för barn och unga som är i behov av skydd.",
-      "tech_vinkel": "Dokumentet föreslår att socialtjänsten ska få använda elektronisk övervakning, vilket inkluderar tekniker som GPS-spårning och övervakning av digitala kommunikationer, för att skydda barn och unga.",
-      "varfor_viktigt": "Detta förslag är viktigt eftersom det kan ge socialtjänsten ett kraftfullt verktyg för att skydda barn och unga från skada. Det kan också ha betydande konsekvenser för den personliga integriteten och rätten till privatliv för de som övervakas. Det är därför viktigt att förslaget utarbetas och genomförs på ett sätt som balanserar behovet av skydd med behovet av att skydda individens rättigheter.",
-      "eu_koppling": "null",
-      "keywords": [
-        "elektronisk övervakning",
-        "socialtjänsten",
-        "barn och unga"
-      ],
-      "arende": "Elektronisk övervakning för socialtjänsten",
-      "nasta_steg": "Remissen kommer att behandlas av berörda myndigheter och organisationer, som sedan kommer att lämna synpunkter på förslaget.",
-      "viktiga_datum": [
-        {
-          "datum": "2026-02-23",
-          "beskrivning": "Elektronisk övervakning: Remiss publicerad"
-        }
-      ]
-    },
-    "title": "Remiss Utkast till lagrådsremiss  Elektronisk övervakning – ett verktyg för socialtjänsten till skydd för barn och unga,  S2026/00342",
-    "source": "Regeringen",
-    "type": "Remiss",
-    "date": "2026-02-23",
-    "committee": "Socialdepartementet",
-    "summary": "Här kan du ta del av svaren från dem som har ombetts att svara på remissen av promemorian Utkast till lagrådsremiss Elektronisk övervakning – ett",
-    "cached_at": "2026-08-12"
-  },
   "https://www.imy.se/nyheter/amerikansk-dom-kan-paverka-overforingar-till-usa/": {
     "analysis": {
       "relevans": "hög",
